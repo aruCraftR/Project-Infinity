@@ -1,0 +1,11 @@
+{
+  "name": "Prismalium Ingot",
+  "colors": [
+    "82bab0",
+    "82bab0"
+  ],
+  "ingredient": {
+    "item": "thermalendergy:prismalium_ingot"
+  },
+  "materialCount": 25000
+}

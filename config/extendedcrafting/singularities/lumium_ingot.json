@@ -1,0 +1,11 @@
+{
+  "name": "Lumium Ingot",
+  "colors": [
+    "fafa48",
+    "c7c769"
+  ],
+  "ingredient": {
+    "item": "thermal:lumium_ingot"
+  },
+  "materialCount": 25000
+}

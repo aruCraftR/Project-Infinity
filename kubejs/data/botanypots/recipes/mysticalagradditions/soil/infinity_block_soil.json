@@ -1,0 +1,21 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "avaritia:infinity_block"
+    },
+    "display": {
+        "block": "avaritia:infinity_block"
+    },
+    "categories": [
+        "dirt",
+        "farmland",
+        "inferium",
+        "prudentium",
+        "tertium",
+        "imperium",
+        "supremium",
+        "insanium",
+        "infinity_block"
+    ],
+    "growthModifier": 2.50
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Ironwood Ingot",
+  "colors": [
+    "75510e",
+    "70592e"
+  ],
+  "ingredient": {
+    "item": "twilightforest:ironwood_ingot"
+  },
+  "materialCount": 15000
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Prosperity Ingot",
+  "colors": [
+    "edfffc",
+    "edfffc"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:prosperity_ingot"
+  },
+  "materialCount": 25000
+}

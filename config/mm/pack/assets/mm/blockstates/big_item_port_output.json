@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/big_item_port_output"
+    }
+  }
+}

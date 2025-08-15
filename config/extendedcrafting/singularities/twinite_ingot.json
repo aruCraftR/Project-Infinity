@@ -1,0 +1,11 @@
+{
+  "name": "Twinite Ingot",
+  "colors": [
+    "ff8c8c",
+    "965656"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:twinite_ingot"
+  },
+  "materialCount": 20000
+}

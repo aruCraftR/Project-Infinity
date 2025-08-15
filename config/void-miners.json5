@@ -1,0 +1,182 @@
+{
+  "MINE_PREVIOUS_TIER": true,
+  "ALLOW_NO_ENERGY_MINERS": false,
+  "MINER_CONFIGS": {
+    "aurantium": {
+      "energyStorage": 2000000,
+      "duration": 900,
+      "energyTick": 350,
+      "modifiers": {
+        "item": {
+          "energy": 1.3,
+          "speed": 1.0,
+          "item": 1.08
+        },
+        "speed": {
+          "energy": 1.3,
+          "speed": 0.95,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.95,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "amethystine": {
+      "energyStorage": 7000000,
+      "duration": 400,
+      "energyTick": 600,
+      "modifiers": {
+        "item": {
+          "energy": 2.1,
+          "speed": 1.0,
+          "item": 1.4
+        },
+        "speed": {
+          "energy": 2.1,
+          "speed": 0.81,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.7,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "caerium": {
+      "energyStorage": 6000000,
+      "duration": 500,
+      "energyTick": 550,
+      "modifiers": {
+        "item": {
+          "energy": 2.0,
+          "speed": 1.0,
+          "item": 1.35
+        },
+        "speed": {
+          "energy": 2.0,
+          "speed": 0.83,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.76,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "citrinetine": {
+      "energyStorage": 3000000,
+      "duration": 800,
+      "energyTick": 400,
+      "modifiers": {
+        "item": {
+          "energy": 1.4,
+          "speed": 1.0,
+          "item": 1.11
+        },
+        "speed": {
+          "energy": 1.4,
+          "speed": 0.92,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.92,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "rosarium": {
+      "energyStorage": 8000000,
+      "duration": 300,
+      "energyTick": 650,
+      "modifiers": {
+        "item": {
+          "energy": 2.5,
+          "speed": 1.0,
+          "item": 1.45
+        },
+        "speed": {
+          "energy": 2.5,
+          "speed": 0.8,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.65,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "azurine": {
+      "energyStorage": 5000000,
+      "duration": 600,
+      "energyTick": 500,
+      "modifiers": {
+        "item": {
+          "energy": 1.6,
+          "speed": 1.0,
+          "item": 1.25
+        },
+        "speed": {
+          "energy": 1.6,
+          "speed": 0.86,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.83,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "rubetine": {
+      "energyStorage": 1000000,
+      "duration": 1000,
+      "energyTick": 300,
+      "modifiers": {
+        "item": {
+          "energy": 1.2,
+          "speed": 1.0,
+          "item": 1.05
+        },
+        "speed": {
+          "energy": 1.2,
+          "speed": 0.98,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.98,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    },
+    "verdium": {
+      "energyStorage": 4000000,
+      "duration": 700,
+      "energyTick": 450,
+      "modifiers": {
+        "item": {
+          "energy": 1.5,
+          "speed": 1.0,
+          "item": 1.18
+        },
+        "speed": {
+          "energy": 1.5,
+          "speed": 0.89,
+          "item": 1.0
+        },
+        "energy": {
+          "energy": 0.88,
+          "speed": 1.0,
+          "item": 1.0
+        }
+      }
+    }
+  }
+}

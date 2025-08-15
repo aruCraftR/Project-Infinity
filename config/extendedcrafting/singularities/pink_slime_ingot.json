@@ -1,0 +1,11 @@
+{
+  "name": "Pink Slime Ingot",
+  "colors": [
+    "f70aef",
+    "f70aef"
+  ],
+  "ingredient": {
+    "item": "industrialforegoing:pink_slime_ingot"
+  },
+  "materialCount": 7500
+}

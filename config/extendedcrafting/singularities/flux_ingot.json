@@ -1,0 +1,11 @@
+{
+  "name": "Flux Ingot",
+  "colors": [
+    "fac105",
+    "faee05"
+  ],
+  "ingredient": {
+    "item": "redstone_arsenal:flux_ingot"
+  },
+  "materialCount": 25000
+}

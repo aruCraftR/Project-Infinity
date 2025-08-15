@@ -1,0 +1,11 @@
+{
+  "name": "Brass Ingot",
+  "colors": [
+    "a66d03",
+    "ffb429"
+  ],
+  "ingredient": {
+    "item": "common_ore_library:brass_ingot"
+  },
+  "materialCount": 25000
+}

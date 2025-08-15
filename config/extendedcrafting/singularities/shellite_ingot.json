@@ -1,0 +1,11 @@
+{
+  "name": "Shellite Ingot",
+  "colors": [
+    "ac05ff",
+    "ac05ff"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:shellite_ingot"
+  },
+  "materialCount": 2500
+}

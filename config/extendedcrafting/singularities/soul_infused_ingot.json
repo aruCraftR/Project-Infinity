@@ -1,0 +1,11 @@
+{
+  "name": "Soul Infused Ingot",
+  "colors": [
+    "96442d",
+    "96442d"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:soul_infused_ingot"
+  },
+  "materialCount": 25000
+}

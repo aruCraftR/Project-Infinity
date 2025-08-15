@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "endgame"
+	group: "5F4DF11C296D769D"
+	id: "41382165C0D6ABEF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "4BFB79E08AAAF2E1"
+		rewards: [
+			{
+				count: 5
+				id: "6FC946D67D1EA15F"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}
+			{
+				id: "4A695EC6A1711470"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "extendedcrafting:the_ultimate_ingot"
+							}
+						}
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "04B085716F4668B6"
+				table_id: 5196609362437981520L
+				type: "random"
+			}
+		]
+		tasks: [{
+			id: "665DF175D49DC071"
+			item: "extendedcrafting:the_ultimate_ingot"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "&cEndGame"
+}

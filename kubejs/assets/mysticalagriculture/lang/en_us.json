@@ -1,0 +1,5 @@
+{
+  "enchantment.mysticalagriculture.mystical_enlightenment.desc": "Ender Dragons will drop Cognizant Dust when killed with an Essence Weapon.",
+  "book.mysticalagriculture.entry.cognizant_dust.page.1": "Cognizant Dust is $(bold)usually$() obtained by killing a Ender Dragon using an $(l:tinkering/essence_tools)Essence Weapon$() enchanted with Mystical Enlightenment. $(br2)Higher levels of Mystical Enlightenment will increase the amount of dust dropped on kill. Or by killing the Wither with a Corrupted Soul Sand Level 1 - 3 as the middle block.",
+  "jei.desc.mysticalagriculture.cognizant_dust": "Dropped by the Wither when you use Corrupted Soul Sand Level 1 - 3"
+}

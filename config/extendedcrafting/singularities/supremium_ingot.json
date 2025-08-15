@@ -1,0 +1,11 @@
+{
+  "name": "Supremium Ingot",
+  "colors": [
+    "ff0000",
+    "a10000"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:supremium_ingot"
+  },
+  "materialCount": 1250
+}

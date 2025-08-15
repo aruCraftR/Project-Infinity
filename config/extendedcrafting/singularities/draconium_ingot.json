@@ -1,0 +1,11 @@
+{
+  "name": "Draconium Ingot",
+  "colors": [
+    "320070",
+    "320070"
+  ],
+  "ingredient": {
+    "item": "draconicevolution:draconium_ingot"
+  },
+  "materialCount": 7500
+}

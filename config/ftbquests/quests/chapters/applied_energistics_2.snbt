@@ -1,0 +1,3398 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "5255C8D5C49409ED"
+	icon: "ae2:controller"
+	id: "06686A9AF6DA9186"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A tech-focused mod introducing &bdigital item storage&r and &eautomated crafting&r via sophisticated &5ME Networks&r. Replaces traditional chests with a &dsearchable,&r channel-managed system using &6Storage Cells&r and &bquantum technology&r."
+				""
+				"Core Components:"
+				""
+				"&5ME Drives&r (hold digital storage media)"
+				""
+				"&bWireless Terminals&r (remote network access)"
+				""
+				"&dMolecular Assemblers&r (on-demand crafting)"
+				""
+				"&9Quantum Bridges&r (cross-dimensional networks)"
+				""
+				"*(Integrates with &6RF/FE&r power systems while maintaining unique &5AE2 energy&r mechanics.)*"
+				""
+				"&a\"Your entire base's inventory - one wireless terminal away\"&r"
+			]
+			id: "0AA72D6706542CA6"
+			rewards: [{
+				id: "7DD6D42829FF4FB8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "095C87F6F730A3A4"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "&5Applied Energistics 2&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AA72D6706542CA6"]
+			description: [
+				"Specialized tools for rotating and disassembling &5ME Machines&r without breaking them. Preserves block configurations during base redesigns."
+				""
+				"(Drops rotated blocks intact - no more accidental machine loss!)"
+				""
+				"&e\"Silent ME network architect tools\"&r"
+			]
+			id: "4EF01E6BA6182A27"
+			rewards: [{
+				id: "7A537FC71C354647"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48A651940AED347B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:quartz_wrench"
+					}
+				}
+				title: "Wrenches"
+				type: "item"
+			}]
+			title: "&9Wrenches&r"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AA72D6706542CA6"]
+			description: [
+				"A dedicated block that rapidly recharges &5AE2-powered devices&r like Wireless Terminals and Portable Cells. Connects directly to &5ME Networks&r and operates at &e3×&r normal charging speed."
+				""
+				"&a✔&r Faster than manual charging"
+				"&a✔&r Automated charging possible"
+				"&c!&r Requires continuous &5ME Network&r power"
+				"You also can charge Certus Quarzt Crystals"
+			]
+			id: "4C57DF99E9A0BF6A"
+			rewards: [{
+				id: "0062435F2F48B9A8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "705FA8B4FEC38F78"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "&bCharger &r"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C57DF99E9A0BF6A"]
+			description: [
+				"The core device that bridges external power systems (&6RF&r/&cFE&r) with your &5ME Network&r."
+				""
+				"Functions:"
+				""
+				"Converts &6RF/FE&r → &5AE2 Power&r"
+				""
+				"Must connect to &eME Cables&r or &aME Controller&r"
+				""
+				"Enables non-AE2 power sources (like &dSolar Panels&r) to fuel your network"
+				""
+				"Key Properties:"
+				"&a✔&r Works &eautomatically&r (zero configuration)"
+				"&a✔&r No channel consumption"
+				"&c!&r &4One-way conversion only&r (cannot extract AE2 power as RF/FE)"
+			]
+			id: "19F70C37419802B0"
+			rewards: [{
+				id: "1C5F3A25320244BF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "688156C4EB3D71FD"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			title: "&bEnergy Acceptor &r"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19F70C37419802B0"]
+			description: [
+				"The standard energy storage block for &5ME Networks&r, storing AE2 power with configurable input/output sides."
+				""
+				"Variants:"
+				""
+				"&eEnergy Cell&r (basic storage)"
+				""
+				"&5Dense Energy Cell&r (higher capacity)"
+				""
+				"Key Properties:"
+				""
+				"Must connect to &5ME Controller&r"
+				""
+				"No channel consumption"
+				""
+				"Works with &6P2P Tunnels&r"
+			]
+			id: "57BA62BB010D870C"
+			rewards: [{
+				id: "2188E8DE811807D4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53D657AD713C82AF"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "53A1E6C4999E6318"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&bEnergy Cell &r"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57BA62BB010D870C"]
+			description: ["Energy cards add more energy storage to certain tools like portable terminals, and make Vibration Chambers more efficient."]
+			id: "6504C8B99E8C47A5"
+			rewards: [{
+				id: "64D3C0A050094962"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C576B49EC3C6444"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C57DF99E9A0BF6A"]
+			description: ["A vibrant purple crystal used as a core component in AE2 recipes. Naturally generates in the world but can also be crafted by combining Certus Quartz, Redstone, and Nether Quartz in water."]
+			id: "42BF0D7E017F718B"
+			rewards: [{
+				id: "4F112DC88F4294BB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04726FE341F5C206"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42BF0D7E017F718B"]
+			description: ["The &6ME Glass Cable&r is the most basic type of cable used to connect devices in an &dME Network&r. It can carry up to &d8 channels&r, making it suitable for &asmall to medium-sized networks&r. This cable is essential for &ainitial network setups&r and is often used as the &dbackbone&r of the network."]
+			id: "5AF160257BEEF682"
+			rewards: [{
+				id: "36691B5458522E92"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FF0E33F047C173A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:glass_cable"
+					}
+				}
+				title: "Glass Cables"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AF160257BEEF682"]
+			description: ["The &6Covered Cable&r is an upgraded version of the &6ME Glass Cable&r. It also supports up to &d8 channels&r but provides additional &aprotection and durability&r. &6Covered Cables&r can be further upgraded to &6Dense Covered Cables&r."]
+			id: "3623D4179724500D"
+			rewards: [{
+				id: "166147866EEAE0A5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FAF29A93AB26BB8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:covered_cable"
+					}
+				}
+				title: "Covered Cables"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3623D4179724500D"]
+			description: ["The &6Dense Covered Cable&r can carry up to &d32 channels&r, making it ideal for &alarger and more complex networks&r. This type of cable is used for the &dmain data trunks&r where a higher channel capacity is required. Due to its high capacity, &6Dense Cables&r are perfect for connecting to an &bME Controller&r or distributing channels to multiple sub-networks."]
+			id: "495ED54AC102B1FD"
+			rewards: [{
+				id: "0FD27301E4E28D77"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CAFAD588028F497"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:covered_dense_cable"
+					}
+				}
+				title: "Dense Covered Cables"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5AF160257BEEF682"]
+			description: [
+				"The &bQuartz Cutting Knife&r is a crafting tool available in both &6Nether Quartz&r and &6Certus Quartz&r variants. It's useful for various tasks, including crafting &bCable Anchors&r."
+				""
+				"&bCable Anchors&r, crafted with the knife, can separate cables without dyeing. They can also be used to make &bCable Facades&r, which disguise cables within walls by covering them with the face of any block. While facade recipes are hidden in JEI, they can be crafted by placing any block surrounded by 4 &bCable Anchors&r in the crafting grid."
+				""
+				"Additionally, the knife can craft &bInscriber Name Presses&r by right-clicking to open a GUI. These presses can rename items in an &bInscriber&r, with two presses combining their names in sequence."
+			]
+			id: "295618B74C1FED6C"
+			rewards: [{
+				id: "389B1B3D0F0AB2EA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B5F09CD533709A9"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "4B43B1E8868C4FF5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:knife"
+						}
+					}
+					title: "Quartz Cutting Knives"
+					type: "item"
+				}
+				{
+					id: "02FDDE6423A3F341"
+					item: {
+						Count: 1
+						id: "ae2:name_press"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3623D4179724500D"]
+			description: ["The &bME Smart Cable&r functions similarly to &6Covered Cable&r but with an added feature. It can carry up to &d8 channels&r and &dvisually displays&r the number of channels being used with &acolored lines&r along the cable. This visualization helps in &amanaging and optimizing&r the network."]
+			id: "72BC8C4941732A6E"
+			rewards: [{
+				id: "083EAAFB5BF0D277"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2195343241355CBD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+				title: "Smart Cables"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["495ED54AC102B1FD"]
+			description: ["The &bDense Smart Cable&r works like &6Dense Covered Cable&r but includes a &avisual display&r of the channels being used. It can carry up to &d32 channels&r, providing a &dclear view&r of network usage. These cables are excellent for &amonitoring large networks&r and ensuring &aefficient channel distribution&r."]
+			id: "6AB8E0C6EBB47F90"
+			rewards: [{
+				id: "44399E1B5F6AEF83"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18121C66F20142F4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+				title: "Dense Smart Cable"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5AF160257BEEF682"]
+			description: ["Cable Colorer"]
+			id: "3A17AE55B0F3B543"
+			rewards: [{
+				id: "4B92718FDCDA5FAD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57799035C0B45D53"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19F6AA2773B46E1A"]
+			description: [
+				"A crafted component essential for advanced &bME Network&r devices. Comes in three tiers, each requiring an &eInscriber&r with its corresponding press:"
+				""
+				"&bLogic Processor&r"
+				""
+				"Base tier for most machines (&5Interfaces&r, &9Drives&r)"
+				""
+				"&6Engineering Processor&r"
+				""
+				"Used for automation blocks (&cExport/Import Buses&r)"
+				""
+				"&dCalculation Processor&r"
+				""
+				"Required for high-tier devices (&aQuantum Bridge&r, &eControllers&r)"
+				""
+				"(The &9\"microchips\"&r powering AE2's advanced technology.)"
+				""
+				"&e\"From simple storage to quantum computing\"&r"
+			]
+			id: "750B10A7ADE8DE08"
+			rewards: [{
+				id: "14A42D5EC0CC46D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F4F69ADEC8D41F6"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "6FFFEAE9733C60AA"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "3723FD106D029682"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["750B10A7ADE8DE08"]
+			description: [
+				"The central interface for accessing your entire ME network inventory. This panel displays all items stored in connected ME Drives and allows searching, sorting, and item withdrawal/insertion. Functions as the primary control hub for the storage system."
+				""
+				"The &6ME Crafting Terminal&r is an enhanced version that includes a crafting grid, enabling convenient crafting using any network-contained items visible through the terminal."
+			]
+			id: "16C065EA59F9F415"
+			rewards: [{
+				id: "3949CCB9BFF7B7C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0540671AA07AC5D7"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "240746A428979648"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16C065EA59F9F415"]
+			description: ["A handheld diagnostic device for analyzing and configuring ME networks. Used to check connections, identify channel usage, and troubleshoot system components. Visually displays network links when right-clicking cables or devices."]
+			id: "7D26915C5E25FE03"
+			rewards: [{
+				id: "00D827617D832657"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "734A1913B5E4AA9B"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"16C065EA59F9F415"
+				"7FD3236DCC28E77E"
+			]
+			description: [
+				"The central &bpower hub&r and &echannel manager&r for &5ME Networks&r. This multiblock structure provides both energy distribution and network control for all connected devices."
+				""
+				"Core Functions:"
+				""
+				"Supplies &6AE2 power&r (via &dEnergy Acceptor&r)"
+				""
+				"Manages &c8-channel limit&r per cable branch"
+				""
+				"Expands via &9multiblock formation&r (up to 7×7×7)"
+				""
+				"(The &a\"brain and heart\"&r of any AE2 system.)"
+				""
+				"&e\"Where quantum logistics begin\"&r"
+			]
+			id: "5D343A8BA24FA327"
+			rewards: [{
+				id: "03AE45267E50674D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "196EFD1B878FA880"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "&5ME Controller&r"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5AF160257BEEF682"]
+			description: [
+				"In Applied Energistics 2, &6channels&r are a fundamental concept that dictate how many devices can be connected and managed within an &dME Network&r."
+				""
+				"A network management system that limits device connections to 8 channels per cable branch. Channels are used by:"
+				""
+				"Active machines (Interfaces, Import/Export Buses)"
+				""
+				"Storage devices (Drives, Chests)"
+				""
+				"Terminals"
+			]
+			id: "7FD3236DCC28E77E"
+			rewards: [{
+				id: "021095239969F926"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DC460CA9DBFE47"
+				title: "Channels Information"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16C065EA59F9F415"]
+			description: [
+				"&1ME Drive&r"
+				"The physical storage device for digital &5Storage Cells&r in an &bME Network&r. Acts as a bay for up to &e10 cells&r (1K-65M types)."
+				""
+				"Key Properties:"
+				""
+				"&6No internal storage&r - capacity depends on inserted cells"
+				""
+				"Requires &5Fluix Cable&r connection and &dME Controller&r power"
+				""
+				"&5ME Chest&r"
+				"A wireless access point to your &bME Network&r inventory."
+				""
+				"Special Traits:"
+				""
+				"Needs &6Wireless Access Point&r + power"
+				""
+				"Shows only &epermitted items&r (via Security Terminal)"
+				""
+				"Works &across dimensions&r with Quantum Link"
+				""
+				"&e\"From physical storage to quantum access\"&r"
+			]
+			id: "0942C0CC13ABAF70"
+			rewards: [{
+				id: "0789D9EFF057885F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77BA60B884FBED8C"
+					item: "ae2:chest"
+					type: "item"
+				}
+				{
+					id: "243D7DB80A6D275E"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			title: "ME Chest and ME Drive"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0942C0CC13ABAF70"]
+			description: ["A dual-purpose block that transfers items between physical inventories (chests, machines) and your ME network. It can import/export items and swap Storage Cells in drives without breaking the network connection. Connects via ME cables and requires power."]
+			id: "6F3C4259ECFFAC99"
+			rewards: [{
+				id: "3740B3C7164B69B2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B565947E39D3370"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0942C0CC13ABAF70"]
+			description: [
+				"The &bCell Workbench&r is used to &apartition&r cells to hold specific items, creating a &dwhitelist filter&r. It also allows cells to be upgraded with cards like the &bInverter Card&r, which changes the whitelist to a &ablacklist&r."
+				""
+				"Additionally, cells can have their &apriority&r adjusted via the workbench, determining if they receive items first or wait until higher-priority cells are filled."
+			]
+			id: "3DA71E83EE2BAB7C"
+			rewards: [{
+				id: "7130F6056F601137"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77CF0C516B002A19"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3DA71E83EE2BAB7C"]
+			description: ["The &bOverflow Destruction Card&r is an upgrade for storage cells that automatically &ddelete&r any items of a type already contained within the cell if the cell is full, preventing overflow."]
+			id: "62FD4E6D43FCC228"
+			rewards: [{
+				id: "6EED6EAA12567577"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1221927EA6CE425A"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3DA71E83EE2BAB7C"]
+			description: ["The &bEqual Distribution Card&r is a storage cell upgrade that &dpre-allocates&r a specific amount of items for each type, similar to a &aFunctional Storage drawer&r, where each compartment holds a set number of stacks, preventing items from one type crowding out others."]
+			id: "5C786EAC4B7CBEB4"
+			rewards: [{
+				id: "64E784835A847605"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "688899B4776824FE"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D343A8BA24FA327"]
+			description: ["A block that enables wireless ME network access for devices like Wireless Terminals or ME Chests. Requires power and boosts signal strength for extended range."]
+			id: "2AFDEEA844B0DC0B"
+			rewards: [{
+				id: "53ADB8F3C0BA2951"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32D239674C3F886B"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "7247D50237B0906C"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2AFDEEA844B0DC0B"]
+			description: ["A portable device that provides wireless access to your ME network inventory and crafting system. Requires connection to a powered Wireless Access Point and consumes energy during use."]
+			id: "4D278F1E4C68E29D"
+			rewards: [{
+				id: "2718BC192C38D586"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18B050467523B0F0"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "74155FD51073139B"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D343A8BA24FA327"]
+			description: [
+				"A late-game block that slowly compresses stacks of identical items (1,000 units) into Singularities, which are used for crafting high-tier AE2 components like Quantum Bridges. Requires continuous AE2 power and outputs to adjacent inventories."
+				""
+				""
+				"Matter Ball:"
+				"A dense sphere of compressed matter created by the Matter Condenser when processing 1,000 units of any item."
+			]
+			id: "487D717B87795D2F"
+			rewards: [{
+				id: "7E3DFC7CFC06BC1D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E7F4B0C33E15CCD"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "1CEBEA010232EC8E"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["487D717B87795D2F"]
+			description: [
+				"Using a &a64k storage component&r or higher, the &bMatter Condenser&r can produce a &bSingularity&r. A single singularity requires &d256,000 items&r to be voided, equivalent to &o4,000 stacks&r!"
+				""
+				"To see its true potential, throw the singularity on the ground with a piece of &6Ender Dust&r. This will cause some damage to the surroundings, but AE2 offers &bTiny TNT&r to minimize the impact."
+			]
+			id: "47F7DC87790D5064"
+			rewards: [{
+				id: "253DA70539924343"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "022E1F4B2E0634A4"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "639F68A9F058DCB3"
+					item: "ae2:ender_dust"
+					type: "item"
+				}
+				{
+					id: "478FB59A7B8EBD3F"
+					item: "ae2:tiny_tnt"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["47F7DC87790D5064"]
+			dependency_requirement: "all_started"
+			description: [
+				"&1ME Quantum Ring:&r"
+				"The primary multiblock structure for interdimensional ME networks. Forms one endpoint of a Quantum Network Bridge when linked to a matching ring in another dimension. Requires a Quantum Entangled Singularity for activation."
+				""
+				"&5ME Quantum Link Chamber:&r"
+				"A support block for the Quantum Ring that stabilizes interdimensional connections. Must be placed inside the ring and supplied with power."
+				""
+				"&cQuantum Entangled Singularity:&r"
+				"A crafted singularity that synchronizes two Quantum Rings across dimensions, enabling cross-dimensional ME networks. Created by combining 4 Singularities in an ME Condenser."
+			]
+			id: "726DF1B2F0DFE008"
+			rewards: [{
+				id: "1BE45BC3BB71B77E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "7284539577CF2E58"
+					item: { Count: 16, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "32C4B5F6070FD102"
+					item: { Count: 2, id: "ae2:quantum_link" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F7AB9FC2455B492"
+					item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0942C0CC13ABAF70"]
+			description: ["The &6ME Storage Component&r is a vital item in the &bApplied Energistics 2&r mod, used to store items within your &dME Network&r."]
+			id: "1F4EBEDFCB7ED937"
+			rewards: [{
+				id: "4043C7FB6A063D82"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "376A4BFFCE8BED9A"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5AF160257BEEF682"
+				"1F4EBEDFCB7ED937"
+			]
+			description: [
+				"The &bCharged Staff&r is a simple powered staff that deals &c3 hearts&r of damage and consumes &d300AE&r per hit. It uses pre-1.9 combat mechanics, allowing you to &aspam-click&r like in the good old days."
+				""
+				"The &bEntropy Manipulator&r, when &oused&r on certain blocks in the world, will &asmelt them in-place&r, such as &dsand to glass&r and &dmetal ores to metal ingots&r. If used on other blocks, it will simply &alight a fire&r on the block."
+				""
+				"The &bMatter Cannon&r functions similarly to the &bColor Applicator&r as a dedicated cell for holding \"ammo\" items such as &dMatter Balls&r and &diron/gold nuggets&r. These can then be fired to deal &adamage to mobs&r or &abreak blocks&r. Heavier \"ammo\", like &dmetal nuggets&r, will deal more damage and destroy harder blocks."
+				""
+				"&dMatter Balls&r in a &bMatter Cannon&r can be substituted with &bPaint Balls&r, which will apply a paint splatter effect on the face of the block being fired at. &bLumen Paint Balls&r are a variant of paint balls exclusively used by the &bMatter Cannon&r, whose paint splatters also give off light once present in the world."
+			]
+			hide_dependency_lines: true
+			id: "2CE3008EE0CDFD64"
+			rewards: [{
+				id: "1E4E363F1684980D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25BE72A3AE0FC180"
+					item: "ae2:charged_staff"
+					type: "item"
+				}
+				{
+					id: "180CFD422184F657"
+					item: "ae2:entropy_manipulator"
+					type: "item"
+				}
+				{
+					id: "27B0B4FAB919AA0E"
+					item: {
+						Count: 1
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Weapons!"
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1F4EBEDFCB7ED937"]
+			id: "76D2365D82FEF9D4"
+			rewards: [{
+				id: "09BAFFFDF7BC3FC2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5987CF40825D5868"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["76D2365D82FEF9D4"]
+			id: "245FB107FCE683A1"
+			rewards: [{
+				id: "6BB56CE946F5F2EE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "627E847B9FE98A4D"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["245FB107FCE683A1"]
+			id: "31B8C5427DEEF8F3"
+			rewards: [{
+				id: "5D8F29C33BE52159"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "40A9AB7814C6E9D0"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["31B8C5427DEEF8F3"]
+			id: "5699EBB38EE95725"
+			rewards: [{
+				id: "63A4C4126E940A7E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "43A17D1480323673"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5699EBB38EE95725"]
+			id: "2D3C0B94D4733949"
+			rewards: [{
+				id: "1E82595219811C76"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "578E677738722389"
+				item: "ae2additions:cell_component_1024"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2D3C0B94D4733949"]
+			id: "65E554EA88D817EA"
+			rewards: [{
+				id: "071113E16C045158"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "245E3E20FC099F73"
+				item: "ae2additions:cell_component_4096"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["65E554EA88D817EA"]
+			id: "3CF25E652ACE48CF"
+			rewards: [{
+				id: "473182EA6A19A00B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "468368C7C8143912"
+				item: "ae2additions:cell_component_16384"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3CF25E652ACE48CF"]
+			id: "609A534487771CEA"
+			rewards: [{
+				id: "60DE2ED8B9E645D3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "68A8803CAC8A3892"
+				item: "ae2additions:cell_component_65536"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1F4EBEDFCB7ED937"]
+			description: ["This storage cell allows you to store all types of items, fluids, and chemicals in one cell. No longer do you need separate storage cells for items, fluids, and chemicals."]
+			id: "10A4748598F5EE60"
+			min_width: 400
+			rewards: [{
+				id: "26E811F1D76E1163"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "701F0AED4325D9DA"
+				item: "ae2additions:super_cell_component_1k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["10A4748598F5EE60"]
+			id: "77DC1140F9B8CF57"
+			rewards: [{
+				id: "67B81CC9053AB3C3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7D8CDCF84D4033E8"
+				item: "ae2additions:super_cell_component_4k"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["77DC1140F9B8CF57"]
+			id: "1D70EC9CB1B9157D"
+			rewards: [{
+				id: "7FE79A1E052090DC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "29AEAB1C4978FF6B"
+				item: "ae2additions:super_cell_component_16k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1D70EC9CB1B9157D"]
+			id: "643A62446C505B29"
+			rewards: [{
+				id: "6CD6DBE412727DFB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "41D499314A42F4CA"
+				item: "ae2additions:super_cell_component_64k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["643A62446C505B29"]
+			id: "0E43D8A769E9C13C"
+			rewards: [{
+				id: "6E25A581F078C159"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "20F30A41C0C7A3F3"
+				item: "ae2additions:super_cell_component_256k"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0E43D8A769E9C13C"]
+			id: "2EC5B0BFC8566621"
+			rewards: [{
+				id: "71263CFED36822E1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59322B6B64BD595E"
+				item: "ae2additions:super_cell_component_1024k"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2EC5B0BFC8566621"]
+			id: "2BA521A430A3DF7D"
+			rewards: [{
+				id: "491E80F0890B8AE4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "580FB3B624B53EDE"
+				item: "ae2additions:super_cell_component_4096k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2BA521A430A3DF7D"]
+			id: "791B063470A312E7"
+			rewards: [{
+				id: "683DB0F2B3EBE231"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0D3E9E8CC55647CE"
+				item: "ae2additions:super_cell_component_16m"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["791B063470A312E7"]
+			id: "5E39CD650F42EBDA"
+			rewards: [
+				{
+					id: "5CA8EBA290C65077"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "722EAF4752092D9F"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1DBD68E62A819C9D"
+				item: "ae2additions:super_cell_component_65m"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1F4EBEDFCB7ED937"]
+			description: [
+				"Once you have a &61k Storage Component&r, you can craft a &b1k ME Item Storage Cell&r to begin your digital item storage journey. For most of your storage needs, you'll want to create several &bME Item Storage Cells&r."
+				""
+				"Each &bME Item Storage Cell&r can store up to &d63 different item types&r. When you add a new item type to a cell, it uses part of the cell's total &acapacity in bytes&r. Each type already stored uses &a1 byte&r for every &d8 items&r of that type."
+				""
+				"For example, a &b1k ME Item Storage Cell&r filled with only cobblestone can hold up to &d8,128 cobblestone&r (&d8*1024 bytes&r total capacity - &d8 bytes&r for the single item type)."
+				""
+				"If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and &aright-click in the air&r with the cell in your hand."
+			]
+			id: "10EF77AB8EF3EEF7"
+			rewards: [{
+				id: "7D21BED0CE7896C0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F496136FB7F4856"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["10A4748598F5EE60"]
+			description: [
+				"Once you have a &61k Super Storage Component&r, you can craft a &b1k ME Super Storage Cell&r to begin your versatile storage journey. These super storage cells allow you to store items, fluids, and chemicals all in one cell, making them highly efficient for all your storage needs."
+				""
+				"Each &bME Super Storage Cell&r can store up to &d63 different types&r of items, fluids, or chemicals. When you add a new type to a cell, it uses part of the cell's total &acapacity in bytes&r. Each type already stored uses &a1 byte&r for every &d8 units&r of that type."
+				""
+				"For example, a &b1k ME Super Storage Cell&r filled with only cobblestone can hold up to &d8,128 cobblestone&r (&d8*1024 bytes&r total capacity - &d8 bytes&r for the single item type)."
+				""
+				"If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and &aright-click in the air&r with the cell in your hand."
+			]
+			id: "33F9C602D37216F5"
+			rewards: [{
+				id: "2587DB674757105F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "342645B7B0710A39"
+				item: {
+					Count: 1
+					id: "ae2additions:super_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["10EF77AB8EF3EEF7"]
+			description: [
+				"&bPortable Cells&r are a versatile &dstorage solution&r. Just like regular storage cells, they can be inserted into an &bME Chest&r or &bME Drive&r to store items."
+				""
+				"The key difference is that &bPortable Cells&r offer &ddirect access&r to their contents without needing to be placed in a network. They function like a &adigital backpack&r, allowing you to &aaccess your stored items&r &aanytime, anywhere&r by simply using the cell item itself. This makes them an excellent choice for &amobile storage&r and &aquick item retrieval&r on the go."
+			]
+			id: "7B1E1AF7188B1A2E"
+			rewards: [{
+				id: "4117A616E5985470"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00382ED41548D4E7"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "53F50768DD41E097"
+					item: {
+						Count: 1
+						id: "ae2:portable_fluid_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0962C81A579F5D3C"
+					item: {
+						Count: 1
+						id: "appmek:portable_chemical_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			description: ["A specialized machine that works with Spatial Storage Cells to capture or deploy entire spatial regions. It must be connected to an ME network and placed within a frame of Spatial Pylons marking the area to be stored."]
+			id: "4F51E1672ECE7D3B"
+			rewards: [{
+				id: "3073471435BAB01F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FA4347FAC295997"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4F51E1672ECE7D3B"]
+			description: ["A structural block used to define the boundaries of a spatial storage area. When arranged in a cube formation around a region, they allow Spatial I/O Ports to capture or deploy that space using Spatial Storage Cells. Acts as both a marker and stabilizer for dimensional storage operations."]
+			id: "3DE753D68B8335C8"
+			rewards: [{
+				id: "789B484E53642590"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09ACB62B41675026"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3DE753D68B8335C8"]
+			description: [
+				"A high-tier device that prevents chunks containing critical ME infrastructure from unloading when players are absent. Maintains active chunks to preserve Spatial Storage dimensions, quantum bridges, and other AE2 mechanics that normally depend on chunk loading."
+				""
+				"(Functions like a more advanced version of other chunk loaders, specifically optimized for AE2's interdimensional storage systems.)"
+				""
+				"Note: Requires constant power and careful placement to avoid server performance impacts. Works across dimensions when properly configured with Quantum Network Bridges."
+			]
+			id: "62458187F95EE35A"
+			rewards: [{
+				id: "01E7049A6EAB7554"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D05105547C9F2D5"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3DE753D68B8335C8"]
+			description: [
+				"A high-tier storage device that captures and stores entire spatial regions as portable dimensional pockets. These cells work with Spatial I/O Ports to save and restore custom-built areas (like rooms or machines) in your world. Larger cells (16³, 128³) require significant power and proper Spatial Pylon framing."
+				""
+				"(Note: Some blocks like spawners or bedrock cannot be stored. Handle with care to avoid world corruption.)"
+			]
+			id: "2FF641C1FD519E5D"
+			rewards: [{
+				id: "28F82CE1B5AA5154"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23F5200EAAE4CA73"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:spatial_storage_cell_2"
+							}
+							{
+								Count: 1b
+								id: "ae2:spatial_storage_cell_16"
+							}
+							{
+								Count: 1b
+								id: "ae2:spatial_storage_cell_128"
+							}
+						]
+					}
+				}
+				title: "Spatial Storage Cells"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"A machine that supplies crafting ingredients to adjacent machines (e.g. furnaces, pulverizers) when triggered by an &bME Automation Recipe&r. Acts as the interface between your &5ME Network&r and external processing devices."
+				""
+				"Key Features:"
+				""
+				"Outputs items based on &eProcessing Patterns&r "
+				""
+				"Can push/pull from inventories and machines"
+				""
+				"Works with &6Autocrafting&r setups"
+				""
+				"*(The essential bridge for &dnon-AE2 machine integration&r into your network!)*"
+				""
+				"&a\"Automation's best friend\"&r"
+			]
+			id: "07179D5D4D9AC02E"
+			rewards: [{
+				id: "6F60D849CEB47072"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2E9708093944CD5A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:pattern_provider"
+						}
+					}
+					title: "Pattern Providers"
+					type: "item"
+				}
+				{
+					id: "0E529EC0B523C757"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "&5Pattern Provider&r"
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["07179D5D4D9AC02E"]
+			description: [
+				"A device that speeds up crop growth in a &b3x3 area&r beneath it when powered by an &5ME Network&r. Works on &ewheat&r, &dcarrots&r, &6potatoes&r, and other farmable plants."
+				""
+				"Key Traits:"
+				""
+				"Requires &5AE2 power&r (2 AE/t)"
+				""
+				"Stacks effects with multiple accelerators"
+				""
+				"&cDoes not affect&r bonemeal or tick-based growth"
+				""
+				"(The &bfarmer's high-tech solution&r for compact crop farms!)"
+				""
+				"&e\"Like sunlight steroids for plants\"&r"
+			]
+			id: "076C2AC9BA063D14"
+			rewards: [{
+				id: "25A2A4F2742709AA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "281A87C339CCDC89"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			title: "&aGrowth Accelerator&r"
+			x: 9.017857142857146d
+			y: 0.7619047619047628d
+		}
+		{
+			dependencies: ["07179D5D4D9AC02E"]
+			description: [
+				"A digital recipe blueprint used for &bautomated crafting&r and &eprocessing&r in &5ME Systems&r. Encodes either crafting steps (for &dMolecular Assemblers&r) or machine workflows (for &6Pattern Providers&r)."
+				""
+				"Key Types:"
+				""
+				"&bCrafting Pattern&r (bench recipes)"
+				""
+				"&eProcessing Pattern&r (machine/furnace recipes)"
+				""
+				"(Stored in &5ME Interfaces&r to enable &9autocrafting&r systems.)"
+				""
+				"&a\"The ME Network's recipe memory\"&r"
+			]
+			id: "6C3B025A4B223E82"
+			rewards: [{
+				id: "197347A6B48A2576"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "488F0FABA0FF0A72"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "73212B9B2D4CD70C"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			title: "&5Pattern&r"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07179D5D4D9AC02E"]
+			description: [
+				"A redstone control device that emits a &esignal strength&r based on &5ME Network&r conditions. Can monitor:"
+				""
+				"&bItem quantities&r (e.g. emit when <64 iron)"
+				""
+				"&6Energy levels&r (emit when power <25%)"
+				""
+				"&dCrafting status&r (active jobs)"
+				""
+				"Key Use:"
+				""
+				"Controls &9automatic factories&r via redstone"
+				""
+				"Pairs with &cExport Buses&r for smart restocking"
+				""
+				"Configurable with &eME Storage Monitor&r"
+				""
+				"*(The &b\"if-then\" brain&r for AE2 automation!)*"
+				""
+				"&aRedstone meets quantum computing&r"
+			]
+			id: "3FDA0D970B6C6227"
+			rewards: [{
+				id: "744DD5886C798419"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "209E7842FB11C045"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			title: "&5ME Level Emitter&r"
+			x: 12.113095238095234d
+			y: 0.7142857142857153d
+		}
+		{
+			dependencies: ["3FDA0D970B6C6227"]
+			description: [
+				"An upgrade that adds &credstone control&r to compatible &5ME Devices&r, enabling activation/deactivation based on signals."
+				""
+				"Compatible Devices:"
+				""
+				"&bImport/Export Buses&r (toggle item transfer)"
+				""
+				"&6Molecular Assemblers&r (disable crafting)"
+				""
+				"&dLevel Emitters&r (chain conditions)"
+				""
+				"Modes:"
+				""
+				"&aActive on High&r"
+				""
+				"&1Active on Low&r"
+				""
+				"&eIgnore Redstone&r (default)"
+				""
+				"*(The &9\"on/off switch\"&r for smart ME systems!)*"
+				""
+				"&b\"Logic meets logistics\"&r"
+			]
+			id: "2C0A45666CCB62BE"
+			rewards: [{
+				id: "41A30CC275E1F39A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50FD7EE85E324607"
+					item: "ae2:redstone_card"
+					type: "item"
+				}
+				{
+					id: "624A812D49AFE84F"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+			]
+			title: "&4Redstone Card&r"
+			x: 13.589285714285715d
+			y: 0.7142857142857153d
+		}
+		{
+			dependencies: ["2C0A45666CCB62BE"]
+			description: [
+				"An upgrade that enables &bautocrafting functionality&r for &5ME Interfaces&r and &6Pattern Providers&r. Required to:"
+				""
+				"&eRequest remote crafting&r via terminals"
+				""
+				"&dProcess recursive recipes&r (multi-step crafts)"
+				""
+				"&cLink to Crafting CPUs&r"
+				""
+				"Key Limitation:"
+				""
+				"Consumes &9additional channels&r when installed"
+				""
+				"(The &a\"brain implant\"&r that makes ME Networks truly autonomous!)"
+				""
+				"&e\"From storage to factory with one card\"&r"
+			]
+			id: "6B8E3833F41BD726"
+			rewards: [{
+				id: "2677CDEA1D8F8AF9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4170449F3A1EE55A"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			title: "&5Crafting Card&r"
+			x: 14.970238095238088d
+			y: 0.7142857142857153d
+		}
+		{
+			dependencies: ["07179D5D4D9AC02E"]
+			description: [
+				"A specialized memory unit that &btemporarily holds items&r during &eautocrafting processes&r. Comes in tiered capacities (1k to 256M) to handle complex recipes."
+				""
+				"Key Functions:"
+				""
+				"Buffers &6ingredients&r and &dintermediate products&r"
+				""
+				"Links to &9Crafting CPUs&r for multi-step crafts"
+				""
+				"Prevents &cnetwork clogging&r during large jobs"
+				""
+				"(The &a\"scratchpad\"&r for your ME Network's crafting calculations!)"
+				""
+				"&e\"Where unfinished crafts wait patiently\"&r"
+			]
+			id: "29099185E69DAFCD"
+			rewards: [{
+				id: "5137CAC25AFF4E65"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F22F039CD75C066"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:1024k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:4096k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:16384k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2additions:65536k_crafting_storage"
+							}
+						]
+					}
+				}
+				title: "Crafting Storages"
+				type: "item"
+			}]
+			title: "&5Crafting Storage&r"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29099185E69DAFCD"]
+			description: [
+				"An upgrade for &bCrafting CPUs&r that enables &eparallel recipe processing&r, allowing multiple crafting steps to execute &esimultaneously&r. Each unit adds +1 &9concurrent operation&r."
+				""
+				"Key Traits:"
+				""
+				"&dEssential&r for complex autocrafting"
+				""
+				"Stackable up to &615 units&r per CPU"
+				""
+				"Requires &cadditional channels&r"
+				""
+				"(The &a\"multicore processor\"&r for your ME Network!)"
+				""
+				"&e\"Parallel crafting at quantum speeds\"&r"
+			]
+			id: "53E4BBE093B08389"
+			rewards: [{
+				id: "6C7D5A667D62176B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D9221D18BBE642A"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			title: "&5Crafting Co-Processing Unit&r"
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53E4BBE093B08389"]
+			description: [
+				"A display block that shows &blive status&r of ongoing &eautocrafting jobs&r in your &5ME Network&r. Lists queued, in-progress, and completed crafts with detailed progress bars."
+				""
+				"Key Features:"
+				""
+				"&dReal-time updates&r on all crafting orders"
+				""
+				"&6Color-coded&r status (pending/active/error)"
+				""
+				"&cClick-to-cancel&r functionality"
+				""
+				"(The &a\"mission control center\"&r for your automated factory!)"
+			]
+			id: "0A34FD02D54EA6A2"
+			rewards: [{
+				id: "14659FDCF79898AF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4651D22FA898486F"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			title: "&5Crafting Monitor&r"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C3B025A4B223E82"]
+			description: [
+				"The core crafting machine for &bME Networks&r, capable of &einstantaneous item production&r when provided with &6Encoded Patterns&r and materials. Functions as a &dhigh-tech workbench&r that pulls ingredients directly from connected &5ME Storage&r."
+				""
+				"Key Traits:"
+				""
+				"Requires &bCrafting Patterns&r"
+				""
+				"Needs &9co-processors&r for parallel crafting"
+				""
+				"Uses &5AE2 power&r during operation"
+				""
+				"&aYour ME Network's robotic crafting arm&r"
+			]
+			id: "1C29C4D117761F30"
+			rewards: [{
+				id: "50543D82ADB5A562"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EFA8453757B1ADA"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "&5Molecular Assembler&r"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C29C4D117761F30"]
+			description: [
+				"An upgrade component that &bboosts processing speed&r for &5ME Machines&r when installed in compatible devices. Each card provides a &e+25% speed increase&r (stackable up to 4 cards)."
+				""
+				"Compatible Machines:"
+				""
+				"&bMolecular Assemblers&r"
+				""
+				"&6Inscribers&r"
+				""
+				"&dPattern Providers&r"
+				""
+				"Trade-off:"
+				""
+				"Increases &cpower consumption&r proportionally"
+				""
+				"(The &9overclocking chip&r for AE2 automation systems.)"
+				""
+				"&e\"More speed, more power, more efficiency\"&r"
+			]
+			id: "292C729230F5259E"
+			rewards: [{
+				id: "06A00A6EC0C0C2C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03357BBC88416887"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			title: "&5Acceleration Card&r"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"To make life &aeasier&r, AE2 offers a suite of devices for manipulating &dME data&r, enabling you to move stored items around the world."
+				""
+				"The &bME Interface&r is one such device. As an input device, the &bInterface&r allows any &aitem, fluid, etc.&r to be piped externally through it, which is then automatically stored in the &dME Network&r to which the interface is connected."
+				""
+				"As an output device, the &bInterface&r can be configured to keep a certain amount of a stored item in stock, transferring it from the &dME network&r to its own internal inventory. This allows items to be received by an &aexternal source&r like another player or a pipe."
+			]
+			id: "5C083F2DA57E133F"
+			rewards: [{
+				id: "4F1C5C7F17D8859D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A9B673EAD96B33B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+				title: "Me Interfaces"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["5C083F2DA57E133F"]
+			description: [
+				"An important concept in AE2 is \"&esubnetting&r\", where a separate &dME network&r (&ea subnetwork&r) works alongside the main network to perform specialized functions."
+				""
+				"What separates a subnetwork from a detached network is the use of &bQuartz Fiber&r as a cable part. Placed between two otherwise unconnected lengths of cable, the &bQuartz Fiber&r transfers no &adata&r or &achannels&r, only &apower&r."
+				""
+				"Thus, a subnetwork on the other side of the &bQuartz Fiber&r can be powered by the main network's power source without requiring additional &apower generation&r."
+			]
+			id: "505F8B8819FE572C"
+			rewards: [{
+				id: "6C234FDF37352E3A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40023B22EA61ECE0"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5C083F2DA57E133F"]
+			description: [
+				"&bP2P&r (peer-to-peer) is a powerful system in AE2, allowing for the transfer of &aitems&r, &afluids&r, and more without intermediary &dME storage&r."
+				""
+				"Right-clicking a &bP2P tunnel&r with certain items will &eattune&r the tunnel for transferring items through pipes, energy through cables, redstone signals, and even &dME connections&r."
+				""
+				"&bP2P tunnels&r must be linked using a &eMemory Card&r, detailed in the next quest."
+			]
+			id: "75B3AB84C74ED23F"
+			rewards: [{
+				id: "6D21F4AF170ACFA3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "312D2D3D848BEE08"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["75B3AB84C74ED23F"]
+			description: [
+				"The &bMemory Card&r is a versatile tool with two functions. Firstly, it saves device &aconfigurations&r (like whitelist filters) for copying to another device of the same kind."
+				""
+				"Secondly, the &bMemory Card&r links &eP2P tunnels&r together. The &bP2P tunnel&r being linked is assigned a unique &aID&r, stored on the memory card for future linking."
+			]
+			id: "703FD6207A3C5475"
+			rewards: [{
+				id: "6681026E844ED525"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0969E0D77236CAF5"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["33DD68B85F163F50"]
+			description: [
+				"The &bME Annihilation Plane&r automatically breaks blocks in front of it and returns dropped items directly to the &dME network&r."
+				""
+				"The &bAnnihilation Plane&r can be &aenchanted&r like a regular tool, affecting block drops similarly. This makes it ideal for processing ore blocks when enchanted with &dFortune&r."
+				""
+				"Enchantments increase the &aenergy use&r of the plane per block broken. Enchanting with &eEfficiency&r reduces overall energy use, while &eUnbreaking&r gives a chance to save energy, similar to regular tools."
+			]
+			id: "1CF0D347EBEB72CB"
+			rewards: [{
+				id: "137831F1B212B63B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5527497EFA57B9B8"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5C083F2DA57E133F"]
+			description: ["The &bME Import Bus&r periodically pulls items from an &6external storage&r it faces. It can be &afiltered&r to only accept certain items from the connected inventory."]
+			id: "33DD68B85F163F50"
+			rewards: [{
+				id: "31B9B501163B387D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49064689E181806E"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["61C3E32E629F6E1E"]
+			description: [
+				"The &bME Formation Plane&r acts similarly to the &6Storage Bus&r but treats the &dworld itself&r as storage. It places any block in its &afilter&r directly in front of itself."
+				""
+				"This is useful for scenarios where a block can be processed by placing and breaking it with a tool."
+			]
+			id: "697C47E6F19215F5"
+			rewards: [{
+				id: "5AE5F3C35A0D4201"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EBB2423DB95FCF9"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5C083F2DA57E133F"]
+			description: ["The &bME Export Bus&r periodically sends items from its &awhitelist filter&r to an external storage it faces. Unlike the Import Bus, the Export Bus requires &afiltering&r to function."]
+			id: "61C3E32E629F6E1E"
+			rewards: [{
+				id: "56B4B0036BA055A5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40376221C9C2A788"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5C083F2DA57E133F"]
+			description: [
+				"The &bME Storage Bus&r, when facing an external storage container, treats the container as part of the &dME network&r. This allows items to be inserted into or extracted from the container via &aME&r."
+				""
+				"&bStorage buses&r can be &afiltered&r and &aprioritized&r, making specific items go to the attached storage first. However, they won't retroactively move filtered items from elsewhere in the network."
+			]
+			id: "15F7524D7B3E023C"
+			rewards: [{
+				id: "4A219C44E1BEF400"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5338E99AC931FF19"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["15F7524D7B3E023C"]
+			description: ["The &bCapacity Card&r upgrades a bus to carry a larger filter. With &acapacity cards&r, Import and Export buses can support up to &anine slots&r from a single slot, and Storage buses can go from &d18 slots&r to a maximum of &d63 slots&r."]
+			id: "330EE51410D88BFD"
+			rewards: [{
+				id: "3BF5C96F4439E49F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6465484E927CE124"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["330EE51410D88BFD"]
+			description: ["The &bFuzzy Card&r allows items to match filters regardless of &ametadata&r (like damage or enchantments). The &bInverter Card&r toggles bus filters from a &awhitelist&r to a &ablacklist&r."]
+			id: "3041273D3B7942CA"
+			rewards: [{
+				id: "711C7FFF300FE60C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5AAEECF3C8222961"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "32AFCB08377BD630"
+					item: "ae2:inverter_card"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4C57DF99E9A0BF6A"]
+			description: [
+				"A metal plate used in the &bInscriber&r to craft &eProcessors&r. Each press type corresponds to a specific processor tier:"
+				""
+				"&bLogic Press&r"
+				""
+				"Crafts &5Logic Processors&r"
+				""
+				"&6Engineering Press&r"
+				""
+				"Crafts &eEngineering Processors&r"
+				""
+				"&dCalculation Press&r"
+				""
+				"Crafts &aCalculation Processors&r"
+				""
+				"*(Presses are &9reusable&r and must be placed in the Inscriber's top/bottom slots.)*"
+				""
+				"&e\"The stamp that shapes AE2 technology\"&r"
+			]
+			id: "19F6AA2773B46E1A"
+			rewards: [{
+				id: "751B2B74122D0160"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "514F88C54E08B709"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "01822A0BE095BB79"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "00828CA2942F80A2"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "25DF2F026DFC4ECD"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "&5Inscriber Press &r"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D278F1E4C68E29D"]
+			description: ["The &dAE Infinity Booster&r add-on provides bespoke wireless boosters that grant &dinfinite connectivity range&r, with optional &across-dimensional support&r."]
+			id: "26D97FEDA88228AC"
+			rewards: [{
+				id: "3C44C06546D6AA4C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D892B6E5603D936"
+					item: "aeinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "1E3578B3252AEA2F"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5007013C1A395087"]
+			description: [
+				"The reaction chamber is capable of accelerating chemical reactions by using a catalyst fluid and a great amount of"
+				"power. In doing so, reactions that naturally occur can be forced to happen inside the chamber, most of the time with"
+				"more efficient results, due to the controlled environment."
+			]
+			id: "74068F67A2FC5670"
+			rewards: [{
+				id: "25791EF7F4535650"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0516C8B12E15F58D"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"74068F67A2FC5670"
+				"47F7DC87790D5064"
+			]
+			id: "5A2AE21D5DB5CCD6"
+			rewards: [{
+				id: "19EDF6D495C69141"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F76F8A38FF8F68B"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A2AE21D5DB5CCD6"]
+			id: "2D9EAD557FD7611F"
+			rewards: [{
+				id: "4CCE3D25E7996D2D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FBD0E57C7559AD6"
+				item: "advanced_ae:quantum_infused_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2D9EAD557FD7611F"]
+			id: "37D2BC3357C4C258"
+			rewards: [{
+				id: "737B92A47C28BA32"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "392862359D57863B"
+				item: "advanced_ae:quantum_alloy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"37D2BC3357C4C258"
+				"19F6AA2773B46E1A"
+			]
+			id: "6C96E43F4539B32D"
+			rewards: [{
+				id: "010221EE1B7DFB91"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB993BAC3C62757"
+				item: "advanced_ae:quantum_processor_press"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C96E43F4539B32D"]
+			id: "7D56B09C7550337A"
+			rewards: [{
+				id: "7E942E0FBE7AE418"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4166F122AED91534"
+				item: "advanced_ae:printed_quantum_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D56B09C7550337A"]
+			id: "423C4C79C8DB1F6E"
+			rewards: [{
+				id: "65A04270D4EF8645"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CE7D43BDF16FCA2"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["423C4C79C8DB1F6E"]
+			id: "2C7079777A7E5E13"
+			rewards: [{
+				id: "07CD403ADD2B4C59"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA5AF227DFF5FE9"
+				item: "advanced_ae:quantum_storage_component"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C7079777A7E5E13"]
+			id: "16716309DF61F55D"
+			rewards: [{
+				id: "4B760319BAFA1888"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AFCA92A8C425D49"
+				item: "advanced_ae:adv_processing_pattern"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["16716309DF61F55D"]
+			description: [
+				"Have you ever wondered what would it be like to wear you AE System?"
+				""
+				"Well, you don't have to wonder anymore. The &4quantum armor&r set is a highly technological stealthy apparel that connects to the AE2 system to provide convenient access to everything on the go! By default, it's an energy powered suit with defenses comparable to Netherite gear."
+				"It is capable of using its buffer to create an energy shield, providing a healthy amount of damage absorption. "
+				""
+				"The boots also provide all damage negation while the chestplate can eliminate flying mining penalties. However, the true power of this suit is"
+				"only unlocked when you fill it with upgrades!"
+				""
+				""
+				"To install &5upgrades,&r you need to have the pieces equipped and then open the Quantum Armor Configuration Menu, by"
+				"pressing the hotkey, (N by default)."
+				""
+				"In this screen you will be able to add/remove upgrades as well as toggle them on/off and configure settings for the"
+				"upgrades that have them."
+			]
+			id: "2A8FA05582ACC3FE"
+			rewards: [{
+				id: "348A31DAEB11D7BB"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5DE765112B473FBF"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C689192E33A49C2"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FC036251F2F4A2D"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "216BF87218D02D7D"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quantum Armor"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"In order to teach the &4ME Advanced Pattern Provider&r where to send your items, a special device is needed to encode that"
+				"information. You can use a right-click with it in hand to open its GUI."
+				""
+				"Encoded Processing Patterns can be inserted into the left slot, which will be decoded and all raw ingredients then"
+				"displayed in a list."
+				""
+				"Each row contains a set of buttons that represent all possible block faces to which the ingredient"
+				"can be sent to. Leaving the Selection in the \"A\" button will send it to whatever face is directly connected to the"
+				"Pattern Provider, while choosing a specific face will force that to be where items will be inserted. It's important to"
+				"note that advanced patterns can only be decoded properly by a small Adv Pattern Provider"
+				"or Adv Pattern Provider and will behave like a normal pattern if used in other types of"
+				"pattern provider. Additionally, if a single item cannot be inserted in the specified face, no items will be inserted"
+				"directionally and standard pattern provider behaviour will be applied."
+			]
+			id: "18DA07CE1ACC69EF"
+			rewards: [{
+				id: "608A98D1B959EBCE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1877B21E12DF02A3"
+					item: "advanced_ae:small_adv_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "028B4F8D6D1A7060"
+					item: "advanced_ae:small_adv_pattern_provider_part"
+					type: "item"
+				}
+				{
+					id: "6DBAFE0C1A09A443"
+					item: "advanced_ae:adv_pattern_provider_upgrade"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&4ME Advanced Pattern Provider&r is a new type of &3Pattern Provider&r that upgrades"
+				"a standard version or an &cExtended Pattern Provider&r with the capability to configure the face to"
+				"which any individual item in a pattern will be pushed to. This powerful addition allows for automation of machines that"
+				"require specific sides for specific inputs to be done with a single block and no pipes!"
+				""
+				"*Looking at you, Mekanism.*"
+				""
+				"To be able to use this feature, you'll need to insert an &2Advanced Processing Pattern&r created"
+				"by inserting an encoded pattern in a &aAdvanced Pattern Encoder&r and taking out the advanced"
+				"version."
+			]
+			id: "24DBBC97F8635A16"
+			rewards: [{
+				id: "16C46D21A4D09511"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61DBA06121C1BFF9"
+					item: "advanced_ae:adv_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "6FCF921499F7B7E9"
+					item: "advanced_ae:adv_pattern_provider_part"
+					type: "item"
+				}
+				{
+					id: "2F7B146A3DAD1805"
+					item: "advanced_ae:adv_pattern_provider_capacity_upgrade"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&4Throughput Monitors&r are a subtype of monitor. They provide the same functionalities a <ItemLink id=\"ae2:storage_monitor\" />"
+				"does, with the addition of a throughput meter. I will keep track of a single item/fluid type and monitor changed to its"
+				"quantity, displaying the amount per second to the user."
+				""
+				"It does *not* require a channel."
+				""
+				""
+				"The &1Throughput monitor configurator&r is a tool that can be used to change the presented data. Right-clicking a monitor"
+				"with one in hand will cycle between three options:"
+				""
+				"* Items per tick"
+				"* Items per second"
+				"* Items per minute"
+				""
+				"Note: It may take some time before the readings stabilize when changing the modes, so don't trust initial values!"
+			]
+			id: "58F07416B7E6A42F"
+			rewards: [{
+				id: "3A870C157FFBF8A8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24EDA64371313DBB"
+					item: "advanced_ae:throughput_monitor"
+					type: "item"
+				}
+				{
+					id: "24708DBA83C73C62"
+					item: "advanced_ae:throughput_monitor_configurator"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &cStock Export Bus&r can be configured to export an exact amount of the filtered stacks. It keeps track of the amount"
+				"currently present in the target inventory and doesn't insert above that number. To configure it, you open the GUI, drag"
+				"the desired item into the filter slot and, using a middle click, you can configure the amount. Note that it will not"
+				"regulate the output, meaning it won't extract extra items/fluids from the inventory if they go over the configured"
+				"amount."
+				""
+				""
+				"The &2Import &9Export&r &4bus&r&r is a mixture of an &2Import Bus&r and an &9Export Bus&r. The"
+				"filter can be set to configure the exported stacks. Anything that is not on the filter is a valid stack to be imported."
+			]
+			id: "55EDCD2CB3329A4D"
+			rewards: [{
+				id: "4A5D0A16355AC9B6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F68E5C0D2DCEED6"
+					item: "advanced_ae:stock_export_bus_part"
+					type: "item"
+				}
+				{
+					id: "737241E7D6A8FC74"
+					item: "advanced_ae:import_export_bus_part"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &1Quantum Crafter&r is a powerful and configurable auto-crafter. With the entire inventory of the AE systems at its"
+				"grasp, crafting non-stop becomes a trivial task. It is capable of running crafting jobs at a very fast pace while making"
+				"sure you never run out of crucial resources. It is also capable of running fluid substitution crafts as well as"
+				"recursive crafts, which have an input as an output."
+			]
+			id: "75D242FBEA58818C"
+			rewards: [{
+				id: "0E10B458476813A4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E8B0A2128A90462"
+				item: "advanced_ae:quantum_crafter"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"423C4C79C8DB1F6E"
+				"75091FDCAFC632ED"
+			]
+			description: ["The Quantum Upgrade Base doesn't do anything special on its own, but it is used as a crafting ingredient for all upgrade cards."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5D5C5B1F12462C2E"
+			rewards: [{
+				id: "3C4B20789225F4F8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "10E1D3FEC9732E1F"
+				item: "advanced_ae:quantum_upgrade_base"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "53587262A433C302"
+			rewards: [{
+				id: "10A95EC3EFE344BF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EA3648C616CA787"
+				item: "advanced_ae:walk_speed_card"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "3BAE0CA249B3AF85"
+			rewards: [{
+				id: "19DD32A61EB10EFA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "008A0F210EC48AFF"
+				item: "advanced_ae:sprint_speed_card"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "72CD594B06A3D8C9"
+			rewards: [{
+				id: "45C94392E4C94D28"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C4068A65337626"
+				item: "advanced_ae:step_assist_card"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "7F6CF5E7660186F4"
+			rewards: [{
+				id: "717F4F5C143E486D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00A3006595D3CFF5"
+				item: "advanced_ae:jump_height_card"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "38F05A767A95BA4F"
+			rewards: [{
+				id: "0DA80EDFE157D598"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A773A4BFED5704E"
+				item: "advanced_ae:lava_immunity_card"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "7A98FCB88B49E8B5"
+			rewards: [{
+				id: "48E494F688253E93"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D4908F1CE794E3"
+				item: "advanced_ae:flight_card"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "1A82B41793088F05"
+			rewards: [{
+				id: "34820E6B2F770115"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "774D8D193D2F2479"
+				item: "advanced_ae:water_breathing_card"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			description: [
+				"The &4Auto Feeding Card&r enables the selection of specific items to be used to feed the player."
+				""
+				"Simply drag the desired items into the filter slots and if the equipment is linked to the AE2 grid, it will try to find them in the system to feed the player when hungry."
+			]
+			id: "6A1A8BF1DA2D269C"
+			rewards: [{
+				id: "4DD4DE7349EDAABD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "534B0E77BA562A4B"
+				item: "advanced_ae:auto_feeding_card"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			description: [
+				"The &4Auto Stock Card&r also requires the equipment piece to be linked to the AE2 system and the proper range to the access point."
+				""
+				"It enables the configuration of a few stacks to be always kept at specific amounts in the user inventory."
+				""
+				"The slots are not limited to a stack, so you can set them to have more than one slot filled in inventory at all times if you so desire."
+			]
+			id: "1AC6F14C218DD46A"
+			rewards: [{
+				id: "00CC540017D42642"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7287DB10338D488C"
+				item: "advanced_ae:auto_stock_card"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "753DE33B3A4B155C"
+			rewards: [{
+				id: "7A7593FCB17C3448"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "762DAD915146AFCE"
+				item: "advanced_ae:magnet_card"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "213F8D9402B5046A"
+			rewards: [{
+				id: "62BF453C9848CF2E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74D10FBAA77ADEDB"
+				item: "advanced_ae:hp_buffer_card"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "7DA2208D8C20B5CE"
+			rewards: [{
+				id: "7597058DA3171CBB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76BA1377B4B8AE26"
+				item: "advanced_ae:evasion_card"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "3434D50487D65847"
+			rewards: [{
+				id: "67617584A9B3A294"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19255607F9DE8219"
+				item: "advanced_ae:regeneration_card"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "78926DDDB7EC0D01"
+			rewards: [{
+				id: "7C21E4780548DF57"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7908069C7A2D9088"
+				item: "advanced_ae:strength_card"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "690E54A59C0EA57D"
+			rewards: [{
+				id: "0D27F1F02BAE8007"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0692E35BA09BDF76"
+				item: "advanced_ae:attack_speed_card"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "5230605BB77C9023"
+			rewards: [{
+				id: "35684ECCDC1E9390"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32A4C12166D60F9C"
+				item: "advanced_ae:luck_card"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "712384BB02405F0E"
+			rewards: [{
+				id: "7451348C032E0EFD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C8C5CCAAE7D77AA"
+				item: "advanced_ae:reach_card"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "3785709704479CB6"
+			rewards: [{
+				id: "3B1EFB4870CD3BD0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "137C0A8331CE4E1E"
+				item: "advanced_ae:swim_speed_card"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "4CA0753DC10E0AB0"
+			rewards: [{
+				id: "4CC8984F5C8540B8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE528EEAC690A6D"
+				item: "advanced_ae:night_vision_card"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "0B294FAAA95A05C8"
+			rewards: [{
+				id: "78A540E1D698FA5B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1272054478FC50F8"
+				item: "advanced_ae:flight_drift_card"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "3020BE06C1C3BA1B"
+			rewards: [{
+				id: "543344361D00CD4D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A74C0B98020E7F"
+				item: "advanced_ae:recharging_card"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "3C9C0DAFF14E1582"
+			rewards: [{
+				id: "1910CF8FB97C248F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E254227F36E56D8"
+				item: "advanced_ae:portable_workbench_card"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D5C5B1F12462C2E"]
+			id: "2DB5F58E6290DA71"
+			rewards: [{
+				id: "0C1996DD1AB6B521"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2AF5E84B1F0525"
+				item: "advanced_ae:pick_craft_card"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"37D2BC3357C4C258"
+				"74068F67A2FC5670"
+			]
+			id: "75091FDCAFC632ED"
+			rewards: [{
+				id: "4BE70545D21F2681"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "504E7979978609A0"
+				item: "advanced_ae:quantum_alloy_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["750B10A7ADE8DE08"]
+			description: [
+				"&4Advanced AE&r focuses on improving user experience when handling your &1ME System&r and expanding the possibilities of"
+				"end-game systems. This mod allows you to &aupgrade pattern providers&r with the capability to push items to specific sides"
+				"of the target machines and create multiblock computers that can run an unlimited amount of crafts, sharing"
+				"co-processors, while it has crafting storage left, plus a ton of other quality of life additions!"
+			]
+			id: "5007013C1A395087"
+			rewards: [{
+				id: "06C9DE9A732A1A39"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6578BD2FF71F4F14"
+				title: "Advanced AE"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D950D37BA27DF62"]
+			description: [
+				"The &4Quantum core&r is the heart of the &1Quantum Computer&r. It has 256M of crafting storage and 8 co-processor threads by"
+				"itself."
+				""
+				"It's the only block that can create a formed quantum computer by itself and provide all the benefits of a quantum computer."
+				""
+				"However, if used to create a multiblock, a much more powerful computer can be created."
+				""
+				"When used as a standalone computer, power must be provided through the Up or Down sides, where the connectors are."
+			]
+			id: "5680D3DCB53D9EAD"
+			rewards: [{
+				id: "276E2CABAFE1D818"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01A477861F7F30E7"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D950D37BA27DF62"]
+			description: [
+				"These blocks provide the framing of the quantum computer. They are used as a building block for the quantum computer and"
+				"connect everything together."
+			]
+			id: "0ACCCC1B217D98D0"
+			rewards: [{
+				id: "153B31FE298E8ED1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "302C59CDACB228ED"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D950D37BA27DF62"]
+			description: [
+				"Similarly to the Data Entanglers, &4multi-threaders&r enable accelerators to run extra threads in separate dimensions,"
+				"multiplying their co-processing power by 4. Only one of these can be placed in each quantum computer multiblock."
+			]
+			id: "441202CC380854DF"
+			rewards: [{
+				id: "68FA5FE42D95D697"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18A1191D142A3479"
+				item: "advanced_ae:quantum_multi_threader"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D950D37BA27DF62"]
+			description: [
+				"&4Quantum accelerators&r add &28 co-processors&r to the Quantum Computer multiblock. It's important to note that all crafting"
+				"patterns being run by the quantum computer are able to share all co-processors, so it's probably a good idea to invest"
+				"in a great amount of these."
+			]
+			id: "20C24A8F55709AC6"
+			rewards: [{
+				id: "294BB0AE4810B82F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6694F900E7B70324"
+				item: "advanced_ae:quantum_accelerator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D950D37BA27DF62"]
+			description: [
+				"&4Data Entanglers&r are a special block that affect all storage blocks present in the multi-block. They enable storage"
+				"blocks to store data in several dimensions, effectively multiplying their storage by 4. Only one of these can be placed"
+				"in each quantum computer multiblock."
+			]
+			id: "1359A69F4F6B6CF1"
+			rewards: [{
+				id: "06DC0B4790808750"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C6A7EB9D7B912D"
+				item: "advanced_ae:data_entangler"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D950D37BA27DF62"]
+			description: [
+				"These blocks expand the crafting storage of the quantum core. They effectively increase the amount of concurrent tasks"
+				"the quantum computer is able to run. There are two variations, with &4128M&r and &2256M&r of capacity."
+			]
+			id: "2956AF6FF3F119B2"
+			rewards: [{
+				id: "0317FFB89D71B73F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C25983C53E7B058"
+					item: "advanced_ae:quantum_storage_128"
+					type: "item"
+				}
+				{
+					id: "2544EE4E4AD5AC33"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"To create a multiblock quantum computer, some rules must be followed:"
+				""
+				"- The maximum size is &17x7x7&r (external dimensions);"
+				"- &cNo empty spaces&r can be present inside the multiblock. They can be filled with Quantum Unit for no additional benefits;"
+				"- Exactly &2one Quantum Core&r;"
+				"- At most &6one Data Entangler&r;"
+				"- At most &aone Quantum Multi Threader&r;"
+				"- All blocks on the &boutside layer must be Quantum Structure&r;"
+				"- No block on the inside can be Quantum Structure."
+				"{image:kubejs:block/screen/advanced_ae_multiblock width:100 height:100 align:center fit:true}"
+			]
+			hide_dependent_lines: true
+			id: "2D950D37BA27DF62"
+			rewards: [{
+				id: "73570674EAE48E37"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "2E22CF68F94A1DAA"
+				title: "Multiblock Info"
+				type: "checkmark"
+			}]
+			title: "Advanced AE Multiblock"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Assembler Matrix is a multiblock structure. It is an combination of Molecular Assembler and Pattern Provider."
+				""
+				"It can run a lot crafting jobs at the same (with enough Crafting Accelerators in your ME network) and save channels for you."
+				""
+				"It is a rectangular prism, with edge lengths between 3 and 7. "
+				"- Edges composed of &cAssembler Matrix Frame&r."
+				"- Faces composed of &9Assembler Matrix Wall/Glass&r."
+				"- Interior composed of &2Assembler Matrix Pattern/Craft/Speed Core&r."
+				""
+				"A valid Assembler Matrix must contain at least one pattern core and craft core. "
+				"It must be completely filled and can't be hollow."
+				"When Assembler Matrix is correctly formed and powered, the lines on Assembler Matrix Frame will turn blue."
+				"{image:kubejs:block/screen/extended_ae_multiblock width:100 height:100 align:center fit:true}"
+			]
+			hide_dependent_lines: true
+			id: "0ECD78BDD6FABA7C"
+			rewards: [{
+				id: "028AEE77AE03B540"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "0959117F11D04843"
+				title: "Multiblock Info"
+				type: "checkmark"
+			}]
+			title: "Advanced AE Multiblock"
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0ECD78BDD6FABA7C"]
+			id: "4D7EF99A34233979"
+			rewards: [{
+				id: "45D752BFBE130D9E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A66460508B61A3C"
+				item: "expatternprovider:assembler_matrix_frame"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0ECD78BDD6FABA7C"]
+			id: "0825C288B0AF3E44"
+			rewards: [{
+				id: "1C86E8F9447CE923"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "755ACEBBAA2BE9EE"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "498434029681C943"
+					item: "expatternprovider:assembler_matrix_glass"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0ECD78BDD6FABA7C"]
+			id: "5E3441120E4C5A2D"
+			rewards: [{
+				id: "123CD67FEDAE706F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21E91958D99A03A6"
+				item: "expatternprovider:assembler_matrix_pattern"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0ECD78BDD6FABA7C"]
+			id: "29806054C47D0478"
+			rewards: [{
+				id: "51732DB74BD1A71B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C3A0A2E6A5DDFC1"
+				item: "expatternprovider:assembler_matrix_crafter"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0ECD78BDD6FABA7C"]
+			description: ["5 max"]
+			id: "6E14D2CF2A950157"
+			rewards: [{
+				id: "216EE897DCE5CFB7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B3C1F7E30FC05F6"
+				item: "expatternprovider:assembler_matrix_speed"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AA72D6706542CA6"]
+			hide_dependency_lines: true
+			id: "1168E67611CD8473"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode infinite"
+				id: "0B4E960D24EBFA33"
+				title: "Deactivate Channels"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E2F0B372A6BD7F8"
+				title: "Disable Channels"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AA72D6706542CA6"]
+			hide_dependency_lines: true
+			id: "72DB9CE799477E9C"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode default"
+				id: "20A2A48F60989F13"
+				title: "Activate Channels Default"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7B7ED4D6FCF8A468"
+				title: "Activate Channels Default"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AA72D6706542CA6"]
+			hide_dependency_lines: true
+			id: "413398C47C6392B1"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode x2"
+				id: "667E07B23CB2808B"
+				title: "Activate Channels 2x"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4ABD302B3ABB2BFB"
+				title: "Activate Channels 2x"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AA72D6706542CA6"]
+			hide_dependency_lines: true
+			id: "52CE6093E37F27FB"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode x3"
+				id: "0D732879B2A56646"
+				title: "Activate Channels 3x"
+				type: "command"
+			}]
+			tasks: [{
+				id: "070D4434E5C1767C"
+				title: "Activate Channels 3x"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AA72D6706542CA6"]
+			hide_dependency_lines: true
+			id: "2A1E9CC6A78B279C"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode x4"
+				id: "1F9469166DF2BD73"
+				title: "Activate Channels 4x"
+				type: "command"
+			}]
+			tasks: [{
+				id: "56180E379CE4AA0A"
+				title: "Activate Channels 4x"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Elementium Ingot",
+  "colors": [
+    "cc72e8",
+    "e0a5f2"
+  ],
+  "ingredient": {
+    "item": "botania:elementium_ingot"
+  },
+  "materialCount": 15000
+}

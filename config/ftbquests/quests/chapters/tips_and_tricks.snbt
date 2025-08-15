@@ -1,0 +1,1448 @@
+{
+	autofocus_id: "3CBB903CD09268AF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tips_and_tricks"
+	group: ""
+	id: "1BE666F01EFFC00D"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/spectral_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.16666666666665d
+			y: 4.238095238095255d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/spectral_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 0.2857142857142776d
+			y: 4.285714285714285d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/spectral_arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 0.2619047619047876d
+			y: 1.7619047619047734d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/spectral_arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.214285714285701d
+			y: 1.7619047619047734d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&rThe Building Gadgets 2 mod speeds up building by letting players quickly place or remove large areas of blocks."]
+			id: "0F75D7B9F4FF2459"
+			rewards: [{
+				id: "4F4959C6CA30683B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "358F3A8EA9E5E7E3"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "008AD88A1CDCEE5E"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "4738B22DF26DB2D8"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "283D88FA9196A4AC"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			title: "Building Gadget"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: ["&rThe Construction Wand mod allows players to place multiple blocks simultaneously, facilitating faster and more efficient building. Depending on the wand's material, up to 1,024 blocks can be placed at once."]
+			id: "2A2E3D020B1F5126"
+			rewards: [{
+				id: "73E17D3567E3D6BD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "05D9E287D437CDDB"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Wand"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"The Simple Magnets mod introduces items that automatically attract nearby items and experience orbs to the player. "
+				""
+				"It features two main magnets:"
+				""
+				"&4Basic Magnet&f: Attracts items and experience within a 5-block radius."
+				""
+				"&2Advanced Magnet&f: Offers a configurable range and filtering options, allowing for more precise control over which items are attracted."
+				""
+				""
+				"Additionally, the mod includes &dDemagnetization Coils&f, which create areas where magnets are ineffective, preventing unwanted attraction of items in specific zones."
+			]
+			id: "3FC002E5A6C08DCC"
+			rewards: [{
+				id: "256A43FECEFF24DB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4112D6272EC400DE"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Magnet"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			description: ["The &5Rending Gale&r in the ProjectE mod is a powerful item that grants creative-style flight and the ability to launch lightning bolts at mobs. It consumes EMC or fuel (like Glowstone) while active and must be toggled on to use its abilities."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:swiftwolf_rending_gale"
+			}
+			id: "25E585C8AE7430DC"
+			rewards: [{
+				id: "0F1FEE53279D1DCB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1E0446C02381B91A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:swiftwolf_rending_gale"
+					}
+					type: "item"
+				}
+				{
+					id: "6E2C6FF70F097FA5"
+					item: "projecte:relay_mk1"
+					type: "item"
+				}
+			]
+			title: "Rending Gale"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "0821032D8ACE7E82"
+			rewards: [{
+				id: "06651311BB1B0C7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1D6930C723F7BF7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			description: ["Gateways to Eternity adds wave-based combat events where you summon portals and fight through enemy waves for rewards."]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:emerald_grove"
+				}
+			}
+			id: "70E66957E98D944D"
+			rewards: [{
+				id: "3CAA8F1EE5F5D087"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "260FFAB5EB3E1D3E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/blaze"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/enderman"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/slime"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:emerald_grove"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:endless/blaze"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:overworldian_nights"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:cataclysm_ender"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:cataclysm_ignis"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:gateway_of_the_giants"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:hellish_fortress"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:trials_of_ignis"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:trials_of_the_ancient_remnant"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:trials_of_the_harbinger"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Gateway"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: ["&rThe Torchmaster mod adds special light sources like the Mega Torch that prevent hostile mobs from spawning within a certain radius."]
+			icon: "torchmaster:megatorch"
+			id: "2874646A910EA889"
+			rewards: [{
+				id: "10D78D51349C01D1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2EBAFA63D3D96B6C"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					id: "32A72CBDA8A7CCB2"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+				{
+					id: "2771EAC66CE43976"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+				{
+					id: "15185F7D9371601D"
+					item: "torchmaster:frozen_pearl"
+					type: "item"
+				}
+			]
+			title: "Torchmaster"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["The Angel Block mod adds a special block that can be placed in mid-air without needing support, making it perfect for building floating structures or starting sky-based builds."]
+			icon: "angelblockrenewed:angel_block"
+			id: "0BD5C89908C16DDB"
+			rewards: [{
+				id: "51F75B8830FE74FE"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "7FC432296FD02074"
+				item: "angelblockrenewed:angel_block"
+				type: "item"
+			}]
+			title: "Angel Block"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["&rThe Baubley Heart Canisters mod adds heart canisters that increase your max health. They’re equipped via Curios slots and come in different tiers, with stronger hearts dropped from tougher mobs."]
+			icon: "bhc:red_heart_canister"
+			id: "550D14F2C1CB91DF"
+			rewards: [{
+				id: "6EA023F9B41C59BC"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "363A570806943D0B"
+					item: "bhc:red_heart"
+					type: "item"
+				}
+				{
+					id: "0D18F66B4B2E71A5"
+					item: "bhc:red_heart_canister"
+					type: "item"
+				}
+				{
+					id: "335EA0D02878DB99"
+					item: "bhc:heart_amulet"
+					type: "item"
+				}
+			]
+			title: "Heart Canister"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: ["The Cobble for Days mod adds simple cobblestone generators that produce cobble automatically without needing water or lava setups. Higher-tier generators produce cobblestone faster."]
+			icon: "cobblefordays:tier_1"
+			id: "68B70D3C33B1A218"
+			rewards: [{
+				id: "50CA0D6FB125FBAF"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "748BFD9A190EFE3E"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			title: "Cobblestone Generator"
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			description: ["The Digital Miner from Mekanism is a high-tech, customizable mining machine that can automatically scan and mine specific blocks from a large area, even through obstacles."]
+			id: "39F0944503669D86"
+			rewards: [{
+				id: "32B06B319FFB2BBE"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "590033420D8AEEEB"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Digital Miner"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: ["The Compacter mod adds a simple machine that automatically crafts items into 2x2 or 3x3 compressed forms, like turning nuggets into ingots or ingots into blocks. It supports recursive compacting and runs on RF or EU power."]
+			icon: "compacter:compacter"
+			id: "3887F065A1B917DC"
+			rewards: [{
+				id: "757C29EC980691C0"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			subtitle: "for the sieve?"
+			tasks: [{
+				id: "013061F4A17E61C8"
+				item: "compacter:compacter"
+				type: "item"
+			}]
+			title: "Compactor"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: ["Find the settings in your Inventory in the top left corner"]
+			id: "72026F51769FE691"
+			rewards: [{
+				id: "70E30476631BBF48"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "25ECB4BE7185468F"
+				title: "muffler"
+				type: "checkmark"
+			}]
+			title: "Extreme Muffler"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Mine up to 128 of the same block for hunger. Change the hotkey in your keybinds. Search for \"FTB Ultimine\""]
+			id: "5A2174711D9219BF"
+			rewards: [{
+				id: "00B47659A517F31E"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5F5B1B7F605C5997"
+				title: "FTB Ultimine"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: ["&rThe LaserIO mod allows players to manage items, fluids, energy, and redstone signals using a single block face, offering flexible and efficient resource transportation."]
+			icon: "laserio:laser_node"
+			id: "70CC7F36C90AFAD6"
+			rewards: [{
+				id: "0A018BD611DF7B28"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "40C1A763666024C8"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "40AAE76EDB958A58"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "1D7B116791B36DE7"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The Time in a Bottle mod introduces an item that passively accumulates time while in your inventory."
+				""
+				"You can use this stored time to accelerate block processes, such as speeding up furnaces or crop growth."
+				""
+				"Right-clicking a block with the bottle increases its tick rate, with each successive click doubling the speed but requiring more stored time."
+				""
+				"The acceleration effect lasts for 30 seconds."
+			]
+			id: "3DC75B276FB694C9"
+			min_width: 400
+			rewards: [{
+				id: "790C10BDAF99FB54"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "07D0DE040B869035"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: {
+						storedTime: 0
+						totalAccumulatedTime: 0
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "12D1983081A8D945"
+			rewards: [{
+				id: "1B0290923787B282"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			subtitle: "Here are some mining dimensions"
+			tasks: [
+				{
+					id: "740AD0132B3CFCDD"
+					item: "jamd:portal_block"
+					type: "item"
+				}
+				{
+					id: "157EDE3342D9D5C4"
+					item: "jamd:nether_portal"
+					type: "item"
+				}
+				{
+					id: "513C627F1ECC66A4"
+					item: "jamd:end_portal"
+					type: "item"
+				}
+			]
+			title: "Portal"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "44EB5188DD7FB011"
+			rewards: [{
+				id: "1A9562CE703EA35B"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			subtitle: "A void dimension without mob spawn"
+			tasks: [{
+				id: "611D5361E401A76C"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			title: "Void Dimension"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			description: [
+				"&6Pipez&r mod adds &o&bsimple&r and &o&bhighly configurable&r pipes that are designed to create"
+				"&nas little lag as possible&r."
+				""
+				"Pipe Types:"
+				"• &eItem&r Pipes"
+				"• &9Fluid&r Pipes"
+				"• &cEnergy&r Pipes"
+				"• &3Gas&r Pipes (Mekanism)"
+				"• &8Universal&r Pipes (All &o&b4&r Pipes in one!)"
+				""
+				"Pipes &o&bdon't transfer anything&r if they are not set to &nextract&r."
+				"You can &eSneak-click&r onto the end of a connected pipe with a &2Wrench&r to set it to &o&bextract&r."
+				""
+				"Click the &nextracting&r part of the pipe to &o&bchange modes&r, add &3filters&r or add &aupgrades&r."
+				""
+				"Pipes can be &cdisconnected&r/&9reconnected&r by &eSneak-clicking&r with a &2Wrench&r."
+				""
+				"By default pipes are &o&brelatively slow&r. The speed can &nonly&r be increased by &o&badding an upgrade&r."
+				"Higher tiers of upgrades mean a higher transfer rate."
+				""
+				"&3Filters&r can be used with &aitem&r pipes, &9fluid&r pipes and &7gas&r pipes. To add a specific item, just &eClick&r it on the slot in the filter &o&bGUI&r. Alternatively you can type the item &o&bID&r in the text field next to it."
+			]
+			id: "4D3274AE190EEA88"
+			min_width: 420
+			rewards: [{
+				id: "23FCA2ADD2F1B74E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "6A0219D60B532D3D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pipez:item_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:energy_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:gas_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:universal_pipe"
+								}
+							]
+						}
+					}
+					title: "Pipes"
+					type: "item"
+				}
+				{
+					id: "506AD15B9CF8A11D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pipez:basic_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:improved_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:advanced_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:ultimate_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:infinity_upgrade"
+								}
+							]
+						}
+					}
+					title: "Pipe Upgrades"
+					type: "item"
+				}
+				{
+					id: "338BC8E1EC3F370E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "65E0F0F244C7800E"
+					item: "pipez:filter_destination_tool"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&6Item Collectors&r adds collectors which collect items in a specified range! Item Collectors can be &bwhitelisted&r or &8blacklisted&r!"
+				""
+				"&aBasic Item Collector"
+				"• The &o&bBasic Item Collector&r has a range of up to &o&b5&r blocks!"
+				"• &eRight-Click&r a &o&bBasic Item Collector&r to open its &o&bGUI&r."
+				""
+				"&dAdvanced Item Collector"
+				"• The &o&bAdvanced Item Collector&r has a range of up to &o&b7&r blocks!"
+				"• &eRight-Click&r an &o&bAdvanced Item Collector&r to open its &o&bGUI&r."
+				"• The &o&bAdvanced Item Collector&r can &3filter&r items."
+			]
+			id: "7F9F08CF09D81EB6"
+			min_width: 300
+			rewards: [{
+				id: "30A125CD9F9F9697"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3FFE0955892BD696"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemcollectors:basic_collector"
+							}
+							{
+								Count: 1b
+								id: "itemcollectors:advanced_collector"
+							}
+						]
+					}
+				}
+				title: "Item Collectors"
+				type: "item"
+			}]
+			title: "Item Collectors"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"This mod adds &6Trash Cans&r which can be used to &o&bvoid&r &eitems&r, &9fluids&r and &cenergy&r!"
+				""
+				"&eItems&r and &9Fluids&r can be &bwhitelisted&r or &8blacklisted&r and an &cenergy&r &ntransfer limit&r can be set!"
+			]
+			id: "684F432B43D104A1"
+			min_width: 300
+			rewards: [{
+				id: "0C1AA8435D50FE0F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3A2DB05E8D97733D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trashcans:item_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:liquid_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:energy_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:ultimate_trash_can"
+							}
+						]
+					}
+				}
+				title: "Trash Cans"
+				type: "item"
+			}]
+			title: "The Trash Cans"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&6Cardboard Box&r is used for &o&bboxing up&r other blocks to move them, preserving the inventory while being &o&bmoved&r."
+				""
+				"By &eRight-Clicking&r it on any &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r, you &nwrap&r it in this protective box that you can break while still preserving everything about that &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r. This includes its &o&binventory&r, &o&borientation&r, &o&binstalled upgrades&r, and &o&bmore&r. You can later place it safely into the world. &eSneak+Right-Click&r to &nunwrap&r a box, causing the &6Cardboard Box&r to drop as an item."
+				""
+				"With &6Cardboard Boxes&r you can pick up &nspawners&r too."
+			]
+			id: "2E20069AE6C51ADF"
+			min_width: 400
+			rewards: [{
+				id: "3EE1C4EA25D16895"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "26996718B3CEDAF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mekanism:cardboard_box"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&2Nature's Compass&r is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
+				""
+				"&3Structure Compass&r is an item that allows you to locate structures anywhere in the world."
+				""
+				"&eRight-Clicking&r with &o&bCompass&r in hand will open the selection &o&bGUI&r, from which you can search for a biome/structure or view information about it."
+				""
+				"&eShift+Right-Clicking&r will &nreset&r the compass's state."
+			]
+			id: "7D557A396FB12D0A"
+			min_width: 300
+			rewards: [{
+				id: "09C7F309462D0D18"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6577E9C9B9BAF288"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturescompass:naturescompass"
+							}
+							{
+								Count: 1b
+								id: "structurecompass:structure_compass"
+							}
+						]
+					}
+				}
+				title: "Compasses"
+				type: "item"
+			}]
+			title: "The Compasses"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["The &dTelePastries&r mod introduces dimension-specific cakes that, when consumed, teleport players to corresponding dimensions. This mod is particularly useful in Skyblock-style gameplay, offering an alternative to traditional portals."]
+			icon: "telepastries:overworld_cake"
+			id: "721FC1AE7D78A0D8"
+			rewards: [{
+				id: "7F9A2EF5FAC05451"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2E0517739D68C918"
+					item: "telepastries:overworld_cake"
+					type: "item"
+				}
+				{
+					id: "18F64883C5741159"
+					item: "telepastries:nether_cake"
+					type: "item"
+				}
+				{
+					id: "023CAD539EC9FF38"
+					item: "telepastries:end_cake"
+					type: "item"
+				}
+				{
+					id: "3A03B027E888165E"
+					item: "telepastries:twilight_cake"
+					type: "item"
+				}
+				{
+					id: "059023ACB3D76F15"
+					item: "telepastries:lost_city_cake"
+					type: "item"
+				}
+				{
+					id: "0C776D99D2A5397C"
+					item: "telepastries:custom_cake"
+					type: "item"
+				}
+			]
+			title: "Cakes"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["The &6Tempad&r mod introduces a device inspired by the \"Loki\" series, allowing players to save specific locations and teleport to them from anywhere in the game world. Users can customize the color of the portals and the interface, with 30 available options."]
+			id: "20F4CBC52CD12260"
+			rewards: [{
+				id: "2195836678E272FB"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "21B1A6D1E4DECF01"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			description: ["&rThe Flux Networks mod enables wireless energy networks, allowing customizable, cross-dimensional power transfer without the need for extensive cabling."]
+			id: "6A7F7835B4FFED38"
+			rewards: [{
+				id: "196071A366681DEC"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "06ECCE2276923EDA"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "27BBB1F0DE70BDBA"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"The &2DimStorage&r mod adds cross-dimensional storage for items and fluids:"
+				""
+				"- &9DimStorage Tank&r: Share item storage across distances using color-coded frequencies."
+				""
+				"- &2DimStorage Tank&r: Do the same for fluids, making it easy to transport liquids like lava or water between dimensions."
+				""
+				"Both are great for automation and long-distance resource transfer."
+			]
+			id: "5BAFDEC1D5F8FDFF"
+			rewards: [{
+				id: "4308ED2968106A05"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3F5A426DB1372DAC"
+					item: "dimstorage:dimensional_chest"
+					type: "item"
+				}
+				{
+					id: "47F73A23CD63099C"
+					item: "dimstorage:dimensional_tank"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			icon: "nuclearcraft:water_collector"
+			id: "209438A4F154203C"
+			rewards: [{
+				id: "2CF337E7A9C257A1"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			subtitle: "A easy way to get infinite water"
+			tasks: [
+				{
+					id: "6DDB2A796B000ABC"
+					item: "nuclearcraft:pump"
+					type: "item"
+				}
+				{
+					id: "5F8EAE9B89491BBA"
+					item: "nuclearcraft:water_collector"
+					type: "item"
+				}
+				{
+					id: "4C79B514CED33299"
+					item: "nuclearcraft:compact_water_collector"
+					type: "item"
+				}
+				{
+					id: "76ACDFED8C0D7A3D"
+					item: "nuclearcraft:dense_water_collector"
+					type: "item"
+				}
+			]
+			title: "Infinite Water"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"In Applied Energistics 2, presses are used with the Inscriber to create key components for the ME system. There are four types:"
+				""
+				"- &eLogic Press&r – for logic processors (gold)"
+				"- &fCalculation Press&r – for calculation processors (pure Certus Quartz)"
+				"- &bEngineering Press&r – for engineering processors (diamond)"
+				"- &8Silicon Press&r – for printed silicon"
+				""
+				"These presses are typically found in meteorites scattered around the world (&2Lost Cities&r)."
+			]
+			icon: "ae2:calculation_processor_press"
+			id: "04A7299079141D52"
+			rewards: [{
+				id: "2D37D3A6A26C1E41"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1D0A9080B6CCD4F6"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					id: "1050C4CA5E89464C"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "0CC39A03E3DF87EF"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "2F60FEF424EE8127"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "5E926A9A8C55E3B2"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: ["The &1modular routers&r mod adds a block that can move items, place or break blocks, shoot projectiles, and more using upgradeable modules. It’s highly customizable and useful for automation in compact setups."]
+			icon: "modularrouters:modular_router"
+			id: "5A2AF10773FA8B2D"
+			rewards: [{
+				id: "7301118E018DCD5F"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2402603B9549C180"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "29BFF57D3036C13F"
+					item: "modularrouters:sender_module_1"
+					type: "item"
+				}
+				{
+					id: "4966A7797E61D31B"
+					item: "modularrouters:puller_module_1"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: ["&rThe Entangled mod lets you link two blocks so that interacting with one affects the other, even from a distance."]
+			icon: {
+				Count: 1
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "5DE6CDBDD36EC3CC"
+			rewards: [{
+				id: "49430260EC7436A3"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "24B2B1A5FBAE2794"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "502FF740A1484083"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["The Compact Machines mod adds tiny personal dimensions inside special blocks, allowing players to build complex systems in a small space. It’s great for automation, redstone, and keeping your main base tidy."]
+			icon: "compactmachines:personal_shrinking_device"
+			id: "6D0D293C2771D49C"
+			rewards: [{
+				id: "742743B538EB05A1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "74AC59E3CB78AB27"
+					item: "compactmachines:machine_tiny"
+					type: "item"
+				}
+				{
+					id: "36FECF870F320795"
+					item: "compactmachines:machine_small"
+					type: "item"
+				}
+				{
+					id: "60664CC58FB27F46"
+					item: "compactmachines:machine_normal"
+					type: "item"
+				}
+				{
+					id: "7EA638DD2F41B849"
+					item: "compactmachines:machine_large"
+					type: "item"
+				}
+				{
+					id: "32FA1263E076ACA0"
+					item: "compactmachines:machine_giant"
+					type: "item"
+				}
+				{
+					id: "53AE8CC5CB0F00C6"
+					item: "compactmachines:machine_maximum"
+					type: "item"
+				}
+				{
+					id: "55688C3E732E87DF"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A28D0DC1AB298F7"
+					item: { Count: 8, id: "compactmachines:wall" }
+					type: "item"
+				}
+				{
+					id: "6386CB0C085772DE"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:energy"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00E0A01DE7174F71"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:fluid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C579C4274F37C54"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Compact Machines"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Right click and config your height"
+				"shift right click to change your height"
+				"shift right click to change your height back to default"
+				"left click a entity to chage the height"
+				"left click the entity again to change height back to default"
+			]
+			id: "059EC5CDA14D238F"
+			rewards: [{
+				id: "2F20DF06B9E414F7"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4759E6C27FE3BC01"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Shrinking Device"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The mod &1Torcherino&r (from \"Torch\" and \"Rino\" as a nod to \"Turbo\") allows players to speed up certain blocks and processes in the game."
+				""
+				"By placing special torches, you can increase the tick rate of machines, crop growth, or other block-based activities in their vicinity."
+				""
+				"This mod is perfect for making farms more efficient or speeding up slow processes, with customizable settings to tailor the experience."
+			]
+			icon: "torcherino:double_compressed_torcherino"
+			id: "54D3F98DB1BC6BB2"
+			min_width: 350
+			rewards: [{
+				id: "63B5DDBC20EC6F39"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "24DD9DAEDB95BA32"
+					item: "torcherino:torcherino"
+					type: "item"
+				}
+				{
+					id: "56AD780BEC076BBC"
+					item: "torcherino:compressed_torcherino"
+					type: "item"
+				}
+				{
+					id: "6DAB92B17ADD4970"
+					item: "torcherino:double_compressed_torcherino"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "patchouli:project_infinity"
+				}
+			}
+			id: "518405876B7FEB5A"
+			rewards: [{
+				id: "7549D05030692286"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.5d
+			tasks: [
+				{
+					id: "74B116450E93225B"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "patchouli:project_infinity"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "498F2380030A0E4A"
+					item: {
+						Count: 1
+						id: "mbtool:mbtool"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -0.9761904761904674d
+			y: 3.000000000000007d
+		}
+		{
+			icon: "waystones:waystone"
+			id: "74BA767367F2722B"
+			rewards: [{
+				id: "1FB52465B1763ED2"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			subtitle: "A way to teleport between dimensions"
+			tasks: [{
+				id: "1637D01C6CB844C6"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "3B8C1D86F12640E7"
+			ignore_reward_blocking: true
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte setemc 555555555 kubejs:infinity_7"
+					id: "068C6A5F29641910"
+					title: "EMC Value 555.555.555"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/removepregeneratedemc"
+					id: "3D64218FFBD3509D"
+					title: "Remove pregenerated_emc config"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0AC880250BE07E18"
+				title: "Set EMC Value to Infinity 7"
+				type: "checkmark"
+			}]
+			title: "Easier Craft Infinity 7"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			description: ["Automate everything"]
+			id: "06CA3E88417FE311"
+			rewards: [{
+				id: "653B351B18802681"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "03A5B9F5C215C2A6"
+				title: "Automate Everything"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+	]
+	title: "&3Useful mods and Items"
+}

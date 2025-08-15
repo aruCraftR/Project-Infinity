@@ -1,0 +1,11 @@
+{
+  "name": "Enhanced Gold Ingot",
+  "colors": [
+    "ffff00",
+    "737300"
+  ],
+  "ingredient": {
+    "item": "armorplus:en_gold"
+  },
+  "materialCount": 20000
+}

@@ -1,0 +1,550 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "ultimate_challenges"
+	group: "5A71028F4E9FB5EC"
+	id: "77BF0D1882072338"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0C8BB19B42305267"
+			rewards: [
+				{
+					id: "23F8B4ABFBC2B2A1"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E553690F9567D73"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "bloodmagic:soulscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5FE6CF4715CD753A"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 6900000
+			}]
+			title: "&cSince Last Death"
+			x: 3.15d
+			y: -3.15d
+		}
+		{
+			id: "7D8DD102700A5C97"
+			rewards: [
+				{
+					id: "38DDF93EE002BB81"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7851F11A77D7325D"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "5710C05DA1B84695"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 5900000
+			}]
+			title: "&bTime Played"
+			x: -1.05d
+			y: -3.15d
+		}
+		{
+			id: "4641D535199C5F8B"
+			rewards: [
+				{
+					id: "64607DD54F20FFDB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F0C4AE743E1137B"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			subtitle: "1 million steaks waiting to be grilled"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "57BA1BF3724BDAF9"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "&6King of the Grill"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "36901054929FE3EF"
+			rewards: [
+				{
+					id: "2816289512468A08"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "312ACF629C795006"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			subtitle: "Spend 1 million of diamonds to benefit poor"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "79ACBA57DC39394B"
+				item: "minecraft:diamond"
+				title: "1,000,000 Diamonds"
+				type: "item"
+			}]
+			title: "&9Robin Hood"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "7B44968F569EEE16"
+			rewards: [
+				{
+					id: "087E284A95DCC812"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "622E42CB04AA75F1"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			subtitle: "Vanilla Crafting Table"
+			tasks: [{
+				icon: "minecraft:crafting_table"
+				id: "632CDBDBB8ACE278"
+				stat: "minecraft:interact_with_crafting_table"
+				title: "&9Open Crafting Table 1k Times"
+				type: "stat"
+				value: 1000
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "minecraft:wither"
+					}
+				}
+			}
+			id: "4749F46F794687BF"
+			rewards: [
+				{
+					id: "368580F43564009A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2449F02E6375CC90"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "51E2C4E17C4B629C"
+				title: "Kill: 100x Wither"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "4E04E3C10F2CBF85"
+			rewards: [
+				{
+					id: "049AD2E22B83EA08"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080A9EF2FAB622A4"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CFE33E5A9F78A10"
+				points: false
+				title: "XP Levels: &c3,000"
+				type: "xp"
+				value: 3000L
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "37B5AB03011BEAC2"
+			rewards: [
+				{
+					id: "74B1D36C1AAEB65B"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6071B391AEC4B3D0"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "0F332AE1241A512A"
+				stat: "minecraft:sleep_in_bed"
+				title: "Sleep: 3,000x in your bed"
+				type: "stat"
+				value: 3000
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			description: ["Use Jukebox."]
+			id: "1FD5C5128D418042"
+			rewards: [
+				{
+					id: "2475772A80A56DFA"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A23E06FA57AF0C7"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:jukebox"
+				id: "5C69AE6392056334"
+				stat: "minecraft:play_record"
+				title: "Play: 1,000 Music Discs"
+				type: "stat"
+				value: 1000
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "410C1A5F6FA99764"
+			rewards: [
+				{
+					id: "6754A891FD7BA4D1"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56BABC83F2FC0237"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "14B3C291F47A3E72"
+				stat: "minecraft:fish_caught"
+				title: "Catch: 1,500x Fish"
+				type: "stat"
+				value: 1500
+			}]
+			title: "&6That's fishy.."
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "5D9E10F27EEAF2A1"
+			rewards: [
+				{
+					id: "20E24B144B44328C"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BE098FE9ADDAA9F"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:enchanting_table"
+				id: "2C3910CD1178E3CC"
+				stat: "minecraft:enchant_item"
+				title: "Enchant: 500x Items"
+				type: "stat"
+				value: 500
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: ["Use &eTask Screen&r to complete this Quest."]
+			id: "48AAA21C2214AED4"
+			rewards: [
+				{
+					id: "5648F4675BC71784"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2816A3EF3454132E"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			subtitle: "Hot Stuff"
+			tasks: [{
+				amount: 1000000000L
+				fluid: "minecraft:lava"
+				id: "014040012F86D797"
+				title: "1,000,000 Buckets of Lava"
+				type: "fluid"
+			}]
+			title: "&4The Smeltery"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Use &eTask Screen&r to complete this Quest."]
+			id: "51F42BF270D6F54D"
+			rewards: [
+				{
+					id: "6779A7C34ABE05E0"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44DFBA04873EAFDB"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			subtitle: "Cool, eh?"
+			tasks: [{
+				id: "4D8588BE28BFAE5C"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			title: "&5All That Power"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "7CFE69A0CD15C6A3"
+			rewards: [
+				{
+					id: "05DE11439A75E650"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65C7D87BD6A1619F"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4076914782A79491"
+				item: "allthemodium:alloy_sword"
+				type: "item"
+			}]
+			title: "&6Allthemodium Alloy Blade"
+			x: 2.25d
+			y: -1.875d
+		}
+		{
+			id: "7B1F42202D89F563"
+			rewards: [
+				{
+					id: "5C0CB4D7B5D11ECA"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B4F9F94A9D53245"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22F14CC788517E4D"
+				item: "allthemodium:alloy_paxel"
+				type: "item"
+			}]
+			title: "&6Allthemodium Alloy Paxel"
+			x: 0.0d
+			y: -1.875d
+		}
+		{
+			id: "0B6ACDEFAD525E54"
+			rewards: [
+				{
+					id: "51CABDC2084A1432"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76430FF0CB72B304"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 200L
+				id: "617E75FAC56E0FB5"
+				item: {
+					Count: 1
+					id: "extendedcrafting:ultimate_singularity"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5The Master of the Singularity"
+			x: 1.125d
+			y: -0.375d
+		}
+		{
+			id: "3DEA57E2758E6168"
+			rewards: [
+				{
+					id: "4FD8A53F5C0F2B77"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49590EFA9FA3DDEB"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "draconicevolution:mob_soul"
+				id: "6C3E75B7FC24C344"
+				stat: "minecraft:pig_one_cm"
+				title: "They see me piggin', They hatin'"
+				type: "stat"
+				value: 10000
+			}]
+			title: "&2Travel 10k Blocks Riding a Pig"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "20D79DE310D450E6"
+			rewards: [
+				{
+					id: "554E3F8B53C22938"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4383FEF1BE9CE812"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "771136E7D407A4F9"
+				stat: "minecraft:open_chest"
+				title: "Open 10k Chests"
+				type: "stat"
+				value: 10000
+			}]
+			title: "&cBeing a little Chesty"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "474ACDC55BF7AEB6"
+			rewards: [
+				{
+					id: "262AE29A884A428A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238253F327D5AE3D"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			subtitle: "Spend 1 million Wood"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "6C4EDABA20BE140C"
+				item: "minecraft:oak_log"
+				title: "1,000,000 Wood"
+				type: "item"
+			}]
+			title: "&9Robin Wood"
+			x: -1.5d
+			y: -8.5d
+		}
+	]
+	title: "Legendary Challenges"
+}

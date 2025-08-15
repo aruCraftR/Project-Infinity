@@ -1,0 +1,11 @@
+{
+  "name": "Dimensional Ingot",
+  "colors": [
+    "4f057d",
+    "9340c7"
+  ],
+  "ingredient": {
+    "item": "dimensionalpocketsii:dimensional_ingot"
+  },
+  "materialCount": 15000
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Unobtainium Vibranium Ingot",
+  "colors": [
+    "58f02e",
+    "ac2dd6"
+  ],
+  "ingredient": {
+    "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+  },
+  "materialCount": 125
+}

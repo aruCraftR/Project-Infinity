@@ -1,0 +1,11 @@
+{
+  "name": "Vibranium Ingot",
+  "colors": [
+    "05fa9c",
+    "05fa9c"
+  ],
+  "ingredient": {
+    "item": "allthemodium:vibranium_ingot"
+  },
+  "materialCount": 1000
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Abyssal Ingot",
+  "colors": [
+    "255c03",
+    "255c03"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:abyssal_ingot"
+  },
+  "materialCount": 25000
+}

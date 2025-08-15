@@ -1,0 +1,3558 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "29543B666C58207C"
+	icon: "draconicevolution:reactor_stabilizer"
+	id: "392E2667267FD1F3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &aDraconium Dust&r is an essential, used for various crafting recipes."]
+			id: "76E6C8B3F124B3B2"
+			rewards: [{
+				id: "09910E283F4647D0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0AE31572B23B59D8"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76E6C8B3F124B3B2"]
+			description: ["The &aDraconium Ingot&r is a vital item used extensively in crafting and upgrading various items."]
+			id: "36118FAB0964F805"
+			rewards: [{
+				id: "1C79C68F3A38C11D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B58388CDD1D4D70"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76E6C8B3F124B3B2"]
+			description: [
+				"The &aDislocator&r is used to teleport you."
+				""
+				"&bShift+Right Click&r to set the teleportation position, then you can just &bRight Click&r it to teleport you to the location (&dworks in any dimension&r) or you can put it on a &dDislocator Pedestal&r to not use the durability."
+			]
+			id: "607D5F077D4B0715"
+			rewards: [{
+				id: "2A2CC1DFDE30E528"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F401E04858D8392"
+				item: {
+					Count: 1
+					id: "draconicevolution:dislocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["607D5F077D4B0715"]
+			description: ["The &aItem Dislocator&r is a magnet with a range of &d8 blocks&r."]
+			id: "54FD2EA4EAB18FA9"
+			rewards: [{
+				id: "56551AFC4A85DF6B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "241A11BBF12193F7"
+				item: "draconicevolution:magnet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54FD2EA4EAB18FA9"]
+			description: ["The &aAwakened Item Dislocator&r is a magnet with a range of &d32 blocks&r."]
+			id: "1B855E9478095343"
+			rewards: [{
+				id: "2FB97AC2BFD8E6BC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE05C9C1F13757D"
+				item: "draconicevolution:advanced_magnet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"607D5F077D4B0715"
+				"451517C833D25E1A"
+			]
+			description: [
+				"The &aAdvanced Dislocator&r is a device that can store a lot of &dTP points&r. "
+				""
+				"&bShift+Right Click&r to register your teleportation point in it, you can rename it and lock. It uses &cEnder Pearls&r for fuel."
+			]
+			id: "1F7265FE8C269446"
+			rewards: [{
+				id: "7B2A1574EECC0D7B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A3887671D6A19D0"
+				item: {
+					Count: 1
+					id: "draconicevolution:advanced_dislocator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36118FAB0964F805"]
+			description: ["The &aDraconium Core&r is an important crafting ingredient. It's used in many recipes and it is also used to stabilize a mob spawner into a &bStabilized Mob Spawner&r."]
+			id: "1F9411E20E806B1E"
+			rewards: [{
+				id: "62931E97BA2CCF08"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DC5CC974EC86419"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: ["The &aWyvern Core&r is the advanced version of a Draconic Core. It is used in higher crafting recipes like all the &bWyvern Tools&r and &bChest Piece&r."]
+			id: "01FB8D69E655FED3"
+			rewards: [{
+				id: "159F9CA1723BBA24"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24443DEB6AF83887"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"01FB8D69E655FED3"
+				"59821984FDC731C9"
+			]
+			description: ["The &aAwakened Core&r is the third tier of cores. It's mainly used for crafting the &bDraconic Staff of Power&r."]
+			id: "02C61505B5649304"
+			rewards: [{
+				id: "79A1FFED5C7A605F"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11D498817FE3AAE8"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"02C61505B5649304"
+				"517A4A2D4EDD6359"
+			]
+			description: ["The &aChaotic Core&r is the final core. It's used to craft &bChaotic items&r and also the &bReactor Stabilizer&r."]
+			id: "5F893D12A98FB378"
+			rewards: [{
+				id: "59DF7B9E28D6F25C"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44FD621ADDB60D62"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			description: ["You can get a &aDragon Heart&r by killing the &cEnder Dragon&r."]
+			id: "7559B2C7BB3440A8"
+			rewards: [{
+				id: "25485D1405A233E7"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "798B796CDFFA3B27"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7559B2C7BB3440A8"]
+			description: ["Use the &aFusion Crafting Core&r to combine a &aDragon Heart&r, some &aDraconic Cores&r, and &aDraconium Blocks&r to get the &bAwakened Draconium Blocks&r."]
+			id: "24B3F8554E46922F"
+			rewards: [{
+				id: "64C002C97A41E1C2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC098BA1F229E08"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["24B3F8554E46922F"]
+			id: "59821984FDC731C9"
+			rewards: [{
+				id: "55E5329527D79674"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "603EE741A078AE8C"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59821984FDC731C9"]
+			id: "0B092BE83547CBA7"
+			rewards: [{
+				id: "39488B1BDFF53FC7"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B897D1063CE5EAE"
+				item: "draconicevolution:awakened_draconium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: ["The &aCrystal Binder&r is a tool used to link &dEnergy I/O Crystals&r to various devices."]
+			id: "7F4DCEA4209DEDC3"
+			rewards: [{
+				id: "4D87F5D8D41D1C3E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49B3DB53326A70EE"
+				item: "draconicevolution:crystal_binder"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: [
+				"The &aDraconium Fusion Crafting Injector&r is the initial tier of Fusion Crafting Injectors for the Fusion crafting process."
+				""
+				"Place it at least &b2 blocks&r away from the &dFusion Core&r, with a maximum configuration of &b3x3&r on any side."
+				""
+			]
+			id: "45FEB8DE88CE4920"
+			rewards: [{
+				id: "1BAE0640CD8CAFB4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17B64C7EDC669D6A"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45FEB8DE88CE4920"]
+			description: ["The &aEnergy Transfuser&r is used to rapidly recharge your draconic items. You can charge up to &b4 items&r or &bblocks&r inside."]
+			id: "36D74C310EBF1C95"
+			rewards: [{
+				id: "3BD41AC47260214F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5311634FEEF5016C"
+				item: "draconicevolution:energy_transfuser"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: [
+				"The &aEnergy Core&r is the center of your energy ball. The &bEnergy Pylons&r are used to insert or extract energy, you need to place a &cglass block&r on top or below the pylon to activate it. The &dEnergy Core Stabilizers&r are used to stabilize your energy ball."
+				""
+				"You can create energy balls ranging from a &bsmall ball (Tier 1)&r to a &bgiant ball (Tier 8)&r. Higher tiers are larger and store more energy."
+				""
+				"Place the &dEnergy Core Stabilizers&r between &b1 block&r and &b8 blocks&r away from your energy ball."
+				""
+				"You can customize the color of the ball's outline in the &dGUI&r of your stabilizers."
+			]
+			id: "46315A83942FFE6E"
+			rewards: [{
+				id: "090EEF06922E7D55"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E5B5B1DB36525CD"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "1E01375C8C053D04"
+					item: "draconicevolution:energy_core_stabilizer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5BB3D54C7E167D2B"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02C61505B5649304"]
+			description: ["The &aDraconic Fusion Crafting Injector&r represents the third &btier&r of Fusion Crafting Injectors. Its superior energy absorption rate accelerates the crafting process within the &dFusion Crafting Core&r."]
+			id: "4C09EB1987587A3E"
+			rewards: [{
+				id: "130268EFBEB5AC66"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E884328AA8AEA19"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5F893D12A98FB378"]
+			description: ["The &aChaotic Fusion Crafting Injector&r is the highest &btier&r available, offering unmatched energy intake speed. This results in the quickest crafting times when used with the &dFusion Crafting Core&r."]
+			id: "398F2CE7DBE4A31B"
+			rewards: [{
+				id: "1A7FF602EC484B48"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F79312ED69DC7D5"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["01FB8D69E655FED3"]
+			description: ["The &aWyvern Fusion Crafting Injector&r is the second &btier&r in the Fusion Crafting process. Its ability to draw energy quickly makes crafting operations in the &dFusion Crafting Core&r more efficient."]
+			id: "155AD7F62D76E812"
+			rewards: [{
+				id: "3B8FA55CE5D0AE8E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29E6F00249766549"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["398F2CE7DBE4A31B"]
+			description: [
+				"The &aChaotic Capacitor&r has a grid of &b8x6&r for modules."
+				""
+				"It can charge your &dheld item&r, &darmor&r, &dhotbar&r, &dmain inventory&r, and your &dcurios slots&r."
+			]
+			id: "1E62FF75E939AD80"
+			rewards: [{
+				id: "3964C38ADC16E006"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4907663B758E7B03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1788112776
+									-742306909
+									-1104996363
+									1883059087
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_capacitor"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4C09EB1987587A3E"]
+			description: [
+				"The &aDraconic Capacitor&r has a grid of &b6x5&r for modules."
+				""
+				"It can charge your &dheld item&r, &darmor&r, &dhotbar&r, &dmain inventory&r, and your &dcurios slots&r."
+			]
+			id: "3081877A09CE2A60"
+			rewards: [{
+				id: "3F48E3BBBBA1BA37"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CE239DCA58D38E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1320034849
+									1855278064
+									-1691865390
+									1215313542
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_capacitor"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["155AD7F62D76E812"]
+			description: [
+				"The &aWyvern Capacitor&r has a grid of &b4x4&r for modules."
+				""
+				"It can charge your &dheld item&r, &darmor&r, &dhotbar&r, &dmain inventory&r, and your &dcurios slots&r."
+			]
+			id: "63FD630E1F808365"
+			rewards: [{
+				id: "03E010061055719B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "664D28B901E2CF82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1143045731
+									658065971
+									-1714512185
+									-434774376
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["678D7249F308ED28"]
+			description: [
+				"The &aMob Grinder&r is a powerful tool for killing mobs with customizable filters, allowing you to target specific types such as &dHostile&r, &dTamed&r, &dAdults&r, and more."
+				""
+				"You can equip it with any sword (&cincluding enchanted ones&r), and it will use the sword's durability."
+				""
+				"It is capable of one-shotting a &cWither Boss&r."
+			]
+			id: "618CDE6D1DAFBA8A"
+			rewards: [{
+				id: "053510984E92C88A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38053FF91748F24F"
+				item: "draconicevolution:grinder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: [
+				"The &aFusion Crafting Core&r is the center of the multi-block Fusion Crafting setup, its purpose is to hold the item to be transformed."
+				""
+				"It crafts by pressing the button on the &dGUI&r or by a &cRedstone signal&r."
+			]
+			id: "451517C833D25E1A"
+			rewards: [{
+				id: "17C845B79B313C80"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "631CD5315FA18350"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F4DCEA4209DEDC3"]
+			description: [
+				"The &aBasic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b4M RF&r and has &c8 links&r, with a range of &d32 blocks&r."
+				""
+				"The &aBasic Energy I/O Crystal&r can store &b4M RF&r and has &c2 links&r, with a range of &d32 blocks&r."
+				""
+				"The &aBasic Wireless Energy Crystal&r is used to power machines wirelessly. It can store &b4M RF&r and has &c4 links&r, providing wireless RF to &d16 machines&r within a range of &e128 blocks&r."
+			]
+			id: "052DDFB3F5EF8504"
+			rewards: [{
+				id: "452D1A244EFA2DAC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "76F0E314C1DCA244"
+					item: "draconicevolution:basic_io_crystal"
+					type: "item"
+				}
+				{
+					id: "0CC2B58C18471A0D"
+					item: "draconicevolution:basic_relay_crystal"
+					type: "item"
+				}
+				{
+					id: "1A88C60E7B4D1211"
+					item: "draconicevolution:basic_wireless_crystal"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D059A8B3F97649A"]
+			description: [
+				"The &aDraconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b64M RF&r and has &c32 links&r, with a range of &d128 blocks&r."
+				""
+				"The &aDraconic Energy I/O Crystal&r can store &b64M RF&r and has &c4 links&r, with a range of &d128 blocks&r."
+				""
+				"The &aDraconic Wireless Energy Crystal&r is used to power machines wirelessly. It can store &b64M RF&r and has &c16 links&r, providing wireless RF to &d64 machines&r within a range of &e128 blocks&r."
+			]
+			id: "61FFBF4622E15859"
+			rewards: [{
+				id: "4FA9158ECECD3222"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D927CCCB917D4A2"
+					item: "draconicevolution:draconic_io_crystal"
+					type: "item"
+				}
+				{
+					id: "733DE4B063CB8632"
+					item: "draconicevolution:draconic_relay_crystal"
+					type: "item"
+				}
+				{
+					id: "1BD7687731F2F6A4"
+					item: "draconicevolution:draconic_wireless_crystal"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["052DDFB3F5EF8504"]
+			description: [
+				"The &aWyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b16M RF&r and has &c16 links&r, with a range of &d64 blocks&r."
+				""
+				"The &aWyvern Energy I/O Crystal&r can store &b16M RF&r and has &c3 links&r, with a range of &d64 blocks&r."
+				""
+				"The &aWyvern Wireless Energy Crystal&r is used to power machines wirelessly. It can store &b16M RF&r and has &c8 links&r, providing wireless RF to &d32 machines&r within a range of &e128 blocks&r."
+			]
+			id: "4D059A8B3F97649A"
+			rewards: [{
+				id: "6E1078C3AFB59A3E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68DCC9BC420C3028"
+					item: "draconicevolution:wyvern_io_crystal"
+					type: "item"
+				}
+				{
+					id: "0234FC0445A20F71"
+					item: "draconicevolution:wyvern_relay_crystal"
+					type: "item"
+				}
+				{
+					id: "3768B73AF973E978"
+					item: "draconicevolution:wyvern_wireless_crystal"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["155AD7F62D76E812"]
+			description: ["The &aWyvern Tools/Weapons&r have a grid of &b4x4&r for modules."]
+			id: "1D2ED78CD7DEA8E2"
+			rewards: [{
+				id: "03168316DC000EE1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "761997A80E8A7457"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										1925293004
+										806374986
+										-1214978899
+										474784745
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_hoe"
+					}
+					type: "item"
+				}
+				{
+					id: "2AEC6A2F2834F35D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										1191381786
+										-1834725624
+										-2069802926
+										1270327974
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "7FD4B8C708EEF829"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										564547715
+										-90749719
+										-1897015789
+										-117787311
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "6A9524DA2E02E504"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										673974864
+										-577289410
+										-1973379452
+										-26085097
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "1CA1FBB9181D28CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-1991973506
+										-1376565047
+										-2133608176
+										1265639916
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "7760AAC73278D649"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										1068607477
+										-589348506
+										-1708170044
+										-290370614
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_bow"
+					}
+					type: "item"
+				}
+			]
+			title: "Wyvern Tools \\& Weapons"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C09EB1987587A3E"]
+			description: ["The &aDraconic Tools/Weapons&r have a grid of &b6x5&r for modules."]
+			id: "538E40453CED445E"
+			rewards: [{
+				id: "06031C62CC45C686"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "241A2624B439EDB4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										526353068
+										-38846303
+										-1440953948
+										-1336997736
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_hoe"
+					}
+					type: "item"
+				}
+				{
+					id: "57DF134E19A8C5F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-1136958421
+										-18005610
+										-2103155930
+										290966557
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "007B55FCA5B70214"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-1319739379
+										-926269358
+										-2052082917
+										1177766338
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "1891491800D3F94B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-1215525656
+										-1335147825
+										-1964091092
+										233923898
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "2FE01F3467D3B75A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										1892495317
+										-450804042
+										-1206768984
+										193222633
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "294D7F3B2E61BAE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-147498542
+										1527726340
+										-1783359725
+										-1338599533
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_bow"
+					}
+					type: "item"
+				}
+			]
+			title: "Draconic Tools \\& Weapons"
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["398F2CE7DBE4A31B"]
+			description: ["The &aChaotic Tools/Weapons&r have a grid of &b8x6&r for modules."]
+			id: "61696434C1A9A76C"
+			rewards: [{
+				id: "25E600157D3F78B2"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "72314263298F712F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-260347691
+										1413105672
+										-1645148329
+										-238695986
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_hoe"
+					}
+					type: "item"
+				}
+				{
+					id: "7B7CCD33AEEB3BC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										1219495566
+										-1784263130
+										-1426372116
+										1061272200
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "617B53CC47FC0A5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-457556195
+										-800895671
+										-1571239026
+										-815672140
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "70056C5543DB470C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-1657733216
+										-1423685873
+										-1910541491
+										-873677897
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "44EAB57EA292752B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-660432220
+										-513455301
+										-1307162403
+										-2106890008
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "440BB3EB5C6B3EDB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-129641989
+										784025137
+										-1176688172
+										104166076
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_bow"
+					}
+					type: "item"
+				}
+			]
+			title: "Chaotic Tools \\& Weapons"
+			x: -3.75d
+			y: 11.0d
+		}
+		{
+			dependencies: ["63FD630E1F808365"]
+			description: [
+				"The &aChestpiece&r is used to protect you on top of your already worn armor. On its own, it does nothing; you have to upgrade it with modules."
+				""
+				"The &aWyvern Chest Piece&r has a grid of &b6x5&r for modules."
+			]
+			id: "0DDC8C4F4BE5788D"
+			rewards: [{
+				id: "72EFB3F5A2D95076"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E586FE6C4992185"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1303973259
+									-2077013997
+									-1114826780
+									-2004973672
+								]
+							}
+						}
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3081877A09CE2A60"]
+			description: ["The &aDraconic Chest Piece&r has a grid of &b8x6&r for modules."]
+			id: "7ECFA5751222D0EB"
+			rewards: [{
+				id: "7E59CC00CAD190E9"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38FC4719E379C409"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-21092233
+									-162313786
+									-1605054093
+									805347097
+								]
+							}
+						}
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1E62FF75E939AD80"]
+			description: ["The &aChaotic Chest Piece&r has a grid of &b10x8&r for modules."]
+			id: "39959176F27817A1"
+			rewards: [{
+				id: "0ECFB333F47ED1A1"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A8F46695EC2246"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-834016236
+									-1352712188
+									-1193773316
+									1060526941
+								]
+							}
+						}
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"398F2CE7DBE4A31B"
+				"61696434C1A9A76C"
+			]
+			description: ["The &aChaotic Staff of Power&r has a grid of &b10x8&r for modules."]
+			id: "6D4361D7A8890651"
+			rewards: [{
+				id: "09F72BF48F056521"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "323456B3F993259D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-498850651
+									1094469177
+									-1113995378
+									635315916
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_staff"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4C09EB1987587A3E"
+				"538E40453CED445E"
+			]
+			description: ["The &aDraconic Staff of Power&r has a grid of &b8x6&r for modules."]
+			id: "708421C2339616F3"
+			rewards: [{
+				id: "701EA4630222AA4B"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48E437BDD77E7F62"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-490878960
+									-1810346016
+									-2028169362
+									-995263874
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_staff"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["36118FAB0964F805"]
+			description: [
+				"The &aModule Core&r is the base of every module for your Draconic Evolution items."
+				""
+				"You can press the Keybind &6Tool Modules&r to open the &2GUI&r, there you can add the &aModules&r."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "633751761E035DFB"
+			rewards: [{
+				id: "3EC604BA72288EE8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5D6716004FDE183D"
+				item: "draconicevolution:module_core"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5CCC8C85B2F30732"]
+			id: "527CB7930619D2F1"
+			rewards: [{
+				id: "7742F3722FEAF9F1"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "587694BAF45FB697"
+				item: "draconicevolution:item_chaotic_aoe"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1BA786D1A89AADCC"]
+			id: "5CCC8C85B2F30732"
+			rewards: [{
+				id: "5CF375986F9C1A19"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5999D6A23F7F23DC"
+				item: "draconicevolution:item_draconic_aoe"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38C3598203D0E017"]
+			id: "1BA786D1A89AADCC"
+			rewards: [{
+				id: "3234287E5B0E905D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14611E95EE91BBA4"
+				item: "draconicevolution:item_wyvern_aoe"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aAOE Module&r increases the AOE (&darea of effect&r) of your tools and weapons."]
+			id: "38C3598203D0E017"
+			rewards: [{
+				id: "269CDB1BA1930B0B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB46C3F3D9FF084"
+				item: "draconicevolution:item_draconium_aoe"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3407FE2CD9CEDB0F"]
+			id: "1732941A1968A726"
+			rewards: [{
+				id: "6E3644DD70D9743E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33BB7AE7C2126D6B"
+				item: "draconicevolution:item_chaotic_flight"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0F11F9D74E9F54E3"]
+			id: "3407FE2CD9CEDB0F"
+			rewards: [{
+				id: "26B33C596C3CEA1B"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15F41B5137625DAF"
+				item: "draconicevolution:item_draconic_flight"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aFlight Module&r gives you an Elytra on your Chest Piece."]
+			id: "0F11F9D74E9F54E3"
+			rewards: [{
+				id: "2ED47F3669E11B74"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A1A1567F5C20746"
+				item: "draconicevolution:item_wyvern_flight"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aProjectile Accuracy Module&r improves your accuracy with the bow."]
+			id: "2CD754C4B15B480F"
+			rewards: [{
+				id: "08CAB5C26B726A9F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01F3F83EA55B0338"
+				item: "draconicevolution:item_wyvern_proj_accuracy"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2CD754C4B15B480F"]
+			id: "4D44316E9A8DF724"
+			rewards: [{
+				id: "2EB7B50E914FE6FB"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F1830A5ED26DD54"
+				item: "draconicevolution:item_draconic_proj_accuracy"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4D44316E9A8DF724"]
+			id: "38CABF4AE9B30E2A"
+			rewards: [{
+				id: "031030D1778C2DCA"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "165D3CE58350143F"
+				item: "draconicevolution:item_chaotic_proj_accuracy"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aShield Recovery Module&r increases your shield recharge on your Chest Piece."]
+			id: "13CCF5BDF2BD03CE"
+			rewards: [{
+				id: "1D034F5B12DBA061"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "213A7AE98687B23B"
+				item: "draconicevolution:item_wyvern_shield_recovery"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["13CCF5BDF2BD03CE"]
+			id: "6CC4F6848585B4E1"
+			rewards: [{
+				id: "0D8D9464EA84A547"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BACA44B2AD7EB9E"
+				item: "draconicevolution:item_draconic_shield_recovery"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6CC4F6848585B4E1"]
+			id: "3B479096DA001884"
+			rewards: [{
+				id: "1566134C9AF7ED8D"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0361999165E66F60"
+				item: "draconicevolution:item_chaotic_shield_recovery"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aEnergy Module&r increases the energy of your items."]
+			id: "54653619B53EA07F"
+			rewards: [{
+				id: "6F22576C6DB9B713"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D360C684E2956B1"
+				item: "draconicevolution:item_draconium_energy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54653619B53EA07F"]
+			id: "1109B8EF5B4D191F"
+			rewards: [{
+				id: "2E20D099776D1530"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CF9ABD0CAB90FFE"
+				item: "draconicevolution:item_wyvern_energy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1109B8EF5B4D191F"]
+			id: "0B06552360EE5CCD"
+			rewards: [{
+				id: "212CA6F2B4F9ACA5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14FB47A464BC3701"
+				item: "draconicevolution:item_draconic_energy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0B06552360EE5CCD"]
+			id: "4484FE059C643EF0"
+			rewards: [{
+				id: "66DC32E86FDBCE97"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AAB28F84CE0030D"
+				item: "draconicevolution:item_chaotic_energy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aUndying Module&r is essentially a totem of undying installable on your Chest Piece."]
+			id: "1A63583AA53ABD33"
+			rewards: [{
+				id: "790243BB3CA7495A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7567F56B23EE5C0C"
+				item: "draconicevolution:item_wyvern_undying"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A63583AA53ABD33"]
+			id: "093411692718164E"
+			rewards: [{
+				id: "6F68DAB07D75B1F5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F8CB609C8CEC00E"
+				item: "draconicevolution:item_draconic_undying"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["093411692718164E"]
+			id: "136A1624AADD02EB"
+			rewards: [{
+				id: "328CB87E1D52B466"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00BCFFC8C6C18E74"
+				item: "draconicevolution:item_chaotic_undying"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aShield Capacity Module&r increases your Energy Shield."]
+			id: "027B95599926AC64"
+			rewards: [{
+				id: "3F1DC8ACC92D5B26"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7FC86E28BD5116"
+				item: "draconicevolution:item_wyvern_shield_capacity"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["027B95599926AC64"]
+			id: "1FA91D90EDF56F77"
+			rewards: [{
+				id: "00F2F5F9DADACC1A"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2655890DB5586397"
+				item: "draconicevolution:item_draconic_shield_capacity"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1FA91D90EDF56F77"]
+			id: "4821B1598AD90716"
+			rewards: [{
+				id: "51BB0B8C3015F226"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2993318EB0576EAF"
+				item: "draconicevolution:item_chaotic_shield_capacity"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aProjectile Velocity Module&r increases the velocity of your arrows when you shoot."]
+			id: "54D0A4F6DCE5872C"
+			rewards: [{
+				id: "03048B4312CD43D2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F22B8071D05FA37"
+				item: "draconicevolution:item_wyvern_proj_velocity"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["54D0A4F6DCE5872C"]
+			id: "49C02C612FF10903"
+			rewards: [{
+				id: "31C91A2BCA4EFC1A"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1554183DEC544485"
+				item: "draconicevolution:item_draconic_proj_velocity"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49C02C612FF10903"]
+			id: "0ACE8CD3B4BFCA0F"
+			rewards: [{
+				id: "6E71BB16001BF13C"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6C83B4E0D9FA64"
+				item: "draconicevolution:item_chaotic_proj_velocity"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aShield Control Module&r decreases the Shield Cooldown."]
+			id: "7BA5575CE84466DF"
+			rewards: [{
+				id: "74EB020CA1166337"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "219C2DF73B8D4865"
+				item: "draconicevolution:item_wyvern_shield_control"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7BA5575CE84466DF"]
+			id: "7EB01C2A70BFF65C"
+			rewards: [{
+				id: "2A777A68269C9A67"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71A8E9330FC04B95"
+				item: "draconicevolution:item_draconic_shield_control"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EB01C2A70BFF65C"]
+			id: "38412DA5F11E2F38"
+			rewards: [{
+				id: "0AE2E735174CE6B6"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C5472F8AB66E28A"
+				item: "draconicevolution:item_chaotic_shield_control"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aSpeed Module&r gives you more speed."]
+			id: "3BB133018966E4FF"
+			rewards: [{
+				id: "5A8E6FC90C63F59F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E45B0AA62399A6B"
+				item: "draconicevolution:item_draconium_speed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BB133018966E4FF"]
+			id: "40E6D1FC4653A929"
+			rewards: [{
+				id: "4B1ED31F89891584"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23512BCEFF220B27"
+				item: "draconicevolution:item_wyvern_speed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["40E6D1FC4653A929"]
+			id: "4F1A28D976837A20"
+			rewards: [{
+				id: "290CC3FE4CCA28FB"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FBCEA362A13D929"
+				item: "draconicevolution:item_draconic_speed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F1A28D976837A20"]
+			id: "4049D37E5754200E"
+			rewards: [{
+				id: "396BF43CD112A12C"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78BC648D01449B86"
+				item: "draconicevolution:item_chaotic_speed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aHill Step Module&r gives you the ability to have step assist."]
+			id: "5290B54829343B91"
+			rewards: [{
+				id: "35B5E824B50D8853"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C286FB205D0ED09"
+				item: "draconicevolution:item_wyvern_hill_step"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aProjectile Gravity Compensation Module&r makes your archery straighter, allowing you to shoot farther."]
+			id: "6EBB60D3CF01C03D"
+			rewards: [{
+				id: "1AFE73473412559C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35C5B297F73ACF4C"
+				item: "draconicevolution:item_wyvern_proj_grav_comp"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EBB60D3CF01C03D"]
+			id: "04C60FA40ED710A3"
+			rewards: [{
+				id: "6A7AA06DC81C6148"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27917F826761229A"
+				item: "draconicevolution:item_draconic_proj_grav_comp"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04C60FA40ED710A3"]
+			id: "0CD49C036BB7354F"
+			rewards: [{
+				id: "681A51934A479807"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B93D0E586237367"
+				item: "draconicevolution:item_chaotic_proj_grav_comp"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aProjectile Penetration Module&r allows your arrows to penetrate armor, sometimes passing through a target to potentially hit additional targets."]
+			id: "09335D2AE7F0E044"
+			rewards: [{
+				id: "6486A59EEC2473FD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C5282BD2A175F6B"
+				item: "draconicevolution:item_wyvern_proj_penetration"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["09335D2AE7F0E044"]
+			id: "5486863D06EFB4C4"
+			rewards: [{
+				id: "66D2B604FE138337"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B19A98C8BC2EE97"
+				item: "draconicevolution:item_draconic_proj_penetration"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5486863D06EFB4C4"]
+			id: "5A5D5FB374A1C9C8"
+			rewards: [{
+				id: "762D9F63C314A59E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DA0FB53E9B5C6B9"
+				item: "draconicevolution:item_chaotic_proj_penetration"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["027B95599926AC64"]
+			description: ["The &aLarge Shield Capacity Module&r increases your Energy Shield but takes up less space in your grid of modules."]
+			id: "411C46F666CE2E79"
+			rewards: [{
+				id: "420917D67C36EBCC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2047051ECEE633E9"
+				item: "draconicevolution:item_wyvern_large_shield_capacity"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1FA91D90EDF56F77"]
+			id: "649EAC5F11C8E8E0"
+			rewards: [{
+				id: "4E18A088D3FC0C86"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "132D4395E57F42ED"
+				item: "draconicevolution:item_draconic_large_shield_capacity"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4821B1598AD90716"]
+			id: "2F5C9177D9A5FF40"
+			rewards: [{
+				id: "3F388CBA99B6CFC4"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F5058E2C5BAD6E2"
+				item: "draconicevolution:item_chaotic_large_shield_capacity"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aProjectile Immunity Cancellation Module&r cancels enderman teleportation when you shoot them."]
+			id: "4561FE8367CD8216"
+			rewards: [{
+				id: "1475ED98341F261E"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E2ABDAC8960BF1A"
+				item: "draconicevolution:item_draconic_proj_anti_immune"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aProjectile Damage Module&r increases the damage done by your arrows."]
+			id: "0E2A7FD65EF7EFFE"
+			rewards: [{
+				id: "458D26084D44A7C0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "787D1E6FE3F87A2F"
+				item: "draconicevolution:item_wyvern_proj_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0E2A7FD65EF7EFFE"]
+			id: "2AD7EADDFD31B069"
+			rewards: [{
+				id: "3C75F2CC6916025D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "225E731D86781082"
+				item: "draconicevolution:item_draconic_proj_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2AD7EADDFD31B069"]
+			id: "5BA1EF66EB8F058D"
+			rewards: [{
+				id: "30231F7E0B4B310B"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B8FC4E5AB314BFE"
+				item: "draconicevolution:item_chaotic_proj_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3DB4DABA9BB774C8"]
+			id: "492906E72E275664"
+			rewards: [{
+				id: "15D4C4C28579B55D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0392244B06FE9010"
+				item: "draconicevolution:item_wyvern_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aDamage Module&r increases the damage done by your weapons."]
+			id: "3DB4DABA9BB774C8"
+			rewards: [{
+				id: "590944AE03184EB3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "334595BAEBD6F5EC"
+				item: "draconicevolution:item_draconium_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["492906E72E275664"]
+			id: "5565AF1F590EA2DB"
+			rewards: [{
+				id: "31F4DFC8515B3969"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A76380E3BA29C22"
+				item: "draconicevolution:item_draconic_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5565AF1F590EA2DB"]
+			id: "49917D2ECB1D12C0"
+			rewards: [{
+				id: "45080D9C6CC2E4C5"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3953870FFF005328"
+				item: "draconicevolution:item_chaotic_damage"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: ["The &aAuto Fire Module&r enables auto fire with your bow."]
+			id: "10B3C9982C378951"
+			rewards: [{
+				id: "7194B3020FC0B8BD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02597AAC98F178AF"
+				item: "draconicevolution:item_wyvern_auto_fire"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			description: [
+				"The &aChaos Shard&r is an extremely rare and valuable item."
+				""
+				"To obtain a &aChaos Shard&r:"
+				"&6- &rDefeat the &cChaos Guardian&r, which can be found on Chaos Islands in The End, located every &b10k blocks&r."
+				""
+				"&6- &rMine the &6Chaos Crystal&r at the center of the Chaos Island after defeating the &cChaos Guardian&r."
+			]
+			id: "517A4A2D4EDD6359"
+			rewards: [{
+				id: "16FB54DB5F2D08FC"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A1F8F6FA4B3E463"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4A538D3FEC4D94D3"]
+			description: [
+				"The &aChaos-Entangled Quantum Energy Tunnel&r is an advanced device for &benergy transfer&r across vast distances without any loss. "
+				""
+				"Features of the &aChaos-Entangled Quantum Energy Tunnel&r:"
+				"&6-&r It utilizes &bquantum entanglement&r to link two points, allowing &dinstant energy transfer&r."
+				"&6-&r Capable of handling &cmassive amounts of energy&r transfer, suitable for high-end setups."
+				"&6-&r Requires &cChaos Shards&r to create the entanglement link."
+				"&6-&r Can be configured through its &dGUI&r for precise energy management and routing."
+				""
+				"Usage:"
+				"&6-&r Place one &aQuantum Energy Tunnel&r at each &elocation&r you wish to connect."
+				"&6-&r Use the &cChaos Shards&r to establish a link between the two tunnels."
+				"&6-&r Once linked, the &benergy transfer&r is instantaneous and lossless, ensuring efficient energy distribution across your network."
+			]
+			id: "31B396E100E83098"
+			rewards: [{
+				id: "0912353B4948F68E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3746218F6E3AD48D"
+				item: "draconicevolution:item_chaotic_energy_link"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73A95AF90890098C"]
+			description: [
+				"The &aQuantum Energy Tunnel&r is a powerful device for transferring energy over long distances."
+				""
+				"Features of the &aQuantum Energy Tunnel&r:"
+				"&6-&r Uses &bquantum entanglement&r for instant energy transfer between two points."
+				"&6-&r Handles &cmassive volumes of energy&r efficiently, making it ideal for large setups."
+				"&6-&r Requires precise configuration through its &dGUI&r for optimal performance."
+				""
+				"Usage:"
+				"&6-&r Place a &aQuantum Energy Tunnel&r at each location you want to connect."
+				"&6-&r Establish a link between the tunnels using &cChaos Shards&r for seamless energy transfer."
+			]
+			id: "4A538D3FEC4D94D3"
+			rewards: [{
+				id: "0E85B4425DB04705"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35692E50690F8932"
+				item: "draconicevolution:item_draconic_energy_link"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			description: [
+				"The &aWireless Energy Link&r is a versatile tool for wireless energy transmission."
+				""
+				"Features of the &aWireless Energy Link&r:"
+				"&6-&r Allows for &benergy transfer&r without the need for physical connections."
+				"&6-&r Supports &dmultiple connections&r, enabling a flexible and dynamic energy network."
+				"&6-&r Can be configured via its &dGUI&r for targeted energy distribution."
+				""
+				"Usage:"
+				"&6-&r Place a &aWireless Energy Link&r at each &edevice&r or &elocation&r you want to power."
+				"&6-&r Connect the links to your &bmain energy source&r for efficient, wireless energy delivery."
+			]
+			id: "73A95AF90890098C"
+			rewards: [{
+				id: "28D2560FAE40B725"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "364715EE78BA5D38"
+				item: "draconicevolution:item_wyvern_energy_link"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			id: "678D7249F308ED28"
+			rewards: [{
+				id: "4C3AC002E48987A0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0917D6425FD8A668"
+				item: "draconicevolution:wyvern_energy_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["01FB8D69E655FED3"]
+			id: "13A48596C5CDD788"
+			rewards: [{
+				id: "170F25C80646EA16"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "751AD7442146278B"
+				item: "draconicevolution:draconic_energy_core"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["02C61505B5649304"]
+			id: "2E31BA7E5C29136A"
+			rewards: [{
+				id: "26A13B6FD4B08DB2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61BC45E78D73C784"
+				item: "draconicevolution:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["517A4A2D4EDD6359"]
+			id: "37F80BD0B643C94F"
+			rewards: [{
+				id: "18761F54A7907BDD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67D16979490152EF"
+				item: "draconicevolution:large_chaos_frag"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["37F80BD0B643C94F"]
+			id: "699754B584CA4498"
+			rewards: [{
+				id: "785B999ECC3B108B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DB3936BC8AD8FB2"
+				item: "draconicevolution:medium_chaos_frag"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["699754B584CA4498"]
+			id: "267A7A05091D4607"
+			rewards: [{
+				id: "6D448F0CA54F93A0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8EDEAF1DE08ED6"
+				item: "draconicevolution:small_chaos_frag"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: [
+				"The &aDraconium Chest&r is a versatile storage solution with unique features."
+				""
+				"Features of the &aDraconium Chest&r:"
+				"&6-&r &eMassive storage capacity&r, significantly larger than standard chests."
+				"&6-&r Built-in &bitem search functionality&r to quickly locate stored items."
+				"&6-&r Integrated &dcrafting table&r, allowing you to craft items directly within the chest."
+				"&6-&r Automatic &csmelting&r of items placed in designated slots, eliminating the need for a separate furnace."
+				"&6-&r &bEnergy storage&r capability, powering the chest’s advanced functions."
+				""
+				"Usage:"
+				"&6-&r Simply place the &aDraconium Chest&r in your base or storage area."
+				"&6-&r Utilize the &dcrafting table&r and &bitem search&r functions as needed."
+				"&6-&r Load items into the &csmelting slots&r for automatic processing."
+				"&6-&r Ensure the chest is supplied with &benergy&r to enable all advanced features."
+			]
+			id: "46BCDA0F17AE2073"
+			rewards: [{
+				id: "4B017A73E2CA2F48"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "689A646411D2826E"
+				item: "draconicevolution:draconium_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"The &aGenerator&r is a device that produces energy for your machinery and systems."
+				""
+				"Features of the &aGenerator&r:"
+				"&6-&r Converts various fuel sources into &benergy&r."
+				"&6-&r Can be connected to energy storage devices and machines."
+				"&6-&r Essential for powering your base and automated systems."
+			]
+			id: "40392CF41E5B333F"
+			rewards: [{
+				id: "10543C763CFB2EB0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75412B04CCC53AD1"
+				item: "draconicevolution:generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &aFluid Gate&r is used to control the flow of fluids in your system."
+				""
+				"Features of the &aFluid Gate&r:"
+				"&6-&r Regulates the &cinput&r and &coutput&r of fluids between tanks and machines."
+				"&6-&r Can be configured to allow or restrict fluid flow."
+				"&6-&r Ensures efficient fluid management and prevents overflow or shortages."
+			]
+			id: "3B30F2220336DC8B"
+			rewards: [{
+				id: "2B7CC536F252563F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "242063D851394945"
+				item: "draconicevolution:fluid_gate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &aFlux Gate&r is a device for managing the transfer of energy."
+				""
+				"Features of the &aFlux Gate&r:"
+				"&6-&r Controls the &bflow of energy&r between different components."
+				"&6-&r Allows precise regulation of energy input and output."
+				"&6-&r Prevents energy loss and ensures optimal power distribution."
+			]
+			id: "644D7DA00757C2ED"
+			rewards: [{
+				id: "1EB6B0C84DDEC2BF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2137A4D4278CA7BE"
+				item: "draconicevolution:flux_gate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F9411E20E806B1E"
+				"36118FAB0964F805"
+			]
+			description: [
+				"The &aEntity Detector&r is used to detect entities in a specified area."
+				""
+				"Features of the &aEntity Detector&r:"
+				"&6-&r Senses the presence of &dentities&r within its range."
+				"&6-&r Can be configured to detect specific types of entities."
+				"&6-&r Useful for automation tasks and triggering events based on entity presence."
+			]
+			hide_dependency_lines: true
+			id: "4932FAE86B6262BE"
+			rewards: [{
+				id: "67FB81C5F50BEC77"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C1C5B538951418B"
+				item: "draconicevolution:entity_detector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4932FAE86B6262BE"]
+			id: "068480932E31D039"
+			rewards: [{
+				id: "77D8E901D1C30BCC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A89EB94CDBE284"
+				item: "draconicevolution:entity_detector_advanced"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5F893D12A98FB378"
+				"13A48596C5CDD788"
+				"59821984FDC731C9"
+			]
+			description: [
+				"The &aReactor Stabilizer&r is a critical device for maintaining reactor stability."
+				""
+				"Features of the &aReactor Stabilizer&r:"
+				"&6-&r Helps to stabilize the reactor during operation."
+				"&6-&r Prevents dangerous fluctuations and potential reactor meltdowns."
+				"&6-&r Must be placed at specific points around the reactor core."
+			]
+			hide_dependency_lines: true
+			id: "746DE7FD1C2B8DBF"
+			rewards: [{
+				id: "4400FCFA80691107"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "064C3F448153C0A4"
+				item: "draconicevolution:reactor_stabilizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"01FB8D69E655FED3"
+				"36118FAB0964F805"
+			]
+			description: [
+				"The &aReactor Energy Injector&r is used to supply energy to the reactor."
+				""
+				"Features of the &aReactor Energy Injector&r:"
+				"&6-&r Injects energy into the reactor to power its processes."
+				"&6-&r Ensures efficient energy transfer to the reactor core."
+				"&6-&r Essential for initiating and maintaining reactor operations."
+			]
+			hide_dependency_lines: true
+			id: "2E44DE5AB631D67A"
+			rewards: [{
+				id: "63A8ACDF579FD578"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31AD628C610432BE"
+				item: "draconicevolution:reactor_injector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"633751761E035DFB"
+				"40E6D1FC4653A929"
+			]
+			hide_dependency_lines: true
+			id: "55ADEF6148493DFE"
+			rewards: [{
+				id: "1BC84B34C50E2AC0"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F047C5D91390E58"
+				item: "draconicadditions:item_draconic_tick_accel"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["55ADEF6148493DFE"]
+			id: "7A7C8A86446C4079"
+			rewards: [{
+				id: "3227BD856563E3A0"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3549633FCB7B1E81"
+				item: "draconicadditions:item_chaotic_tick_accel"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			hide_dependency_lines: true
+			id: "7FA8CE5D6ADF9F0B"
+			rewards: [{
+				id: "58C8635910E52870"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20B7F8C47EAB41E5"
+				item: "draconicevolution:item_draconium_auto_feed"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FA8CE5D6ADF9F0B"]
+			id: "4F5A5F673099392A"
+			rewards: [{
+				id: "675D63F56A1C67C3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "175A2CEA3952C7E1"
+				item: "draconicevolution:item_wyvern_auto_feed"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F5A5F673099392A"]
+			id: "491A43E3A1222E68"
+			rewards: [{
+				id: "0C5F6021AFAF629A"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "760B93EB30764ABE"
+				item: "draconicevolution:item_draconic_auto_feed"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["491A43E3A1222E68"]
+			hide_dependency_lines: false
+			id: "67ACD7FAEDC8F789"
+			rewards: [{
+				id: "174A9315E759C818"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "687FD915E33B6283"
+				item: "draconicadditions:item_chaotic_auto_feed"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["633751761E035DFB"]
+			hide_dependency_lines: true
+			id: "2243A85F71E997C2"
+			rewards: [{
+				id: "45259CA6A16227D8"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0088981131CA964C"
+				item: "draconicadditions:item_chaos_injector"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6CC4F6848585B4E1"]
+			id: "3E398353FEBE7754"
+			rewards: [{
+				id: "3BEA6EB16AA75EFF"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D0D1AD9959D3FAC"
+				item: "draconicadditions:item_stable_chaos"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6CC4F6848585B4E1"
+				"1FA91D90EDF56F77"
+			]
+			id: "69D4497703DEA240"
+			rewards: [{
+				id: "7BFA72CC01A51419"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000B2067478A03C3"
+				item: "draconicadditions:item_semi_stable_chaos"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1FA91D90EDF56F77"]
+			id: "6E7A0AACEC427B53"
+			rewards: [{
+				id: "0DDCE880F656458F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DF5B26CE235F95"
+				item: "draconicadditions:item_unstable_chaos"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7BA5575CE84466DF"]
+			id: "0832DD0937AF312C"
+			rewards: [{
+				id: "7E7377AE6C0B0CD5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CC81B3C7091BFAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+									receive_energy_from_machine: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									691595308
+									-1008189417
+									-1165152359
+									-193240453
+								]
+							}
+						}
+					}
+					id: "draconicadditions:wyvern_harness"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0832DD0937AF312C"
+				"7EB01C2A70BFF65C"
+			]
+			id: "1955FD279254FA3E"
+			rewards: [{
+				id: "565D2D79AB4FACE6"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D4ACE38FAF55772"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+									receive_energy_from_machine: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-1850826674
+									388513954
+									-1092335097
+									-1006790392
+								]
+							}
+						}
+					}
+					id: "draconicadditions:draconic_harness"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1955FD279254FA3E"
+				"38412DA5F11E2F38"
+			]
+			id: "08A29531A232BE4F"
+			rewards: [{
+				id: "75832B967BF53B56"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76D15A3D125300E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+									receive_energy_from_machine: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1698047482
+									725241828
+									-1919787390
+									-1380826385
+								]
+							}
+						}
+					}
+					id: "draconicadditions:chaotic_harness"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			hide_dependency_lines: true
+			id: "676F8CF82037DE99"
+			rewards: [{
+				id: "75977A7A3C4674ED"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2223CAE6AE7A0EAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									2088704252
+									-1572257073
+									-2071809343
+									716265668
+								]
+							}
+						}
+					}
+					id: "draconicadditions:wyvern_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["676F8CF82037DE99"]
+			id: "6B6E2073E6EC3301"
+			rewards: [{
+				id: "29CF6023A8C142E3"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "055A538E44CEF553"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-310558137
+									941181306
+									-1831231934
+									1716223783
+								]
+							}
+						}
+					}
+					id: "draconicadditions:draconic_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6B6E2073E6EC3301"]
+			id: "32322B52CB9DAB45"
+			rewards: [{
+				id: "50388A50C2EE8A9E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "040BA40A163CF264"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1895969599
+									-1694416483
+									-1930443126
+									-540848130
+								]
+							}
+						}
+					}
+					id: "draconicadditions:chaotic_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"49A4A78AEEB9A907"
+				"63BAD930927842EA"
+			]
+			id: "63872FEB4F217021"
+			rewards: [{
+				id: "7EE0A3F092F3124C"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "252D02583B8D8359"
+				item: "draconicadditions:inert_potato_helm"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"49A4A78AEEB9A907"
+				"63BAD930927842EA"
+			]
+			id: "276DF1D2C7AC727E"
+			rewards: [{
+				id: "510868D96CEFFBE4"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C68DAA0E67A9985"
+				item: "draconicadditions:inert_potato_chest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"49A4A78AEEB9A907"
+				"63BAD930927842EA"
+			]
+			id: "6B52F41F1EBAD05E"
+			rewards: [{
+				id: "722819FC22205941"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E4118A1331E8412"
+				item: "draconicadditions:inert_potato_legs"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"49A4A78AEEB9A907"
+				"63BAD930927842EA"
+			]
+			id: "20F957443E11E0D2"
+			rewards: [{
+				id: "369E12192217B908"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34B39AEF80082A67"
+				item: "draconicadditions:inert_potato_boots"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63872FEB4F217021"]
+			id: "217BF9C598BFE200"
+			rewards: [{
+				id: "6A8E98DA0D87667A"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F51D9EBE76E8CCD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 432000
+							}
+							module_host: {
+								modules: [{
+									id: "draconicevolution:wyvern_shield_recovery"
+									x: 0b
+									y: 0b
+								}]
+								properties: { }
+								provider_id: [I;
+									-557630330
+									374164390
+									-2093153239
+									71363618
+								]
+							}
+						}
+					}
+					id: "draconicadditions:infused_potato_helm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["276DF1D2C7AC727E"]
+			id: "083DB2ACC2A4D7F7"
+			rewards: [{
+				id: "103BE234207EBAA5"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABF54223E6D13C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 432000
+							}
+							module_host: {
+								modules: [{
+									anim: 0.0f
+									boost: 0.0d
+									boost_time: 0
+									cap: 0
+									cooldwn: 0
+									env_cdwn: 0b
+									hit: 0.0f
+									id: "draconicevolution:wyvern_shield_control"
+									max_boost: 0.0d
+									points: 0.0d
+									properties: {
+										shield_mod.always_visible: {
+											hud: 1b
+											uni_name: [I;
+												2120499667
+												-1930999953
+												-1272605361
+												-1784209815
+											]
+										}
+										shield_mod.enabled: {
+											hud: 1b
+											uni_name: [I;
+												2062819815
+												-1189329179
+												-1451413674
+												-412040988
+											]
+										}
+									}
+									visible: 0b
+									x: 0b
+									y: 0b
+								}]
+								properties: { }
+								provider_id: [I;
+									-1875850087
+									933645536
+									-1917010468
+									-1972281687
+								]
+							}
+						}
+					}
+					id: "draconicadditions:infused_potato_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B52F41F1EBAD05E"]
+			id: "1988AA7EA7E51DC1"
+			rewards: [{
+				id: "6D98D52CCF6D66D6"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A2F4169287D7BFE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 432000
+							}
+							module_host: {
+								modules: [{
+									id: "draconicevolution:wyvern_shield_recovery"
+									x: 0b
+									y: 0b
+								}]
+								properties: { }
+								provider_id: [I;
+									-1088517540
+									-1757592470
+									-1902885832
+									1998744808
+								]
+							}
+						}
+					}
+					id: "draconicadditions:infused_potato_legs"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20F957443E11E0D2"]
+			id: "30A07F90A9252AC3"
+			rewards: [{
+				id: "79B56D7DEEE69DBC"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F3CCC9682CD814"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 432000
+							}
+							module_host: {
+								modules: [{
+									id: "draconicevolution:wyvern_shield_recovery"
+									x: 0b
+									y: 0b
+								}]
+								properties: { }
+								provider_id: [I;
+									776088366
+									1777028873
+									-1742530428
+									993904052
+								]
+							}
+						}
+					}
+					id: "draconicadditions:infused_potato_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "49A4A78AEEB9A907"
+			rewards: [{
+				id: "674FA6821BB74B03"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A81DAA7F1B8E831"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "63BAD930927842EA"
+			rewards: [{
+				id: "565D9E24B1EEA311"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2254ACCCAB2E6549"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5F893D12A98FB378"
+				"267A7A05091D4607"
+			]
+			id: "0C47F06311F4233A"
+			rewards: [{
+				id: "6CD3DADFB18E95C1"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3053B11D2DD84EA1"
+				item: "draconicadditions:chaos_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+	]
+	title: "Draconic Evolution"
+}

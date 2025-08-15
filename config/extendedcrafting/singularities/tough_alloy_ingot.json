@@ -1,0 +1,11 @@
+{
+  "name": "Tough Alloy Ingot",
+  "colors": [
+    "1a0000",
+    "170404"
+  ],
+  "ingredient": {
+    "item": "nuclearcraft:tough_alloy_ingot"
+  },
+  "materialCount": 7500
+}

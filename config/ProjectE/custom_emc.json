@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 2000000000
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 2000000000
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 2000000000
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 1000000000
+    },
+    {
+      "item": "kubejs:infinity_7",
+      "emc": 555555555
+    }
+  ]
+}

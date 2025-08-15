@@ -1,0 +1,11 @@
+{
+  "name": "Signalum Ingot",
+  "colors": [
+    "ff8000",
+    "f71919"
+  ],
+  "ingredient": {
+    "item": "thermal:signalum_ingot"
+  },
+  "materialCount": 25000
+}

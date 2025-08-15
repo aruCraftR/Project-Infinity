@@ -1,0 +1,1644 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "29543B666C58207C"
+	icon: "industrialforegoing:machine_frame_advanced"
+	id: "6873833ABE2267AE"
+	images: [
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/light_blue"
+			rotation: 45.0d
+			width: 2.5d
+			x: -6.25d
+			y: 4.0d
+		}
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/green"
+			rotation: 45.0d
+			width: 2.5d
+			x: -2.75d
+			y: 4.0d
+		}
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/yellow"
+			rotation: 45.0d
+			width: 2.5d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 2.75d
+			image: "refinedstorage:block/network_transmitter/cutouts/orange"
+			rotation: 0.0d
+			width: 2.75d
+			x: 2.75d
+			y: 4.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bIndustrial Foregoing&r is a &6technology mod&r that offers automation for &dresource processing&r, &afarming&r, &cmob management&r, and &9energy control&r."
+				""
+				"Key machines include the &3Plant Gatherer&r and &5Plant Sower&r for crop automation, the &cFluid Extractor&r and &dLatex Processing Unit&r for fluid management, and the &9Pitiful Generator&r for power generation."
+				""
+				"Mob interactions are handled by the &dMob Crusher&r and &eMob Duplicator&r, while the &bAnimal Rancher&r automates animal product collection."
+				""
+				"Transport systems like &eConveyor Belts&r and &bFluid Pipes&r ensure efficient resource movement."
+				""
+				"&bIndustrial Foregoing&r simplifies automation and boosts efficiency in Minecraft."
+			]
+			disable_toast: true
+			id: "6369D6824087249B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "697CCD01EE042163"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6369D6824087249B"]
+			id: "0DD9575CCAD78266"
+			tasks: [{
+				id: "4EDFE746D5FE15B9"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0DD9575CCAD78266"]
+			description: [
+				"The &bFluid Extractor&r is used to extract fluids from blocks."
+				""
+				"Place it facing a block like &n&boak wood&r to start extracting &dLatex&r."
+				""
+				"The extracted fluid can be transferred using &eFluid Pipes&r."
+			]
+			id: "4B8CB53818688501"
+			tasks: [{
+				id: "5550BE577DCEC134"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4B8CB53818688501"]
+			id: "3739E03745B3847A"
+			tasks: [{
+				id: "67483309BB668FD9"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3739E03745B3847A"]
+			description: [
+				"The &dLatex Processing Unit&r converts &dLatex&r into &aTiny Dry Rubber&r when provided with &3Water&r."
+				""
+				"Ensure it's connected to both a &dLatex source&r and a &3Water source&r to produce &aTiny Dry Rubber&r."
+			]
+			id: "720E5426BFA55DF4"
+			tasks: [{
+				id: "00B25DDEA93195C4"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["720E5426BFA55DF4"]
+			icon: "industrialforegoing:dryrubber"
+			id: "6780823D40C32AF6"
+			tasks: [{
+				id: "34AC2C4E29ADF693"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Rubber\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:dryrubber"
+							}
+							{
+								Count: 1b
+								id: "thermal:cured_rubber"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6780823D40C32AF6"]
+			id: "4449A55411128335"
+			tasks: [{
+				id: "2284D8497BCF1B47"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6780823D40C32AF6"
+				"4449A55411128335"
+			]
+			description: [
+				"The &eSewage Composter&r processes &cSewage&r into &aFertilizer&r."
+				""
+				"Provide it with &cSewage&r, which can be collected from animal farms using &eSewage Collectors&r, to produce &aFertilizer&r for crops."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0CF441CB162B62B2"
+			shape: "diamond"
+			tasks: [{
+				id: "0127E7AD6F3849B9"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6780823D40C32AF6"
+				"4449A55411128335"
+			]
+			description: [
+				"The &cSpores Recreator&r is used to convert &anormal mushrooms&r into &bNether Wart&r."
+				""
+				"Simply provide it with &3Water&r and power, and it will process the &amushrooms&r into &bNether Wart&r."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "07BD1E5F77EE63CF"
+			shape: "diamond"
+			tasks: [{
+				id: "63D3434676889545"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6780823D40C32AF6"
+				"4449A55411128335"
+			]
+			description: [
+				"The &9Water Condensator&r generates &3Water&r by condensing moisture from the air."
+				""
+				"Place it with empty tanks or pipes connected to collect the generated &3Water&r."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "21EE456F005D0343"
+			shape: "diamond"
+			tasks: [{
+				id: "5E0427A9D0B561BE"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6780823D40C32AF6"
+				"4449A55411128335"
+			]
+			description: [
+				"The &dDye Mixer&r combines different dyes to create new colors."
+				""
+				"Place &adyes&r in the input slots, and the &dDye Mixer&r will produce the desired color."
+				""
+				"Ensure it has &dpower&r and the necessary &adyes&r for operation."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5960F7B3CA809280"
+			shape: "diamond"
+			tasks: [{
+				id: "5A13CBAAE7173DA7"
+				item: "industrialforegoing:dye_mixer"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &bBlock Breaker&r breaks blocks in front of it."
+				""
+				"Provide it with &dpower&r, and it will continuously break &ablocks&r, dropping the &aitems&r for collection."
+				""
+				"Ideal for &dautomated mining operations&r."
+			]
+			id: "09230E15B7C02F85"
+			tasks: [{
+				id: "48657DF892D6F557"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &eBlock Placer&r automatically places blocks in front of it."
+				""
+				"Provide it with &ablocks&r and &dpower&r, and it will place the &ablocks&r as specified."
+				""
+				"Useful for &dautomated building&r and &afarming setups&r."
+			]
+			id: "493BCE6F7191D267"
+			tasks: [{
+				id: "00730B446BA878AC"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &bPlant Gatherer&r automates the harvesting of &acrops&r."
+				""
+				"Place it in front of the crops and provide it with &dpower&r."
+				""
+				"It will harvest fully grown &acrops&r and collect the &ayield&r for easy access."
+			]
+			hide_dependency_lines: true
+			id: "314068155E263985"
+			shape: "diamond"
+			tasks: [{
+				id: "08E50EB42BADF128"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &dPlant Sower&r automates the planting of &aseeds&r."
+				""
+				"Place it beneath the farming area and provide it with &aseeds&r and &dpower&r."
+				""
+				"It will plant the &aseeds&r in the configured area, ensuring a constant supply of crops."
+			]
+			hide_dependency_lines: true
+			id: "0805FE8036EB6655"
+			shape: "diamond"
+			tasks: [{
+				id: "3B5358D5875B94D5"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &dFluid Placer&r places fluids in the world."
+				""
+				"Provide it with &afluids&r and &dpower&r, and it will place the &afluids&r in front of it."
+				""
+				"Useful for creating &dautomated fluid setups&r."
+			]
+			id: "71A9A81DAD843B88"
+			tasks: [{
+				id: "31FB808700810BD7"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &dFluid Collector&r collects fluids from the world."
+				""
+				"Place it near a &afluid source&r, and it will automatically collect the &afluid&r into its internal tank or connected tanks."
+				""
+				"Ensure it has &dpower&r and proper &afluid storage&r."
+			]
+			id: "6C93B82EEA152199"
+			tasks: [{
+				id: "58CC454F29E58679"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &cAnimal Feeder&r automatically feeds &aanimals&r."
+				""
+				"Place it in front of animals and provide it with &dfeed&r."
+				""
+				"The &eAnimal Rancher&r collects resources from &aanimals&r."
+				""
+				"Place it near animals to collect &aresources&r like milk, wool, or eggs."
+				""
+				"The &bAnimal Baby Separator&r separates &ababy animals&r from adults."
+				""
+				"Place it in the breeding area to automatically separate &ababy animals&r."
+			]
+			id: "0608B33CBA0EDBF3"
+			tasks: [
+				{
+					id: "13F0522E63C9999D"
+					item: "industrialforegoing:animal_baby_separator"
+					type: "item"
+				}
+				{
+					id: "4C8740E30B30F03D"
+					item: "industrialforegoing:animal_rancher"
+					type: "item"
+				}
+				{
+					id: "2F5BA6ED8C498396"
+					item: "industrialforegoing:animal_feeder"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &bBioreactor&r converts &aorganic materials&r into &dpower&r."
+				""
+				"Insert a variety of &aorganic items&r into its input slots."
+				""
+				"The more diverse the items, the more &dpower&r it generates."
+			]
+			id: "5706B73C528F473B"
+			tasks: [{
+				id: "66AE3A23AB254A20"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &dDissolution Chamber&r is used to craft advanced items and machines."
+				""
+				"Place the required &aresources&r into the chamber's slots, and ensure it has &dpower&r."
+				""
+				"It will process the resources and produce the desired &aoutput&r."
+			]
+			id: "1A36CF372E3E1B09"
+			tasks: [{
+				id: "35D59D213ACF690E"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.25d
+		}
+		{
+			dependencies: [
+				"314068155E263985"
+				"0805FE8036EB6655"
+			]
+			description: [
+				"The &dSludge Bucket&r contains &dSludge&r collected from machines like the &bPlant Gatherer&r."
+				""
+				"It can be processed in a &bSkudge Refiner&r to obtain useful &amaterials&r."
+			]
+			hide_dependency_lines: true
+			id: "11B642D71326CB26"
+			shape: "diamond"
+			tasks: [{
+				id: "153CBC9B590DEBA1"
+				item: "industrialforegoing:sludge_bucket"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B642D71326CB26"]
+			description: [
+				"The &bSkudge Refiner&r processes &dSludge&r into useful &amaterials&r."
+				""
+				"Place it near a &dSludge source&r and provide it with &dpower&r."
+				""
+				"It will convert the &dSludge&r into valuable &amaterials&r like &dClay&r, &aSand&r, and &bDirt&r."
+			]
+			hide_dependency_lines: true
+			id: "2E8B0B59ACD1F35B"
+			shape: "diamond"
+			tasks: [{
+				id: "030341F70F1C71B0"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A36CF372E3E1B09"]
+			description: [
+				"Addons enhance machine performance."
+				""
+				"&bSpeed Addons&r increase processing speed."
+				""
+				"&cEfficiency Addons&r reduce power consumption."
+				""
+				"&9Range Addons&r expand the working area of machines."
+				""
+				"Install addons by right-clicking the machine with the addon in hand."
+			]
+			icon: {
+				Count: 1
+				id: "industrialforegoing:range_addon4"
+				tag: {
+					TitaniumAugment: {
+						Range: 4.0f
+					}
+				}
+			}
+			id: "753775F80FFD5B2C"
+			tasks: [{
+				id: "29F2C5F2A91CC581"
+				title: "Addons"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1A36CF372E3E1B09"]
+			id: "41EEB789EC425194"
+			tasks: [{
+				id: "346695CC9038FA08"
+				item: "industrialforegoing:pink_slime"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0608B33CBA0EDBF3"]
+			description: [
+				"The &dMob Slaughter Factory&r kills &amobs&r and collects &aLiquid Meat&r and &aPink Slime&r."
+				""
+				"Provide it with &dpower&r and place it in an area with &amobs&r."
+				""
+				"It will automatically kill the &amobs&r and collect their &aresources&r."
+			]
+			id: "6F864188C6FD3638"
+			shape: "diamond"
+			tasks: [{
+				id: "0B6498CF3FD53225"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F864188C6FD3638"]
+			description: [
+				"The &dMeat Feeder&r automatically feeds the player with &aLiquid Meat&r."
+				""
+				"Fill it with &aLiquid Meat&r and keep it in your inventory."
+				""
+				"It will automatically consume &aLiquid Meat&r to keep you &afeeding&r."
+			]
+			id: "2FED203901B58547"
+			shape: "diamond"
+			tasks: [{
+				id: "7D0978903A9EF32D"
+				item: "industrialforegoing:meat_feeder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6F864188C6FD3638"]
+			id: "6AD48DE3128C9F59"
+			shape: "diamond"
+			tasks: [{
+				id: "47FAA1CAD402608A"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F864188C6FD3638"]
+			description: [
+				"The &bMechanical Dirt&r spawns &amobs&r when provided with &aLiquid Meat&r and &dpower&r."
+				""
+				"Place it in a suitable spawning area and connect it to a &aLiquid Meat&r source."
+				""
+				"It will spawn &amobs&r for farming resources."
+			]
+			id: "2FD77E58D9FF8877"
+			shape: "diamond"
+			tasks: [{
+				id: "336DC76A02148DA2"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2FED203901B58547"
+				"31C77BA11EF2B61C"
+				"12D9FABF6FA2AAEF"
+			]
+			description: [
+				"The &dWashing Factory&r cleans &aitems&r and &amaterials&r."
+				""
+				"Provide it with &aWater&r and &dpower&r."
+				""
+				"It removes &aimpurities&r from ores and other materials, improving their quality and yield."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3C59084FEF875C41"
+			tasks: [{
+				id: "4EF9D0E13C643754"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F864188C6FD3638"]
+			id: "00C159AC4289AB73"
+			tasks: [{
+				id: "40FEF9FC3766BB4C"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00C159AC4289AB73"]
+			id: "12D9FABF6FA2AAEF"
+			tasks: [{
+				id: "4B5636C22055148A"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"00C159AC4289AB73"
+				"115CF270C8DA00B6"
+			]
+			id: "31C77BA11EF2B61C"
+			tasks: [{
+				id: "25E431FE3E7FEBFC"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0DD9575CCAD78266"]
+			description: [
+				"The &bItem Transporter&r moves &aitems&r between machines and storage units."
+				""
+				"Connect it to an &aitem source&r and a &destination&r."
+				""
+				"It ensures efficient item movement, supporting various automation setups."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1796CD7D8F3612C1"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "1B643E0E7E2BFADF"
+				item: "industrialforegoing:item_transporter_type"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DD9575CCAD78266"]
+			description: [
+				"The &dFluid Transporter&r moves &afluids&r between machines and storage tanks."
+				""
+				"Connect it to a &afluid source&r and a &adestination&r."
+				""
+				"It ensures efficient fluid movement, supporting various automation setups."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4FF8483C1DD019BE"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "7E75798698531321"
+				item: { Count: 2, id: "industrialforegoing:fluid_transporter_type" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0DD9575CCAD78266"]
+			description: [
+				"The &eWorld Transporter&r moves entire &ablocks&r and &amachines&r."
+				""
+				"Use it to transport complex setups from one location to another without dismantling them."
+				""
+				"It simplifies large-scale relocations and reorganizations."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "72AE2A8DC19D3A5B"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "47C9D8CEC08B65F9"
+				item: { Count: 2, id: "industrialforegoing:world_transporter_type" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DD9575CCAD78266"]
+			description: [
+				"The &dPitiful Generator&r generates &dpower&r from &acombustible items&r."
+				""
+				"Place it with &acombustible fuel&r like &bCoal&r or &aWood&r."
+				""
+				"It provides a steady supply of &dpower&r for early-stage automation."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0615933CCBB5411E"
+			shape: "diamond"
+			tasks: [{
+				id: "641D2F8ED44EB410"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4449A55411128335"]
+			description: [
+				"The &cMob Imprisonment Tool&r captures and releases mobs."
+				""
+				"&bRight-click&r on a &dmob&r to capture it, and &bRight-click&r again to release it."
+				""
+				"Useful for transporting &dmobs&r without the need for &aleads&r or &aminecarts&r."
+			]
+			id: "4C73A3B0E4396B29"
+			tasks: [{
+				id: "4851EDD6D0264F0B"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DD9575CCAD78266"]
+			id: "115CF270C8DA00B6"
+			tasks: [{
+				id: "26B8E528800E7206"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["115CF270C8DA00B6"]
+			description: [
+				"The &bMob Detector&r detects nearby &amobs&r and sends a &dredstone signal&r."
+				""
+				"Place it in areas where you need to monitor &amob activity&r."
+				""
+				"It can trigger alarms or automated defenses when &amobs&r are detected."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "18FCB1DAD9572A00"
+			shape: "diamond"
+			tasks: [{
+				id: "6D22A9E3D836399A"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["115CF270C8DA00B6"]
+			description: [
+				"The &dFermentation Station&r converts &aorganic materials&r into &aEthanol&r."
+				""
+				"Place &aorganic items&r into the input slots and provide it with &dpower&r."
+				""
+				"It produces &aEthanol&r, which can be used as fuel or in crafting recipes."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1002F4E426C36598"
+			shape: "diamond"
+			tasks: [{
+				id: "629C209E6083BE49"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["115CF270C8DA00B6"]
+			description: [
+				"The &bPlant Fertilizer&r automates the application of &afertilizer&r to crops."
+				""
+				"Place it near the farming area and provide it with &afertilizer&r and &dpower&r."
+				""
+				"It boosts crop growth rates, ensuring faster harvests."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7E337ADD6A9E2516"
+			shape: "diamond"
+			tasks: [{
+				id: "016C083B7492A4AE"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["115CF270C8DA00B6"]
+			description: [
+				"The &bMarine Fisher&r automates &afishing&r."
+				""
+				"Place it in a body of &awater&r and provide it with &dpower&r."
+				""
+				"It will catch &afish&r and other aquatic items, collecting them for easy access."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1F24D9BBA0E58F57"
+			shape: "diamond"
+			tasks: [{
+				id: "47177F319A8F18D4"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["115CF270C8DA00B6"]
+			description: [
+				"The &dHydroponic Bed&r grows &acrops&r using &aNutrient Solution&r instead of soil."
+				""
+				"Provide it with &aNutrient Solution&r and &dpower&r."
+				""
+				"It ensures rapid and efficient crop growth, ideal for high-yield farming."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3A984DEC00459804"
+			shape: "diamond"
+			tasks: [{
+				id: "24788A8507A43514"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &bStasis Chamber&r is used to immobilize &amobs&r and &aplayers&r within its range."
+				""
+				"Place the &bStasis Chamber&r in a desired location and provide it with &dpower&r."
+				""
+				"It creates a field that &fparalyzes&r any &amob&r or &aplayer&r within its radius, making it useful for &dcontainment&r or &dmob farming setups&r."
+			]
+			id: "072DC5776151764D"
+			tasks: [{
+				id: "75426BF52F602FF1"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &eMaterial StoneWork Factory&r is an all-in-one machine for processing &astone materials&r."
+				""
+				"Provide it with &dpower&r, &aWater&r, and &dLava&r."
+				""
+				"It can perform tasks such as &acrushing, cutting, grinding&r, and &asmelting&r to produce various &astone-based materials&r."
+				""
+				"Configure the &eMaterial StoneWork Factory&r through its interface to select the desired processes and outputs."
+			]
+			id: "012148BBA9DA43A0"
+			tasks: [{
+				id: "7FDF97AA39023E8E"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &eFluid Sieving Machine&r processes &afluids&r to extract valuable &amaterials&r."
+				""
+				"Provide it with &dpower&r and the specific &afluid&r you want to sieve."
+				""
+				"The &eFluid Sieving Machine&r will separate the &afluid&r into its components, producing useful &amaterials&r as output."
+			]
+			id: "0C6D669301F8655A"
+			tasks: [{
+				id: "5160441565411AD7"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &bPotion Brewer&r automates the brewing of &apotions&r."
+				""
+				"Provide it with &dWater Bottles&r, &aBrewing Ingredients&r, and &dpower&r."
+				""
+				"The &bPotion Brewer&r will follow the standard brewing process to create &apotions&r."
+				""
+				"Configure it to brew specific &apotions&r by placing the ingredients in the correct order."
+			]
+			id: "3CE5A863271DF6D2"
+			tasks: [{
+				id: "3863D548F15E8C46"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &eEnchantment Applicator&r applies specific &aenchanted books&r to items."
+				""
+				"Provide it with the &aitem&r to be enchanted, the &aenchanted book&r, and &dpower&r."
+				""
+				"The &eEnchantment Applicator&r will transfer the enchantment from the book to the item, combining them if necessary."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1472CCB84AB8C6AC"
+			shape: "diamond"
+			tasks: [{
+				id: "4AE845808744CD04"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &bEnchantment Extractor&r removes &aenchantments&r from items and places them onto &abooks&r."
+				""
+				"Provide it with the &aenchanted item&r and &dbooks&r, and provide it with &dpower&r."
+				""
+				"The &bEnchantment Extractor&r will extract the enchantments from the item and transfer them to the books, preserving the enchantments for future use."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "79421304E140F426"
+			shape: "diamond"
+			tasks: [{
+				id: "6BEC975433F9EDA4"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &dEnchantment Factory&r automates the enchanting process."
+				""
+				"Provide it with &abooks&r or &aitems&r to be enchanted, &aLapis Lazuli&r, and &dpower&r."
+				""
+				"The &dEnchantment Factory&r will apply random &aenchantments&r to the items, similar to an &aEnchanting Table&r."
+				""
+				"Configure it to prioritize certain &aenchantments&r if desired."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2033C1F285C61154"
+			shape: "diamond"
+			tasks: [{
+				id: "677C92C50132C03C"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &bEnchantment Sorter&r organizes &aenchanted items&r by their enchantments."
+				""
+				"Place the &aenchanted items&r into the input slots and provide it with &dpower&r."
+				""
+				"The &bEnchantment Sorter&r will sort the items into different categories based on their &aenchantments&r, making it easier to manage and utilize them."
+			]
+			id: "0FA2D721EFBA7DC0"
+			shape: "diamond"
+			tasks: [{
+				id: "023FC382CBC08787"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &bMob Crusher&r is used to automatically kill &amobs&r and collect their drops."
+				""
+				"Place it facing the area where &amobs&r will spawn and provide it with &dpower&r."
+				""
+				"The &bMob Crusher&r will kill any &amob&r in front of it and collect the &adropped items&r and &aLiquid Meat&r."
+				""
+				"It is useful for &dmob farms&r to collect resources without manual intervention."
+			]
+			id: "79219F395AF8573B"
+			tasks: [{
+				id: "4977318168CA1067"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["31C77BA11EF2B61C"]
+			description: [
+				"The &dMob Duplicator&r is used to spawn &amobs&r using &aEssence&r."
+				""
+				"Place it in the desired location and provide it with &dpower&r and &aEssence&r."
+				""
+				"Insert a &dMob Imprisonment Tool&r containing the &amob&r you want to duplicate."
+				""
+				"The &dMob Duplicator&r will spawn copies of the &amob&r as long as it has &aEssence&r and &dpower&r."
+				""
+				"This is useful for creating &dmob farms&r for resource generation."
+			]
+			id: "1695706A70AA37E6"
+			tasks: [{
+				id: "5A68E24D03B072EA"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0FA2D721EFBA7DC0"]
+			description: [
+				"The &dLaser Drill&r extracts &aores&r and &amaterials&r from the ground using laser technology."
+				""
+				"Place it above the desired mining area and provide it with &dpower&r."
+				""
+				"The &dLaser Drill&r works in conjunction with &dLaser Lens&r to determine the type of &amaterial&r to mine."
+				""
+				"It will produce &aores&r and &amaterials&r based on the configured &dLaser Lens&r and the biome it's placed in."
+			]
+			id: "7162AD63AB61136A"
+			tasks: [{
+				id: "6F86604BDFA1A690"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7162AD63AB61136A"]
+			description: [
+				"The &bLaser Lens&r is used with the &dLaser Drill&r to specify the type of &amaterial&r to mine."
+				""
+				"Place the &bLaser Lens&r into the &dLaser Drill&r's interface."
+				""
+				"Different colors of &bLaser Lens&r correspond to different &amaterials&r, influencing the &dLaser Drill&r's output."
+			]
+			icon: "industrialforegoing:laser_lens0"
+			id: "0FCD5DFA1F96F41D"
+			tasks: [{
+				id: "31204C0C556BFB14"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens0"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens1"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens2"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens3"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens4"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens5"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens6"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens7"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens9"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens10"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens11"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens12"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens13"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens14"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens15"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:laser_lens8"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"0FCD5DFA1F96F41D"
+				"0E82AD0DE5384B35"
+			]
+			description: [
+				"The &dEther Gas Bucket&r contains &aEther Gas&r, a rare and valuable fluid."
+				""
+				"It is used in advanced crafting recipes and certain &dmachines&r."
+				""
+				"To collect &aEther Gas&r, use a &dFluid Extractor&r on a &aWither&r while it is being spawned."
+			]
+			id: "5113AD9751B850A7"
+			tasks: [{
+				id: "38D0F165E60BB1D7"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.25d
+		}
+		{
+			id: "0E82AD0DE5384B35"
+			tasks: [{
+				id: "66273F325EF61571"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E82AD0DE5384B35"]
+			description: [
+				"&dWither Builder&r"
+				""
+				"The &dWither Builder&r is an incredible machine that takes the danger out of summoning the &aWither&r boss. By automating the entire process, it ensures you can focus on defense and resource collection without the hassle."
+				""
+				"&6Setting It Up:&r"
+				""
+				"&3Step 1: Find a Safe Spot&r"
+				"First, place the &dWither Builder&r in a secure, enclosed area to contain the &aWither&r when it spawns. This prevents unnecessary destruction and keeps your base safe."
+				""
+				"&3Step 2: Power It Up&r"
+				"Next, connect the &dWither Builder&r to a strong &dpower source&r. This machine requires a significant amount of energy, so make sure your power supply is robust."
+				"{@pagebreak}"
+				"&3Step 3: Load the Ingredients&r"
+				"Then, insert &a3 Wither Skeleton Skulls&r and &a4 Soul Sand&r or &aSoul Soil&r into the builder. These materials are essential for summoning the &aWither&r."
+				""
+				"&3Step 4: Activate&r"
+				"Once powered and loaded with the necessary materials, the &dWither Builder&r will automatically construct the &aWither&r. Be prepared, as the &aWither&r will spawn hostile and ready to fight!"
+				""
+				"&3Pro Tips:&r"
+				"- Surround the &dWither Builder&r with &cblast-resistant blocks&r like &bObsidian&r to minimize damage from the &aWither&r’s explosions."
+				"- Set up &dHoppers&r or &aItem Collectors&r nearby to automatically gather &aNether Stars&r and other valuable drops from the defeated &aWither&r."
+			]
+			id: "5837C573A6DD9F15"
+			tasks: [{
+				id: "5C60C1C2014B6E3F"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0E82AD0DE5384B35"]
+			description: [
+				"The &dMycelial Reactor&r is a &bpowerhouse&r that combines the outputs of multiple &aMycelial Generators&r to produce immense amounts of &eenergy&r. This setup is perfect for high-demand energy needs, utilizing a variety of fuel types to keep everything running smoothly."
+				""
+				"&6How It Works:&r"
+				"The &dMycelial Reactor&r itself doesn’t need power to operate but instead relies on the &cenergy&r produced by connected &aMycelial Generators&r. When fully set up, it can output a tremendous amount of &9power&r, enough to fuel your most demanding machinery and systems."
+				"{@pagebreak}"
+				"&aMycelial Generators&r"
+				""
+				"These unique generators come in various types, each using different &efuel sources&r to produce &cpower&r. They are designed to work in tandem with the &dMycelial Reactor&r, contributing to its overall energy output."
+			]
+			id: "1D1174EBE379B36D"
+			tasks: [{
+				id: "0F4E5C9743362C45"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &3Furnace Generator&r burns &aCombustible Items&r like &bCoal&r and &9Charcoal&r to generate &cEnergy&r. It’s a straightforward, reliable source of power, perfect for early to mid-game setups. Simply feed it fuel, and it will keep your machines running smoothly."]
+			id: "721C40D15B15DDC1"
+			tasks: [{
+				id: "1428E9D56D157F86"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &eSlimey Generator&r uses &aSlime-related Items&r such as &bSlimeballs&r and &dMagma Cream&r to produce &cEnergy&r. It’s a quirky way to convert your &aSlime&r collection into useful &cPower&r, especially if you have a slime farm."]
+			id: "58697C7A011F53FE"
+			tasks: [{
+				id: "35847814C18449DB"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &6Culinary Generator&r consumes &aFood Items&r to generate &cEnergy&r. From simple &bBaked Potatoes&r to &dGolden Apples&r, this generator turns edible items into valuable &cPower&r. It’s ideal for those with abundant food supplies."]
+			id: "0318AF961DA821CA"
+			tasks: [{
+				id: "555617FC2866931F"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &dPotion Generator&r converts &aPotions&r into &cEnergy&r. Different potions provide varying amounts of power, making it a versatile generator for those with an excess of brewing supplies. Simply feed it any potion, and watch it turn into &cPower&r."]
+			id: "7FC6FF2B7A02FB5D"
+			tasks: [{
+				id: "5CB62F0419F2065D"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &5Disenchanting Generator&r extracts &aPower&r from &bEnchanted Items&r. By feeding it items with enchantments, you can generate &cEnergy&r. It’s a great way to repurpose unwanted enchanted gear into something useful."]
+			id: "168187D7A0036A6B"
+			tasks: [{
+				id: "7AA2D9D518285A66"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &9Ender Generator&r is powered by &aEnder Pearls&r and &5Eyes of Ender&r, producing significant amounts of &cEnergy&r. This generator is ideal for players with access to the &bEnd&r and its resources, offering a powerful energy source."]
+			id: "18289605711FE891"
+			tasks: [{
+				id: "65C8555EA6F44883"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &2Explosive Generator&r uses &aTNT&r and other explosive items to create &cEnergy&r. It converts the destructive power of explosives into a useful energy source. Perfect for thrill-seekers looking for a high-risk, high-reward power solution."]
+			id: "6222356D4DC8011D"
+			tasks: [{
+				id: "225A9785360107EA"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &bFrosty Generator&r uses &aSnowballs&r and &9Ice&r to produce &cEnergy&r. It’s perfect for players in snowy biomes or those with access to ice farms. This generator turns cold resources into a steady stream of &cPower&r."]
+			id: "69501D98C31724E0"
+			tasks: [{
+				id: "7C16C96BDE1900AE"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &5Halitosis Generator&r uses the &aDragon’s Breath&r to produce &cEnergy&r. By capturing the essence of the Ender Dragon’s breath, this generator offers a unique and potent power source for your most advanced needs."]
+			id: "47BABC95C5A372B8"
+			tasks: [{
+				id: "59DD934B323F2A92"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &6Magma Generator&r burns &9Lava&r to generate &cEnergy&r. This generator is perfect for players in or near the Nether, providing a reliable source of power from hot materials."]
+			id: "0E7B5DB74C3C9ACB"
+			tasks: [{
+				id: "0A277248150352A2"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &dPink Generator&r uses &aPink Dye&r and &bPink Items&r to generate &cEnergy&r. It’s a colorful and whimsical way to produce power, perfect for those who want to add a splash of pink to their setup."]
+			id: "13D5B942165B8A98"
+			tasks: [{
+				id: "2AC2951233A03668"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 13.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &4Netherstar Generator&r utilizes the extremely rare &aNether Stars&r to produce enormous amounts of &cEnergy&r. It’s the ultimate power source for end-game setups, offering unparalleled energy output from the rarest materials."]
+			id: "531B192D31815456"
+			tasks: [{
+				id: "6956EFD7966E7D19"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &4Death Generator&r harnesses the power of &aWither Skeleton Skulls&r and &dRotten Flesh&r to produce &cEnergy&r. By feeding it these dark materials, you can generate significant power, tapping into the essence of death itself."]
+			id: "7E1CDBDA2BCE9744"
+			tasks: [{
+				id: "0DFF17324FDE257D"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: 13.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &fRocket Generator&r uses &aFireworks&r to create &cEnergy&r. It’s a fun and explosive way to turn your stockpile of fireworks into a practical power source, adding a bit of flair to your energy production."]
+			id: "49ED53D162564102"
+			tasks: [{
+				id: "71F62BF6B0C9045F"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &8Crimed Generator&r utilizes &aNether-based Items&r like &4Fungus&r and &6Shroomlight&r to generate &cEnergy&r. It’s a powerful generator for those who have access to the resources of the Nether."]
+			id: "5C1667FA12469BEE"
+			tasks: [{
+				id: "199E691C2442801D"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1D1174EBE379B36D"]
+			description: ["The &cMeatallurgic Generator&r uses &aMeat Items&r to produce &cEnergy&r. It’s an efficient way to turn your surplus meat, whether from farming or hunting, into a valuable power resource."]
+			id: "3BFC57385C345E2D"
+			tasks: [{
+				id: "43BFDB3E1401A6CA"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 13.75d
+		}
+		{
+			dependencies: ["0E82AD0DE5384B35"]
+			description: [
+				"The &bBlack Hole Controller&r is a &crevolutionary&r device for managing &aenormous quantities&r of &aitems&r and &9fluids&r. Acting as the &dcentral hub&r of your storage system, it provides &eseamless integration&r and &3real-time monitoring&r of all connected &eBlack Hole Units&r and &eBlack Hole Tanks&r."
+				""
+				"This controller allows you to handle all your &6storage needs&r from one place, making it incredibly &5efficient&r and &duser-friendly&r. The interface displays &fdetailed information&r about each connected unit, helping you keep track of your &aresources&r with ease."
+				""
+				"With the &bBlack Hole Controller&r, you can say goodbye to &4storage headaches&r and embrace a &estreamlined&r, &aorganized system&r where everything is &daccessible&r at your fingertips."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "003A1DABF0838A94"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7D3623492C1F6937"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			description: [
+				"The &eBlack Hole Unit&r is an &dincredible storage solution&r capable of holding an &9unlimited amount&r of a single type of &aitem&r. Imagine being able to store all your &3Cobblestone&r, &6Iron Ingots&r, or &5Diamonds&r in one compact unit without ever worrying about space."
+				""
+				"This unit integrates flawlessly with the &bBlack Hole Controller&r, providing you with &freal-time data&r on the quantity of items stored. Whether you're hoarding &2building materials&r or &drare resources&r, the &eBlack Hole Unit&r ensures you have instant access and unparalleled &6storage capacity&r."
+				""
+				"For anyone engaged in &9large-scale projects&r or &aautomated systems&r, the &eBlack Hole Unit&r is a &cgame-changer&r, offering a &dclutter-free&r and highly &fefficient storage solution&r."
+			]
+			id: "5CCCCC23B9FA7A37"
+			shape: "diamond"
+			tasks: [{
+				id: "06D7677C82A7EDC2"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "6C7DE8B2606A974F"
+			shape: "pentagon"
+			tasks: [{
+				id: "0A6683A4287A4E31"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "4ED140E7CC9F8D9D"
+			shape: "hexagon"
+			tasks: [{
+				id: "00B90FA8C6813655"
+				item: "industrialforegoing:simple_black_hole_unit"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "497FA509F7154433"
+			shape: "octagon"
+			tasks: [{
+				id: "4BA250B50E043559"
+				item: "industrialforegoing:advanced_black_hole_unit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "64E7996960F0581E"
+			shape: "circle"
+			tasks: [{
+				id: "4C9EA37A5BFBC575"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			description: [
+				"The &eBlack Hole Tank&r is designed to store &6vast amounts&r of &3fluids&r, with a capacity of up to &a2,000,000 millibuckets&r. Whether you need to store &bWater&r, &cLava&r, or more complex &9modded fluids&r, this tank has you covered."
+				""
+				"Connected to the &bBlack Hole Controller&r, it provides &deasy monitoring&r and &fmanagement&r of your fluid resources. The tank’s &4massive capacity&r makes it perfect for supporting &2industrial processes&r, &5farms&r, and &denergy systems&r that require a steady supply of fluids."
+				""
+				"By integrating the &eBlack Hole Tank&r into your storage network, you can ensure that your fluid needs are met without constantly juggling containers or worrying about overflow. It simplifies your operations and guarantees that you always have the &afluids&r you need right at your disposal."
+			]
+			id: "20CF43561D87298B"
+			shape: "diamond"
+			tasks: [{
+				id: "6521283616A7AC7E"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "78033BC253BA3DEC"
+			shape: "pentagon"
+			tasks: [{
+				id: "450FD0678C46FD99"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "16FC910FC5BC05BC"
+			shape: "hexagon"
+			tasks: [{
+				id: "6A27D05DF198E63F"
+				item: "industrialforegoing:simple_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "092B99372DE42753"
+			shape: "octagon"
+			tasks: [{
+				id: "16A17053A4896451"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["003A1DABF0838A94"]
+			id: "0424664309D6E944"
+			shape: "circle"
+			tasks: [{
+				id: "48BE4B5FAF610785"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12D9FABF6FA2AAEF"]
+			id: "55FA428413C4BEA1"
+			tasks: [{
+				count: 3L
+				id: "1A7ED99414653B1F"
+				item: { Count: 3, id: "kubejs:pink_slime_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55FA428413C4BEA1"]
+			id: "5265EF70E28318F9"
+			tasks: [{
+				id: "598A5DE6A9E5FBFE"
+				item: "mm:pinky_controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+	]
+	title: "Industrial Foregoing"
+}

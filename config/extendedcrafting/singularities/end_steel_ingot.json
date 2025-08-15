@@ -1,0 +1,11 @@
+{
+  "name": "End Steel Ingot",
+  "colors": [
+    "f5ff9c",
+    "f5ff9c"
+  ],
+  "ingredient": {
+    "item": "enderio:end_steel_ingot"
+  },
+  "materialCount": 25000
+}

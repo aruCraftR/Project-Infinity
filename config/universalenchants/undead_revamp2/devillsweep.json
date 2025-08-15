@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:undead_revamp2_devillsweep",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_hammer",
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot"
+  ],
+  "incompatible": [
+    "endlessbiomes:vwooping",
+    "minecraft:sweeping"
+  ]
+}

@@ -1,0 +1,49 @@
+ServerEvents.recipes(event => {
+  //Ultimate Stew
+  event.custom({
+    type: 'extendedcrafting:shapeless_table',
+    ingredients: [
+      'avaritia:pileof_neutrons',
+      'avaritia:neutronium_nugget',
+      'minecraft:wheat',
+      'minecraft:apple',
+      'minecraft:golden_apple',
+      'minecraft:enchanted_golden_apple',
+      'minecraft:melon_slice',
+      'minecraft:chorus_fruit',
+      'minecraft:carrot',
+      'minecraft:golden_carrot',
+      'minecraft:potato',
+      'minecraft:baked_potato',
+      'minecraft:beetroot',
+      'minecraft:dried_kelp',
+      'minecraft:pufferfish',
+      'minecraft:bread',
+      'minecraft:glistering_melon_slice',
+      'bhc:blue_heart_melted',
+      'bhc:blue_heart',
+      'born_in_chaos_v1:holiday_candy',
+      'cyclic:apple_iron',
+      'cyclic:apple_ender',
+      'cyclic:apple_lofty_stature',
+      'cyclic:apple_honey',
+      'cyclic:apple_chorus',
+      'cyclic:apple_bone',
+      'cyclic:apple_prismarine',
+      'cyclic:apple_lapis',
+      'mysticalagradditions:inferium_apple',
+      'bhc:relic_apple',
+      'mysticalagradditions:prudentium_apple',
+      'mysticalagradditions:tertium_apple',
+      'mysticalagradditions:imperium_apple',
+      'mysticalagradditions:supremium_apple',
+      'mysticalagradditions:insanium_apple',
+      'allthemodium:allthemodium_apple',
+      'pickletweaks:diamond_apple',
+      'pickletweaks:emerald_apple'
+    ],
+
+    result: { item: '8x avaritia:ultimate_stew' }
+  })
+    .id('avaritia:ultimate_stew')
+})

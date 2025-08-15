@@ -1,0 +1,507 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furngens"
+	group: "29543B666C58207C"
+	icon: "ironfurnaces:unobtainium_furnace"
+	id: "38776B03328BEF2C"
+	images: [
+		{
+			height: 1.0d
+			image: "mysticalagriculture:block/awakened_supremium_furnace_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -26.0d
+		}
+		{
+			height: 1.0d
+			image: "mysticaladaptations:block/insanium_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -24.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:item/rainbow_coal"
+			rotation: 45.0d
+			width: 1.0d
+			x: 9.5d
+			y: -19.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:item/rainbow_coal"
+			rotation: -45.0d
+			width: 1.0d
+			x: 6.5d
+			y: -19.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:item/rainbow_coal"
+			rotation: 135.0d
+			width: 1.0d
+			x: 9.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:item/rainbow_coal"
+			rotation: -135.0d
+			width: 1.0d
+			x: 6.5d
+			y: -16.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["231765C07B4A12B7"]
+			description: [
+				"Push smelting to the absolute limit with extraordinary &asmelting speed&r, reconfigurable sides, &daugments&r for &csmoking&r and &2blasting&r and much more."
+				"Mystical Agriculture is much faster then better furnaces, but alot harder to craft"
+			]
+			disable_toast: true
+			id: "773C9DA610091CFC"
+			min_width: 300
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "68D756271EF2CF4A"
+				type: "checkmark"
+			}]
+			title: "Welcome to &dBetter Furnaces"
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["773C9DA610091CFC"]
+			id: "5916DEB452C8A368"
+			rewards: [{
+				id: "5EE47C4AC23A83D6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B505525520DF4FC"
+				item: "mysticalagriculture:inferium_furnace"
+				type: "item"
+			}]
+			title: "Iron Furnace"
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5916DEB452C8A368"]
+			id: "5D662FBC315BC56E"
+			rewards: [{
+				id: "3317E4BF155E5E3E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A6157EF02D1611D"
+				item: "mysticalagriculture:prudentium_furnace"
+				type: "item"
+			}]
+			title: "Iron Furnace"
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5D662FBC315BC56E"]
+			id: "032495BC9564C4A8"
+			rewards: [{
+				id: "10DA3991836BBB39"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5185D66D92123F46"
+				item: "mysticalagriculture:tertium_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["032495BC9564C4A8"]
+			id: "4A2BF1FB8031E514"
+			rewards: [{
+				id: "55EE181DEBEB8817"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D31049A3862F82A"
+				item: "mysticalagriculture:imperium_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4A2BF1FB8031E514"]
+			id: "480B7735F7CE3E0C"
+			rewards: [{
+				id: "3A4EE00AF53DCEA5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ACCDDE1A0F24508"
+				item: "mysticalagriculture:supremium_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["480B7735F7CE3E0C"]
+			id: "1A436F1C79B9C8A2"
+			rewards: [{
+				id: "6093A9215CB5204E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02340FFA4A74463B"
+				item: "mysticalagriculture:awakened_supremium_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["1A436F1C79B9C8A2"]
+			id: "682B4DE2EBAE0977"
+			rewards: [
+				{
+					id: "1DAC6A37AE129CC3"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "2F7123D5B92C8D60"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "mysticaladaptations:insanium_furnace"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "23B42EED3BCA8EF4"
+				item: "mysticaladaptations:insanium_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["773C9DA610091CFC"]
+			id: "7641C877D53C6FBB"
+			rewards: [
+				{
+					id: "4D8C72F395AA2043"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "04ADCF1589CF8802"
+					item: "ironfurnaces:upgrade_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11E0644E657C6E85"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7641C877D53C6FBB"]
+			id: "30C07294592BBE03"
+			rewards: [
+				{
+					id: "0097418267172739"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "7380D3497A91023A"
+					item: "ironfurnaces:upgrade_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E8C99934451F644"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["30C07294592BBE03"]
+			id: "5379ABFB251E47BF"
+			rewards: [
+				{
+					id: "6230AB4572DDD29E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "07A403F1461059CA"
+					item: "ironfurnaces:upgrade_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DE5B1D019A0D954"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5379ABFB251E47BF"]
+			id: "1AF573A328EE793B"
+			rewards: [
+				{
+					id: "3444092816E04D97"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "61D4A462E31CA549"
+					item: "ironfurnaces:upgrade_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CE35D3BF7B71FC1"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"1AF573A328EE793B"
+				"4717FAD226DCB1F7"
+			]
+			id: "449E073B99203007"
+			rewards: [
+				{
+					id: "5F949DA5BCC061A8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "0DE17501E60CBB4F"
+					item: "ironfurnaces:upgrade_obsidian2"
+					type: "item"
+				}
+				{
+					id: "6666D47B03D6FF20"
+					item: "ironfurnaces:upgrade_obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72644AF622DA160B"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["5379ABFB251E47BF"]
+			id: "4717FAD226DCB1F7"
+			rewards: [
+				{
+					id: "3E073288F2CDD2B5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "2E4AF2895C7A7A7A"
+					item: "ironfurnaces:upgrade_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5302005036339616"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["449E073B99203007"]
+			id: "0B870B483538CAE6"
+			rewards: [
+				{
+					id: "73F5984AD2057874"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "675EC2F19F6C1308"
+					item: "ironfurnaces:upgrade_netherite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CEA5BF6464EBCCA"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["0B870B483538CAE6"]
+			id: "3E9716838FDEE391"
+			rewards: [
+				{
+					id: "4D7DD6E344542194"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "77E272E00CF10CC2"
+					item: "ironfurnaces:upgrade_allthemodium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21B3010B65C6D7F8"
+				item: "ironfurnaces:allthemodium_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["3E9716838FDEE391"]
+			id: "6B6551D2F83FD791"
+			rewards: [
+				{
+					id: "1F6FA18FEF193F75"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "7B0D784AE3A942AA"
+					item: "ironfurnaces:upgrade_vibranium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BFC62D95829DD7F"
+				item: "ironfurnaces:vibranium_furnace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["6B6551D2F83FD791"]
+			id: "39293340CE73B3C9"
+			rewards: [
+				{
+					id: "380CC36BF35C6E8A"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "2226C5E0F71B6AF4"
+					item: "ironfurnaces:upgrade_unobtainium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07926468503270C3"
+				item: "ironfurnaces:unobtainium_furnace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["39293340CE73B3C9"]
+			icon: {
+				Count: 1
+				id: "ironfurnaces:million_furnace"
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"aqua\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"aqua\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"aqua\",\"text\":\"e\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "416D6DDF2FEB70F1"
+			rewards: [
+				{
+					id: "5511C132878E3434"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79D33BF38C696069"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5335B16DBDF78EDD"
+					item: {
+						Count: 1
+						id: "ironfurnaces:million_furnace"
+						tag: {
+							display: {
+								Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"red\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"red\",\"text\":\"F\"},{\"color\":\"yellow\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A67767958CF019E"
+					item: "ironfurnaces:rainbow_plating"
+					type: "item"
+				}
+				{
+					id: "00426C4A87007A2B"
+					item: "ironfurnaces:rainbow_core"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -17.5d
+		}
+	]
+	title: "Furnaces"
+}

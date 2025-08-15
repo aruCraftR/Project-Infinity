@@ -1,0 +1,537 @@
+ServerEvents.recipes(event => {
+  //Ultimate Prediction
+  event
+    .custom({
+      type: 'extendedcrafting:shapeless_table',
+      ingredients: [
+        'avaritia:pileof_neutrons',
+        'avaritia:neutronium_nugget',
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:allthemodium/piglich\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:blaze\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:bomd/gauntlet\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:bomd/lich\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:bomd/obsidilith\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:bomd/void_blossom\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/dark_vortex\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/dire_hound_leader\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/glutton_fish\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/lord_pumpkinhead\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/maggot\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/missioner\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/restless_spirit\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:born_in_chaos/spirit_guide\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:botania/gaia_spirit\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cataclysm/ancient_remnant\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cataclysm/deepling_warlock\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cataclysm/ender_golem\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cataclysm/harbinger\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cataclysm/maledictus\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:chicken\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cod\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:cow\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:creeper\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:drowned\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:elder_guardian\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:ender_dragon\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:enderman\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:evoker\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:ghast\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:glow_squid\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:guardian\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:hoglin\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:iron_golem\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:magma_cube\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:mooshroom\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:phantom\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:pig\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:polar_bear\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:rabbit\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:sheep\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:shulker\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:skeleton\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:slime\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:snow_golem\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:spider\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:squid\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:the_outer_end/stalker\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:thermal/basalz\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:thermal/blitz\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:thermal/blizz\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/alpha_yeti\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/carminite_golem\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/death_tome\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/deer\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/fire_beetle\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/giant\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/goblin\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/helmet_crab\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/hydra\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/knight_phantom\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/kobold\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/lich\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/minoshroom\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/minotaur\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/naga\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/raven\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/redcap\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/skeleton_druid\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/snow_queen\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/stable_ice_core\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/towerwood_borer\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/troll\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/ur_ghast\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/winter_wolf\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/wraith\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:twilightforest/yeti\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:undergarden/dweller\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:undergarden/forgotten_guardian\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:undergarden/gloomper\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:vindicator\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:warden\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:witch\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:wither\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:wither_skeleton\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:zombie\"}}'
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:zombified_piglin\"}}'
+        }
+      ],
+      result: {
+        item: 'kubejs:ultimate_prediction'
+      }
+    })
+    .id('kubejs:ultimate_prediction')
+})

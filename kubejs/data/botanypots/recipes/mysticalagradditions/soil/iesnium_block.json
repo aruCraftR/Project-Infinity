@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "occultism:iesnium_block"
+    },
+    "display": {
+        "block": "occultism:iesnium_block"
+    },
+    "categories": [
+        "iesnium_block"
+    ],
+    "growthModifier": 1.66
+}

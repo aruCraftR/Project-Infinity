@@ -1,0 +1,11 @@
+{
+  "name": "Iron Compressed Ingot",
+  "colors": [
+    "393e40",
+    "787c7d"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "materialCount": 15000
+}

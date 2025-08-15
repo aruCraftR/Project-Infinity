@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:entities/wither"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mysticalagradditions:withering_soul"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star"
+                }
+            ]
+        }
+    ]
+}

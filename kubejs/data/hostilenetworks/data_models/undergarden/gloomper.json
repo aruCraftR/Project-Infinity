@@ -1,0 +1,26 @@
+{
+    "entity": "undergarden:gloomper",
+    "variants": [],
+    "name": "Gloomper",
+    "name_color": "#043d86",
+    "gui_scale": 0.85,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "Gloomper",
+    "fabricator_drops": [
+        {
+            "item": "undergarden:raw_gloomper_leg",
+            "count": 32
+        }
+    ]
+}

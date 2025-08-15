@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/colossal_gas_port_output"
+    }
+  }
+}

@@ -1,0 +1,1359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nuclear_energy"
+	group: "5255C8D5C49409ED"
+	icon: "nuclearcraft:plutonium_rtg"
+	id: "11D9E62FD3D455FC"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B204EBE35852FA7"]
+			icon: "nuclearcraft:fission_reactor_controller"
+			id: "547037A1C1BBB81F"
+			rewards: [{
+				id: "54DE7282649D9F3E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Outerrior"
+			tasks: [
+				{
+					count: 64L
+					id: "27E78F001E8EBEDF"
+					item: "nuclearcraft:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "522DEFB3FDBC8986"
+					item: "nuclearcraft:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "2F43AEA9BD583B7E"
+					item: "nuclearcraft:fission_reactor_controller"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F1993EABEC6CC19"]
+			description: [
+				"Fission fuel generates heat, if reactor overheats, it will meltdown."
+				"To prevent this we need to place heat sinks inside the reactor."
+				"Each heat sink has placement rules, you decide how to combine them together."
+				"Reactor design is more like a minigame, where you need to solve all conditions to build very effective reactor."
+				""
+				"TIP: When you building your reactor, try to right click with empty hand on a heat sink block."
+			]
+			id: "081C50637C6FF2ED"
+			rewards: [{
+				id: "3F7E7A3BD77143F5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Cooling down the reactor"
+			tasks: [
+				{
+					id: "5625B89D6CCB0DA6"
+					item: "nuclearcraft:empty_heat_sink"
+					type: "item"
+				}
+				{
+					id: "3B69FFB9EAC5527C"
+					item: "nuclearcraft:copper_heat_sink"
+					type: "item"
+				}
+				{
+					id: "650BA6EFE8D02A0A"
+					item: "nuclearcraft:cryotheum_heat_sink"
+					type: "item"
+				}
+				{
+					id: "01471100B9789179"
+					item: "nuclearcraft:slime_heat_sink"
+					type: "item"
+				}
+				{
+					id: "10020427FE2D9EAD"
+					item: "nuclearcraft:netherite_heat_sink"
+					type: "item"
+				}
+				{
+					id: "0F010EACB7D1751B"
+					item: "nuclearcraft:enderium_heat_sink"
+					type: "item"
+				}
+				{
+					id: "2451367B5A3A7BF1"
+					item: "nuclearcraft:end_stone_heat_sink"
+					type: "item"
+				}
+				{
+					id: "09EBB55075B818D2"
+					item: "nuclearcraft:cobalt_heat_sink"
+					type: "item"
+				}
+				{
+					id: "496133EFF4FCBE38"
+					item: "nuclearcraft:fluorite_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7FF39F3B8CECA00B"
+					item: "nuclearcraft:redstone_heat_sink"
+					type: "item"
+				}
+				{
+					id: "4D2C2196E4C85CEB"
+					item: "nuclearcraft:carobbiite_heat_sink"
+					type: "item"
+				}
+				{
+					id: "0DF5625FD7E43341"
+					item: "nuclearcraft:lithium_heat_sink"
+					type: "item"
+				}
+				{
+					id: "335E979B6A916A38"
+					item: "nuclearcraft:liquid_helium_heat_sink"
+					type: "item"
+				}
+				{
+					id: "6D5F6953F863722F"
+					item: "nuclearcraft:platinum_heat_sink"
+					type: "item"
+				}
+				{
+					id: "6ADA71696C52F49D"
+					item: "nuclearcraft:arsenic_heat_sink"
+					type: "item"
+				}
+				{
+					id: "1540F4A026E79DCB"
+					item: "nuclearcraft:villiaumite_heat_sink"
+					type: "item"
+				}
+				{
+					id: "59C155408C80233F"
+					item: "nuclearcraft:lead_heat_sink"
+					type: "item"
+				}
+				{
+					id: "78E5ED6F9F3FDE73"
+					item: "nuclearcraft:gold_heat_sink"
+					type: "item"
+				}
+				{
+					id: "0C95315A4F80F27F"
+					item: "nuclearcraft:boron_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7362AB0151A52A9B"
+					item: "nuclearcraft:silver_heat_sink"
+					type: "item"
+				}
+				{
+					id: "22D83DB2512833F8"
+					item: "nuclearcraft:lapis_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7263B3F99E6549F2"
+					item: "nuclearcraft:emerald_heat_sink"
+					type: "item"
+				}
+				{
+					id: "3B05D4665302434A"
+					item: "nuclearcraft:quartz_heat_sink"
+					type: "item"
+				}
+				{
+					id: "6E648339B501E84C"
+					item: "nuclearcraft:prismarine_heat_sink"
+					type: "item"
+				}
+				{
+					id: "3B9AE3C16166C24E"
+					item: "nuclearcraft:tin_heat_sink"
+					type: "item"
+				}
+				{
+					id: "46EAF9F44F9CCD2A"
+					item: "nuclearcraft:obsidian_heat_sink"
+					type: "item"
+				}
+				{
+					id: "56FB17386F2AE044"
+					item: "nuclearcraft:purpur_heat_sink"
+					type: "item"
+				}
+				{
+					id: "6089304A156B8AA4"
+					item: "nuclearcraft:aluminum_heat_sink"
+					type: "item"
+				}
+				{
+					id: "33D55030805BB224"
+					item: "nuclearcraft:magnesium_heat_sink"
+					type: "item"
+				}
+				{
+					id: "5E872375050DA610"
+					item: "nuclearcraft:diamond_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7A738DD2862B4B4C"
+					item: "nuclearcraft:iron_heat_sink"
+					type: "item"
+				}
+				{
+					id: "55C19BD157A8DED3"
+					item: "nuclearcraft:glowstone_heat_sink"
+					type: "item"
+				}
+				{
+					id: "6301B4895BA2B70B"
+					item: "nuclearcraft:liquid_nitrogen_heat_sink"
+					type: "item"
+				}
+				{
+					id: "041956DA70D10875"
+					item: "nuclearcraft:water_heat_sink"
+					type: "item"
+				}
+			]
+			title: "Heat Sinks"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"31F5766E63603754"
+				"2F1993EABEC6CC19"
+			]
+			description: [
+				"Irradiation line is made of set of 3 blocks in one line: Fission Fuel Cell -> Moderator -> Irradiation Chamber"
+				""
+				"As Fuel Cell has 6 faces, you can make up to 6 irradiation lines with one Fuel Cell."
+			]
+			icon: "nuclearcraft:fission_reactor_irradiation_chamber"
+			id: "42BEC6A82910E9A7"
+			rewards: [{
+				id: "58156948BF635348"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Irradiation Lines"
+			tasks: [{
+				id: "0B6262460130ADA6"
+				item: "nuclearcraft:fission_reactor_irradiation_chamber"
+				type: "item"
+			}]
+			title: "Irradiation Chamber"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"081C50637C6FF2ED"
+				"5E016F2B357B859F"
+			]
+			description: [
+				"Same as regular heat sinks, but much more effective."
+				"Requires correspondent liquids in order to operate."
+				"Just pump needed liquids into reactor port."
+			]
+			id: "4E513F38CFF495CD"
+			rewards: [{
+				id: "2A10F3B244484557"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Pump some coolants"
+			tasks: [
+				{
+					id: "7B80BA3FFD7BB9BD"
+					item: "nuclearcraft:active_liquid_nitrogen_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7C5603506BA4F19E"
+					item: "nuclearcraft:active_cryotheum_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7ED45F7AD3639966"
+					item: "nuclearcraft:active_liquid_helium_heat_sink"
+					type: "item"
+				}
+				{
+					id: "0CC43D020A0A32CF"
+					item: "nuclearcraft:active_water_heat_sink"
+					type: "item"
+				}
+				{
+					id: "7B678F2E19B87F2B"
+					item: "nuclearcraft:active_redstone_heat_sink"
+					type: "item"
+				}
+				{
+					id: "5116AAC9B95A98AB"
+					item: "nuclearcraft:active_enderium_heat_sink"
+					type: "item"
+				}
+			]
+			title: "Active Heat Sinks"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59C9E81E917EEBFD"]
+			description: ["This is where you start. You can aquire basic materials like Uranium and Thorium in your world and craft your first fission fuel."]
+			id: "0B204EBE35852FA7"
+			rewards: [{
+				id: "1319B036EF38E1A7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "7BB3E1F5AAB707DD"
+					item: "nuclearcraft:fuel_thorium_tbu"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "72DAEC060CD62D1E"
+					item: "nuclearcraft:fuel_uranium_leu_235"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4DE3DB1FA933D8C5"
+					item: "nuclearcraft:fuel_uranium_heu_235"
+					type: "item"
+				}
+			]
+			title: "Fission Fuel"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32759CFEBBA542EA"]
+			description: ["Separates some materials like uranium into isotopes"]
+			id: "59C9E81E917EEBFD"
+			rewards: [{
+				id: "2A4190CED1DBAE1A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Name speaks for him self"
+			tasks: [{
+				id: "41FB30AB7E1E892B"
+				item: "nuclearcraft:isotope_separator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["081C50637C6FF2ED"]
+			id: "7BF786E0EEE4860D"
+			rewards: [{
+				id: "332557F0EFE6146C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Nuclear wastes are not wastes"
+			tasks: [
+				{
+					id: "5CE3E65D85A5CC15"
+					item: "nuclearcraft:fuel_reprocessor"
+					type: "item"
+				}
+				{
+					id: "1E747CB58134F12C"
+					item: "nuclearcraft:decay_hastener"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59C9E81E917EEBFD"]
+			icon: "nuclearcraft:plutonium_rtg"
+			id: "602DAD563A1C131B"
+			rewards: [{
+				id: "159601E89CE26228"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FEEB6506B7C575E"
+					item: "nuclearcraft:uranium_rtg"
+					type: "item"
+				}
+				{
+					id: "34E867A2D43BB05F"
+					item: "nuclearcraft:plutonium_rtg"
+					type: "item"
+				}
+				{
+					id: "63E3F5622117E978"
+					item: "nuclearcraft:americium_rtg"
+					type: "item"
+				}
+				{
+					id: "08E4E0534D025830"
+					item: "nuclearcraft:californium_rtg"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["015E2E9D8B678087"]
+			description: [
+				"Well, this is not actually a round ring, a cubic ring surrounding Fusion Core."
+				"Slice of the ring must be in the \"O\" shape made out of 4 casing blocks. "
+				"Meaning it would be look like this:"
+				"&8&l   #"
+				"&8&l  # #"
+				"&8&l   #&r"
+				"You can combine casing or casing glass as you like."
+				"Center blocks of the chamber has to be empty. This is the space for plasma."
+			]
+			id: "77CF3DCEA4A31EFD"
+			rewards: [{
+				id: "7A0CC426B28C3932"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "The ring"
+			tasks: [{
+				count: 64L
+				id: "11645C64AB595E4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:fusion_reactor_casing"
+					}
+				}
+				type: "item"
+			}]
+			title: "Fusion Reactor Chamber"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"31DAC3957CC14D84"
+				"3C2C6CF2C5D901D1"
+			]
+			id: "285863F49493AF62"
+			rewards: [{
+				id: "74385523AD5B5609"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			subtitle: "Brain of the Fusion Reactor"
+			tasks: [{
+				id: "4F649B50ADE5DCCC"
+				item: "nuclearcraft:fusion_core"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["285863F49493AF62"]
+			description: [
+				"These blocks are connecting Fusion Core with reactor chamber ring around the Core."
+				"Place 4 connector lines for each horizontal direction, starting from the middle of the Fusion Core. Bigger reactor rings are more efficient."
+			]
+			id: "015E2E9D8B678087"
+			rewards: [{
+				id: "5A401E426CEED66F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Connecting brain with the chamber"
+			tasks: [{
+				count: 8L
+				id: "28FE0374088418BF"
+				item: "nuclearcraft:fusion_reactor_connector"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F002C9A0092C10C"]
+			description: [
+				"Strong electromagnetic field keeps plasma inside the chamber."
+				"Placement rule is the same as for RF Amplifier: it has to touch at least 2 Fusion Casing/Glass blocks."
+			]
+			id: "77C9259E0B0FE5BB"
+			rewards: [{
+				id: "3EB49CFD36EC45E8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Keeping the plasma"
+			tasks: [{
+				count: 64L
+				id: "5ABBF4E0CD24B02D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:electromagnets"
+					}
+				}
+				type: "item"
+			}]
+			title: "Electromagnets"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77CF3DCEA4A31EFD"]
+			description: [
+				"RF Amplifiers are increasing plasma energy with RF Microwaves. Otherwords they just heating the plasma."
+				"Different types of plasma has different reaction temperatures. You can start with copper ones."
+				"Amplifiers must be placed around the ring. As many as you need, anywhere you like."
+				"The main rule - amplifier has to touch 2 blocks of Fusion Casing/Glass"
+			]
+			id: "2F002C9A0092C10C"
+			rewards: [{
+				id: "0B4A58B0482C0D06"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Heating up the plasma"
+			tasks: [{
+				id: "51B269FBE6FACD45"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:amplifiers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Radio Frequency Amplifiers"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42BEC6A82910E9A7"]
+			description: [
+				"This block is the part of reactor walls. So it can be placed anywhere: in the corner or in the wall."
+				"Irradiator uses irradiation lines of your reactor to irradiate items and liquids."
+				"More irradiation lines - faster the progress."
+				"It also depends on fuel radioactivity."
+				"And only works if reactor is running."
+			]
+			id: "31C6C9EB8AD4F3BE"
+			rewards: [{
+				id: "46D607AAD3F7AC57"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Crafting with Nuclear Radiation"
+			tasks: [{
+				id: "174ECFCD6BDC386F"
+				item: "nuclearcraft:irradiator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DEDA65F61652C9B"]
+			description: [
+				"We need to concentrate all light beams into one spot in the center of chamber structure."
+				"Place EXPLs around structure faces pointing into center."
+				"Charge them and activate."
+				""
+				"{@pagebreak}"
+				"{image:kubejs:block/screen/nuclearcraft_kugelblitz_chamber width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"{image:kubejs:block/screen/nuclearcraft_blackhole2 width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"{image:kubejs:block/screen/nuclearcraft_black_hole width:100 height:100 align:center fit:true}"
+			]
+			id: "42E07CC516A52519"
+			rewards: [
+				{
+					id: "59CCD69FEC09930C"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "239499A0B35E2A4C"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "2FB87588F39748C4"
+				item: "nuclearcraft:expl"
+				type: "item"
+			}]
+			title: "Producing a blackhole"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["25EC23AB0C991018"]
+			description: [
+				"This structure has fixed shape. Checkout JEI/REI or patchouli guide for shape."
+				"But outerrior blocks combinations may vary. Depending on what you need more: quantum transformation, FE generation..."
+				"The main rule, chamber faces must be symmetric."
+			]
+			id: "6B7D49391464B4AB"
+			rewards: [{
+				id: "46E37015CA8D321E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Almost sphere"
+			tasks: [
+				{
+					id: "2FAA08E04CE82A15"
+					item: "nuclearcraft:chamber_terminal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "371D4D383FB2AC72"
+					item: "nuclearcraft:chamber_port"
+					type: "item"
+				}
+				{
+					count: 125L
+					id: "6DAFE4E7B995BB51"
+					item: "nuclearcraft:neutronium_frame"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B7D49391464B4AB"]
+			description: ["These blocks affects the speed of quantum transformation recipes."]
+			id: "1FA85991DDFCC1BE"
+			rewards: [{
+				id: "3B2D97D99733088E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "For quantum crafting"
+			tasks: [{
+				count: 48L
+				id: "25FC4F3E61946176"
+				item: "nuclearcraft:quantum_transformer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1FA85991DDFCC1BE"]
+			description: [
+				"Blackhole can be unstable, what a surprize."
+				"This block helps to maintain stability."
+			]
+			id: "487B2E28017843E5"
+			rewards: [{
+				id: "63FDEF5174947DBB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Stabilizing the blackhole"
+			tasks: [{
+				count: 72L
+				id: "4C30E4F2EE30F2FE"
+				item: "nuclearcraft:event_horizon_stabilizer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["487B2E28017843E5"]
+			id: "4B5458B5D29B8CA1"
+			rewards: [{
+				id: "7E5FD0E1199E31E3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "FE generation rates"
+			tasks: [{
+				count: 26L
+				id: "715A933D599EF3AF"
+				item: "nuclearcraft:quantum_flux_regulator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4B5458B5D29B8CA1"]
+			description: [
+				"6 blocks, 6 structure faces."
+				"Position of Photon Concentrator is strictly in the center of the wall."
+			]
+			id: "7DEDA65F61652C9B"
+			rewards: [{
+				id: "5340C57AA13F85D6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "In gate for the light"
+			tasks: [{
+				count: 6L
+				id: "352FB5293626946C"
+				item: "nuclearcraft:photon_concentrator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "6286A200E1CDB1EE"
+			rewards: [{
+				id: "053F793856EF4E8D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "nuclearcraft:deuterium"
+					id: "14749DEC619B39AD"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "mekanismgenerators:deuterium"
+					id: "5D3A11AA7DFF6D12"
+					type: "fluid"
+				}
+			]
+			title: "Deuterium"
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			id: "5B7AFD8961BFC00F"
+			rewards: [{
+				id: "3094A478A673F24F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "nuclearcraft:tritium"
+					id: "3FB98773E6683EF1"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "mekanismgenerators:tritium"
+					id: "0178BF98265E7D8D"
+					type: "fluid"
+				}
+			]
+			title: "Tritium"
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E016F2B357B859F"]
+			description: ["Fusion Reactor is a very hot structure, you need to constantly cool it down, otherwise it will meltdown."]
+			id: "31DAC3957CC14D84"
+			rewards: [{
+				id: "1EE03D702AA0925B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "minecraft:water"
+					id: "002602E1603F378F"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "nuclearcraft:liquid_helium"
+					id: "5F16A2EC7EE4FEF8"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "nuclearcraft:liquid_nitrogen"
+					id: "1A31524C7D66F005"
+					type: "fluid"
+				}
+			]
+			title: "Fusion Reactor Coolant"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A74B8AAA5A76C67"]
+			id: "25EC23AB0C991018"
+			rewards: [{
+				id: "5C425815EE29C778"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Base component of Kugelblitz chamber"
+			tasks: [{
+				count: 64L
+				id: "002442110A337938"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/neutronium"
+					}
+				}
+				type: "item"
+			}]
+			title: "Neutronium"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["77C9259E0B0FE5BB"]
+			description: [
+				"Reactor GUI has sort of checklist, but let's repeat:"
+				""
+				"1. Make sure you have constant supply of fuel and coolant (pipes are connecting on the top/bottom of Fusion Core)"
+				""
+				"2. Do not forget to charge the reactor, as it needs energy for electromagnets and amplifiers"
+				""
+				"3. Redstone signal to start. Consider the amplification rate depends on redstone signal strength."
+				""
+				"4. Amplification slider, you can adjust amplification rate in reactor GUI, but max rate is capped by redstone signal."
+			]
+			id: "0187684A795EFACD"
+			rewards: [{
+				id: "00FB105B7159B42F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Fusion Checklist"
+			tasks: [
+				{
+					id: "039915D140DA7F85"
+					title: "Fuel and coolant supply"
+					type: "checkmark"
+				}
+				{
+					id: "031804C8DF48AD16"
+					title: "Initial startup energy"
+					type: "checkmark"
+				}
+				{
+					id: "163073AE066C6C97"
+					title: "Redstone signal"
+					type: "checkmark"
+				}
+				{
+					id: "22EDAECA5C842888"
+					title: "Amplification slider"
+					type: "checkmark"
+				}
+			]
+			title: "Getting ready"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6286A200E1CDB1EE"
+				"5B7AFD8961BFC00F"
+			]
+			description: [
+				"There are different pairs of fusion fuel available."
+				"The most important is what temperature is required for fusion reaction."
+				"Deuterium+Tritium is the easiest way to start your fusion as it does not require large Hi-End fusion reactor."
+			]
+			id: "3C2C6CF2C5D901D1"
+			rewards: [{
+				id: "1FF8ECB363CB2407"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C16410649A4DA26"
+				title: "Ok. I understand"
+				type: "checkmark"
+			}]
+			title: "Fusion Fuel"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["547037A1C1BBB81F"]
+			description: ["Moderators attached to fission fuel cells increases energy generation by almost 17%, but also increases heat generation by 33% for each attachment."]
+			id: "31F5766E63603754"
+			rewards: [{
+				id: "2C9237A13FC7C508"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Rising efficiency"
+			tasks: [{
+				id: "2EE9E13000F05353"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:moderators"
+					}
+				}
+				type: "item"
+			}]
+			title: "Moderators"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["547037A1C1BBB81F"]
+			id: "2F1993EABEC6CC19"
+			rewards: [{
+				id: "5303315D3F0C35E0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "517A25A07E9256EB"
+				item: "nuclearcraft:fission_reactor_solid_fuel_cell"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"As we know: mass is energy and energy is mass, we can concentrate insane amount of light in one spot to create a Kugelblitz - Blackhole made out of light."
+				""
+				"What's the application?"
+				""
+				"1. Converting Hawking radiation into energy"
+				""
+				"2. Quantum transformation of items with blackhole quantum fields "
+			]
+			id: "0A74B8AAA5A76C67"
+			rewards: [{
+				id: "001105015AFD29D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Blackhole made out of light"
+			tasks: [{
+				id: "1151D40DE60B1ED5"
+				title: "How interesting"
+				type: "checkmark"
+			}]
+			title: "Kugelblitz"
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["28BB27A54B194C8B"]
+			description: ["This is really great fuel for fusion and fission reactors"]
+			id: "3D3D5F0FC190FA04"
+			rewards: [{
+				id: "7BBBD3E04608B236"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			subtitle: "Very effective fuel"
+			tasks: [
+				{
+					id: "165AE5120612A35D"
+					item: "nuclearcraft:xenorium_298"
+					type: "item"
+				}
+				{
+					id: "050CA2C3E8B1EBD2"
+					item: "nuclearcraft:quantite"
+					type: "item"
+				}
+			]
+			title: "Extreme isotopes"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FA85991DDFCC1BE"]
+			description: [
+				"Blackhole quantum fields allows you to use chamber for quantum transformations of one item into another."
+				"But there's a trick, recipes are not determined. And bond to world seed."
+				"Meaning every new game or server, you have to research."
+				""
+				"Algorithm is simple:"
+				""
+				"1. Put an item into slot, and scroll the frequency slider to find when transformation starts."
+				""
+				"2. Transformation speed depends on the ratio slider (FE gen / Transformation) above."
+				""
+				"3. The frequency can be defined with redstone signal sent into the port. Signal strength is the frequency."
+			]
+			id: "28BB27A54B194C8B"
+			rewards: [{
+				id: "2816B835C0063CAB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39E570C65BEFC539"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Quantum Transformations"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "18550A96B03860FE"
+			rewards: [{
+				id: "29F002BBA07AC427"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "6D61669244445B31"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "6D29D4A5DBC65BEF"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "09947B464FB4B548"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "45854F573E0D92DB"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18550A96B03860FE"]
+			id: "6FC34F7B2A86F02C"
+			rewards: [{
+				id: "1CE2A679AD7C18D4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A48EBFB1F102F91"
+					item: "nuclearcraft:light"
+					type: "item"
+				}
+				{
+					id: "5BC24C9760D1CAA1"
+					item: "nuclearcraft:medium"
+					type: "item"
+				}
+				{
+					id: "63F3B6F3535E5D15"
+					item: "nuclearcraft:heavy"
+					type: "item"
+				}
+				{
+					id: "62D7C9B5A735CA6A"
+					item: "nuclearcraft:dps"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18550A96B03860FE"]
+			id: "32759CFEBBA542EA"
+			rewards: [{
+				id: "2FB7D71D787E4C9E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "1E14D0F7471AD9AF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:ingots/uranium"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2228DDB66D766BA3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/thorium"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18550A96B03860FE"]
+			id: "05E6B77DA9440C23"
+			rewards: [{
+				id: "42006CEEB51FEE19"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "48C3C3E531B353B6"
+					item: "nuclearcraft:radaway"
+					type: "item"
+				}
+				{
+					id: "23F2134175B548FC"
+					item: "nuclearcraft:radaway_slow"
+					type: "item"
+				}
+				{
+					id: "173C75120E6A5C73"
+					item: "nuclearcraft:rad_x"
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A00CCB42934E627"]
+			id: "5E016F2B357B859F"
+			rewards: [{
+				id: "07ED5F0B6A7FE7DB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "330DD8310968B134"
+				item: "nuclearcraft:supercooler"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "4F0DCA24E0F89454"
+			rewards: [{
+				id: "205BA715923A1046"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F34551FC520624"
+				item: "nuclearcraft:pump"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F0DCA24E0F89454"]
+			id: "7A00CCB42934E627"
+			rewards: [{
+				id: "5C29B4956880C1CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E7E558D3718BCF2"
+					item: "nuclearcraft:helium_collector"
+					type: "item"
+				}
+				{
+					id: "133BF9E17CCC7C57"
+					item: "nuclearcraft:nitrogen_collector"
+					type: "item"
+				}
+				{
+					id: "7E1190D1FA588DA2"
+					item: "nuclearcraft:water_collector"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B7D49391464B4AB"]
+			id: "60DCF5DE31DD7BC6"
+			rewards: [{
+				id: "14295C55293B525E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FB1B89B9199204"
+				item: "nuclearcraft:subatomic_liquifier"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60DCF5DE31DD7BC6"]
+			id: "620676DE8D9C27B7"
+			rewards: [{
+				id: "3F2125DB284AA6DF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Feeding the Blackhole"
+			tasks: [{
+				amount: 1000L
+				fluid: "nuclearcraft:subliquid_matter"
+				id: "16F38AD5A310A707"
+				type: "fluid"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BF786E0EEE4860D"]
+			id: "095BEBDD23161D9F"
+			rewards: [{
+				id: "6E418EF02E0117E5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5989BF7559DFBE76"
+					item: "nuclearcraft:fuel_neptunium_len_236"
+					type: "item"
+				}
+				{
+					id: "668BB96B24B26764"
+					item: "nuclearcraft:fuel_neptunium_hen_236"
+					type: "item"
+				}
+				{
+					id: "0103847B6F5C978E"
+					item: "nuclearcraft:fuel_plutonium_lep_241"
+					type: "item"
+				}
+				{
+					id: "6623F82BBF7D8416"
+					item: "nuclearcraft:fuel_plutonium_hep_241"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["095BEBDD23161D9F"]
+			id: "681FB7385BB89242"
+			rewards: [{
+				id: "4861F38886838F36"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B3DF4AB99E7C11A"
+					item: "nuclearcraft:fuel_curium_lecm_245"
+					type: "item"
+				}
+				{
+					id: "29C9B1CB1BBD5A86"
+					item: "nuclearcraft:fuel_curium_hecm_245"
+					type: "item"
+				}
+				{
+					id: "348ABF26BB171C59"
+					item: "nuclearcraft:fuel_berkelium_leb_248"
+					type: "item"
+				}
+				{
+					id: "2D76FF3A0349D91E"
+					item: "nuclearcraft:fuel_berkelium_heb_248"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["681FB7385BB89242"]
+			id: "53B178B8D666A32F"
+			rewards: [{
+				id: "10A7FBE8F77F8A18"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C95119B82461B24"
+					item: "nuclearcraft:fuel_californium_lecf_249"
+					type: "item"
+				}
+				{
+					id: "4C4DF49E25AFA8DD"
+					item: "nuclearcraft:fuel_californium_hecf_249"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	title: "Nuclear Energy"
+}

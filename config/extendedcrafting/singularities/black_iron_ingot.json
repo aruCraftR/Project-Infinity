@@ -1,0 +1,11 @@
+{
+  "name": "Black Iron Ingot",
+  "colors": [
+    "111212",
+    "383838"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "materialCount": 7500
+}

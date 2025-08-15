@@ -1,0 +1,11 @@
+{
+  "name": "Netherite Diamond Ingot",
+  "colors": [
+    "09b2eb",
+    "03516b"
+  ],
+  "ingredient": {
+    "item": "advancednetherite:netherite_diamond_ingot"
+  },
+  "materialCount": 1250
+}

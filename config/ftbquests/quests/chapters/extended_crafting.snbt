@@ -1,0 +1,4525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended_crafting"
+	group: "29543B666C58207C"
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "059EE974D686567D"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"183E47DFBC340187"
+				"7BA12D4416DFE365"
+			]
+			hide_dependency_lines: true
+			id: "00BF1724D4F902C9"
+			tasks: [{
+				id: "083864D1D5521A55"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "6C8754CBAA4B7D90"
+			tasks: [{
+				id: "1F8F90D381CFBC0B"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "7E21D8137624442D"
+			tasks: [{
+				id: "0B90F5DB00927532"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "183E47DFBC340187"
+			shape: "square"
+			tasks: [{
+				id: "6FCDDC1725F9112D"
+				item: "extendedcrafting:basic_component"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "47D23E9CB93DE790"
+			shape: "square"
+			tasks: [{
+				id: "1B37ED02929B9A9D"
+				item: "extendedcrafting:advanced_component"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "5974F712DA017C94"
+			tasks: [{
+				id: "65888C9373BDE859"
+				item: "extendedcrafting:black_iron_slate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "790B36479144770F"
+			shape: "square"
+			tasks: [{
+				id: "655EE2C39F3D4A3B"
+				item: "extendedcrafting:elite_component"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "74C4FD5EF14EDB3A"
+			shape: "square"
+			tasks: [{
+				id: "5ED6E0A246579FCC"
+				item: "extendedcrafting:ultimate_component"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"22698729A224CCBC"
+			]
+			hide_dependency_lines: true
+			id: "058BAA533EFE63EB"
+			shape: "square"
+			tasks: [{
+				id: "2043A39906AD2C1E"
+				item: "extendedcrafting:redstone_component"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"0C43E0D8C4C8743F"
+			]
+			hide_dependency_lines: true
+			id: "33565398C0DA7135"
+			shape: "square"
+			tasks: [{
+				id: "6143CD2016F44AE8"
+				item: "extendedcrafting:ender_component"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"386E842C193E1B4F"
+			]
+			hide_dependency_lines: true
+			id: "501A8D68AA146608"
+			shape: "square"
+			tasks: [{
+				id: "2781E8CD4FE980FC"
+				item: "extendedcrafting:enhanced_ender_component"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"0A6FFA0295BE1616"
+			]
+			hide_dependency_lines: true
+			id: "7C3C6EE0AF2DF234"
+			shape: "square"
+			tasks: [{
+				id: "453DD53D65CA3456"
+				item: "extendedcrafting:crystaltine_component"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"65FCFDB9AABCE966"
+			]
+			hide_dependency_lines: true
+			id: "3CB10BBE42C7A96C"
+			shape: "square"
+			tasks: [{
+				id: "6496DE982C9FFD9A"
+				item: "extendedcrafting:the_ultimate_component"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "22698729A224CCBC"
+			tasks: [{
+				id: "144F4E5A99402EA8"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "0C43E0D8C4C8743F"
+			tasks: [{
+				id: "2580DAA4B175FE13"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0C43E0D8C4C8743F"]
+			description: [
+				"The &aEnder Crafter&r will launch the &9Ender Alternators&r power in a 7x7x7 area around it. The Ender Crafter is the center block."
+				""
+				"If you have more Ender Alternators in the zone, you can produce faster."
+			]
+			id: "11E16D072634AAF5"
+			tasks: [
+				{
+					id: "63C7DA2D36D1B2D9"
+					item: "extendedcrafting:ender_crafter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "067469321364E50E"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			title: "&3The Ender Crafter"
+			x: 9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["11E16D072634AAF5"]
+			id: "2EC1D0576E0D417C"
+			tasks: [{
+				id: "5C2D2D8EA44EC9A3"
+				item: "extendedcrafting:ender_star"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2EC1D0576E0D417C"]
+			hide_dependency_lines: true
+			id: "386E842C193E1B4F"
+			shape: "hexagon"
+			tasks: [{
+				id: "76B078734C493219"
+				item: "extendedcrafting:enhanced_ender_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["183E47DFBC340187"]
+			id: "7BA12D4416DFE365"
+			shape: "octagon"
+			tasks: [{
+				id: "6B74D9EF98EC52C1"
+				item: "extendedcrafting:basic_catalyst"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["47D23E9CB93DE790"]
+			id: "36EC2AF9842DE616"
+			shape: "octagon"
+			tasks: [{
+				id: "09949A29031EE658"
+				item: "extendedcrafting:advanced_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74C4FD5EF14EDB3A"]
+			id: "63CAB90493C64AF3"
+			shape: "octagon"
+			tasks: [{
+				id: "438378079B871F9D"
+				item: "extendedcrafting:ultimate_catalyst"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["790B36479144770F"]
+			id: "4FDC471CEB587D21"
+			shape: "octagon"
+			tasks: [{
+				id: "475B340444DF0D55"
+				item: "extendedcrafting:elite_catalyst"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["058BAA533EFE63EB"]
+			id: "73B42C0D21A49E3E"
+			shape: "octagon"
+			tasks: [{
+				id: "5CC6BB956250E287"
+				item: "extendedcrafting:redstone_catalyst"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["33565398C0DA7135"]
+			id: "618B0D093FBA3493"
+			shape: "octagon"
+			tasks: [{
+				id: "0200140B45388556"
+				item: "extendedcrafting:ender_catalyst"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["501A8D68AA146608"]
+			id: "771A061136A9EB5B"
+			shape: "octagon"
+			tasks: [{
+				id: "2DC3117CFB460CE7"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"47D23E9CB93DE790"
+				"36EC2AF9842DE616"
+				"00BF1724D4F902C9"
+			]
+			hide_dependency_lines: true
+			id: "6735CD1B161A8AB2"
+			tasks: [{
+				id: "47B0E733F050B3F0"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"790B36479144770F"
+				"4FDC471CEB587D21"
+				"6735CD1B161A8AB2"
+			]
+			hide_dependency_lines: true
+			id: "083AABDD7093C1E4"
+			tasks: [{
+				id: "608257B6E9FBF326"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"74C4FD5EF14EDB3A"
+				"63CAB90493C64AF3"
+				"083AABDD7093C1E4"
+			]
+			hide_dependency_lines: true
+			id: "588BD1C2DEC4DEE6"
+			tasks: [{
+				id: "10E081FC887016AF"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00BF1724D4F902C9"]
+			id: "6AC18A3442FCA08B"
+			shape: "rsquare"
+			tasks: [{
+				id: "3ECD222894F2B49F"
+				item: "extendedcrafting:basic_auto_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6735CD1B161A8AB2"]
+			id: "6C791BA6842F1E47"
+			shape: "rsquare"
+			tasks: [{
+				id: "2EA9CDF7A9BE6839"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["083AABDD7093C1E4"]
+			id: "4C230E52619BEC30"
+			shape: "rsquare"
+			tasks: [{
+				id: "76E2264331A94361"
+				item: "extendedcrafting:elite_auto_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["588BD1C2DEC4DEE6"]
+			id: "14D8F70EEA0CE1E7"
+			shape: "rsquare"
+			tasks: [{
+				id: "54A37B5DF233FB38"
+				item: "extendedcrafting:ultimate_auto_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66958504698EE334"]
+			id: "23BBDF8CF20438C6"
+			tasks: [{
+				id: "5026A8F813F0C05B"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"22BA87708E0F506C"
+				"0F5302390CD3EBC9"
+				"345447CFECB1EAEA"
+				"55967F5CA7C8DCE3"
+				"67E662C37D9026A7"
+				"7C002CD2CCC01501"
+				"619D46DEF30F515F"
+				"06A937A7EA999182"
+				"7F212C10D25CBB18"
+				"3F0474DF3A51CB40"
+				"64799EA963D7DE9C"
+				"539E72790538FDA1"
+				"0560E4387D067C3E"
+				"362250BCBCEC06B2"
+				"259EAF6D8C29613A"
+				"2CFFE9AB7C49F0BF"
+				"5E1DEE61573E2081"
+				"77E55BC6069ED918"
+				"2DD28DD1614C5F89"
+				"6A84AA6205ED01C3"
+				"75CA070BB26D59C4"
+				"15FBF82A9B13FC8C"
+				"595AFEA7195FCF0D"
+				"0C2661F93E2EEA9E"
+				"6874D96FB0E4E6B0"
+				"4C76AAFC67B38348"
+				"71D9727148D5DE09"
+				"46D69E999E55DFCE"
+				"3109EE54A8B50F5D"
+				"75B2FA11A55D974B"
+				"06DC2BBF134E4D3A"
+				"4288C2AD752807B4"
+				"57F6AA4F885E94FE"
+				"52FC6E9D981B1C41"
+				"42EA48E74B954384"
+				"32B6C7A033B80033"
+				"34C671C2ED3E9879"
+				"0521DA17EB048656"
+				"3DE0759CB59A1D60"
+				"35300B93A962ED07"
+				"22B8B7786A4B9093"
+				"5D75D096A3D3BD3B"
+				"5ED2DF58DD29F24F"
+				"130C7D2358C136B3"
+				"555C8EEB5BC9A391"
+				"685BBC3BA94474A4"
+				"4C89D68370C82B40"
+				"0B31B9B96A3A96B1"
+				"1E74FFB46D98939B"
+				"02C261537C06AB91"
+				"534C02D17648D31C"
+				"361058FB3C4CC92E"
+				"0BE11EB976A863BA"
+				"4718368B71868ADE"
+				"1EADEF460DF9F959"
+				"513179CB9422BB56"
+				"4A5EECC743654BB3"
+				"4B9186C7D751D3D7"
+				"2A0FFACEAE829512"
+				"01DAFC9109A31E7D"
+				"63F44E6C074CEAC1"
+				"1428C04FF4B26F0F"
+				"74F4BAD08542DAFA"
+				"77C713C707496AA9"
+				"371ACEC1B15C64E6"
+				"7E86A8DC866DA750"
+				"6CE32AF7EC49F675"
+				"69A435F076A19CDC"
+				"6261065E4117B342"
+				"36EBD9AC492715CB"
+				"6D0315EDC209D68C"
+				"274011BD14FA28EA"
+				"1F27CB7D6927C013"
+				"6EC10F18CEC9DBE2"
+				"736D57705E03D0AB"
+				"5AA1A2C956188786"
+				"6C205F2457EC5D5F"
+				"70F5C81894F13224"
+				"63E13E8EED0ABA9C"
+				"0C37C1547D28DFB7"
+				"0D61394E83E07E32"
+			]
+			hide_dependency_lines: true
+			id: "3D9A982B63582765"
+			rewards: [{
+				id: "3E324F7CABD45503"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "extendedcrafting:ultimate_singularity"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Ultimate Singularity"
+			tasks: [{
+				id: "187735BA60615F3A"
+				item: "extendedcrafting:ultimate_singularity"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "&5&l&oOne to rule them all"
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["083AABDD7093C1E4"]
+			hide_dependency_lines: true
+			id: "0A6FFA0295BE1616"
+			shape: "hexagon"
+			tasks: [{
+				id: "105F39E89EBB6821"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7C3C6EE0AF2DF234"]
+			id: "096B6FA766A45B4B"
+			shape: "octagon"
+			tasks: [{
+				id: "618F0A545977BD6F"
+				item: "extendedcrafting:crystaltine_catalyst"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3CB10BBE42C7A96C"]
+			id: "0556703DAFD956F0"
+			shape: "octagon"
+			tasks: [{
+				id: "0AF69654B5379B18"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1877B56F00A0F97D"
+				"7C80C70F768633FD"
+				"39DABAA4EB55E482"
+				"71331435BAAC3FB4"
+				"6B919E935CEC7DB0"
+				"386244EBEC74597D"
+				"5803DCBE23D51B28"
+				"39F105F1BE9066D3"
+				"2A24A8541A340A03"
+				"7574AF5DDCCF07A1"
+				"468983DBFDDBB7C0"
+				"78CB4B4314EF312C"
+				"393CB7CDADAA9555"
+				"64F795E46C64D026"
+				"35F1D976C406F090"
+				"3ABCA46CB46B4D68"
+				"3390667B3CE7A295"
+				"7DA5191444DFC630"
+				"115B1CEA711BCDB5"
+				"59479DE543345B34"
+				"7F4D1242B8DAA277"
+				"40435ECDA5A39A0E"
+				"5E47D3E11DFF6DFF"
+				"0D72EC0478CAEA54"
+				"19AD5E75F300C0F2"
+				"03800DF3583B9EE3"
+				"2633C3D9911E8659"
+				"23970928A19AC051"
+				"1EC98FED2C077695"
+				"0ABD9D4E58D56E90"
+				"47C48E17F95BD7BF"
+				"67BCB6D6D368E335"
+				"1255CFAC5F93D651"
+				"0931CDF8BCFD01CA"
+				"1A350D2AECC92FE9"
+				"535B094AABCBCDE5"
+				"58255488F16344CC"
+				"15EE60833C3CFB52"
+				"5BF974262F9E4F47"
+				"685E724DB8C905DC"
+				"5367DD09FCB31EDA"
+				"00AF2E604F01B1C9"
+				"6D4580D9CE03D895"
+				"6FE481B6F8A8D6F0"
+				"4F24886B9D2A1F6F"
+				"65438F0E78467700"
+				"55D2CA8A87A3B2F4"
+				"2F431B66AAA7C48D"
+				"0AA4615C5E3B42D3"
+				"5082FADB4B12FB5A"
+				"035BCBB2121776EA"
+				"3C35921D9FE740D0"
+				"6641AD866EF2B52A"
+				"31CF43E62477007D"
+				"6AB33B66F5D2F622"
+				"5EE0B03500B8904B"
+				"1AFE6FD3A7638268"
+				"13E4ED7EDC5F21EB"
+				"264E3505B3C681A2"
+				"22CC647108A7BF35"
+				"248DA7D87A9E4CFB"
+				"4254541ACA3A3C40"
+				"192ADD8E5F3432A5"
+				"662C664D0DAB33FC"
+				"4058A10002E8D089"
+				"1F16F35EA0455137"
+				"4C09D08116E4342C"
+				"205C010DCF6A4C63"
+				"2A5E8E8EAE378DBC"
+				"5E5282D2156CE3B0"
+				"190A20F09E2B99B0"
+				"1AED85F696F15982"
+				"4B9D35EA50ADC5B2"
+				"22326E22CFD311A9"
+				"55936278ED56FAD6"
+				"29F7E806BBFD0461"
+				"26B7EF43F81C6E94"
+				"1867D55A7EFD52BE"
+				"740B8945302D3DE1"
+				"19CBD0D6ACCBA25D"
+				"4A0BF2B9DEFC2BC0"
+				"7A6C7612C5997077"
+				"45EEB5204C288D75"
+				"370ECEF40B08EC67"
+				"00912A93988B5915"
+				"12F257D9BE0EFABB"
+				"3C1CF057A6ABFF41"
+				"001E5E67350F87DC"
+				"056E82005F249FE0"
+				"75CB90FE2D9BB205"
+				"18E4EB9FCB5EE888"
+				"4C473125C76774B2"
+				"0B8D84377AB097B1"
+				"768692C4F364C29D"
+				"25566CACB19F2CD8"
+				"36DEBC579CB104F8"
+				"1E2F491EC8AE8459"
+				"5B8C0B4B7DDA86D5"
+				"287E96012E6C01DA"
+				"0E4ED62FDEB84613"
+				"538F2B139862972F"
+				"247818C519E5338D"
+				"3BCC54E3562B5BD3"
+				"400B9B9253E4C9A5"
+				"4E580E3700598EED"
+				"68C262C3E6ECC331"
+				"12D70F1D80F513E1"
+				"01DBEA1DBEDB9AC2"
+				"17CCEA4544A6F4C9"
+				"036343D256275A70"
+				"0E0F37DAC47CCA4E"
+				"78A1D3B23C5C90A7"
+				"591E74298EB3CB6D"
+				"41ECA092DC5942CC"
+				"0C8D3B38ECC82D90"
+				"7159F7BEA36B747A"
+				"688363754519B619"
+				"18FC83B4944704F4"
+				"65F1F0544922297B"
+				"57481A39E1D9A057"
+			]
+			hide_dependency_lines: true
+			id: "65FCFDB9AABCE966"
+			rewards: [{
+				id: "1163510C0087151A"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "extendedcrafting:the_ultimate_ingot"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Ultimate Ingot"
+			tasks: [{
+				id: "4DA07334BF25E287"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			title: "&5&l&oThe one and only"
+			x: 13.964285714285737d
+			y: -10.273809523809526d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "extendedcrafting:guide"
+				}
+			}
+			id: "5530C0D8BF092FCA"
+			min_width: 300
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "02871F2050384194"
+				type: "checkmark"
+			}]
+			title: "Welcome to &5Extended Crafting"
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"6C8754CBAA4B7D90"
+				"5974F712DA017C94"
+			]
+			hide_dependency_lines: true
+			id: "66958504698EE334"
+			tasks: [{
+				id: "771DD1F4D2F1DABD"
+				item: "extendedcrafting:frame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22698729A224CCBC"]
+			description: ["Same as &aEnder Crafter&r the &6Flux Crafter&r will launch the &9Flux Alternators&r in a 7x7x7 area around it, but it requires power."]
+			id: "6E79797DBD8A54EA"
+			tasks: [
+				{
+					id: "0AD85F5B03D91D42"
+					item: "extendedcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EEE25C59319BB4E"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			title: "&6The Flux Crafter"
+			x: 9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"147EE4FB2C5F1A34"
+			]
+			hide_dependency_lines: true
+			id: "0C824D2FDD62401F"
+			shape: "square"
+			tasks: [{
+				id: "2F11B0E265255BC0"
+				item: "extendedcrafting:enhanced_redstone_component"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0C824D2FDD62401F"]
+			id: "1CBD77D9822D9F8B"
+			tasks: [{
+				id: "24731D4D0B0CD09B"
+				item: "extendedcrafting:enhanced_redstone_catalyst"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6E79797DBD8A54EA"]
+			id: "68463B5E8E6698F6"
+			tasks: [{
+				id: "69D8441E6D3018B9"
+				item: "extendedcrafting:flux_star"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["68463B5E8E6698F6"]
+			hide_dependency_lines: true
+			id: "147EE4FB2C5F1A34"
+			shape: "hexagon"
+			tasks: [{
+				id: "6BD21B689412A9DD"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"11E16D072634AAF5"
+				"6E79797DBD8A54EA"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			id: "5C6453AF1DC98785"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "15C6599010C94009"
+					item: "extendedcrafting:auto_ender_crafter"
+					type: "item"
+				}
+				{
+					id: "3445E0658213FEB4"
+					item: "extendedcrafting:auto_flux_crafter"
+					type: "item"
+				}
+			]
+			title: "&bAuto Ender \\& Flux Crafters"
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "095FFE54A4BE60A3"
+			tasks: [{
+				id: "5ABE27ACF6E0EBB7"
+				item: "extendedcrafting:pedestal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["294EAB81A6EA6D7C"]
+			id: "36CC62B6266919BC"
+			shape: "rsquare"
+			tasks: [{
+				id: "47FABA7EE2E6CCD8"
+				item: "extendedcrafting:epic_auto_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["588BD1C2DEC4DEE6"]
+			hide_dependency_lines: true
+			id: "294EAB81A6EA6D7C"
+			tasks: [{
+				id: "1DF36847D1EC30C4"
+				item: "extendedcrafting:epic_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			id: "22BA87708E0F506C"
+			rewards: [{
+				id: "7841B05F55A613AB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2D3D9D4E5C17BB"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:twinite_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			id: "7C002CD2CCC01501"
+			rewards: [{
+				id: "67C64C83C21EC679"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "515C74555933656A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			id: "06A937A7EA999182"
+			rewards: [{
+				id: "7CF49066341F8637"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DEDA0451F2C4FB2"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			id: "67E662C37D9026A7"
+			rewards: [{
+				id: "4E472C5D7D4D3922"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12330D9C81302149"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:prosperity_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "7F212C10D25CBB18"
+			rewards: [{
+				id: "4D942D16DF790390"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B6B4F52B7B9B1AB"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:gunpowder"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			id: "55967F5CA7C8DCE3"
+			rewards: [{
+				id: "727DF105D24AFC89"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7638661B9AC33619"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:rose_gold_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "3F0474DF3A51CB40"
+			rewards: [{
+				id: "241DA58F79F7BD63"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6704E8560270F4A1"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:sculk_alloy_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			id: "64799EA963D7DE9C"
+			rewards: [{
+				id: "511B9AE5FCC7CDA9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DF8F769224E321"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:signalum_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			id: "539E72790538FDA1"
+			rewards: [{
+				id: "5D248FCD2DDFD356"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550304D7E3789D6C"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:crystal_matrix_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "619D46DEF30F515F"
+			rewards: [{
+				id: "61105827A85743FF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1636B2A4447AB25E"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:unobtainium_allthemodium_alloy_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			id: "0F5302390CD3EBC9"
+			rewards: [{
+				id: "64373E02D89F59F3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FCC1E83F41A9521"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:awakened_supremium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "345447CFECB1EAEA"
+			rewards: [{
+				id: "3B9146EC79DE3090"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AD363538C58B48B"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "595AFEA7195FCF0D"
+			rewards: [{
+				id: "3A7963C0471F39C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "022F6D41AC4FDAA6"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "5E1DEE61573E2081"
+			rewards: [{
+				id: "77E9E5F1F9AB6655"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E7D8B51CB3585F6"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:netherite_gold_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			id: "0560E4387D067C3E"
+			rewards: [{
+				id: "53C1E2547F1605F4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E57EE8FF56BDE7D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ethereal_spirit"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "0C2661F93E2EEA9E"
+			rewards: [{
+				id: "6D4D02CA58D6ECBE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3600278D65773147"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "6A84AA6205ED01C3"
+			rewards: [{
+				id: "7A10BD1BA27D701C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AE2616BCAA42CDD"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:soulium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "15FBF82A9B13FC8C"
+			rewards: [{
+				id: "79D8A1B1DF88F33A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21ADE82E2E261883"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ingot_refined_obsidian"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "4288C2AD752807B4"
+			rewards: [{
+				id: "00E2ED54643CBDD2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EC2FE4B89132C42"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:elementium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "32B6C7A033B80033"
+			rewards: [{
+				id: "404EC3209EFC9937"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0822421C47452784"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lithium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "3109EE54A8B50F5D"
+			rewards: [{
+				id: "005C86068E0B26C5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D078E9A89A5871D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:netherite_emerald_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "362250BCBCEC06B2"
+			rewards: [{
+				id: "428509B644637D26"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07BA02DC1179EF71"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:sky_steel_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "4C76AAFC67B38348"
+			rewards: [{
+				id: "41AEE9980DC8C76D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "347C843F39E1407A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "2CFFE9AB7C49F0BF"
+			rewards: [{
+				id: "0B27003A9539F89E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D16D5A870D2342D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:enderium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "71D9727148D5DE09"
+			rewards: [{
+				id: "2A427AA434F49AD0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48D3A9B51CD28511"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:netherite_iron_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "259EAF6D8C29613A"
+			rewards: [{
+				id: "36C8DD8E37EBD419"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04EEFB4B05147654"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:dimensional_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "52FC6E9D981B1C41"
+			rewards: [{
+				id: "23A5ED1922F441EE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D193BAA8847D148"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:dark_metal_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "2DD28DD1614C5F89"
+			rewards: [{
+				id: "396C4D1A437A9D24"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04528BD202046065"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:dragonsteel_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "06DC2BBF134E4D3A"
+			rewards: [{
+				id: "3FE76E62FA8D7153"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BCC75BA65FFC803"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:netherite_diamond_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "75CA070BB26D59C4"
+			rewards: [{
+				id: "55B894D4FAE922ED"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5758F89CBCB29DC2"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:tertium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "42EA48E74B954384"
+			rewards: [{
+				id: "65EA2A85E486AAA8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "049CA35962B80695"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:awakened_draconium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "57F6AA4F885E94FE"
+			rewards: [{
+				id: "2F1856D02D91918F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7763EBE9A33E2402"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "77E55BC6069ED918"
+			rewards: [{
+				id: "101904BBF85D5422"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "597D6C499A1FC66F"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:black_iron_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "46D69E999E55DFCE"
+			rewards: [{
+				id: "1F267360894ABD98"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41FDB1B9744A8DA9"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "6874D96FB0E4E6B0"
+			rewards: [{
+				id: "5D88F7674C479434"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6379B3B067AE58CA"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "75B2FA11A55D974B"
+			rewards: [{
+				id: "18515907B8BC0F1B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BD0924CC0DB09F2"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ingot_osmium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "5ED2DF58DD29F24F"
+			rewards: [{
+				id: "1343EDC1DC79FC76"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75DF080DC695564F"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:manasteel_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "555C8EEB5BC9A391"
+			rewards: [{
+				id: "6AC44A6C8B5680D6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DD60E7DF72A25A3"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ingot_iron_compressed"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			id: "34C671C2ED3E9879"
+			rewards: [{
+				id: "129FE89E0D091713"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F522FA8C0BFFCB"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:inferium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "130C7D2358C136B3"
+			rewards: [{
+				id: "51DE83EB731A0F8B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC3FD2C3579BCEB"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:netherite_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			id: "3DE0759CB59A1D60"
+			rewards: [{
+				id: "15FBA5A27F35BC80"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38EDB3163C4B2A08"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:unobtainium_vibranium_alloy_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			id: "5D75D096A3D3BD3B"
+			rewards: [{
+				id: "60ECDA2D5C6CCC62"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D95F68004BDAE22"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:redstone_alloy_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			id: "35300B93A962ED07"
+			rewards: [{
+				id: "7BB17B699958504A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29D1265881560013"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:end_steel_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			id: "22B8B7786A4B9093"
+			rewards: [{
+				id: "70CF9936094E07FF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD8933E71485C44"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:pink_slime_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			id: "0521DA17EB048656"
+			rewards: [{
+				id: "5F43500BDDD6E6FC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BBA4DEE56A5CECF"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			id: "0B31B9B96A3A96B1"
+			rewards: [{
+				id: "49210F4C443AC941"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ACFBFEC1CF0E2F4"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:unobtainium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			id: "4718368B71868ADE"
+			rewards: [{
+				id: "2A9E81D37C61B918"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78AE3CDDC4A8C729"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:enhanced_iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "534C02D17648D31C"
+			rewards: [{
+				id: "209957438441B65F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08E0A70333421A1A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:enhanced_ender_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "0D61394E83E07E32"
+			rewards: [{
+				id: "5320C4F40CC8FE40"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20D27A1CC0DA6522"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "685BBC3BA94474A4"
+			rewards: [{
+				id: "6A81A92C270409D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65CA97F200CA7D95"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:extreme_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			id: "36EBD9AC492715CB"
+			rewards: [{
+				id: "78C347E2C273A0FE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2183E9B1EB8ED396"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:fiery_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			id: "0C37C1547D28DFB7"
+			rewards: [{
+				id: "0B312562FF0063DF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BF3C824C88FF014"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:abyssal_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5AA1A2C956188786"
+			rewards: [{
+				id: "3C5D16695C7C63D5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "227354A5A317094D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:brass_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "01DAFC9109A31E7D"
+			rewards: [{
+				id: "248E8248814B3A90"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "316237CBE0AAD735"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ironwood_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "371ACEC1B15C64E6"
+			rewards: [{
+				id: "434096CF416DA7C0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F9F6073AC1CB0D0"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "0BE11EB976A863BA"
+			rewards: [{
+				id: "10E995988D3E070D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63046D602163709F"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:flux_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			id: "6C205F2457EC5D5F"
+			rewards: [{
+				id: "23B972F21E485C75"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "299F5F749CB1141A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:prismalium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "69A435F076A19CDC"
+			rewards: [{
+				id: "02DCA79B6CAFF522"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39C7C4D73D7A25D0"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:enhanced_gold"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "274011BD14FA28EA"
+			rewards: [{
+				id: "5215B2813AC9F879"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18D263CB44C3B814"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "4A5EECC743654BB3"
+			rewards: [{
+				id: "5857C6C8A3E7475B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29EAB72BA427840B"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:vibranium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			id: "1E74FFB46D98939B"
+			rewards: [{
+				id: "4B144AFC53B357FA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32FA6144B63C1A52"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:iridium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			id: "1428C04FF4B26F0F"
+			rewards: [{
+				id: "033E6CBF3CF8516A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73FEE53D3662A559"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:draconium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "70F5C81894F13224"
+			rewards: [{
+				id: "2EAD649D919CF8C1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31117FB3C63E8110"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:tough_alloy_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "74F4BAD08542DAFA"
+			rewards: [{
+				id: "00704C1A35B5C0F7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2073CDE8F59D1188"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:allthemodium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "77C713C707496AA9"
+			rewards: [{
+				id: "73DE6610B34F398D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64EAE54CD5E8F73E"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "6261065E4117B342"
+			rewards: [{
+				id: "51F50B982A5A26F7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EF02DAB2BC44D31"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ingot_refined_glowstone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "6CE32AF7EC49F675"
+			rewards: [{
+				id: "0D9AFDC2D8A85657"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "255CD5D236322857"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:knightmetal_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "361058FB3C4CC92E"
+			rewards: [{
+				id: "09F64F0C59C252A5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B237DB3E1DDA88D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "4B9186C7D751D3D7"
+			rewards: [{
+				id: "57C67BEFD4ACD21D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70874095D3D36326"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:stainless_steel_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "63F44E6C074CEAC1"
+			rewards: [{
+				id: "0AC5078A388CC0A5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BFEA8C9A5C353B5"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			id: "2A0FFACEAE829512"
+			rewards: [{
+				id: "4C8943848EE43CE2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "325126D978DCBD70"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:prudentium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			id: "4C89D68370C82B40"
+			rewards: [{
+				id: "0B76F17451812042"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6786D4134AEC582E"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:redstone_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "7E86A8DC866DA750"
+			rewards: [{
+				id: "2975923F3A46A60C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DBC3711257B94D1"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:soul_infused_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "736D57705E03D0AB"
+			rewards: [{
+				id: "1807CF092FB57963"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3759D12870466B57"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:imperium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "63E13E8EED0ABA9C"
+			rewards: [{
+				id: "2800496E19C3AF4E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF5576D77F9877D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:supremium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			id: "02C261537C06AB91"
+			rewards: [{
+				id: "48BC9E03843AF6FA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "094C88462F9CAB25"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:manyullyn_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			id: "6D0315EDC209D68C"
+			rewards: [{
+				id: "2A222E9E7DE8AEA3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66DE68D8450F5E2D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:shellite_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "1EADEF460DF9F959"
+			rewards: [{
+				id: "620E127A2BF68BF7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DA10AB692BA7E1D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:enhanced_netherite"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "1F27CB7D6927C013"
+			rewards: [{
+				id: "310EE2284BE09776"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4020A3F692E4B409"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			id: "6EC10F18CEC9DBE2"
+			rewards: [{
+				id: "5EAB0BC61998031E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A0826808BCACD6D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lumium_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "513179CB9422BB56"
+			rewards: [{
+				id: "1B0D0B4A3F95D901"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "188E044327ACB70A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ender_ingot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			id: "1877B56F00A0F97D"
+			rewards: [{
+				id: "3AC4F84DDB65FCFF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "585B1EEC21C57568"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			id: "39DABAA4EB55E482"
+			rewards: [{
+				id: "1EFA8EDD5F73A7DB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7188AF538E4FA12F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			id: "71331435BAAC3FB4"
+			rewards: [{
+				id: "5CD13C6ECCF04D16"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "679D31540EDD7397"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			id: "7C80C70F768633FD"
+			rewards: [{
+				id: "47C41E0C76A1070C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30851186BB92D367"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.0d
+		}
+		{
+			id: "6B919E935CEC7DB0"
+			rewards: [{
+				id: "6A15BAF5F47A212A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "134CD1E62317BA48"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			id: "1255CFAC5F93D651"
+			rewards: [{
+				id: "5AA5FF126823E1D5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77CEE83CB5EAF413"
+				item: "common_ore_library:brass_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			id: "2A24A8541A340A03"
+			rewards: [{
+				id: "0042CAB4C54756E7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D7EE03F4ECF3AF5"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			id: "1A350D2AECC92FE9"
+			rewards: [{
+				id: "23E9518F19C6CDA3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB8FDE60E4B653A"
+				item: "common_ore_library:iridium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			id: "3ABCA46CB46B4D68"
+			rewards: [{
+				id: "25C7D8EB53AFFE20"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "079136ECE4E8CACB"
+				item: "common_ore_library:zinc_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			id: "468983DBFDDBB7C0"
+			rewards: [{
+				id: "5B3BAB24F949FD72"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64043822AC9C382F"
+				item: "common_ore_library:aluminum_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			id: "59479DE543345B34"
+			rewards: [{
+				id: "0B630F0B3D51E2CC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6442A53FC9CA4A75"
+				item: "advancednetherite:netherite_emerald_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			id: "7DA5191444DFC630"
+			rewards: [{
+				id: "731D24179CDB2C4B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7786691E3E641B1F"
+				item: "advancednetherite:netherite_gold_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			id: "39F105F1BE9066D3"
+			rewards: [{
+				id: "2A744A90C2B989A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E7C7DD8A3F22A15"
+				item: "advancednetherite:netherite_iron_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			id: "1EC98FED2C077695"
+			rewards: [{
+				id: "23D8CD0F32A456FB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE298E38B0C550C"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			id: "535B094AABCBCDE5"
+			rewards: [{
+				id: "5A90B166C2606D12"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "576E019A20AB2B23"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			id: "64F795E46C64D026"
+			rewards: [{
+				id: "7338DEF7BAB6829C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E0D6F0BB00A3700"
+				item: "advancednetherite:netherite_diamond_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			id: "47C48E17F95BD7BF"
+			rewards: [{
+				id: "2D4DC4C6C76D9BB1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59EDE79F8E2242EA"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			id: "35F1D976C406F090"
+			rewards: [{
+				id: "55BA95D9DDC8A329"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7950F085241CEADF"
+				item: "kubejs:blaze_gold_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			id: "2633C3D9911E8659"
+			rewards: [{
+				id: "6A73FE71CC570D55"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02C6148E5DB8073C"
+				item: "kubejs:azure_silver_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			id: "78CB4B4314EF312C"
+			rewards: [{
+				id: "5A376CDE317213B8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4476E3A3A6F4E9CE"
+				item: "kubejs:azure_electrum_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			id: "40435ECDA5A39A0E"
+			rewards: [{
+				id: "112F767F896C8DD7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "758D4A48F1AA0177"
+				item: "kubejs:tyrian_steel_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			id: "03800DF3583B9EE3"
+			rewards: [{
+				id: "61D154204CB2075F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7668AD81AAC1F5B0"
+				item: "thermal:nickel_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			id: "393CB7CDADAA9555"
+			rewards: [{
+				id: "3E4470E6FAE0AF4C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "648CDDA8C9E93B29"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			id: "7F4D1242B8DAA277"
+			rewards: [{
+				id: "0B8B17C87683BE73"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43060C5980B9D742"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			id: "0ABD9D4E58D56E90"
+			rewards: [{
+				id: "3B4AD874178C307D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A11D2F40AAA288A"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			id: "67BCB6D6D368E335"
+			rewards: [{
+				id: "28FA4BCF2959DA38"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64679F5EE8EA5D9A"
+				item: "dimensionalpocketsii:dimensional_ingot_enhanced"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "115B1CEA711BCDB5"
+			rewards: [{
+				id: "40DE791AAF606625"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C3566516BD87186"
+				item: "evolvedmekanism:alloy_singular"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "5E47D3E11DFF6DFF"
+			rewards: [{
+				id: "2288A5DA10373070"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD0D71AB696ED1B"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			id: "23970928A19AC051"
+			rewards: [{
+				id: "4F7ABDBD6128554B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "511BD80D08D627AE"
+				item: "thermal:rose_gold_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			id: "7574AF5DDCCF07A1"
+			rewards: [{
+				id: "4C4CB08DCD0EB816"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B47F8CDAA6D9461"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			id: "386244EBEC74597D"
+			rewards: [{
+				id: "09AAAA35CCBB8578"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "313BE295F657533F"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			id: "3390667B3CE7A295"
+			rewards: [{
+				id: "3BD76BC24F97406A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FD30B37BDF92999"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			id: "0D72EC0478CAEA54"
+			rewards: [{
+				id: "322B0F360960E15D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05535D5F422AFE52"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			id: "0931CDF8BCFD01CA"
+			rewards: [{
+				id: "54CF3B4C6A377533"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE4A764B6EB76E1"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			id: "5803DCBE23D51B28"
+			rewards: [{
+				id: "24F2FF16F1379F59"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E11EE1E0A36C51"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			id: "19AD5E75F300C0F2"
+			rewards: [{
+				id: "29DB2C6CBB467C55"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "448F8AEB701D6712"
+				item: "redstone_arsenal:flux_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "6D4580D9CE03D895"
+			rewards: [{
+				id: "79BA19C3C66C9334"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "106014D967DD7DB3"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "7A6C7612C5997077"
+			rewards: [{
+				id: "3BB3AD47E63D6CED"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E4412E2F86F577A"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "17CCEA4544A6F4C9"
+			rewards: [{
+				id: "075E300EA60DA763"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38B38597ECEE1262"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			id: "4058A10002E8D089"
+			rewards: [{
+				id: "173D2F93C5CBAC63"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3349194760CCA6AA"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			id: "5E5282D2156CE3B0"
+			rewards: [{
+				id: "674F304C77EF9386"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19F81E7AF048752B"
+				item: "kubejs:sculk_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			id: "5367DD09FCB31EDA"
+			rewards: [{
+				id: "7ED2C504067A26C1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D8109D30B64BED3"
+				item: "kubejs:midnight_iron_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			id: "6FE481B6F8A8D6F0"
+			rewards: [{
+				id: "7839FED1896B09C9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A8796666B886580"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			id: "4F24886B9D2A1F6F"
+			rewards: [{
+				id: "195CAC4B47FCCC22"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3616C9FEAD6EDBBD"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			id: "5BF974262F9E4F47"
+			rewards: [{
+				id: "46D6B6D05FD4C7EB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC2ED13BDE9E7EF"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			id: "5EE0B03500B8904B"
+			rewards: [{
+				id: "3F0C6A2C987A3690"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB2F4C898203CDE"
+				item: "kubejs:bunny_steel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4A0BF2B9DEFC2BC0"
+			rewards: [{
+				id: "384CB9EC99CFF74F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "672146B264E85F46"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "15EE60833C3CFB52"
+			rewards: [{
+				id: "467F16C3B39FBBE9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CA5EA4852D2A508"
+				item: "common_ore_library:cobalt_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "662C664D0DAB33FC"
+			rewards: [{
+				id: "32AE996C93C76DB4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03476E93A5F1A518"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "22326E22CFD311A9"
+			rewards: [{
+				id: "000C673F14FA70C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58AE262312C85ED0"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			id: "3C1CF057A6ABFF41"
+			rewards: [{
+				id: "226C71118F819CB0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EEB811B95275529"
+				item: "kubejs:plasteel_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "205C010DCF6A4C63"
+			rewards: [{
+				id: "1A25E2DE8B15DA90"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C949F4CF6FC9A57"
+				item: "kubejs:arcmetal_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "001E5E67350F87DC"
+			rewards: [{
+				id: "70895013087D37FE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6861239EE0A83EDC"
+				item: "kubejs:solarmetal_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "12F257D9BE0EFABB"
+			rewards: [{
+				id: "1D0321FB5D411A08"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DEF706B808EB567"
+				item: "kubejs:voidmetal_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "68C262C3E6ECC331"
+			rewards: [{
+				id: "1EC78187D04D4FB9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673AB30BED9E089A"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			id: "29F7E806BBFD0461"
+			rewards: [{
+				id: "78E4DD35B865D939"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74C57C70943C9F83"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			id: "0B8D84377AB097B1"
+			rewards: [{
+				id: "1926583AFF7E2D23"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "401CCB4150611ECE"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			id: "1AFE6FD3A7638268"
+			rewards: [{
+				id: "3B58772954200C7B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "198215EF724D6E8A"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "248DA7D87A9E4CFB"
+			rewards: [{
+				id: "0EADAB2BA53BBC9A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31DD26DD413CDFAE"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			id: "370ECEF40B08EC67"
+			rewards: [{
+				id: "535AC356E8C4C372"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35947BCAFBC493B1"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			id: "264E3505B3C681A2"
+			rewards: [{
+				id: "5F94FEB571013CD5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71076C5775608A1D"
+				item: "thermalendergy:stellarium_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			id: "58255488F16344CC"
+			rewards: [{
+				id: "0CF501D881521063"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "114E191CD29DC09F"
+				item: "armorplus:en_netherite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "78A1D3B23C5C90A7"
+			rewards: [{
+				id: "5E11C42B87DEC534"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4970905A6F5DBF7A"
+				item: "bigreactors:inanite_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			id: "00912A93988B5915"
+			rewards: [{
+				id: "516C2C5C3AFC6FA7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79B78D859DC09B3B"
+				item: "bigreactors:ridiculite_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			id: "1E2F491EC8AE8459"
+			rewards: [{
+				id: "753A957B781BB992"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "435CD2ED4545351D"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "12D70F1D80F513E1"
+			rewards: [{
+				id: "172AFD2F82AFA353"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BCF019742DA12A4"
+				item: "thermalendergy:melodium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			id: "55D2CA8A87A3B2F4"
+			rewards: [{
+				id: "792B0779226A877B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51795D611FC2041F"
+				item: "thermalendergy:prismalium_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			id: "45EEB5204C288D75"
+			rewards: [{
+				id: "387D3159A1B814EC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A762538D3BD40C"
+				item: "armorplus:en_gold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "685E724DB8C905DC"
+			rewards: [{
+				id: "139A3D7575F23289"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63587378DBBD0683"
+				item: "bigreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			id: "7159F7BEA36B747A"
+			rewards: [{
+				id: "517E68545EB8A099"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42273546C93F414B"
+				item: "bigreactors:ludicrite_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			id: "22CC647108A7BF35"
+			rewards: [{
+				id: "0F85EA3AB267090A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D9064A33FE02CFD"
+				item: "evolvedmekanism:alloy_exoversal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "57481A39E1D9A057"
+			rewards: [{
+				id: "0A21D91A9899DE4D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E0C06CBD9327FD2"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			id: "2A5E8E8EAE378DBC"
+			rewards: [{
+				id: "5994B67DF8ECCED6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "528BFCDC9639DD2D"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			id: "035BCBB2121776EA"
+			rewards: [{
+				id: "0CD91EA1EFA0CC5D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2542F90ED30B7087"
+				item: "born_in_chaos_v1:dark_metal_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			id: "31CF43E62477007D"
+			rewards: [{
+				id: "7603C58CC54929AC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39A0A20DA0EC7C02"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			id: "3C35921D9FE740D0"
+			rewards: [{
+				id: "4D554D19CE8BD8AC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61248998FDA079A7"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			id: "1F16F35EA0455137"
+			rewards: [{
+				id: "7A6730F869B3618C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3168813D613EF983"
+				item: "mysticalagriculture:inferium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			id: "192ADD8E5F3432A5"
+			rewards: [{
+				id: "6CF3967DC6BD8978"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "071FF03F532E67F3"
+				item: "evolvedmekanism:alloy_hypercharged"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			id: "6641AD866EF2B52A"
+			rewards: [{
+				id: "7FB70BBCF7C78FD3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF236B50D1BA9D9"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			id: "26B7EF43F81C6E94"
+			rewards: [{
+				id: "4B383EEDAD061112"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "224D0C276674E647"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			id: "400B9B9253E4C9A5"
+			rewards: [{
+				id: "27EA438D3C62FB6E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "115172DEAA19F44F"
+				item: "evolvedmekanism:alloy_subatomic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			id: "0AA4615C5E3B42D3"
+			rewards: [{
+				id: "65D6942DFB22F3C5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B876EA553E22F0A"
+				item: "cataclysm:enderite_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			id: "190A20F09E2B99B0"
+			rewards: [{
+				id: "64C066A7F8097C1D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40F7D7CEE58F3924"
+				item: "kubejs:starmetal_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			id: "25566CACB19F2CD8"
+			rewards: [{
+				id: "0F4ECF9A0A8EA949"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "687D275C66C00A69"
+				item: "thermal_extra:abyssal_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "4C473125C76774B2"
+			rewards: [{
+				id: "778E31250FD7E558"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F377A6C529416EE"
+				item: "thermal_extra:dragonsteel_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			id: "2F431B66AAA7C48D"
+			rewards: [{
+				id: "33A2B205FFAE1400"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4728DECC1B450556"
+				item: "thermal_extra:twinite_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			id: "538F2B139862972F"
+			rewards: [{
+				id: "15670F5F70EECF51"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0355D89A072FC07D"
+				item: "thermal_extra:shellite_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "55936278ED56FAD6"
+			rewards: [{
+				id: "7C67698461E0B74F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65B1D461ED271CC4"
+				item: "thermal_extra:soul_infused_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			id: "247818C519E5338D"
+			rewards: [{
+				id: "52C91AF585220A2B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21FD105127F655C0"
+				item: "mysticalagriculture:prudentium_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			id: "41ECA092DC5942CC"
+			rewards: [{
+				id: "78FD5233ADCFD034"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "536B24CA5114F463"
+				item: "mysticalagriculture:tertium_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			id: "056E82005F249FE0"
+			rewards: [{
+				id: "3649F0CD79B7471C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67AD1EDB0643FF50"
+				item: "mysticalagriculture:soulium_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			id: "18E4EB9FCB5EE888"
+			rewards: [{
+				id: "5850CE8295F9253B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2303ECA872D9812C"
+				item: "mysticalexpansion:etherium_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "591E74298EB3CB6D"
+			rewards: [{
+				id: "43916ED21D4D8045"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12E371E2232924D8"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			id: "5B8C0B4B7DDA86D5"
+			rewards: [{
+				id: "4A32A6F4AFDE0579"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A323D60E4CE5BBF"
+				item: "evolvedmekanism:ingot_better_gold"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "6AB33B66F5D2F622"
+			rewards: [{
+				id: "3F1174A16553E506"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57097ABD7A0D010A"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			id: "740B8945302D3DE1"
+			rewards: [{
+				id: "68112E69C3E6794E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "700380F8582699DD"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			id: "768692C4F364C29D"
+			rewards: [{
+				id: "6B88418713E391D5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F1F7AF638F2B706"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			id: "01DBEA1DBEDB9AC2"
+			rewards: [{
+				id: "180EE19B4A9EB1EE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01806A6CB246212B"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.0d
+		}
+		{
+			id: "0C8D3B38ECC82D90"
+			rewards: [{
+				id: "3C21FE652CDB6A55"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "482A1E1AF5C69E3F"
+				item: "extendedcrafting:enhanced_ender_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			id: "19CBD0D6ACCBA25D"
+			rewards: [{
+				id: "0129288CBE4938BA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79221C432934FDDE"
+				item: "common_ore_library:tungsten_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			id: "4254541ACA3A3C40"
+			rewards: [{
+				id: "6D7665BF78E1B405"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67335E41FC749EDA"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			id: "65F1F0544922297B"
+			rewards: [{
+				id: "1C82A4D460883FFD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49DA104371158555"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			id: "36DEBC579CB104F8"
+			rewards: [{
+				id: "7700E4FBBD81429C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FBD269E4E9D47B5"
+				item: "mysticalexpansion:extremium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			id: "4E580E3700598EED"
+			rewards: [{
+				id: "217C26C15FC725C1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55A06CA7ABE9D078"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			id: "4C09D08116E4342C"
+			rewards: [{
+				id: "12CBD45F43DEECBC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53D0F0A59F678607"
+				item: "mysticalagriculture:imperium_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			id: "287E96012E6C01DA"
+			rewards: [{
+				id: "30E80316EFBD8E82"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E61C6A1646A9DB3"
+				item: "mysticalagriculture:supremium_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			id: "5082FADB4B12FB5A"
+			rewards: [{
+				id: "0E3C3426900770C7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77FADC43F14B0053"
+				item: "nuclearcraft:potassium_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			id: "1867D55A7EFD52BE"
+			rewards: [{
+				id: "1329C4E65029B03B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30CFA421033E86D9"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			id: "13E4ED7EDC5F21EB"
+			rewards: [{
+				id: "43115F8F57BC2487"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33705917F82E7055"
+				item: "mysticalagriculture:awakened_supremium_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			id: "688363754519B619"
+			rewards: [{
+				id: "11A3B66DFBFD8129"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0233C954567DC87E"
+				item: "mysticalagradditions:insanium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			id: "00AF2E604F01B1C9"
+			rewards: [{
+				id: "03ACD7EA44A927FA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B81FBE4426CFDCE"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			id: "75CB90FE2D9BB205"
+			rewards: [{
+				id: "3266552C0D71F45E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46410B08BA6B34C6"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "65438F0E78467700"
+			rewards: [{
+				id: "39BDBA2D7F3B037A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "577AF3E9DF2CC6A1"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			id: "036343D256275A70"
+			rewards: [{
+				id: "397BAF5E60F37E25"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27D9F0EE5E55ED56"
+				item: "nuclearcraft:hard_carbon_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			id: "18FC83B4944704F4"
+			rewards: [{
+				id: "0C6C99B2BE13FDA3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14FACA20617AF827"
+				item: "megacells:sky_steel_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			id: "0E4ED62FDEB84613"
+			rewards: [{
+				id: "7264D22E40454C1D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE4D391E6A8FCB7"
+				item: "mysticalexpansion:divinium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			id: "3BCC54E3562B5BD3"
+			rewards: [{
+				id: "4A81185EBAA7A29A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E26263654277E9F"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			id: "1AED85F696F15982"
+			rewards: [{
+				id: "1AE554ADAE2AAD0A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1EA7997EFAFE99"
+				item: "common_ore_library:manyullyn_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			id: "4B9D35EA50ADC5B2"
+			rewards: [{
+				id: "598669824AE23492"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42DD5939BC45FDAF"
+				item: "enderio:end_steel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			id: "0E0F37DAC47CCA4E"
+			rewards: [{
+				id: "44EDA9D14BCFAE1A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "320BE3705F2FD01E"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+	]
+	title: "Extended Crafting"
+}

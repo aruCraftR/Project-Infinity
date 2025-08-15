@@ -1,0 +1,11 @@
+{
+  "name": "Enhanced Ender Ingot",
+  "colors": [
+    "0d363d",
+    "1a3a40"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:enhanced_ender_ingot"
+  },
+  "materialCount": 10000
+}

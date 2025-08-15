@@ -1,0 +1,3067 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "hostile_neural_networks"
+	group: "3D3A412C3395C674"
+	icon: {
+		Count: 1
+		id: "hostilenetworks:data_model"
+		tag: {
+			data_model: {
+				id: "hostilenetworks:creeper"
+			}
+		}
+	}
+	id: "0A52D0932DA3F809"
+	images: [
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 90.0d
+			width: 1.5d
+			x: -2.5d
+			y: 10.0d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot! \\\\n \\\\n To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:enderman"
+					}
+				}
+			}
+			id: "37EBB8E0D6E5F821"
+			rewards: [{
+				id: "0BE74809343EA491"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "463EB27ECC7E6509"
+				type: "checkmark"
+			}]
+			title: "Welcome to &9Hostile Neural Networks&r!"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37EBB8E0D6E5F821"]
+			description: ["The &9Deep Learner&r is one of the core components of HNN. \\\\n \\\\n With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs. \\\\n \\\\n Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside! \\\\n \\\\n Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "3E3CBDCEAB0FF28F"
+			rewards: [
+				{
+					id: "5CA80FB9829DC39F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0F763EA5ECD92CC8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "The Learning HUD"
+			tasks: [{
+				id: "054BE385F6537CBA"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			title: "&aLearning Mobs&r"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37EBB8E0D6E5F821"]
+			description: ["&9Model Frameworks&r are the starting point for creating Data Models. \\\\n \\\\n To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on. \\\\n \\\\n To 'gather data' for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "58C2ABED43B2EA61"
+			rewards: [
+				{
+					id: "5FAF62796246C4E8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5B06A5F75A26D436"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "For 'Gathering Data'"
+			tasks: [{
+				id: "1C090CE24508A2EC"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			title: "&9Modeling Mobs&r"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E3CBDCEAB0FF28F"
+				"58C2ABED43B2EA61"
+			]
+			description: ["The &dSimulation Chamber&r is the main machine within HNN. \\\\n \\\\n When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip.  \\\\n \\\\n The machine also requires at least one &9Prediction Matrix&r to run a simulation. \\\\n \\\\n The result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model. \\\\n \\\\n If the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "104EBBC08B4733F5"
+			min_width: 300
+			rewards: [
+				{
+					id: "71538E4CC7F261BD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "17E527FA3578239D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E9AD3D0255D4F8B"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			title: "&aSimulating Deaths&r"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"58C2ABED43B2EA61"
+				"3E3CBDCEAB0FF28F"
+			]
+			description: ["Once you make your first Data Model, you'll need to level it up to be useful. \\\\n \\\\n Data Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it! \\\\n \\\\n Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:blaze"
+					}
+				}
+			}
+			id: "34CD54347E9821B5"
+			rewards: [
+				{
+					id: "24AC88E214212942"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3412682F88442CF1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7CEA92391454DDD3"
+				title: "{atm9.quest.hostile.data}"
+				type: "checkmark"
+			}]
+			title: "Leveling Up Data Models"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various Overworld materials."]
+			hide_dependency_lines: false
+			id: "2559201BCF5D497C"
+			rewards: [{
+				id: "75E436707AC2B2A6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "655C40D2B0080E17"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			title: "Generalized Overworld Prediction"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various Nether materials."]
+			hide_dependency_lines: false
+			id: "10E8BC20D406D9FB"
+			rewards: [{
+				id: "62C04EE248DACEFE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "01DFF76EC79179F4"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			title: "Generalized Nether Prediction"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various End materials."]
+			hide_dependency_lines: false
+			id: "5A23107C363A209E"
+			rewards: [{
+				id: "3E70307CED0B870D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "62F42CED16C84B74"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			title: "Generalized End Prediction"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "49A92EEA6A14622F"
+			optional: true
+			rewards: [
+				{
+					id: "1CD4306EAEA49AE8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6FF81BF7D640E21C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CB9ADBCDCEBB856"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cow"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1F0EF605CC6E5E40"
+			optional: true
+			rewards: [
+				{
+					id: "534BD89030B6D261"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7625FE7F1302B7CE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "096DD8109F0AF32B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:magma_cube"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "245D83BA9D00AFF8"
+			optional: true
+			rewards: [
+				{
+					id: "019230D48FDC6E82"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0098A41B1B9C3468"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "642B385EA62F46F3"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:witch"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1E985ADC4067A107"
+			optional: true
+			rewards: [
+				{
+					id: "59D1DEBCE33BD0F1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D7453DA4F952653"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E7DC0A0B86C4520"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:thermal/basalz"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "5DF8A07DED732B8B"
+			optional: true
+			rewards: [
+				{
+					id: "2A3053984573D8B8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0113E9DD419A89B5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BF7753A8E889B62"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3B85E2D0774F53CA"
+			optional: true
+			rewards: [
+				{
+					id: "0E6A102495A23F2F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6946EA6DDC0777D3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "179812552CBC8D0B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:pig"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "7352BB6533AE6E75"
+			optional: true
+			rewards: [
+				{
+					id: "448A1F390CA05DEB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "605863D09216B05A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "214749A96C7E4593"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:rabbit"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "68153B68FA878DAE"
+			optional: true
+			rewards: [
+				{
+					id: "1E7C926A6CAC5441"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5BB3D4E49F749B05"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56FAECD527832184"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:glow_squid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "354E0774523B374F"
+			optional: true
+			rewards: [
+				{
+					id: "1DE16559B6C3C428"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1AC46198A799D127"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "725B568705B03E81"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:phantom"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "7EBBEB504C38898A"
+			optional: true
+			rewards: [
+				{
+					id: "4A24781866E953F5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0B7E3128627FD03E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F4B02AFDFD7CDBE"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:guardian"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3F8E733CBA5DD26D"
+			optional: true
+			rewards: [
+				{
+					id: "086AB37D7A937C02"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16CB14D9D13343D2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4438A3EB8EE6FEF5"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:sheep"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1B0F2AEB913BD3D1"
+			rewards: [
+				{
+					id: "667A0E16F0B79C34"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0460E2FA0AC8A84E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79A156F12CA12C10"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "6BF7C7ADF1B80ACB"
+			optional: true
+			rewards: [
+				{
+					id: "217BA49B40F10712"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "26A4DF05E5A9F938"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2078CF8923772753"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:drowned"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "228AEC85F5348ED2"
+			optional: true
+			rewards: [
+				{
+					id: "2E258490D53A1A3B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "069A5DF0B421CAF3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "283C3CB8F88E7521"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:slime"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "7948AF9B8C40B17D"
+			optional: true
+			rewards: [
+				{
+					id: "317D68A07694D2FF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "32466900A8CF4746"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C96D9C655645231"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "05123E63B51561FF"
+			optional: true
+			rewards: [
+				{
+					id: "6480865AE438792F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3AACF35606AE4D8A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "172566DF04412AD6"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombified_piglin"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "25486FC0ED7133D9"
+			optional: true
+			rewards: [
+				{
+					id: "14CE78F568490815"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5F51CCD97DB2CEE9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DC1BD98D00158DB"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ghast"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "20CB60F162DDB01B"
+			optional: true
+			rewards: [
+				{
+					id: "524781DB6F004EFA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "69FEDBAE9D0833D6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5514A808185AE178"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "4FDE0E4C6413EC7D"
+			optional: true
+			rewards: [
+				{
+					id: "194065F2FB87879D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DD47D461C97E945"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CE648559814D23C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "40EE3BBCF238942D"
+			optional: true
+			rewards: [
+				{
+					id: "71EB82A63AE78638"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "112991B282A7E446"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20B6EC414F3EB424"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:squid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "2F6F888610373E21"
+			optional: true
+			rewards: [
+				{
+					id: "27F3AB150FEAB4B5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D308754446C6098"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52EB253913441EA0"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "5AE5D2F42A75FEB1"
+			optional: true
+			rewards: [
+				{
+					id: "546A871D224EF8C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "492B79446D6B2968"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4900E0381AC1E489"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:evoker"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "78EE970AE4954E64"
+			rewards: [
+				{
+					id: "1DFA341746422156"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "38BE4261837EE412"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30E7379687568DBA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "6CCDF28A50BEA391"
+			optional: true
+			rewards: [
+				{
+					id: "24A89A21CBCE3DD1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "285B27700275EAFA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33AC152163CC680D"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:mooshroom"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1FD43610960E3450"
+			optional: true
+			rewards: [
+				{
+					id: "413581FD41F12AB3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4519B20E7395537F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08204D18E3EEA011"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "0E91D8CF933586DF"
+			optional: true
+			rewards: [
+				{
+					id: "4FE19544F9DAF74B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E0F09EF05CC9985"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1673E580A0CAB0F9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:vindicator"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "2C6D0311960BC625"
+			optional: true
+			rewards: [
+				{
+					id: "58442552F01E59A2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "259D83C7F206CE49"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "272FC480D2460CAA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:bomd/gauntlet"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1C77C432FDB7A867"
+			optional: true
+			rewards: [
+				{
+					id: "008F980A7761BC50"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "098B204C2D0C0C96"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E2089A51091B608"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:chicken"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "552CE591220ECD68"
+			optional: true
+			rewards: [
+				{
+					id: "708916821C027C72"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0DDE193ACC87EBD9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7955690D5768510E"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "4AAEAC854FC8DB3A"
+			optional: true
+			rewards: [
+				{
+					id: "5EA6163E26B1958B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "127FDF25ACD15218"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7523634E63F040BC"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:thermal/blitz"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "24157BFA5B85DCBA"
+			rewards: [
+				{
+					id: "72FA7834EBDC79D0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4D118CBA86892757"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "105DDFCEDAB2C613"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "4A26233C179D02C4"
+			optional: true
+			rewards: [
+				{
+					id: "69C30F757E6E4332"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4BE4DD609DE8AE35"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EFE4E397DF4D4C9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:shulker"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "61F1ADF55C49872D"
+			optional: true
+			rewards: [
+				{
+					id: "481A35475265534C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6443C96FAC3E1BDD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E52E1B9814D2024"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:iron_golem"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "12172C1449296E06"
+			optional: true
+			rewards: [
+				{
+					id: "6B7A395E944EC6CD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "12B439B41C530898"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A549C91E418F0B8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:elder_guardian"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions. \\\\n \\\\n When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated. \\\\n \\\\n Notable Mob Predictions: \\\\n \\\\n - &dEnder Dragons&r for &dDragon Eggs&r \\\\n - &2Zombies&r for Iron \\\\n - &0Withers&r for &5Nether Stars&r"]
+			hide_dependency_lines: false
+			id: "14B3542ECB59869C"
+			rewards: [{
+				id: "0AA237BF385028BD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "19F0FC233A052810"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			title: "Creating &dLoot&r"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "5905241071D1960A"
+			rewards: [
+				{
+					id: "4071BAEDE0104AE3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "27C666AB815202EB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5EBA48032F985AC8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:allthemodium/piglich"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "2386E6CC8FF02A12"
+			rewards: [
+				{
+					id: "3BB745DCAB6EBD86"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2978CD9BDF11F755"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D758E4273FC39C0"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:bomd/lich"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "7C009C2683E32C75"
+			rewards: [
+				{
+					id: "5DE3B0D3917A0D53"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3956A4057917E6D0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7083DC3E660B99A5"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:bomd/obsidilith"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "201466DF9FBB2FCB"
+			rewards: [
+				{
+					id: "29E087A323A46266"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5E8326028B45E74B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A98BDEE6D80FF30"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:bomd/void_blossom"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "3DAE0AAC1B00DC16"
+			rewards: [
+				{
+					id: "5B1C08C4A47D77CC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4E2DF1502AB92DBE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A011D21DACC7C0A"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/dark_vortex"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "0FB1999626E6BE91"
+			rewards: [
+				{
+					id: "09349835F8255DF3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "50DE8A8032EE6040"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "331CE2D12E4435C0"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/dire_hound_leader"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "2C7EF914F747B810"
+			rewards: [
+				{
+					id: "01F88321726F0FF4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "72F8E5AC890EC1B2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16988CF629015B36"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/maggot"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "67BC3E724984976D"
+			rewards: [
+				{
+					id: "7265E158D4B0A534"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "11BB4B6A28CADD5E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42C6840E70FE24CD"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/restless_spirit"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "6545AD4D21D250F4"
+			rewards: [
+				{
+					id: "259240008ABDE549"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6FEE85F0D88821FE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12FC55227AC50362"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/spirit_guide"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "587DB6863B8E5BB8"
+			rewards: [
+				{
+					id: "4E9F59BBDED7D853"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B17E1B1670EAFC3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65ACDA726A1ED929"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:the_outer_end/stalker"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "24DB11BB73A1225F"
+			rewards: [
+				{
+					id: "50EF5E586BD0FEDB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57127DD5C9EBF17E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "672CEFBD444CE79D"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/wraith"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "2004789A3762FAC0"
+			rewards: [
+				{
+					id: "5E5CD024EE7965D5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D2B3E4D10B08516"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01FAB0AA7EE8AA24"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/yeti"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "3BC36E66A25BE409"
+			rewards: [
+				{
+					id: "7FD38F03E5737D0A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A2AA2654D057C8C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "615372E77E103CDA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:thermal/blizz"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "7FBAA705B4DD4657"
+			rewards: [
+				{
+					id: "5A5011033DD471B4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E2FA5AE56D4697C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "584F2F7B38F4353D"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/carminite_golem"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "18BF9D8037940815"
+			rewards: [
+				{
+					id: "57833576F3F6CF9A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "74F9B6F357E99F96"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68BC5BD0B57B63EB"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/death_tome"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "631C0CEE61CDF4DF"
+			rewards: [
+				{
+					id: "1E6C72C441850856"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "77085728E98B4E72"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D0A8330CCBD9987"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/deer"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "1370F3BC66CFDF64"
+			rewards: [
+				{
+					id: "22F7C7811A7DD642"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "256C8B74D4902084"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52B218893503FCD3"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/fire_beetle"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "642FA846B5B89AE3"
+			rewards: [
+				{
+					id: "61A4BE3389E106B6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E4F35F90720E0B6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B88F89CE70BD538"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/giant"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "2E8326776D8FF47C"
+			rewards: [
+				{
+					id: "68150229DDEE7BD6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F5A263707B6ADE7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "636BEAC2C1D2FE80"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/goblin"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "454CB1E7AA112318"
+			rewards: [
+				{
+					id: "74F4A4AB2E90D080"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "13DEE89B0A0173B0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "655A674B502BA624"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/helmet_crab"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "759FA1E3F9BC7D30"
+			rewards: [
+				{
+					id: "7C58E00FC7BB850E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D90A17C51C4F670"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69AA1C4D36D868B3"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/hydra"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "42D189C7C9C63610"
+			rewards: [
+				{
+					id: "65BD506999FE3E19"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4F5EF09D90AF24C6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50A00914E0CEA2D3"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/kobold"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "0D058D166646643E"
+			rewards: [
+				{
+					id: "745555956A02517D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "60B0576279CC011D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BEBD2CFE22C907F"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/lich"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "35684CFF37366F34"
+			rewards: [
+				{
+					id: "36A6E1BE3BCD92F7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6A3749072D4122C1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03520387668BE430"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/minoshroom"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "48E72AD15C4F78BC"
+			rewards: [
+				{
+					id: "43B2092DB5F3D9CC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D6DCED6C3645BFD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C1D09EC7F0B6236"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/minotaur"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "6E8B95F01E4AF93D"
+			rewards: [
+				{
+					id: "19F2A76332DFF646"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "428E7BDBC638A486"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A1A334473A6575B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/naga"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "28CBBD959F3D54C7"
+			rewards: [
+				{
+					id: "3A8E644800FBF771"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "581F3AD9A4709AE4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CDD62E6628AD034"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/raven"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "0E2B224A5FF934DF"
+			rewards: [
+				{
+					id: "5A9D6E66FA4105B3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1012D1F38C9AD5D1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B130BFCC9759550"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/redcap"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "473143213D0B330B"
+			rewards: [
+				{
+					id: "1A9C65337C7ECEB5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2E6448D9F10F6CEF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47953B1B43C8088F"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/skeleton_druid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "206462B703CA201E"
+			rewards: [
+				{
+					id: "3975F035A67F67EB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "349B4C2116DB2AD4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44755C340E3E66A2"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/snow_queen"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "35A5E014080F0BBF"
+			rewards: [
+				{
+					id: "591562ED12F42A16"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "186C7C9F89167C3B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AC94195801C82F7"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/stable_ice_core"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "1830A1A15703CC3B"
+			rewards: [
+				{
+					id: "214C36E80B996FB4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "53C0C2960FBC9754"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "493578FE89512E76"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/towerwood_borer"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "75D4BAABECD554AA"
+			rewards: [
+				{
+					id: "45BE858A018E9CD8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2C3415F294C2A6D8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42C657F62889669C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/troll"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "6BCB799B580C8F12"
+			rewards: [
+				{
+					id: "1F1A4DF23F0D30A0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "411D7062486E1644"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33630E7211D63357"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/ur_ghast"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "430B0F434ECD2759"
+			rewards: [
+				{
+					id: "4482CEF83C4EB040"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "37F130E040FB3857"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3359A69825CFFBAE"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cataclysm/ender_golem"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "4B9FA6ACD48E7FAD"
+			rewards: [
+				{
+					id: "326FB8EF2495AE00"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "477F61E9B931A4E1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E93B4205312BC15"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cataclysm/maledictus"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various Twilight Forest materials."]
+			hide_dependency_lines: false
+			id: "3215DB3E694A5AE2"
+			rewards: [{
+				id: "233CFD89177A2A85"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2788BB3BE0D52D32"
+				item: "hostilenetworks:twilight_prediction"
+				type: "item"
+			}]
+			title: "Generalized Twilight Prediction"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "6BB718370BDA86EC"
+			rewards: [
+				{
+					id: "1F360882E97A32A9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B330C9A9671F3CB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A100DC493D7411A"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/glutton_fish"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "5447222A6746127D"
+			rewards: [
+				{
+					id: "1417628139291460"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6A5266F8930DDAEB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "654CFF964FFB92B6"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cataclysm/ancient_remnant"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "478C3034692FE1E5"
+			rewards: [
+				{
+					id: "3FE649692EFD606A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "25DEF7C529F31766"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "184197D23B910DED"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cataclysm/harbinger"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "62438351EC4CA667"
+			rewards: [
+				{
+					id: "017906655B1CD22C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "236FE309884FD0B8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E88E7F5871D4424"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:undergarden/forgotten_guardian"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "6C878E306E620FAE"
+			min_width: 300
+			rewards: [
+				{
+					id: "0DA47B294CBFC370"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E0AC30571F40DB2"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "663D6B5E96B491FD"
+				item: "extrahnn:ultimate_loot_fabricator"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C878E306E620FAE"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "20667F122EADBD6B"
+			min_width: 300
+			rewards: [
+				{
+					id: "57CD3AF977B9CBDA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6572487AF0547264"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2ED24C4C5AE11E84"
+				item: "extrahnn:ultimate_sim_chamber"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C878E306E620FAE"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "7B92C09E74D6ABB2"
+			min_width: 300
+			rewards: [
+				{
+					id: "439088C6FD4BCC15"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A0024C23B7228F2"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7DCE3BA39B43059E"
+				item: "extrahnn:merger_camera"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C878E306E620FAE"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "20879753F697BF83"
+			min_width: 300
+			rewards: [
+				{
+					id: "461ACE688DA38035"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2BB02F08A2EC910C"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "289E502B50D744D3"
+				item: "extrahnn:simulator_modeling"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B92C09E74D6ABB2"]
+			description: [
+				"You need to put them in this order inside the Merger Camera:"
+				"Wither Skeleton"
+				"Wither"
+				"Ender Dragon"
+				"Warden"
+			]
+			id: "55C76FF9FC3B049A"
+			rewards: [{
+				id: "39C4648E68007B36"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45122342E5B76996"
+				item: {
+					Count: 1
+					id: "extrahnn:extra_data_model"
+					tag: {
+						data_model: {
+							ids: [
+								"hostilenetworks:wither_skeleton"
+								"hostilenetworks:wither"
+								"hostilenetworks:ender_dragon"
+								"hostilenetworks:warden"
+							]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wither Skeleton, Wither, Ender Dragon, Warden Data Model"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20879753F697BF83"]
+			description: ["Get more data"]
+			id: "5E88E4FB34428051"
+			rewards: [{
+				id: "244DDC9EB8FE944C"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43C3966FBA7FAE98"
+				item: "extrahnn:upgrade_data_kill"
+				type: "item"
+			}]
+			x: 6.3214285714285765d
+			y: 2.8214285714285765d
+		}
+		{
+			dependencies: ["20879753F697BF83"]
+			description: ["Upgrade the tier of the Data model. Even Faulty Data models can be upgraded"]
+			id: "17B6588BDE007D44"
+			rewards: [{
+				id: "0998BC2FE3A9F2C3"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49F4C0D5118AAE07"
+				item: "extrahnn:upgrade_module_stack"
+				type: "item"
+			}]
+			x: 6.8214285714285765d
+			y: 1.8214285714285765d
+		}
+		{
+			dependencies: ["20879753F697BF83"]
+			description: ["Upgrade the speed of the machine"]
+			id: "53DAA838BC387E90"
+			rewards: [{
+				id: "4ABC13CC49C4D32E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CAFAFAD46F278C"
+				item: "extrahnn:upgrade_speed"
+				type: "item"
+			}]
+			x: 7.3214285714285765d
+			y: 2.8214285714285765d
+		}
+		{
+			dependencies: [
+				"75D4BAABECD554AA"
+				"35A5E014080F0BBF"
+				"3F8E733CBA5DD26D"
+				"2E8326776D8FF47C"
+				"206462B703CA201E"
+				"6E8B95F01E4AF93D"
+				"1B0F2AEB913BD3D1"
+				"473143213D0B330B"
+				"4B9FA6ACD48E7FAD"
+				"3DAE0AAC1B00DC16"
+				"78EE970AE4954E64"
+				"1C77C432FDB7A867"
+				"35684CFF37366F34"
+				"1FD43610960E3450"
+				"05123E63B51561FF"
+				"24DB11BB73A1225F"
+				"245D83BA9D00AFF8"
+				"25486FC0ED7133D9"
+				"454CB1E7AA112318"
+				"1E985ADC4067A107"
+				"28CBBD959F3D54C7"
+				"1F0EF605CC6E5E40"
+				"67BC3E724984976D"
+				"2386E6CC8FF02A12"
+				"6BF7C7ADF1B80ACB"
+				"1830A1A15703CC3B"
+				"12172C1449296E06"
+				"6545AD4D21D250F4"
+				"7C009C2683E32C75"
+				"642FA846B5B89AE3"
+				"0E91D8CF933586DF"
+				"7FBAA705B4DD4657"
+				"6BB718370BDA86EC"
+				"62438351EC4CA667"
+				"201466DF9FBB2FCB"
+				"2004789A3762FAC0"
+				"2C7EF914F747B810"
+				"18BF9D8037940815"
+				"42D189C7C9C63610"
+				"4A26233C179D02C4"
+				"48E72AD15C4F78BC"
+				"40EE3BBCF238942D"
+				"0E2B224A5FF934DF"
+				"587DB6863B8E5BB8"
+				"354E0774523B374F"
+				"5905241071D1960A"
+				"6BCB799B580C8F12"
+				"3B85E2D0774F53CA"
+				"24157BFA5B85DCBA"
+				"0FB1999626E6BE91"
+				"2C6D0311960BC625"
+				"68153B68FA878DAE"
+				"5AE5D2F42A75FEB1"
+				"5447222A6746127D"
+				"7EBBEB504C38898A"
+				"4AAEAC854FC8DB3A"
+				"552CE591220ECD68"
+				"430B0F434ECD2759"
+				"61F1ADF55C49872D"
+				"631C0CEE61CDF4DF"
+				"1370F3BC66CFDF64"
+				"6CCDF28A50BEA391"
+				"228AEC85F5348ED2"
+				"0D058D166646643E"
+				"7352BB6533AE6E75"
+				"7948AF9B8C40B17D"
+				"759FA1E3F9BC7D30"
+				"478C3034692FE1E5"
+				"3BC36E66A25BE409"
+				"49A92EEA6A14622F"
+				"20CB60F162DDB01B"
+				"4FDE0E4C6413EC7D"
+				"5DF8A07DED732B8B"
+				"2F6F888610373E21"
+				"4CA42D0832070C40"
+			]
+			id: "018AAF09164FB224"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E40343A9766515C"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "13EF8A0127B27923"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				id: "4ED4690A95944D98"
+				item: "kubejs:ultimate_prediction"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "4CA42D0832070C40"
+			rewards: [
+				{
+					id: "11CE0330B8CEF3A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B482920D7528825"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1004BAADD0E232C9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:undergarden/gloomper"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+	]
+	title: "&aHostile Neural Networks"
+}

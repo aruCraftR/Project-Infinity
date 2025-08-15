@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/normal_item_port_output"
+    }
+  }
+}

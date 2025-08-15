@@ -1,0 +1,1548 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "29543B666C58207C"
+	icon: "bloodmagic:altar"
+	id: "33D35B63D496335A"
+	images: [
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/brown"
+			rotation: 45.0d
+			width: 2.5d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			color: 16732649
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/brown"
+			rotation: 45.0d
+			width: 2.5d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/lime"
+			rotation: 45.0d
+			width: 2.5d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/blue"
+			rotation: 45.0d
+			width: 2.5d
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			height: 1.15d
+			image: "refinedstorage:block/network_transmitter/cutouts/blue"
+			rotation: 45.0d
+			width: 1.15d
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/purple"
+			rotation: 45.0d
+			width: 2.5d
+			x: 2.0d
+			y: 18.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A &cdark&r and &5mystical&r mod where &9blood&r = power. Sacrifice health, mobs, or even villagers to fuel &6rituals&r, &edemonic pacts&r, and &dforbidden crafts&r."
+				""
+				"Core Systems:"
+				""
+				"&cBlood Altar&r (Infuse items with HP)"
+				""
+				"&9Living Armor&r (Grows stronger with kills)"
+				""
+				"&5Ritual Stones&r (Large-scale magic effects)"
+				""
+				"&dSoul Forge&r (Demonic crafting station)"
+				""
+				"Endgame:"
+				""
+				"&4Hellfire Forge&r (Eldritch items)"
+				""
+				"&cMaster Ritual&r (World-altering spells)"
+				""
+				"(For players who think &9\"life is just another resource\"&r.)"
+				""
+				"&c\"Power flows where blood spills.\"&r"
+			]
+			disable_toast: true
+			id: "5DAC7D2ABCD2E37A"
+			min_width: 350
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					id: "2563A60DB521E9D6"
+					type: "checkmark"
+				}
+				{
+					id: "1DB4DBE7464A4181"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "&4Blood Magic&r"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DAC7D2ABCD2E37A"]
+			description: [
+				"The &efirst-tier&r crafting station for &6basic blood magic&r, requiring manual &cblood sacrifice&r to function."
+				""
+				"Key Features:"
+				""
+				"Stores up to &910,000 LP&r"
+				""
+				"Crafts &5Weak Blood Orb&r, &6Blank Slates&r"
+				""
+				"Requires &dplayer health sacrifice&r (no mobs yet)"
+				""
+				"&c\"Your first steps into the dark arts\"&r"
+				""
+				"(Place &9Sacrificial Knife&r in offhand for easier use!)"
+			]
+			id: "73FAA926443C20D2"
+			shape: "diamond"
+			tasks: [{
+				id: "781BDE39C15F3648"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "&4Blood Altar (Tier 1)&r"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73FAA926443C20D2"]
+			description: [
+				"The &efirst-tier&r container for storing &aLife Essence&r (LP). Acts as your &9initial blood battery&r for basic &5Blood Magic&r rituals and crafts."
+				""
+				"Key Stats:"
+				""
+				"&cCapacity:&r 10,000 LP"
+				""
+				"&9Used&r in early &6Blood Altar&r recipes"
+				""
+				"&dUpgrades&r to higher-tier orbs (Demon->Archmage->Transcendent)"
+				""
+				"(The &4\"training wheels\"&r for aspiring blood mages!)"
+				""
+				"&c\"Every master began with a single drop\"&r"
+			]
+			id: "65404DD229B6D840"
+			tasks: [{
+				id: "475253D85E6BD0C9"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			title: "&6Weak Blood Orb&r"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73FAA926443C20D2"]
+			description: [
+				"A smooth stone tablet used as a &5base material&r for crafting various &6ritual components&r and &dblood-infused items&r."
+				""
+				"Key Uses:"
+				""
+				"Crafting &eRitual Stones&r"
+				""
+				"Creating &cDivination Sigils&r"
+				""
+				"Upgrading &9Blood Altars&r"
+				""
+				"(The &4\"blank canvas\"&r for dark rituals!)"
+				""
+				"To create a &6Blank Slate&r, place a &9Stone&r in a &6Blood Altar&r filled with &aLife Essence&r."
+				""
+				"&9\"Shape it with blood, empower it with will\"&r"
+			]
+			id: "4E1776664123D7AF"
+			tasks: [{
+				count: 2L
+				id: "38C7C1A3D84BB756"
+				item: { Count: 2, id: "bloodmagic:blankslate" }
+				type: "item"
+			}]
+			title: "&7Blank Slate&r"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E1776664123D7AF"]
+			description: [
+				"An advanced crafting station that combines &6alchemy&r and &dblood magic&r to create powerful potions and items."
+				""
+				"Key Features:"
+				""
+				"Brews &cBlood Potions&r (longer-lasting effects)"
+				""
+				"Uses &eLife Essence (LP)&r instead of water"
+				""
+				"Can create &9throwable potion bombs&r"
+				""
+				"(Upgrade with &6Alchemy Flasks&r for enhanced recipes!)"
+				""
+				"&d\"Where science and sacrifice collide\"&r"
+			]
+			id: "64F092F84E2BF678"
+			tasks: [{
+				id: "6B9714A811ACFE8E"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			title: "&5Alchemy Table&r"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64F092F84E2BF678"]
+			description: [
+				"A mystical residue left behind after performing &5blood rituals&r or burning &6magical items&r in a &dHellfire Forge&r. Used as a catalyst in advanced alchemy and demonic crafting."
+				""
+				"Key Uses:"
+				""
+				"Crafting &eRitual Stones&r"
+				""
+				"Brewing &cPotions of Expulsion&r (anti-demon)"
+				""
+				"Creating &9Bound Tools&r"
+				""
+				"*(The &4\"phoenix ashes\"&r of dark magic - worthless alone, powerful when combined.)*"
+				""
+				"&d\"From destruction comes creation\"&r"
+				""
+				"(Drops from &5Sacrificial Rituals&r or &9Hellfire smelting&r.)"
+			]
+			id: "41B86340D8D3F0B4"
+			shape: "diamond"
+			tasks: [{
+				id: "4E1F89F9702C1A56"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&7Arcane Ashes&r"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41B86340D8D3F0B4"]
+			description: [
+				"A dangerous focus that manipulates &6lava&r at the cost of &cLife Essence&r (LP)."
+				""
+				"Functions:"
+				""
+				"&eRight-click&r: Places lava source (&6200 LP/use&r)"
+				""
+				"&eShift-right-click&r: Drains lava into LP (20mB → &51 LP&r)"
+				""
+				"&cWarning&r: No fire immunity - use carefully!"
+				""
+				"Works with &5Volcanic Will&r (demon will type)"
+				""
+				"&dNether utility&r: Create obsidian platforms"
+				""
+				"&6\"Molten power demands bloody payment\"&r"
+			]
+			id: "59CB0AE1662FF899"
+			shape: "diamond"
+			tasks: [{
+				id: "185DCFB18AABD168"
+				item: "bloodmagic:lavasigil"
+				type: "item"
+			}]
+			title: "&4Lava Sigil&r"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41B86340D8D3F0B4"]
+			description: [
+				"A magical tool that reveals &ehidden information&r about blocks and networks in exchange for &cLife Essence&r."
+				""
+				"Functions:"
+				""
+				"Checks &6Blood Altar&r LP levels"
+				""
+				"Displays &5ME Network&r storage"
+				""
+				"Scans &9fluid/energy&r containers"
+				""
+				"&b\"Knowledge whispers to those who bleed\"&r"
+				""
+				"(Crafted with &5Blank Slate&r and &cRedstone&r.)"
+			]
+			id: "5C06626C637113FB"
+			shape: "diamond"
+			tasks: [{
+				id: "75CD95ABB7DC6DD7"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			title: "&5Divination Sigil&r"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41B86340D8D3F0B4"]
+			description: [
+				"A magical focus that manipulates &bwater&r using &cLife Essence&r (LP). Functions as a &5hydromancer's tool&r for both utility and combat."
+				""
+				"Key Abilities:"
+				""
+				"&eRight-click&r: Creates water source blocks (costs &6100 LP&r)"
+				""
+				"&eShift-right-click&r: Drains water (converts to LP)"
+				""
+				"&cOffensive use&r: Launches water projectiles"
+				""
+				"Special Traits:"
+				""
+				"Works with &9Aqua Pathway&r rituals"
+				""
+				"Can extinguish &4fire&r and &5lava&r"
+				""
+				"*(The &6\"liquid control\"&r sigil - equally useful in dungeons and farms!)*"
+				""
+				"&b\"Where blood meets the tide\"&r"
+			]
+			id: "4A8F713E3BD34708"
+			shape: "diamond"
+			tasks: [{
+				id: "448F6980BE528FE4"
+				item: "bloodmagic:watersigil"
+				type: "item"
+			}]
+			title: "&9Water Sigil&r"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E1776664123D7AF"]
+			description: [
+				"An upgraded version of the altar with &eincreased capacity&r and &6new crafting options&r."
+				""
+				"Key Improvements:"
+				""
+				"Stores up to &950,000 LP&r"
+				""
+				"Unlocks &5Apprentice Blood Orb&r"
+				""
+				"Accepts &dmob sacrifices&r (more efficient)"
+				""
+				"&5Weak Blood Orb&r in altar"
+				""
+				"&c\"Where true blood magic begins\"&r"
+			]
+			icon: "bloodmagic:altar"
+			id: "098739DBD39DD927"
+			shape: "pentagon"
+			tasks: [{
+				count: 8L
+				id: "3205827D6E0D8CA5"
+				item: { Count: 8, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			title: "&4Blood Altar (Tier 2)&r"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4E1776664123D7AF"
+				"5EDA6D65B85934AF"
+			]
+			description: [
+				"The ultimate &cdemonic crafting station&r, fueled by &6Hellfire&r and &5Demon Will&r. Used to create the most powerful &dblood-infused artifacts&r and &esentient weapons&r."
+				""
+				"Key Features:"
+				""
+				"Requires &9Demon Will Crystals&r as fuel"
+				""
+				"Crafts &6Living Armor&r upgrades"
+				""
+				"Forges &5Eldritch-tier&r tools"
+				""
+				"&c\"Where mortal steel meets infernal power\"&r"
+			]
+			id: "6C76C01054FBFBC6"
+			tasks: [{
+				id: "6F92CCC482965DB3"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			title: "&4Hellfire Forge&r"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73FAA926443C20D2"]
+			description: [
+				"A dark energy source harvested from &5tormented souls&r, used to fuel &dadvanced blood magic&r and &6sentient tools&r."
+				""
+				"Sources:"
+				""
+				"&cWill-producing mobs&r (killed near &9Demon Crucible&r)"
+				""
+				"&eCrystallized Will&r (processed in &5Hellfire Forge&r)"
+				""
+				"Will Types:"
+				""
+				"&6Raw Will&r (basic form)"
+				""
+				"&dCorrosive Will&r (damages user)"
+				""
+				"&5Destructive Will&r (explosive effects)"
+				""
+				"&eVengeful Will&r (combat boosts)"
+				""
+				"&9Steadfast Will&r (defensive buffs)"
+				""
+				"(Handle with care - &cwrong will types corrupt equipment&r!)"
+				""
+				"&4\"The screams of demons power your ascent\"&r"
+			]
+			id: "5EDA6D65B85934AF"
+			tasks: [
+				{
+					id: "6E708F7471658547"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 5.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1DE08A93E9A9D102"
+					item: { Count: 3, id: "bloodmagic:soulsnare" }
+					type: "item"
+				}
+			]
+			title: "&4Demon Will&r"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C76C01054FBFBC6"]
+			description: [
+				"The &esmallest&r and most basic container for storing &cDemon Will&r, used in &6early&r blood magic crafting."
+				""
+				"Capacity:"
+				""
+				"Holds up to &9100 Will&r of any type"
+				""
+				"Key Uses:"
+				""
+				"Fuels &5first-tier&r sentient tools"
+				""
+				"Required for &6basic Hellfire Forge&r recipes"
+				""
+				"Crafts &dentry-level&r Will-infused items"
+				""
+				"&4\"A fledgling vessel for demonic power\"&r"
+			]
+			id: "51F0416194224BB8"
+			tasks: [{
+				id: "02B39E0354AFBB6A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5Petty Tartaric Gem&r"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51F0416194224BB8"]
+			description: [
+				"A basic container for storing &cDemon Will&r, used to power &6early-game&r sentient tools and &dblood magic&r devices."
+				""
+				"Capacity:"
+				""
+				"Holds up to &9200 Will&r of any type"
+				""
+				"Key Uses:"
+				""
+				"Fuels &5Sentient Weapons&r"
+				""
+				"Crafts &6Will-Infused Armor&r"
+				""
+				"Required for &dHellfire Forge&r recipes"
+				""
+				"&4\"The first taste of demonic power\"&r"
+			]
+			id: "05648E2D91442148"
+			shape: "diamond"
+			tasks: [{
+				id: "252DAE8DBDFA0191"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5Lesser Tartaric Gem&r"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05648E2D91442148"]
+			description: [
+				"An upgraded vessel for storing &cDemon Will&r, offering greater capacity than the &eLesser Tartaric Gem&r."
+				""
+				"Capacity:"
+				""
+				"Holds up to &9500 Will&r of any type"
+				""
+				"Key Uses:"
+				""
+				"Powers &6intermediate sentient tools&r"
+				""
+				"Required for &dadvanced Hellfire Forge&r recipes"
+				""
+				"Used in &5Living Armor&r augmentation"
+				""
+				"&4\"Demonic energy condensed into crystalline form\"&r"
+			]
+			id: "6DB85BA2177BC968"
+			shape: "diamond"
+			tasks: [{
+				id: "45366E895A52BCD5"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5Common Tartaric Gem&r"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DB85BA2177BC968"]
+			description: [
+				"An advanced container capable of storing &clarge quantities&r of &6Demon Will&r for powering &dhigh-tier blood magic&r equipment."
+				""
+				"Capacity:"
+				""
+				"Holds up to &91,000 Will&r of any type"
+				""
+				"Key Uses:"
+				""
+				"Fuels &5sentient weapons&r and &6armor&r"
+				""
+				"Required for &deldritch rituals&r"
+				""
+				"Powers &9master-level&r Hellfire Forge crafts"
+				""
+				"&4\"A crucible of concentrated demonic might\"&r"
+			]
+			id: "3FC369A567A12B72"
+			shape: "diamond"
+			tasks: [{
+				id: "7CAA9303D156523B"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5Greater Tartaric Gem&r"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51F0416194224BB8"]
+			description: [
+				"The &6Sentient Sword&r is a powerful weapon in Blood Magic that uses &9Demon Will&r to enhance its damage."
+				""
+				"To create a &6Sentient Sword&r, combine a &9Petty Tartaric Gem&r with an &9Iron Sword&r in a &6Hellfire Forge&r. The sword's power increases with the amount of Demon Will stored in your gem."
+				""
+				"&4\"The blade remembers every life it takes\"&r"
+			]
+			id: "0D73A4AECC70634C"
+			shape: "diamond"
+			tasks: [{
+				id: "7B3524B10BD5C25D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4Sentient Sword&r"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["098739DBD39DD927"]
+			description: [
+				"A ritual blade that harvests &clife essence&r from &6mobs&r and &dvillagers&r for your &5Blood Altar&r."
+				""
+				"Key Traits:"
+				""
+				"&eRight-click mobs&r to fill altar (&9+400 LP/kill&r)"
+				""
+				"Works with &6Tier 2+&r altars"
+				""
+				"&cNo player damage&r (unlike Sacrificial Knife)"
+				""
+				"Special Uses:"
+				""
+				"&5Automated farms&r with &dWell of Suffering&r ritual"
+				""
+				"&9Villager-based&r LP generation"
+				""
+				"&4\"Your victims' blood becomes your strength\"&r"
+			]
+			id: "4C995C3674757962"
+			tasks: [{
+				id: "2D158CC0CDF8DC3D"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			title: "&4Dagger of Sacrifice&r"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["098739DBD39DD927"]
+			description: [
+				"A &5blood-infused&r enhancement that &6accelerates&r the &dprocessing speed&r of your &cBlood Altar&r."
+				""
+				"Key Effects:"
+				""
+				"&9Reduces craft time&r by 10% per rune"
+				""
+				"&5Stacks up&r to 16 runes (max 160% speed)"
+				""
+				"Must be placed &dbeneath&r the altar"
+				""
+				"&c\"Time bends where blood flows fastest\"&r"
+			]
+			id: "2AD12CE61EF32E7D"
+			tasks: [{
+				id: "565566B5643AEA3B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			title: "&eSpeed Rune&r"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["098739DBD39DD927"]
+			description: [
+				"An &5upgraded version&r of the Blank Slate, used for &dadvanced blood magic&r crafting and &caltar enhancements&r."
+				""
+				"Key Uses:"
+				""
+				"Crafts &9Tier 3+&r altar components"
+				""
+				"Used in &dHellfire Forge&r recipes"
+				""
+				"&4\"Fortified through sacrificial rites\"&r"
+			]
+			id: "3B1FD1ED7C69EFCE"
+			tasks: [{
+				id: "0822AD2AF7D15838"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B1FD1ED7C69EFCE"]
+			description: [
+				"Tier 2 Sigils are more advanced sigils that offer greater functionality and power."
+				""
+				"&6Sigil of the Green Grove&r: A &2nature-infused&r focus that uses &cLife Essence&r to &5accelerate plant growth&r and &6harvest crops&r."
+				""
+				"&6Sigil of the Fast Miner&r: A &6blood-powered&r tool that grants &5temporary haste&r and &dmining speed&r boosts in exchange for &cLife Essence&r."
+				""
+				"&6Seer's Sigil&r: A &ddivination tool&r that reveals &ehidden information&r about blocks and entities for &cLife Essence&r."
+				""
+				"&6Void Sigil&r: A &5dark artifact&r that consumes &cLife Essence&r to &ddestroy blocks&r and &6entities&r."
+				""
+				"&6Air Sigil&r: Allows the player to &3fly&r short distances when activated."
+			]
+			id: "495A6CA8D208A9C3"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "054EA7F271A8D7EB"
+					item: {
+						Count: 1
+						id: "bloodmagic:growthsigil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "498241F691613695"
+					item: {
+						Count: 1
+						id: "bloodmagic:miningsigil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "38EC8D33E644A50C"
+					item: "bloodmagic:seersigil"
+					type: "item"
+				}
+				{
+					id: "63A6F99FB0D9F6A7"
+					item: "bloodmagic:voidsigil"
+					type: "item"
+				}
+				{
+					id: "5909004E774508E7"
+					item: "bloodmagic:airsigil"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Sigils"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B1FD1ED7C69EFCE"]
+			description: [
+				"A &5blood-infused&r stone that &cenhances&r the &defficiency&r of your &6Blood Altar&r when placed beneath it."
+				""
+				"Key Effects:"
+				""
+				"&9Increases LP gain&r by 5% per rune"
+				""
+				"&5Stacks up&r to 16 runes (max +80%)"
+				""
+				"Works with &dboth&r player and mob sacrifices"
+				""
+				"&c\"More blood, more power\"&r"
+			]
+			id: "08B32C58D27F5FCA"
+			shape: "diamond"
+			tasks: [{
+				id: "6A09831198631680"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			title: "&4Rune of Sacrifice&r"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B1FD1ED7C69EFCE"]
+			description: [
+				"The &5second-tier&r container for &cLife Essence&r, offering &esignificantly increased&r capacity over the Weak Blood Orb."
+				""
+				"Key Stats:"
+				""
+				"&6Capacity:&r 50,000 LP"
+				""
+				"Unlocks &dTier 3 Altar&r crafts"
+				""
+				"Enables &9automated sacrifice&r systems"
+				""
+				"Upgrade Path:"
+				""
+				"&c\"The apprentice becomes the master\"&r"
+			]
+			id: "77CDE03E47476C41"
+			shape: "diamond"
+			tasks: [{
+				id: "1530041C5C45E219"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			title: "&9Apprentice Blood Orb&r"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B1FD1ED7C69EFCE"]
+			description: [
+				"A &cvampiric&r enhancement that &6increases&r the &dLP yield&r from &5your own health&r when placed beneath a Blood Altar."
+				""
+				"Key Traits:"
+				""
+				"&9Boosts player sacrifice&r by +10% LP/heart"
+				""
+				"&5Does not affect&r mob sacrifices"
+				""
+				"&dStacks&r with Speed Runes"
+				""
+				"Warning:"
+				""
+				"&cNo extra protection&r - you lose health faster"
+				""
+				"&4\"The deepest cuts yield the greatest power\"&r"
+			]
+			id: "7D920F47F140D412"
+			shape: "diamond"
+			tasks: [{
+				id: "5CFF3690B23E1DFD"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			title: "&4Rune of Self-Sacrifice&r"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3B1FD1ED7C69EFCE"]
+			description: [
+				"To upgrade to a &6Tier 3 Altar&r, add another layer of &6Runes&r around your altar and place &6Pillars&r with &6Glowstone&r or &6Sea Lanterns&r on top at the corners. This upgrade allows access to Tier 3 items and rituals."
+				""
+				"The &eadvanced&r blood crafting station that unlocks &5automated sacrifice&r and &6demon will&r systems."
+				""
+				"&6Capacity:&r 200,000 LP"
+				""
+				"Accepts &9Demon Will&r infusion"
+				""
+				"Crafts &5Sentient Tools&r"
+				""
+				"&c\"Where mortal blood meets demonic power\"&r"
+			]
+			icon: "bloodmagic:altar"
+			id: "1EBA1473A9CB3A98"
+			tasks: [{
+				count: 28L
+				id: "1923E7041AE7D534"
+				item: { Count: 28, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			title: "&4Blood Altar (Tier 3)&r"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1EBA1473A9CB3A98"]
+			description: [
+				"The &6Imbued Slate&r is a higher-tier crafting component in Blood Magic."
+				""
+				"To create an &6Imbued Slate&r, place a &9Reinforced Slate&r into a &6Tier 3 Blood Altar&r with sufficient &aLife Essence&r. This item is essential for crafting higher-tier runes and advanced magical items."
+			]
+			id: "0017E7E624D7A187"
+			tasks: [{
+				id: "616C59D465A0ADB3"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			title: "&5Imbued Slate&r"
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0017E7E624D7A187"]
+			description: [
+				"A rune that boosts input/output speed of Life Essence (LP) when placed beneath a Blood Altar."
+				""
+				"Effects:"
+				"&a+15% Faster LP Transfer&r (per rune, stacks up to 16)"
+				""
+				"Accelerates both filling (from sacrifices) and draining (for crafts)"
+				""
+				"Works with all altar tiers"
+				""
+				"No effect on total LP capacity"
+				""
+				"&c\"Blood flows swifter where the Displacement Rune lies\"&r"
+			]
+			id: "186696602137991F"
+			shape: "diamond"
+			tasks: [{
+				id: "4788444F7797041D"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			title: "&5Displacement Rune&r"
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0017E7E624D7A187"]
+			description: [
+				"A &ebloodstone engraving&r that &6expands&r a Blood Altar's &dLP storage potential&r when placed beneath it."
+				""
+				"Mechanics:"
+				""
+				"&9+10% base capacity&r per rune"
+				""
+				"&5Stacks multiplicatively&r (16 runes = ~450% total)"
+				""
+				"&dRequired component&r for altar tier progression"
+				""
+				"&4\"The vessel grows as the rituals demand\"&r"
+			]
+			id: "068CA5CEB6FADBA7"
+			shape: "diamond"
+			tasks: [{
+				id: "761EDF00837FC070"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			title: "&5Rune of Capacity&r"
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0017E7E624D7A187"]
+			description: [
+				"The &eultimate&r tier of blood orb, capable of storing &6massive amounts&r of &cLife Essence&r (LP) and interfacing with &dadvanced arcane systems&r."
+				""
+				"Key Stats:"
+				""
+				"&9Capacity: 1,000,000 LP&r"
+				""
+				"Unlocks &5master-tier crafts&r"
+				""
+				"Enables &6dimensional blood magic&r"
+				""
+				"Special Abilities:"
+				""
+				"&dAuto-replenishes&r from nearby altars"
+				""
+				"&5Charges items&r in player inventory"
+				""
+				"&9Binds to Will networks&r"
+				""
+				"&c\"The pinnacle of blood mastery\"&r"
+			]
+			id: "61038641FE8BBD17"
+			shape: "diamond"
+			tasks: [{
+				id: "703A96323430BDBB"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			title: "&5Magician's Blood Orb&r"
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["61038641FE8BBD17"]
+			description: [
+				"The &6Living Armor&r is a powerful set of armor in Blood Magic that can be customized and upgraded through use."
+				""
+				"To create each piece of &6Living Armor&r, you need to use &6Arcane Ashes&r, &6Binding Reagent&r, and the corresponding &9iron armor piece&r. Place these items on a solid block in the specified order, and after a few seconds, they will transform into the &6Living Armor&r piece with 100 available upgrade points."
+				""
+				"The &6Living Armor&r adapts and improves based on the wearer's actions, offering unique &dabilities&r and &cenhancements&r."
+				""
+				"&6Creating Living Armor:&r"
+				"1. Place &6Arcane Ashes&r on the ground."
+				"2. Add &6Binding Reagent&r on top of the ashes."
+				"3. Finally, place an &9Iron Armor Piece&r."
+			]
+			id: "4B8C167136410668"
+			min_width: 275
+			shape: "diamond"
+			tasks: [
+				{
+					id: "008086F52B0498DB"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F1680F13A73CF25"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE6566E6CDFE463"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01FE78DE72E171E4"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0017E7E624D7A187"]
+			description: [
+				"Tier 3 Sigils offer advanced functionalities and greater power."
+				""
+				"&6Sigil of Magnetism&r: A &eblood-powered&r focus that &6attracts items&r toward the user at the cost of &cLife Essence&r."
+				""
+				"&6Sigil of Holding&r: A &6blood-infused&r storage focus that grants &9extra inventory space&r at the cost of &cLife Essence&r."
+				""
+				"&6Sigil of the Blood Lamp&r: A &cblood-fueled&r light source that creates &6floating orbs&r of light."
+			]
+			id: "16B74ED1BBB3560A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6D8A06A38C5198B7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofmagnetism"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3EC18B01782FE3F7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofholding"
+						tag: {
+							currentSigil: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DC78508E0DE5C5E"
+					item: {
+						Count: 1
+						id: "bloodmagic:bloodlightsigil"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0017E7E624D7A187"]
+			description: [
+				"The &6Master Ritual&r in Blood Magic allows for the performance of powerful rituals using &9Ritual Stones&r."
+				""
+				"To set up a &6Master Ritual&r, you need &98 Ritual Stones&r and &91 Master Ritual Stone&r. Arrange the 8 Ritual Stones in a specific pattern, and place the Master Ritual Stone in the center. This setup serves as the base for various rituals that can be performed using the &6Ritual Diviner&r and &9Weak Activation Crystal&r."
+			]
+			id: "51CEAB5690F70D37"
+			tasks: [
+				{
+					id: "7CDEC578072C3D55"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "24893D685EBD5562"
+					item: { Count: 8, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "&5Master Ritual Stone&r"
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["51CEAB5690F70D37"]
+			description: [
+				"The &6Ritual Diviner&r is a tool used to help set up complex ritual structures quickly and accurately."
+				""
+				"To use the &6Ritual Diviner&r, hold it in your hand and right-click on a &9Master Ritual Stone&r. The diviner will automatically place the &9Ritual Stones&r in the correct pattern for the selected ritual."
+				""
+				"The &6Weak Activation Crystal&r is required to activate the rituals. To create it, place a &9Lava Crystal&r in a &6Tier 2 Blood Altar&r filled with &aLife Essence&r. Right-click the Master Ritual Stone with the activated crystal to start the ritual."
+			]
+			id: "4E30AA1DA9FFB571"
+			tasks: [
+				{
+					id: "6058D8FBB907F17D"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "49364F236DC7703B"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4E30AA1DA9FFB571"]
+			description: [
+				"The &6Iron Key&r is used to unlock doors within Blood Magic dungeons."
+				""
+				"To use the &6Iron Key&r, right-click on locked doors found within dungeons. These dungeons contain various challenges and valuable rewards, including rare Blood Magic items and components."
+			]
+			id: "208066618DFE54A3"
+			subtitle: "&oThe key to my heart!"
+			tasks: [{
+				id: "50F88EDFBC45B85B"
+				item: "bloodmagic:simplekey"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0017E7E624D7A187"]
+			description: [
+				"The &6Alchemical Reaction Chamber&r is a machine used to perform alchemical reactions and craft advanced Blood Magic items."
+				""
+				"To use the &6Alchemical Reaction Chamber&r, place it in your world and supply it with &aLife Essence&r. Combine various ingredients in the chamber's GUI to perform reactions and create powerful items."
+			]
+			id: "75AD3E66F0A022BB"
+			tasks: [{
+				id: "697782D86D189B1B"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4E30AA1DA9FFB571"]
+			description: [
+				"&6Tau Fruit&r is a special fruit used in Blood Magic rituals and crafting."
+				""
+				"To obtain &6Tau Fruit&r, you need to grow &9Tau Seeds&r, which can be found in Blood Magic dungeons or crafted using &9Life Essence&r. Plant the seeds on farmland and wait for the fruit to grow. Harvest the fruit once it has matured."
+			]
+			id: "4892927E047E4F4B"
+			tasks: [{
+				id: "0D924263116ADDE1"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"75AD3E66F0A022BB"
+				"2A3D741FE4BA1BC1"
+			]
+			description: [
+				"The &6Weak Blood Shard&r is a key component for crafting advanced Blood Magic items."
+				""
+				"The &6Sanguine Reverter&r is a tool used to revert certain Blood Magic blocks back to their original state."
+				""
+				"The &6Large Bloodstone Brick&r is used in higher-tier altar structures."
+				""
+				"To create &6Large Bloodstone Bricks&r, combine &9Weak Blood Shards&r with &9Stone&r in a crafting table."
+			]
+			id: "25E66D104A076690"
+			tasks: [
+				{
+					id: "53FCAC0DE2202BEC"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+				{
+					id: "633E9C2434C4E9CE"
+					item: {
+						Count: 1
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2080558F07A906A7"
+					item: "bloodmagic:largebloodstonebrick"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4892927E047E4F4B"]
+			description: [
+				"&6Saturated Tau&r is an enhanced form of Tau Fruit used in more advanced rituals and crafting."
+				""
+			]
+			id: "2A3D741FE4BA1BC1"
+			tasks: [{
+				id: "0864BAEED58FB999"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"0017E7E624D7A187"
+				"25E66D104A076690"
+			]
+			description: [
+				"The &6Tier 4 Altar Upgrade&r significantly enhances your &6Blood Altar&r, increasing its capacity and unlocking powerful rituals and items."
+				""
+				"To upgrade to a &6Tier 4 Altar&r, add another layer of &6Blood Runes&r around your altar and place &6Large Bloodstone Bricks&r with &9Glowstone&r or &9Sea Lanterns&r on top at the corners. This upgrade allows access to Tier 4 items and rituals."
+			]
+			icon: "bloodmagic:altar"
+			id: "44055C4F5CE1A5D7"
+			shape: "octagon"
+			tasks: [{
+				count: 48L
+				id: "2F3C05DD71A8BB60"
+				item: { Count: 48, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			title: "Tier 4 Altar Upgrade"
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"44055C4F5CE1A5D7"
+				"75A49040AD06B49E"
+			]
+			description: [
+				"The &6Tier 5 Altar Upgrade&r is the pinnacle of Blood Altar enhancements, greatly increasing its capacity and unlocking the most powerful rituals and items."
+				""
+				"To upgrade to a &6Tier 5 Altar&r, add another layer of &6Blood Runes&r around your altar and place &6Beacons&r at the corners with &9Glowstone&r or &9Sea Lanterns&r on top. This upgrade allows access to Tier 5 items, including the &6Ethereal Slate&r and &6Master Blood Orb&r."
+			]
+			icon: "bloodmagic:altar"
+			id: "56CA047C3AE92A7E"
+			shape: "circle"
+			tasks: [{
+				count: 64L
+				id: "08094A0E8091570E"
+				item: { Count: 64, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			title: "Tier 5 Altar Upgrade"
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["56CA047C3AE92A7E"]
+			description: [
+				"The &6Ethereal Slate&r is one of the highest-tier crafting components in Blood Magic."
+				""
+				"To create an &6Ethereal Slate&r, place a &9Demonic Slate&r into a &6Tier 5 Blood Altar&r with sufficient &aLife Essence&r. This item is essential for crafting the most powerful runes and magical items."
+			]
+			id: "758D9BC1EC4E6DF7"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "604625FBB57C51A8"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -6.375d
+			y: 15.375d
+		}
+		{
+			dependencies: ["44055C4F5CE1A5D7"]
+			description: [
+				"The &6Demonic Slate&r is a high-tier crafting component in Blood Magic."
+				""
+				"To create a &6Demonic Slate&r, place an &9Imbued Slate&r into a &6Tier 4 Blood Altar&r with sufficient &aLife Essence&r. This item is essential for crafting the highest-tier runes and advanced magical items."
+			]
+			id: "68E7BB2D7225DAC0"
+			tasks: [{
+				id: "6FE626C2E4C7BB46"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["68E7BB2D7225DAC0"]
+			description: ["The &6Ritual Diviner (Dusk)&r is an upgraded version of the Ritual Diviner, allowing you to create more complex rituals that require Dusk runes."]
+			id: "5646BE0B079F8B88"
+			tasks: [
+				{
+					id: "17A97A90B62B210C"
+					item: {
+						Count: 1
+						id: "bloodmagic:duskscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DDBCA313E3C7A38"
+					item: "bloodmagic:ritualdivinerdusk"
+					type: "item"
+				}
+			]
+			x: -2.7499999999999716d
+			y: 19.51785714285713d
+		}
+		{
+			dependencies: ["5646BE0B079F8B88"]
+			description: [
+				"The Edge of the Hidden Realm, also known as &6Demonic Realm&r, is a dimension in Blood Magic filled with powerful mobs and valuable resources."
+				""
+				"To access the &6Demonic Realm&r, you must perform the &dEdge of the Hidden Realm&r Ritual using a &9Master Ritual Stone&r and specific ritual components. Once activated, the ritual will open a portal to the Demon Realm, where you can gather unique resources and face challenging foes."
+			]
+			id: "75A49040AD06B49E"
+			subtitle: "oooOooOoOoo scary"
+			tasks: [{
+				id: "07F92B45D00B3AD4"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			title: "&4Edge of the Hidden Realm"
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["75A49040AD06B49E"]
+			description: [
+				"&6Reinforced Runes&r are upgraded versions of the basic runes used to enhance the functionality and efficiency of your &6Blood Altar&r. They provide significant benefits for various altar operations, making them essential for advanced Blood Magic progression."
+				"{@pagebreak}"
+				"The &6Reinforced Rune of Sacrifice&r further increases the amount of &aLife Essence&r gained from sacrificing mobs at your &6Blood Altar&r."
+				"{@pagebreak}"
+				"The &6Reinforced Rune of Self-Sacrifice&r significantly increases the amount of &aLife Essence&r gained from using the &6Sacrificial Knife&r."
+				"{@pagebreak}"
+				"The &6Reinforced Rune of Capacity&r greatly enhances the maximum amount of &aLife Essence&r your &6Blood Altar&r can hold."
+				"{@pagebreak}"
+				"The &6Reinforced Acceleration Rune&r dramatically speeds up the processing time for all operations performed by your &6Blood Altar&r."
+				"{@pagebreak}"
+				"The &6Reinforced Charging Rune&r increases the rate at which &aLife Essence&r is transferred into or out of your &6Blood Altar&r."
+			]
+			id: "20A19C760C502102"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [
+				{
+					id: "17FE1ED876D0A023"
+					item: "bloodmagic:sacrificerune2"
+					type: "item"
+				}
+				{
+					id: "2ECFD47B28E04253"
+					item: "bloodmagic:altarcapacityrune2"
+					type: "item"
+				}
+				{
+					id: "1E074E67C68F875E"
+					item: "bloodmagic:selfsacrificerune2"
+					type: "item"
+				}
+				{
+					id: "100DFADB3D552C2B"
+					item: "bloodmagic:bettercapacityrune2"
+					type: "item"
+				}
+				{
+					id: "4E167950B05A78AA"
+					item: "bloodmagic:orbcapacityrune2"
+					type: "item"
+				}
+			]
+			title: "The Reinforced Runes"
+			x: -5.071428571428548d
+			y: 18.01785714285714d
+		}
+		{
+			dependencies: ["68E7BB2D7225DAC0"]
+			description: ["The &6Teleposition Sigil&r allows you to teleport to a pre-set location at the cost of &aLife Essence&r."]
+			id: "65DB99BFAB06AACE"
+			shape: "diamond"
+			tasks: [{
+				id: "4513682097AF65B6"
+				item: "bloodmagic:telepositionsigil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["68E7BB2D7225DAC0"]
+			description: ["The &6Acceleration Rune&r speeds up the processing time for all operations performed by your &6Blood Altar&r."]
+			id: "5529F8F3523DD4EA"
+			shape: "diamond"
+			tasks: [{
+				id: "28444BE7B5E6FE7D"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["68E7BB2D7225DAC0"]
+			description: ["The &6Rune of Augmented Capacity&r significantly increases the maximum amount of &aLife Essence&r your &6Blood Altar&r can hold."]
+			id: "6F5C0E3996E5B522"
+			shape: "diamond"
+			tasks: [{
+				id: "4719F5A1C475B70A"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["68E7BB2D7225DAC0"]
+			description: ["The &6Charging Rune&r increases the rate at which &aLife Essence&r is transferred into or out of your &6Blood Altar&r."]
+			id: "6DBB240E393F9A42"
+			shape: "diamond"
+			tasks: [{
+				id: "13C318F7F3D177E1"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["44055C4F5CE1A5D7"]
+			description: [
+				"The &6Master Blood Orb&r is the fourth tier of Blood Orbs, used to store even more &aLife Essence&r for the most advanced crafting and rituals."
+				""
+				"To create a &6Master Blood Orb&r, place a &9Weak Blood Shard&r in a &6Tier 4 Blood Altar&r with sufficient Life Essence. Right-click the orb to bind it to yourself, allowing you to store and use a massive amount of Life Essence."
+			]
+			id: "16BB7891E4666D6F"
+			tasks: [{
+				id: "08A77C3725BF17B9"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["73FAA926443C20D2"]
+			description: [
+				"The basic tool for &cfilling your Blood Altar&r by converting your &6own health&r into &aLife Essence&r."
+				""
+				"Be carefull you can kill yourself by spamming left click"
+				""
+				"Key Traits:"
+				""
+				"&dRight-click&r while sneaking to drain &c1 heart&r → &550LP&r"
+				""
+				"Must be used on/near a &6Blood Altar&r"
+				""
+				"&9Upgrades&r available (e.g., &eDagger of Sacrifice&r for mob sacrifices)"
+				""
+				"(The &4\"starter syringe\"&r for all blood mages!)"
+				""
+				"&c\"Your first cut is the deepest\"&r"
+			]
+			id: "2B756E4217B687FA"
+			tasks: [{
+				id: "72D13B44DF1D345B"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&9Sacrificial Knife&r"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73FAA926443C20D2"]
+			description: [
+				"&1Inf Blood! &r"
+				""
+				"Shift right click a blood magic altar then shift right click a virtual sacrificer."
+				""
+				"Put a Data Model (at least basic) inside and its generating Blood for you."
+				""
+				"&4DONT put Data Models from Extra Hostile Neural Networks inside!&r"
+			]
+			icon: "sanguine_networks:virtual_sacrificer"
+			id: "6F406DD695352A5E"
+			tasks: [
+				{
+					id: "2EB79108038EF56A"
+					item: "sanguine_networks:virtual_sacrificer"
+					type: "item"
+				}
+				{
+					id: "0FF824778F1AA0B7"
+					item: "sanguine_networks:wrench"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -0.5d
+		}
+	]
+	title: "Blood Magic"
+}
