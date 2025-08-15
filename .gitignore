@@ -7018,7 +7018,7 @@ saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113
 saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113.100.mca
 saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113.105.mca
 saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113.110.mca
-mods/L_Enders_Cataclysm-3.15.jar
+mods\L_Enders_Cataclysm-3.15.jar
 logs/2025-08-15-1.log.gz
 logs/2025-08-15-2.log.gz
 logs/2025-08-15-3.log.gz
@@ -10780,3 +10780,4 @@ saves/Test5/serverconfig/tinkerslevellingaddon-server.toml
 saves/Test5/serverconfig/xnet-server.toml
 saves/Test5/serverconfig/xnetgases.toml
 saves/Test5/stats/30eb6936-85fd-4591-b693-550e49e1eacc.json
+mods/L_Enders_Cataclysm-3.15.jar
