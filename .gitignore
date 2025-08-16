@@ -10831,3 +10831,14 @@ modernfix/structureCacheV1/undead_revamp2_cloggerplacetrue_69d52c18ed.nbt
 modernfix/structureCacheV1/undead_revamp2_tomb1_3dc9ec999e.nbt
 modernfix/
 /modernfix/
+resourcepacks
+custom_rewards
+config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
+/config/chancecubes
+/config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
+CustomSounds-Resourcepack.zip
+.gitignore
+.gitignore
+servers.dat
+servers.dat_old
+ESM/ServerWorld/anchors.dat
