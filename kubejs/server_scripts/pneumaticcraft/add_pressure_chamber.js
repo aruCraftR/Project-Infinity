@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-  //Infinity Ingot_3
+  //Infinity Ingot_5
   event
     .custom({
       type: 'pneumaticcraft:pressure_chamber',
@@ -7,19 +7,19 @@ ServerEvents.recipes(event => {
         {
           type: 'pneumaticcraft:stacked_item',
           count: 3,
-          item: 'kubejs:infinity_2'
+          item: 'kubejs:infinity_4'
         }
       ],
       pressure: 4.0,
       results: [
         {
-          item: 'kubejs:infinity_3'
+          item: 'kubejs:infinity_5'
         }
       ]
     })
-    .id('kubejs:infinity_3_1')
+    .id('kubejs:infinity_5_1')
 
-  //Infinity Ingot_3
+  //Infinity Ingot_5
   event
     .custom({
       type: 'pneumaticcraft:pressure_chamber',
@@ -27,20 +27,20 @@ ServerEvents.recipes(event => {
         {
           type: 'pneumaticcraft:stacked_item',
           count: 15,
-          item: 'kubejs:infinity_2'
+          item: 'kubejs:infinity_4'
         }
       ],
       pressure: 4.0,
       results: [
         {
-          item: 'kubejs:infinity_3',
+          item: 'kubejs:infinity_5',
           count: 5,
         }
       ]
     })
-    .id('kubejs:infinity_3_7')
+    .id('kubejs:infinity_5_7')
 
-  //Infinity Ingot_3
+  //Infinity Ingot_5
   event
     .custom({
       type: 'pneumaticcraft:pressure_chamber',
@@ -48,20 +48,20 @@ ServerEvents.recipes(event => {
         {
           type: 'pneumaticcraft:stacked_item',
           count: 30,
-          item: 'kubejs:infinity_2'
+          item: 'kubejs:infinity_4'
         }
       ],
       pressure: 4.0,
       results: [
         {
-          item: 'kubejs:infinity_3',
+          item: 'kubejs:infinity_5',
           count: 10,
         }
       ]
     })
-    .id('kubejs:infinity_3_3')
+    .id('kubejs:infinity_5_3')
 
-  //Infinity Ingot_3
+  //Infinity Ingot_5
   event
     .custom({
       type: 'pneumaticcraft:pressure_chamber',
@@ -69,20 +69,20 @@ ServerEvents.recipes(event => {
         {
           type: 'pneumaticcraft:stacked_item',
           count: 45,
-          item: 'kubejs:infinity_2'
+          item: 'kubejs:infinity_4'
         }
       ],
       pressure: 4.0,
       results: [
         {
-          item: 'kubejs:infinity_3',
+          item: 'kubejs:infinity_5',
           count: 15,
         }
       ]
     })
-    .id('kubejs:infinity_3_4')
+    .id('kubejs:infinity_5_4')
 
-  //Infinity Ingot_3
+  //Infinity Ingot_5
   event
     .custom({
       type: 'pneumaticcraft:pressure_chamber',
@@ -90,20 +90,20 @@ ServerEvents.recipes(event => {
         {
           type: 'pneumaticcraft:stacked_item',
           count: 60,
-          item: 'kubejs:infinity_2'
+          item: 'kubejs:infinity_4'
         }
       ],
       pressure: 4.0,
       results: [
         {
-          item: 'kubejs:infinity_3',
+          item: 'kubejs:infinity_5',
           count: 20,
         }
       ]
     })
-    .id('kubejs:infinity_3_5')
+    .id('kubejs:infinity_5_5')
 
-  //Infinity Ingot_3
+  //Infinity Ingot_5
   event
     .custom({
       type: 'pneumaticcraft:pressure_chamber',
@@ -111,18 +111,18 @@ ServerEvents.recipes(event => {
         {
           type: 'pneumaticcraft:stacked_item',
           count: 128,
-          item: 'kubejs:infinity_2'
+          item: 'kubejs:infinity_4'
         }
       ],
       pressure: 4.0,
       results: [
         {
-          item: 'kubejs:infinity_3',
+          item: 'kubejs:infinity_5',
           count: 45,
         }
       ]
     })
-    .id('kubejs:infinity_3_6')
+    .id('kubejs:infinity_5_6')
 
   //double_compressed_iron_block
   event

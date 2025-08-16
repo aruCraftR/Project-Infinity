@@ -1,45 +1,63 @@
-// ServerEvents.recipes(event => {
-//   //Compressed Wind Generator x32768
-//   event
-//     .custom({
-//       type: "extendedcrafting:shaped_table",
-//       pattern: [
-//         "ABBBBBBBA",
-//         "BACCCCCAB",
-//         "BCADDDACB",
-//         "BCDEFEDCB",
-//         "BCDFGFDCB",
-//         "BCDEFEDCB",
-//         "BCADDDACB",
-//         "BACCCCCAB",
-//         "ABBBBBBBA"
-//       ],
-//       key: {
-//         A: {
-//           item: "compactmekanismmachines:compressed_wind_generator_x8192"
-//         },
-//         B: {
-//           item: "evolvedmekanism:overclocked_control_circuit"
-//         },
-//         C: {
-//           item: "evolvedmekanism:quantum_control_circuit"
-//         },
-//         D: {
-//           item: "evolvedmekanism:dense_control_circuit"
-//         },
-//         E: {
-//           item: "evolvedmekanism:dense_induction_cell"
-//         },
-//         F: {
-//           item: "evolvedmekanism:quantum_induction_cell"
-//         },
-//         G: {
-//           item: "solarflux:sp_de.draconic"
-//         }
-//       },
-//       result: {
-//         item: 'compactmekanismmachines:compressed_wind_generator_x32768'
-//       }
-//     })
-//     .id('compactmekanismmachines:compressed_wind_generator_x32768')
-// })
+ServerEvents.recipes(event => {
+    //Compressed Wind Generator x32768
+    event
+        .custom({
+            "type": "extendedcrafting:shaped_table",
+            "pattern": [
+                "ABAAAAABA",
+                "BBCCDEFBB",
+                "AFGHIHGDA",
+                "ACJHKHJEA",
+                "BBIHLHIBB",
+                "AEJHMHJCA",
+                "ADGHIHGFA",
+                "BBFEDCCBB",
+                "ABAAAAABA"
+            ],
+            "key": {
+                "A": {
+                    "item": "mekanism:ingot_refined_glowstone"
+                },
+                "B": {
+                    "item": "mekanismgenerators:turbine_rotor"
+                },
+                "C": {
+                    "item": "mekanism:sps_casing"
+                },
+                "D": {
+                    "item": "mekanism:block_refined_obsidian"
+                },
+                "E": {
+                    "item": "compactmekanismmachines:compressed_wind_generator_x8192"
+                },
+                "F": {
+                    "item": "kubejs:infinity_8"
+                },
+                "G": {
+                    "item": "evolvedmekanism:multiversal_control_circuit"
+                },
+                "H": {
+                    "item": "evolvedmekanism:ingot_better_gold"
+                },
+                "I": {
+                    "item": "evolvedmekanism:alloy_exoversal"
+                },
+                "J": {
+                    "item": "evolvedmekanism:ingot_plaslitherite"
+                },
+                "K": {
+                    "item": "industrialforegoing:machine_frame_supreme"
+                },
+                "L": {
+                    "item": "evolvedmekanism:quantum_tier_installer"
+                },
+                "M": {
+                    "item": "voidminers:caerium"
+                }
+            },
+            "result": {
+                "item": 'compactmekanismmachines:compressed_wind_generator_x32768'
+            }
+        })
+        .id('compactmekanismmachines:compressed_wind_generator_x32768')
+})

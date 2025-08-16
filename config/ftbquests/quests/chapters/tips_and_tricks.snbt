@@ -1396,37 +1396,6 @@
 			y: 6.0d
 		}
 		{
-			can_repeat: true
-			id: "3B8C1D86F12640E7"
-			ignore_reward_blocking: true
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/projecte setemc 555555555 kubejs:infinity_7"
-					id: "068C6A5F29641910"
-					title: "EMC Value 555.555.555"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/removepregeneratedemc"
-					id: "3D64218FFBD3509D"
-					title: "Remove pregenerated_emc config"
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0AC880250BE07E18"
-				title: "Set EMC Value to Infinity 7"
-				type: "checkmark"
-			}]
-			title: "Easier Craft Infinity 7"
-			x: -8.0d
-			y: -4.0d
-		}
-		{
 			description: ["Automate everything"]
 			id: "06CA3E88417FE311"
 			rewards: [{

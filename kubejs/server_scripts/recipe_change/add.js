@@ -105,6 +105,12 @@ ServerEvents.recipes(event => {
     'minecraft:netherite_ingot', Item.of('sophisticatedstorage:diamond_chest', '{woodType:"oak"}')
   ])
 
+  shapeless(event, 'compactmekanismmachines:compressed_wind_generator_x532480', [
+    'compactmekanismmachines:compressed_wind_generator_x131072',
+    'compactmekanismmachines:compressed_wind_generator_x131072',
+    'kubejs:infinity_10'
+  ])
+
   create3x3(event, 'kubejs:chaotic_essence', [
     'draconicevolution:medium_chaos_frag',
     'draconicevolution:medium_chaos_frag',
@@ -115,6 +121,18 @@ ServerEvents.recipes(event => {
     'draconicevolution:medium_chaos_frag',
     'draconicevolution:medium_chaos_frag',
     'draconicevolution:medium_chaos_frag'
+  ])
+
+  create3x3(event, 'mekanismgenerators:wind_generator', [
+    'minecraft:iron_ingot',
+    'mekanism:ingot_osmium',
+    'minecraft:iron_ingot',
+    'mekanism:ingot_osmium',
+    'mekanism:alloy_infused',
+    'mekanism:ingot_osmium',
+    'mekanism:alloy_infused',
+    'mekanism:basic_control_circuit',
+    'mekanism:alloy_infused'
   ])
 
   shapeless(event, 'kubejs:vibranium_mesh', [
