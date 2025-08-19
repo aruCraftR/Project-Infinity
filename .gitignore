@@ -10791,7 +10791,6 @@ local/ftbchunks/data/9d0b0a4b-a226-488d-a481-538c1ccefdd9/minecraft_overworld/0E
 logs/2025-08-15-5.log.gz
 user-prefs.json
 config/ae2/client.json
-config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
 config/packetfixer.properties
 journeymap/data/sp/Crash3/lostcities~lostcity/biome/0,-1.png
 journeymap/data/sp/Crash3/lostcities~lostcity/biome/0,0.png
@@ -10832,13 +10831,9 @@ modernfix/structureCacheV1/undead_revamp2_tomb1_3dc9ec999e.nbt
 modernfix/
 /modernfix/
 resourcepacks
-custom_rewards
-config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
-/config/chancecubes
-/config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
-CustomSounds-Resourcepack.zip
-.gitignore
-.gitignore
 servers.dat
 servers.dat_old
 ESM/ServerWorld/anchors.dat
+/crash-reports
+ESM/Test6/anchors.dat
+ESM/Test7/anchors.dat

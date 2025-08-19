@@ -4,13 +4,13 @@ ServerEvents.recipes(event => {
     type: 'extendedcrafting:shaped_table',
     pattern: [
       'ABCDEDCBA',
-      'BCDFGHDCB',
-      'CDFIJIHDC',
-      'DFIKKKIHD',
+      'BCDSGSDCB',
+      'CDQIJIQDC',
+      'DHIKKKIHD',
       'EMJKOKJPE',
-      'DQIKKKISD',
-      'CDQIJISDC',
-      'BCDQTSDCB',
+      'DHIKKKIHD',
+      'CDQIJIQDC',
+      'BCDSTSDCB',
       'ABCDEDCBA'
     ],
     key: {
@@ -21,16 +21,13 @@ ServerEvents.recipes(event => {
         item: 'mekanism:teleportation_core'
       },
       C: {
-        item: 'evolvedmekanism:alloy_subatomic'
+        item: 'mekanism:alloy_atomic'
       },
       D: {
-        item: 'kubejs:infinity_2'
+        item: 'mekanism:alloy_reinforced'
       },
       E: {
         item: 'mekanism:logistical_sorter'
-      },
-      F: {
-        item: 'mekanism:ultimate_control_circuit'
       },
       G: {
         item: 'voidminers:rubetine_miner'
@@ -42,16 +39,16 @@ ServerEvents.recipes(event => {
         item: 'mekanism:steel_casing'
       },
       J: {
-        item: 'kubejs:infinity_6'
+        item: 'kubejs:infinity_1'
       },
       K: {
-        item: 'evolvedmekanism:overclocked_control_circuit'
+        item: 'mekanism:ultimate_control_circuit'
       },
       M: {
         item: 'voidminers:aurantium_miner'
       },
       O: {
-        item: 'kubejs:infinity_7'
+        item: 'kubejs:infinity_2'
       },
       P: {
         item: 'voidminers:citrinetine_miner'

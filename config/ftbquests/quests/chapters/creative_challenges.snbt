@@ -323,6 +323,7 @@
 				"26D64E3ADE5DE878"
 				"5ADDFF177B975AD2"
 				"7271A4F38BE646CF"
+				"4616558B0EF51410"
 			]
 			id: "300A2C7A44445240"
 			tasks: [{
@@ -334,7 +335,7 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["69C34D5C658FE187"]
+			dependencies: ["244D3A5EDA870A25"]
 			id: "26D64E3ADE5DE878"
 			tasks: [{
 				id: "4748D620FD41E58D"
@@ -345,29 +346,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["4F3ACB96700C4651"]
-			id: "69C34D5C658FE187"
-			tasks: [{
-				id: "5E90DDE7D841EB3D"
-				item: "enderio:alloy_smelter"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["26D64E3ADE5DE878"]
-			id: "258628E539F50DF5"
-			tasks: [{
-				id: "4AA6332891B0B113"
-				item: "thermal:machine_press"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["258628E539F50DF5"]
+			dependencies: ["75F70C630357AA4B"]
 			id: "5ADDFF177B975AD2"
 			tasks: [{
 				id: "42F914AB00BA81FC"
@@ -378,7 +357,7 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["578BE0CFC555110A"]
+			dependencies: ["7947D9BDE121458F"]
 			id: "7271A4F38BE646CF"
 			tasks: [{
 				id: "156742F920141CFF"
@@ -386,17 +365,6 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["5ADDFF177B975AD2"]
-			id: "578BE0CFC555110A"
-			tasks: [{
-				id: "3C2DB43079D6613E"
-				item: "enderio:slice_and_splice"
-				type: "item"
-			}]
-			x: -2.0d
 			y: -15.0d
 		}
 		{
@@ -408,6 +376,49 @@
 			}]
 			x: 8.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["4F3ACB96700C4651"]
+			id: "244D3A5EDA870A25"
+			tasks: [{
+				id: "561C9BF653A7CDC8"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["26D64E3ADE5DE878"]
+			id: "75F70C630357AA4B"
+			tasks: [{
+				id: "2EA56A188AB83EDC"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5ADDFF177B975AD2"]
+			id: "7947D9BDE121458F"
+			tasks: [{
+				id: "6C46F47DE17F3830"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			id: "4616558B0EF51410"
+			tasks: [{
+				id: "4905FB7A28ABBB6B"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
 		}
 	]
 	title: "Creative Challenges"

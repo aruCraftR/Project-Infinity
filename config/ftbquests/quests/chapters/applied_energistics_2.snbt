@@ -2605,22 +2605,6 @@
 				item: "advanced_ae:sprint_speed_card"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["5D5C5B1F12462C2E"]
-			id: "72CD594B06A3D8C9"
-			rewards: [{
-				id: "45C94392E4C94D28"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "41C4068A65337626"
-				item: "advanced_ae:step_assist_card"
-				type: "item"
-			}]
 			x: 26.5d
 			y: 9.5d
 		}

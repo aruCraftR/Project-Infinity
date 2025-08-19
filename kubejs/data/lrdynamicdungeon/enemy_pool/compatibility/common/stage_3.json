@@ -1,0 +1,12 @@
+{
+  "miniboss": [
+    [
+      ["cataclysm:clawdian", 0, 0, 0]
+    ]
+  ],
+  "boss": [
+    [
+      ["cataclysm:scylla", 0, 0, 0]
+    ]
+  ]
+}
