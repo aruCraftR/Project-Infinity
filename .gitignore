@@ -7018,7 +7018,7 @@ saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113
 saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113.100.mca
 saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113.105.mca
 saves/Test5/dimensions/hunting_dimension_reforged/hunting_dimension/region/r.113.110.mca
-mods\L_Enders_Cataclysm-3.15.jar
+mods\L_Enders_Cataclysm-3.16.jar
 logs/2025-08-15-1.log.gz
 logs/2025-08-15-2.log.gz
 logs/2025-08-15-3.log.gz
@@ -10837,3 +10837,5 @@ ESM/ServerWorld/anchors.dat
 /crash-reports
 ESM/Test6/anchors.dat
 ESM/Test7/anchors.dat
+L_Enders_Cataclysm-3.16.jar
+/mods/L_Enders_Cataclysm-3.16.jar
