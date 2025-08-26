@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
           item: 'kubejs:infinity_4'
         },
         J: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         K: {
           item: 'allthemodium:vibranium_ingot'

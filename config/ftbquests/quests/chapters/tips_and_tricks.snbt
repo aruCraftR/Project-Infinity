@@ -1396,7 +1396,12 @@
 			y: 6.0d
 		}
 		{
-			description: ["Automate everything"]
+			description: [
+				"Disabled:"
+				"Villager Trades"
+				"Traveling Merchant"
+				"mobGriefing (Creeper and Wither)"
+			]
 			id: "06CA3E88417FE311"
 			rewards: [{
 				id: "653B351B18802681"
@@ -1406,9 +1411,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "03A5B9F5C215C2A6"
-				title: "Automate Everything"
+				title: "There are some disabled things"
 				type: "checkmark"
 			}]
+			title: "Things that are disabled"
 			x: 6.0d
 			y: 5.0d
 		}

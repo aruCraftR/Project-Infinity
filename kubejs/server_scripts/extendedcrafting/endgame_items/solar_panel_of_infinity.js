@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
           item: 'extendedcrafting:the_ultimate_ingot'
         },
         B: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         C: {
           item: 'extendedcrafting:ultimate_singularity'
@@ -34,13 +34,13 @@ ServerEvents.recipes(event => {
           item: 'avaritia:infinity_catalyst'
         },
         G: {
-          item: 'avaritia:neutronium_nugget'
+          item: 'avaritia:neutron_nugget'
         },
         H: {
           item: 'avaritia:infinity_ingot'
         },
         I: {
-          item: 'avaritia:pileof_neutrons'
+          item: 'avaritia:neutron_pile'
         },
         J: {
           item: 'armorplus:the_ultimate_material'

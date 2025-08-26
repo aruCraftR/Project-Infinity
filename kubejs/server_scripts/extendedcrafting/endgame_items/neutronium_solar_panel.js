@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
           item: 'actuallyadditions:empowered_enori_crystal_block'
         },
         B: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         C: {
           item: 'actuallyadditions:empowered_restonia_crystal_block'
@@ -37,13 +37,13 @@ ServerEvents.recipes(event => {
           item: 'botania:gaia_ingot'
         },
         H: {
-          item: 'avaritia:neutronium_nugget'
+          item: 'avaritia:neutron_nugget'
         },
         I: {
           item: 'kubejs:azure_electrum_ingot'
         },
         J: {
-          item: 'avaritia:pileof_neutrons'
+          item: 'avaritia:neutron_pile'
         },
         K: {
           item: 'actuallyadditions:empowered_diamatine_crystal_block'

@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
-    crucibleHeat(event, 'avaritia:infinity_block', 4000);
-    crucibleHeat(event, 'avaritia:neutronium_block', 1000);
+    crucibleHeat(event, 'avaritia:infinity', 4000);
+    crucibleHeat(event, 'avaritia:neutron', 1000);
     crucibleHeat(event, 'bigreactors:insanite_block', 500);
     crucibleHeat(event, 'kubejs:empowered_super_block', 333);
     crucibleHeat(event, 'mysticalagriculture:awakened_supremium_ingot_block', 200);

@@ -498,7 +498,7 @@
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			title: "&9Echoing Deepshelf&r"
+			title: "&9Echoing Sculkshelf&r"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -552,7 +552,7 @@
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
 			}]
-			title: "&9Echoing Sculkshelf&r"
+			title: "&9Echoing Deepshelf&r"
 			x: 8.0d
 			y: 5.0d
 		}

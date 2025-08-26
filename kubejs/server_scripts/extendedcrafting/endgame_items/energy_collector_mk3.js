@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
                     item: 'projecte:collector_mk2'
                 },
                 F: {
-                    item: 'betterfurnacesreforged:ultimate_forge'
+                    item: 'ironfurnaces:million_furnace'
                 }
             },
             result: {

@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
           item: 'botania:gaia_pylon'
         },
         K: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         L: {
           item: 'botania:gaia_spreader'

@@ -365,7 +365,7 @@
 				}
 			]
 			x: -2.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["02C61505B5649304"]
@@ -3552,6 +3552,61 @@
 			}]
 			x: 5.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["1F9411E20E806B1E"]
+			description: [
+				"Bound the &ddislocator&r to a position (shift + right click)."
+				"Right click the &1Disclocator Receptacle&r after building a frame out of"
+				"&6Draconium Infused Obsidian&r"
+				"It can be as big as you want"
+				"{@pagebreak}"
+				"{image:kubejs:block/screen/de_dislocator_small width:100 height:100 align:center fit:true}"
+				"{@pagebreak}"
+				"{image:kubejs:block/screen/de_dislocator_big width:100 height:100 align:center fit:true}"
+			]
+			id: "5BD31AED5C80922D"
+			rewards: [
+				{
+					id: "2DE5C9A0A41D06B4"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C1BA93C47E99876"
+					table_id: 5036812014823277174L
+					type: "random"
+				}
+			]
+			subtitle: "The perfect mob farm?"
+			tasks: [
+				{
+					id: "140B5893079DD4C3"
+					item: "draconicevolution:dislocator_receptacle"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C23FAB30EA5C20B"
+					item: { Count: 16, id: "draconicevolution:infused_obsidian" }
+					type: "item"
+				}
+				{
+					id: "120F3EFD7D5251AE"
+					item: {
+						Count: 1
+						id: "draconicevolution:dislocator"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
 		}
 	]
 	title: "Draconic Evolution"

@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
           item: 'draconicevolution:awakened_core'
         },
         F: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         G: {
           item: 'draconicevolution:awakened_draconium_ingot'

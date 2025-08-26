@@ -62,6 +62,10 @@
         },
         {
             "category": "ae2:attunement"
+        },
+        {
+            "id": "/infinity_catalyst/",
+            "category": "avaritia:extreme_craft"
         }
     ]
 }

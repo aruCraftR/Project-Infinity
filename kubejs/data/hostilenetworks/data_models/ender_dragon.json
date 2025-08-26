@@ -24,7 +24,7 @@
             "item": "minecraft:dragon_egg",
             "count": 1
         },
-                {
+        {
             "item": "kubejs:left_dragon_heart",
             "count": 1
         },
@@ -37,10 +37,10 @@
             "count": 1
         }
     ],
-    "data_per_kill": [
-        3,
-        12,
-        30,
-        45
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
     ]
 }

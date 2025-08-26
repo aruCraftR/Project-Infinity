@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
           item: 'mysticalagriculture:witherproof_bricks'
         },
         G: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         H: {
           item: 'minecraft:nether_star'

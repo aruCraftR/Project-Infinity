@@ -46,7 +46,12 @@
             "solarflux:solar_panels/draconicevolution/draconic": true,
             "solarflux:ae2/energy_upgrade": true,
             "solarflux:sp_avaritia.neutronium": true,
-            "solarflux:sp_avaritia.infinity": true
+            "solarflux:sp_avaritia.infinity": true,
+            "solarflux:twilightforest/twilight_upgrade": true,
+            "solarflux:twilightforest/twilight_cell_1": true,
+            "solarflux:twilightforest/twilight_cell_2": true,
+            "solarflux:solar_panels/twilightforest/fiery": true,
+            "solarflux:solar_panels/twilightforest/carminite": true
         }
     },
     "unregistered": {"minecraft:crafting": {

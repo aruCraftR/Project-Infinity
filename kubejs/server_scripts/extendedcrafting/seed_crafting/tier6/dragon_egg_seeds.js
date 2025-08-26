@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
           item: 'armorplus:the_ultimate_material'
         },
         E: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         F: {
           item: 'botania:dragonstone'

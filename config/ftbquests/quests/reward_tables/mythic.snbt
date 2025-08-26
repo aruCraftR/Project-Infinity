@@ -4,11 +4,11 @@
 	loot_size: 1
 	order_index: 14
 	rewards: [
-		{ item: "mekanism:pellet_antimatter" }
-		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1 }
-		{ item: "mysticalagriculture:allthemodium_seeds", weight: 0.5f }
-		{ item: "mysticalagriculture:vibranium_seeds", weight: 0.5f }
-		{ item: "mysticalagriculture:unobtainium_seeds", weight: 0.5f }
+		{ item: "mekanism:pellet_antimatter", weight: 2.0f }
+		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1, weight: 1.5f }
+		{ item: "mysticalagriculture:allthemodium_seeds", weight: 0.1f }
+		{ item: "mysticalagriculture:vibranium_seeds", weight: 0.1f }
+		{ item: "mysticalagriculture:unobtainium_seeds", weight: 0.1f }
 		{ item: "allthemodium:unobtainium_allthemodium_alloy_block", random_bonus: 1, weight: 3.0f }
 		{ item: "mekanism:ultimate_induction_cell", weight: 2.0f }
 		{ item: "mekanism:ultimate_induction_provider", weight: 2.0f }
@@ -44,6 +44,7 @@
 					}
 				}
 			}
+			weight: 0.25f
 		}
 		{
 			item: {
@@ -75,6 +76,7 @@
 					}
 				}
 			}
+			weight: 0.25f
 		}
 		{
 			item: {
@@ -104,6 +106,7 @@
 					}
 				}
 			}
+			weight: 0.25f
 		}
 		{
 			item: {
@@ -135,6 +138,7 @@
 					}
 				}
 			}
+			weight: 0.25f
 		}
 		{
 			item: {
@@ -166,6 +170,7 @@
 					}
 				}
 			}
+			weight: 0.25f
 		}
 		{
 			item: {
@@ -195,6 +200,7 @@
 					}
 				}
 			}
+			weight: 0.25f
 		}
 	]
 	title: "&5Mythic Reward"

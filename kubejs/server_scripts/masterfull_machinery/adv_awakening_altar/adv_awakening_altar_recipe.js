@@ -86,7 +86,7 @@ MMEvents.createProcesses(event => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'avaritia:neutronium_ingot',
+        item: 'avaritia:neutron_ingot',
         count: 1
       }
     })
@@ -548,7 +548,7 @@ MMEvents.createProcesses(event => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'avaritia:neutronium_ingot',
+        item: 'avaritia:neutron_ingot',
         count: 4
       }
     })

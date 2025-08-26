@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
                 'cataclysm:ancient_remnant',
                 'cataclysm:the_harbinger',
                 'cataclysm:maledictus',
-                'progressivebosses:wither',
+                'minecraft:wither',
                 'allthemodium:piglich',
                 'twilightforest:hydra',
                 'twilightforest:snow_queen',

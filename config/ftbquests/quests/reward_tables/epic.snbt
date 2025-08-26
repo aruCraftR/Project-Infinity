@@ -26,13 +26,6 @@
 		{
 			item: {
 				Count: 1
-				id: "betterfurnacesreforged:netherhot_furnace"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -83,6 +76,7 @@
 			type: "xp_levels"
 			xp_levels: 50
 		}
+		{ item: "ironfurnaces:netherite_furnace" }
 	]
 	title: "Epic Reward"
 	use_title: true

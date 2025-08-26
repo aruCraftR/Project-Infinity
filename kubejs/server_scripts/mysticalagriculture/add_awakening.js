@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
         }
       ],
       input: {
-        item: 'avaritia:neutronium_ingot'
+        item: 'avaritia:neutron_ingot'
       },
       ingredients: [
         {

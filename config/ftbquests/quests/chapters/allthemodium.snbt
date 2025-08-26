@@ -229,7 +229,7 @@
 			}]
 			size: 1.75d
 			tasks: [{
-				entity: "progressivebosses:wither"
+				entity: "minecraft:wither"
 				icon: {
 					Count: 1
 					id: "obtrophies:trophy"

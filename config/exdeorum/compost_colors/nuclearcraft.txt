@@ -270,6 +270,7 @@ depleted_fuel_uranium_leu_235_ni, #4e7340
 depleted_fuel_uranium_leu_235_ox, #4e5f54
 depleted_fuel_uranium_leu_235_tr, #666557
 depleted_fuel_uranium_leu_235_za, #64734a
+depleted_fuel_xenorium_xen_298, #4d4b58
 diamond_dust, #9bfffe
 dimensional_blend_dust, #a79890
 dominos, #ffbe58
@@ -282,6 +283,7 @@ electrum_plate, #e0c96c
 elite_processor, #cabeb5
 emerald_dust, #9bffb2
 empty, #c5c9eb
+empty_detector, #7f7f7f
 empty_sink, #9b9b9b
 end_of_the_world, #404640
 end_stone_dust, #a49487
@@ -433,6 +435,7 @@ fuel_uranium_leu_235_ni, #1b5c16
 fuel_uranium_leu_235_ox, #1b4633
 fuel_uranium_leu_235_tr, #5f6152
 fuel_uranium_leu_235_za, #2f6820
+fuel_xenorium_xen_298, #6f5a75
 gadolinium_dust, #5b5b5b
 geiger_counter, #767870
 gelatin, #6e6e6e
@@ -474,6 +477,7 @@ iron_dust, #dcdcdc
 iron_plate, #a4a5a8
 irradiated_borax_dust, #ffffff
 lapis_dust, #2279ff
+laser_assembly, #fbf7f8
 lead_chunk, #8ca5b1
 lead_dust, #465050
 lead_ingot, #5a6464
@@ -608,6 +612,8 @@ ruthenium_106_dust, #787878
 salt, #ffffff
 samarium_dust, #687c75
 sawdust, #ffffff
+scintillator_plastic, #80edfb
+scintillator_pwo, #f8c984
 servo, #878383
 shibuichi_dust, #3c4b3d
 shibuichi_ingot, #8e8a89
@@ -718,7 +724,9 @@ uranium_spallation_waste, #2f6134
 villiaumite_dust, #b2573c
 villiaumite_gem, #ffcfc2
 wanderer, #404043
-xenorium298, #503e47
+wire_chamber_casing, #a29b64
+wire_gold_tungsten, #ffff9a
+xenorium_298, #503e47
 yellowcake_dust, #a49487
 ytterbium_dust, #4b3264
 yttrium_dust, #e1d384

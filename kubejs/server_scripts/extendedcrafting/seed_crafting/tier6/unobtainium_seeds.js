@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
           item: 'mutantmonsters:hulk_hammer'
         },
         J: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         K: {
           item: 'mutantmonsters:creeper_shard'

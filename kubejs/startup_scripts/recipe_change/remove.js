@@ -42,8 +42,6 @@ const tabs = [
   // 'armorplus:items',
   // 'avaritia:avaritiatab',
   // 'better_angel_ring:better_angel_ring',
-  'betterfurnacesreforged:bfr_creative_tab',
-  'betterfurnacesreforged:tab_ultimate_furnaces',
   // 'bhc:bhc_tab',
   'bigger_ae2:bigger_ae2',
   // 'bigreactors:tab.general',

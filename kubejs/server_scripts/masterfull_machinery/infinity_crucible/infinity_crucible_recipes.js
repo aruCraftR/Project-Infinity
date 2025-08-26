@@ -48,7 +48,7 @@ MMEvents.createProcesses(event => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'nuclearcraft:neutronium_ingot',
+        item: 'nuclearcraft:neutron_ingot',
         count: 4
       }
     })
@@ -56,7 +56,7 @@ MMEvents.createProcesses(event => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'avaritia:neutronium_ingot',
+        item: 'avaritia:neutron_ingot',
         count: 2
       }
     })

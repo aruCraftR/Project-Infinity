@@ -23,18 +23,6 @@
 			}
 			weight: 2.0f
 		}
-		{
-			item: {
-				Count: 1
-				id: "betterfurnacesreforged:fuel_efficiency_upgrade"
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 5.0f
-		}
-		{ item: "betterfurnacesreforged:blasting_upgrade", weight: 5.0f }
-		{ item: "betterfurnacesreforged:autooutput_upgrade", weight: 3.0f }
 		{ count: 8, item: "pipez:universal_pipe", random_bonus: 8, weight: 5.0f }
 		{ item: "minecraft:diamond", random_bonus: 2, weight: 3.0f }
 		{
@@ -277,6 +265,7 @@
 				}
 			}
 		}
+		{ item: "ironfurnaces:gold_furnace" }
 	]
 	title: "Common Reward"
 	use_title: true

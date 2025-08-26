@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
           item: 'extendedcrafting:the_ultimate_block'
         },
         S: {
-          item: 'avaritia:infinity_block'
+          item: 'avaritia:infinity'
         },
         T: {
           type: 'forge:nbt',

@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
           item: 'born_in_chaos_v1:fel_soil'
         },
         I: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         J: {
           item: 'born_in_chaos_v1:armor_plate_from_dark_metal'

@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
           item: 'twilightforest:snow_queen_trophy'
         },
         K: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         L: {
           item: 'twilightforest:quest_ram_trophy'

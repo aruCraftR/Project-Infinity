@@ -1,0 +1,10 @@
+
+#Asgard configuration
+[asgard]
+	#Range: > 0
+	asgardManaStorage = 1000000
+	#Range: > 0
+	asgardManaGenerationPerTick = 1000000
+	#Range: > 0
+	asgardLinkationRadius = 32
+

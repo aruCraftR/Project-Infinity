@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
     .custom({
       type: 'extendedcrafting:shapeless_table',
       ingredients: [
-        'avaritia:pileof_neutrons',
-        'avaritia:neutronium_nugget',
+        'avaritia:neutron_pile',
+        'avaritia:neutron_nugget',
         {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',

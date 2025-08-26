@@ -1,6 +1,6 @@
 {
-    "entity": "progressivebosses:wither",
-    "variants": ["minecraft:wither"],
+    "entity": "minecraft:wither",
+    "variants": [],
     "name": "entity.minecraft.wither",
     "name_color": "#343434",
     "gui_scale": 0.5,

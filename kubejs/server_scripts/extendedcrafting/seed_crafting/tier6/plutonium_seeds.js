@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
       item: 'evolvedmekanism:multiversal_control_circuit'
     },
     G: {
-      item: 'avaritia:neutronium_ingot'
+      item: 'avaritia:neutron_ingot'
     },
     H: {
       item: 'mekanism:pellet_plutonium'

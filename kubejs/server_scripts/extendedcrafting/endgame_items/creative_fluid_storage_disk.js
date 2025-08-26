@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
           item: 'pneumaticcraft:transistor'
         },
         I: {
-          item: 'betterfurnacesreforged:ultimate_furnace'
+          item: 'ironfurnaces:million_furnace'
         },
         J: {
           item: 'projecte:condenser_mk2'

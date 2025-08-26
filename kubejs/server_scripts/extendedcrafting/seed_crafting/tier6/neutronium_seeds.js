@@ -37,10 +37,10 @@ ServerEvents.recipes(event => {
           item: 'advancednetherite:netherite_diamond_block'
         },
         H: {
-          item: 'avaritia:neutronium_nugget'
+          item: 'avaritia:neutron_nugget'
         },
         I: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         J: {
           item: 'armorplus:the_ultimate_material'

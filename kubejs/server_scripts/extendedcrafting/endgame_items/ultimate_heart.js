@@ -3,8 +3,8 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'extendedcrafting:shapeless_table',
     ingredients: [
-      'avaritia:pileof_neutrons',
-      'avaritia:neutronium_nugget',
+      'avaritia:neutron_pile',
+      'avaritia:neutron_nugget',
       'cataclysm:abyssal_sacrifice',
       'minecraft:heart_of_the_sea',
       'allthemodium:piglich_heart',

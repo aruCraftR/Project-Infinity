@@ -4,7 +4,7 @@ ItemEvents.tooltip(event => {
     'If you want to automate it, build the Fire Attuned Multiblock'
   )
   event.add(
-    ['avaritia:world_breaker', 'avaritia:planet_eater'],
+    ['avaritia:infinity_pickaxe', 'avaritia:infinity_shovel'],
     'You can right click me.'
   )
 
@@ -28,9 +28,9 @@ ItemEvents.tooltip(event => {
 
   event.addAdvanced(
     [
-      'avaritia:pileof_neutrons',
-      'avaritia:neutronium_nugget',
-      'avaritia:neutronium_ingot'
+      'avaritia:neutron_pile',
+      'avaritia:neutron_nugget',
+      'avaritia:neutron_ingot'
     ],
     (item, advanced, text) => {
       if (!event.shift) {
@@ -155,19 +155,5 @@ ItemEvents.tooltip(event => {
   ], (item, advanced, text) => {
     text.add(1, Text.red('Recipe and Item added by realspinelle.'))
     text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'))
-  })
-
-  event.addAdvanced(['mysticalagriculture:cognizant_dust'], (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold()
-      ])
-    } else {
-      text.add(1, Text.green('If you want to get some Cognizant Dust you have to kill a better version of the wither.'))
-      text.add(2, Text.white('Get 3 Soul Sand, 3 Wither Skulls and 1 Corrupted Soul Sand Level 1-3 in the middle.'))
-      text.add(3, Text.green('You could also spawn the ender dragon with 4 corrupted end crystals'))
-    }
   })
 })

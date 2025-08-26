@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
           nbt: '{Id:\"ironjetpacks:creative\"}'
         },
         J: {
-          item: 'betterfurnacesreforged:ultimate_forge'
+          item: 'ironfurnaces:million_furnace'
         }
       },
       result: {

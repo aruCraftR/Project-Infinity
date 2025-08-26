@@ -388,7 +388,7 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "progressivebosses:wither"
+				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "171FD27057746E80"
 				title: "Kill the Wither"

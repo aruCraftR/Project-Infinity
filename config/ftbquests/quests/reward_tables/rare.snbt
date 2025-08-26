@@ -38,14 +38,6 @@
 		}
 		{ item: "minecraft:dragon_egg", weight: 2.0f }
 		{ item: "minecraft:dragon_head" }
-		{
-			item: {
-				Count: 1
-				id: "betterfurnacesreforged:diamond_furnace"
-				tag: { }
-			}
-			weight: 3.0f
-		}
 		{ item: "thermal:enderium_ingot", random_bonus: 3, weight: 5.0f }
 		{ count: 8, item: "fluxnetworks:flux_dust", random_bonus: 16, weight: 10.0f }
 		{ item: "fluxnetworks:flux_block", random_bonus: 3, weight: 3.0f }
@@ -77,6 +69,7 @@
 				}
 			}
 		}
+		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 	]
 	title: "&9Rare Reward"
 	use_title: true

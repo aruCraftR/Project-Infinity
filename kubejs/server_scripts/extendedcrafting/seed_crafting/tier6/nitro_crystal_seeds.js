@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
           item: 'draconicevolution:chaotic_core'
         },
         I: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         J: {
           item: 'botania:elementium_ingot'

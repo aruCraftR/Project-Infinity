@@ -17,7 +17,7 @@
 				id: "6F906E7CA555A5BF"
 				item: {
 					Count: 1
-					id: "avaritia:longbowofthe_heavens"
+					id: "avaritia:infinity_bow"
 					tag: {
 						Damage: 0
 					}
@@ -32,13 +32,7 @@
 			id: "32E397BACA45D5BC"
 			tasks: [{
 				id: "61698FBE9A366452"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_armor_boots"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "avaritia:infinity_boots"
 				type: "item"
 			}]
 			x: 4.0d
@@ -49,13 +43,7 @@
 			id: "32FE9CC34C778A9F"
 			tasks: [{
 				id: "3CD6314B29FA05E3"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_armor_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "avaritia:infinity_pants"
 				type: "item"
 			}]
 			x: 2.0d
@@ -66,13 +54,7 @@
 			id: "6923252F136B63E3"
 			tasks: [{
 				id: "0CAE55C6C916B012"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_armor_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "avaritia:infinity_chestplate"
 				type: "item"
 			}]
 			x: 0.0d
@@ -83,13 +65,7 @@
 			id: "3FF837EA4D44DFC3"
 			tasks: [{
 				id: "5506D08BA6E722F2"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_armor_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "avaritia:infinity_helmet"
 				type: "item"
 			}]
 			x: -2.0d
@@ -102,7 +78,7 @@
 				id: "7EAC03ED0F6FA17B"
 				item: {
 					Count: 1
-					id: "avaritia:world_breaker"
+					id: "avaritia:infinity_pickaxe"
 					tag: {
 						Damage: 0
 						Enchantments: [{
@@ -123,7 +99,7 @@
 				id: "2A3A934023F70F3E"
 				item: {
 					Count: 1
-					id: "avaritia:natures_ruin"
+					id: "avaritia:infinity_axe"
 					tag: {
 						Damage: 0
 					}
@@ -140,7 +116,7 @@
 				id: "7A27E21C6C5F9669"
 				item: {
 					Count: 1
-					id: "avaritia:planet_eater"
+					id: "avaritia:infinity_shovel"
 					tag: {
 						Damage: 0
 					}
@@ -157,7 +133,7 @@
 				id: "13DA729D707BF5A8"
 				item: {
 					Count: 1
-					id: "avaritia:hoeofthe_green_earth"
+					id: "avaritia:infinity_hoe"
 					tag: {
 						Damage: 0
 					}
@@ -174,7 +150,7 @@
 				id: "1016DE82375FCFAC"
 				item: {
 					Count: 1
-					id: "avaritia:swordofthe_cosmos"
+					id: "avaritia:infinity_sword"
 					tag: {
 						Damage: 0
 					}

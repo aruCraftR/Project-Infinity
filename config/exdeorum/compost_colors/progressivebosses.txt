@@ -1,4 +1,0 @@
-// Compost colors for progressivebosses. You may add your own colors, change existing ones, or remove colors that aren't needed.
-corrupted_end_crystal, #9b90ff
-elder_guardian_spike, #ffffff
-nether_star_shard, #eaffeb

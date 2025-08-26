@@ -217,15 +217,8 @@
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2" }
 		{ item: "minecraft:saddle", weight: 5.0f }
 		{ item: "minecraft:name_tag", weight: 5.0f }
-		{
-			item: {
-				Count: 1
-				id: "betterfurnacesreforged:gold_furnace"
-				tag: { }
-			}
-			weight: 3.0f
-		}
 		{ item: "minecraft:wither_skeleton_skull", weight: 10.0f }
+		{ item: "ironfurnaces:emerald_furnace", weight: 3.5f }
 	]
 	title: "&aUncommon Reward"
 	use_title: true

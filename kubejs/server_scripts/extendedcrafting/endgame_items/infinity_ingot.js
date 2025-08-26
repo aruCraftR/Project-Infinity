@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
       ],
       key: {
         A: {
-          item: 'avaritia:neutronium_ingot'
+          item: 'avaritia:neutron_ingot'
         },
         B: {
           item: 'extendedcrafting:the_ultimate_ingot'

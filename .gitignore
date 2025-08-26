@@ -1053,7 +1053,6 @@ saves/Test4/region/r.1.0.mca
 saves/Test4/region/r.1.1.mca
 saves/Test4/serverconfig/advancednetherite-server.toml
 saves/Test4/serverconfig/aether-server.toml
-saves/Test4/serverconfig/betterfurnacesreforged.json
 saves/Test4/serverconfig/bhc-server.toml
 saves/Test4/serverconfig/cobblefordays-server.toml
 saves/Test4/serverconfig/cofh_core-server.toml
@@ -10720,7 +10719,6 @@ saves/Test5/region/r.10.7.mca
 saves/Test5/region/r.10.10.mca
 saves/Test5/serverconfig/advancednetherite-server.toml
 saves/Test5/serverconfig/aether-server.toml
-saves/Test5/serverconfig/betterfurnacesreforged.json
 saves/Test5/serverconfig/bhc-server.toml
 saves/Test5/serverconfig/cobblefordays-server.toml
 saves/Test5/serverconfig/cofh_core-server.toml
@@ -10839,3 +10837,6 @@ ESM/Test6/anchors.dat
 ESM/Test7/anchors.dat
 L_Enders_Cataclysm-3.16.jar
 /mods/L_Enders_Cataclysm-3.16.jar
+ESM/Test4/anchors.dat
+ESM/Test5/anchors.dat
+ESM/test111111/anchors.dat

@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
           item: "evolvedmekanism:block_better_gold"
         },
         "F": {
-          item: "avaritia:neutronium_ingot"
+          item: "avaritia:neutron_ingot"
         },
         "G": {
           item: "compressium:cobblestone_8"

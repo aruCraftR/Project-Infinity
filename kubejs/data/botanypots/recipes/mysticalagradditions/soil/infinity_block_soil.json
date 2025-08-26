@@ -1,10 +1,10 @@
 {
     "type": "botanypots:soil",
     "input": {
-        "item": "avaritia:infinity_block"
+        "item": "avaritia:infinity"
     },
     "display": {
-        "block": "avaritia:infinity_block"
+        "block": "avaritia:infinity"
     },
     "categories": [
         "dirt",
@@ -15,7 +15,7 @@
         "imperium",
         "supremium",
         "insanium",
-        "infinity_block"
+        "infinity"
     ],
     "growthModifier": 2.50
 }

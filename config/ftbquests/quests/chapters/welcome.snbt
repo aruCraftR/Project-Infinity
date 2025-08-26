@@ -1314,7 +1314,7 @@
 				{
 					count: 9L
 					id: "19BAD0513A81721C"
-					item: "exdeorum:mechanical_sieve"
+					item: "kubejs:auto_mechanical_sieve"
 					type: "item"
 				}
 				{
@@ -1757,7 +1757,7 @@
 					type: "item"
 				}
 				{
-					entity: "progressivebosses:wither"
+					entity: "minecraft:wither"
 					icon: {
 						Count: 1
 						id: "hostilenetworks:data_model"
@@ -1785,12 +1785,19 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				count: 14L
-				id: "10300058D430D399"
-				item: { Count: 14, id: "minecraft:chiseled_stone_bricks" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 14L
+					id: "10300058D430D399"
+					item: { Count: 14, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "6C45E476C627EF68"
+					item: "lrdynamicdungeon:dungeon_pass"
+					type: "item"
+				}
+			]
 			x: 15.5d
 			y: -1.0d
 		}

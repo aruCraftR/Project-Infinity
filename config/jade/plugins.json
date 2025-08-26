@@ -69,6 +69,11 @@
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
   },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": false
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

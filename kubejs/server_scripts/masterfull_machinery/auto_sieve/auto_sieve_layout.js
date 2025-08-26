@@ -54,7 +54,7 @@ MMEvents.createStructures(event => {
           block: 'advancednetherite:netherite_diamond_block'
         })
         .key('8', {
-          block: 'exdeorum:mechanical_sieve'
+          block: 'kubejs:auto_mechanical_sieve'
         })
         .key('9', {
           block: 'mekanism:block_refined_glowstone'
@@ -119,7 +119,7 @@ MMEvents.createStructures(event => {
           block: 'advancednetherite:netherite_diamond_block'
         })
         .key('8', {
-          block: 'exdeorum:mechanical_sieve'
+          block: 'kubejs:auto_mechanical_sieve'
         })
         .key('9', {
           block: 'mekanism:block_refined_glowstone'
@@ -184,7 +184,7 @@ MMEvents.createStructures(event => {
           block: 'advancednetherite:netherite_diamond_block'
         })
         .key('8', {
-          block: 'exdeorum:mechanical_sieve'
+          block: 'kubejs:auto_mechanical_sieve'
         })
         .key('9', {
           block: 'mekanism:block_refined_glowstone'
@@ -249,7 +249,7 @@ MMEvents.createStructures(event => {
           block: 'advancednetherite:netherite_diamond_block'
         })
         .key('8', {
-          block: 'exdeorum:mechanical_sieve'
+          block: 'kubejs:auto_mechanical_sieve'
         })
         .key('9', {
           block: 'mekanism:block_refined_glowstone'

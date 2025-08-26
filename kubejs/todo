@@ -1,9 +1,11 @@
 /---------------------------------------------------------------------------------------------------------------/
 ⁡⁢⁣⁡⁢⁣⁣//allgemein⁡
-finish quests (Undergarden, extreme reactor)
+finish quests (Undergarden, extreme reactor) get from infinity
 fix shop prices
 time merc missions
 dungeon born in chaos mobs
+Compact Mekanism Machines Plus recipe change
+solar panel multiblock
 /--------------------------------------------------------------------------------------------------------------/
 ⁡⁢⁢⁣//recipes⁡
 creative items recipes!
@@ -15,7 +17,23 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 ⁡⁣⁢⁢changelog⁡
 -updated some mods
+-added RE:Avaritia --> REMOVED Avaritia Lite!!
+    -you will lose your infinity armor!!
+-added Avaritia Expand
+-added Avaritia Asgardandelion 
+-removed corpse + curio Addon
+-added simple tomb
+-added Compact Mekanism Machines Plus (testing and recipes will change!)
+-added PackagedAvaritia
+-removed progressivebosses  --> added war wither and true end dragon
+    -super hard bosses. BE CAREFUL
+
+-fixed a lot of bugs and log spams
+-added craft for lord pumpkinhead data model
+-changed some quests
+-changed sculk alloy ingot recipe
+-changed auto sieve layout to fix a bug (craft the mechanical_sieve into the auto_mechanical_sieve)
+
 /---------------------------
 ⁡⁢⁣⁢known bugs:⁡
--masterful machinery multiblocks not forming (   /reload in chat  as admin/op)
 -some mystical agricraft essence recipes are visually bugged. try them inside a crafting table
