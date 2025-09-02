@@ -2443,14 +2443,14 @@
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
-			id: "11C8444A27ED5E80"
+			id: "0ED653F91D18E714"
 			rewards: [{
 				id: "557D41EC3D8FF0B4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "44CF536DAAEBFD7F"
+				id: "072555085AFB2C2E"
 				item: "mysticalagriculture:inferium_seeds"
 				type: "item"
 			}]
@@ -2459,14 +2459,14 @@
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
-			id: "0003460258B324E8"
+			id: "41C621E26526EF8C"
 			rewards: [{
 				id: "619D26442786E67D"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "3B831C46FC210C8D"
+				id: "49B0BB7E907B896D"
 				item: "mysticalagriculture:stone_seeds"
 				type: "item"
 			}]
@@ -2476,14 +2476,14 @@
 		{
 			dependencies: ["28586493542A3B3A"]
 			hide_dependent_lines: true
-			id: "33241DF9EFF30583"
+			id: "79C3CC7B19D3A385"
 			rewards: [{
 				id: "60677DD22A7834A1"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "079483E96C071BBB"
+				id: "45D8663C5A1A7FC5"
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
@@ -2492,14 +2492,14 @@
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
-			id: "70BE4D8B56073A6E"
+			id: "0C55A7476E6B1366"
 			rewards: [{
 				id: "7BC9942E301E10DB"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6A5B65996032B488"
+				id: "4FF4058FDF79C6BF"
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
@@ -2508,14 +2508,14 @@
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
-			id: "4D496B66DCA6C4A1"
+			id: "07E1EB8F365E8955"
 			rewards: [{
 				id: "4FC6EE3848092E7C"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "505D9915C513F14E"
+				id: "7BBC66E07BCDAF0E"
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
@@ -2524,14 +2524,14 @@
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
-			id: "5F7B1FFEA146BCE7"
+			id: "4F370E9BAEF16DB4"
 			rewards: [{
 				id: "754A2222069167C4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0D59ACA67CFE8710"
+				id: "031830C5825AE9B3"
 				item: "mysticalagriculture:deepslate_seeds"
 				type: "item"
 			}]
@@ -2540,14 +2540,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "49BFF20D6C601671"
+			id: "0C124ED63A0E6612"
 			rewards: [{
 				id: "2C374442B2A6A7BD"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "02C13AA6DD414109"
+				id: "2BEE64933B9F013C"
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
@@ -2556,14 +2556,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "76AA8C5CC1861D7D"
+			id: "1FAB4085065277CC"
 			rewards: [{
 				id: "3D63A8074AEDA662"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "47602E796DBA766B"
+				id: "3F083D62CC07D50E"
 				item: "mysticalagriculture:nature_seeds"
 				type: "item"
 			}]
@@ -2572,14 +2572,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "6F7BB76FEC435667"
+			id: "05788FCF0A782764"
 			rewards: [{
 				id: "36BDE95F51FB0706"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "479D7FC18DF88F85"
+				id: "186BB7BE056A0B94"
 				item: "mysticalagriculture:dye_seeds"
 				type: "item"
 			}]
@@ -2588,14 +2588,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "340DA9C0698C435D"
+			id: "42F65E922EFA8EE1"
 			rewards: [{
 				id: "61D174E78F5EB59F"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "09976DD24D227E4C"
+				id: "225900DF42D2FC3B"
 				item: "mysticalagriculture:nether_seeds"
 				type: "item"
 			}]
@@ -2620,14 +2620,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "20E3CC67D7FD269A"
+			id: "7AC35B18ADCEFCB5"
 			rewards: [{
 				id: "404EC9A87D29DB71"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1FF8E92456E87C0A"
+				id: "46676869E36E553D"
 				item: "mysticalagriculture:niter_seeds"
 				type: "item"
 			}]
@@ -2636,14 +2636,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "0187B5DFFDB1985A"
+			id: "6518497108DA9C8F"
 			rewards: [{
 				id: "72BECD9F382170CA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0796450FC4EF5558"
+				id: "46B87EA8EE5328EC"
 				item: "mysticalagriculture:coral_seeds"
 				type: "item"
 			}]
@@ -2652,14 +2652,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "13F0D903BDE26086"
+			id: "6C31042CDCB98A6F"
 			rewards: [{
 				id: "11B407DCEBCE6A78"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "264E87FEF1CB4479"
+				id: "183D2F8B8423200A"
 				item: "mysticalagriculture:honey_seeds"
 				type: "item"
 			}]
@@ -2668,14 +2668,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "53E70816C7D6608C"
+			id: "4B6F23E4AA6D0C33"
 			rewards: [{
 				id: "155C2B9F0F66080E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5388607503342B81"
+				id: "23578F56C899D685"
 				item: "mysticalagriculture:amethyst_seeds"
 				type: "item"
 			}]
@@ -2716,14 +2716,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "0CEB9B7E93C4FEBD"
+			id: "65BD365040A1734F"
 			rewards: [{
 				id: "32CB52AB4C7813D5"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1A0643D62C27B6E7"
+				id: "4ED04B82CFC4F13C"
 				item: "mysticalagriculture:sulfur_seeds"
 				type: "item"
 			}]
@@ -2732,14 +2732,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "022A30AD533819A6"
+			id: "4C2182F343801236"
 			rewards: [{
 				id: "2544CDAEAFC5C490"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "228B60F90B569ABA"
+				id: "579EC80DD0FF5294"
 				item: "mysticalagriculture:aluminum_seeds"
 				type: "item"
 			}]
@@ -2748,14 +2748,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "036D96759AD35521"
+			id: "074F7BFA0AA99847"
 			rewards: [{
 				id: "02638874057EED87"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "3AD56E653E89DDBF"
+				id: "03C87B71B29B3988"
 				item: "mysticalagriculture:apatite_seeds"
 				type: "item"
 			}]
@@ -2764,14 +2764,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "44C1D4F4567285F6"
+			id: "11571992370389AC"
 			rewards: [{
 				id: "069640B8C8A69562"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5A2158AE4701DB01"
+				id: "3996BF0F241BA793"
 				item: "mysticalagriculture:mystical_flower_seeds"
 				type: "item"
 			}]
@@ -2780,14 +2780,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "2380519491CED7AF"
+			id: "29C8D9C4C37AD06B"
 			rewards: [{
 				id: "373C475CD69DBC02"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "46CE0564BFAFD984"
+				id: "266FD3C17A56CF96"
 				item: "mysticalagriculture:grains_of_infinity_seeds"
 				type: "item"
 			}]
@@ -2956,14 +2956,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "78A75AA2A5D1A737"
+			id: "68CCA10010617EBF"
 			rewards: [{
 				id: "6B91F59796937450"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "365F762D757237A2"
+				id: "4A588A9BDF8282F3"
 				item: "mysticalagriculture:redstone_alloy_seeds"
 				type: "item"
 			}]
@@ -2972,14 +2972,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "1D753DE946B0F008"
+			id: "1E7BEE7B52694EA8"
 			rewards: [{
 				id: "3D63B7561233B7F2"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0571C6B937F72D9B"
+				id: "6E395D663E2AC57D"
 				item: "mysticalagriculture:copper_seeds"
 				type: "item"
 			}]
@@ -2988,14 +2988,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "33AF6C8180F8BA01"
+			id: "41B2F3BA224FA279"
 			rewards: [{
 				id: "2A23F5D0B3E3A3C5"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0159780AB8F1C586"
+				id: "4F219CCAAB49EB47"
 				item: "mysticalagriculture:nether_quartz_seeds"
 				type: "item"
 			}]
@@ -3004,14 +3004,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "5D8CA3CF4B64F7C8"
+			id: "75F5269B69287C2C"
 			rewards: [{
 				id: "05B04EA702226779"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "3666346766D60D51"
+				id: "39809B929AED33A0"
 				item: "mysticalagriculture:glowstone_seeds"
 				type: "item"
 			}]
@@ -3020,14 +3020,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "1D206958CA4093EA"
+			id: "14E182398DA76D90"
 			rewards: [{
 				id: "2073484D73F6C7D4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "22C4152F42EDE016"
+				id: "39063584B7F210BD"
 				item: "mysticalagriculture:redstone_seeds"
 				type: "item"
 			}]
@@ -3036,14 +3036,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "1DAAF7F5E79E76C7"
+			id: "4B058B70942AFD56"
 			rewards: [{
 				id: "351044F140A5E01D"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "68C88D00431A3024"
+				id: "37D4C86BA6558CB0"
 				item: "mysticalagriculture:obsidian_seeds"
 				type: "item"
 			}]
@@ -3052,14 +3052,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "4A4B6E674BF46A57"
+			id: "317963ED033C0AFF"
 			rewards: [{
 				id: "4DE045006D76AA58"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "104629288DDB253B"
+				id: "21E85AD67B12249D"
 				item: "mysticalagriculture:prismarine_seeds"
 				type: "item"
 			}]
@@ -3068,14 +3068,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "017ECB7350A2A9FB"
+			id: "095EBAF182A55683"
 			rewards: [{
 				id: "2C8371033ADE4033"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7B31B98FA7E469C1"
+				id: "466BC51004DAF2EE"
 				item: "mysticalagriculture:tin_seeds"
 				type: "item"
 			}]
@@ -3084,14 +3084,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "32207A13AC1F9BD7"
+			id: "2FB217ED5FA2AA95"
 			rewards: [{
 				id: "3854F9C31B573A8D"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5E407A5FCC1B60F0"
+				id: "3773E0784DCFA6B7"
 				item: "mysticalagriculture:bronze_seeds"
 				type: "item"
 			}]
@@ -3100,14 +3100,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "6FC56AC5A15857A0"
+			id: "2FCA767F1AE80395"
 			rewards: [{
 				id: "214CAD24991A8652"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "57BBD9F0C4B7475F"
+				id: "78B3BC9244927105"
 				item: "mysticalagriculture:zinc_seeds"
 				type: "item"
 			}]
@@ -3116,14 +3116,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "71B45298EF9CDF37"
+			id: "1E958F4787288698"
 			rewards: [{
 				id: "25848A964CF5F5FD"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2418D8C14F9F0763"
+				id: "2DD47A67AE858ED9"
 				item: "mysticalagriculture:brass_seeds"
 				type: "item"
 			}]
@@ -3132,14 +3132,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "0ED7A8DE70278332"
+			id: "0BA61DA00D3DBFE8"
 			rewards: [{
 				id: "00753603699BC50B"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "29F2EDE70200A1B4"
+				id: "3C76B172CDAECDD6"
 				item: "mysticalagriculture:silver_seeds"
 				type: "item"
 			}]
@@ -3148,14 +3148,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "182DD758DA2B0BE2"
+			id: "26AF00764F561E93"
 			rewards: [{
 				id: "11C77072D2B27649"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1092CF089F452F9E"
+				id: "78D242C7AC39D597"
 				item: "mysticalagriculture:lead_seeds"
 				type: "item"
 			}]
@@ -3164,14 +3164,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "4B515FD4BF49185F"
+			id: "32EDF2D2CCA439D7"
 			rewards: [{
 				id: "1C7090C0E28FAEE9"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "43E9117FC99BA858"
+				id: "7E74750C25E7B04A"
 				item: "mysticalagriculture:graphite_seeds"
 				type: "item"
 			}]
@@ -3308,14 +3308,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "7BA42A4A2BB6A911"
+			id: "0FBDE2778F66E209"
 			rewards: [{
 				id: "61670FAFE6E6E7CC"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4C9BBD5E551A3E48"
+				id: "55F9C303FD413F7F"
 				item: "mysticalagriculture:copper_alloy_seeds"
 				type: "item"
 			}]
@@ -3324,14 +3324,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "2EE6C01A06DD51C2"
+			id: "030B1CBA67655918"
 			rewards: [{
 				id: "5550B59D6593E271"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "399FBAEC9E90CC61"
+				id: "3623966221F64914"
 				item: "mysticalagriculture:conductive_alloy_seeds"
 				type: "item"
 			}]
@@ -3340,14 +3340,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "1A6659866108CDC4"
+			id: "6554D6C146B73C75"
 			rewards: [{
 				id: "12C0623BD8A5AFDA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "678FAE81EACAB2F8"
+				id: "0B2836DCE63187CA"
 				item: "mysticalagriculture:manasteel_seeds"
 				type: "item"
 			}]
@@ -3388,14 +3388,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "17D820EA0F508B12"
+			id: "4FEB27BA5F34F1E3"
 			rewards: [{
 				id: "58524F0B57EB42A3"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4AF5D9318F43E945"
+				id: "20CCF443C79DF7C9"
 				item: "mysticalagriculture:sky_stone_seeds"
 				type: "item"
 			}]
@@ -3404,14 +3404,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "049654A830351BE6"
+			id: "5210278D2280BFB1"
 			rewards: [{
 				id: "13B77C3B001A3B5A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "149555BDE18E10AC"
+				id: "1EFACBB73B1104A7"
 				item: "mysticalagriculture:certus_quartz_seeds"
 				type: "item"
 			}]
@@ -3436,14 +3436,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "681A459F3A0720FA"
+			id: "73F70AC5E861B74F"
 			rewards: [{
 				id: "17BCE41D3B3D30E4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "3E6F78E5E04F4580"
+				id: "3B7D41DC7E752747"
 				item: "mysticalagriculture:gold_seeds"
 				type: "item"
 			}]
@@ -3452,14 +3452,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "3097BB0021E12005"
+			id: "0E6B09846CC83749"
 			rewards: [{
 				id: "1618DAAC509D0D6E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "58C9597AE04FC614"
+				id: "4546AB9FC7C34548"
 				item: "mysticalagriculture:invar_seeds"
 				type: "item"
 			}]
@@ -3484,14 +3484,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "65A5BB5073905275"
+			id: "1CA8D3DAA73CF1A9"
 			rewards: [{
 				id: "15CB91CBCD161E27"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0B5C336DE6EB17A7"
+				id: "547B7351A6654140"
 				item: "mysticalagriculture:dark_steel_seeds"
 				type: "item"
 			}]
@@ -3500,14 +3500,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "42FD1C207D81C1CD"
+			id: "7799F5B61369EC57"
 			rewards: [{
 				id: "45A84FEB46EB4F2D"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6ABA8232B947A5F2"
+				id: "3634D2489E5F7C66"
 				item: "mysticalagriculture:energized_steel_seeds"
 				type: "item"
 			}]
@@ -3516,14 +3516,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "54E7B942BE1FD8D8"
+			id: "17B5F2C05220D5D5"
 			rewards: [{
 				id: "54FE03F99A6DD90E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2E37522713FB4301"
+				id: "680B32B4EA4F073A"
 				item: "mysticalagriculture:blazing_crystal_seeds"
 				type: "item"
 			}]
@@ -3532,14 +3532,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "218C278ADA5E62F1"
+			id: "5EA7E2030B546EC8"
 			rewards: [{
 				id: "5C098200C141EB8E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "05413553E44EE589"
+				id: "253A06D57300F94A"
 				item: "mysticalagriculture:cobalt_seeds"
 				type: "item"
 			}]
@@ -3548,14 +3548,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "59205B7381250A75"
+			id: "4D08FE2C9BE2ADD8"
 			rewards: [{
 				id: "54921B98DC4C789F"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7C5E7BD7A4435115"
+				id: "1A7FE2607DD2B8C3"
 				item: "mysticalagriculture:rose_gold_seeds"
 				type: "item"
 			}]
@@ -3564,14 +3564,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "530FB0D0CB0B0FF5"
+			id: "2DE7774DED74D793"
 			rewards: [{
 				id: "05FA51DAA5005F1E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2D68F6F36AB6A3E2"
+				id: "4E7306CC5C993412"
 				item: "mysticalagriculture:pulsating_alloy_seeds"
 				type: "item"
 			}]
@@ -3596,14 +3596,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "73D6B27352EBB114"
+			id: "36CFEE163FC395C8"
 			rewards: [{
 				id: "7C54E29944ABB619"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "447BAA38065EA778"
+				id: "34BB68F216C3FE5B"
 				item: "mysticalagriculture:lapis_lazuli_seeds"
 				type: "item"
 			}]
@@ -3612,14 +3612,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "1D23452A6A3137FC"
+			id: "7405674FF3E78EF3"
 			rewards: [{
 				id: "07DAA7D19EAAC9CF"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7CE8A826420197C7"
+				id: "1EA75029DF57C807"
 				item: "mysticalagriculture:end_seeds"
 				type: "item"
 			}]
@@ -3628,14 +3628,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "71B41CB16CF69B39"
+			id: "084010AF3DAA6287"
 			rewards: [{
 				id: "6A2D759ACDF00848"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0B10FAFDEEACBD00"
+				id: "13F8F5CED90A93F6"
 				item: "mysticalagriculture:energetic_alloy_seeds"
 				type: "item"
 			}]
@@ -3644,14 +3644,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "15D66F87C4DA23E2"
+			id: "7DAD9510AADEE0CB"
 			rewards: [{
 				id: "67DA83F9E94DF31E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "127A736D96BBDABB"
+				id: "2A968B854A520D75"
 				item: "mysticalagriculture:elementium_seeds"
 				type: "item"
 			}]
@@ -3660,14 +3660,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "61C45B26325607AC"
+			id: "20E64AE7FCF5BDB4"
 			rewards: [{
 				id: "2C909BE99F54A084"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6E9318616BF4AC84"
+				id: "16842A6393023C82"
 				item: "mysticalagriculture:ruby_seeds"
 				type: "item"
 			}]
@@ -3676,14 +3676,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "4A0C73A32B2BF20B"
+			id: "19C5643B86348D76"
 			rewards: [{
 				id: "59C1EF848F8F4DD7"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "628D9530F8408E5D"
+				id: "08CA283A68F90836"
 				item: "mysticalagriculture:experience_seeds"
 				type: "item"
 			}]
@@ -3692,14 +3692,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "71DAB6AD0F29B414"
+			id: "0A3EAED16687150D"
 			rewards: [{
 				id: "2302AD014628A18A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "06362DEE9DD366B6"
+				id: "436BA93A193B50B1"
 				item: "mysticalagriculture:sapphire_seeds"
 				type: "item"
 			}]
@@ -3708,14 +3708,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "4E3828898900B72F"
+			id: "3DEE5F626CBA2D4D"
 			rewards: [{
 				id: "7832B00E9DE3AD66"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "07109B1FB4253CD4"
+				id: "6BABFBF32F424FC1"
 				item: "mysticalagriculture:osmium_seeds"
 				type: "item"
 			}]
@@ -3724,14 +3724,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "0EC742A2ACEA98F6"
+			id: "47816B97477862BC"
 			rewards: [{
 				id: "4117A1EB6AFCF4D0"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1F3C16EDCD4506BD"
+				id: "3DACBDFBAC856CB9"
 				item: "mysticalagriculture:fluorite_seeds"
 				type: "item"
 			}]
@@ -3740,14 +3740,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "454812A6E386C6D0"
+			id: "509989986F9FA4A0"
 			rewards: [{
 				id: "411D96A178C3C8BB"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "36EFEF97E32940F1"
+				id: "0FC1132F8BD9B9D2"
 				item: "mysticalagriculture:peridot_seeds"
 				type: "item"
 			}]
@@ -3756,14 +3756,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "4B3642EF86025A66"
+			id: "1621C656004418D9"
 			rewards: [{
 				id: "18D18B23A3486A88"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1094AAC088DF83D5"
+				id: "22AFB54F4793117E"
 				item: "mysticalagriculture:soulium_seeds"
 				type: "item"
 			}]
@@ -3772,14 +3772,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "424A2E66DED62625"
+			id: "56F597ABC8F3CBAA"
 			rewards: [{
 				id: "6DFEF499F230EDCB"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4DCFA162DFA91FA2"
+				id: "198222883602232A"
 				item: "mysticalagriculture:refined_glowstone_seeds"
 				type: "item"
 			}]
@@ -3788,14 +3788,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "5236881882D2723B"
+			id: "632B5245446412EC"
 			rewards: [{
 				id: "467EC987323F7250"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7E7FED2344518D82"
+				id: "465E4B9B6AD9BF61"
 				item: "mysticalagriculture:refined_obsidian_seeds"
 				type: "item"
 			}]
@@ -3804,14 +3804,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "53869343C4767166"
+			id: "5D176BF3D0EDF868"
 			rewards: [{
 				id: "6303B328AED9532C"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "02542653F6DE5215"
+				id: "2E4609D1EF8BF271"
 				item: "mysticalagriculture:signalum_seeds"
 				type: "item"
 			}]
@@ -3820,14 +3820,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "75DCE8C3E06D8100"
+			id: "47BCCA9CEAAEB119"
 			rewards: [{
 				id: "5306D0032C7CC5DA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "68A9769ED24B9D5E"
+				id: "4EDB4336A0338C84"
 				item: "mysticalagriculture:steel_seeds"
 				type: "item"
 			}]
@@ -3836,14 +3836,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "03CE3F98EC85404B"
+			id: "1DA117C8FE35499C"
 			rewards: [{
 				id: "6293BACBF04BC270"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6F21978684DB14E6"
+				id: "2D248CB3854A7606"
 				item: "mysticalagriculture:nickel_seeds"
 				type: "item"
 			}]
@@ -3852,14 +3852,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "5930E83165AB614C"
+			id: "461934AE320B066F"
 			rewards: [{
 				id: "77AE184132EAFF26"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "62D5268195BFAB93"
+				id: "50EDE3BE1AC67FF5"
 				item: "mysticalagriculture:lumium_seeds"
 				type: "item"
 			}]
@@ -3900,14 +3900,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "4746AAD8A0CFC066"
+			id: "26F29CC0B86BFBEB"
 			rewards: [{
 				id: "1C74F18007A37CA9"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0836364211ACD8C5"
+				id: "6F0E1D77FCCA0AFA"
 				item: "mysticalagriculture:flux_infused_ingot_seeds"
 				type: "item"
 			}]
@@ -3916,14 +3916,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "450C81A2E96CE417"
+			id: "687735D96E67F508"
 			rewards: [{
 				id: "106309CE838E44E9"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "539DD62257778016"
+				id: "52F76E4173D16B8A"
 				item: "mysticalagriculture:constantan_seeds"
 				type: "item"
 			}]
@@ -3932,14 +3932,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "23767CB990DD7710"
+			id: "7C443264397F72CD"
 			rewards: [{
 				id: "2D0163D94D2F2B1E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "573F0E0B52A64601"
+				id: "2F40BF166D41F84F"
 				item: "mysticalagriculture:electrum_seeds"
 				type: "item"
 			}]
@@ -3948,14 +3948,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "0DC520E060606386"
+			id: "13F67D6044ACAF3A"
 			rewards: [{
 				id: "26109ABBAC37F8DE"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6C6B336381313168"
+				id: "19FF2E05E65E3D75"
 				item: "mysticalagriculture:compressed_iron_seeds"
 				type: "item"
 			}]
@@ -3964,14 +3964,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "3C2F711A429A36BC"
+			id: "3119EBB2698D2385"
 			rewards: [{
 				id: "461D9CBF4DFD14CC"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0EFA5B31D1F398E7"
+				id: "308967BAE75A5F91"
 				item: "mysticalagriculture:fluix_seeds"
 				type: "item"
 			}]
@@ -3980,14 +3980,14 @@
 		}
 		{
 			dependencies: ["3763C9494249EC62"]
-			id: "140F34951C4FD7C6"
+			id: "71184176995D486A"
 			rewards: [{
 				id: "18C5198DBBB7779C"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "065100B7C1632F1D"
+				id: "4DE245F94900650A"
 				item: "mysticalagriculture:soularium_seeds"
 				type: "item"
 			}]
@@ -4076,14 +4076,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "0FBAA01988ABB71E"
+			id: "4B8232AC7F398440"
 			rewards: [{
 				id: "619C17CD1D416250"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "34D75741BC1D8841"
+				id: "669F9A093E3D31C1"
 				item: "mysticalagriculture:vibrant_alloy_seeds"
 				type: "item"
 			}]
@@ -4092,14 +4092,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "28E8E684368456CC"
+			id: "4F7806B0D377F64F"
 			rewards: [{
 				id: "74ECF1115E38FC23"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "210B59A74EC19525"
+				id: "24E3A30C5C0039F7"
 				item: "mysticalagriculture:end_steel_seeds"
 				type: "item"
 			}]
@@ -4124,14 +4124,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "5018145C752273E2"
+			id: "140376B585AEB4D4"
 			rewards: [{
 				id: "41AAEF00669B43FC"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5366EDFC8A121F36"
+				id: "46B59A7502169F9B"
 				item: "mysticalagriculture:ignitium_seeds"
 				type: "item"
 			}]
@@ -4140,14 +4140,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "365AC4690DB6027F"
+			id: "0C793BC123CBD485"
 			rewards: [{
 				id: "232FD5EDE1607B09"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7C379C0AC6B1C5BC"
+				id: "173FDF387F586648"
 				item: "mysticalagriculture:terrasteel_seeds"
 				type: "item"
 			}]
@@ -4156,14 +4156,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "59FB867C570A050E"
+			id: "7B4C72707E8FFE48"
 			rewards: [{
 				id: "4D16BD694EBE04BD"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5B08475108783573"
+				id: "0AFCCD5C8C34A0D2"
 				item: "mysticalagriculture:draconium_seeds"
 				type: "item"
 			}]
@@ -4172,14 +4172,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "070D0484A301E054"
+			id: "04BD35C03CB713FA"
 			rewards: [{
 				id: "7F98FC107700759C"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "75BB8951F5CE1415"
+				id: "7F41EA00DC9988A4"
 				item: "mysticalagriculture:yellorium_seeds"
 				type: "item"
 			}]
@@ -4188,14 +4188,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "1DA9A6EFC3B7D61E"
+			id: "631CB9FE2B2E96B5"
 			rewards: [{
 				id: "26A64265E44C462A"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "69F4042AFE2C17D1"
+				id: "76B48FBD63671DBC"
 				item: "mysticalagriculture:cyanite_seeds"
 				type: "item"
 			}]
@@ -4204,14 +4204,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "3386E14E6D4A8954"
+			id: "7A8A2C727CD0F5E6"
 			rewards: [{
 				id: "635B28ABBFF7F451"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1F22D59DD050A155"
+				id: "19F43EAACA443E77"
 				item: "mysticalagriculture:emerald_seeds"
 				type: "item"
 			}]
@@ -4220,14 +4220,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "39F526A8AE99E576"
+			id: "3B7C2E409D4C1A49"
 			rewards: [{
 				id: "2E539DC020C268DE"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2ADC279540AB77C9"
+				id: "07A6510EB0F74DC3"
 				item: "mysticalagriculture:netherite_seeds"
 				type: "item"
 			}]
@@ -4236,14 +4236,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "52CCEAC7A8B65B4C"
+			id: "03BB8594FCD41684"
 			rewards: [{
 				id: "4A25761683112DBF"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1F0C768B452A09EA"
+				id: "5F42B5A2D4A39026"
 				item: "mysticalagriculture:niotic_crystal_seeds"
 				type: "item"
 			}]
@@ -4252,14 +4252,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "140BA8747EFCCD36"
+			id: "0E5E9FFD47D62145"
 			rewards: [{
 				id: "477891C56AFB5D37"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2E6F392E43C237AF"
+				id: "4526D9EDDF321FDB"
 				item: "mysticalagriculture:spirited_crystal_seeds"
 				type: "item"
 			}]
@@ -4268,14 +4268,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "2BB28971A52982AB"
+			id: "2715FA909D41449A"
 			rewards: [{
 				id: "7FE4BF76B92C1785"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1AA7CF1A0B0EF93F"
+				id: "3109E68C64D37BB2"
 				item: "mysticalagriculture:uraninite_seeds"
 				type: "item"
 			}]
@@ -4284,14 +4284,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "1266B0C646FC0327"
+			id: "70EB97A6AF25D181"
 			rewards: [{
 				id: "3A9399E5F0D4542D"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "67A460B375D18DC0"
+				id: "4DE7CC9484D9978C"
 				item: "mysticalagriculture:manyullyn_seeds"
 				type: "item"
 			}]
@@ -4300,14 +4300,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "084957E2432D3D72"
+			id: "083525126D5D0948"
 			rewards: [{
 				id: "568FE4AABFE37180"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "28ACCAF3E80D6B0E"
+				id: "1A0258F94E13C153"
 				item: "mysticalagriculture:iridium_seeds"
 				type: "item"
 			}]
@@ -4316,14 +4316,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "6217DD706409E912"
+			id: "6EFA6E9E6467121F"
 			rewards: [{
 				id: "04F7A8429376E6CB"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "184CCD7B06B615A8"
+				id: "504A53A09B3F2F1C"
 				item: "mysticalagriculture:enderium_seeds"
 				type: "item"
 			}]
@@ -4332,14 +4332,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "33777C4E17CD0B00"
+			id: "278D2EA30668363D"
 			rewards: [{
 				id: "545438C2B59529B5"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6F523C0B327E3B91"
+				id: "0EBF246B9E906158"
 				item: "mysticalagriculture:flux_infused_gem_seeds"
 				type: "item"
 			}]
@@ -4348,14 +4348,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "0796EED8C0D1919F"
+			id: "118671796EAD3D18"
 			rewards: [{
 				id: "710D13962213A632"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "149A8DFA77CE91FC"
+				id: "6DE60B346D9BD568"
 				item: "mysticalagriculture:platinum_seeds"
 				type: "item"
 			}]
@@ -4364,14 +4364,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "34CF7D925452C417"
+			id: "21C8A42D13497771"
 			rewards: [{
 				id: "06112DF84F677F24"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4ADDAC8EB068312B"
+				id: "7B9404B3445E93C0"
 				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
@@ -4380,14 +4380,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "2D64A0D1B449C015"
+			id: "7E6D851E28A7A726"
 			rewards: [{
 				id: "062C75B58D50E747"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "232528C02976A241"
+				id: "512350533CF1981D"
 				item: "mysticalagriculture:sky_steel_seeds"
 				type: "item"
 			}]
@@ -4460,14 +4460,14 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "2749DD80AD869F06"
+			id: "0F347A29EBA3E332"
 			rewards: [{
 				id: "799DFEC067A09F9E"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5A81020DA408A7DB"
+				id: "550BF829920877DF"
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
@@ -4476,14 +4476,14 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "290CEFAC0CDE404D"
+			id: "2944DB21F35BA740"
 			rewards: [{
 				id: "48AC3C39C4BF1E48"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "34B9A4FEF9D15675"
+				id: "06BB37F5687EA354"
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
@@ -4492,14 +4492,14 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "0F174C81A9C76D5E"
+			id: "2BAAF5721F0FD0B9"
 			rewards: [{
 				id: "2D64FB0CC9A93EEB"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7EE1299EF8D60C36"
+				id: "4E68D7D82A03EFBE"
 				item: "mysticalagriculture:gaia_spirit_seeds"
 				type: "item"
 			}]
@@ -4508,14 +4508,14 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "5D3602D27B979CA9"
+			id: "3E1210630DD6D8F0"
 			rewards: [{
 				id: "1022078FA07C9598"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "028424B2393F2E11"
+				id: "0CC2092D2023C9D7"
 				item: "mysticalagriculture:awakened_draconium_seeds"
 				type: "item"
 			}]
@@ -4540,14 +4540,14 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "017C370CD965B539"
+			id: "68E1D0C161717599"
 			rewards: [{
 				id: "0E7EC68DEECFA632"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "535A2A1E2DE25BE5"
+				id: "4A5C8104749692F0"
 				item: "mysticalagriculture:nitro_crystal_seeds"
 				type: "item"
 			}]
@@ -4556,14 +4556,14 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			id: "1C537AC791C15EE5"
+			id: "5F85D5AE39043A84"
 			rewards: [{
 				id: "0A4AF373E4BBFAB0"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4A4BD66D7370977C"
+				id: "2E71B260EE226DF8"
 				item: "mysticalagriculture:menril_seeds"
 				type: "item"
 			}]
@@ -4572,14 +4572,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "441C6AA9E8C506E8"
+			id: "57F6D2E1C15FA820"
 			rewards: [{
 				id: "407C61E7D5C3FEB4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "04E3E3514883FF57"
+				id: "43A95F537335ABED"
 				item: "mysticalagriculture:pig_iron_seeds"
 				type: "item"
 			}]
@@ -4588,14 +4588,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "7B158C595F5F6160"
+			id: "07B276A20859C05D"
 			rewards: [{
 				id: "329E00800132168C"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "50604C708DD71958"
+				id: "7E6F73789BC687DB"
 				item: "mysticalagriculture:amethyst_bronze_seeds"
 				type: "item"
 			}]
@@ -4604,14 +4604,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "2A6928A5B7E08D42"
+			id: "686EC8E8D7C01B83"
 			rewards: [{
 				id: "2C240A4EC136E30C"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6BA62A667AAC2DD0"
+				id: "6E706F112A415654"
 				item: "mysticalagriculture:slimesteel_seeds"
 				type: "item"
 			}]
@@ -4620,14 +4620,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "4F0208AD7CE5B6C8"
+			id: "71B9818825334BF1"
 			rewards: [{
 				id: "2F2134657F5C0309"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5EE545296C75CBBF"
+				id: "616686B688D5D701"
 				item: "mysticalagriculture:hepatizon_seeds"
 				type: "item"
 			}]
@@ -4636,14 +4636,14 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "5C2BD759DA9238B7"
+			id: "220303D300C94F70"
 			rewards: [{
 				id: "0114E265006218D4"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "749FC25A3FECB83B"
+				id: "07C45B28B29EF2E9"
 				item: "mysticalagriculture:queens_slime_seeds"
 				type: "item"
 			}]
@@ -4652,14 +4652,14 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "7018090E22BF37F1"
+			id: "7099B98C19D11BCA"
 			rewards: [{
 				id: "5F539D7C02AF0FBF"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "24F22DEFE2E2B42E"
+				id: "44198A29EF345815"
 				item: "mysticalagriculture:plutonium_seeds"
 				type: "item"
 			}]
@@ -4668,14 +4668,14 @@
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]
-			id: "7504A7B1B4499600"
+			id: "432C692066BD523C"
 			rewards: [{
 				id: "474AE6302E9D50AA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "537343953C83FCC5"
+				id: "1ABFA628FDFBEE97"
 				item: "mysticalagriculture:lithium_seeds"
 				type: "item"
 			}]

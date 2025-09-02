@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_2"
+	group: "5F4DF11C296D769D"
+	icon: "minecraft:dragon_head"
+	id: "6EA362357DC00663"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "all_started"
+			icon: "minecraft:dragon_head"
+			id: "38A28A6BCA401D6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "676C769DB9E72517"
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "74278AF6C738017C"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8&lEnder Dragon"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["38A28A6BCA401D6F"]
+			id: "534103944AABD09A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EEC50ED3F195003"
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "5FE31259434B7318"
+				title: "Discover a &eEnd City"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["534103944AABD09A"]
+			id: "738F637AE5C1ECB6"
+			rewards: [
+				{
+					id: "047569971AFD64FE"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73669ECA82A1CF39"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57D6837DF1356913"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an &bElytra&r"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["534103944AABD09A"]
+			description: ["Chests can be converter into shulker by right clicking them using 2 shells"]
+			id: "020781DCBCE5AA49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A47DE973FF5C9F1"
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "4F9D24441EE40604"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:shulker_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "72DC1A2F3C48DD85"
+					item: "minecraft:shulker_box"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["57884954544DD970"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:ender_golem"
+				}
+			}
+			id: "273B2D8529BAFC0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC228E8657BD641"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "1FAFB11B8DEB2D1D"
+				title: "Defeat an Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ender Golem"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["273B2D8529BAFC0C"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:ender_guardian"
+				}
+			}
+			icon_scale: 2.0d
+			id: "11A41BD76410F5E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4775A46F501C0C93"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:altar_of_void"
+				id: "3C7FFAC89C33E199"
+				title: "Defeat the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["38A28A6BCA401D6F"]
+			id: "57884954544DD970"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CCBB7BFEE857BAB"
+				type: "random"
+			}]
+			tasks: [{
+				icon: "cataclysm:void_eye"
+				id: "04E95A4D04586D22"
+				structure: "cataclysm:ruined_citadel"
+				title: "Find the Ruined Citadel"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11A41BD76410F5E2"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "373592864A465D37"
+			rewards: [
+				{
+					id: "01F3974C302709CB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "tombstone:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9FCDBBA03934ED"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4FE9442DF3437EDA"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"273B2D8529BAFC0C"
+				"123995A28774EFE0"
+			]
+			id: "036C235F2ABDB595"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101AF6EE0BB9108F"
+				type: "random"
+			}]
+			tasks: [{
+				id: "30045AC22CA75882"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"273B2D8529BAFC0C"
+				"61FF844439FCBE0E"
+			]
+			id: "6E9D143684867DB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "010B3D988BD269A5"
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EEF75B7D0F56967"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			description: ["Right click the air with a empty bottle."]
+			id: "4E190E6E1268D208"
+			rewards: [{
+				count: 16
+				id: "7A38EC1AA59B6B01"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "181E861B88E14D40"
+				item: "botania:ender_air_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+	]
+	title: "&eEnd"
+}

@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   create323(event, "4x mysticalagriculture:cognizant_dust", [
     "mysticalagriculture:cognizant_dust_essence",
   ]);
@@ -396,5 +396,16 @@ ServerEvents.recipes(event => {
       "mysticalagriculture:soul_jar",
       '{Souls:6.0d,Type:"mysticalagriculture:turtle"}'
     ),
+  ]);
+  shapeless(event, "kubejs:infinity_essence", [
+    "avaritia:neutron_pile",
+    "avaritia:neutron_nugget",
+    "kubejs:tier1_super_essence",
+    "kubejs:tier2_super_essence",
+    "kubejs:tier3_super_essence",
+    "kubejs:tier4_super_essence",
+    "kubejs:tier5_super_essence",
+    "kubejs:tier6_super_essence",
+    "mysticalagradditions:creative_essence",
   ]);
 });

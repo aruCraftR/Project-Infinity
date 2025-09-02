@@ -4,7 +4,7 @@
 	filename: "iron_furngens"
 	group: "29543B666C58207C"
 	icon: "ironfurnaces:unobtainium_furnace"
-	id: "38776B03328BEF2C"
+	id: "2B7BD59AFF8981AC"
 	images: [
 		{
 			height: 1.0d
@@ -55,7 +55,7 @@
 			y: -16.0d
 		}
 	]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -65,12 +65,12 @@
 				"Mystical Agriculture is much faster then better furnaces, but alot harder to craft"
 			]
 			disable_toast: true
-			id: "773C9DA610091CFC"
+			id: "62748F0F87FA0CC9"
 			min_width: 300
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "68D756271EF2CF4A"
+				id: "10434650507FA384"
 				type: "checkmark"
 			}]
 			title: "Welcome to &dBetter Furnaces"
@@ -78,15 +78,15 @@
 			y: -13.5d
 		}
 		{
-			dependencies: ["773C9DA610091CFC"]
-			id: "5916DEB452C8A368"
+			dependencies: ["62748F0F87FA0CC9"]
+			id: "57789B18DAE61A50"
 			rewards: [{
 				id: "5EE47C4AC23A83D6"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4B505525520DF4FC"
+				id: "4448D819B17B0DE1"
 				item: "mysticalagriculture:inferium_furnace"
 				type: "item"
 			}]
@@ -95,15 +95,15 @@
 			y: -13.5d
 		}
 		{
-			dependencies: ["5916DEB452C8A368"]
-			id: "5D662FBC315BC56E"
+			dependencies: ["57789B18DAE61A50"]
+			id: "56353263F23882CD"
 			rewards: [{
 				id: "3317E4BF155E5E3E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7A6157EF02D1611D"
+				id: "3F1436354231F330"
 				item: "mysticalagriculture:prudentium_furnace"
 				type: "item"
 			}]
@@ -112,15 +112,15 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["5D662FBC315BC56E"]
-			id: "032495BC9564C4A8"
+			dependencies: ["56353263F23882CD"]
+			id: "6AEEF16FB9414700"
 			rewards: [{
 				id: "10DA3991836BBB39"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5185D66D92123F46"
+				id: "21C3C85DEFCE24D3"
 				item: "mysticalagriculture:tertium_furnace"
 				type: "item"
 			}]
@@ -128,15 +128,15 @@
 			y: -17.5d
 		}
 		{
-			dependencies: ["032495BC9564C4A8"]
-			id: "4A2BF1FB8031E514"
+			dependencies: ["6AEEF16FB9414700"]
+			id: "756C9CFF33CC9C0A"
 			rewards: [{
 				id: "55EE181DEBEB8817"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "3D31049A3862F82A"
+				id: "475B8CA2C81EE4C9"
 				item: "mysticalagriculture:imperium_furnace"
 				type: "item"
 			}]
@@ -144,15 +144,15 @@
 			y: -19.5d
 		}
 		{
-			dependencies: ["4A2BF1FB8031E514"]
-			id: "480B7735F7CE3E0C"
+			dependencies: ["756C9CFF33CC9C0A"]
+			id: "1E7A31278AB8127C"
 			rewards: [{
 				id: "3A4EE00AF53DCEA5"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2ACCDDE1A0F24508"
+				id: "5C7F884975736235"
 				item: "mysticalagriculture:supremium_furnace"
 				type: "item"
 			}]
@@ -160,15 +160,15 @@
 			y: -21.5d
 		}
 		{
-			dependencies: ["480B7735F7CE3E0C"]
-			id: "1A436F1C79B9C8A2"
+			dependencies: ["1E7A31278AB8127C"]
+			id: "421E626572D56EB0"
 			rewards: [{
 				id: "6093A9215CB5204E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "02340FFA4A74463B"
+				id: "2FBA90325478E8D5"
 				item: "mysticalagriculture:awakened_supremium_furnace"
 				type: "item"
 			}]
@@ -176,7 +176,7 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["1A436F1C79B9C8A2"]
+			dependencies: ["421E626572D56EB0"]
 			id: "682B4DE2EBAE0977"
 			rewards: [
 				{
@@ -210,7 +210,7 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["773C9DA610091CFC"]
+			dependencies: ["62748F0F87FA0CC9"]
 			id: "7641C877D53C6FBB"
 			rewards: [
 				{

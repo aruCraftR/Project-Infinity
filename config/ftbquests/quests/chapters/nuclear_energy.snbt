@@ -5,7 +5,7 @@
 	group: "5255C8D5C49409ED"
 	icon: "nuclearcraft:plutonium_rtg"
 	id: "11D9E62FD3D455FC"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

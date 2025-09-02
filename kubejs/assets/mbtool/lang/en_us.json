@@ -25,5 +25,13 @@
   "mbtool.structure.water_condenser_tier_1": "Water Condenser Tier 1",
   "mbtool.structure.water_condenser_tier_2": "Water Condenser Tier 2",
   "mbtool.structure.water_condenser_tier_3": "Water Condenser Tier 3",
-  "mbtool.structure.accelerator_part": "Accelerator Part"
+  "mbtool.structure.accelerator_part": "Accelerator Part",
+  "mbtool.structure.voidminer_tier1_rubetine": "VoidMiner Tier 1 Rubetine",
+  "mbtool.structure.voidminer_tier2_aurantium": "VoidMiner Tier 2 Aurantium",
+  "mbtool.structure.voidminer_tier3_citrinetine": "VoidMiner Tier 3 Citrinetine",
+  "mbtool.structure.voidminer_tier4_verdium": "VoidMiner Tier 4 Verdium",
+  "mbtool.structure.voidminer_tier5_azurine": "VoidMiner Tier 5 Azurine",
+  "mbtool.structure.voidminer_tier6_caerium": "VoidMiner Tier 6 Caerium",
+  "mbtool.structure.voidminer_tier7_amethystine": "VoidMiner Tier 7 Amethystine",
+  "mbtool.structure.voidminer_tier8_rosarium": "VoidMiner Tier 8 Rosarium"
 }

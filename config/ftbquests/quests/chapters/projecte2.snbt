@@ -1,0 +1,977 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projecte"
+	group: "7EE56474A7444F03"
+	icon: "projectexpansion:final_star"
+	id: "20C5CBF3B3AC21F6"
+	images: [
+		{
+			height: 2.0d
+			image: "projecte:models/heartcircle"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "projecte:models/yuecircle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "projectexpansion:item/star/final"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "projecte:item/alchemy_bags/white"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "projecte:block/interdiction_torch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "projecte:block/matter_furnace/rm_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "projectexpansion:item/infinite_steak"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "projectexpansion:item/infinite_fuel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "projectexpansion:block/sun"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60140A3E8BFB3CA0"]
+			description: [
+				"The \"&6core&r\" of this mod, you will be using this to &acraft&r many items and &btransform&r blocks into other blocks with the same &eEMC value&r with &lRight-Click.&r This &cstone&r also gives you an &6portable crafting table&r, with the &lC key&r!"
+				""
+				"By pressing &lV&r it will &e\"Charge\"&r to increase the area of blocks affected, &lShift-V&r &b\"Depletes\"&r it and pressing &lG&r will switch the &c\"mode\"&r of the stone so it will only affect blocks in a &6line&r, &6square,&r or all in a &6cube.&r"
+				""
+				"If you have an &eenergy source&r, &credstone,&r &6glowstone,&r or &acoal,&r you can change mobs into other mobs of the same type (&chostile&r to &chostile&r and &apassive&r to &apassive)&r"
+			]
+			id: "51C5499FC0E932CF"
+			rewards: [{
+				id: "32449B434881A296"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "We may have buffed the recipe... a little"
+			tasks: [{
+				id: "3AD264BE7CC4FAF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["&dProjectE&r is a mod foucsed around &aconverting items&r to &eEMC&r and &eEMC&r back into &brarer items&r."]
+			icon: "projectexpansion:fading_matter"
+			id: "60140A3E8BFB3CA0"
+			rewards: [{
+				id: "788866EEF8B4EC84"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5E90E037BDCD90CF"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51C5499FC0E932CF"]
+			description: [
+				"Crafted from the &cphilosophers stone&r, you will place items in the &6fire slot&r to collect its &eEMC&r in the table's storage and &a\"learn\"&r the item. or you can place items in the &emiddle&r of the right slot just to &alearn&r it, and items in the left slot to &echarge.&r"
+				""
+				""
+				"{@pagebreak}"
+				"&dKnown items&r will appear in the &eright circle&r and when &aclicked upon&r will give you that item if the table has sufficient &eEMC.&r"
+			]
+			id: "346BAC4D951FB684"
+			rewards: [{
+				id: "7DBA3C7553218087"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			subtitle: "We may have buffed the recipe... a little"
+			tasks: [{
+				id: "1BC8D49B93F5A2A6"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60140A3E8BFB3CA0"]
+			description: ["An &6expensive chest&r with a lot of &astorage.&r"]
+			id: "16A97D04ED52478A"
+			rewards: [
+				{
+					id: "59BB65705E8BBE17"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22E419FB71CEF736"
+					table_id: 279239654110844053L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2846B6F7130407AE"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16A97D04ED52478A"]
+			description: ["A &dportable&r &astorage unit&r which can be opened with &lRight-Click,&r also holds &emany items&r."]
+			id: "47D1190F36C49C34"
+			rewards: [{
+				id: "6B755C193F7B0BA0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A47AAFC17711587"
+				item: "projecte:white_alchemical_bag"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47D1190F36C49C34"]
+			description: [
+				"There are two types of &6Energy condensers&r, &aMk1&r and &bMk2.&r"
+				""
+				"&aMk1:&r &eConverts items&r in the &astorage area&r into the item placed in the &6top slot&r by the &eyellow bar&r."
+				""
+				"&bMk2:&r Similar to the &aMk1,&r however this chest will&e convert items&r in the &aleft side&r to the item in the &6top slot&r which will be placed in the &bright slot&r and can be extracted with &cMekanism pipes&r."
+			]
+			id: "0C0DF208C802277E"
+			rewards: [
+				{
+					count: 2
+					id: "0025731D9C0791AD"
+					item: "minecraft:obsidian"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "3CA3399CDD27B1C6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Obsidian is a pain to mine, have some compensation"
+			tasks: [{
+				id: "10A0B9ED5942ACDF"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C0DF208C802277E"]
+			description: [
+				"There are &cthree versions&r of the &eEnergy collector&r, each faster then the previous, these &ecollecters &rwork simailrly to &asolor panels&r and can be made to work &9round the clock&r by placing &6glowstone&r atop it. &eEnergy collectors&r will &dpassivaly collect EMC&r."
+				""
+				"&eEnergy collectors&r are used to &bcharge items&r, turn items from the &aleft slots&r into items of more &6EMC,&r and can be used to power &6Energy condensers&r if placed next to one."
+			]
+			id: "63B4B2B0868360FF"
+			rewards: [
+				{
+					count: 5
+					id: "26D46527D486B19E"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					id: "52183C32F8F032C9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "120A9F7596EA6A5D"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63B4B2B0868360FF"]
+			description: [
+				"&0Relays&r also have &cMultiple tiers&r and will move &eEMC&r from &ecollectors&r attached to them into &6Condensers&r also attached to the &0relay.&r"
+				""
+				"&0Relays&r can also &edrain EMC&r from items to then input into nearby &6condensers.&r"
+			]
+			id: "0BFE9E9F4EF6C9C7"
+			rewards: [{
+				id: "6D7524AD07C28F97"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7E95A526D7CE0486"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0BFE9E9F4EF6C9C7"
+				"54DA9183B37E2BC5"
+			]
+			description: [
+				"Using &9relays,&r you can create a &eEMC \"Flower\"&r to generate almost any item easily, you will make this similarly to a &bpyramid&r with a stem."
+				""
+				"&cFlowers&r will provide much &eEMC&r to the &6Condenser&r in the &amiddle.&r"
+				""
+				"{@pagebreak}"
+				""
+				"&d&lFirst:&r&r Place your &6energy condenser&r, this will be the &amiddle&r of the flower."
+				""
+				"&d&lSecond:&r&r surround it with &9relays&r on every side &aexcept the&r &abottom.&r"
+				""
+				"&d&lThird:&r&r Place &benergy collectors&r on every side of the &9relays&r except the &abottom.&r"
+				""
+				"&d&lFourth:&r&r Place &cglowstone&r on the &atop&r of every &benergy collector&r."
+				""
+				"&5&lFinally:&r&r place the item you want to produce into the &6energy condenser&r and attach &cMekanism&r pipes to the &6condenser&r to transport the generated items."
+			]
+			id: "77DEFD511513D7CE"
+			rewards: [{
+				id: "2CD7B39D38B23CAA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "68C0201AA7BB5DDD"
+				title: "Flower"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["346BAC4D951FB684"]
+			description: ["Essentially a &6battery,&r if you need &eEMC&r to use an item, just have a &9charged star&r in your inventory."]
+			id: "6F90D56060E854A9"
+			rewards: [
+				{
+					count: 8
+					id: "21B660C45B9B2007"
+					item: "minecraft:coal_block"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "74719CDB20D20187"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "073299B4A093D1DE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:klein_star)"
+					}
+				}
+				title: "Any #curios:klein_star"
+				type: "item"
+			}]
+			title: "Klein Stars"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60140A3E8BFB3CA0"]
+			description: ["Crafted with a &bDiamond block&r and &eAeternalis fuel&r, you will use &0Dark matter&r for many crafting recipes. And you can craft the &dtransmutation tablet&r with &lblocks of dark matter&r, which is a &aportable version&r of the &5transmutation table&r."]
+			id: "3453BED15C59327F"
+			rewards: [
+				{
+					id: "2AE66CDDED11D8E7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "19B0FCCB41CA294C"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			subtitle: "chocolate?"
+			tasks: [{
+				id: "4DE0A55F94C9B609"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["094F221EA84BF301"]
+			description: ["Created with &0Dark matter&r and &eAeternalis fuel&r, you will use this to create even &cstronger&r &atools&r and &barmor.&r"]
+			id: "3FE03140AF69D284"
+			rewards: [{
+				id: "2CA71817B2785C70"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "63CBAADEBEB9BE02"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3453BED15C59327F"]
+			description: ["&6Charged&r by pressing &lV&r and &cempted&r by pressing &lShift-V&r these &btools&r have special &lRight-Click&r &afunctionality.&r All of the tools &dnever break&r."]
+			id: "4E918421A699A711"
+			rewards: [
+				{
+					id: "5A2B1F25961CB46E"
+					item: "projecte:dark_matter"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "429F3EAF18590FF2"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "6ED1214F33C8A7FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_sword"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "579C13470F8F430C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_axe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "798F0A950092486E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_pick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2EF5886659C7BCCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_shovel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5599EF7B9FC2063D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_hoe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58B308E8ABD46835"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_hammer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C346A6E6AC2627A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:dm_shears"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E918421A699A711"]
+			description: ["&aArmor&r almost identical to &cNetherite,&r though crafted from &0Dark matter&r. All of the armor &dnever breaks&r."]
+			id: "094F221EA84BF301"
+			rewards: [
+				{
+					id: "0E4A9F4B7F67A7D1"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "11326B1828838AC5"
+					item: "projecte:dark_matter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "55AE0672EED30E3A"
+					item: "projecte:dm_helmet"
+					type: "item"
+				}
+				{
+					id: "0C47AEC512BF9EF1"
+					item: "projecte:dm_chestplate"
+					type: "item"
+				}
+				{
+					id: "5E8CB73728C487C7"
+					item: "projecte:dm_leggings"
+					type: "item"
+				}
+				{
+					id: "7BB522ADB44C248D"
+					item: "projecte:dm_boots"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FE03140AF69D284"]
+			description: ["Similar to the &0Dark matter armor&r, though this set has more&6 knockback resistance&r. All of the armor &dnever breaks&r."]
+			id: "024ECF6DAC3691FD"
+			rewards: [{
+				id: "7DB74FEC8EFB4228"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "6E1AC4EF3BC1F771"
+					item: "projecte:rm_helmet"
+					type: "item"
+				}
+				{
+					id: "5D744F96928AC06F"
+					item: "projecte:rm_chestplate"
+					type: "item"
+				}
+				{
+					id: "0FAB94AB8E0E69F4"
+					item: "projecte:rm_leggings"
+					type: "item"
+				}
+				{
+					id: "4BCED3BC9063000D"
+					item: "projecte:rm_boots"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["024ECF6DAC3691FD"]
+			description: [
+				"Also has &lRight-Click&r functions, though &dmore potent&r and have &abetter stats&r."
+				""
+				"You can also craft the &6Morningstar&r and &cKatar&r which is crafted with the &cred matter&r &ctools,&r they will act like a &6multitool&r based on what tools where used to craft them."
+				""
+				"All of the tools &dnever break&r."
+			]
+			id: "3E4E7CA872010D5D"
+			rewards: [
+				{
+					id: "5DA807C478DD119E"
+					type: "xp"
+					xp: 350
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2809ABF11098A1DE"
+					table_id: 1024045200018247046L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4C55F591D00C3D73"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_sword"
+						tag: {
+							Charge: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56D79089B547D400"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_axe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "763B4C60F0CCA2F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_pick"
+						tag: {
+							Charge: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53189D06BD64A191"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_shovel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "38C16E18B27F4CCF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_hoe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4CDAED8A82DBF85E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_hammer"
+						tag: {
+							Charge: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05AAD9FEAFEF2152"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_shears"
+						tag: {
+							Charge: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F90D56060E854A9"]
+			description: [
+				"&0Dark matter pedestals&r are used to activate the &cextra ability&r withen &6trinkets &o(usally rings&r)&r added with &dProjectE&r, "
+				""
+				"&lRight-Click&r with the &aitem&r you want to put on the &0pedestal,&r &lRight-Click&r again to &aactivate&r or &bdeactivate&r it, and &lLeft-Click&r to &cremove the item&r."
+				""
+				"You can view what the &aitem&r does by &ehovering over it&r with your &amouse&r and &bblue text&r should appear."
+			]
+			id: "1D10D63725698BED"
+			rewards: [
+				{
+					count: 3
+					id: "383EA1F9B21ECDA0"
+					item: "minecraft:iron_ingot"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "7335284D51AE03EB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2AF69B5361FE2177"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33790B5459C49550"
+				"2A71A8C85EC08868"
+				"54DA9183B37E2BC5"
+			]
+			description: [
+				"&dGem armor&r is the best this mod has to offer, each piece gives you &cspecial abilities&r, including, &9Night-vision&r, &eflight,&r &bspeed,&r and &6fire-resistance&r"
+				""
+				"The &dWatch of flowing time&r allows you to move time &aforwards&r or &bbackwards&r when held and when placed on a &0pedestal&r will speed &eblock functions&r around it while &6slowing mobs&r."
+			]
+			id: "51ABAF89A54612DB"
+			rewards: [
+				{
+					id: "6A3390F77DBD52DF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6905414672780EDF"
+					table_id: 6801176971279560661L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "321A60BF684CA5FC"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "5630301DE12D1211"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "7CC9EFDB4CFF92C9"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+				{
+					id: "1778564F8DBB5871"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "1EC8C3D2231B36D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:watch_of_flowing_time"
+						tag: {
+							TimeMode: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D10D63725698BED"]
+			description: [
+				"&dProjectE&r adds &anew items &ruseful for all your &cdestructive intentions&r. "
+				"&6New tnt&r, for &cbigger explosions&r! &o"
+				"(has a &eVERY short fuse&r though, be carful!)&r"
+				"The &edestruction catalyst&r mines in a straight &l3x3&r line based on its &6charge.&r"
+				"&o(&lV&r to &acharge,&r &lShift-V&r to &clower charge&r)&r"
+				"The &6Hyperkinetic lens&r is a bomb, you throw it, it blows up."
+				"(You can create a &4catalytic lens&r with the &6hyper lens&r and &ecatalyst.&r The &4catalytic&r lens is just a &ecatalyst&r but longer)"
+			]
+			id: "33790B5459C49550"
+			rewards: [
+				{
+					id: "52F55B63C4722B89"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 5
+					id: "7CF7C68FCF8C66E8"
+					item: "minecraft:gunpowder"
+					random_bonus: 10
+					type: "item"
+				}
+			]
+			subtitle: "Have fun!"
+			tasks: [
+				{
+					id: "22FD1C244EE3075C"
+					item: "projecte:nova_cataclysm"
+					type: "item"
+				}
+				{
+					id: "52DCF1323E7867CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:destruction_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6AD2CB1A241979E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:hyperkinetic_lens"
+						tag: {
+							Charge: 3
+							StoredEMC: 0L
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: ["&aPassivaly generates&r &eEMC&r and adds it to your \"&eEMC Acount&r\" in the &atop left&r of your screen. The &eEMC account&r can be spent at the &dtransmutation table&r."]
+			id: "54DA9183B37E2BC5"
+			rewards: [
+				{
+					id: "471D5B0E83A1E8B9"
+					item: "projecte:dark_matter"
+					type: "item"
+				}
+				{
+					id: "071331763F61A360"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "66170AD0AFAA0384"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(projectexpansion:power_flower)"
+					}
+				}
+				title: "Any #projectexpansion:power_flower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E4E7CA872010D5D"]
+			description: ["&6Links&r from&d project Expansion&r are used to&a transport items&r, &bliquids&r, and &eEMC&r. Place one &6link&r and &ainput items&r through &ehoppers&r or &bpipes&r, &9liquids&r through clicking on the &6link&r with a &abucket&r of the &bfluid&r you want to transport to make a &efilter&r, then using &bpipes&r to insert the rest of the &bfluid,&r Then place another &6link&r &esomewhere else&r and extract the &atransported items&r with &bpipes&r set to extract or with &ehoppers&r, &eEMC&r will be turned into &aitems&r when transported, you need to choose what to transport by &lRight-Clicking&r with the item and &lShift-Right-Clicking&r to remove it if you need to &aswitch&r it for something else."]
+			id: "2A71A8C85EC08868"
+			rewards: [{
+				id: "7FAE8C705598D140"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Did you read that?"
+			tasks: [{
+				id: "0DEF4E87285F87F5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(projectexpansion:emc_link)"
+					}
+				}
+				title: "Any #projectexpansion:emc_link"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FE03140AF69D284"]
+			description: [
+				"&5Left click&r - &4shears&r the &aanimal&r."
+				""
+				"&6Right click&r on a tree - &9Breaks&r all wood blocks in the &aarea&r of the right-clicked block."
+				""
+				"&6Right click&r on leaves - &4Shears&r all &2leaf&r blocks in the &barea&r of the right-clicked block, &3dropping&r them as items."
+				""
+				"&6Right click&r on grass - &8Tills&r all &edirt&r in the area of &9effect&r."
+				""
+				"&dPressing&r [&4Change Mode&r] will execute a &eattack&r that will insta &0kill&r most &2mob&r/&cbosses&r"
+				""
+				"&dPressing&r the [&4Change Mode&r] button will &9change&r the mode of the &0death&r swing between Slay-All and Slay-Agro."
+			]
+			id: "0EB2BB5FA8BED1B7"
+			rewards: [{
+				count: 2
+				id: "7D5266055096A8AA"
+				item: "projecte:red_matter"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Good luck killing the Chaos Dragon to make this"
+			tasks: [{
+				id: "07C9E42610A55BFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FE03140AF69D284"]
+			id: "26F29A70E7E89083"
+			rewards: [{
+				count: 2
+				id: "4132937B26322C86"
+				item: "projecte:red_matter"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "32A8AC62720987C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_morning_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "ProjectE"
+}

@@ -256,6 +256,36 @@ StartupEvents.registry("item", (e) => {
     .texture("kubejs:item/mysticalagriculture/tier6_crafting_seed")
     .displayName("§5Tier 6 Crafting Seed");
 
+  //tier 1-6 super essence and ultimate essence
+  e.create("tier1_super_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/tier1_super_essence")
+    .displayName("§aTier 1 Super Essence");
+  e.create("tier2_super_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/tier2_super_essence")
+    .displayName("§2Tier 2 Super Essence");
+  e.create("tier3_super_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/tier3_super_essence")
+    .displayName("§6Tier 3 Super Essence");
+  e.create("tier4_super_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/tier4_super_essence")
+    .displayName("§9Tier 4 Super Essence");
+  e.create("tier5_super_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/tier5_super_essence")
+    .displayName("§4Tier 5 Super Essence");
+  e.create("tier6_super_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/tier6_super_essence")
+    .displayName("§5Tier 6 Super Essence");
+  e.create("infinity_essence")
+    .maxStackSize(64)
+    .texture("kubejs:item/mysticalagriculture/infinity_essence")
+    .displayName("§dInfinity Essence");
+
   //Chaotic Essence
   e.create("chaotic_essence")
     .maxStackSize(64)

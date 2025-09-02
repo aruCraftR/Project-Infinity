@@ -6,7 +6,7 @@
 	group: "29543B666C58207C"
 	icon: "thermal:dynamo_disenchantment"
 	id: "2A80173D149F6E50"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

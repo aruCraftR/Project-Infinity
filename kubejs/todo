@@ -6,6 +6,10 @@ time merc missions
 dungeon born in chaos mobs
 Compact Mekanism Machines Plus recipe change
 solar panel multiblock
+multiblock for creative items?!?
+bosses Rise quest
+smithing table automation in extreme smithing table
+
 /--------------------------------------------------------------------------------------------------------------/
 ⁡⁢⁢⁣//recipes⁡
 creative items recipes!
@@ -17,22 +21,11 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 ⁡⁣⁢⁢changelog⁡
 -updated some mods
--added RE:Avaritia --> REMOVED Avaritia Lite!!
-    -you will lose your infinity armor!!
--added Avaritia Expand
--added Avaritia Asgardandelion 
--removed corpse + curio Addon
--added simple tomb
--added Compact Mekanism Machines Plus (testing and recipes will change!)
--added PackagedAvaritia
--removed progressivebosses  --> added war wither and true end dragon
-    -super hard bosses. BE CAREFUL
+-removed wither reincarnated
+-added evolved wither
+    -there are 2 withers, the vanilla one you spawn with wither skulls and soul sand and a new spawn item for the new wither
 
--fixed a lot of bugs and log spams
--added craft for lord pumpkinhead data model
--changed some quests
--changed sculk alloy ingot recipe
--changed auto sieve layout to fix a bug (craft the mechanical_sieve into the auto_mechanical_sieve)
+-added voidminer multiblock to the multibuilder tool
 
 /---------------------------
 ⁡⁢⁣⁢known bugs:⁡

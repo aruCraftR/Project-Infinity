@@ -514,6 +514,687 @@
 			x: 1.5d
 			y: 5.0d
 		}
+		{
+			description: [""]
+			icon: "cataclysm:desert_eye"
+			id: "05211E5EF2F50447"
+			rewards: [
+				{
+					count: 3
+					id: "01BAF2C8F48F9F15"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D8CAF4DE45416EA"
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "cataclysm:desert_eye"
+				id: "6755374B10990987"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["05211E5EF2F50447"]
+			description: [""]
+			id: "6D949F5B7B8E0C99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60EAC3B87F2E4A3A"
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A8C46395F79E20C"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			icon: "cataclysm:abyss_eye"
+			id: "62A23997985036E7"
+			rewards: [
+				{
+					count: 3
+					id: "1578F33EFD9F549A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "665E8EBF14237DEC"
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "794493E097462A5B"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62A23997985036E7"]
+			description: [""]
+			id: "632F67712671FADC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EB3D880AA332B17"
+				type: "random"
+			}]
+			tasks: [{
+				id: "352B184AAC228442"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["632F67712671FADC"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:the_leviathan"
+				}
+			}
+			id: "2CFA932171B76689"
+			rewards: [
+				{
+					id: "5EC7A186CB09BC85"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A0CA92916C3B6E8"
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "5C21E17C17C9472D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CFA932171B76689"]
+			description: [""]
+			id: "7F978B60987E53DB"
+			rewards: [
+				{
+					id: "29D54E73715F20EA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "evilcraft:life_stealing"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15515EE0803D9A14"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "035BE76AAE1833D2"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CFA932171B76689"]
+			description: [""]
+			id: "35A2FAE57A8C60C7"
+			rewards: [
+				{
+					id: "3B082A32274545C3"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "741765DCB084463B"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B32DEB213367A1D"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "Obtain The Abyssal Egg"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			icon: "cataclysm:mech_eye"
+			id: "65A58DDD992E911C"
+			rewards: [
+				{
+					count: 3
+					id: "271B31696FDF9DFC"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DBB86909CA49CED"
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "cataclysm:mech_eye"
+				id: "5F3D10D7A225704E"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65A58DDD992E911C"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:the_harbinger"
+				}
+			}
+			icon_scale: 2.0d
+			id: "3D5F259F0263E4AD"
+			rewards: [
+				{
+					id: "43C97A577F7B6C81"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765759969741803F"
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "06DFEB3AD31CE5EC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the harbinger"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D5F259F0263E4AD"]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "48E3CB3381D466E3"
+			rewards: [
+				{
+					count: 3
+					id: "37D056FC034471E2"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CD8C62304A9BB06"
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "380FADEAC91AC0DF"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Obtain Witherite"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EA2F770EFCD342B"]
+			description: [
+				"My personal favorite weapon."
+				""
+				"Haha saw go brrrrr"
+			]
+			id: "7904E7153115E60B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CA2547A09BCAA5E"
+					type: "random"
+				}
+				{
+					id: "17D4ED4BD2D249B3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "283DF4012C49C783"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			title: "Craft the Meat Shredder"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EA2F770EFCD342B"]
+			description: [""]
+			id: "39DBEDCA587BA1E1"
+			rewards: [
+				{
+					count: 10
+					id: "0C7F42F04ED5BAA9"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69A21A745BD7ABC8"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17C7FF4269796B13"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft The Laser Gatling"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EA2F770EFCD342B"]
+			description: [""]
+			hide_dependent_lines: true
+			id: "61FF844439FCBE0E"
+			rewards: [
+				{
+					id: "39B982E7361B1E3B"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B196DC363DEDA6"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12FD0DF7B8B4F521"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "Craft the WASW"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48E3CB3381D466E3"]
+			description: [""]
+			id: "2EA2F770EFCD342B"
+			rewards: [
+				{
+					id: "1F7D85A4273D9A7B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A0D7461CB879852"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52E89E2CDABF47C8"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			title: "Craft the Mechanical Fusion Anvil"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["75629F027EFA3F37"]
+			id: "5750B15C47F6A465"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24EFFAFA4038C73E"
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EDA9C56B13EDA48"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["75629F027EFA3F37"]
+			id: "5B10941CBBE8BD78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FBA3D6A3788B659"
+				type: "random"
+			}]
+			tasks: [{
+				id: "280FE6CFF2649951"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5750B15C47F6A465"
+				"661E381C67642DD4"
+			]
+			id: "2ADB147456335D83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B9616E553E235A9"
+				type: "random"
+			}]
+			tasks: [{
+				id: "01A77856DDFF2DA2"
+				item: "cataclysm:wrath_of_the_desert"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5750B15C47F6A465"
+				"373592864A465D37"
+			]
+			id: "06885913DAFC07A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F08D0C5AF2F40E2"
+				type: "random"
+			}]
+			tasks: [{
+				id: "03FE72CD0EAFD6EB"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D949F5B7B8E0C99"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:ancient_remnant"
+				}
+			}
+			icon_scale: 2.0d
+			id: "75629F027EFA3F37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F80D75FB2C1867B"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "66D76E834020E175"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			icon: "cataclysm:cursed_eye"
+			id: "5332B1DB126DC67B"
+			tasks: [{
+				icon: "cataclysm:cursed_eye"
+				id: "58326474C20CB7F8"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5332B1DB126DC67B"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:maledictus"
+				}
+			}
+			icon_scale: 2.0d
+			id: "6E07C0FEB2929E94"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "36FD47FA976FF180"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "73868448C3A6720D"
+			tasks: [{
+				id: "148C5A50DA410070"
+				item: "cataclysm:black_steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E07C0FEB2929E94"]
+			id: "3042F1A22B16D7B2"
+			tasks: [{
+				id: "5CB5D0A421040D24"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3042F1A22B16D7B2"
+				"73868448C3A6720D"
+			]
+			id: "11777F570384FB3C"
+			tasks: [{
+				id: "50382C17B7259761"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3042F1A22B16D7B2"
+				"73868448C3A6720D"
+			]
+			id: "280AB37BC77F15BB"
+			tasks: [{
+				id: "4CEAEB412AAE5C85"
+				item: "cataclysm:the_annihilator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3042F1A22B16D7B2"
+				"73868448C3A6720D"
+			]
+			id: "661E381C67642DD4"
+			tasks: [{
+				id: "0D4B5A9D72319A69"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			icon: "cataclysm:storm_eye"
+			id: "31BE62DBD52E4C11"
+			tasks: [{
+				icon: "cataclysm:storm_eye"
+				id: "00BCA0B80E79BFB0"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31BE62DBD52E4C11"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "cataclysm:scylla"
+				}
+			}
+			icon_scale: 2.0d
+			id: "2735DFF63B3DFC6E"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "58FF9428167016A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2735DFF63B3DFC6E"]
+			id: "43CA453F48BDEC00"
+			tasks: [{
+				id: "5B6BA26811E3F9CF"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2735DFF63B3DFC6E"]
+			id: "1891466EB1D96231"
+			tasks: [{
+				id: "79F10C092F24ABD7"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"43CA453F48BDEC00"
+				"1891466EB1D96231"
+			]
+			id: "639EE1A8C6747E95"
+			tasks: [{
+				id: "2DB238C94A0A1BC1"
+				item: "cataclysm:ceraunus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"43CA453F48BDEC00"
+				"1891466EB1D96231"
+			]
+			id: "16B30F6621C669C8"
+			tasks: [{
+				id: "5AFFAA63385B9667"
+				item: "cataclysm:astrape"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1891466EB1D96231"]
+			id: "3D1EBEFD61814220"
+			tasks: [{
+				id: "47B399A46FF6D43D"
+				item: {
+					Count: 1
+					id: "cataclysm:azure_sea_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
 	]
 	title: "Mob Grinding"
 }
