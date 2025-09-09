@@ -201,7 +201,7 @@ ServerEvents.recipes(event => {
     Item.of(
       'hostilenetworks:prediction',
       '{data_model:{id:"hostilenetworks:botania/gaia_spirit"}}'
-    ),
+    ).weakNBT(),
     'actuallyadditions:empowered_diamatine_crystal',
     'botanicalextramachinery:crystal_dragonstone',
     'botania:black_lotus',

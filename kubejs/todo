@@ -6,6 +6,8 @@ time merc missions low prio
 dungeon born in chaos mobs low prio
 multiblock for creative items?!? low prio
 smithing table automation in extreme smithing table
+https://www.curseforge.com/minecraft/mc-mods/spatial-crafter ?? build multiblock to get creative item? or for super endgame microminers?
+change or remove mm fission reactor because of ticking entities
 /--------------------------------------------------------------------------------------------------------------/
 ⁡⁢⁢⁣//recipes⁡
 creative items recipes!
@@ -16,31 +18,12 @@ EMC
 
 /---------------------------------------------------------------------------------------------------------------/
 ⁡⁣⁢⁢changelog⁡
--UPDATED FORGE!!!
--updated some mods
--updated voidminers
-    -thank to wolf! he fixed bugs and added the new multiblocks
-        -solar panels!
-        -he worked on this for hours!!!
-    -also thank to wolf for creating a public server!!! IP coming soon.
--added woot (will look if I have to change some settings)
-    -added questline(not finished)
+-added "What's That Slot?" (hold Left-Alt and see what can be inputed in the specific slot. Tell me if you like it)
+-updated voidminers (thx to Wolf)
+-downgraded Re:Avaritia until Packaged Avaritia gets updated
 
--readded lodestone
--added black and blacker lotus recipes
--added recipe for creative compressor (thx to Itz_izumito)
--added a new way to craft essence and projecte fuel without using the philo stone and master infusion crystal (thx to hinasune)
-    -check recipes
--added a way to craft a lot of enhanced ingots (thx to gwf313)
--you can laser drill to new wither for more ether gas
--removed mobGriefing rule for newly created worlds
--removed a polonium dupe (thx to zombiesleuth)
--added recipes for compact reactor, sps and thermoelectric boiler
--changed recipe for mystical agricraft flight augment (dont hate me :O)
--added a way to get torchflowers. just kill sniffers :)
-
--dont click on directional output in the reaction chamber it will crash your game FIXED
-
+-fixed blacker lotus (thx to grinchfan22)
+-increased silk worm drop chance from 1 to 5%
 /---------------------------
 ⁡⁢⁣⁢known bugs:⁡
 -some mystical agricraft essence recipes are visually bugged. try them inside a crafting table

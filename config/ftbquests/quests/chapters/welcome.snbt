@@ -1801,6 +1801,22 @@
 			x: 15.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["79385E9EDA7936A9"]
+			id: "5A54F2B3B023C425"
+			rewards: [{
+				id: "06FA559ABDB6246D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "063B8E216554AE8C"
+				item: "evolved_wither:summon_the_wither"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
 	]
 	title: "Early Game"
 }
