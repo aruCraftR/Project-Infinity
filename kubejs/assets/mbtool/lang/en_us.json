@@ -21,6 +21,7 @@
   "mbtool.structure.industrial_turbine_mekanism": "Industrial Turbine Mekanism",
   "mbtool.structure.mechanical_empowerer": "Mechanical Empowerer",
   "mbtool.structure.multi_compressor": "Multi Compressor",
+  "mbtool.structure.multi_compactor": "Multi Compactor",
   "mbtool.structure.pinky": "Pinky",
   "mbtool.structure.water_condenser_tier_1": "Water Condenser Tier 1",
   "mbtool.structure.water_condenser_tier_2": "Water Condenser Tier 2",
@@ -33,5 +34,14 @@
   "mbtool.structure.voidminer_tier5_azurine": "VoidMiner Tier 5 Azurine",
   "mbtool.structure.voidminer_tier6_caerium": "VoidMiner Tier 6 Caerium",
   "mbtool.structure.voidminer_tier7_amethystine": "VoidMiner Tier 7 Amethystine",
-  "mbtool.structure.voidminer_tier8_rosarium": "VoidMiner Tier 8 Rosarium"
+  "mbtool.structure.voidminer_tier8_rosarium": "VoidMiner Tier 8 Rosarium",
+    "mbtool.structure.solar_panel_tier_1_rubetine": "SolarPanel Tier 1 Rubetine",
+  "mbtool.structure.solar_panel_tier_2_aurantium": "SolarPanel Tier 2 Aurantium",
+  "mbtool.structure.solar_panel_tier_3_citrinetine": "SolarPanel Tier 3 Citrinetine",
+  "mbtool.structure.solar_panel_tier_4_verdium": "SolarPanel Tier 4 Verdium",
+  "mbtool.structure.solar_panel_tier_5_azurine": "SolarPanel Tier 5 Azurine",
+  "mbtool.structure.solar_panel_tier_6_caerium": "SolarPanel Tier 6 Caerium",
+  "mbtool.structure.solar_panel_tier_7_amethystine": "SolarPanel Tier 7 Amethystine",
+  "mbtool.structure.solar_panel_tier_8_rosarium": "SolarPanel Tier 8 Rosarium",
+  "mbtool.structure.solar_panel_tier_9_ultimate": "SolarPanel Tier 9 Ultimate"
 }

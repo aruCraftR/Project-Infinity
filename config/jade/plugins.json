@@ -133,6 +133,9 @@
   "pipez": {
     "pipe": true
   },
+  "woot_revived": {
+    "machines": true
+  },
   "waystones": {
     "waystone": true
   },
@@ -149,6 +152,9 @@
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
+  },
+  "voidminers": {
+    "ultimate_title": true
   },
   "pneumaticcraft": {
     "pneumatic": true,
@@ -206,9 +212,6 @@
   },
   "twilightforest": {
     "quest_ram_wool": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

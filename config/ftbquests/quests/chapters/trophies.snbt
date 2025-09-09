@@ -71,7 +71,7 @@
 			rotation: 0.0d
 			width: 7.0d
 			x: -7.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			height: 3.0d
@@ -79,7 +79,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -21.0d
-			y: -2.5d
+			y: -3.0d
 		}
 	]
 	order_index: 0
@@ -1264,6 +1264,142 @@
 			}]
 			x: -21.0d
 			y: 14.0d
+		}
+		{
+			id: "6DE336D855245A65"
+			rewards: [
+				{
+					id: "442DE163BDDB2ED2"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "block_factorys_bosses:yeti_spawn_egg"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22A549BA1AC702A9"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				icon: "block_factorys_bosses:yeti_spawn_egg"
+				id: "041EEC222CBDC720"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "799CBB24F90A42EB"
+			rewards: [
+				{
+					id: "43A9F3B8AF9E5D42"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "block_factorys_bosses:infernal_dragon_spawn_egg"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "477A17B2E1E064C6"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+				id: "024DFC1C7E7506F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1BAC1C6300252161"
+			rewards: [
+				{
+					id: "04DCA4A45F8913D5"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "block_factorys_bosses:underworld_knight_spawn_egg"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D90E583A00F0184"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				icon: "block_factorys_bosses:underworld_knight_spawn_egg"
+				id: "406F47CA60AF1F71"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "61403E485BC33F47"
+			rewards: [
+				{
+					id: "43587BA1B44F37DF"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "block_factorys_bosses:sandworm_spawn_egg"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2929D0294D8F5FC4"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: "block_factorys_bosses:sandworm_spawn_egg"
+				id: "63E8EFCF4EE3996B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 	title: "Trophies"

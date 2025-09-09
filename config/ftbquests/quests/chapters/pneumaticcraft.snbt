@@ -30,6 +30,11 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "40BC565FD157396B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			size: 1.0d
 			tasks: [{
@@ -45,11 +50,18 @@
 			description: ["A strong building material resistant to pressure explosions. Reinforced Stone is ideal for creating safe environments for your pneumatic setups."]
 			id: "65E2AF881709C896"
 			min_required_dependencies: 1
-			rewards: [{
-				id: "0D8976051123BE39"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0D8976051123BE39"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D2E9803FAFA5B58"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 32L
 				id: "052A7C7918C3A0D5"
@@ -83,6 +95,11 @@
 					id: "5E2FC4A4D4AFA683"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "03BC76F1659E77C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -156,6 +173,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "6E5786B3FCA112FB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "47CC78B479496E5B"
@@ -170,11 +192,18 @@
 			dependencies: ["371A34B297C8A8EF"]
 			description: ["Basic Pressure Tubes are used to connect pneumatic machines. They transfer compressed air but can be fragile at high pressures."]
 			id: "40F634AC38F42B88"
-			rewards: [{
-				id: "740A676015A9235B"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "740A676015A9235B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6E9BDA65BAE84A6D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "78082DDA22FC7B9B"
@@ -189,11 +218,18 @@
 			description: ["Pressure is the core mechanic of PneumaticCraft. Machines require air pressure to function. Learn how to generate, manage, and safely use compressed air without bursting your systems."]
 			hide_until_deps_visible: true
 			id: "7B2008977702D0C8"
-			rewards: [{
-				id: "75CB05A0CB74D837"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "75CB05A0CB74D837"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3179EE5A9035CF16"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1EEC7B67E037F766"
 				type: "checkmark"
@@ -213,13 +249,14 @@
 			min_width: 400
 			rewards: [
 				{
-					id: "32AAE9BB01CE8ECA"
-					type: "random"
-				}
-				{
 					id: "3747DBACF5E6FB76"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "007AF881B030ABDD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -254,13 +291,14 @@
 			id: "122EDEC12C9A05D2"
 			rewards: [
 				{
-					id: "28B03CA691CFE406"
-					type: "random"
-				}
-				{
 					id: "7E934BC10CBFC140"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "4959047A587B1E2D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -278,14 +316,14 @@
 			id: "3E16CF590C911129"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "019B8AB93E548C0B"
-					type: "random"
-				}
-				{
 					id: "43237331728E72F7"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "3E6DDC6717B20166"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			size: 1.0d
@@ -308,11 +346,18 @@
 				}
 			}
 			id: "4FCC20D9F8F87B2F"
-			rewards: [{
-				id: "7E4E5363AE1CA314"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7E4E5363AE1CA314"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A4F9897A7084545"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "46E93CA18CA750A4"
 				item: "pneumaticcraft:pneumatic_wrench"
@@ -330,13 +375,14 @@
 			id: "0AEAEA976ED0C470"
 			rewards: [
 				{
-					id: "64A38E6B4E852959"
-					type: "random"
-				}
-				{
 					id: "26955C276DB8AAF4"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "1F1DF299871CF2A2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -358,11 +404,18 @@
 				}
 			}
 			id: "4CA17B0A80020B2F"
-			rewards: [{
-				id: "4D0C70DC51EA579B"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "4D0C70DC51EA579B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "24D4871C58EDC30A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "772A9A02784FC672"
 				item: "pneumaticcraft:manometer"
@@ -383,11 +436,18 @@
 			}
 			id: "53518D4ED99A242F"
 			optional: true
-			rewards: [{
-				id: "75FD12C0A3A851B1"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "75FD12C0A3A851B1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5DDEDD1DE81DEE90"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2669B32EE3AEDEF8"
 				item: "pneumaticcraft:camo_applicator"
@@ -402,13 +462,14 @@
 			id: "6CA01DCE1F4A0EC3"
 			rewards: [
 				{
-					id: "062CCB570DD4E6C7"
-					type: "random"
-				}
-				{
 					id: "44090FCBF8CFEF1D"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "33557FDDAEF94BFA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -432,13 +493,14 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "7E8E9E149E98B9ED"
-					type: "random"
-				}
-				{
 					id: "4281CB04DFF3323E"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "52E03F7D0A4B43AA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -473,10 +535,6 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "15AC5CAEB1BEFB6C"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "571DECEFD3E98E82"
 					table_id: 4196188979167302596L
@@ -486,6 +544,11 @@
 					id: "324B49820DBDE841"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "6D3CFA5F8DC4397B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -516,13 +579,14 @@
 			id: "5AEE86EB39FD4087"
 			rewards: [
 				{
-					id: "2D39886AB5C24FD7"
-					type: "random"
-				}
-				{
 					id: "60AA897B8ED37C5E"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "15DC4CFA02411B67"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -541,13 +605,14 @@
 			optional: true
 			rewards: [
 				{
-					id: "6E37C28754F95214"
-					type: "random"
-				}
-				{
 					id: "29E2FD4639DD1E01"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "68008AD0E2125661"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -564,13 +629,14 @@
 			id: "75D3F3C1D4A3EAA2"
 			rewards: [
 				{
-					id: "2772083AD7D8FD9A"
-					type: "random"
-				}
-				{
 					id: "79F9CBFFFD2B0EFA"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "3D6E5417B99D0B93"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -586,14 +652,14 @@
 			id: "13F68CA518CD287C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "28D703305E25CDFE"
-					type: "random"
-				}
-				{
 					id: "3C579D0ECCC44A06"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "713C6446D0F9B259"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -609,14 +675,14 @@
 			id: "423B8DA485C1308C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7044949E568FA4BA"
-					type: "random"
-				}
-				{
 					id: "7D065041E51B5582"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "56EC406900EDEF25"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -633,14 +699,14 @@
 			id: "04BE9F63E6003475"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4EAFCE9AB30D27CD"
-					type: "random"
-				}
-				{
 					id: "269EE2D0907E97F6"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "5E59EC9888561540"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -657,13 +723,14 @@
 			id: "43EF5513A1C52A37"
 			rewards: [
 				{
-					id: "68406EA2E5B67443"
-					type: "random"
-				}
-				{
 					id: "45991AC663D9B183"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "39B8EA9384B41CEB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -680,13 +747,14 @@
 			id: "54169B69725C49DF"
 			rewards: [
 				{
-					id: "376DC9307AAF7F32"
-					type: "random"
-				}
-				{
 					id: "4BFEEE8B2BFC4368"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "4FF33992BB364DC0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			size: 1.5d
@@ -717,6 +785,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "2CCA836440EEF105"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "623166D385290B3B"
@@ -739,13 +812,14 @@
 			id: "230463E830D6FFEB"
 			rewards: [
 				{
-					id: "1C1CB7134D559AF5"
-					type: "random"
-				}
-				{
 					id: "66E0CCD2BD29491C"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "76FEAB4DD53D6AB3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -763,14 +837,14 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "06D227E3DC3B7F1D"
-					type: "random"
-				}
-				{
 					id: "4DB8D41BB7C4CDAF"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "3B70CADEC44ACF64"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -804,6 +878,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "49BF9E16FB23267A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "513D5A4104275DA8"
@@ -830,6 +909,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "65D8AC5730AC4552"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "33C895A683077073"
@@ -845,13 +929,14 @@
 			id: "2CC56A4F06E53307"
 			rewards: [
 				{
-					id: "5C63A7558B4298D7"
-					type: "random"
-				}
-				{
 					id: "0505A60CF9F4E302"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "5A6F802455CE5F82"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -868,13 +953,14 @@
 			id: "0D2F5CC96269F9E3"
 			rewards: [
 				{
-					id: "7B0C167B04A527A2"
-					type: "random"
-				}
-				{
 					id: "197D93A3FD862346"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "05D88C3AA9B399AA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -900,6 +986,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "6C8494D01DB01EA4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "4BA3DB05F9E0F440"
@@ -918,13 +1009,14 @@
 			id: "602C3E88D96F8843"
 			rewards: [
 				{
-					id: "6FA8708A3DD5DA03"
-					type: "random"
-				}
-				{
 					id: "2918F87BA31ABEC4"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "44A14FEAFBB9EBE1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -939,11 +1031,18 @@
 			dependencies: ["54169B69725C49DF"]
 			hide_dependency_lines: true
 			id: "7D81F2381516204D"
-			rewards: [{
-				id: "0149C2C25AFE3E5E"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0149C2C25AFE3E5E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "10389B0474E7C9D7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "7E538C87D777B809"
@@ -957,11 +1056,18 @@
 			dependencies: ["54169B69725C49DF"]
 			hide_dependency_lines: true
 			id: "15D355EB164EBE68"
-			rewards: [{
-				id: "572927AB7268FB66"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "572927AB7268FB66"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2677099DB101BFF3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "6F954349AC36A8EE"
@@ -981,14 +1087,14 @@
 			id: "1427B3AB09510D20"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1A808648B9F15C69"
-					type: "random"
-				}
-				{
 					id: "4F51717C32C08647"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "059760E68E21B029"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			shape: "pentagon"
@@ -1007,13 +1113,14 @@
 			id: "6D124ACF4AE80490"
 			rewards: [
 				{
-					id: "40FC6DAC08FEF647"
-					type: "random"
-				}
-				{
 					id: "0D17FEE5CF5FA03C"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0B1CB4112D409CED"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1033,11 +1140,18 @@
 		{
 			dependencies: ["13F68CA518CD287C"]
 			id: "520EFA7F446AFBF2"
-			rewards: [{
-				id: "4FF5D83D097BA4A5"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4FF5D83D097BA4A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EB5493E12CBF40A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0434C940BC8BF492"
 				item: "pneumaticcraft:lubricant_bucket"
@@ -1052,14 +1166,14 @@
 			id: "649167FC31EB916E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "60C24AE206E06ED6"
-					type: "random"
-				}
-				{
 					id: "31460AF4923BB7D1"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "6EE570C3DB3E5124"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1074,11 +1188,18 @@
 			dependencies: ["649167FC31EB916E"]
 			description: ["Delicious and satisfying! A recipe created using PneumaticCraft’s food processing chain. Not just tasty—this also demonstrates machine integration."]
 			id: "42951D14ADCD9332"
-			rewards: [{
-				id: "2B26D0DEC6A0AC55"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2B26D0DEC6A0AC55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00E7911776DF965A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "569BF001CEBF7853"
 				item: "pneumaticcraft:cod_n_chips"
@@ -1094,14 +1215,14 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3D5DB02679FBDD76"
-					type: "random"
-				}
-				{
 					id: "21F9A0B0A235CB9B"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "4FAE6F6644E21D6E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1119,13 +1240,14 @@
 			optional: true
 			rewards: [
 				{
-					id: "6B2D4E25CE46E3F2"
-					type: "random"
-				}
-				{
 					id: "150C67133FB8DEA7"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "0D8F7980C0B7E17C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1151,6 +1273,11 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "3E47F969E18771E2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "71648EA7642F2F98"
@@ -1165,13 +1292,14 @@
 			id: "09BA45CBBFB4AE26"
 			rewards: [
 				{
-					id: "618F2634068279DD"
-					type: "random"
-				}
-				{
 					id: "2496A5C69CDBF157"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "03450773E19A4EF1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1189,13 +1317,14 @@
 			optional: true
 			rewards: [
 				{
-					id: "4C054638B4771E81"
-					type: "random"
-				}
-				{
 					id: "7971DB6DE3A69890"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "014E948490208A43"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1211,14 +1340,14 @@
 			id: "3D819550074CA376"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "78B76A6916FD38FF"
-					type: "random"
-				}
-				{
 					id: "7AD1F952D0946927"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "2208F0CCEB2EBB8A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1234,14 +1363,14 @@
 			id: "0D50BDEFA0319EA1"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7DF77FF78DBDFCD1"
-					type: "random"
-				}
-				{
 					id: "7BACC6F38439B5FA"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "7A253AFC8EEB39F5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1257,14 +1386,14 @@
 			id: "00075A5F9AC120ED"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1292A5E8DC67EA0C"
-					type: "random"
-				}
-				{
 					id: "2FC2571C22D32950"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "279BC9D963408990"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1281,14 +1410,14 @@
 			id: "795143471F31A64A"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "53C307EAD7FC89DF"
-					type: "random"
-				}
-				{
 					id: "123DFBB0EE6938CB"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "7A37DB3A28BECCAE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1305,14 +1434,14 @@
 			id: "7BFE7DAF18981843"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3D353DC8F66E6637"
-					type: "random"
-				}
-				{
 					id: "05A430BF5D4B82E6"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "71177DB1C0BC5EE4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1335,11 +1464,18 @@
 			description: ["Yeah im not guiding you on how to use them use your brain for once."]
 			id: "3A9AC6AB4407DC32"
 			min_width: 250
-			rewards: [{
-				id: "570993D69CEF7F92"
-				type: "xp"
-				xp: 250
-			}]
+			rewards: [
+				{
+					id: "570993D69CEF7F92"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4306B52DED867395"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "5B60A2A80EBB37FF"
@@ -1357,13 +1493,14 @@
 			optional: true
 			rewards: [
 				{
-					id: "43DCF4431F49F1FA"
-					type: "random"
-				}
-				{
 					id: "3B42F9051B257982"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "71D6E3CD8B24A493"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			size: 1.0d
@@ -1381,14 +1518,14 @@
 			id: "64E2E05B228EA53E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7611FA379CC134FA"
-					type: "random"
-				}
-				{
 					id: "0A661066853F4729"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "7C2936F3E4D09E52"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1405,14 +1542,14 @@
 			id: "7395B41685F4BC1A"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3AB01987C0074517"
-					type: "random"
-				}
-				{
 					id: "49C6926251CEA3FB"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0BB8E8CB43B00639"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1429,14 +1566,14 @@
 			id: "2745297337E13E9E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "2C82FC63172523C3"
-					type: "random"
-				}
-				{
 					id: "124675AB00BD1202"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0953F8B88D3C8BC7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1455,14 +1592,14 @@
 			id: "31BCE63F5E016323"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3E8713F83407DD8F"
-					type: "random"
-				}
-				{
 					id: "1F76B670027D80A4"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "707CE7192A405887"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1485,14 +1622,14 @@
 			id: "715B86DC82EA636B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5B4849EE527A424F"
-					type: "random"
-				}
-				{
 					id: "759EA6FD83E0DB39"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "4D64E7CDDC345A98"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1514,14 +1651,14 @@
 			id: "5D7B34761E8FD212"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4842A0AFD206083D"
-					type: "random"
-				}
-				{
 					id: "24F35B5C9FB51563"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "71DD15ACCF927FD8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1542,14 +1679,14 @@
 			id: "7177E49BF9ECA5CF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "00749F410A25A11D"
-					type: "random"
-				}
-				{
 					id: "0F3A880C05D8A014"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "5D37DC4E040617F0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1573,14 +1710,14 @@
 			id: "5303509A1C2B1CCD"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0BF4BA26B7B638F8"
-					type: "random"
-				}
-				{
 					id: "45F8190DD39B8267"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "540062F0718CB73B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1597,13 +1734,14 @@
 			id: "657DB994B029F61C"
 			rewards: [
 				{
-					id: "003E89ADC072C520"
-					type: "random"
-				}
-				{
 					id: "456E004C88575DB0"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "2421EAD994884745"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -1627,14 +1765,14 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0E329BEC1182D29A"
-					type: "random"
-				}
-				{
 					id: "299CE4B3279E04C4"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "744FDD5463CE23BD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1648,11 +1786,18 @@
 		{
 			dependencies: ["3A9AC6AB4407DC32"]
 			id: "4F5348D0C83C3B0D"
-			rewards: [{
-				id: "0BB0961B1CEFF51B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0BB0961B1CEFF51B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DBA986AA19E526E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "1ADA892FCECCFF47"
@@ -1675,14 +1820,14 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "64A3DD621B331262"
-					type: "random"
-				}
-				{
 					id: "297ACCA762B3A2DC"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "7CC95EEFC9258938"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1699,14 +1844,14 @@
 			id: "64D34A6C3487C5DF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "302DA6F921459E20"
-					type: "random"
-				}
-				{
 					id: "18689BB49BC1B4D7"
 					type: "xp"
 					xp: 500
+				}
+				{
+					id: "281AD7672613DED7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -1725,14 +1870,14 @@
 			id: "02643BAD1AE747C6"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "2110E119EBFDD314"
-					type: "random"
-				}
-				{
 					id: "5DD56E79562AE605"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0184FA2F89D715CB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1748,13 +1893,14 @@
 			id: "22572456571C3F8D"
 			rewards: [
 				{
-					id: "309D6CA3BC2F8F16"
-					type: "random"
-				}
-				{
 					id: "3FCB121F263650DF"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "5079228FEE548623"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			size: 1.0d
@@ -1772,13 +1918,14 @@
 			id: "132DF9ECEFFB3B71"
 			rewards: [
 				{
-					id: "540EDC9B224EA91C"
-					type: "random"
-				}
-				{
 					id: "616950E067BE6F14"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "47C3BC62D772C4E9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			size: 1.0d
@@ -1803,13 +1950,14 @@
 			id: "495DCA49B4E80852"
 			rewards: [
 				{
-					id: "55E064F27E895404"
-					type: "random"
-				}
-				{
 					id: "7B82E7D83DD78575"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "71C799A7915DC364"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1833,13 +1981,14 @@
 			id: "142C67218BD16867"
 			rewards: [
 				{
-					id: "2E4FB691E78F8E95"
-					type: "random"
-				}
-				{
 					id: "7394DA2EB895A3E3"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "492AA4B3A0132FCF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1868,13 +2017,14 @@
 			id: "4C0D00B5305117A1"
 			rewards: [
 				{
-					id: "46CB8E373CC748EE"
-					type: "random"
-				}
-				{
 					id: "11402EF8D80100F7"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "484BC1CEA07130F8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1888,6 +2038,11 @@
 		{
 			dependencies: ["5A0860631323B5E3"]
 			id: "2FFE707159EF2DA6"
+			rewards: [{
+				id: "0224867098D8C636"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43E5FF47EA66C763"
 				item: "pneumaticcraft:raw_salmon_tempura"

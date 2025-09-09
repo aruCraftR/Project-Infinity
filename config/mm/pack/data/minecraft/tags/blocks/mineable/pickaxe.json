@@ -9,6 +9,7 @@
     "mm:infinity_crucible_controller",
     "mm:mechanical_empowerer_controller",
     "mm:multi_compressor_controller",
+    "mm:multi_compactor_controller",
     "mm:pinky_controller",
     "mm:water_condenser_controller",
     "mm:tiny_item_port_input",

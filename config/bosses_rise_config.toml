@@ -27,7 +27,7 @@ Warning = ["All number values need to include decimals !", "Use 10.0 instead of 
 
 ["Gameplay Changes"]
 	#Can players use the Roll ability (act like a directional dash)
-	"Roll ability" = true
+	"Roll ability" = false
 	#Do players need to have an item providing Movement Recovery to use the Roll ability (Knight Armor piece, Enhanced Shield, etc)
 	"Need item to Roll" = false
 	#Will the Roll display a first-person Camera Roll (Can make some users feel dizzy)

@@ -1,15 +1,11 @@
 /---------------------------------------------------------------------------------------------------------------/
-⁡⁢⁣⁡⁢⁣⁣//allgemein⁡
-finish quests (Undergarden, extreme reactor) get from infinity
-fix shop prices
-time merc missions
-dungeon born in chaos mobs
-Compact Mekanism Machines Plus recipe change
-solar panel multiblock
-multiblock for creative items?!?
-bosses Rise quest
+⁡⁢⁣⁡⁢⁣⁣//⁡⁢⁣⁣main⁡
+finish quests (Undergarden, aether) high prio
+fix shop prices high prio
+time merc missions low prio
+dungeon born in chaos mobs low prio
+multiblock for creative items?!? low prio
 smithing table automation in extreme smithing table
-
 /--------------------------------------------------------------------------------------------------------------/
 ⁡⁢⁢⁣//recipes⁡
 creative items recipes!
@@ -20,12 +16,30 @@ EMC
 
 /---------------------------------------------------------------------------------------------------------------/
 ⁡⁣⁢⁢changelog⁡
+-UPDATED FORGE!!!
 -updated some mods
--removed wither reincarnated
--added evolved wither
-    -there are 2 withers, the vanilla one you spawn with wither skulls and soul sand and a new spawn item for the new wither
+-updated voidminers
+    -thank to wolf! he fixed bugs and added the new multiblocks
+        -solar panels!
+        -he worked on this for hours!!!
+    -also thank to wolf for creating a public server!!! IP coming soon.
+-added woot (will look if I have to change some settings)
+    -added questline(not finished)
 
--added voidminer multiblock to the multibuilder tool
+-readded lodestone
+-added black and blacker lotus recipes
+-added recipe for creative compressor (thx to Itz_izumito)
+-added a new way to craft essence and projecte fuel without using the philo stone and master infusion crystal (thx to hinasune)
+    -check recipes
+-added a way to craft a lot of enhanced ingots (thx to gwf313)
+-you can laser drill to new wither for more ether gas
+-removed mobGriefing rule for newly created worlds
+-removed a polonium dupe (thx to zombiesleuth)
+-added recipes for compact reactor, sps and thermoelectric boiler
+-changed recipe for mystical agricraft flight augment (dont hate me :O)
+-added a way to get torchflowers. just kill sniffers :)
+
+-dont click on directional output in the reaction chamber it will crash your game FIXED
 
 /---------------------------
 ⁡⁢⁣⁢known bugs:⁡

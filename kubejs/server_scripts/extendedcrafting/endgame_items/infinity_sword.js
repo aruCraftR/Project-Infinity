@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
         item: 'avaritia:infinity_catalyst'
       },
       e: {
-        item: 'avaritia:skull_fire_sword'
+        item: 'avaritia:blaze_sword'
       },
       f: {
         item: 'twilightforest:giant_sword'

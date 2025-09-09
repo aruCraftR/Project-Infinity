@@ -13,9 +13,9 @@
 			icon: "minecraft:dragon_head"
 			id: "38A28A6BCA401D6F"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "676C769DB9E72517"
-				type: "random"
+				id: "0F299D1CF5438162"
+				item: "kubejs:infused_coin"
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -35,9 +35,9 @@
 			dependencies: ["38A28A6BCA401D6F"]
 			id: "534103944AABD09A"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0EEC50ED3F195003"
-				type: "random"
+				id: "1CECE7BF3340CDC3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
@@ -53,18 +53,11 @@
 		{
 			dependencies: ["534103944AABD09A"]
 			id: "738F637AE5C1ECB6"
-			rewards: [
-				{
-					id: "047569971AFD64FE"
-					item: "minecraft:dragon_head"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "73669ECA82A1CF39"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "60F168F1FBCE35F2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57D6837DF1356913"
 				item: {
@@ -85,9 +78,9 @@
 			description: ["Chests can be converter into shulker by right clicking them using 2 shells"]
 			id: "020781DCBCE5AA49"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A47DE973FF5C9F1"
-				type: "random"
+				id: "34CE13324A90AAB8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -125,9 +118,9 @@
 			}
 			id: "273B2D8529BAFC0C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2AC228E8657BD641"
-				type: "random"
+				id: "09F2BAE750D2C919"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				entity: "cataclysm:ender_golem"
@@ -153,9 +146,9 @@
 			icon_scale: 2.0d
 			id: "11A41BD76410F5E2"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4775A46F501C0C93"
-				type: "random"
+				id: "026BC73DAC884E91"
+				item: "kubejs:infused_coin"
+				type: "item"
 			}]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
@@ -172,9 +165,9 @@
 			dependencies: ["38A28A6BCA401D6F"]
 			id: "57884954544DD970"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0CCBB7BFEE857BAB"
-				type: "random"
+				id: "1D37C42CFCF92CD6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				icon: "cataclysm:void_eye"
@@ -191,27 +184,11 @@
 			description: [""]
 			hide_dependent_lines: true
 			id: "373592864A465D37"
-			rewards: [
-				{
-					id: "01F3974C302709CB"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "tombstone:soulbound"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1F9FCDBBA03934ED"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2EC5DB6042A22986"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FE9442DF3437EDA"
 				item: "cataclysm:gauntlet_of_guard"
@@ -227,9 +204,9 @@
 			]
 			id: "036C235F2ABDB595"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "101AF6EE0BB9108F"
-				type: "random"
+				id: "575A509B11DD4E3A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "30045AC22CA75882"
@@ -252,9 +229,9 @@
 			]
 			id: "6E9D143684867DB0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "010B3D988BD269A5"
-				type: "random"
+				id: "47D0F08CAE5AAF29"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "7EEF75B7D0F56967"
@@ -268,9 +245,8 @@
 			description: ["Right click the air with a empty bottle."]
 			id: "4E190E6E1268D208"
 			rewards: [{
-				count: 16
-				id: "7A38EC1AA59B6B01"
-				item: "minecraft:glass_bottle"
+				id: "635DC8F0F1589F07"
+				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{

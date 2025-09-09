@@ -5,9 +5,6 @@
 	group: "29543B666C58207C"
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			Parent: { }
-		}
 		id: "projecte:philosophers_stone"
 		tag: { }
 	}
@@ -1495,5 +1492,5 @@
 			y: -8.0d
 		}
 	]
-	title: "ProjectE"
+	title: "ProjectE Philo Stone"
 }

@@ -7,9 +7,6 @@
 	#The explosion length of InfinityTNT
 	#Range: -500 ~ 0
 	"InfinityTNT Length" = 0
-	#The explosion time of InfinityTNT
-	#Range: 0 ~ 10000
-	"InfinityTNT Time" = 10000
 	#Can InfinityTNT break bedrock?
 	"InfinityTNT Break BedRock" = false
 	#Can InfinityTNT break obsidian?

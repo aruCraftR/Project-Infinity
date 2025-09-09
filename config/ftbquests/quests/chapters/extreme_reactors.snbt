@@ -20,6 +20,11 @@
 			}
 			id: "7C4E4793DA887DE4"
 			min_width: 300
+			rewards: [{
+				id: "41D1BBD468AEAE45"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -39,6 +44,11 @@
 				"Black iron is crafted with &0enriched carbon&r, &8sky steel&r and &bnetherite diamond&r ingots."
 			]
 			id: "4FA6BEA4E646B742"
+			rewards: [{
+				id: "0ED97FDD789AAF80"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 16L
@@ -80,10 +90,8 @@
 			id: "4AD8363D7359A072"
 			min_width: 320
 			rewards: [{
-				count: 6
-				id: "7D0B121BAA7FBEA9"
-				item: "bigreactors:basic_reactorglass"
-				random_bonus: 11
+				id: "66AD1F441D5382A2"
+				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			size: 1.0d
@@ -134,6 +142,11 @@
 			]
 			id: "4B9E9497E44D0096"
 			min_width: 320
+			rewards: [{
+				id: "575A1DA29CF9BA96"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -157,6 +170,11 @@
 			description: ["The &dSolid access port&r allows for fuel to be &cinputed&r and waste &aoutputed&r from the reactor, while the &eEnergy tap&r stores and outputs the &creactors&r energy."]
 			id: "2A20000FAEC2E16A"
 			min_width: 300
+			rewards: [{
+				id: "2AF2F238712C2E26"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "565CF24C6904CC2A"
@@ -188,6 +206,11 @@
 			]
 			id: "75AD0CEBC1335915"
 			min_width: 300
+			rewards: [{
+				id: "03933756F149B3F8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62A0FE4CFAB9621B"
 				item: "bigreactors:basic_reactorcontroller"
@@ -207,6 +230,11 @@
 			]
 			id: "7B4AAC741F0A6073"
 			min_width: 290
+			rewards: [{
+				id: "713074FCA264C184"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1FC2120A22A7BAEC"
@@ -232,6 +260,11 @@
 			]
 			id: "4745152F6FF242B3"
 			min_width: 250
+			rewards: [{
+				id: "14971E76279AC372"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77F79D09A76CFF15"
 				item: "bigreactors:cyanite_ingot"
@@ -250,6 +283,11 @@
 			]
 			id: "354086C858E10154"
 			min_width: 250
+			rewards: [{
+				id: "1F0A30B43736CD17"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0577F2FA32B65E00"
 				item: "bigreactors:reprocessorcasing"
@@ -271,6 +309,11 @@
 			icon: "bigreactors:reinforced_turbinecontroller"
 			id: "4415C9F8DA2D7E68"
 			min_width: 300
+			rewards: [{
+				id: "26DFA8B9CC71B9F9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -300,6 +343,11 @@
 			id: "73362EDC984B8A0F"
 			min_width: 300
 			progression_mode: "linear"
+			rewards: [{
+				id: "6011690595E7F842"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "370BBB1B3C83FF50"
 				item: "bigreactors:graphite_block"
@@ -322,6 +370,11 @@
 			]
 			id: "476755275B948A5F"
 			min_width: 300
+			rewards: [{
+				id: "47EAE30A71B94DA1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "122E3BB7DB314F68"
@@ -347,6 +400,11 @@
 			]
 			id: "186731580B14F9D2"
 			min_width: 250
+			rewards: [{
+				id: "7D97937B5A23F10C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -369,6 +427,11 @@
 			description: ["These are used to make the &bturbine&r inside of the &cmulti-block build&r, place the &bturbine bearing&r inside the &emiddle block&r on the floor on the inside of the &amachine,&r then place your &6rotator&r &6shafts&r so they touch the &eroof,&r finally attach &6rotator&r &6blades&r to the &6shaft,&r the &bmore and longer&r they are, the more &7vapor&r your &bturbine&r can process."]
 			id: "67AFCBCE7AAC3089"
 			min_width: 300
+			rewards: [{
+				id: "5AF5C24B2D1654FD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "69497C419271A8F2"
@@ -402,6 +465,11 @@
 			id: "3FC7FDAF84871963"
 			min_width: 250
 			progression_mode: "linear"
+			rewards: [{
+				id: "0308C310E56BC2F5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "Turbine Coils"
 			x: -7.5d
 			y: -5.0d
@@ -411,6 +479,11 @@
 			description: ["Just like the &2Reactor&r, the frame must be built out of &eCasings&r, but the walls can be &3Turbine Glass&r instead!"]
 			id: "2D592669F4D41793"
 			min_width: 250
+			rewards: [{
+				id: "247B271FE33E51C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "2FC2A5929C2E0EA9"
@@ -430,6 +503,11 @@
 			]
 			id: "2AF31F1769085641"
 			min_width: 250
+			rewards: [{
+				id: "56737C8E0EC28CD9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "2DBC9E20BFE7F058"
@@ -444,6 +522,11 @@
 			description: ["This is the &amain block&r you will be using to build the &breprocessor frame&r."]
 			id: "69642A3618E86DED"
 			min_width: 300
+			rewards: [{
+				id: "3138C864F5476FA9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 52L
 				id: "5DF9AA03A22C4F77"
@@ -465,6 +548,11 @@
 			]
 			id: "2598273041353196"
 			min_width: 300
+			rewards: [{
+				id: "08A4C544FB330D54"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "72B74F6051CD53A1"
@@ -494,6 +582,11 @@
 			]
 			id: "3C3FE45CEF5E242B"
 			min_width: 300
+			rewards: [{
+				id: "763F97007425A07D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "475BD29336FB98E8"
@@ -523,6 +616,11 @@
 			]
 			id: "7E07C5A6FA6B6B1F"
 			min_width: 270
+			rewards: [{
+				id: "42838A51E5874F47"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37BB2B7853E319A3"
 				item: "bigreactors:blutonium_ingot"
@@ -540,6 +638,11 @@
 			]
 			id: "25D4406CB86C8CBB"
 			min_width: 300
+			rewards: [{
+				id: "6C14C5775F4F0E32"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A123A454CDD7120"
 				item: "bigreactors:fluidizercontroller"
@@ -554,6 +657,11 @@
 			description: ["Just like the other &cmultiblocks,&r the frame will need to be made out of &7Casings&r, while the faces can be made out of &9Glass&r."]
 			id: "501C6B7580453410"
 			min_width: 250
+			rewards: [{
+				id: "220CCEA762AC952A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -583,6 +691,11 @@
 			]
 			id: "5914D015D8543875"
 			min_width: 400
+			rewards: [{
+				id: "51C12868F4C37546"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "730D5AE0E7A04CFB"
@@ -604,6 +717,11 @@
 			description: ["The &2Fluidizer&r needs &o&epower&r to operate, so a &6Power Port&r is required and to take the product the &2Fluidizer&r makes you'll be needed a &cOutput Port&r as well."]
 			id: "55DCA040C84DCEF3"
 			min_width: 250
+			rewards: [{
+				id: "1DFF44796E737946"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "52C86777BD3D8867"
@@ -629,6 +747,11 @@
 			]
 			id: "5A615BB74A5CD332"
 			min_width: 230
+			rewards: [{
+				id: "46671F8C6473E8E5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "184BDD80596398A0"
@@ -659,6 +782,11 @@
 			]
 			id: "7C4D8AA107780795"
 			min_width: 350
+			rewards: [{
+				id: "736ED9529A23DB1F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "52B5D97C5675BBA7"
@@ -676,6 +804,11 @@
 			]
 			description: ["Combining &bRidiculite Ingots&r with &4Rossinite&r will create &cInanite Ingots&r."]
 			id: "6ADDFD55AD0DF7D4"
+			rewards: [{
+				id: "3B264D836CA83698"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "544C4964F5B857B1"
 				item: "bigreactors:inanite_ingot"
@@ -693,6 +826,11 @@
 			icon: "bigreactors:insanite_block"
 			id: "5AD80D3242DD3F60"
 			min_width: 220
+			rewards: [{
+				id: "078840EFB5F9511D"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -711,6 +849,11 @@
 				"&bBenitoite Ore&r can be found in the &cNether&r."
 			]
 			id: "0B1DF8A040826D87"
+			rewards: [{
+				id: "0BDDC8309A2C490B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22922E479FED9E43"
 				item: "bigreactors:insanite_ingot"
