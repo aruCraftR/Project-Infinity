@@ -38,9 +38,17 @@ MMEvents.createProcesses((event) => {
 
   createSingleRecipe(event, 'mysticalagriculture:inferium_essence', secondCategory[0]);
   for (let i = 0; i < secondCategory.length - 1; i++) {
-    createSingleRecipe(event, secondCategory[i], secondCategory[i + 1]);
+    const input = secondCategory[i];
+    const output = secondCategory[i + 1];
+
+    if (output === 'mysticalagradditions:insanium_essence') {
+      createSingleRecipe(event, 'mysticalagriculture:supremium_essence', output);
+    } else {
+      createSingleRecipe(event, input, output);
+    }
   }
 });
+
 
 function createSingleRecipe(event, input, output) {
   const sanitizedOutput = output.replace(':', '_');

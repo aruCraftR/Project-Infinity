@@ -568,7 +568,7 @@ ServerEvents.recipes(event => {
     'minecraft:air'
   ])
 
-  create3x3(event, 'projecte:medium_covalence_dust', [
+  create3x3(event, Item.of('projecte:medium_covalence_dust', 40), [
     'minecraft:air',
     'minecraft:air',
     'minecraft:air',

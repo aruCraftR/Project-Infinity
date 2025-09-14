@@ -599,17 +599,17 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
-  create3x3(event, 'mm:fission_reactor_controller', [
-    'thermal:redstone_servo',
-    'nuclearcraft:decay_hastener',
-    'thermal:rf_coil',
-    'common_ore_library:cobalt_block',
-    'botania:elementium_ingot',
-    'common_ore_library:cobalt_block',
-    'thermal:rf_coil',
-    'nuclearcraft:basic_electric_circuit',
-    'thermal:redstone_servo',
-  ]);
+  // create3x3(event, 'mm:fission_reactor_controller', [
+  //   'thermal:redstone_servo',
+  //   'nuclearcraft:decay_hastener',
+  //   'thermal:rf_coil',
+  //   'common_ore_library:cobalt_block',
+  //   'botania:elementium_ingot',
+  //   'common_ore_library:cobalt_block',
+  //   'thermal:rf_coil',
+  //   'nuclearcraft:basic_electric_circuit',
+  //   'thermal:redstone_servo',
+  // ]);
 
   create3x3(event, 'mm:multi_compactor_controller', [
     'thermal:redstone_servo',

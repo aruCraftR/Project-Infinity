@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
       ],
       key: {
         A: {
-          item: 'born_in_chaos_v1:pieceofdarkmetal'
+          item: 'voidminers:ultimate_stellar_core'
         },
         B: {
           item: 'born_in_chaos_v1:ethereal_spirit'
@@ -43,10 +43,10 @@ ServerEvents.recipes(event => {
           item: 'extendedcrafting:ultimate_singularity'
         },
         J: {
-          item: 'cataclysm:witherite_ingot'
+          item: 'cataclysm:essence_of_the_storm'
         },
         K: {
-          item: 'mysticalagradditions:creative_essence'
+          item: 'kubejs:infinity_essence'
         },
         L: {
           item: 'bosses_of_mass_destruction:obsidian_heart'

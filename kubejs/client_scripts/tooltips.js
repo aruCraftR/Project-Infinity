@@ -26,6 +26,17 @@ ItemEvents.tooltip((event) => {
     'Find me inside ancient city chests. 2.5% Chance'
   );
 
+    event.addAdvanced(
+    [
+      'mm:multi_compactor_controller'
+    ],
+    (item, advanced, text) => {
+      text.add(1, Text.white('You will get the Philosopher Stone and'));
+      text.add(2, Text.white('the Master Infusion Crystal back.'));
+      text.add(3, Text.white('They dont get consumed.'));
+    }
+  );
+
   event.addAdvanced(
     [
       'avaritia:neutron_pile',

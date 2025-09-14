@@ -6,7 +6,7 @@
 	group: "29543B666C58207C"
 	icon: "botania:lexicon"
 	id: "1883B79BDB2AAE5D"
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

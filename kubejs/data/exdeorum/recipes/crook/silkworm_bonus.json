@@ -4,6 +4,6 @@
     "block": "exdeorum:infested_leaves",
     "state": { "fully_infested": "true" }
   },
-  "chance": 0.8,
+  "chance": 0.08,
   "result": "exdeorum:silk_worm"
 }

@@ -420,25 +420,6 @@ saves/Crash3/dimensions/nuclearcraft/wasteland/data/capabilities.dat
 saves/Crash3/dimensions/nuclearcraft/wasteland/data/enderio_conduit_network.dat
 saves/Crash3/dimensions/nuclearcraft/wasteland/data/mfix_strongholds.dat
 saves/Crash3/dimensions/nuclearcraft/wasteland/data/raids.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/Arena_Data.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/brandonscore_world_entity.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/capabilities.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/chunks.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/enderio_conduit_network.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/enderio_traveldata.dat
-saves/Crash3/dimensions/timemercenaries/arena/data/raids.dat
-saves/Crash3/dimensions/timemercenaries/arena/entities/r.-1.-1.mca
-saves/Crash3/dimensions/timemercenaries/arena/entities/r.-1.0.mca
-saves/Crash3/dimensions/timemercenaries/arena/entities/r.0.-1.mca
-saves/Crash3/dimensions/timemercenaries/arena/entities/r.0.0.mca
-saves/Crash3/dimensions/timemercenaries/arena/poi/r.-1.-1.mca
-saves/Crash3/dimensions/timemercenaries/arena/poi/r.-1.0.mca
-saves/Crash3/dimensions/timemercenaries/arena/poi/r.0.-1.mca
-saves/Crash3/dimensions/timemercenaries/arena/poi/r.0.0.mca
-saves/Crash3/dimensions/timemercenaries/arena/region/r.-1.-1.mca
-saves/Crash3/dimensions/timemercenaries/arena/region/r.-1.0.mca
-saves/Crash3/dimensions/timemercenaries/arena/region/r.0.-1.mca
-saves/Crash3/dimensions/timemercenaries/arena/region/r.0.0.mca
 saves/Crash3/dimensions/twilightforest/twilight_forest/data/brandonscore_world_entity.dat
 saves/Crash3/dimensions/twilightforest/twilight_forest/data/capabilities.dat
 saves/Crash3/dimensions/twilightforest/twilight_forest/data/enderio_conduit_network.dat
@@ -705,7 +686,6 @@ saves/Crash3/serverconfig/thermal_extra-server.toml
 saves/Crash3/serverconfig/thermal-server.toml
 saves/Crash3/serverconfig/thermaloot-server.toml
 saves/Crash3/serverconfig/tiab-server.toml
-saves/Crash3/serverconfig/timemercenaries-server.toml
 saves/Crash3/serverconfig/tinkerslevellingaddon-server.toml
 saves/Crash3/serverconfig/xnet-server.toml
 saves/Crash3/serverconfig/xnetgases.toml
@@ -7160,7 +7140,6 @@ journeymap/server/5.10/journeymap.server.minecraft~overworld.config
 journeymap/server/5.10/journeymap.server.minecraft~the_end.config
 journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
 journeymap/server/5.10/journeymap.server.nuclearcraft~wasteland.config
-journeymap/server/5.10/journeymap.server.timemercenaries~arena.config
 journeymap/server/5.10/journeymap.server.twilightforest~twilight_forest.config
 journeymap/server/5.10/journeymap.server.undergarden~undergarden.config
 backups/2025-8-15_14-30-0.zip
@@ -10300,25 +10279,7 @@ saves/Test5/dimensions/rftoolsdim/testdim1/region/r.0.-1.mca
 saves/Test5/dimensions/rftoolsdim/testdim1/region/r.0.-2.mca
 saves/Test5/dimensions/rftoolsdim/testdim1/region/r.0.0.mca
 saves/Test5/dimensions/rftoolsdim/testdim1/region/r.0.1.mca
-saves/Test5/dimensions/timemercenaries/arena/data/Arena_Data.dat
-saves/Test5/dimensions/timemercenaries/arena/data/brandonscore_world_entity.dat
-saves/Test5/dimensions/timemercenaries/arena/data/capabilities.dat
-saves/Test5/dimensions/timemercenaries/arena/data/chunks.dat
-saves/Test5/dimensions/timemercenaries/arena/data/enderio_conduit_network.dat
-saves/Test5/dimensions/timemercenaries/arena/data/enderio_traveldata.dat
-saves/Test5/dimensions/timemercenaries/arena/data/raids.dat
-saves/Test5/dimensions/timemercenaries/arena/entities/r.-1.-1.mca
-saves/Test5/dimensions/timemercenaries/arena/entities/r.-1.0.mca
-saves/Test5/dimensions/timemercenaries/arena/entities/r.0.-1.mca
-saves/Test5/dimensions/timemercenaries/arena/entities/r.0.0.mca
-saves/Test5/dimensions/timemercenaries/arena/poi/r.-1.-1.mca
-saves/Test5/dimensions/timemercenaries/arena/poi/r.-1.0.mca
-saves/Test5/dimensions/timemercenaries/arena/poi/r.0.-1.mca
-saves/Test5/dimensions/timemercenaries/arena/poi/r.0.0.mca
-saves/Test5/dimensions/timemercenaries/arena/region/r.-1.-1.mca
-saves/Test5/dimensions/timemercenaries/arena/region/r.-1.0.mca
-saves/Test5/dimensions/timemercenaries/arena/region/r.0.-1.mca
-saves/Test5/dimensions/timemercenaries/arena/region/r.0.0.mca
+
 saves/Test5/dimensions/twilightforest/twilight_forest/data/brandonscore_world_entity.dat
 saves/Test5/dimensions/twilightforest/twilight_forest/data/capabilities.dat
 saves/Test5/dimensions/twilightforest/twilight_forest/data/enderio_conduit_network.dat
@@ -10775,7 +10736,6 @@ saves/Test5/serverconfig/thermal_extra-server.toml
 saves/Test5/serverconfig/thermal-server.toml
 saves/Test5/serverconfig/thermaloot-server.toml
 saves/Test5/serverconfig/tiab-server.toml
-saves/Test5/serverconfig/timemercenaries-server.toml
 saves/Test5/serverconfig/tinkerslevellingaddon-server.toml
 saves/Test5/serverconfig/xnet-server.toml
 saves/Test5/serverconfig/xnetgases.toml
@@ -10841,3 +10801,5 @@ ESM/Test4/anchors.dat
 ESM/Test5/anchors.dat
 ESM/test111111/anchors.dat
 ESM/Test 7/anchors.dat
+kubejs/todo
+ESM/reactor building class _P/anchors.dat

@@ -731,24 +731,11 @@
 			]
 			description: ["A spark of &6divine potential&r. Everything &mimpossible&r &9begins here&r. &eYou have come far&r, use this to craft the &9best&r of the &9best.&r"]
 			id: "348E851939EFF3EB"
-			rewards: [
-				{
-					id: "0D2EE498FE7C0E04"
-					item: "avaritia:eternal_singularity"
-					type: "item"
-				}
-				{
-					id: "7CF6B6CE1EF7FFE6"
-					type: "xp_levels"
-					xp_levels: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1210C9A28A043134"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "7CF6B6CE1EF7FFE6"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
 			tasks: [{
 				id: "2CF0820CB8B7EE0A"
 				item: "avaritia:infinity_catalyst"
@@ -761,19 +748,11 @@
 			dependencies: ["348E851939EFF3EB"]
 			description: ["Forged from &aeverything.&r Infused with &einfinity.&r This is the &6metal of gods&r."]
 			id: "2C53C8A3322CAB88"
-			rewards: [
-				{
-					id: "1954BBB17319DE38"
-					type: "xp_levels"
-					xp_levels: 200
-				}
-				{
-					exclude_from_claim_all: true
-					id: "590F86B3378975CC"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "1954BBB17319DE38"
+				type: "xp_levels"
+				xp_levels: 200
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -820,12 +799,6 @@
 					item: "avaritia:infinity_catalyst"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1BB150616D377C24"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "See beyond reality. No illusion can deceive you now."
 			tasks: [{
@@ -851,12 +824,6 @@
 					id: "2F9E21E159C7B1FA"
 					item: "avaritia:infinity_catalyst"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "35BE6DC5F7C13821"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			subtitle: "A heart of singularity. Protects against time, space, and logic."
@@ -888,12 +855,6 @@
 					item: "avaritia:infinity_catalyst"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "7F836638DEB6C401"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "Move with the weight of neutronium and the speed of starlight."
 			tasks: [{
@@ -919,12 +880,6 @@
 					id: "5B2B8A4BAB2950F4"
 					item: "avaritia:infinity_catalyst"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A7F3EA89CC88E68"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			subtitle: "Gravity is optional. So is falling."
@@ -952,12 +907,6 @@
 					item: "avaritia:infinity_catalyst"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "523C9C811B1A03C5"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "One hit. That’s all it takes. No exceptions."
 			tasks: [{
@@ -983,12 +932,6 @@
 					id: "2D860CDF52C16A6A"
 					item: "avaritia:infinity_catalyst"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6B2C2DAE225CC26E"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			subtitle: "Mines everything. Breaks everything. Probably too much."
@@ -1020,12 +963,6 @@
 					item: "avaritia:infinity_catalyst"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "2A3BDC81718B87B8"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "Turns trees into dust. Turns enemies into memories."
 			tasks: [{
@@ -1051,12 +988,6 @@
 					id: "637E8BE4C23ED3B6"
 					item: "avaritia:infinity_catalyst"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "05BAB8EB3791C5B2"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			subtitle: "A shovel that doesn't dig it devours."
@@ -1088,12 +1019,6 @@
 					item: "avaritia:infinity_catalyst"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "35645E25E2332C75"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "Planets would grow from this, if you let them."
 			tasks: [{
@@ -1119,12 +1044,6 @@
 					id: "17478F2EAFE91687"
 					item: "avaritia:infinity_catalyst"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "27F7E736F7A0E3BD"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			subtitle: "aim and shoot, your foe will die"
@@ -1152,12 +1071,6 @@
 					item: "avaritia:infinity_catalyst"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1E31C87529516231"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			tasks: [{
 				id: "082003395B0CD91E"
@@ -1182,12 +1095,6 @@
 					id: "00516F284C762E96"
 					item: "avaritia:infinity_catalyst"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0E01BA1DAB13DF76"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			tasks: [{
@@ -1253,12 +1160,6 @@
 					item: "avaritia:infinity_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1E8A4A69DE0F967F"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			shape: "square"
 			size: 1.0d
@@ -1286,12 +1187,6 @@
 					item: "avaritia:infinity_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1C56A49E26218707"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			tasks: [{
 				id: "546FE9F5811F181C"
@@ -1316,12 +1211,6 @@
 					id: "3BE01F47B73AA5DF"
 					item: "avaritia:infinity_ingot"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "75CC79876DD9DFD1"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			tasks: [{
@@ -1354,12 +1243,6 @@
 					item: "avaritia:infinity_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "148B2FBA84A05A9F"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "Thank you"
 			tasks: [{
@@ -1385,12 +1268,6 @@
 					id: "6E3B515DF78686F5"
 					item: "avaritia:infinity_ingot"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "27EC0F49769D7C42"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			subtitle: "The solution to world hunger"
@@ -1418,12 +1295,6 @@
 					item: "avaritia:infinity_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "344FCC9D58B9BF8E"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			subtitle: "DO NOT CLICK U ON THE ANVIL"
 			tasks: [{
@@ -1450,12 +1321,6 @@
 					item: "avaritia:infinity_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "64CD0CC18E57E918"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
 			]
 			tasks: [{
 				id: "532DB50F1D35890D"
@@ -1480,12 +1345,6 @@
 					id: "0ED1159197EF2CA0"
 					item: "avaritia:infinity_ingot"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "16EB35D7B0DFCEBB"
-					table_id: 5196609362437981520L
-					type: "random"
 				}
 			]
 			tasks: [{
@@ -1534,12 +1393,6 @@
 			dependencies: ["348E851939EFF3EB"]
 			description: ["An &aexpensive&r &aflower&r crafted at the &bExtreme Crafting Table&r, this is used to provide near &dinfinite mana&r. &6Permanently&r, for &bBotania.&r"]
 			id: "571F902C6B1A5DC7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "529539B68FA50B5F"
-				table_id: 5196609362437981520L
-				type: "random"
-			}]
 			subtitle: "Asgarda- what now"
 			tasks: [{
 				id: "5BA72A53FBEF045A"
