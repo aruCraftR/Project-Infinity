@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createProcesses(event => {
   //spirit attuned gem recipe @occultism
   event

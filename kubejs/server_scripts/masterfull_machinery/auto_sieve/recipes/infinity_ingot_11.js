@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createProcesses(event => {
   event
     .create('mm:infinity_ingot_11_sieve_recipe1')

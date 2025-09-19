@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:event_horizon_antimatter_synthesizer_structure')

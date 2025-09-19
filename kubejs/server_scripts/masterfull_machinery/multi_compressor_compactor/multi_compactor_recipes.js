@@ -1,3 +1,4 @@
+priority: 1
 const ENERGY = 50000;
 const COUNT = 4;
 

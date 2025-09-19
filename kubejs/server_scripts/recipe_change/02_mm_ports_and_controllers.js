@@ -1,3 +1,4 @@
+priority: 1
 ServerEvents.recipes((event) => {
   create3x3(event, 'mm:tiny_item_port_input', [
     '#forge:ingots/cobalt',

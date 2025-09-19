@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createProcesses(event => {
   //Pink Slime Fluid
   event

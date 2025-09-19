@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
       'minecraft:iron_block',
       'minecraft:gold_block'
     ],
-    'powah:energized_steel_block',
+    '2x powah:energized_steel_block',
     90000
   )
 })

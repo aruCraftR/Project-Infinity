@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:infinity_crucible_structure')

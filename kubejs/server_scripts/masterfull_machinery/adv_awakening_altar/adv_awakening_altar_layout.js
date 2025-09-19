@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:advanced_awakening_altar_structure1')
@@ -112,13 +113,16 @@ MMEvents.createStructures(event => {
           block: 'draconicevolution:awakened_draconium_block'
         })
         .key('1', {
-          tag: 'mm:auto_inscriber_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('2', {
-          tag: 'mm:auto_sieve_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('3', {
-          tag: 'mm:auto_inscriber_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('F', {
           block: 'tconstruct:clear_glass'
@@ -250,13 +254,16 @@ MMEvents.createStructures(event => {
           block: 'botanicalextramachinery:crimson_dragonstone_block'
         })
         .key('1', {
-          tag: 'mm:auto_inscriber_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('2', {
-          tag: 'mm:auto_sieve_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('3', {
-          tag: 'mm:auto_inscriber_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('F', {
           block: 'tconstruct:clear_glass'

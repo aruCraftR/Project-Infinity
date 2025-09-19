@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createProcesses(event => {
   event
     .create('mm:crushed_end_stone_sieve_recipe1')

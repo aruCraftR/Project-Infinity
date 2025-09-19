@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:pinky_structure')
@@ -24,16 +25,20 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          tag: 'mm:auto_sieve_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('3', {
-          tag: 'mm:auto_crusher_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('4', {
-          tag: 'mm:auto_sieve_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('5', {
-          tag: 'mm:fluid_port_input'
+          portType: 'mm:fluid',
+          input: true
         })
         .key('6', {
           block: 'kubejs:pink_slime_block'

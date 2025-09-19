@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createProcesses(event => {
   //Antimatter Recipe
   //Uses 4000 Polonium and 2.14 Billion RF to create 5 Antimatter

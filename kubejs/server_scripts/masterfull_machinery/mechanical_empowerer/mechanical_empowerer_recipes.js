@@ -1,3 +1,4 @@
+priority: 1
 const BLOCK_COUNT = 16;
 const TICKS = 4;
 const SIMPLE_ENERGY = 2000;
@@ -268,7 +269,7 @@ function createSimple2(event, input1, input2, output) {
       ingredient: {
         type: 'mm:item',
         item: output,
-        count: 1,
+        count: 8,
       },
     });
 }

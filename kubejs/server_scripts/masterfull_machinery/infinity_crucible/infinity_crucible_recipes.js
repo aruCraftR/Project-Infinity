@@ -1,5 +1,6 @@
+priority: 1
 MMEvents.createProcesses(event => {
-  //
+  //chaos_shard
   event
     .create('mm:infinity_crucible_recipe')
     .structureId('mm:infinity_crucible_structure')
@@ -48,7 +49,7 @@ MMEvents.createProcesses(event => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'nuclearcraft:neutron_ingot',
+        item: 'nuclearcraft:neutronium_ingot',
         count: 4
       }
     })

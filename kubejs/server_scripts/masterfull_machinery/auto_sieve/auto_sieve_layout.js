@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:auto_sieve_structure1')
@@ -39,16 +40,19 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('3', {
-          tag: 'mm:auto_sieve_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('4', {
-          tag: 'mm:auto_sieve_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('5', {
           block: 'chisel_chipped_integration:technical_fan'
         })
         .key('6', {
-          tag: 'mm:auto_sieve_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('7', {
           block: 'advancednetherite:netherite_diamond_block'
@@ -104,16 +108,19 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('3', {
-          tag: 'mm:auto_sieve_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('4', {
-          tag: 'mm:auto_sieve_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('5', {
           block: 'chisel_chipped_integration:technical_fan'
         })
         .key('6', {
-          tag: 'mm:auto_sieve_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('7', {
           block: 'advancednetherite:netherite_diamond_block'
@@ -169,16 +176,19 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('3', {
-          tag: 'mm:auto_sieve_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('4', {
-          tag: 'mm:auto_sieve_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('5', {
           block: 'chisel_chipped_integration:technical_fan'
         })
         .key('6', {
-          tag: 'mm:auto_sieve_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('7', {
           block: 'advancednetherite:netherite_diamond_block'
@@ -234,16 +244,19 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('3', {
-          tag: 'mm:auto_sieve_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('4', {
-          tag: 'mm:auto_sieve_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('5', {
           block: 'chisel_chipped_integration:technical_fan'
         })
         .key('6', {
-          tag: 'mm:auto_sieve_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('7', {
           block: 'advancednetherite:netherite_diamond_block'

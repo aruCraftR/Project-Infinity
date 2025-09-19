@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:auto_crusher_structure1')
@@ -34,16 +35,19 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          tag: 'mm:fluid_port_input'
+          portType: 'mm:fluid',
+          input: true
         })
         .key('3', {
           block: 'mekanism:ultimate_crushing_factory'
         })
         .key('4', {
-          tag: 'mm:auto_crusher_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('5', {
-          tag: 'mm:auto_crusher_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('6', {
           block: 'mekanism:ultimate_purifying_factory'
@@ -52,7 +56,8 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('8', {
-          tag: 'mm:auto_crusher_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('9', {
           block: 'mekanism:ultimate_enriching_factory'
@@ -100,16 +105,19 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          tag: 'mm:fluid_port_input'
+          portType: 'mm:fluid',
+          input: true
         })
         .key('3', {
           block: 'evolvedmekanism:overclocked_crushing_factory'
         })
         .key('4', {
-          tag: 'mm:auto_crusher_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('5', {
-          tag: 'mm:auto_crusher_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('6', {
           block: 'evolvedmekanism:overclocked_purifying_factory'
@@ -118,7 +126,8 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('8', {
-          tag: 'mm:auto_crusher_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('9', {
           block: 'evolvedmekanism:overclocked_enriching_factory'
@@ -169,13 +178,15 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          tag: 'mm:fluid_port_input'
+          portType: 'mm:fluid',
+          input: true
         })
         .key('3', {
           block: 'evolvedmekanism:multiversal_crushing_factory'
         })
         .key('4', {
-          tag: 'mm:auto_crusher_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('5', {
           block: 'mm:titanic_item_port_output'
@@ -187,7 +198,8 @@ MMEvents.createStructures(event => {
           block: 'tconstruct:clear_glass'
         })
         .key('8', {
-          tag: 'mm:auto_crusher_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('9', {
           block: 'evolvedmekanism:multiversal_enriching_factory'

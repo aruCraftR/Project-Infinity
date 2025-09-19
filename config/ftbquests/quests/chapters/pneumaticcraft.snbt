@@ -243,7 +243,7 @@
 				"122EDEC12C9A05D2"
 				"65E2AF881709C896"
 			]
-			description: ["Used to craft pressurized items, like Empty PCBs and the &5Core of Industrial Perfection&f. Feed it pressure and watch it process recipes that normal crafting can't handle."]
+			description: ["Used to craft pressurized items, like Empty PCBs. Feed it pressure and watch it process recipes that normal crafting can't handle."]
 			icon: "pneumaticcraft:pressure_chamber_interface"
 			id: "63F6F4EBCEB914B0"
 			min_width: 400
@@ -900,10 +900,6 @@
 			description: ["Used to guide the creation of PCBs. Place in the UV Light Box with an Empty PCB to expose it for etching."]
 			id: "7040CA41C0A3C2F2"
 			rewards: [
-				{
-					id: "01FF619C019599FB"
-					type: "random"
-				}
 				{
 					id: "2251D4B3E135426D"
 					type: "xp"

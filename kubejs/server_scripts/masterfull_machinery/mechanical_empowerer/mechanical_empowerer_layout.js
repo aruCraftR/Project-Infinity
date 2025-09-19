@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:mechanical_empowerer_structure')
@@ -23,7 +24,8 @@ MMEvents.createStructures(event => {
           block: 'enderio:dark_steel_block'
         })
         .key('2', {
-          tag: 'mm:auto_inscriber_item_output'
+          portType: 'mm:item',
+          input: false
         })
         .key('3', {
           block: 'enderio:end_steel_block'
@@ -32,7 +34,8 @@ MMEvents.createStructures(event => {
           block: 'mob_grinding_utils:saw'
         })
         .key('5', {
-          tag: 'mm:auto_inscriber_item_input'
+          portType: 'mm:item',
+          input: true
         })
         .key('6', {
           block: 'chisel_chipped_integration:technical_fan'
@@ -41,7 +44,8 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('8', {
-          tag: 'mm:auto_inscriber_energy_input'
+          portType: 'mm:energy',
+          input: true
         })
     })
 })

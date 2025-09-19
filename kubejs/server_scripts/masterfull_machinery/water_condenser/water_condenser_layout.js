@@ -1,3 +1,4 @@
+priority: 1
 MMEvents.createStructures(event => {
   event
     .create('mm:water_condenser_structure1')
@@ -24,10 +25,12 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          block: 'mm:gigantic_energy_port_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('3', {
-          block: 'mm:gigantic_fluid_port_output'
+          portType: 'mm:fluid',
+          input: false
         })
         .key('4', {
           block: 'mob_grinding_utils:tank'
@@ -62,10 +65,12 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          block: 'mm:gigantic_energy_port_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('3', {
-          block: 'mm:gigantic_fluid_port_output'
+          portType: 'mm:fluid',
+          input: false
         })
         .key('4', {
           block: 'mob_grinding_utils:tank'
@@ -100,10 +105,12 @@ MMEvents.createStructures(event => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit'
         })
         .key('2', {
-          block: 'mm:gigantic_energy_port_input'
+          portType: 'mm:energy',
+          input: true
         })
         .key('3', {
-          block: 'mm:gigantic_fluid_port_output'
+          portType: 'mm:fluid',
+          input: false
         })
         .key('4', {
           block: 'mob_grinding_utils:tank'
