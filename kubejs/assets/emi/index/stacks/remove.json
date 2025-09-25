@@ -13870,6 +13870,16 @@
     "item:avaritia:densest_neutron_collector",
     "item:avaritia_expand:neutron_decompose",
     "item:avaritia:black_hole_chest",
-    "item:avaritia:test_sword"
+    "item:avaritia:test_sword",
+    "item:avaritia:densest_neutron_compressor",
+    "item:obtrophies:trophy{BlockEntityTag:{VariantID:0,entity:\"mythicbotany:alf_pixie\"}}",
+    "item:obtrophies:trophy{BlockEntityTag:{VariantID:0,entity:\"cataclysm:clawdian\"}}",
+    "item:obtrophies:trophy{BlockEntityTag:{VariantID:0,entity:\"cataclysm:scylla\"}}",
+    "item:thermal:machine_insolator",
+    "item:thermal:phytogro",
+    "item:thermal:phyto_grenade",
+    "item:thermal:device_soil_infuser",
+    "item:cyclic:crafting_stick",
+    "item:cyclic:crafting_bag"
     ]
 }
