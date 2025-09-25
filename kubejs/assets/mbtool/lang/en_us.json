@@ -34,6 +34,7 @@
   "mbtool.structure.voidminer_tier6_caerium": "VoidMiner Tier 6 Caerium",
   "mbtool.structure.voidminer_tier7_amethystine": "VoidMiner Tier 7 Amethystine",
   "mbtool.structure.voidminer_tier8_rosarium": "VoidMiner Tier 8 Rosarium",
+    "mbtool.structure.voidminer_tier9_ultimate": "VoidMiner Tier 9 Ultimate",
   "mbtool.structure.solarpanel_tier_1_rubetine": "SolarPanel Tier 1 Rubetine",
   "mbtool.structure.solarpanel_tier_2_aurantium": "SolarPanel Tier 2 Aurantium",
   "mbtool.structure.solarpanel_tier_3_citrinetine": "SolarPanel Tier 3 Citrinetine",
@@ -48,5 +49,6 @@
   "mbtool.structure.woot_tier_3_gold": "Woot Tier 3 Gold",
   "mbtool.structure.woot_tier_4_diamond": "Woot Tier 4 Diamond",
   "mbtool.structure.woot_tier_5_netherite": "Woot Tier 5 Netherite",
-  "mbtool.structure.mythicbotany_voidminer_ritual": "MythicBotany Voidminer Ritual"
+  "mbtool.structure.mythicbotany_voidminer_ritual": "MythicBotany Voidminer Ritual",
+  "mbtool.structure.essenceforge": "Essenceforge"
 }

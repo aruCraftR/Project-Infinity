@@ -20,6 +20,7 @@ changelog
 -removed laserio and added laserio unofficial extended life
 -added curvy pipes mod
 -added just enough botania
+-added showcase item (testing!)
 
 -fixed voidminer ultimate recipe (thx to Zombiesleuth)
 -removed dimlets
@@ -29,3 +30,4 @@ changelog
 /---------------------------
 known bugs:
 -some mystical agriculture essence recipes are visually bugged. try them inside a crafting table
+-polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

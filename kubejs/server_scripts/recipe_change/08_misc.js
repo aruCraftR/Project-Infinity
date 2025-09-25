@@ -646,4 +646,109 @@ ServerEvents.recipes(event => {
   shapeless(event, 'torcherino:double_compressed_torcherino', [
     'torcherino:double_compressed_lantern'
   ])
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_fabulously_wavy', 3),
+    [
+      'chisel_chipped_integration:futura_gray_screen',
+      'chisel_chipped_integration:futura_gray_screen',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air'
+    ]
+  )
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_mysterious_cube', 3),
+    [
+      'chisel_chipped_integration:futura_gray_screen',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air'
+    ]
+  )
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_cyan_screen', 3),
+    [
+      'chisel_chipped_integration:futura_gray_screen',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air'
+    ]
+  )
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_me_controller', 3),
+    [
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air'
+    ]
+  )
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_rainbowliciously_wavy', 3),
+    [
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'chisel_chipped_integration:futura_gray_screen'
+    ]
+  )
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_purple_me_controller', 3),
+    [
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+    ]
+  )
+  create3x3(
+    event,
+    Item.of('chisel_chipped_integration:futura_me_controller_ae_2', 3),
+    [
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'chisel_chipped_integration:futura_gray_screen',
+      'minecraft:air',
+      'minecraft:air',
+      'minecraft:air'
+    ]
+  )
 })

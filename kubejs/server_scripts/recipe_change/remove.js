@@ -342,7 +342,7 @@ const removeItemsbyID = [
   'jei:/tcintegrations/smeltery/casting/metal/manasteel/ingot_sand_cast',
   'voidminers:solar_ultimate_panel',
   'voidminers:ultimate_miner',
-  '',
+  'cyclic:crafting_bag',
   '',
   '',
   ''

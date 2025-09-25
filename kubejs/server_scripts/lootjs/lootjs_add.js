@@ -25,14 +25,6 @@ LootJS.modifiers(event => {
 
 LootJS.modifiers(event => {
   event
-    .addLootTableModifier('evolved_wither:entities/the_wither')
-    .addLoot('minecraft:nether_star')
-    .addLoot('minecraft:netherite_ingot')
-    .addLoot('evolved_wither:music_disc_the_wither_theme')
-})
-
-LootJS.modifiers(event => {
-  event
     .addLootTableModifier('minecraft:entities/blaze')
     .randomChance(0.5)
     .addLoot('kubejs:blaze_heart')
