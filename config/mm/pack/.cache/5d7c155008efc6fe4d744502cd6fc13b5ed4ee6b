@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-05T20:13:14.9769846	Item Models: mm
+// 1.20.1	2025-09-25T10:43:15.7864332	Item Models: mm
 d8eb5d6e71c6bf630dbcd9920f532ebdab3efa96 assets/mm/models/item/advanced_awakening_altar_controller.json
 d87054b6666b46f940f6564b9e690728b75e8ae3 assets/mm/models/item/auto_crusher_controller.json
 775a48cc6d7b85e3e79d42351aa77f867e69db40 assets/mm/models/item/auto_sieve_controller.json
@@ -18,9 +18,9 @@ cdb4bb241e6fb2d621f9acfe6ded821bf9503784 assets/mm/models/item/enormous_fluid_po
 63ad02b8b6218c5d936cf894675cfb57bf2092ee assets/mm/models/item/enormous_fluid_port_output.json
 8d5253a876434709149d9da56d575a502d44ff36 assets/mm/models/item/enormous_item_port_input.json
 566d743b0be6d03c37c9b889f9a3584041660a7f assets/mm/models/item/enormous_item_port_output.json
+1e8b39ab3b7a8ec64d5a75c2e4ed5dcd96acdd8f assets/mm/models/item/essenceforge_controller.json
 e1505aefba1facb783d9c4c1c48f8cbc7f8cb3a2 assets/mm/models/item/event_horizon_antimatter_synthesizer_controller.json
 c2726be2d2a473b10dcbe54f106a93c43aeeae40 assets/mm/models/item/fire_attuned_controller.json
-b87f53f1e6b2cc60774965df999de89e0b125d3a assets/mm/models/item/fission_reactor_controller.json
 3d8e42003bea336f69af68e9079b299c321907d8 assets/mm/models/item/gigantic_energy_port_input.json
 c661479726200b268059c134eba3d64582bba0d6 assets/mm/models/item/gigantic_energy_port_output.json
 4bd1e9364b480c9939d4dd60f0a0a9b023528611 assets/mm/models/item/gigantic_fluid_port_input.json

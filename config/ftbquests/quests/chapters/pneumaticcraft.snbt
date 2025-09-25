@@ -337,7 +337,6 @@
 		}
 		{
 			dependencies: ["0AEAEA976ED0C470"]
-			description: [""]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:pneumatic_wrench"
@@ -395,7 +394,6 @@
 		}
 		{
 			dependencies: ["0AEAEA976ED0C470"]
-			description: [""]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:manometer"
@@ -426,7 +424,6 @@
 		}
 		{
 			dependencies: ["0AEAEA976ED0C470"]
-			description: [""]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:camo_applicator"
@@ -792,8 +789,8 @@
 				}
 			]
 			tasks: [{
-				id: "623166D385290B3B"
-				item: "mysticalagriculture:rubber_seeds"
+				id: "394922AA87243AC6"
+				item: "mysticalagriculture:plastic_seeds"
 				type: "item"
 			}]
 			x: 13.0d

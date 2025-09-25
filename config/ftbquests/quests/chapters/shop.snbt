@@ -2149,7 +2149,7 @@
 				id: "363766417B8C3516"
 				max_input: 2147483647L
 				type: "forge_energy"
-				value: 500000000000L
+				value: 5000000000000L
 			}]
 			x: -7.5d
 			y: 13.0d

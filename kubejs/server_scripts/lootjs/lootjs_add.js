@@ -25,6 +25,14 @@ LootJS.modifiers(event => {
 
 LootJS.modifiers(event => {
   event
+    .addLootTableModifier('evolved_wither:entities/the_wither')
+    .addLoot('minecraft:nether_star')
+    .addLoot('minecraft:netherite_ingot')
+    .addLoot('evolved_wither:music_disc_the_wither_theme')
+})
+
+LootJS.modifiers(event => {
+  event
     .addLootTableModifier('minecraft:entities/blaze')
     .randomChance(0.5)
     .addLoot('kubejs:blaze_heart')
@@ -56,7 +64,6 @@ LootJS.modifiers(event => {
     .anyStructure(['bosses_of_mass_destruction:lich_tower'], false)
     .addLoot('bosses_of_mass_destruction:soul_star')
 })
-
 
 //arcmetal
 LootJS.modifiers(event => {
@@ -133,10 +140,9 @@ LootJS.modifiers(event => {
 })
 
 //'allthemodium:allthemodium_upgrade_smithing_template'
-LootJS.modifiers((event) => {
-
-    event
-        .addLootTableModifier("minecraft:chests/ancient_city")
-        .randomChance(0.025)
-        .addLoot('allthemodium:allthemodium_upgrade_smithing_template');
-});
+LootJS.modifiers(event => {
+  event
+    .addLootTableModifier('minecraft:chests/ancient_city')
+    .randomChance(0.025)
+    .addLoot('allthemodium:allthemodium_upgrade_smithing_template')
+})

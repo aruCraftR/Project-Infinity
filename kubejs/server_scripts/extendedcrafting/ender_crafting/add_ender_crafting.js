@@ -37,7 +37,8 @@ ServerEvents.recipes(event => {
           }
         },
         result: {
-          item: outputItem
+          item: outputItem,
+          count: 4
         }
       })
       .id('ender_crafter_' + outputItem.replace(/[:]/g, '_').toLowerCase())
@@ -58,7 +59,8 @@ ServerEvents.recipes(event => {
           }
         },
         result: {
-          item: outputItem
+          item: outputItem,
+          count: 4
         }
       })
       .id('flux_crafter_' + outputItem.replace(/[:]/g, '_').toLowerCase())

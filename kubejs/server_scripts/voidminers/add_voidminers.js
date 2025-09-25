@@ -115,6 +115,6 @@ ServerEvents.recipes(event => {
   voidminerBatch2(3, 9, ['minecraft:coal'], 999.0)
   voidminerBatch2(3, 8, ['voidminers:ultimate_stellar_core'], 0.5)
   endgame.forEach(item => {
-    voidminerBatch2(3, 9, [item], 0.00001)
+    voidminerBatch2(3, 9, [item], 0.0000001)
   })
 })

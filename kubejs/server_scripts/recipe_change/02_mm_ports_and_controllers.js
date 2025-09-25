@@ -504,6 +504,18 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
+    create3x3(event, 'mm:essenceforge_controller', [
+    'thermal:redstone_servo',
+    'kubejs:empowered_super_block',
+    'thermal:rf_coil',
+    'common_ore_library:cobalt_block',
+    'botania:elementium_ingot',
+    'common_ore_library:cobalt_block',
+    'thermal:rf_coil',
+    'mysticalexpansion:divinium_ingot_block',
+    'thermal:redstone_servo',
+  ]);
+
   create3x3(event, 'mm:multi_compressor_controller', [
     'thermal:redstone_servo',
     'functionalstorage:compacting_drawer',

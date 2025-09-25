@@ -66,6 +66,12 @@
         {
             "id": "/infinity_catalyst/",
             "category": "avaritia:extreme_craft"
+        },
+        {
+            "category": "thermal:insolator"
+        },
+        {
+            "category": "thermal:insolator_catalyst"
         }
     ]
 }

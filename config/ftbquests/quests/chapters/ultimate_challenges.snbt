@@ -545,6 +545,630 @@
 			x: -1.5d
 			y: -8.5d
 		}
+		{
+			id: "40B567A060344181"
+			rewards: [
+				{
+					id: "419E1CBCD7F983E0"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4237C190693337C4"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "Stuff the vault with half a million radiant cores."
+			tasks: [{
+				consume_items: true
+				count: 500000L
+				id: "486429CD1A0F4F2E"
+				item: "minecraft:nether_star"
+				title: "500,000 Nether Stars"
+				type: "item"
+			}]
+			title: "&4Nether Star Donation Drive"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			id: "0E9F435C0E5D4713"
+			rewards: [
+				{
+					id: "7E0ACC19ED15A61B"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D644285234C5CDB"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "Become the bank every villager dreams about."
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "31023B177EBC52E0"
+				item: "minecraft:emerald"
+				title: "1,000,000 Emeralds"
+				type: "item"
+			}]
+			title: "&2Emerald Endowment"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "43149D12087D4F3B"
+			rewards: [
+				{
+					id: "2936E382B96019A3"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F0CB8C7C72FBA6E"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "Stack a quarter million Vibranium ingots."
+			tasks: [{
+				consume_items: true
+				count: 250000L
+				id: "4691FD152DDF4022"
+				item: "allthemodium:vibranium_ingot"
+				title: "250,000 Vibranium Ingots"
+				type: "item"
+			}]
+			title: "&6Vibranium Vault"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			id: "235D7640E01D8091"
+			rewards: [
+				{
+					id: "1179624C3480A7B1"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "506001BA398648CE"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "If it's unobtainable, prove otherwise."
+			tasks: [{
+				consume_items: true
+				count: 150000L
+				id: "4C949CA352C54212"
+				item: "allthemodium:unobtainium_ingot"
+				title: "150,000 Unobtainium Ingots"
+				type: "item"
+			}]
+			title: "&dUnobtainium Treasury"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			id: "389CB23E412B4414"
+			rewards: [
+				{
+					id: "1472D5FA68CDBCD6"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AC2933F75AAA6F2"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "Build a sea of chaotic energy nodes."
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "13AF5FD687FC402C"
+				item: "draconicevolution:chaotic_core"
+				title: "512 Chaotic Cores"
+				type: "item"
+			}]
+			title: "&5Chaotic Core Cascade"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			id: "377B743A696C45AC"
+			rewards: [
+				{
+					id: "02764FDDE6CE6978"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09AFF8F46C269B22"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Harvest a thousand shards from Chaos Islands."
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "5BE479CC32C741EB"
+				item: "draconicevolution:chaos_shard"
+				title: "1,000 Chaos Shards"
+				type: "item"
+			}]
+			title: "&5Shardfall"
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			id: "78107466704B4A67"
+			rewards: [
+				{
+					id: "5BBE978FF5EE1DC7"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D81D93F781DAD98"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Serve every table with the ultimate alloy plate."
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "7BD06564C4E149BE"
+				item: "extendedcrafting:the_ultimate_ingot"
+				title: "2,048 Ultimate Ingots"
+				type: "item"
+			}]
+			title: "&6Ultimate Ingot Buffet"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			id: "6AE372ED9E592127"
+			rewards: [
+				{
+					id: "75A22BCAD929CF9A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "570FEC9B5A0812CB"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Wrap the base in pure creative essence."
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "5815D97B298A4198"
+				item: "mysticalagradditions:creative_essence"
+				title: "1,024 Creative Essence"
+				type: "item"
+			}]
+			title: "&dCreative Essence Cloud"
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			id: "1713E867378539D3"
+			rewards: [
+				{
+					id: "2524D4571ED2AC8F"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F72F0BE1B5B757C"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Stage sixty-four nitro reactors at once."
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "18E23FEA96F84DEB"
+				item: "powah:reactor_nitro"
+				title: "64 Nitro Reactors"
+				type: "item"
+			}]
+			title: "&cNitro Grid Overload"
+			x: 4.0d
+			y: -12.5d
+		}
+		{
+			id: "7361FD250CCE46BF"
+			rewards: [
+				{
+					id: "0BC86397E45825CF"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32977DE4537B75B9"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Feed the SPS an ocean of polonium."
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "5A52DCC22F0445DA"
+				item: "mekanism:pellet_polonium"
+				title: "5,000 Polonium Pellets"
+				type: "item"
+			}]
+			title: "&3Polonium Pantry"
+			x: 6.0d
+			y: -12.5d
+		}
+		{
+			id: "5E9C5364DC38464A"
+			rewards: [
+				{
+					id: "41FE5E28E244FAF8"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08F86E20107DA91D"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Industrial Foregoing never sleeps."
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "54E9A83CB5864DCE"
+				item: "industrialforegoing:machine_frame_supreme"
+				title: "256 Supreme Frames"
+				type: "item"
+			}]
+			title: "&6Supreme Machine Network"
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			id: "5A3DE33C9E5340CC"
+			rewards: [
+				{
+					id: "072095EC2FD00C2C"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ABCAA40EDC5FE7C"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "Line every assembly with catalysts."
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "4744D6BD4E57458A"
+				item: "extendedcrafting:ultimate_catalyst"
+				title: "512 Ultimate Catalysts"
+				type: "item"
+			}]
+			title: "&5Catalyst Cascade"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			id: "610C248072E94321"
+			rewards: [
+				{
+					id: "06FA4593158FC721"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "036FC989ECAD31AE"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Fly five thousand kilometers without touching ground."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2C8E67B8E9184D79"
+				stat: "minecraft:fly_one_cm"
+				title: "Fly 5,000 km"
+				type: "stat"
+				value: 500000000
+			}]
+			title: "&bElytra Marathon"
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			id: "1F6ABBFA66784434"
+			rewards: [
+				{
+					id: "743E5E237C217F9F"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46D0FF0F95C166AE"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Sprint the overworld into a groove."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:golden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "24AE638F155D898C"
+				stat: "minecraft:sprint_one_cm"
+				title: "Sprint 7,500 km"
+				type: "stat"
+				value: 750000000
+			}]
+			title: "&2Sprint Ultramarathon"
+			x: 4.0d
+			y: -15.0d
+		}
+		{
+			id: "6A7F691984D24DAD"
+			rewards: [
+				{
+					id: "4396B3ABF392B827"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76375F61BC72C7D7"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Cross oceans on pure lung power."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1987851DBD494093"
+				stat: "minecraft:swim_one_cm"
+				title: "Swim 2,500 km"
+				type: "stat"
+				value: 250000000
+			}]
+			title: "&3Underwater Express"
+			x: 6.0d
+			y: -15.0d
+		}
+		{
+			id: "4392C17BF1FE07DA"
+			rewards: [
+				{
+					id: "11345FDC6D0320A7"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06E6F7CCB9FD2545"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Hop until gravity files a complaint."
+			tasks: [{
+				icon: "minecraft:rabbit_foot"
+				id: "5DAB376306833D90"
+				stat: "minecraft:jump"
+				title: "Jump 500,000 Times"
+				type: "stat"
+				value: 500000
+			}]
+			title: "&9Leap Legend"
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			id: "59E12BEE18525A04"
+			rewards: [
+				{
+					id: "7AD9C2FF69E06379"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F8C678384E391E7"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Deal half a billion hearts of damage."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2DD56842D9FD447C"
+				stat: "minecraft:damage_dealt"
+				title: "Deal 500,000,000 Damage"
+				type: "stat"
+				value: 500000000
+			}]
+			title: "&4Damage Incarnate"
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			id: "6FB3737F16474152"
+			rewards: [
+				{
+					id: "2825CED112E0777B"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EE2E991AB22E6A8"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Populate the planet with happy animals."
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "0A859316833A4093"
+				stat: "minecraft:animals_bred"
+				title: "Breed 10,000 Animals"
+				type: "stat"
+				value: 10000
+			}]
+			title: "&aMaster Breeder"
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			id: "716924CBD0704A22"
+			rewards: [
+				{
+					id: "75F349DC339D3469"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ABC02A1CF97C509"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "No more dragon resets."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "683141AC36E14C91"
+				title: "Slay 50 Ender Dragons"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&5Dragon Eradicator"
+			x: 4.0d
+			y: -17.5d
+		}
+		{
+			id: "62BDFE77BBDB4FE0"
+			rewards: [
+				{
+					id: "73CE9EF4A0B2CD21"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B07C24369535138"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.6d
+			subtitle: "Empty every ocean monument twice over."
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "3DDF2F594A6CD35B"
+				title: "Defeat 250 Elder Guardians"
+				type: "kill"
+				value: 250L
+			}]
+			title: "&3Guardian Buster"
+			x: 6.0d
+			y: -17.5d
+		}
 	]
 	title: "Legendary Challenges"
 }

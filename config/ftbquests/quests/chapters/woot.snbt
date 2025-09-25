@@ -510,8 +510,8 @@
 				item: "woot_revived:upgrade_base"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -526,8 +526,8 @@
 				item: "woot_revived:burn_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -542,8 +542,8 @@
 				item: "woot_revived:copper_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2CFC444D6930C94A"]
@@ -558,8 +558,8 @@
 				item: "woot_revived:iron_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["63CAF5186A72D9B6"]
@@ -574,8 +574,8 @@
 				item: "woot_revived:gold_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0E38291F83AB92E4"]
@@ -590,8 +590,8 @@
 				item: "woot_revived:diamond_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -606,8 +606,8 @@
 				item: "woot_revived:copper_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1F05A6F653BE5883"]
@@ -622,8 +622,8 @@
 				item: "woot_revived:netherite_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["22223576698F0160"]
@@ -638,8 +638,8 @@
 				item: "woot_revived:iron_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.5d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["59364F349862D84B"]
@@ -654,8 +654,8 @@
 				item: "woot_revived:gold_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6FA0D8B56B8F8E19"]
@@ -670,8 +670,8 @@
 				item: "woot_revived:diamond_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5F26DFE3C71E71B2"]
@@ -686,8 +686,8 @@
 				item: "woot_revived:netherite_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -702,8 +702,8 @@
 				item: "woot_revived:copper_looting_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1022C75E0DD23FDE"]
@@ -718,8 +718,8 @@
 				item: "woot_revived:iron_looting_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C8D85D5B602210A"]
@@ -734,8 +734,8 @@
 				item: "woot_revived:gold_looting_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.5d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2C455483A5CB99F5"]
@@ -750,8 +750,8 @@
 				item: "woot_revived:diamond_looting_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["07590CA70CDE1CA2"]
@@ -766,8 +766,8 @@
 				item: "woot_revived:netherite_looting_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.5d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -782,8 +782,8 @@
 				item: "woot_revived:copper_mass_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.5d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7498B32C4FB9387E"]
@@ -798,8 +798,8 @@
 				item: "woot_revived:iron_mass_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.5d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2A4F54D0A79BB61F"]
@@ -814,8 +814,8 @@
 				item: "woot_revived:gold_mass_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4667CE07C1B8E825"]
@@ -830,8 +830,8 @@
 				item: "woot_revived:diamond_mass_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 6.5d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["116C801C5063C392"]
@@ -846,8 +846,8 @@
 				item: "woot_revived:netherite_mass_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.5d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -862,8 +862,8 @@
 				item: "woot_revived:copper_rate_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2FD2F9771B031C24"]
@@ -878,8 +878,8 @@
 				item: "woot_revived:iron_rate_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["509FBC83929D1CC6"]
@@ -894,8 +894,8 @@
 				item: "woot_revived:gold_rate_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 7.5d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3BA7C8D7E65D1F40"]
@@ -910,8 +910,8 @@
 				item: "woot_revived:diamond_rate_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["75FA6480DBA8BB62"]
@@ -926,8 +926,8 @@
 				item: "woot_revived:netherite_rate_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.5d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -942,8 +942,8 @@
 				item: "woot_revived:iron_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D10194315F6BCC7"]
@@ -958,8 +958,8 @@
 				item: "woot_revived:gold_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["37B575BA3FA20275"]
@@ -974,8 +974,8 @@
 				item: "woot_revived:diamond_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["57FB4A3AC70F5038"]
@@ -990,8 +990,8 @@
 				item: "woot_revived:netherite_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
@@ -1006,8 +1006,8 @@
 				item: "woot_revived:copper_xp_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3CA630FED1481114"]
@@ -1022,8 +1022,8 @@
 				item: "woot_revived:iron_xp_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.5d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["184178E14CED4FA2"]
@@ -1038,8 +1038,8 @@
 				item: "woot_revived:gold_xp_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 8.5d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["593D8F8670581D12"]
@@ -1054,8 +1054,8 @@
 				item: "woot_revived:diamond_xp_upgrade"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 8.5d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4ABDA031A378AE59"]
@@ -1070,8 +1070,67 @@
 				item: "woot_revived:netherite_xp_upgrade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.5d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "33F7680769B9FD4E"
+			rewards: [{
+				id: "5923B5A7D3EE64AE"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "67B9241D35DB83D0"
+					item: "woot_revived:copper_cell"
+					type: "item"
+				}
+				{
+					id: "19E9D3A59CCDD9C4"
+					item: "woot_revived:copper_pylon"
+					type: "item"
+				}
+				{
+					id: "4EAD3BDA3BB42912"
+					item: "woot_revived:copper_plinth"
+					type: "item"
+				}
+				{
+					id: "58E58C4B76C85A79"
+					item: "woot_revived:export"
+					type: "item"
+				}
+				{
+					id: "667210B97362B48D"
+					item: "woot_revived:import"
+					type: "item"
+				}
+				{
+					id: "25466C3F3D6E354C"
+					item: "woot_revived:factory_connect"
+					type: "item"
+				}
+				{
+					id: "071CE46AF51009CF"
+					item: "woot_revived:factory_upgrade"
+					type: "item"
+				}
+				{
+					id: "1E4A478E0A2C06F1"
+					item: "woot_revived:heart"
+					type: "item"
+				}
+				{
+					id: "59C566BB762FAF25"
+					item: "woot_revived:factory_ctr_base_pri"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Multiblock"
+			x: 8.0d
+			y: 3.0d
 		}
 	]
 	title: "Woot ?!?"

@@ -17,14 +17,15 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 changelog
 -updated some mods
+-removed laserio and added laserio unofficial extended life
+-added curvy pipes mod
+-added just enough botania
 
--fixed recipes (thx to warnux76)
--fixed woot preview inside the multibuilder tool (thx to igentuman and pharuxtan)
--if using the multibuilder tool for the masterful machinery multiblocks -->
-    -u can use replacement blocks for the ports. you dont need to use a colossal item input you can use a tiny item input. 
--added a custom recipe for voidminer miner and solar panel
--changed loadorder for tags.js
--removed fission reactor multiblock!
+-fixed voidminer ultimate recipe (thx to Zombiesleuth)
+-removed dimlets
+-fixed tinkers construct quest (thx to carnumba)
+-added a new multiblock for farming essence from mystical agriculture --> Essenceforge
+-removed thermal phytogenic insolator
 /---------------------------
 known bugs:
 -some mystical agriculture essence recipes are visually bugged. try them inside a crafting table

@@ -715,17 +715,15 @@
 			size: 1.5d
 			tasks: [
 				{
-					count: 18L
 					id: "17EBF6608340B4F5"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/cobalt"
 						}
-						id: "tconstruct:cobalt_ingot"
 					}
+					title: "Any #forge:ingots/cobalt"
 					type: "item"
 				}
 				{
@@ -1602,65 +1600,60 @@
 					id: "3B146FC381EF2132"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/brass"
 						}
-						id: "alltheores:brass_ingot"
 					}
+					title: "Any #forge:ingots/brass"
 					type: "item"
 				}
 				{
 					id: "3C2BF7A2268D16B2"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/amethyst_bronze"
 						}
-						id: "tconstruct:amethyst_bronze_ingot"
 					}
+					title: "Any #forge:ingots/amethyst_bronze"
 					type: "item"
 				}
 				{
 					id: "0BC0BC04F26D4AC3"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/constantan"
 						}
-						id: "alltheores:constantan_ingot"
 					}
+					title: "Any #forge:ingots/constantan"
 					type: "item"
 				}
 				{
 					id: "32C8853B9762A65C"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/electrum"
 						}
-						id: "alltheores:electrum_ingot"
 					}
+					title: "Any #forge:ingots/electrum"
 					type: "item"
 				}
 				{
-					id: "0D9FCAA4BAEAA513"
+					id: "539F23B1B52CB568"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/rose_gold"
 						}
-						id: "tconstruct:rose_gold_ingot"
 					}
+					title: "Any #forge:ingots/rose_gold"
 					type: "item"
 				}
 			]
@@ -1689,83 +1682,84 @@
 					id: "12C08E831DD18B5A"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/slimesteel"
 						}
-						id: "tconstruct:slimesteel_ingot"
 					}
+					title: "Any #forge:ingots/slimesteel"
 					type: "item"
 				}
 				{
 					id: "649CF4A91478D125"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/queens_slime"
 						}
-						id: "tconstruct:queens_slime_ingot"
 					}
+					title: "Any #forge:ingots/queens_slime"
 					type: "item"
 				}
 				{
 					id: "7BAC20B70D41E2C3"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/manyullyn"
 						}
-						id: "tconstruct:manyullyn_ingot"
 					}
+					title: "Any #forge:ingots/manyullyn"
 					type: "item"
 				}
 				{
 					id: "45D26D6002B986A4"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/hepatizon"
 						}
-						id: "tconstruct:hepatizon_ingot"
 					}
+					title: "Any #forge:ingots/hepatizon"
 					type: "item"
 				}
 				{
 					id: "26F117D6835F174A"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/signalum"
 						}
-						id: "alltheores:signalum_ingot"
 					}
+					title: "Any #forge:ingots/signalum"
 					type: "item"
 				}
 				{
 					id: "1540B9CA1D0BA5E8"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/lumium"
 						}
-						id: "alltheores:lumium_ingot"
 					}
+					title: "Any #forge:ingots/lumium"
 					type: "item"
 				}
 				{
 					id: "2488249D5DBCF30E"
-					item: "alltheores:enderium_ingot"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/enderium"
+						}
+					}
+					title: "Any #forge:ingots/enderium"
 					type: "item"
 				}
 			]

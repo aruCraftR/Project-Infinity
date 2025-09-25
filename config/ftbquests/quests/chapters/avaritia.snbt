@@ -191,7 +191,6 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["&0Voidborn&r and &dancient,&r this table is used for &ehigher cost crafting&r."]
 			id: "0D9F327D30321040"
 			rewards: [
 				{
@@ -551,7 +550,6 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["Made at an &dEnd Crafting Table&r this is used to craft the &6Infinity Catalyst&r."]
 			id: "104A0314ABBC6BCA"
 			tasks: [{
 				id: "5D8050A759D61BF3"

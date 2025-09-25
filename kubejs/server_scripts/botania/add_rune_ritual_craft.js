@@ -481,7 +481,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: 'voidminers:solar_ultimate_block'
+            item: 'voidminers:ultimate_block'
           },
           x: 1,
           z: -1

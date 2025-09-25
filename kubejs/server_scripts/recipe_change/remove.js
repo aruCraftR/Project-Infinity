@@ -189,7 +189,9 @@ const removeItemsbyOutput = [
   'avaritia_expand:infinity_tnt',
   'avaritia_expand:crystal_furnace',
   'avaritia_expand:clone_core',
-  'avaritia_expand:endest_watch'
+  'avaritia_expand:endest_watch',
+  'thermal:phytogro',
+  'thermal:machine_insolator'
 ]
 
 const removeItemsbyID = [
@@ -346,7 +348,7 @@ const removeItemsbyID = [
   ''
 ]
 
-const removeItemsbyType = ['cyclic:packager']
+const removeItemsbyType = ['cyclic:packager', "thermal:insolator", "thermal:insolator_catalyst"]
 
 //Function to remove the items above
 ServerEvents.recipes(event => {

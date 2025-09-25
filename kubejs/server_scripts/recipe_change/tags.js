@@ -1,4 +1,4 @@
-priority: 1
+priority: 0
 ServerEvents.tags('item', event => {
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('mysticalagriculture:essences', [
