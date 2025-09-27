@@ -43,8 +43,8 @@ MMEvents.createStructures((event) => {
           block: 'minecraft:redstone_lamp',
           properties: [
             {
-              property: 'lit',
-              value: 'true',
+              property: "lit",
+              value: "false",
             },
           ],
         })
@@ -120,8 +120,8 @@ MMEvents.createStructures((event) => {
           block: 'minecraft:redstone_lamp',
           properties: [
             {
-              property: 'lit',
-              value: 'false',
+              property: "lit",
+              value: "false",
             },
           ],
         })
@@ -197,8 +197,8 @@ MMEvents.createStructures((event) => {
           block: 'minecraft:redstone_lamp',
           properties: [
             {
-              property: 'lit',
-              value: 'true',
+              property: "lit",
+              value: "false",
             },
           ],
         })
@@ -277,8 +277,8 @@ MMEvents.createStructures((event) => {
           block: 'minecraft:redstone_lamp',
           properties: [
             {
-              property: 'lit',
-              value: 'false',
+              property: "lit",
+              value: "false",
             },
           ],
         })

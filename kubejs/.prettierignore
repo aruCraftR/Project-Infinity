@@ -16,3 +16,8 @@ node_modules/
 
 # Ignore assets that might be binary or have special formatting
 assets/
+
+# Ignore essenceforge_layout because its destroying the multiblock. lit and false needs to be double quotes
+#              property: "lit",
+#              value: "false",
+kubejs\server_scripts\masterfull_machinery\essenceforge\essenceforge_layout.js
