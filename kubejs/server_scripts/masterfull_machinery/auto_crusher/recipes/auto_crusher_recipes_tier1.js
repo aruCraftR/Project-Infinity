@@ -478,7 +478,7 @@ MMEvents.createProcesses(event => {
 
   //calcite
   event
-    .create('mm:tuff_recipe1')
+    .create('mm:calcite_recipe1')
     .structureId('mm:auto_crusher_structure1')
     .ticks(8)
     .input({

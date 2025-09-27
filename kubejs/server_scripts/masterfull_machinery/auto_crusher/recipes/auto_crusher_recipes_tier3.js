@@ -478,48 +478,48 @@ MMEvents.createProcesses(event => {
 
   //calcite
   event
-    .create('mm:tuff_recipe3')
-    .structureId('mm:auto_crusher_structure3')
+    .create("mm:calcite_recipe3")
+    .structureId("mm:auto_crusher_structure3")
     .ticks(1)
     .input({
-      type: 'mm:input/consume',
+      type: "mm:input/consume",
       ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:calcite',
-        count: 256
-      }
+        type: "mm:item",
+        item: "minecraft:calcite",
+        count: 256,
+      },
     })
     .input({
-      type: 'mm:input/consume',
+      type: "mm:input/consume",
       ingredient: {
-        type: 'mm:energy',
-        amount: 640000
-      }
+        type: "mm:energy",
+        amount: 640000,
+      },
     })
     .input({
-      type: 'mm:input/consume',
+      type: "mm:input/consume",
       ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:water',
-        amount: 4000
-      }
+        type: "mm:fluid",
+        fluid: "minecraft:water",
+        amount: 4000,
+      },
     })
     .output({
-      type: 'mm:output/simple',
+      type: "mm:output/simple",
       ingredient: {
-        type: 'mm:item',
-        item: 'nuclearcraft:calcium_dust',
-        count: 128
-      }
+        type: "mm:item",
+        item: "nuclearcraft:calcium_dust",
+        count: 128,
+      },
     })
     .output({
-      type: 'mm:output/simple',
+      type: "mm:output/simple",
       ingredient: {
-        type: 'mm:item',
-        item: 'nuclearcraft:potassium_dust',
-        count: 96
-      }
-    })
+        type: "mm:item",
+        item: "nuclearcraft:potassium_dust",
+        count: 96,
+      },
+    });
 
   //flux dust
   event
