@@ -1,26 +1,26 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Compressed Wind Generator x8
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
-      pattern: ["ABC", "BDB", "CBA"],
+      type: 'extendedcrafting:shaped_table',
+      pattern: ['ABC', 'BDB', 'CBA'],
       key: {
         A: {
-          item: "mekanismgenerators:turbine_casing",
+          item: 'mekanismgenerators:turbine_casing',
         },
         B: {
-          item: "compactmekanismmachines:compressed_wind_generator_x2",
+          item: 'compactmekanismmachines:compressed_wind_generator_x2',
         },
         C: {
-          item: "mekanism:alloy_infused",
+          item: 'mekanism:alloy_infused',
         },
         D: {
-          item: "mekanism:alloy_reinforced",
+          item: 'mekanism:alloy_reinforced',
         },
       },
       result: {
-        item: "compactmekanismmachines:compressed_wind_generator_x8",
+        item: 'compactmekanismmachines:compressed_wind_generator_x8',
       },
     })
-    .id("compactmekanismmachines:compressed_wind_generator_x8");
+    .id('compactmekanismmachines:compressed_wind_generator_x8');
 });

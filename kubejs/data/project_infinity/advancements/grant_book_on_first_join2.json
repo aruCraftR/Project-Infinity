@@ -1,12 +1,10 @@
 {
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "loot": ["project_infinity:grant_book_on_first_join2"]
     }
-  },
-  "rewards": {
-    "loot": [
-      "project_infinity:grant_book_on_first_join2"
-    ]
-  }
 }

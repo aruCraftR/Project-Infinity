@@ -186,7 +186,7 @@
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.40
+                    "value": 0.4
                 },
                 {
                     "attribute": "generic.knockback_resistance",
@@ -211,7 +211,7 @@
                 {
                     "attribute": "attributeslib:life_steal",
                     "operation": "ADDITION",
-                    "value": 0.10
+                    "value": 0.1
                 }
             ],
             "rewards": [

@@ -1,26 +1,26 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Torcherino
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
-      pattern: ["AAAAA", "ABCBA", "ACDCA", "ABCBA", "AAAAA"],
+      type: 'extendedcrafting:shaped_table',
+      pattern: ['AAAAA', 'ABCBA', 'ACDCA', 'ABCBA', 'AAAAA'],
       key: {
         A: {
-          item: "minecraft:torch",
+          item: 'minecraft:torch',
         },
         B: {
-          item: "kubejs:starmetal_ingot",
+          item: 'kubejs:starmetal_ingot',
         },
         C: {
-          item: "mekanism:alloy_atomic",
+          item: 'mekanism:alloy_atomic',
         },
         D: {
-          item: "allthemodium:allthemodium_nugget",
+          item: 'allthemodium:allthemodium_nugget',
         },
       },
       result: {
-        item: "torcherino:torcherino",
+        item: 'torcherino:torcherino',
       },
     })
-    .id("torcherino:torcherino");
+    .id('torcherino:torcherino');
 });

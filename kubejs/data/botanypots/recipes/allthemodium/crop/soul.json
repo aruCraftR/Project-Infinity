@@ -2,18 +2,14 @@
     "bookshelf:load_conditions": [
         {
             "type": "bookshelf:item_exists",
-            "values": [
-                "allthemodium:soul_sapling"
-            ]
+            "values": ["allthemodium:soul_sapling"]
         }
     ],
     "type": "botanypots:crop",
     "seed": {
         "item": "allthemodium:soul_sapling"
     },
-    "categories": [
-        "dirt"
-    ],
+    "categories": ["dirt"],
     "growthTicks": 2400,
     "display": {
         "block": "allthemodium:soul_sapling"
@@ -28,7 +24,7 @@
             "maxRolls": 4
         },
         {
-            "chance": 0.20,
+            "chance": 0.2,
             "output": {
                 "item": "minecraft:stick"
             },

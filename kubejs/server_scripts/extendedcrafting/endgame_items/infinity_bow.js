@@ -1,123 +1,123 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Longbow Of The Heavens
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "ABCDD    ",
-        "EFDGH    ",
-        "IDJKH    ",
-        "DLMNHO   ",
-        "PQRSHT   ",
-        "DUVWHX   ",
-        "YDZ1H    ",
-        "23D4H    ",
-        "567DD    ",
+        'ABCDD    ',
+        'EFDGH    ',
+        'IDJKH    ',
+        'DLMNHO   ',
+        'PQRSHT   ',
+        'DUVWHX   ',
+        'YDZ1H    ',
+        '23D4H    ',
+        '567DD    ',
       ],
       key: {
         A: {
-          item: "armorplus:guardian_bow_base",
+          item: 'armorplus:guardian_bow_base',
         },
         B: {
-          item: "armorplus:super_star_bow_base",
+          item: 'armorplus:super_star_bow_base',
         },
         C: {
-          item: "armorplus:slayer_bow",
+          item: 'armorplus:slayer_bow',
         },
         D: {
-          item: "avaritia:infinity_ingot",
+          item: 'avaritia:infinity_ingot',
         },
         E: {
-          item: "armorplus:ender_dragon_bow_base",
+          item: 'armorplus:ender_dragon_bow_base',
         },
         F: {
-          item: "armorplus:slayer_bow_base",
+          item: 'armorplus:slayer_bow_base',
         },
         G: {
-          item: "mysticalagriculture:awakened_supremium_bow",
+          item: 'mysticalagriculture:awakened_supremium_bow',
         },
         H: {
-          item: "minecraft:white_wool",
+          item: 'minecraft:white_wool',
         },
         I: {
-          item: "armorplus:ender_dragon_bow",
+          item: 'armorplus:ender_dragon_bow',
         },
         J: {
-          item: "mysticalagriculture:imperium_bow",
+          item: 'mysticalagriculture:imperium_bow',
         },
         K: {
-          item: "mysticalagriculture:supremium_bow",
+          item: 'mysticalagriculture:supremium_bow',
         },
         L: {
-          item: "mysticalagriculture:inferium_bow",
+          item: 'mysticalagriculture:inferium_bow',
         },
         M: {
-          item: "mysticalagriculture:prudentium_bow",
+          item: 'mysticalagriculture:prudentium_bow',
         },
         N: {
-          item: "mysticalagriculture:tertium_bow",
+          item: 'mysticalagriculture:tertium_bow',
         },
         O: {
-          item: "draconicevolution:draconic_bow",
+          item: 'draconicevolution:draconic_bow',
         },
         P: {
-          item: "avaritia:crystal_matrix",
+          item: 'avaritia:crystal_matrix',
         },
         Q: {
-          item: "kubejs:infinity_12",
+          item: 'kubejs:infinity_12',
         },
         R: {
-          item: "botania:crystal_bow",
+          item: 'botania:crystal_bow',
         },
         S: {
-          item: "redstone_arsenal:flux_bow",
+          item: 'redstone_arsenal:flux_bow',
         },
         T: {
-          item: "draconicevolution:chaotic_bow",
+          item: 'draconicevolution:chaotic_bow',
         },
         U: {
-          item: "twilightforest:triple_bow",
+          item: 'twilightforest:triple_bow',
         },
         V: {
-          item: "armorplus:super_star_bow",
+          item: 'armorplus:super_star_bow',
         },
         W: {
-          item: "dimensionalpocketsii:dimensional_bow",
+          item: 'dimensionalpocketsii:dimensional_bow',
         },
         X: {
-          item: "draconicevolution:wyvern_bow",
+          item: 'draconicevolution:wyvern_bow',
         },
         Y: {
-          item: "armorplus:obsidian_bow",
+          item: 'armorplus:obsidian_bow',
         },
         Z: {
-          item: "dimensionalpocketsii:dimensional_bow_enhanced",
+          item: 'dimensionalpocketsii:dimensional_bow_enhanced',
         },
         1: {
-          item: "armorplus:guardian_bow",
+          item: 'armorplus:guardian_bow',
         },
         2: {
-          item: "armorplus:lapis_bow",
+          item: 'armorplus:lapis_bow',
         },
         3: {
-          item: "armorplus:emerald_bow",
+          item: 'armorplus:emerald_bow',
         },
         4: {
-          item: "minecraft:bow",
+          item: 'minecraft:bow',
         },
         5: {
-          item: "armorplus:infused_lava_bow",
+          item: 'armorplus:infused_lava_bow',
         },
         6: {
-          item: "armorplus:redstone_bow",
+          item: 'armorplus:redstone_bow',
         },
         7: {
-          item: "armorplus:coal_bow",
+          item: 'armorplus:coal_bow',
         },
       },
       result: {
-        item: "avaritia:infinity_bow",
+        item: 'avaritia:infinity_bow',
       },
     })
-    .id("avaritia:infinity_bow");
+    .id('avaritia:infinity_bow');
 });

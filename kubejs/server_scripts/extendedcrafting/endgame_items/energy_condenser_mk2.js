@@ -1,75 +1,75 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Energy Condenser MK2
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "ABBBBBBBC",
-        "BDEFFFEDB",
-        "BEGDHDGEB",
-        "BIJKHKJIB",
-        "BILMNMLIB",
-        "BIJKHKJIB",
-        "BEGDHDGEB",
-        "BDEIIIEDB",
-        "OBBBBBBBP",
+        'ABBBBBBBC',
+        'BDEFFFEDB',
+        'BEGDHDGEB',
+        'BIJKHKJIB',
+        'BILMNMLIB',
+        'BIJKHKJIB',
+        'BEGDHDGEB',
+        'BDEIIIEDB',
+        'OBBBBBBBP',
       ],
       key: {
         A: {
-          item: "extradisks:1048576k_storage_disk",
+          item: 'extradisks:1048576k_storage_disk',
         },
         B: {
-          item: "projecte:dark_matter",
+          item: 'projecte:dark_matter',
         },
         C: {
-          item: "extradisks:1048576k_storage_disk",
+          item: 'extradisks:1048576k_storage_disk',
         },
         D: {
-          item: "projecte:red_matter",
+          item: 'projecte:red_matter',
         },
         E: {
-          item: "compressium:obsidian_5",
+          item: 'compressium:obsidian_5',
         },
         F: {
-          type: "forge:nbt",
-          item: "sophisticatedstorage:diamond_chest",
+          type: 'forge:nbt',
+          item: 'sophisticatedstorage:diamond_chest',
           count: 1,
           nbt: '{woodType:"oak"}',
         },
         G: {
-          item: "ae2additions:disk_item_65536k",
+          item: 'ae2additions:disk_item_65536k',
         },
         H: {
-          item: "cyclic:user",
+          item: 'cyclic:user',
         },
         I: {
-          item: "draconicevolution:infused_obsidian",
+          item: 'draconicevolution:infused_obsidian',
         },
         J: {
-          item: "cyclic:charm_creeper",
+          item: 'cyclic:charm_creeper',
         },
         K: {
-          item: "projectexpansion:blue_matter",
+          item: 'projectexpansion:blue_matter',
         },
         L: {
-          item: "mutantmonsters:creeper_shard",
+          item: 'mutantmonsters:creeper_shard',
         },
         M: {
-          item: "enderio:extraction_speed_upgrade_4",
+          item: 'enderio:extraction_speed_upgrade_4',
         },
         N: {
-          item: "projecte:condenser_mk1",
+          item: 'projecte:condenser_mk1',
         },
         O: {
-          item: "extradisks:1048576k_storage_disk",
+          item: 'extradisks:1048576k_storage_disk',
         },
         P: {
-          item: "extradisks:1048576k_storage_disk",
+          item: 'extradisks:1048576k_storage_disk',
         },
       },
       result: {
-        item: "projecte:condenser_mk2",
+        item: 'projecte:condenser_mk2',
       },
     })
-    .id("projecte:condenser_mk2");
+    .id('projecte:condenser_mk2');
 });

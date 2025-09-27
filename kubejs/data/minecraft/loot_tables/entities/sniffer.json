@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": {
-        "type": "minecraft:binomial",
-        "n": 1,
-        "p": 0.5
-      },
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torchflower_seeds"
+            "rolls": {
+                "type": "minecraft:binomial",
+                "n": 1,
+                "p": 0.5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:torchflower_seeds"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "random_sequence": "minecraft:entities/sniffer"
+    ],
+    "random_sequence": "minecraft:entities/sniffer"
 }

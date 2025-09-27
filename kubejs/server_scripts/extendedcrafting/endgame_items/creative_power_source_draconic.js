@@ -1,105 +1,105 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Creative Power Source Draconic Evolution
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "ABACDEFGA",
-        "GAGHDIGAB",
-        "FGJHKHEGA",
-        "EIHLMNHHO",
-        "DDPQRSTDD",
-        "UHHVWXHIE",
-        "AGEHYHJGF",
-        "BAGIDHGAG",
-        "AGFEDZABA",
+        'ABACDEFGA',
+        'GAGHDIGAB',
+        'FGJHKHEGA',
+        'EIHLMNHHO',
+        'DDPQRSTDD',
+        'UHHVWXHIE',
+        'AGEHYHJGF',
+        'BAGIDHGAG',
+        'AGFEDZABA',
       ],
       key: {
         A: {
-          item: "draconicevolution:awakened_draconium_block",
+          item: 'draconicevolution:awakened_draconium_block',
         },
         B: {
-          item: "draconicevolution:chaos_shard",
+          item: 'draconicevolution:chaos_shard',
         },
         C: {
-          item: "draconicadditions:infused_potato_helm",
+          item: 'draconicadditions:infused_potato_helm',
         },
         D: {
-          item: "draconicevolution:chaotic_core",
+          item: 'draconicevolution:chaotic_core',
         },
         E: {
-          item: "draconicevolution:draconic_wireless_crystal",
+          item: 'draconicevolution:draconic_wireless_crystal',
         },
         F: {
-          item: "draconicevolution:chaotic_capacitor",
+          item: 'draconicevolution:chaotic_capacitor',
         },
         G: {
-          item: "kubejs:infinity_12",
+          item: 'kubejs:infinity_12',
         },
         H: {
-          item: "avaritia:infinity_ingot",
+          item: 'avaritia:infinity_ingot',
         },
         I: {
-          item: "draconicevolution:chaotic_crafting_injector",
+          item: 'draconicevolution:chaotic_crafting_injector',
         },
         J: {
-          item: "draconicadditions:chaotic_harness",
+          item: 'draconicadditions:chaotic_harness',
         },
         K: {
-          item: "draconicevolution:reactor_stabilizer",
+          item: 'draconicevolution:reactor_stabilizer',
         },
         L: {
-          item: "draconicevolution:chaotic_sword",
+          item: 'draconicevolution:chaotic_sword',
         },
         M: {
-          item: "draconicevolution:chaotic_pickaxe",
+          item: 'draconicevolution:chaotic_pickaxe',
         },
         N: {
-          item: "draconicevolution:chaotic_axe",
+          item: 'draconicevolution:chaotic_axe',
         },
         O: {
-          item: "draconicadditions:infused_potato_chest",
+          item: 'draconicadditions:infused_potato_chest',
         },
         P: {
-          item: "draconicadditions:chaotic_necklace",
+          item: 'draconicadditions:chaotic_necklace',
         },
         Q: {
-          item: "draconicevolution:chaotic_staff",
+          item: 'draconicevolution:chaotic_staff',
         },
         R: {
-          item: "draconicevolution:reactor_core",
+          item: 'draconicevolution:reactor_core',
         },
         S: {
-          item: "draconicevolution:chaotic_chestpiece",
+          item: 'draconicevolution:chaotic_chestpiece',
         },
         T: {
-          type: "forge:nbt",
-          item: "draconicadditions:chaos_container",
+          type: 'forge:nbt',
+          item: 'draconicadditions:chaos_container',
           count: 1,
-          nbt: "{cheatCheck:513912L}",
+          nbt: '{cheatCheck:513912L}',
         },
         U: {
-          item: "draconicadditions:infused_potato_legs",
+          item: 'draconicadditions:infused_potato_legs',
         },
         V: {
-          item: "draconicevolution:chaotic_shovel",
+          item: 'draconicevolution:chaotic_shovel',
         },
         W: {
-          item: "draconicevolution:chaotic_hoe",
+          item: 'draconicevolution:chaotic_hoe',
         },
         X: {
-          item: "draconicevolution:chaotic_bow",
+          item: 'draconicevolution:chaotic_bow',
         },
         Y: {
-          item: "draconicevolution:reactor_injector",
+          item: 'draconicevolution:reactor_injector',
         },
         Z: {
-          item: "draconicadditions:infused_potato_boots",
+          item: 'draconicadditions:infused_potato_boots',
         },
       },
       result: {
-        item: "draconicevolution:creative_op_capacitor",
+        item: 'draconicevolution:creative_op_capacitor',
       },
     })
-    .id("draconicevolution:creative_op_capacitor");
+    .id('draconicevolution:creative_op_capacitor');
 });

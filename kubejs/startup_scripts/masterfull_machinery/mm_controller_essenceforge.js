@@ -1,6 +1,6 @@
-MMEvents.registerControllers(event => {
+MMEvents.registerControllers((event) => {
   event
-    .create("essenceforge_controller")
-    .name("Essenceforge Controller")
-    .type("mm:machine");
+    .create('essenceforge_controller')
+    .name('Essenceforge Controller')
+    .type('mm:machine');
 });

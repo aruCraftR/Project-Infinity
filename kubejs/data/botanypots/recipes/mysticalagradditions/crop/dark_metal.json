@@ -3,9 +3,7 @@
     "seed": {
         "item": "mysticalagriculture:dark_metal_ingot_seeds"
     },
-    "categories": [
-        "dark_metal_block"
-    ],
+    "categories": ["dark_metal_block"],
     "growthTicks": 4800,
     "display": {
         "type": "botanypots:aging",
@@ -13,7 +11,7 @@
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "mysticalagriculture:dark_metal_ingot_essence"
             }

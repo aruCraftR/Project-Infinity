@@ -2,25 +2,21 @@
     "bookshelf:load_conditions": [
         {
             "type": "bookshelf:item_exists",
-            "values": [
-                "thermal:rubberwood_sapling"
-            ]
+            "values": ["thermal:rubberwood_sapling"]
         }
     ],
     "type": "botanypots:crop",
     "seed": {
         "item": "thermal:rubberwood_sapling"
     },
-    "categories": [
-        "dirt"
-    ],
+    "categories": ["dirt"],
     "growthTicks": 2400,
     "display": {
         "block": "thermal:rubberwood_sapling"
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "thermal:rubberwood_log"
             },

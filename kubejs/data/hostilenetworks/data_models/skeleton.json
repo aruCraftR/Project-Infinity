@@ -1,8 +1,6 @@
 {
     "entity": "minecraft:skeleton",
-    "variants": [
-        "minecraft:stray"
-    ],
+    "variants": ["minecraft:stray"],
     "name": "entity.minecraft.skeleton",
     "name_color": "#BCBCBC",
     "gui_scale": 1,

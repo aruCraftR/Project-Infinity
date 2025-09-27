@@ -1,4 +1,4 @@
-MoreJSEvents.registerPotionBrewing(event => {
+MoreJSEvents.registerPotionBrewing((event) => {
   /**
    * Removes all potions where an awkward potion is used as theb base potion ingredient.
    * 1. Argument: The input potion id to filter.
@@ -6,18 +6,18 @@ MoreJSEvents.registerPotionBrewing(event => {
    * 3. Argument: The result potion id to filter.
    * Passing `null` counts as a wildcard.
    */
-  event.removeByPotion(null, "minecraft:popped_chorus_fruit", null);
+  event.removeByPotion(null, 'minecraft:popped_chorus_fruit', null);
 });
 
 const tabs = [
-  "actuallyadditions:tab",
-  "advanced_ae:tab",
+  'actuallyadditions:tab',
+  'advanced_ae:tab',
   // 'advancednetherite:tab',
   // 'ae2:facades',
   // 'ae2:main',
-  "ae2additions:main",
-  "ae2insertexportcard:ae2insertexportcard",
-  "ae2wtlib:main",
+  'ae2additions:main',
+  'ae2insertexportcard:ae2insertexportcard',
+  'ae2wtlib:main',
   // 'aeinfinitybooster:aeinfinitybooster',
   // 'aether:armor_and_accessories',
   // 'aether:building_blocks',
@@ -43,12 +43,12 @@ const tabs = [
   // 'avaritia:avaritiatab',
   // 'better_angel_ring:better_angel_ring',
   // 'bhc:bhc_tab',
-  "bigger_ae2:bigger_ae2",
+  'bigger_ae2:bigger_ae2',
   // 'bigreactors:tab.general',
   // 'bigreactors:tab.reactor',
   // 'bigreactors:tab.turbine',
-  "bloodmagic:bloodmagic",
-  "bloodmagic:bloodmagic_upgrades",
+  'bloodmagic:bloodmagic',
+  'bloodmagic:bloodmagic_upgrades',
   // 'born_in_chaos_v1:block_borin_chaos',
   // 'born_in_chaos_v1:bornin_chaos_customization',
   // 'born_in_chaos_v1:bornin_chaos_items',
@@ -104,8 +104,8 @@ const tabs = [
   // 'exdeorum:main',
   // 'expatternprovider:tab_main',
   // 'extendedcrafting:creative_tab',
-  "extradisks:general",
-  "extrastorage:main_tab",
+  'extradisks:general',
+  'extrastorage:main_tab',
   // 'fluxnetworks:tab',
   // 'ftbfiltersystem:default',
   // 'ftbquests:default',
@@ -131,7 +131,7 @@ const tabs = [
   // 'kubejs:tab',
   // 'laserio:laserio',
   // 'matc:matc',
-  "megacells:tab",
+  'megacells:tab',
   // 'mekanism:mekanism',
   // 'mekanismadditions:mekanismadditions',
   // 'mekanismgenerators:mekanismgenerators',
@@ -170,7 +170,7 @@ const tabs = [
   // 'nuclearcraft:nc_parts',
   // 'nuclearcraft:turbine',
   // 'obtrophies:trophies',
-  "occultism:occultism",
+  'occultism:occultism',
   // 'outer_end:outer_end_tab',
   // 'packagedauto:tab',
   // 'packagedexcrafting:tab',
@@ -185,13 +185,13 @@ const tabs = [
   // 'projectextended:projectextended',
   // 'quartz:creative_tab',
   // 'rebornstorage:creative_tab',
-  "redstone_arsenal:redstone_arsenal",
-  "refinedstorage:general",
-  "refinedstorageaddons:general",
+  'redstone_arsenal:redstone_arsenal',
+  'refinedstorage:general',
+  'refinedstorageaddons:general',
   // 'rftoolsbase:rftoolsbase',
   // 'rftoolsbase:rftoolsbuilder',
   // 'rftoolscontrol:rftoolscontrol',
-  "rftoolsdim:rftoolsdim",
+  'rftoolsdim:rftoolsdim',
   // 'rftoolspower:rftoolspower',
   // 'rftoolsstorage:rftoolsstorage',
   // 'rftoolsutility:rftoolsutility',
@@ -213,16 +213,16 @@ const tabs = [
   // 'tconstruct:tools',
   // 'tconstruct:world',
   // 'telepastries:tab',
-  "thermal:thermal.blocks",
-  "thermal:thermal.devices",
-  "thermal:thermal.foods",
-  "thermal:thermal.items",
-  "thermal:thermal.tools",
-  "thermal_extra:augments",
-  "thermal_extra:machines",
-  "thermal_extra:resources",
-  "thermal_processing:thermal_processing",
-  "thermalendergy:base",
+  'thermal:thermal.blocks',
+  'thermal:thermal.devices',
+  'thermal:thermal.foods',
+  'thermal:thermal.items',
+  'thermal:thermal.tools',
+  'thermal_extra:augments',
+  'thermal_extra:machines',
+  'thermal_extra:resources',
+  'thermal_processing:thermal_processing',
+  'thermalendergy:base',
   // 'torchmaster:creative_tab',
   // 'twilightforest:blocks',
   // 'twilightforest:equipment',
@@ -230,14 +230,14 @@ const tabs = [
   // 'undead_revamp2:theundeadcreative',
   // 'undergarden:undergarden_group',
   // 'universalgrid:universalgrid',
-  "valkyrielib:main",
+  'valkyrielib:main',
   // 'voidminers:items',
   // 'waystones:waystones',
   // 'xnet:xnet'
 ];
 
-tabs.forEach(tab => {
-  StartupEvents.modifyCreativeTab(tab, event => {
+tabs.forEach((tab) => {
+  StartupEvents.modifyCreativeTab(tab, (event) => {
     event.remove(/.*/);
   });
 });

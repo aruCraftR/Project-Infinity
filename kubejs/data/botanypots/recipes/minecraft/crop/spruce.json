@@ -3,16 +3,14 @@
     "seed": {
         "item": "minecraft:spruce_sapling"
     },
-    "categories": [
-        "dirt"
-    ],
+    "categories": ["dirt"],
     "growthTicks": 2400,
     "display": {
         "block": "minecraft:spruce_sapling"
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "minecraft:spruce_log"
             },
@@ -20,7 +18,7 @@
             "maxRolls": 4
         },
         {
-            "chance": 0.10,
+            "chance": 0.1,
             "output": {
                 "item": "minecraft:stick"
             },

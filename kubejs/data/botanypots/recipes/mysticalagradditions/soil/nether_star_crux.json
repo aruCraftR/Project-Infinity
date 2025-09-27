@@ -6,8 +6,6 @@
     "display": {
         "block": "mysticalagradditions:nether_star_crux"
     },
-    "categories": [
-        "nether_star_crux"
-    ],
+    "categories": ["nether_star_crux"],
     "growthModifier": 1.66
 }

@@ -1,6 +1,4 @@
 {
-  "replace": false,
-  "values": [
-    "betterfortresses:fortress"
-  ]
+    "replace": false,
+    "values": ["betterfortresses:fortress"]
 }

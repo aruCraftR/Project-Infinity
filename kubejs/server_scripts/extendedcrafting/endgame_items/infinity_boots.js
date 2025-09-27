@@ -1,150 +1,150 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Infinity Armor Boots
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "ABBBCBBBD",
-        "EBFBGBFBH",
-        "IBFBJBFBK",
-        "BBFBLBFBM",
-        "BFFBNBFFB",
-        "BBBBOBBBB",
-        "PQRSTUVWX",
-        "YZabcdefg",
-        "hijklmnop",
+        'ABBBCBBBD',
+        'EBFBGBFBH',
+        'IBFBJBFBK',
+        'BBFBLBFBM',
+        'BFFBNBFFB',
+        'BBBBOBBBB',
+        'PQRSTUVWX',
+        'YZabcdefg',
+        'hijklmnop',
       ],
       key: {
         A: {
-          item: "mysticalagriculture:inferium_boots",
+          item: 'mysticalagriculture:inferium_boots',
         },
         B: {
-          item: "avaritia:neutron_ingot",
+          item: 'avaritia:neutron_ingot',
         },
         C: {
-          item: "mysticalagriculture:prudentium_boots",
+          item: 'mysticalagriculture:prudentium_boots',
         },
         D: {
-          item: "mysticalagriculture:tertium_boots",
+          item: 'mysticalagriculture:tertium_boots',
         },
         E: {
-          item: "mysticalagriculture:imperium_boots",
+          item: 'mysticalagriculture:imperium_boots',
         },
         F: {
-          item: "avaritia:infinity_ingot",
+          item: 'avaritia:infinity_ingot',
         },
         G: {
-          item: "mysticalagriculture:supremium_boots",
+          item: 'mysticalagriculture:supremium_boots',
         },
         H: {
-          item: "mysticalagriculture:awakened_supremium_boots",
+          item: 'mysticalagriculture:awakened_supremium_boots',
         },
         I: {
-          item: "mysticaladaptations:insanium_boots",
+          item: 'mysticaladaptations:insanium_boots',
         },
         J: {
-          item: "redstone_arsenal:flux_boots",
+          item: 'redstone_arsenal:flux_boots',
         },
         K: {
-          item: "draconicadditions:infused_potato_boots",
+          item: 'draconicadditions:infused_potato_boots',
         },
         L: {
-          item: "born_in_chaos_v1:nightmare_mantleofthe_night_boots",
+          item: 'born_in_chaos_v1:nightmare_mantleofthe_night_boots',
         },
         M: {
-          item: "born_in_chaos_v1:dark_metal_armor_boots",
+          item: 'born_in_chaos_v1:dark_metal_armor_boots',
         },
         N: {
-          item: "twilightforest:yeti_boots",
+          item: 'twilightforest:yeti_boots',
         },
         O: {
-          item: "kubejs:infinity_12",
+          item: 'kubejs:infinity_12',
         },
         P: {
-          item: "twilightforest:knightmetal_boots",
+          item: 'twilightforest:knightmetal_boots',
         },
         Q: {
-          item: "armorplus:redstone_boots",
+          item: 'armorplus:redstone_boots',
         },
         R: {
-          item: "armorplus:infused_lava_boots",
+          item: 'armorplus:infused_lava_boots',
         },
         S: {
-          item: "armorplus:guardian_boots",
+          item: 'armorplus:guardian_boots',
         },
         T: {
-          item: "armorplus:super_star_boots",
+          item: 'armorplus:super_star_boots',
         },
         U: {
-          item: "projecte:dm_boots",
+          item: 'projecte:dm_boots',
         },
         V: {
-          item: "projecte:rm_boots",
+          item: 'projecte:rm_boots',
         },
         W: {
-          item: "twilightforest:fiery_boots",
+          item: 'twilightforest:fiery_boots',
         },
         X: {
-          item: "dimensionalpocketsii:dimensional_boots",
+          item: 'dimensionalpocketsii:dimensional_boots',
         },
         Y: {
-          item: "dimensionalpocketsii:dimensional_boots_enhanced",
+          item: 'dimensionalpocketsii:dimensional_boots_enhanced',
         },
         Z: {
-          item: "thermal:diving_boots",
+          item: 'thermal:diving_boots',
         },
         a: {
-          item: "cyclic:crystal_boots",
+          item: 'cyclic:crystal_boots',
         },
         b: {
-          item: "thermal_extra:signalum_boots",
+          item: 'thermal_extra:signalum_boots',
         },
         c: {
-          item: "cataclysm:ignitium_boots",
+          item: 'cataclysm:ignitium_boots',
         },
         d: {
-          item: "allthemodium:allthemodium_boots",
+          item: 'allthemodium:allthemodium_boots',
         },
         e: {
-          item: "allthemodium:vibranium_boots",
+          item: 'allthemodium:vibranium_boots',
         },
         f: {
-          item: "allthemodium:unobtainium_boots",
+          item: 'allthemodium:unobtainium_boots',
         },
         g: {
-          item: "twilightforest:steeleaf_boots",
+          item: 'twilightforest:steeleaf_boots',
         },
         h: {
-          item: "pneumaticcraft:compressed_iron_boots",
+          item: 'pneumaticcraft:compressed_iron_boots',
         },
         i: {
-          item: "pneumaticcraft:pneumatic_boots",
+          item: 'pneumaticcraft:pneumatic_boots',
         },
         j: {
-          item: "draconicadditions:infused_potato_boots",
+          item: 'draconicadditions:infused_potato_boots',
         },
         k: {
-          item: "advanced_ae:quantum_boots",
+          item: 'advanced_ae:quantum_boots',
         },
         l: {
-          item: "advancednetherite:netherite_diamond_boots",
+          item: 'advancednetherite:netherite_diamond_boots',
         },
         m: {
-          item: "aether:gravitite_boots",
+          item: 'aether:gravitite_boots',
         },
         n: {
-          item: "thermal:hazmat_boots",
+          item: 'thermal:hazmat_boots',
         },
         o: {
-          item: "aether:valkyrie_boots",
+          item: 'aether:valkyrie_boots',
         },
         p: {
-          item: "armorplus:frost_lava_boots",
+          item: 'armorplus:frost_lava_boots',
         },
       },
       result: {
-        item: "avaritia:infinity_boots",
+        item: 'avaritia:infinity_boots',
       },
     })
-    .id("avaritia:infinity_boots");
+    .id('avaritia:infinity_boots');
 });

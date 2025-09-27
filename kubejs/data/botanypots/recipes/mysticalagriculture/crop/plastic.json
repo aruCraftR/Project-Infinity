@@ -3,9 +3,7 @@
     "seed": {
         "item": "mysticalagriculture:plastic_seeds"
     },
-    "categories": [
-        "prudentium"
-    ],
+    "categories": ["prudentium"],
     "growthTicks": 2400,
     "display": {
         "type": "botanypots:aging",
@@ -13,7 +11,7 @@
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "mysticalagriculture:plastic_essence"
             }

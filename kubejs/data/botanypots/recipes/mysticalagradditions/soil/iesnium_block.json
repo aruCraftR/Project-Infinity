@@ -6,8 +6,6 @@
     "display": {
         "block": "occultism:iesnium_block"
     },
-    "categories": [
-        "iesnium_block"
-    ],
+    "categories": ["iesnium_block"],
     "growthModifier": 1.66
 }

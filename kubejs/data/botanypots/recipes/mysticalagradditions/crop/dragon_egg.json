@@ -3,9 +3,7 @@
     "seed": {
         "item": "mysticalagriculture:dragon_egg_seeds"
     },
-    "categories": [
-        "dragon_egg_crux"
-    ],
+    "categories": ["dragon_egg_crux"],
     "growthTicks": 4800,
     "display": {
         "type": "botanypots:aging",
@@ -13,7 +11,7 @@
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "mysticalagriculture:dragon_egg_essence"
             }

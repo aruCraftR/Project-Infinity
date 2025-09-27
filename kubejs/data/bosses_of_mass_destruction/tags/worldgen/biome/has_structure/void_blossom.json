@@ -1,7 +1,7 @@
 {
-  "values": [
-    "minecraft:sparse_jungle",
-    "minecraft:beach",
-    "minecraft:lukewarm_ocean"
-  ]
+    "values": [
+        "minecraft:sparse_jungle",
+        "minecraft:beach",
+        "minecraft:lukewarm_ocean"
+    ]
 }

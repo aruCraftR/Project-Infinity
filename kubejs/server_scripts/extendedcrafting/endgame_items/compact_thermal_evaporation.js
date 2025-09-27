@@ -1,45 +1,45 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Compact Thermal Evaporation Plant
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "AABBBBBAA",
-        "AACCCCCAA",
-        "AADEDEDAA",
-        "AAEFEFEAA",
-        "AAFDFDFAA",
-        "AAEFEFEAA",
-        "AADEDEDAA",
-        "AACCCCCAA",
-        "AAAAGAAAA",
+        'AABBBBBAA',
+        'AACCCCCAA',
+        'AADEDEDAA',
+        'AAEFEFEAA',
+        'AAFDFDFAA',
+        'AAEFEFEAA',
+        'AADEDEDAA',
+        'AACCCCCAA',
+        'AAAAGAAAA',
       ],
       key: {
         A: {
-          item: "mekanism:thermal_evaporation_block",
+          item: 'mekanism:thermal_evaporation_block',
         },
         B: {
-          item: "mekanism:thermal_evaporation_valve",
+          item: 'mekanism:thermal_evaporation_valve',
         },
         C: {
-          item: "voidminers:structure_panel",
+          item: 'voidminers:structure_panel',
         },
         D: {
-          item: "mekanism:alloy_reinforced",
+          item: 'mekanism:alloy_reinforced',
         },
         E: {
-          item: "mekanism:alloy_atomic",
+          item: 'mekanism:alloy_atomic',
         },
         F: {
-          item: "evolvedmekanism:alloy_hypercharged",
+          item: 'evolvedmekanism:alloy_hypercharged',
         },
         G: {
-          item: "mekanism:thermal_evaporation_controller",
+          item: 'mekanism:thermal_evaporation_controller',
         },
       },
       result: {
-        item: "compactmekanismmachines:compact_thermal_evaporation",
+        item: 'compactmekanismmachines:compact_thermal_evaporation',
       },
     })
-    .id("compactmekanismmachines:compact_thermal_evaporation");
+    .id('compactmekanismmachines:compact_thermal_evaporation');
 });

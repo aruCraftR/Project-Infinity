@@ -1,35 +1,35 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Merger Camera
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
-      pattern: ["ABCBA", "DCBCD", "CEFEC", "DCGCD", "AGCGA"],
+      type: 'extendedcrafting:shaped_table',
+      pattern: ['ABCBA', 'DCBCD', 'CEFEC', 'DCGCD', 'AGCGA'],
       key: {
         A: {
-          item: "extrahnn:blank_extra_data_model",
+          item: 'extrahnn:blank_extra_data_model',
         },
         B: {
-          item: "minecraft:comparator",
+          item: 'minecraft:comparator',
         },
         C: {
-          item: "minecraft:netherite_block",
+          item: 'minecraft:netherite_block',
         },
         D: {
-          item: "extrahnn:ultimate_loot_fabricator",
+          item: 'extrahnn:ultimate_loot_fabricator',
         },
         E: {
-          item: "minecraft:ender_eye",
+          item: 'minecraft:ender_eye',
         },
         F: {
-          item: "kubejs:infinity_1",
+          item: 'kubejs:infinity_1',
         },
         G: {
-          item: "minecraft:diamond",
+          item: 'minecraft:diamond',
         },
       },
       result: {
-        item: "extrahnn:merger_camera",
+        item: 'extrahnn:merger_camera',
       },
     })
-    .id("extrahnn:merger_camera");
+    .id('extrahnn:merger_camera');
 });

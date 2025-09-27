@@ -1,24 +1,24 @@
-JEIEvents.hideItems(event => {
+JEIEvents.hideItems((event) => {
   const colors = [
-    "white",
-    "orange",
-    "magenta",
-    "light_blue",
-    "yellow",
-    "lime",
-    "pink",
-    "gray",
-    "light_gray",
-    "cyan",
-    "purple",
-    "blue",
-    "brown",
-    "green",
-    "red",
-    "black",
+    'white',
+    'orange',
+    'magenta',
+    'light_blue',
+    'yellow',
+    'lime',
+    'pink',
+    'gray',
+    'light_gray',
+    'cyan',
+    'purple',
+    'blue',
+    'brown',
+    'green',
+    'red',
+    'black',
   ];
 
-  colors.forEach(color => {
+  colors.forEach((color) => {
     event.hide(`botanypots:${color}_terracotta_botany_pot`);
     event.hide(`botanypots:${color}_terracotta_hopper_botany_pot`);
     event.hide(`botanypots:${color}_concrete_botany_pot`);

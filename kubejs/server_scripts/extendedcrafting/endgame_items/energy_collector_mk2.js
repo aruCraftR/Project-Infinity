@@ -1,32 +1,32 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Energy Collector Mk2
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
-      pattern: ["AAAAA", "ABCBA", "ADEDA", "ABFBA", "AAAAA"],
+      type: 'extendedcrafting:shaped_table',
+      pattern: ['AAAAA', 'ABCBA', 'ADEDA', 'ABFBA', 'AAAAA'],
       key: {
         A: {
-          item: "minecraft:glowstone",
+          item: 'minecraft:glowstone',
         },
         B: {
-          item: "kubejs:infinity_8",
+          item: 'kubejs:infinity_8',
         },
         C: {
-          item: "minecraft:black_stained_glass",
+          item: 'minecraft:black_stained_glass',
         },
         D: {
-          item: "projectexpansion:pink_matter",
+          item: 'projectexpansion:pink_matter',
         },
         E: {
-          item: "projecte:collector_mk1",
+          item: 'projecte:collector_mk1',
         },
         F: {
-          item: "mysticaladaptations:insanium_furnace",
+          item: 'mysticaladaptations:insanium_furnace',
         },
       },
       result: {
-        item: "projecte:collector_mk2",
+        item: 'projecte:collector_mk2',
       },
     })
-    .id("projecte:collector_mk2");
+    .id('projecte:collector_mk2');
 });

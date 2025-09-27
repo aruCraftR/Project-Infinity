@@ -1,6 +1,6 @@
-MMEvents.registerControllers(event => {
+MMEvents.registerControllers((event) => {
   event
-    .create("auto_sieve_controller")
-    .name("Auto Sieve Machine Controller")
-    .type("mm:machine");
+    .create('auto_sieve_controller')
+    .name('Auto Sieve Machine Controller')
+    .type('mm:machine');
 });
