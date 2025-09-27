@@ -1,34 +1,33 @@
-priority: 1
+priority: 1;
 MMEvents.createStructures(event => {
   event
-    .create('mm:infinity_crucible_structure')
-    .controllerId('mm:infinity_crucible_controller')
-    .name('Infinity Crucible')
+    .create("mm:infinity_crucible_structure")
+    .controllerId("mm:infinity_crucible_controller")
+    .name("Infinity Crucible")
     .layout(a => {
-      a.
-        layer([
-          "          Z          ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "         LLL         ",
-          "Z        LKL        Z",
-          "         LLL         ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "                     ",
-          "          Z          "
-        ])
+      a.layer([
+        "          Z          ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "         LLL         ",
+        "Z        LKL        Z",
+        "         LLL         ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "                     ",
+        "          Z          ",
+      ])
         .layer([
           "          X          ",
           "                     ",
@@ -50,7 +49,7 @@ MMEvents.createStructures(event => {
           "                     ",
           "                     ",
           "                     ",
-          "          X          "
+          "          X          ",
         ])
         .layer([
           "          X          ",
@@ -73,7 +72,7 @@ MMEvents.createStructures(event => {
           "                     ",
           "                     ",
           "                     ",
-          "          X          "
+          "          X          ",
         ])
         .layer([
           "NNNNNNNNNNNNNNNNNNNNN",
@@ -96,7 +95,7 @@ MMEvents.createStructures(event => {
           "N                   N",
           "N                   N",
           "N                   N",
-          "NNNNNNNNNNNNNNNNNNNNN"
+          "NNNNNNNNNNNNNNNNNNNNN",
         ])
         .layer([
           "NMMMMMMMVSTURMMMMMMMN",
@@ -119,7 +118,7 @@ MMEvents.createStructures(event => {
           "M                   M",
           "M                   M",
           "M                   M",
-          "NMMMMMMMRUTSVMMMMMMMN"
+          "NMMMMMMMRUTSVMMMMMMMN",
         ])
         .layer([
           "NMMMMMMMBBBBBMMMMMMMN",
@@ -142,7 +141,7 @@ MMEvents.createStructures(event => {
           "M                   M",
           "M                   M",
           "M                   M",
-          "NMFFFFFMBBBBBMBBBBBMN"
+          "NMFFFFFMBBBBBMBBBBBMN",
         ])
         .layer([
           "NMMMMMMMBLLLBMMMMMMMN",
@@ -165,7 +164,7 @@ MMEvents.createStructures(event => {
           "M                   M",
           "M                   M",
           "M                   M",
-          "NMF   FMBLLLBMB   BMN"
+          "NMF   FMBLLLBMB   BMN",
         ])
         .layer([
           "NMMMMMMMBLKLBMMMMMMMN",
@@ -188,7 +187,7 @@ MMEvents.createStructures(event => {
           "M                   M",
           "M                   M",
           "M                   M",
-          "NMF   FMBLKLBMB   BMN"
+          "NMF   FMBLKLBMB   BMN",
         ])
         .layer([
           "NMMMMMMMBLLLBMMMMMMMN",
@@ -211,7 +210,7 @@ MMEvents.createStructures(event => {
           "M                   M",
           "M                   M",
           "M                   M",
-          "NMF   FMBLLLBMB   BMN"
+          "NMF   FMBLLLBMB   BMN",
         ])
         .layer([
           "AAAAAAAABBBBBAAAAAAAA",
@@ -234,79 +233,79 @@ MMEvents.createStructures(event => {
           "AEEDEEEEEEFEEEEEEDEEA",
           "AEBEBEBEBEFEBEBEBEBEA",
           "ADEEEEEEEEFEEEEEEEEDA",
-          "AAAAAAAABBBBBAAAAAAAA"
+          "AAAAAAAABBBBBAAAAAAAA",
         ])
-        .key('A', {
-          block: "mysticalagriculture:witherproof_block"
+        .key("A", {
+          block: "mysticalagriculture:witherproof_block",
         })
-        .key('B', {
-          block: "dimdoors:black_fabric"
+        .key("B", {
+          block: "dimdoors:black_fabric",
         })
-        .key('D', {
-          block: "draconicevolution:awakened_draconium_block"
+        .key("D", {
+          block: "draconicevolution:awakened_draconium_block",
         })
-        .key('E', {
-          block: "kubejs:starmetal_block"
+        .key("E", {
+          block: "kubejs:starmetal_block",
         })
-        .key('F', {
-          block: "dimdoors:white_fabric"
+        .key("F", {
+          block: "dimdoors:white_fabric",
         })
-        .key('G', {
-          block: "actuallyadditions:black_quartz_brick_block"
+        .key("G", {
+          block: "actuallyadditions:black_quartz_brick_block",
         })
-        .key('H', {
-          block: "dimdoors:gray_fabric"
+        .key("H", {
+          block: "dimdoors:gray_fabric",
         })
-        .key('I', {
-          block: "draconicevolution:draconium_block"
+        .key("I", {
+          block: "draconicevolution:draconium_block",
         })
-        .key('J', {
-          block: "draconicevolution:reactor_stabilizer"
+        .key("J", {
+          block: "draconicevolution:reactor_stabilizer",
         })
-        .key('K', {
-          block: "draconicevolution:energy_core_stabilizer"
+        .key("K", {
+          block: "draconicevolution:energy_core_stabilizer",
         })
-        .key('L', {
-          tag: "draconicevolution:core_stabilizer"
+        .key("L", {
+          tag: "draconicevolution:core_stabilizer",
         })
-        .key('M', {
-          block: "tconstruct:clear_glass"
+        .key("M", {
+          block: "tconstruct:clear_glass",
         })
-        .key('N', {
-          block: "mysticalagriculture:witherproof_bricks"
+        .key("N", {
+          block: "mysticalagriculture:witherproof_bricks",
         })
-        .key('P', {
-          block: "igleelib:derium_block"
+        .key("P", {
+          block: "igleelib:derium_block",
         })
-        .key('Q', {
-          block: "kubejs:chaotic_essence_block"
+        .key("Q", {
+          block: "kubejs:chaotic_essence_block",
         })
-        .key('R', {
-          block: "mm:gigantic_energy_port_input"
+        .key("R", {
+          block: "mm:gigantic_energy_port_input",
         })
-        .key('S', {
-          block: "mm:colossal_item_port_input"
+        .key("S", {
+          block: "mm:colossal_item_port_input",
         })
-        .key('T', {
-          block: "chisel_chipped_integration:factory_blue_wireframe"
+        .key("T", {
+          block: "chisel_chipped_integration:factory_blue_wireframe",
         })
-        .key('U', {
-          block: "mm:colossal_item_port_output"
+        .key("U", {
+          block: "mm:colossal_item_port_output",
         })
-        .key('V', {
-          block: "mm:colossal_gas_port_input"
+        .key("V", {
+          block: "mm:colossal_gas_port_input",
         })
-        .key('W', {
-          block: "minecraft:redstone_block"
+        .key("W", {
+          block: "minecraft:redstone_block",
         })
-        .key('X', {
-          block: "minecraft:crying_obsidian"
+        .key("X", {
+          block: "minecraft:crying_obsidian",
         })
-        .key('Y', {
-          block: "cyclic:beacon_redstone"
+        .key("Y", {
+          block: "cyclic:beacon_redstone",
         })
-        .key('Z', {
-          block: "minecraft:end_rod"
-        })
-    })
-})
+        .key("Z", {
+          block: "minecraft:end_rod",
+        });
+    });
+});

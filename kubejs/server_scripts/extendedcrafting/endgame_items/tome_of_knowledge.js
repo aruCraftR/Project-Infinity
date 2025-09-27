@@ -2,86 +2,86 @@ ServerEvents.recipes(event => {
   //Tome of Knowledge
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
+      type: "extendedcrafting:shaped_table",
       pattern: [
-        'ABCBCBCBA',
-        'DEFGHGFED',
-        'IJGKLKGJM',
-        'NFKOPOKFQ',
-        'IEPRSRPEM',
-        'NFKOPOKFQ',
-        'IJGKLKGJM',
-        'DEFGHGFED',
-        'ATUTUTUTA'
+        "ABCBCBCBA",
+        "DEFGHGFED",
+        "IJGKLKGJM",
+        "NFKOPOKFQ",
+        "IEPRSRPEM",
+        "NFKOPOKFQ",
+        "IJGKLKGJM",
+        "DEFGHGFED",
+        "ATUTUTUTA",
       ],
       key: {
         A: {
-          item: 'mob_grinding_utils:tank_sink'
+          item: "mob_grinding_utils:tank_sink",
         },
         B: {
-          item: 'cyclic:xpjuice_bucket'
+          item: "cyclic:xpjuice_bucket",
         },
         C: {
-          item: 'apotheosis:ender_library'
+          item: "apotheosis:ender_library",
         },
         D: {
-          item: 'enderio:xp_juice_bucket'
+          item: "enderio:xp_juice_bucket",
         },
         E: {
-          item: 'projectexpansion:white_matter'
+          item: "projectexpansion:white_matter",
         },
         F: {
-          item: 'avaritia:infinity_ingot'
+          item: "avaritia:infinity_ingot",
         },
         G: {
-          item: 'minecraft:popped_chorus_fruit'
+          item: "minecraft:popped_chorus_fruit",
         },
         H: {
-          item: 'draconicevolution:chaotic_core'
+          item: "draconicevolution:chaotic_core",
         },
         I: {
-          item: 'apotheosis:infused_hellshelf'
+          item: "apotheosis:infused_hellshelf",
         },
         J: {
-          item: 'megacells:cell_component_256m'
+          item: "megacells:cell_component_256m",
         },
         K: {
-          item: 'projectexpansion:fading_matter'
+          item: "projectexpansion:fading_matter",
         },
         L: {
-          item: 'avaritia:crystal_matrix'
+          item: "avaritia:crystal_matrix",
         },
         M: {
-          item: 'apotheosis:infused_seashelf'
+          item: "apotheosis:infused_seashelf",
         },
         N: {
-          item: 'expatternprovider:ex_molecular_assembler'
+          item: "expatternprovider:ex_molecular_assembler",
         },
         O: {
-          item: 'tconstruct:clear_glass'
+          item: "tconstruct:clear_glass",
         },
         P: {
-          item: 'bloodmagic:seersigil'
+          item: "bloodmagic:seersigil",
         },
         Q: {
-          item: 'ae2:molecular_assembler'
+          item: "ae2:molecular_assembler",
         },
         R: {
-          item: 'rftoolsdim:knowledge_holder'
+          item: "rftoolsdim:knowledge_holder",
         },
         S: {
-          item: 'projecte:transmutation_tablet'
+          item: "projecte:transmutation_tablet",
         },
         T: {
-          item: 'mob_grinding_utils:fluid_xp_bucket'
+          item: "mob_grinding_utils:fluid_xp_bucket",
         },
         U: {
-          item: 'kubejs:infinity_11'
-        }
+          item: "kubejs:infinity_11",
+        },
       },
       result: {
-        item: 'projecte:tome'
-      }
+        item: "projecte:tome",
+      },
     })
-    .id('projecte:tome')
-})
+    .id("projecte:tome");
+});

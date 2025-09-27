@@ -1,4 +1,4 @@
-ServerEvents.recipes((event) => {
+ServerEvents.recipes(event => {
   //Tier 1 Super Essence
   event
     .custom({

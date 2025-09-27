@@ -3,33 +3,27 @@ ServerEvents.recipes(event => {
   event
     .custom({
       type: "extendedcrafting:shaped_table",
-      pattern: [
-        "ABCBA",
-        "BDCDB",
-        "AECEA",
-        "BDCDB",
-        "ABCBA"
-      ],
+      pattern: ["ABCBA", "BDCDB", "AECEA", "BDCDB", "ABCBA"],
       key: {
         A: {
-          item: "minecraft:diamond"
+          item: "minecraft:diamond",
         },
         B: {
-          item: "minecraft:netherite_ingot"
+          item: "minecraft:netherite_ingot",
         },
         C: {
-          item: "minecraft:ender_eye"
+          item: "minecraft:ender_eye",
         },
         D: {
-          item: "hostilenetworks:sim_chamber"
+          item: "hostilenetworks:sim_chamber",
         },
         E: {
-          item: "extrahnn:blank_extra_data_model"
-        }
+          item: "extrahnn:blank_extra_data_model",
+        },
       },
       result: {
-        item: 'extrahnn:ultimate_sim_chamber'
-      }
+        item: "extrahnn:ultimate_sim_chamber",
+      },
     })
-    .id('extrahnn:ultimate_sim_chamber')
-})
+    .id("extrahnn:ultimate_sim_chamber");
+});

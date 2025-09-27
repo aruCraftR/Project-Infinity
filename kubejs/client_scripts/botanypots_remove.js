@@ -1,30 +1,57 @@
 JEIEvents.hideItems(event => {
-    const colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+  const colors = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black",
+  ];
 
-    colors.forEach(color => {
-        event.hide(`botanypots:${color}_terracotta_botany_pot`)
-        event.hide(`botanypots:${color}_terracotta_hopper_botany_pot`)
-        event.hide(`botanypots:${color}_concrete_botany_pot`)
-        event.hide(`botanypots:${color}_concrete_hopper_botany_pot`)
-        event.hide(`botanypots:${color}_glazed_terracotta_botany_pot`)
-        event.hide(`botanypots:${color}_glazed_terracotta_hopper_botany_pot`)
-        event.hide(`botanypotstiers:elite_${color}_terracotta_botany_pot`)
-        event.hide(`botanypotstiers:elite_${color}_terracotta_hopper_botany_pot`)
-        event.hide(`botanypotstiers:elite_${color}_concrete_botany_pot`)
-        event.hide(`botanypotstiers:elite_${color}_concrete_hopper_botany_pot`)
-        event.hide(`botanypotstiers:elite_${color}_glazed_terracotta_botany_pot`)
-        event.hide(`botanypotstiers:elite_${color}_glazed_terracotta_hopper_botany_pot`)
-        event.hide(`botanypotstiers:ultra_${color}_terracotta_botany_pot`)
-        event.hide(`botanypotstiers:ultra_${color}_terracotta_hopper_botany_pot`)
-        event.hide(`botanypotstiers:ultra_${color}_concrete_botany_pot`)
-        event.hide(`botanypotstiers:ultra_${color}_concrete_hopper_botany_pot`)
-        event.hide(`botanypotstiers:ultra_${color}_glazed_terracotta_botany_pot`)
-        event.hide(`botanypotstiers:ultra_${color}_glazed_terracotta_hopper_botany_pot`)
-        event.hide(`botanypotstiers:creative_${color}_terracotta_botany_pot`)
-        event.hide(`botanypotstiers:creative_${color}_terracotta_hopper_botany_pot`)
-        event.hide(`botanypotstiers:creative_${color}_concrete_botany_pot`)
-        event.hide(`botanypotstiers:creative_${color}_concrete_hopper_botany_pot`)
-        event.hide(`botanypotstiers:creative_${color}_glazed_terracotta_botany_pot`)
-        event.hide(`botanypotstiers:creative_${color}_glazed_terracotta_hopper_botany_pot`)
-    })
-})
+  colors.forEach(color => {
+    event.hide(`botanypots:${color}_terracotta_botany_pot`);
+    event.hide(`botanypots:${color}_terracotta_hopper_botany_pot`);
+    event.hide(`botanypots:${color}_concrete_botany_pot`);
+    event.hide(`botanypots:${color}_concrete_hopper_botany_pot`);
+    event.hide(`botanypots:${color}_glazed_terracotta_botany_pot`);
+    event.hide(`botanypots:${color}_glazed_terracotta_hopper_botany_pot`);
+    event.hide(`botanypotstiers:elite_${color}_terracotta_botany_pot`);
+    event.hide(`botanypotstiers:elite_${color}_terracotta_hopper_botany_pot`);
+    event.hide(`botanypotstiers:elite_${color}_concrete_botany_pot`);
+    event.hide(`botanypotstiers:elite_${color}_concrete_hopper_botany_pot`);
+    event.hide(`botanypotstiers:elite_${color}_glazed_terracotta_botany_pot`);
+    event.hide(
+      `botanypotstiers:elite_${color}_glazed_terracotta_hopper_botany_pot`
+    );
+    event.hide(`botanypotstiers:ultra_${color}_terracotta_botany_pot`);
+    event.hide(`botanypotstiers:ultra_${color}_terracotta_hopper_botany_pot`);
+    event.hide(`botanypotstiers:ultra_${color}_concrete_botany_pot`);
+    event.hide(`botanypotstiers:ultra_${color}_concrete_hopper_botany_pot`);
+    event.hide(`botanypotstiers:ultra_${color}_glazed_terracotta_botany_pot`);
+    event.hide(
+      `botanypotstiers:ultra_${color}_glazed_terracotta_hopper_botany_pot`
+    );
+    event.hide(`botanypotstiers:creative_${color}_terracotta_botany_pot`);
+    event.hide(
+      `botanypotstiers:creative_${color}_terracotta_hopper_botany_pot`
+    );
+    event.hide(`botanypotstiers:creative_${color}_concrete_botany_pot`);
+    event.hide(`botanypotstiers:creative_${color}_concrete_hopper_botany_pot`);
+    event.hide(
+      `botanypotstiers:creative_${color}_glazed_terracotta_botany_pot`
+    );
+    event.hide(
+      `botanypotstiers:creative_${color}_glazed_terracotta_hopper_botany_pot`
+    );
+  });
+});

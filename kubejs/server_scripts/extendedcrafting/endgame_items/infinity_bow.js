@@ -1,4 +1,4 @@
-ServerEvents.recipes((event) => {
+ServerEvents.recipes(event => {
   //Longbow Of The Heavens
   event
     .custom({

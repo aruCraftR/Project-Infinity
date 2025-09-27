@@ -2,54 +2,54 @@ ServerEvents.recipes(event => {
   //Creative Personal Chest
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
+      type: "extendedcrafting:shaped_table",
       pattern: [
-        'ABCCDCA',
-        'CCEKGCB',
-        'DGHKJEC',
-        'CKKMKKC',
-        'CEJKHGD',
-        'BCGKECC',
-        'ACDCCBA'
+        "ABCCDCA",
+        "CCEKGCB",
+        "DGHKJEC",
+        "CKKMKKC",
+        "CEJKHGD",
+        "BCGKECC",
+        "ACDCCBA",
       ],
       key: {
         A: {
-          item: 'mekanism:personal_chest'
+          item: "mekanism:personal_chest",
         },
         B: {
-          item: 'evolvedmekanism:alloy_exoversal'
+          item: "evolvedmekanism:alloy_exoversal",
         },
         C: {
-          item: 'thermal:steel_block'
+          item: "thermal:steel_block",
         },
         D: {
-          item: 'evolvedmekanism:alloy_creative'
+          item: "evolvedmekanism:alloy_creative",
         },
         E: {
-          item: 'kubejs:infinity_10'
+          item: "kubejs:infinity_10",
         },
         G: {
-          item: 'evolvedmekanism:block_plaslitherite'
+          item: "evolvedmekanism:block_plaslitherite",
         },
         H: {
-          item: 'avaritia:infinity_ingot'
+          item: "avaritia:infinity_ingot",
         },
         J: {
-          item: 'mysticalagradditions:creative_essence'
+          item: "mysticalagradditions:creative_essence",
         },
         K: {
-          type: 'forge:nbt',
-          item: 'sophisticatedstorage:netherite_chest',
+          type: "forge:nbt",
+          item: "sophisticatedstorage:netherite_chest",
           count: 1,
-          nbt: '{woodType:\"oak\"}'
+          nbt: '{woodType:\"oak\"}',
         },
         M: {
-          item: 'evolvedmekanism:multiversal_control_circuit'
-        }
+          item: "evolvedmekanism:multiversal_control_circuit",
+        },
       },
       result: {
-        item: 'evolvedmekanism:creative_personal_chest'
-      }
+        item: "evolvedmekanism:creative_personal_chest",
+      },
     })
-    .id('evolvedmekanism:creative_personal_chest')
-})
+    .id("evolvedmekanism:creative_personal_chest");
+});

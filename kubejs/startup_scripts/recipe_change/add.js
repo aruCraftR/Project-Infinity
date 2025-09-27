@@ -1,4 +1,4 @@
-StartupEvents.registry("item", (e) => {
+StartupEvents.registry("item", e => {
   // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
   e.create("zahraanite");
 
@@ -295,7 +295,7 @@ StartupEvents.registry("item", (e) => {
     .tag("kubejs:chaotic_essence");
 });
 
-StartupEvents.registry("block", (event) => {
+StartupEvents.registry("block", event => {
   event
     .create("compressed_block_of_gunpowder")
     .displayName("Compressed Block of Gunpowder")
@@ -380,7 +380,7 @@ StartupEvents.registry("block", (event) => {
     .tag("kubejs:auto_mechanical_sieve");
 });
 
-StartupEvents.registry("block", (e) => {
+StartupEvents.registry("block", e => {
   function createblock(e, input1, input2) {
     e.create(input1)
       .displayName(input2)
@@ -424,17 +424,17 @@ StartupEvents.registry("block", (e) => {
   createore(e, "voidmetal_ore", "Voidmetal Ore");
 });
 
-ItemEvents.modification((event) => {
-  event.modify("rftoolsbase:infused_diamond", (item) => {
+ItemEvents.modification(event => {
+  event.modify("rftoolsbase:infused_diamond", item => {
     item.maxStackSize = 64;
   });
-  event.modify("dimensionalpocketsii:dimensional_ingot_enhanced", (item) => {
+  event.modify("dimensionalpocketsii:dimensional_ingot_enhanced", item => {
     item.maxStackSize = 64;
   });
-  event.modify("silentgems:soul_gem", (item) => {
+  event.modify("silentgems:soul_gem", item => {
     item.maxStackSize = 64;
   });
-  event.modify("cataclysm:void_core", (item) => {
+  event.modify("cataclysm:void_core", item => {
     item.maxStackSize = 64;
   });
   event.modify(
@@ -443,7 +443,7 @@ ItemEvents.modification((event) => {
       "extrahnn:upgrade_module_stack",
       "extrahnn:upgrade_data_kill",
     ],
-    (item) => {
+    item => {
       item.maxStackSize = 1;
     }
   );
@@ -451,7 +451,7 @@ ItemEvents.modification((event) => {
 
 ///////everything under this text is deactivated and will be implemented
 
-StartupEvents.registry("item", (e) => {
+StartupEvents.registry("item", e => {
   //microverse rockets
   e.create("microminer_t1")
     .maxStackSize(64)
@@ -511,7 +511,7 @@ StartupEvents.registry("item", (e) => {
     .glow(true);
 });
 
-StartupEvents.registry("item", (e) => {
+StartupEvents.registry("item", e => {
   // Microminer Components
   e.create("components/basic_mining_laser").displayName("§eBasic Mining Laser");
   e.create("components/reinforced_mining_laser").displayName(
@@ -590,7 +590,7 @@ StartupEvents.registry("item", (e) => {
     .texture("kubejs:item/components/creative_energy_data");
 });
 
-StartupEvents.registry("block", (e) => {
+StartupEvents.registry("block", e => {
   e.create("warp_core")
     .displayName("Warp Core")
     .soundType("metal")

@@ -1,21 +1,20 @@
-priority: 1
+priority: 1;
 MMEvents.createStructures(event => {
   event
-    .create('mm:multi_compactor_structure')
-    .controllerId('mm:multi_compactor_controller')
-    .name('Multi Compactor')
+    .create("mm:multi_compactor_structure")
+    .controllerId("mm:multi_compactor_controller")
+    .name("Multi Compactor")
     .layout(a => {
-      a
-        .layer([
-          "        ",
-          "        ",
-          "   FF   ",
-          "  AEEB  ",
-          "  BEEA  ",
-          "   FF   ",
-          "        ",
-          "        "
-        ])
+      a.layer([
+        "        ",
+        "        ",
+        "   FF   ",
+        "  AEEB  ",
+        "  BEEA  ",
+        "   FF   ",
+        "        ",
+        "        ",
+      ])
         .layer([
           "        ",
           "  EEEE  ",
@@ -24,7 +23,7 @@ MMEvents.createStructures(event => {
           " E    E ",
           " EE  EE ",
           "  EEEE  ",
-          "        "
+          "        ",
         ])
         .layer([
           "   EE   ",
@@ -34,7 +33,7 @@ MMEvents.createStructures(event => {
           "E      E",
           " E    E ",
           " EE  EE ",
-          "   EE   "
+          "   EE   ",
         ])
         .layer([
           "  EIIE  ",
@@ -44,7 +43,7 @@ MMEvents.createStructures(event => {
           "I      I",
           "E      E",
           " E    E ",
-          "  EIIE  "
+          "  EIIE  ",
         ])
         .layer([
           "  EIIE  ",
@@ -54,7 +53,7 @@ MMEvents.createStructures(event => {
           "I      I",
           "E      E",
           " E    E ",
-          "  EIIE  "
+          "  EIIE  ",
         ])
         .layer([
           "   EE   ",
@@ -64,7 +63,7 @@ MMEvents.createStructures(event => {
           "E      E",
           " E    E ",
           " EE  EE ",
-          "   EC   "
+          "   EC   ",
         ])
         .layer([
           "        ",
@@ -74,7 +73,7 @@ MMEvents.createStructures(event => {
           " EG  HE ",
           "  EHGE  ",
           "   EE   ",
-          "        "
+          "        ",
         ])
         .layer([
           "        ",
@@ -84,31 +83,31 @@ MMEvents.createStructures(event => {
           "  BEEA  ",
           "   FD   ",
           "        ",
-          "        "
+          "        ",
         ])
-        .key('A', {
-          block: 'mm:gigantic_fluid_port_input'
+        .key("A", {
+          block: "mm:gigantic_fluid_port_input",
         })
-        .key('B', {
-          block: 'mm:gigantic_energy_port_input'
+        .key("B", {
+          block: "mm:gigantic_energy_port_input",
         })
-        .key('D', {
-          block: 'mm:colossal_item_port_output'
+        .key("D", {
+          block: "mm:colossal_item_port_output",
         })
-        .key('E', {
-          block: 'chisel_chipped_integration:factory_blue_framed_circuit'
+        .key("E", {
+          block: "chisel_chipped_integration:factory_blue_framed_circuit",
         })
-        .key('F', {
-          block: 'mm:colossal_item_port_input'
+        .key("F", {
+          block: "mm:colossal_item_port_input",
         })
-        .key('G', {
-          block: 'compressium:cobblestone_7'
+        .key("G", {
+          block: "compressium:cobblestone_7",
         })
-        .key('H', {
-          block: 'extendedcrafting:compressor'
+        .key("H", {
+          block: "extendedcrafting:compressor",
         })
-        .key('I', {
-          block: 'tconstruct:clear_glass'
-        })
-    })
-})
+        .key("I", {
+          block: "tconstruct:clear_glass",
+        });
+    });
+});

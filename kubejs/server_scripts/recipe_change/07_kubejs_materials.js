@@ -1,4 +1,4 @@
-ServerEvents.recipes((event) => {
+ServerEvents.recipes(event => {
   shapeless(
     event,
     "compactmekanismmachines:compressed_wind_generator_x532480",
