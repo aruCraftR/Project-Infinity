@@ -29,7 +29,14 @@
 			size: 1.5d
 			tasks: [{
 				id: "7ECE44526077F3C9"
-				item: "alltheores:uranium_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:ingots/uranium"
+					}
+				}
+				title: "Any #c:ingots/uranium"
 				type: "item"
 			}]
 			title: "Welcome to &2Extreme Reactors"
@@ -38,31 +45,24 @@
 		}
 		{
 			dependencies: ["7C4E4793DA887DE4"]
-			description: [
-				"Acquired through smelting &0coal&r or &7charcoal&r in a &cfurnace,&r You will be using these to craft your &6reactor parts&r."
-				""
-				"Black iron is crafted with &0enriched carbon&r, &8sky steel&r and &bnetherite diamond&r ingots."
-			]
 			id: "4FA6BEA4E646B742"
 			rewards: [{
 				id: "0ED97FDD789AAF80"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					count: 16L
-					id: "4B83A0D1C2C3C226"
-					item: "bigreactors:graphite_ingot"
-					type: "item"
+			tasks: [{
+				id: "4B83A0D1C2C3C226"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/graphite"
+					}
 				}
-				{
-					count: 16L
-					id: "231B79142028B967"
-					item: { Count: 16, id: "extendedcrafting:black_iron_ingot" }
-					type: "item"
-				}
-			]
+				title: "Any #forge:ingots/graphite"
+				type: "item"
+			}]
 			title: "Graphite Bars"
 			x: -9.5d
 			y: -7.5d
@@ -138,7 +138,6 @@
 			description: [
 				"These are the used to create &cbasic reactors&r, and will be used for the &6outer walls&r and &6edges.&r"
 				""
-				"&cReactors&r are mainly built from &areactor casing&r which utilize &0Black Iron&r instead of &egraphite.&r"
 			]
 			id: "4B9E9497E44D0096"
 			min_width: 320
@@ -267,7 +266,14 @@
 			}]
 			tasks: [{
 				id: "77F79D09A76CFF15"
-				item: "bigreactors:cyanite_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/cyanite"
+					}
+				}
+				title: "Any #forge:ingots/cyanite"
 				type: "item"
 			}]
 			title: "The Waste"
@@ -457,25 +463,6 @@
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: [
-				"&2Turbine Coils&r are blocks placed around the end of the &9Turbine Shaft&r, closest to the &eHousing&r block roof."
-				""
-				"These are &nrequired&r to generate power from the turbine. You can have up to &o&b3&r coils per turbine, and &o&bcan mix and match different coil&r blocks."
-			]
-			id: "3FC7FDAF84871963"
-			min_width: 250
-			progression_mode: "linear"
-			rewards: [{
-				id: "0308C310E56BC2F5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			title: "Turbine Coils"
-			x: -7.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4415C9F8DA2D7E68"]
 			description: ["Just like the &2Reactor&r, the frame must be built out of &eCasings&r, but the walls can be &3Turbine Glass&r instead!"]
 			id: "2D592669F4D41793"
 			min_width: 250
@@ -623,7 +610,14 @@
 			}]
 			tasks: [{
 				id: "37BB2B7853E319A3"
-				item: "bigreactors:blutonium_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/blutonium"
+					}
+				}
+				title: "Any #forge:ingots/blutonium"
 				type: "item"
 			}]
 			x: -3.0d
@@ -811,7 +805,14 @@
 			}]
 			tasks: [{
 				id: "544C4964F5B857B1"
-				item: "bigreactors:inanite_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/inanite"
+					}
+				}
+				title: "Any #forge:ingots/inanite"
 				type: "item"
 			}]
 			x: -3.0d
@@ -835,7 +836,14 @@
 			size: 2.0d
 			tasks: [{
 				id: "53B5B370425018EC"
-				item: "bigreactors:insanite_block"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:storage_blocks/insanite"
+					}
+				}
+				title: "Any #forge:storage_blocks/insanite"
 				type: "item"
 			}]
 			x: 0.5d
@@ -856,7 +864,14 @@
 			}]
 			tasks: [{
 				id: "22922E479FED9E43"
-				item: "bigreactors:insanite_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/insanite"
+					}
+				}
+				title: "Any #forge:ingots/insanite"
 				type: "item"
 			}]
 			x: -3.0d

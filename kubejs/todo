@@ -6,6 +6,7 @@ dungeon born in chaos mobs low prio
 smithing table automation in extreme smithing table
 build multiblock to get creative item? or for super endgame microminers?
 woot config
+dimlets enderman low chance
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -17,16 +18,10 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 changelog
 -updated some mods
--removed laserio and added laserio unofficial extended life
--added curvy pipes mod
--added just enough botania
--added showcase item (testing!)
+-removed neruina
 
--fixed voidminer ultimate recipe (thx to Zombiesleuth)
--removed dimlets
--fixed tinkers construct quest (thx to carnumba)
--added a new multiblock for farming essence from mystical agriculture --> Essenceforge
--removed thermal phytogenic insolator
+-added more recipes for the essenceforge
+    -you can add up to 4 specific seeds together and get 4 times as many essence at the same time
 /---------------------------
 known bugs:
 -some mystical agriculture essence recipes are visually bugged. try them inside a crafting table
