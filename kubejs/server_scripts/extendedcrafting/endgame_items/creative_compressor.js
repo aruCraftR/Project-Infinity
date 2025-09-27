@@ -1,4 +1,4 @@
-ServerEvents.recipes((event) => {
+ServerEvents.recipes(event => {
   //Creative Compressor
   event
     .custom({

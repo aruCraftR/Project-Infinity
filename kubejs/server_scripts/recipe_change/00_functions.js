@@ -1,4 +1,4 @@
-priority: 0
+priority: 0;
 function shapeless(event, output, input) {
   event.shapeless(output, input);
 }

@@ -2,149 +2,149 @@ ServerEvents.recipes(event => {
   //Natures Ruin
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
+      type: "extendedcrafting:shaped_table",
       pattern: [
-        ' ABCDEFGH',
-        'IJCCCCCKL',
-        ' MNCCCCOP',
-        '  QRSCTUV',
-        '    WXTYZ',
-        '    abTcd',
-        '    efTgh',
-        '    ijTkl',
-        '    mnTop'
+        " ABCDEFGH",
+        "IJCCCCCKL",
+        " MNCCCCOP",
+        "  QRSCTUV",
+        "    WXTYZ",
+        "    abTcd",
+        "    efTgh",
+        "    ijTkl",
+        "    mnTop",
       ],
       key: {
         A: {
-          item: 'allthemodium:unobtainium_axe'
+          item: "allthemodium:unobtainium_axe",
         },
         B: {
-          item: 'draconicevolution:draconic_axe'
+          item: "draconicevolution:draconic_axe",
         },
         C: {
-          item: 'avaritia:infinity_ingot'
+          item: "avaritia:infinity_ingot",
         },
         D: {
-          item: 'thermal_extra:dragonsteel_axe',
+          item: "thermal_extra:dragonsteel_axe",
         },
         E: {
-          item: 'undergarden:cloggrum_axe'
+          item: "undergarden:cloggrum_axe",
         },
         F: {
-          item: 'thermal_extra:signalum_axe',
+          item: "thermal_extra:signalum_axe",
         },
         G: {
-          item: 'thermal_extra:twinite_axe',
+          item: "thermal_extra:twinite_axe",
         },
         H: {
-          item: 'draconicevolution:wyvern_axe'
+          item: "draconicevolution:wyvern_axe",
         },
         I: {
-          item: 'kubejs:infinity_12',
+          item: "kubejs:infinity_12",
         },
         J: {
-          item: 'draconicevolution:chaotic_axe'
+          item: "draconicevolution:chaotic_axe",
         },
         K: {
-          item: 'minecraft:netherite_axe',
+          item: "minecraft:netherite_axe",
         },
         L: {
-          item: 'botania:terra_axe',
+          item: "botania:terra_axe",
         },
         M: {
-          item: 'allthemodium:alloy_axe'
+          item: "allthemodium:alloy_axe",
         },
         N: {
-          item: 'dimensionalpocketsii:dimensional_axe',
+          item: "dimensionalpocketsii:dimensional_axe",
         },
         O: {
-          item: 'ender_dragon_loot:dragon_axe',
+          item: "ender_dragon_loot:dragon_axe",
         },
         P: {
-          item: 'redstone_arsenal:flux_axe'
+          item: "redstone_arsenal:flux_axe",
         },
         Q: {
-          item: 'allthemodium:vibranium_axe'
+          item: "allthemodium:vibranium_axe",
         },
         R: {
-          item: 'allthemodium:allthemodium_axe'
+          item: "allthemodium:allthemodium_axe",
         },
         S: {
-          item: 'projecte:dm_axe'
+          item: "projecte:dm_axe",
         },
         T: {
-          item: 'avaritia:neutron_ingot'
+          item: "avaritia:neutron_ingot",
         },
         U: {
-          item: 'thermal_extra:shellite_axe',
+          item: "thermal_extra:shellite_axe",
         },
         V: {
-          item: 'advancednetherite:netherite_diamond_axe',
+          item: "advancednetherite:netherite_diamond_axe",
         },
         W: {
-          item: 'thermal_extra:abyssal_axe',
+          item: "thermal_extra:abyssal_axe",
         },
         X: {
-          item: 'armorplus:slayer_battle_axe',
+          item: "armorplus:slayer_battle_axe",
         },
         Y: {
-          item: 'armorplus:ender_dragon_battle_axe',
+          item: "armorplus:ender_dragon_battle_axe",
         },
         Z: {
-          item: 'thermal_extra:soul_infused_axe',
+          item: "thermal_extra:soul_infused_axe",
         },
         a: {
-          item: 'bloodmagic:soulaxe',
+          item: "bloodmagic:soulaxe",
         },
         b: {
-          item: 'mysticaladaptations:insanium_axe'
+          item: "mysticaladaptations:insanium_axe",
         },
         c: {
-          item: 'dimensionalpocketsii:dimensional_axe_enhanced',
+          item: "dimensionalpocketsii:dimensional_axe_enhanced",
         },
         d: {
-          item: 'armorplus:infused_lava_battle_axe',
+          item: "armorplus:infused_lava_battle_axe",
         },
         e: {
-          item: 'projecte:rm_axe'
+          item: "projecte:rm_axe",
         },
         f: {
-          item: 'mysticalagriculture:tertium_axe',
+          item: "mysticalagriculture:tertium_axe",
         },
         g: {
-          item: 'mysticalagriculture:awakened_supremium_axe'
+          item: "mysticalagriculture:awakened_supremium_axe",
         },
         h: {
-          item: 'born_in_chaos_v1:great_reaper_axe',
+          item: "born_in_chaos_v1:great_reaper_axe",
         },
         i: {
-          item: 'cataclysm:infernal_forge',
+          item: "cataclysm:infernal_forge",
         },
         j: {
-          item: 'mysticalagriculture:prudentium_axe',
+          item: "mysticalagriculture:prudentium_axe",
         },
         k: {
-          item: 'mysticalagriculture:supremium_axe'
+          item: "mysticalagriculture:supremium_axe",
         },
         l: {
-          item: 'thermal_extra:enderium_axe',
+          item: "thermal_extra:enderium_axe",
         },
         m: {
-          item: 'twilightforest:ironwood_axe',
+          item: "twilightforest:ironwood_axe",
         },
         n: {
-          item: 'mysticalagriculture:inferium_axe',
+          item: "mysticalagriculture:inferium_axe",
         },
         o: {
-          item: 'mysticalagriculture:imperium_axe',
+          item: "mysticalagriculture:imperium_axe",
         },
         p: {
-          item: 'aether:gravitite_axe',
-        }
+          item: "aether:gravitite_axe",
+        },
       },
       result: {
-        item: 'avaritia:infinity_axe'
-      }
+        item: "avaritia:infinity_axe",
+      },
     })
-    .id('avaritia:infinity_axe')
-})
+    .id("avaritia:infinity_axe");
+});
