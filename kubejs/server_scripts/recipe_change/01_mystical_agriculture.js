@@ -1,4 +1,4 @@
-ServerEvents.recipes((event) => {
+ServerEvents.recipes(event => {
   create323(event, "4x mysticalagriculture:cognizant_dust", [
     "mysticalagriculture:cognizant_dust_essence",
   ]);

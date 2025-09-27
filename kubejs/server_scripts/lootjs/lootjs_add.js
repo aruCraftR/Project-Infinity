@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let bronze_coin = LootEntry.of("kubejs:apotheotic_coin").when((c) =>
   c.randomChance(0.0025)
 );
@@ -5,13 +6,26 @@ let silver_coin = LootEntry.of("kubejs:infused_coin").when((c) =>
   c.randomChance(0.00025)
 );
 let gold_coin = LootEntry.of("kubejs:ascended_coin").when((c) =>
+=======
+let bronze_coin = LootEntry.of("kubejs:apotheotic_coin").when(c =>
+  c.randomChance(0.0025)
+);
+let silver_coin = LootEntry.of("kubejs:infused_coin").when(c =>
+  c.randomChance(0.00025)
+);
+let gold_coin = LootEntry.of("kubejs:ascended_coin").when(c =>
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
   c.randomChance(0.000001)
 );
 
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier([LootType.ENTITY])
+<<<<<<< HEAD
     .matchEntity((entity) => {
+=======
+    .matchEntity(entity => {
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
       entity.isMonster(true);
     })
     .addLoot([bronze_coin, silver_coin, gold_coin]);
@@ -47,7 +61,11 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.ENTITY)
+<<<<<<< HEAD
     .anyDimension("minecraft:overworld")
+=======
+    .anyDimension("minecraft:the_nether")
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
     .randomChance(0.5)
     .randomChanceWithEnchantment(
       "minecraft:looting",
@@ -58,6 +76,7 @@ LootJS.modifiers((event) => {
 });
 
 //arcmetal
+<<<<<<< HEAD
 LootJS.modifiers((event) => {
   const stickWhenFortune = LootEntry.of("kubejs:raw_arcmetal")
     .applyOreBonus("minecraft:fortune")
@@ -65,6 +84,13 @@ LootJS.modifiers((event) => {
       c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune"))
     );
   const appleWhenSilkTouch = LootEntry.of("kubejs:arcmetal_ore").when((c) =>
+=======
+LootJS.modifiers(event => {
+  const stickWhenFortune = LootEntry.of("kubejs:raw_arcmetal")
+    .applyOreBonus("minecraft:fortune")
+    .when(c => c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune")));
+  const appleWhenSilkTouch = LootEntry.of("kubejs:arcmetal_ore").when(c =>
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
     c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
   );
   const metal = "kubejs:raw_arcmetal";
@@ -75,6 +101,7 @@ LootJS.modifiers((event) => {
     .addAlternativesLoot(stickWhenFortune, appleWhenSilkTouch, metal);
 });
 //plasteel
+<<<<<<< HEAD
 LootJS.modifiers((event) => {
   const stickWhenFortune = LootEntry.of("kubejs:raw_plasteel")
     .applyOreBonus("minecraft:fortune")
@@ -82,6 +109,13 @@ LootJS.modifiers((event) => {
       c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune"))
     );
   const appleWhenSilkTouch = LootEntry.of("kubejs:plasteel_ore").when((c) =>
+=======
+LootJS.modifiers(event => {
+  const stickWhenFortune = LootEntry.of("kubejs:raw_plasteel")
+    .applyOreBonus("minecraft:fortune")
+    .when(c => c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune")));
+  const appleWhenSilkTouch = LootEntry.of("kubejs:plasteel_ore").when(c =>
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
     c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
   );
   const metal = "kubejs:raw_plasteel";
@@ -92,6 +126,7 @@ LootJS.modifiers((event) => {
     .addAlternativesLoot(stickWhenFortune, appleWhenSilkTouch, metal);
 });
 //solarmetal
+<<<<<<< HEAD
 LootJS.modifiers((event) => {
   const stickWhenFortune = LootEntry.of("kubejs:raw_solarmetal")
     .applyOreBonus("minecraft:fortune")
@@ -99,6 +134,13 @@ LootJS.modifiers((event) => {
       c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune"))
     );
   const appleWhenSilkTouch = LootEntry.of("kubejs:solarmetal_ore").when((c) =>
+=======
+LootJS.modifiers(event => {
+  const stickWhenFortune = LootEntry.of("kubejs:raw_solarmetal")
+    .applyOreBonus("minecraft:fortune")
+    .when(c => c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune")));
+  const appleWhenSilkTouch = LootEntry.of("kubejs:solarmetal_ore").when(c =>
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
     c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
   );
   const metal = "kubejs:raw_solarmetal";
@@ -109,6 +151,7 @@ LootJS.modifiers((event) => {
     .addAlternativesLoot(stickWhenFortune, appleWhenSilkTouch, metal);
 });
 //voidmetal
+<<<<<<< HEAD
 LootJS.modifiers((event) => {
   const stickWhenFortune = LootEntry.of("kubejs:raw_voidmetal")
     .applyOreBonus("minecraft:fortune")
@@ -116,6 +159,13 @@ LootJS.modifiers((event) => {
       c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune"))
     );
   const appleWhenSilkTouch = LootEntry.of("kubejs:voidmetal_ore").when((c) =>
+=======
+LootJS.modifiers(event => {
+  const stickWhenFortune = LootEntry.of("kubejs:raw_voidmetal")
+    .applyOreBonus("minecraft:fortune")
+    .when(c => c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune")));
+  const appleWhenSilkTouch = LootEntry.of("kubejs:voidmetal_ore").when(c =>
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
     c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
   );
   const metal = "kubejs:raw_voidmetal";
@@ -127,12 +177,19 @@ LootJS.modifiers((event) => {
 });
 
 //azure silver
+<<<<<<< HEAD
 LootJS.modifiers((event) => {
   const stickWhenFortune = LootEntry.of("kubejs:azure_silver_ingot")
     .applyOreBonus("minecraft:fortune")
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune"))
     );
+=======
+LootJS.modifiers(event => {
+  const stickWhenFortune = LootEntry.of("kubejs:azure_silver_ingot")
+    .applyOreBonus("minecraft:fortune")
+    .when(c => c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune")));
+>>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
   const metal = "kubejs:azure_silver_ingot";
 
   event

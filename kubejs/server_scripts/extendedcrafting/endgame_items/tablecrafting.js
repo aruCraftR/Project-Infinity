@@ -2,190 +2,190 @@ ServerEvents.recipes(event => {
   //Advanced Table
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
-      pattern: ['ABA', 'CDC', 'AEA'],
+      type: "extendedcrafting:shaped_table",
+      pattern: ["ABA", "CDC", "AEA"],
       key: {
         A: {
-          item: 'extendedcrafting:advanced_component'
+          item: "extendedcrafting:advanced_component",
         },
         B: {
-          item: 'extendedcrafting:advanced_catalyst'
+          item: "extendedcrafting:advanced_catalyst",
         },
         C: {
-          item: 'extendedcrafting:basic_table'
+          item: "extendedcrafting:basic_table",
         },
         D: {
-          item: 'redstone_arsenal:flux_metal_block'
+          item: "redstone_arsenal:flux_metal_block",
         },
         E: {
-          item: 'extendedcrafting:ender_ingot_block'
-        }
+          item: "extendedcrafting:ender_ingot_block",
+        },
       },
       result: {
-        item: 'extendedcrafting:advanced_table'
-      }
+        item: "extendedcrafting:advanced_table",
+      },
     })
-    .id('extendedcrafting:advanced_table')
+    .id("extendedcrafting:advanced_table");
 
   //Elite Table
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
-      pattern: ['AABAA', 'ACDCA', 'EDFDE', 'ACDCA', 'AABAA'],
+      type: "extendedcrafting:shaped_table",
+      pattern: ["AABAA", "ACDCA", "EDFDE", "ACDCA", "AABAA"],
       key: {
         A: {
-          item: 'extendedcrafting:elite_component'
+          item: "extendedcrafting:elite_component",
         },
         B: {
-          item: 'extendedcrafting:elite_catalyst'
+          item: "extendedcrafting:elite_catalyst",
         },
         C: {
-          item: 'minecraft:netherite_ingot'
+          item: "minecraft:netherite_ingot",
         },
         D: {
-          item: 'rftoolsbase:infused_diamond'
+          item: "rftoolsbase:infused_diamond",
         },
         E: {
-          item: 'extendedcrafting:advanced_table'
+          item: "extendedcrafting:advanced_table",
         },
         F: {
-          item: 'botania:dragonstone_block'
-        }
+          item: "botania:dragonstone_block",
+        },
       },
       result: {
-        item: 'extendedcrafting:elite_table'
-      }
+        item: "extendedcrafting:elite_table",
+      },
     })
-    .id('extendedcrafting:elite_table')
+    .id("extendedcrafting:elite_table");
 
   //Ultimate Table
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
+      type: "extendedcrafting:shaped_table",
       pattern: [
-        'AAABAAA',
-        'ACCBCCA',
-        'ACDEDCA',
-        'BBEFEBB',
-        'ACDEDCA',
-        'ACCBCCA',
-        'AAABAAA'
+        "AAABAAA",
+        "ACCBCCA",
+        "ACDEDCA",
+        "BBEFEBB",
+        "ACDEDCA",
+        "ACCBCCA",
+        "AAABAAA",
       ],
       key: {
         A: {
-          item: 'extendedcrafting:ultimate_catalyst'
+          item: "extendedcrafting:ultimate_catalyst",
         },
         B: {
-          item: 'enderio:vibrant_alloy_ingot'
+          item: "enderio:vibrant_alloy_ingot",
         },
         C: {
-          item: 'kubejs:starmetal_ingot'
+          item: "kubejs:starmetal_ingot",
         },
         D: {
-          item: 'actuallyadditions:empowered_emeradic_crystal'
+          item: "actuallyadditions:empowered_emeradic_crystal",
         },
         E: {
-          item: 'actuallyadditions:empowered_void_crystal'
+          item: "actuallyadditions:empowered_void_crystal",
         },
         F: {
-          item: 'bloodmagic:masterbloodorb'
-        }
+          item: "bloodmagic:masterbloodorb",
+        },
       },
       result: {
-        item: 'extendedcrafting:ultimate_table'
-      }
+        item: "extendedcrafting:ultimate_table",
+      },
     })
-    .id('extendedcrafting:ultimate_table')
+    .id("extendedcrafting:ultimate_table");
 
   //Epic Table
   event
     .custom({
-      type: 'extendedcrafting:shaped_table',
+      type: "extendedcrafting:shaped_table",
       pattern: [
-        'ABCDEDCBA',
-        'BFGGHIIFB',
-        'CJKLLLKJC',
-        'MNOPQPRNM',
-        'ESOQTQRSE',
-        'MUOPQPRUM',
-        'CJVWWWVJC',
-        'BFIIHGGFB',
-        'ABCDEDCBA'
+        "ABCDEDCBA",
+        "BFGGHIIFB",
+        "CJKLLLKJC",
+        "MNOPQPRNM",
+        "ESOQTQRSE",
+        "MUOPQPRUM",
+        "CJVWWWVJC",
+        "BFIIHGGFB",
+        "ABCDEDCBA",
       ],
       key: {
         A: {
-          item: 'extendedcrafting:redstone_component'
+          item: "extendedcrafting:redstone_component",
         },
         B: {
-          item: 'extendedcrafting:enhanced_redstone_component'
+          item: "extendedcrafting:enhanced_redstone_component",
         },
         C: {
-          item: 'extendedcrafting:enhanced_ender_component'
+          item: "extendedcrafting:enhanced_ender_component",
         },
         D: {
-          item: 'projecte:dark_matter_block'
+          item: "projecte:dark_matter_block",
         },
         E: {
-          item: 'extendedcrafting:redstone_catalyst'
+          item: "extendedcrafting:redstone_catalyst",
         },
         F: {
-          item: 'extendedcrafting:ender_component'
+          item: "extendedcrafting:ender_component",
         },
         G: {
-          item: 'projectexpansion:purple_matter_block'
+          item: "projectexpansion:purple_matter_block",
         },
         H: {
-          item: 'powah:nitro_crystal_block'
+          item: "powah:nitro_crystal_block",
         },
         I: {
-          item: 'projectexpansion:pink_matter_block'
+          item: "projectexpansion:pink_matter_block",
         },
         J: {
-          item: 'projectexpansion:magenta_matter_block'
+          item: "projectexpansion:magenta_matter_block",
         },
         K: {
-          item: 'actuallyadditions:empowered_enori_crystal_block'
+          item: "actuallyadditions:empowered_enori_crystal_block",
         },
         L: {
-          item: 'extendedcrafting:enhanced_redstone_catalyst'
+          item: "extendedcrafting:enhanced_redstone_catalyst",
         },
         M: {
-          item: 'projecte:red_matter_block'
+          item: "projecte:red_matter_block",
         },
         N: {
-          item: 'actuallyadditions:empowered_restonia_crystal_block'
+          item: "actuallyadditions:empowered_restonia_crystal_block",
         },
         O: {
-          item: 'extendedcrafting:crystaltine_catalyst'
+          item: "extendedcrafting:crystaltine_catalyst",
         },
         P: {
-          item: 'extendedcrafting:crystaltine_component'
+          item: "extendedcrafting:crystaltine_component",
         },
         Q: {
-          item: 'mekanism:pellet_antimatter'
+          item: "mekanism:pellet_antimatter",
         },
         R: {
-          item: 'extendedcrafting:ender_catalyst'
+          item: "extendedcrafting:ender_catalyst",
         },
         S: {
-          item: 'actuallyadditions:empowered_diamatine_crystal_block'
+          item: "actuallyadditions:empowered_diamatine_crystal_block",
         },
         T: {
-          item: 'avaritia:endest_pearl'
+          item: "avaritia:endest_pearl",
         },
         U: {
-          item: 'actuallyadditions:empowered_palis_crystal_block'
+          item: "actuallyadditions:empowered_palis_crystal_block",
         },
         V: {
-          item: 'actuallyadditions:empowered_void_crystal_block'
+          item: "actuallyadditions:empowered_void_crystal_block",
         },
         W: {
-          item: 'extendedcrafting:enhanced_ender_catalyst'
-        }
+          item: "extendedcrafting:enhanced_ender_catalyst",
+        },
       },
       result: {
-        item: 'extendedcrafting:epic_table'
-      }
+        item: "extendedcrafting:epic_table",
+      },
     })
-    .id('extendedcrafting:epic_table')
-})
+    .id("extendedcrafting:epic_table");
+});
