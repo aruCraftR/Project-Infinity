@@ -6,8 +6,6 @@
     "display": {
         "block": "evolvedmekanism:block_better_gold"
     },
-    "categories": [
-        "block_better_gold"
-    ],
+    "categories": ["block_better_gold"],
     "growthModifier": 1.66
 }

@@ -6,8 +6,6 @@
     "display": {
         "block": "allthemodium:allthemodium_block"
     },
-    "categories": [
-        "allthemodium_block"
-    ],
+    "categories": ["allthemodium_block"],
     "growthModifier": 1.66
 }

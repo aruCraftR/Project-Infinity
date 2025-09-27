@@ -3,9 +3,7 @@
     "seed": {
         "item": "mysticalagriculture:allthemodium_seeds"
     },
-    "categories": [
-        "allthemodium_block"
-    ],
+    "categories": ["allthemodium_block"],
     "growthTicks": 4800,
     "display": {
         "type": "botanypots:aging",
@@ -13,7 +11,7 @@
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "mysticalagriculture:allthemodium_essence"
             }

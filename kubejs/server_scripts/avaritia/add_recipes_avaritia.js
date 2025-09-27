@@ -1,66 +1,66 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //sculk_alloy_ingot
   event
     .custom({
-      type: "avaritia:shaped_table",
-      category: "misc",
+      type: 'avaritia:shaped_table',
+      category: 'misc',
       key: {
         A: {
-          item: "minecraft:obsidian",
+          item: 'minecraft:obsidian',
         },
         B: {
-          item: "minecraft:echo_shard",
+          item: 'minecraft:echo_shard',
         },
         C: {
-          item: "minecraft:iron_ingot",
+          item: 'minecraft:iron_ingot',
         },
         D: {
-          item: "apotheosis:warden_tendril",
+          item: 'apotheosis:warden_tendril',
         },
       },
-      pattern: [" A ", "BCB", " D "],
+      pattern: [' A ', 'BCB', ' D '],
       result: {
-        item: "kubejs:sculk_alloy_ingot",
+        item: 'kubejs:sculk_alloy_ingot',
       },
       show_notification: true,
       tier: 1,
     })
-    .id("kubejs:sculk_alloy_ingot");
+    .id('kubejs:sculk_alloy_ingot');
 
   //densest_neutron_collector
   event.custom({
-    type: "avaritia:shaped_table",
-    category: "equipment",
+    type: 'avaritia:shaped_table',
+    category: 'equipment',
     key: {
       A: {
-        item: "minecraft:redstone_block",
+        item: 'minecraft:redstone_block',
       },
       B: {
-        item: "avaritia:neutron_ingot",
+        item: 'avaritia:neutron_ingot',
       },
       C: {
-        item: "avaritia:neutron_gear",
+        item: 'avaritia:neutron_gear',
       },
       X: {
-        item: "avaritia:denser_neutron_collector",
+        item: 'avaritia:denser_neutron_collector',
       },
       Y: {
-        item: "extendedcrafting:ultimate_singularity",
+        item: 'extendedcrafting:ultimate_singularity',
       },
     },
     pattern: [
-      "CC     CC",
-      "C  BBB  C",
-      "  AAAAA  ",
-      " BAXXXAB ",
-      " BAXYXAB ",
-      " BAXXXAB ",
-      "  AAAAA  ",
-      "C  BBB  C",
-      "CC     CC",
+      'CC     CC',
+      'C  BBB  C',
+      '  AAAAA  ',
+      ' BAXXXAB ',
+      ' BAXYXAB ',
+      ' BAXXXAB ',
+      '  AAAAA  ',
+      'C  BBB  C',
+      'CC     CC',
     ],
     result: {
-      item: "avaritia:densest_neutron_collector",
+      item: 'avaritia:densest_neutron_collector',
     },
     show_notification: true,
     tier: 4,
@@ -68,26 +68,26 @@ ServerEvents.recipes(event => {
 
   //infused_lava_crystal
   event.custom({
-    type: "avaritia:extreme_smithing",
+    type: 'avaritia:extreme_smithing',
     addition: [
       {
-        item: "armorplus:infused_frost_crystal",
+        item: 'armorplus:infused_frost_crystal',
       },
       {
-        item: "armorplus:infused_lava_crystal",
+        item: 'armorplus:infused_lava_crystal',
       },
       {
-        item: "armorplus:infused_frost_crystal",
+        item: 'armorplus:infused_frost_crystal',
       },
     ],
     base: {
-      item: "minecraft:lava_bucket",
+      item: 'minecraft:lava_bucket',
     },
     result: {
-      item: "2x armorplus:infused_frost_lava_crystal",
+      item: '2x armorplus:infused_frost_lava_crystal',
     },
     template: {
-      item: "armorplus:infused_lava_crystal",
+      item: 'armorplus:infused_lava_crystal',
     },
   });
 });

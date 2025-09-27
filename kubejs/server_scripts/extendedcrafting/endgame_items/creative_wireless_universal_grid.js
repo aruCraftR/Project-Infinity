@@ -1,58 +1,58 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Universal Grid Creative Wireless Universal Grid
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "AAAAAAA",
-        "ABBCDDA",
-        "ABEFEDA",
-        "ACGHICA",
-        "AJEKELA",
-        "AJJCLLA",
-        "AAAAAAA",
+        'AAAAAAA',
+        'ABBCDDA',
+        'ABEFEDA',
+        'ACGHICA',
+        'AJEKELA',
+        'AJJCLLA',
+        'AAAAAAA',
       ],
       key: {
         A: {
-          item: "refinedstorage:quartz_enriched_iron_block",
+          item: 'refinedstorage:quartz_enriched_iron_block',
         },
         B: {
-          item: "refinedstorage:basic_processor",
+          item: 'refinedstorage:basic_processor',
         },
         C: {
-          item: "extrastorage:block_16384k",
+          item: 'extrastorage:block_16384k',
         },
         D: {
-          item: "refinedstorage:advanced_processor",
+          item: 'refinedstorage:advanced_processor',
         },
         E: {
-          item: "kubejs:infinity_5",
+          item: 'kubejs:infinity_5',
         },
         F: {
-          item: "refinedstorageaddons:creative_wireless_crafting_grid",
+          item: 'refinedstorageaddons:creative_wireless_crafting_grid',
         },
         G: {
-          item: "refinedstorage:creative_wireless_fluid_grid",
+          item: 'refinedstorage:creative_wireless_fluid_grid',
         },
         H: {
-          item: "universalgrid:wireless_universal_grid",
+          item: 'universalgrid:wireless_universal_grid',
         },
         I: {
-          item: "refinedstorage:creative_wireless_grid",
+          item: 'refinedstorage:creative_wireless_grid',
         },
         J: {
-          item: "refinedstorage:improved_processor",
+          item: 'refinedstorage:improved_processor',
         },
         K: {
-          item: "refinedstorage:creative_wireless_crafting_monitor",
+          item: 'refinedstorage:creative_wireless_crafting_monitor',
         },
         L: {
-          item: "extrastorage:neural_processor",
+          item: 'extrastorage:neural_processor',
         },
       },
       result: {
-        item: "universalgrid:creative_wireless_universal_grid",
+        item: 'universalgrid:creative_wireless_universal_grid',
       },
     })
-    .id("universalgrid:creative_wireless_universal_grid");
+    .id('universalgrid:creative_wireless_universal_grid');
 });

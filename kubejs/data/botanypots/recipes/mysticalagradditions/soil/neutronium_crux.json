@@ -6,8 +6,6 @@
     "display": {
         "block": "mysticalagradditions:neutronium_crux"
     },
-    "categories": [
-        "neutronium_crux"
-    ],
+    "categories": ["neutronium_crux"],
     "growthModifier": 1.66
 }

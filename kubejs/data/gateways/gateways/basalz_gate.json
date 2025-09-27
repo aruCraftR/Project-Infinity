@@ -1,31 +1,39 @@
-{   
-    "conditions": [{
-        "type": "forge:mod_loaded",
-        "modid": "thermal"
-    }],
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ],
     "size": "medium",
     "color": "#353739",
-    "waves": [{
-            "entities": [{
+    "waves": [
+        {
+            "entities": [
+                {
                     "entity": "thermal:basalz",
-                    "count":  3
+                    "count": 3
                 }
             ],
-            "rewards": [{
-                "type": "gateways:entity_loot",
-                "entity": "thermal:basalz",
-                "rolls": 5
-            }],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 5
+                }
+            ],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
-            "entities": [{
+            "entities": [
+                {
                     "entity": "thermal:basalz",
-                    "count":  3
+                    "count": 3
                 }
             ],
-            "modifiers": [{
+            "modifiers": [
+                {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
                     "value": 0.33
@@ -51,21 +59,25 @@
                     "value": 0.05
                 }
             ],
-            "rewards": [{
-                "type": "gateways:entity_loot",
-                "entity": "thermal:basalz",
-                "rolls": 10
-            }],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 10
+                }
+            ],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
-            "entities": [{
+            "entities": [
+                {
                     "entity": "thermal:basalz",
-                    "count":  5
+                    "count": 5
                 }
             ],
-            "modifiers": [{
+            "modifiers": [
+                {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
                     "value": 0.66
@@ -83,29 +95,33 @@
                 {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
-                    "value": 0.10
+                    "value": 0.1
                 },
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
+                    "value": 0.1
                 }
             ],
-            "rewards": [{
-                "type": "gateways:entity_loot",
-                "entity": "thermal:basalz",
-                "rolls": 15
-            }],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 15
+                }
+            ],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
-            "entities": [{
+            "entities": [
+                {
                     "entity": "thermal:basalz",
-                    "count":  6
+                    "count": 6
                 }
             ],
-            "modifiers": [{
+            "modifiers": [
+                {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
                     "value": 0.85
@@ -131,21 +147,25 @@
                     "value": 0.15
                 }
             ],
-            "rewards": [{
-                "type": "gateways:entity_loot",
-                "entity": "thermal:basalz",
-                "rolls": 20
-            }],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 20
+                }
+            ],
             "max_wave_time": 750,
             "setup_time": 150
         },
         {
-            "entities": [{
+            "entities": [
+                {
                     "entity": "thermal:basalz",
-                    "count":  7
+                    "count": 7
                 }
             ],
-            "modifiers": [{
+            "modifiers": [
+                {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
                     "value": 1.25
@@ -163,28 +183,32 @@
                 {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
-                    "value": 0.20
+                    "value": 0.2
                 },
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.20
+                    "value": 0.2
                 }
             ],
-            "rewards": [{
-                "type": "gateways:entity_loot",
-                "entity": "thermal:basalz",
-                "rolls": 25
-            }],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "thermal:basalz",
+                    "rolls": 25
+                }
+            ],
             "max_wave_time": 750,
             "setup_time": 150
         }
     ],
-    "rewards": [{
-        "type": "gateways:entity_loot",
-        "entity": "thermal:basalz",
-        "rolls": 60
-    }],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "thermal:basalz",
+            "rolls": 60
+        }
+    ],
     "completion_xp": 500,
-	"spawn_range": 7
+    "spawn_range": 7
 }

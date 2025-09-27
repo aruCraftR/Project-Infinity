@@ -6,8 +6,6 @@
     "display": {
         "block": "allthemodium:unobtainium_block"
     },
-    "categories": [
-        "unobtainium_block"
-    ],
+    "categories": ["unobtainium_block"],
     "growthModifier": 1.66
 }

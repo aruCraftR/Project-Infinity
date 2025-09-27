@@ -3,16 +3,14 @@
     "seed": {
         "item": "actuallyadditions:flax_seeds"
     },
-    "categories": [
-        "dirt"
-    ],
+    "categories": ["dirt"],
     "growthTicks": 1200,
     "display": {
         "block": "actuallyadditions:flax_seeds"
     },
     "drops": [
         {
-            "chance": 0.50,
+            "chance": 0.5,
             "output": {
                 "item": "minecraft:string"
             },

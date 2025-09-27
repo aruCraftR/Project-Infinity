@@ -1,33 +1,33 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   // Rune Ritual Recipe for Solar Ultimate Panel
   event
     .custom({
-      type: "mythicbotany:rune_ritual",
+      type: 'mythicbotany:rune_ritual',
       center: {
-        item: "voidminers:solar_rosarium_panel",
+        item: 'voidminers:solar_rosarium_panel',
       },
-      group: "rune_rituals",
+      group: 'rune_rituals',
       inputs: [
         {
-          item: "botanicalextramachinery:crimson_ingot",
+          item: 'botanicalextramachinery:crimson_ingot',
         },
         {
-          item: "botanicalextramachinery:shadow_ingot",
+          item: 'botanicalextramachinery:shadow_ingot',
         },
         {
-          item: "botanicalextramachinery:saffron_ingot",
+          item: 'botanicalextramachinery:saffron_ingot',
         },
         {
-          item: "mythicbotany:alfsteel_ingot",
+          item: 'mythicbotany:alfsteel_ingot',
         },
         {
-          item: "botania:gaia_ingot",
+          item: 'botania:gaia_ingot',
         },
       ],
       mana: 500000,
       outputs: [
         {
-          item: "voidminers:solar_ultimate_panel",
+          item: 'voidminers:solar_ultimate_panel',
           count: 1,
         },
       ],
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:solar_ultimate_block",
+            item: 'voidminers:solar_ultimate_block',
           },
           x: 1,
           z: 1,
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:solar_ultimate_block",
+            item: 'voidminers:solar_ultimate_block',
           },
           x: -1,
           z: 1,
@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:solar_ultimate_block",
+            item: 'voidminers:solar_ultimate_block',
           },
           x: -1,
           z: -1,
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:solar_ultimate_block",
+            item: 'voidminers:solar_ultimate_block',
           },
           x: 1,
           z: -1,
@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: 3,
           z: 0,
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: 0,
           z: 3,
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: -3,
           z: 0,
@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: 0,
           z: -3,
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:alfheim_rune",
+            item: 'mythicbotany:alfheim_rune',
           },
           x: 1,
           z: 4,
@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:alfheim_rune",
+            item: 'mythicbotany:alfheim_rune',
           },
           x: -1,
           z: 4,
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:joetunheim_rune",
+            item: 'mythicbotany:joetunheim_rune',
           },
           x: 1,
           z: -4,
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:joetunheim_rune",
+            item: 'mythicbotany:joetunheim_rune',
           },
           x: -1,
           z: -4,
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:midgard_rune",
+            item: 'mythicbotany:midgard_rune',
           },
           x: 4,
           z: 1,
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:midgard_rune",
+            item: 'mythicbotany:midgard_rune',
           },
           x: 4,
           z: -1,
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:vanaheim_rune",
+            item: 'mythicbotany:vanaheim_rune',
           },
           x: -4,
           z: 1,
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:vanaheim_rune",
+            item: 'mythicbotany:vanaheim_rune',
           },
           x: -4,
           z: -1,
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: 2,
@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: 3,
@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 2,
           z: 3,
@@ -187,7 +187,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: 2,
@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: 3,
@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -2,
           z: 3,
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: -2,
@@ -219,7 +219,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: -3,
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 2,
           z: -3,
@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: -2,
@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: -3,
@@ -251,7 +251,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -2,
           z: -3,
@@ -259,7 +259,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:nidavellir_rune",
+            item: 'mythicbotany:nidavellir_rune',
           },
           x: 4,
           z: 4,
@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:nidavellir_rune",
+            item: 'mythicbotany:nidavellir_rune',
           },
           x: 5,
           z: 5,
@@ -275,7 +275,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:helheim_rune",
+            item: 'mythicbotany:helheim_rune',
           },
           x: -4,
           z: 4,
@@ -283,7 +283,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:helheim_rune",
+            item: 'mythicbotany:helheim_rune',
           },
           x: -5,
           z: 5,
@@ -291,7 +291,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:muspelheim_rune",
+            item: 'mythicbotany:muspelheim_rune',
           },
           x: -4,
           z: -4,
@@ -299,7 +299,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:muspelheim_rune",
+            item: 'mythicbotany:muspelheim_rune',
           },
           x: -5,
           z: -5,
@@ -307,7 +307,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:niflheim_rune",
+            item: 'mythicbotany:niflheim_rune',
           },
           x: 4,
           z: -4,
@@ -315,7 +315,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:niflheim_rune",
+            item: 'mythicbotany:niflheim_rune',
           },
           x: 5,
           z: -5,
@@ -323,7 +323,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 5,
           z: 0,
@@ -331,7 +331,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 5,
           z: 1,
@@ -339,7 +339,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 5,
           z: -1,
@@ -347,7 +347,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: -5,
           z: 0,
@@ -355,7 +355,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: -5,
           z: 1,
@@ -363,7 +363,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: -5,
           z: -1,
@@ -371,7 +371,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 0,
           z: 5,
@@ -379,7 +379,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 1,
           z: 5,
@@ -387,7 +387,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: -1,
           z: 5,
@@ -395,7 +395,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 0,
           z: -5,
@@ -403,7 +403,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: 1,
           z: -5,
@@ -411,7 +411,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:glass_panel",
+            item: 'voidminers:glass_panel',
           },
           x: -1,
           z: -5,
@@ -419,37 +419,37 @@ ServerEvents.recipes(event => {
       ],
       ticks: 200,
     })
-    .id("rune_ritual_voidminers_solar_ultimate_panel");
+    .id('rune_ritual_voidminers_solar_ultimate_panel');
 
   // Rune Ritual Recipe for Solar Ultimate Panel
   event
     .custom({
-      type: "mythicbotany:rune_ritual",
+      type: 'mythicbotany:rune_ritual',
       center: {
-        item: "voidminers:rosarium_miner",
+        item: 'voidminers:rosarium_miner',
       },
-      group: "rune_rituals",
+      group: 'rune_rituals',
       inputs: [
         {
-          item: "botanicalextramachinery:crimson_ingot",
+          item: 'botanicalextramachinery:crimson_ingot',
         },
         {
-          item: "botanicalextramachinery:shadow_ingot",
+          item: 'botanicalextramachinery:shadow_ingot',
         },
         {
-          item: "botanicalextramachinery:saffron_ingot",
+          item: 'botanicalextramachinery:saffron_ingot',
         },
         {
-          item: "mythicbotany:alfsteel_ingot",
+          item: 'mythicbotany:alfsteel_ingot',
         },
         {
-          item: "botania:gaia_ingot",
+          item: 'botania:gaia_ingot',
         },
       ],
       mana: 500000,
       outputs: [
         {
-          item: "voidminers:ultimate_miner",
+          item: 'voidminers:ultimate_miner',
           count: 1,
         },
       ],
@@ -457,7 +457,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_block",
+            item: 'voidminers:ultimate_block',
           },
           x: 1,
           z: 1,
@@ -465,7 +465,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_block",
+            item: 'voidminers:ultimate_block',
           },
           x: -1,
           z: 1,
@@ -473,7 +473,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_block",
+            item: 'voidminers:ultimate_block',
           },
           x: -1,
           z: -1,
@@ -481,7 +481,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_block",
+            item: 'voidminers:ultimate_block',
           },
           x: 1,
           z: -1,
@@ -489,7 +489,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: 3,
           z: 0,
@@ -497,7 +497,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: 0,
           z: 3,
@@ -505,7 +505,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: -3,
           z: 0,
@@ -513,7 +513,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:ultimate_stellar_core",
+            item: 'voidminers:ultimate_stellar_core',
           },
           x: 0,
           z: -3,
@@ -521,7 +521,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:alfheim_rune",
+            item: 'mythicbotany:alfheim_rune',
           },
           x: 1,
           z: 4,
@@ -529,7 +529,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:alfheim_rune",
+            item: 'mythicbotany:alfheim_rune',
           },
           x: -1,
           z: 4,
@@ -537,7 +537,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:joetunheim_rune",
+            item: 'mythicbotany:joetunheim_rune',
           },
           x: 1,
           z: -4,
@@ -545,7 +545,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:joetunheim_rune",
+            item: 'mythicbotany:joetunheim_rune',
           },
           x: -1,
           z: -4,
@@ -553,7 +553,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:midgard_rune",
+            item: 'mythicbotany:midgard_rune',
           },
           x: 4,
           z: 1,
@@ -561,7 +561,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:midgard_rune",
+            item: 'mythicbotany:midgard_rune',
           },
           x: 4,
           z: -1,
@@ -569,7 +569,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:vanaheim_rune",
+            item: 'mythicbotany:vanaheim_rune',
           },
           x: -4,
           z: 1,
@@ -577,7 +577,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:vanaheim_rune",
+            item: 'mythicbotany:vanaheim_rune',
           },
           x: -4,
           z: -1,
@@ -585,7 +585,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: 2,
@@ -593,7 +593,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: 3,
@@ -601,7 +601,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 2,
           z: 3,
@@ -609,7 +609,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: 2,
@@ -617,7 +617,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: 3,
@@ -625,7 +625,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -2,
           z: 3,
@@ -633,7 +633,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: -2,
@@ -641,7 +641,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 3,
           z: -3,
@@ -649,7 +649,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: 2,
           z: -3,
@@ -657,7 +657,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: -2,
@@ -665,7 +665,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -3,
           z: -3,
@@ -673,7 +673,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "kubejs:infinity_6",
+            item: 'kubejs:infinity_6',
           },
           x: -2,
           z: -3,
@@ -681,7 +681,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:nidavellir_rune",
+            item: 'mythicbotany:nidavellir_rune',
           },
           x: 4,
           z: 4,
@@ -689,7 +689,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:nidavellir_rune",
+            item: 'mythicbotany:nidavellir_rune',
           },
           x: 5,
           z: 5,
@@ -697,7 +697,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:helheim_rune",
+            item: 'mythicbotany:helheim_rune',
           },
           x: -4,
           z: 4,
@@ -705,7 +705,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:helheim_rune",
+            item: 'mythicbotany:helheim_rune',
           },
           x: -5,
           z: 5,
@@ -713,7 +713,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:muspelheim_rune",
+            item: 'mythicbotany:muspelheim_rune',
           },
           x: -4,
           z: -4,
@@ -721,7 +721,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:muspelheim_rune",
+            item: 'mythicbotany:muspelheim_rune',
           },
           x: -5,
           z: -5,
@@ -729,7 +729,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:niflheim_rune",
+            item: 'mythicbotany:niflheim_rune',
           },
           x: 4,
           z: -4,
@@ -737,7 +737,7 @@ ServerEvents.recipes(event => {
         {
           consume: false,
           rune: {
-            item: "mythicbotany:niflheim_rune",
+            item: 'mythicbotany:niflheim_rune',
           },
           x: 5,
           z: -5,
@@ -745,7 +745,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 5,
           z: 0,
@@ -753,7 +753,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 5,
           z: 1,
@@ -761,7 +761,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 5,
           z: -1,
@@ -769,7 +769,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: -5,
           z: 0,
@@ -777,7 +777,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: -5,
           z: 1,
@@ -785,7 +785,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: -5,
           z: -1,
@@ -793,7 +793,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 0,
           z: 5,
@@ -801,7 +801,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 1,
           z: 5,
@@ -809,7 +809,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: -1,
           z: 5,
@@ -817,7 +817,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 0,
           z: -5,
@@ -825,7 +825,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: 1,
           z: -5,
@@ -833,7 +833,7 @@ ServerEvents.recipes(event => {
         {
           consume: true,
           rune: {
-            item: "voidminers:frame_base",
+            item: 'voidminers:frame_base',
           },
           x: -1,
           z: -5,
@@ -841,5 +841,5 @@ ServerEvents.recipes(event => {
       ],
       ticks: 200,
     })
-    .id("rune_ritual_voidminers_ultimate_miner");
+    .id('rune_ritual_voidminers_ultimate_miner');
 });

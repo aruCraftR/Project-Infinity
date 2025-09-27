@@ -1,70 +1,70 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Creative Energy Tablet
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "ABCDEFG",
-        "HIJKLIH",
-        "IJKMKLI",
-        "DKMNMKD",
-        "IOKMKPI",
-        "OIOKPIP",
-        "HOIDIPH",
+        'ABCDEFG',
+        'HIJKLIH',
+        'IJKMKLI',
+        'DKMNMKD',
+        'IOKMKPI',
+        'OIOKPIP',
+        'HOIDIPH',
       ],
       key: {
         A: {
-          item: "mekanism:energy_tablet",
+          item: 'mekanism:energy_tablet',
         },
         B: {
-          item: "solarpanels:improved_energy_tablet",
+          item: 'solarpanels:improved_energy_tablet',
         },
         C: {
-          item: "solarpanels:quantum_energy_tablet",
+          item: 'solarpanels:quantum_energy_tablet',
         },
         D: {
-          item: "extendedcrafting:the_ultimate_ingot",
+          item: 'extendedcrafting:the_ultimate_ingot',
         },
         E: {
-          item: "solarpanels:spectral_energy_tablet",
+          item: 'solarpanels:spectral_energy_tablet',
         },
         F: {
-          item: "solarpanels:singular_energy_tablet",
+          item: 'solarpanels:singular_energy_tablet',
         },
         G: {
-          item: "solarpanels:light_absorbing_energy_tablet",
+          item: 'solarpanels:light_absorbing_energy_tablet',
         },
         H: {
-          item: "evolvedmekanism:ingot_better_gold",
+          item: 'evolvedmekanism:ingot_better_gold',
         },
         I: {
-          item: "evolvedmekanism:multiversal_control_circuit",
+          item: 'evolvedmekanism:multiversal_control_circuit',
         },
         J: {
-          item: "botanicalextramachinery:malachite_ingot",
+          item: 'botanicalextramachinery:malachite_ingot',
         },
         K: {
-          item: "evolvedmekanism:alloy_creative",
+          item: 'evolvedmekanism:alloy_creative',
         },
         L: {
-          item: "botanicalextramachinery:crimson_ingot",
+          item: 'botanicalextramachinery:crimson_ingot',
         },
         M: {
-          item: "kubejs:infinity_11",
+          item: 'kubejs:infinity_11',
         },
         N: {
-          item: "solarpanels:photonic_energy_tablet",
+          item: 'solarpanels:photonic_energy_tablet',
         },
         O: {
-          item: "botanicalextramachinery:shadow_ingot",
+          item: 'botanicalextramachinery:shadow_ingot',
         },
         P: {
-          item: "botanicalextramachinery:saffron_ingot",
+          item: 'botanicalextramachinery:saffron_ingot',
         },
       },
       result: {
-        item: "solarpanels:creative_energy_tablet",
+        item: 'solarpanels:creative_energy_tablet',
       },
     })
-    .id("solarpanels:creative_energy_tablet");
+    .id('solarpanels:creative_energy_tablet');
 });

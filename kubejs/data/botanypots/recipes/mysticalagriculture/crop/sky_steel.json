@@ -3,9 +3,7 @@
     "seed": {
         "item": "mysticalagriculture:sky_steel_seeds"
     },
-    "categories": [
-        "supremium"
-    ],
+    "categories": ["supremium"],
     "growthTicks": 4200,
     "display": {
         "type": "botanypots:aging",
@@ -13,7 +11,7 @@
     },
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "mysticalagriculture:sky_steel_essence"
             }

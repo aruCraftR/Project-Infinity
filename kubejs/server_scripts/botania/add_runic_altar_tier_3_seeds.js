@@ -1,505 +1,505 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //boron seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:boron_seeds",
+    'mysticalagriculture:boron_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "nuclearcraft:boron_ingot",
-      "nuclearcraft:boron_ingot",
-      "nuclearcraft:boron_ingot",
-      "nuclearcraft:boron_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'nuclearcraft:boron_ingot',
+      'nuclearcraft:boron_ingot',
+      'nuclearcraft:boron_ingot',
+      'nuclearcraft:boron_ingot',
     ],
     5000
   );
 
   //cognizant_dust seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:cognizant_dust_seeds",
+    'mysticalagriculture:cognizant_dust_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:cognizant_dust",
-      "mysticalagriculture:cognizant_dust",
-      "mysticalagriculture:cognizant_dust",
-      "mysticalagriculture:cognizant_dust",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:cognizant_dust',
+      'mysticalagriculture:cognizant_dust',
+      'mysticalagriculture:cognizant_dust',
+      'mysticalagriculture:cognizant_dust',
     ],
     5000
   );
 
   //lithium seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:lithium_seeds",
+    'mysticalagriculture:lithium_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "nuclearcraft:lithium_ingot",
-      "nuclearcraft:lithium_ingot",
-      "nuclearcraft:lithium_ingot",
-      "nuclearcraft:lithium_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'nuclearcraft:lithium_ingot',
+      'nuclearcraft:lithium_ingot',
+      'nuclearcraft:lithium_ingot',
+      'nuclearcraft:lithium_ingot',
     ],
     5000
   );
 
   //iron seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:iron_seeds",
+    'mysticalagriculture:iron_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "minecraft:iron_ingot",
-      "minecraft:iron_ingot",
-      "minecraft:iron_ingot",
-      "minecraft:iron_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'minecraft:iron_ingot',
+      'minecraft:iron_ingot',
+      'minecraft:iron_ingot',
+      'minecraft:iron_ingot',
     ],
     5000
   );
   //copper seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:copper_seeds",
+    'mysticalagriculture:copper_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "minecraft:copper_ingot",
-      "minecraft:copper_ingot",
-      "minecraft:copper_ingot",
-      "minecraft:copper_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'minecraft:copper_ingot',
+      'minecraft:copper_ingot',
+      'minecraft:copper_ingot',
+      'minecraft:copper_ingot',
     ],
     5000
   );
   //nether quartz seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:nether_quartz_seeds",
+    'mysticalagriculture:nether_quartz_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "minecraft:quartz",
-      "minecraft:quartz",
-      "minecraft:quartz",
-      "minecraft:quartz",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'minecraft:quartz',
+      'minecraft:quartz',
+      'minecraft:quartz',
+      'minecraft:quartz',
     ],
     5000
   );
   //glowstone seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:glowstone_seeds",
+    'mysticalagriculture:glowstone_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "minecraft:glowstone",
-      "minecraft:glowstone",
-      "minecraft:glowstone",
-      "minecraft:glowstone",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'minecraft:glowstone',
+      'minecraft:glowstone',
+      'minecraft:glowstone',
+      'minecraft:glowstone',
     ],
     5000
   );
   //redstone seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:redstone_seeds",
+    'mysticalagriculture:redstone_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "minecraft:redstone_block",
-      "minecraft:redstone_block",
-      "minecraft:redstone_block",
-      "minecraft:redstone_block",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'minecraft:redstone_block',
+      'minecraft:redstone_block',
+      'minecraft:redstone_block',
+      'minecraft:redstone_block',
     ],
     5000
   );
   //obsidian seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:obsidian_seeds",
+    'mysticalagriculture:obsidian_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "minecraft:obsidian",
-      "minecraft:obsidian",
-      "minecraft:obsidian",
-      "minecraft:obsidian",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'minecraft:obsidian',
+      'minecraft:obsidian',
+      'minecraft:obsidian',
+      'minecraft:obsidian',
     ],
     5000
   );
   //prismarine seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:prismarine_seeds",
+    'mysticalagriculture:prismarine_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:prismarine_agglomeratio",
-      "mysticalagriculture:prismarine_agglomeratio",
-      "mysticalagriculture:prismarine_agglomeratio",
-      "mysticalagriculture:prismarine_agglomeratio",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:prismarine_agglomeratio',
+      'mysticalagriculture:prismarine_agglomeratio',
+      'mysticalagriculture:prismarine_agglomeratio',
+      'mysticalagriculture:prismarine_agglomeratio',
     ],
     5000
   );
   //tin seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:tin_seeds",
+    'mysticalagriculture:tin_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "thermal:tin_ingot",
-      "thermal:tin_ingot",
-      "thermal:tin_ingot",
-      "thermal:tin_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'thermal:tin_ingot',
+      'thermal:tin_ingot',
+      'thermal:tin_ingot',
+      'thermal:tin_ingot',
     ],
     5000
   );
   //bronze seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:bronze_seeds",
+    'mysticalagriculture:bronze_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "thermal:bronze_ingot",
-      "thermal:bronze_ingot",
-      "thermal:bronze_ingot",
-      "thermal:bronze_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'thermal:bronze_ingot',
+      'thermal:bronze_ingot',
+      'thermal:bronze_ingot',
+      'thermal:bronze_ingot',
     ],
     5000
   );
   //zinc seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:zinc_seeds",
+    'mysticalagriculture:zinc_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "common_ore_library:zinc_ingot",
-      "common_ore_library:zinc_ingot",
-      "common_ore_library:zinc_ingot",
-      "common_ore_library:zinc_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'common_ore_library:zinc_ingot',
+      'common_ore_library:zinc_ingot',
+      'common_ore_library:zinc_ingot',
+      'common_ore_library:zinc_ingot',
     ],
     5000
   );
   //brass seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:brass_seeds",
+    'mysticalagriculture:brass_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "common_ore_library:brass_ingot",
-      "common_ore_library:brass_ingot",
-      "common_ore_library:brass_ingot",
-      "common_ore_library:brass_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'common_ore_library:brass_ingot',
+      'common_ore_library:brass_ingot',
+      'common_ore_library:brass_ingot',
+      'common_ore_library:brass_ingot',
     ],
     5000
   );
   //silver seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:silver_seeds",
+    'mysticalagriculture:silver_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "thermal:silver_ingot",
-      "thermal:silver_ingot",
-      "thermal:silver_ingot",
-      "thermal:silver_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'thermal:silver_ingot',
+      'thermal:silver_ingot',
+      'thermal:silver_ingot',
+      'thermal:silver_ingot',
     ],
     5000
   );
   //lead seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:lead_seeds",
+    'mysticalagriculture:lead_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "thermal:lead_ingot",
-      "thermal:lead_ingot",
-      "thermal:lead_ingot",
-      "thermal:lead_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'thermal:lead_ingot',
+      'thermal:lead_ingot',
+      'thermal:lead_ingot',
+      'thermal:lead_ingot',
     ],
     5000
   );
   //certus quartz seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:certus_quartz_seeds",
+    'mysticalagriculture:certus_quartz_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "ae2:quartz_block",
-      "ae2:quartz_block",
-      "ae2:quartz_block",
-      "ae2:quartz_block",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'ae2:quartz_block',
+      'ae2:quartz_block',
+      'ae2:quartz_block',
+      'ae2:quartz_block',
     ],
     5000
   );
 
   //conductive alloy seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:conductive_alloy_seeds",
+    'mysticalagriculture:conductive_alloy_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "enderio:conductive_alloy_ingot",
-      "enderio:conductive_alloy_ingot",
-      "enderio:conductive_alloy_ingot",
-      "enderio:conductive_alloy_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'enderio:conductive_alloy_ingot',
+      'enderio:conductive_alloy_ingot',
+      'enderio:conductive_alloy_ingot',
+      'enderio:conductive_alloy_ingot',
     ],
     5000
   );
 
   //quartz enriched iron seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:quartz_enriched_iron_seeds",
+    'mysticalagriculture:quartz_enriched_iron_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "refinedstorage:quartz_enriched_iron",
-      "refinedstorage:quartz_enriched_iron",
-      "refinedstorage:quartz_enriched_iron",
-      "refinedstorage:quartz_enriched_iron",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'refinedstorage:quartz_enriched_iron',
+      'refinedstorage:quartz_enriched_iron',
+      'refinedstorage:quartz_enriched_iron',
+      'refinedstorage:quartz_enriched_iron',
     ],
     5000
   );
 
   //copper alloy seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:copper_alloy_seeds",
+    'mysticalagriculture:copper_alloy_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "enderio:copper_alloy_ingot",
-      "enderio:copper_alloy_ingot",
-      "enderio:copper_alloy_ingot",
-      "enderio:copper_alloy_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'enderio:copper_alloy_ingot',
+      'enderio:copper_alloy_ingot',
+      'enderio:copper_alloy_ingot',
+      'enderio:copper_alloy_ingot',
     ],
     5000
   );
 
   //redstone alloy seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:redstone_alloy_seeds",
+    'mysticalagriculture:redstone_alloy_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "enderio:redstone_alloy_ingot",
-      "enderio:redstone_alloy_ingot",
-      "enderio:redstone_alloy_ingot",
-      "enderio:redstone_alloy_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'enderio:redstone_alloy_ingot',
+      'enderio:redstone_alloy_ingot',
+      'enderio:redstone_alloy_ingot',
+      'enderio:redstone_alloy_ingot',
     ],
     5000
   );
 
   //sky stone seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:sky_stone_seeds",
+    'mysticalagriculture:sky_stone_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "ae2:sky_stone_block",
-      "ae2:sky_stone_block",
-      "ae2:sky_stone_block",
-      "ae2:sky_stone_block",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'ae2:sky_stone_block',
+      'ae2:sky_stone_block',
+      'ae2:sky_stone_block',
+      'ae2:sky_stone_block',
     ],
     5000
   );
 
   //graphite seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:graphite_seeds",
+    'mysticalagriculture:graphite_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "bigreactors:graphite_ingot",
-      "bigreactors:graphite_ingot",
-      "bigreactors:graphite_ingot",
-      "bigreactors:graphite_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'bigreactors:graphite_ingot',
+      'bigreactors:graphite_ingot',
+      'bigreactors:graphite_ingot',
+      'bigreactors:graphite_ingot',
     ],
     5000
   );
 
   //manasteel seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:manasteel_seeds",
+    'mysticalagriculture:manasteel_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "botania:manasteel_ingot",
-      "botania:manasteel_ingot",
-      "botania:manasteel_ingot",
-      "botania:manasteel_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'botania:manasteel_ingot',
+      'botania:manasteel_ingot',
+      'botania:manasteel_ingot',
+      'botania:manasteel_ingot',
     ],
     5000
   );
   //steeleaf seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:steeleaf_seeds",
+    'mysticalagriculture:steeleaf_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "twilightforest:steeleaf_ingot",
-      "twilightforest:steeleaf_ingot",
-      "twilightforest:steeleaf_ingot",
-      "twilightforest:steeleaf_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'twilightforest:steeleaf_ingot',
+      'twilightforest:steeleaf_ingot',
+      'twilightforest:steeleaf_ingot',
+      'twilightforest:steeleaf_ingot',
     ],
     5000
   );
   //ironwood seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:ironwood_seeds",
+    'mysticalagriculture:ironwood_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "twilightforest:ironwood_ingot",
-      "twilightforest:ironwood_ingot",
-      "twilightforest:ironwood_ingot",
-      "twilightforest:ironwood_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'twilightforest:ironwood_ingot',
+      'twilightforest:ironwood_ingot',
+      'twilightforest:ironwood_ingot',
+      'twilightforest:ironwood_ingot',
     ],
     5000
   );
 
   //pig iron seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:pig_iron_seeds",
+    'mysticalagriculture:pig_iron_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "tconstruct:pig_iron_ingot",
-      "tconstruct:pig_iron_ingot",
-      "tconstruct:pig_iron_ingot",
-      "tconstruct:pig_iron_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'tconstruct:pig_iron_ingot',
+      'tconstruct:pig_iron_ingot',
+      'tconstruct:pig_iron_ingot',
+      'tconstruct:pig_iron_ingot',
     ],
     5000
   );
 
   //slimesteel seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:slimesteel_seeds",
+    'mysticalagriculture:slimesteel_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "tconstruct:slimesteel_ingot",
-      "tconstruct:slimesteel_ingot",
-      "tconstruct:slimesteel_ingot",
-      "tconstruct:slimesteel_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'tconstruct:slimesteel_ingot',
+      'tconstruct:slimesteel_ingot',
+      'tconstruct:slimesteel_ingot',
+      'tconstruct:slimesteel_ingot',
     ],
     5000
   );
 
   //amethyst bronze seeds
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:amethyst_bronze_seeds",
+    'mysticalagriculture:amethyst_bronze_seeds',
     [
-      "kubejs:tier3_crafting_seed",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "tconstruct:amethyst_bronze_ingot",
-      "tconstruct:amethyst_bronze_ingot",
-      "tconstruct:amethyst_bronze_ingot",
-      "tconstruct:amethyst_bronze_ingot",
+      'kubejs:tier3_crafting_seed',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'tconstruct:amethyst_bronze_ingot',
+      'tconstruct:amethyst_bronze_ingot',
+      'tconstruct:amethyst_bronze_ingot',
+      'tconstruct:amethyst_bronze_ingot',
     ],
     5000
   );
 
   //zombie seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:zombie_seeds",
+    'mysticalagriculture:zombie_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:zombie"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:zombie"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:zombie"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:zombie"}'
       ).weakNBT(),
     ],
@@ -508,27 +508,27 @@ ServerEvents.recipes(event => {
 
   //skeleton seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:skeleton_seeds",
+    'mysticalagriculture:skeleton_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:skeleton"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:skeleton"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:skeleton"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:skeleton"}'
       ).weakNBT(),
     ],
@@ -537,27 +537,27 @@ ServerEvents.recipes(event => {
 
   //crepper seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:creeper_seeds",
+    'mysticalagriculture:creeper_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:creeper"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:creeper"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:creeper"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:creeper"}'
       ).weakNBT(),
     ],
@@ -566,27 +566,27 @@ ServerEvents.recipes(event => {
 
   //spider seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:spider_seeds",
+    'mysticalagriculture:spider_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:spider"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:spider"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:spider"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:10.0d,Type:"mysticalagriculture:spider"}'
       ).weakNBT(),
     ],
@@ -595,27 +595,27 @@ ServerEvents.recipes(event => {
 
   //rabbit seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:rabbit_seeds",
+    'mysticalagriculture:rabbit_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:rabbit"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:rabbit"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:rabbit"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:rabbit"}'
       ).weakNBT(),
     ],
@@ -624,27 +624,27 @@ ServerEvents.recipes(event => {
 
   //blizz seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:blizz_seeds",
+    'mysticalagriculture:blizz_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blizz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blizz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blizz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blizz"}'
       ).weakNBT(),
     ],
@@ -653,27 +653,27 @@ ServerEvents.recipes(event => {
 
   //blitz seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:blitz_seeds",
+    'mysticalagriculture:blitz_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blitz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blitz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blitz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:blitz"}'
       ).weakNBT(),
     ],
@@ -682,27 +682,27 @@ ServerEvents.recipes(event => {
 
   //basalz seed
   event.recipes.botania.runic_altar(
-    "mysticalagriculture:basalz_seeds",
+    'mysticalagriculture:basalz_seeds',
     [
-      "mysticalagriculture:soulium_seed_base",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
-      "mysticalagriculture:tertium_essence",
+      'mysticalagriculture:soulium_seed_base',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
+      'mysticalagriculture:tertium_essence',
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:basalz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:basalz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:basalz"}'
       ).weakNBT(),
       Item.of(
-        "mysticalagriculture:soul_jar",
+        'mysticalagriculture:soul_jar',
         '{Souls:6.0d,Type:"mysticalagriculture:basalz"}'
       ).weakNBT(),
     ],

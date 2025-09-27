@@ -1,61 +1,61 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
   //Transmutation Interface
   event
     .custom({
-      type: "extendedcrafting:shaped_table",
+      type: 'extendedcrafting:shaped_table',
       pattern: [
-        "ABACABA",
-        "BDCECFB",
-        "ACGHGCA",
-        "CIHGHJC",
-        "ACGHGCA",
-        "BKCLCMB",
-        "ABACABA",
+        'ABACABA',
+        'BDCECFB',
+        'ACGHGCA',
+        'CIHGHJC',
+        'ACGHGCA',
+        'BKCLCMB',
+        'ABACABA',
       ],
       key: {
         A: {
-          item: "projecte:dark_matter",
+          item: 'projecte:dark_matter',
         },
         B: {
-          item: "projectexpansion:final_emc_link",
+          item: 'projectexpansion:final_emc_link',
         },
         C: {
-          item: "projecte:condenser_mk2",
+          item: 'projecte:condenser_mk2',
         },
         D: {
-          item: "projectexpansion:blue_matter",
+          item: 'projectexpansion:blue_matter',
         },
         E: {
-          item: "projectexpansion:cyan_matter",
+          item: 'projectexpansion:cyan_matter',
         },
         F: {
-          item: "projectexpansion:green_matter",
+          item: 'projectexpansion:green_matter',
         },
         G: {
-          item: "kubejs:infinity_9",
+          item: 'kubejs:infinity_9',
         },
         H: {
-          item: "projectexpansion:final_star_shard",
+          item: 'projectexpansion:final_star_shard',
         },
         I: {
-          item: "projectexpansion:lime_matter",
+          item: 'projectexpansion:lime_matter',
         },
         J: {
-          item: "projectexpansion:yellow_matter",
+          item: 'projectexpansion:yellow_matter',
         },
         K: {
-          item: "projectexpansion:orange_matter",
+          item: 'projectexpansion:orange_matter',
         },
         L: {
-          item: "projectexpansion:white_matter",
+          item: 'projectexpansion:white_matter',
         },
         M: {
-          item: "projectexpansion:fading_matter",
+          item: 'projectexpansion:fading_matter',
         },
       },
       result: {
-        item: "projectexpansion:transmutation_interface",
+        item: 'projectexpansion:transmutation_interface',
       },
     })
-    .id("projectexpansion:transmutation_interface");
+    .id('projectexpansion:transmutation_interface');
 });

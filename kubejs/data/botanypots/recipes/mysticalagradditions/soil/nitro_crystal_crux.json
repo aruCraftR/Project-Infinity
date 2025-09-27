@@ -6,8 +6,6 @@
     "display": {
         "block": "mysticalagradditions:nitro_crystal_crux"
     },
-    "categories": [
-        "nitro_crystal_crux"
-    ],
+    "categories": ["nitro_crystal_crux"],
     "growthModifier": 1.66
 }
