@@ -22,6 +22,7 @@ changelog
 -added Advanced Loot Info
 -removed neruina
 -removed InsaneLib and Area Effect Clouds 3D (they are dependencys from Progressive Bosses I forgot to remove) (thx to LingJiuQiSan)
+-remoded Showcase Item
 
 -added more recipes for the essenceforge (there are 2 structures, you can redstone control them to activate them(redstone lamp), 1 is for single recipes)
     (2. one for multi recipes)
