@@ -1,14 +1,14 @@
 ServerEvents.recipes((event) => {
   // [input, output, count, includeMechanical]
   const ores = [
-    ["kubejs:arcmetal_ore", "kubejs:raw_arcmetal", 2, true],
-    ["kubejs:solarmetal_ore", "kubejs:raw_plasteel", 2, true],
-    ["kubejs:plasteel_ore", "kubejs:raw_solarmetal", 2, true],
-    ["kubejs:voidmetal_ore", "kubejs:raw_voidmetal", 2, true],
+    ['kubejs:arcmetal_ore', 'kubejs:raw_arcmetal', 2, true],
+    ['kubejs:solarmetal_ore', 'kubejs:raw_plasteel', 2, true],
+    ['kubejs:plasteel_ore', 'kubejs:raw_solarmetal', 2, true],
+    ['kubejs:voidmetal_ore', 'kubejs:raw_voidmetal', 2, true],
   ];
 
   function toSafeId(str) {
-    return str.toLowerCase().replace(/:/g, "_");
+    return str.toLowerCase().replace(/:/g, '_');
   }
 
   function createCrushRecipe(type, idPrefix, input, output, count) {
@@ -37,16 +37,16 @@ ServerEvents.recipes((event) => {
   // Rezepte generieren
   ores.forEach(([input, output, count, includeMechanical]) => {
     createCrushRecipe(
-      "integrateddynamics:squeezer",
-      "id_",
+      'integrateddynamics:squeezer',
+      'id_',
       input,
       output,
       count
     );
     if (includeMechanical) {
       createCrushRecipe(
-        "integrateddynamics:mechanical_squeezer",
-        "idm_",
+        'integrateddynamics:mechanical_squeezer',
+        'idm_',
         input,
         output,
         count
