@@ -53,7 +53,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:coal_seeds',
     'mysticalagriculture:coral_seeds',
     'mysticalagriculture:honey_seeds',
-    'mysticalagriculture:amethyst_seeds',
     'mysticalagriculture:pig_seeds',
     'mysticalagriculture:chicken_seeds',
     'mysticalagriculture:cow_seeds',
@@ -62,6 +61,7 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:fish_seeds',
     'mysticalagriculture:slime_seeds',
     'mysticalagriculture:turtle_seeds',
+    'mysticalagriculture:amethyst_seeds',
     'mysticalagriculture:rubber_seeds',
     'mysticalagriculture:silicon_seeds',
     'mysticalagriculture:sulfur_seeds',
@@ -104,15 +104,19 @@ MMEvents.createProcesses((event) => {
 
   // --- Tier 3 ---
   const tier3Seeds = [
-    'mysticalagriculture:boron_seeds',
     'mysticalagriculture:creeper_seeds',
+    'mysticalagriculture:skeleton_seeds',
+    'mysticalagriculture:spider_seeds',
+    'mysticalagriculture:zombie_seeds',
     'mysticalagriculture:basalz_seeds',
+    'mysticalagriculture:blizz_seeds',
+    'mysticalagriculture:blitz_seeds',
+    'mysticalagriculture:rabbit_seeds',
+    'mysticalagriculture:boron_seeds',
     'mysticalagriculture:quartz_enriched_iron_seeds',
     'mysticalagriculture:amethyst_bronze_seeds',
-    'mysticalagriculture:spider_seeds',
     'mysticalagriculture:cognizant_dust_seeds',
     'mysticalagriculture:lithium_seeds',
-    'mysticalagriculture:rabbit_seeds',
     'mysticalagriculture:slimesteel_seeds',
     'mysticalagriculture:pig_iron_seeds',
     'mysticalagriculture:tin_seeds',
@@ -135,12 +139,8 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:ironwood_seeds',
     'mysticalagriculture:graphite_seeds',
     'mysticalagriculture:prismarine_seeds',
-    'mysticalagriculture:zombie_seeds',
-    'mysticalagriculture:blizz_seeds',
     'mysticalagriculture:sky_stone_seeds',
     'mysticalagriculture:certus_quartz_seeds',
-    'mysticalagriculture:blitz_seeds',
-    'mysticalagriculture:skeleton_seeds',
   ];
   const tier3FarmlandConfigs = [
     {
@@ -164,7 +164,7 @@ MMEvents.createProcesses((event) => {
       output: 128,
     },
   ];
-  createMultiSeedRecipes(event, tier3Seeds, tier3FarmlandConfigs, 5);
+  createMultiSeedRecipes(event, tier3Seeds, tier3FarmlandConfigs, 4);
 
   // --- Tier 4 ---
   const tier4Seeds = [
@@ -285,7 +285,7 @@ MMEvents.createProcesses((event) => {
 
 // --- Funktionen ---
 
-function createMultiSeedRecipes(
+function createMultiSeedRecipes (
   event,
   seeds,
   farmlandConfigs,
@@ -339,7 +339,7 @@ function createMultiSeedRecipes(
   }
 }
 
-function createTier6SeedRecipes(event, seeds) {
+function createTier6SeedRecipes (event, seeds) {
   const seedToCrux = {
     'mysticalagriculture:allthemodium_seeds': 'allthemodium:allthemodium_block',
     'mysticalagriculture:dark_metal_ingot_seeds':

@@ -826,8 +826,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 15.5d
+			x: -5.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1267,8 +1267,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -0.5d
-			y: 15.5d
+			x: -2.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1809,8 +1809,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 14.5d
+			x: -4.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1905,8 +1905,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5d
-			y: 14.5d
+			x: -1.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2033,8 +2033,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 15.5d
+			x: 0.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2065,8 +2065,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.5d
-			y: 15.5d
+			x: 0.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2097,8 +2097,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.5d
-			y: 15.5d
+			x: -5.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3006,6 +3006,18 @@
 				"5DF8A07DED732B8B"
 				"2F6F888610373E21"
 				"4CA42D0832070C40"
+				"32085D990E7C65F9"
+				"13C844310B488184"
+				"29E65CF364702B30"
+				"3E946E88F364454E"
+				"60DF1E309C61BAF8"
+				"77E99195D495A01F"
+				"3194BDFA7EAC7D24"
+				"1D35AF8EB12AC817"
+				"288336487A6E909C"
+				"14B643094C08155A"
+				"594619EB772D66D6"
+				"31F9C2F89E2999A3"
 			]
 			id: "018AAF09164FB224"
 			rewards: [
@@ -3021,14 +3033,14 @@
 					type: "item"
 				}
 			]
-			size: 4.0d
+			size: 5.0d
 			tasks: [{
 				id: "4ED4690A95944D98"
 				item: "kubejs:ultimate_prediction"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 21.0d
+			x: -2.4738095238095283d
+			y: 23.42857142857143d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3060,6 +3072,410 @@
 				type: "item"
 			}]
 			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "288336487A6E909C"
+			optional: true
+			rewards: [
+				{
+					id: "785D91B1B3834CBB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4AF1BE7F0C919D5C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FA39A0581D586ED"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/lord_pumpkinhead"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "14B643094C08155A"
+			optional: true
+			rewards: [
+				{
+					id: "4FCED5C2320A1EFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4E9FCE828BD22AE8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C4B5D224E5B343C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:born_in_chaos/missioner"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1D35AF8EB12AC817"
+			optional: true
+			rewards: [
+				{
+					id: "47322CB1EF6268CD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6AB20F4A86F52FF5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51E6E73A3DEAF6E9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:botania/gaia_spirit"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3E946E88F364454E"
+			optional: true
+			rewards: [
+				{
+					id: "698C4ED59772EAD6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3C60B9659FC57268"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "535717DE8135DF54"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cataclysm/deepling_warlock"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "77E99195D495A01F"
+			optional: true
+			rewards: [
+				{
+					id: "55627C20B5549E81"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7EA5D98D81D6A8C8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09650E123795BD4C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cod"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "32085D990E7C65F9"
+			optional: true
+			rewards: [
+				{
+					id: "58B182FD4B5368FF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "550FBF2102C6A92B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10DC83490D38CF50"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:hoglin"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "60DF1E309C61BAF8"
+			optional: true
+			rewards: [
+				{
+					id: "2937665B59022AD6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "01F7A05718525D6F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09EFC314E16417F8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:polar_bear"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "13C844310B488184"
+			optional: true
+			rewards: [
+				{
+					id: "15EB71609CB1C4AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "767EE4585B9D6E76"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65B26AA73432B154"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:snow_golem"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "29E65CF364702B30"
+			optional: true
+			rewards: [
+				{
+					id: "3A20766D508BA70C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DCD09454F6ECA7E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "305F3511E41DBBEA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/winter_wolf"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3194BDFA7EAC7D24"
+			optional: true
+			rewards: [
+				{
+					id: "4AF775E31A2E306A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "46C9F03BEA1FA90A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B03C649DCFF4F1C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:undergarden/dweller"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "594619EB772D66D6"
+			rewards: [
+				{
+					id: "1D1848CFD84DF73C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4593C70354470A97"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AE1CA82B19AA1D6"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/knight_phantom"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "31F9C2F89E2999A3"
+			rewards: [
+				{
+					id: "65AAF153CB8642EA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "198C08CB4440121C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "044813585EAE6941"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/alpha_yeti"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
 			y: 17.5d
 		}
 	]

@@ -1,9 +1,5 @@
 priority: 0;
-<<<<<<< HEAD
 LootJS.modifiers((event) => {
-=======
-LootJS.modifiers(event => {
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
   event
     .addLootTypeModifier(LootType.ENTITY, LootType.CHEST)
     .removeLoot(["@everlastingabilities"])
@@ -29,19 +25,11 @@ LootJS.modifiers((event) => {
     ]);
 });
 
-<<<<<<< HEAD
 LootJS.modifiers((event) => {
   event.disableLootModification(/.*swasher*/);
 });
 
 LootJS.modifiers((event) => {
-=======
-LootJS.modifiers(event => {
-  event.disableLootModification(/.*swasher*/);
-});
-
-LootJS.modifiers(event => {
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
   event.addLootTypeModifier(LootType.FISHING).removeLoot([/.*swasher*/]);
 });
 

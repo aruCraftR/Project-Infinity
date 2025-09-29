@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ServerEvents.recipes((event) => {
-=======
-ServerEvents.recipes(event => {
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
   // [input, output, count, includeMechanical]
   const ores = [
     ["kubejs:arcmetal_ore", "kubejs:raw_arcmetal", 2, true],

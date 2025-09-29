@@ -343,7 +343,7 @@ const removeItemsbyID = [
   'voidminers:solar_ultimate_panel',
   'voidminers:ultimate_miner',
   'cyclic:crafting_bag',
-  '',
+  'sfm:water_tank',
   '',
   '',
 ];

@@ -13880,6 +13880,15 @@
     "item:thermal:phyto_grenade",
     "item:thermal:device_soil_infuser",
     "item:cyclic:crafting_stick",
-    "item:cyclic:crafting_bag"
+    "item:cyclic:crafting_bag",
+    "item:hostilenetworks:prediction",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"nuclearcraft:depleted_fuel_xenorium_xen_298\"}}]}}",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"nuclearcraft:fuel_xenorium_xen_298\"}}]}}",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"nuclearcraft:xenorium_298\"}}]}}",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"woot_revived:enchanted_fluid\"}}]}}",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"woot_revived:mob_tears_fluid\"}}]}}",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"woot_revived:pure_dye_fluid\"}}]}}",
+    "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"woot_revived:vitality_fuel_fluid\"}}]}}",
+    "item:woot_revived:creative_power"
     ]
 }

@@ -1567,7 +1567,7 @@
 			description: [
 				"The Edge of the Hidden Realm, also known as &6Demonic Realm&r, is a dimension in Blood Magic filled with powerful mobs and valuable resources."
 				""
-				"To access the &6Demonic Realm&r, you must perform the &dEdge of the Hidden Realm&r Ritual using a &9Master Ritual Stone&r and specific ritual components. Once activated, the ritual will open a portal to the Demon Realm, where you can gather unique resources and face challenging foes."
+				"To access the &6Demonic Realm&r, you must perform the &dPathway to the Endless Realm&r Ritual using a &9Master Ritual Stone&r and specific ritual components. Once activated, the ritual will open a portal to the Demon Realm, where you can gather unique resources and face challenging foes."
 			]
 			id: "75A49040AD06B49E"
 			rewards: [{

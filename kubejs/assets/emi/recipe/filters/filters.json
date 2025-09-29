@@ -72,6 +72,24 @@
         },
         {
             "category": "thermal:insolator_catalyst"
+        },
+        {
+            "category": "ali:fishing_loot"
+        },
+        {
+            "category": "ali:hero_loot"
+        },
+        {
+            "category": "ali:archaelogy_loot"
+        },
+        {
+            "category": "ali:plant_loot"
+        },
+        {
+            "category": "ali:gameplay_loot"
+        },
+        {
+            "category": "ali:trade_loot"
         }
     ]
 }

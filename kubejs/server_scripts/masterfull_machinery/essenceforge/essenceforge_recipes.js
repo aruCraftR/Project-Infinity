@@ -1,9 +1,5 @@
 priority: 1;
-<<<<<<< HEAD
 MMEvents.createProcesses((event) => {
-=======
-MMEvents.createProcesses(event => {
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
   // Tier 1 Seeds
   createSeedRecipes(
     event,
@@ -279,7 +275,6 @@ MMEvents.createProcesses(event => {
       },
     ]
   );
-<<<<<<< HEAD
 });
 
 function createSeedRecipes(event, seeds, farmlandConfigs) {
@@ -287,30 +282,6 @@ function createSeedRecipes(event, seeds, farmlandConfigs) {
     const essence = seed.replace("_seeds", "_essence");
 
     farmlandConfigs.forEach((config) => {
-=======
-
-  // Tier 6 Seeds
-  createTier6SeedRecipes(event, [
-    "mysticalagriculture:allthemodium_seeds",
-    "mysticalagriculture:dark_metal_ingot_seeds",
-    "mysticalagriculture:plutonium_seeds",
-    "mysticalagriculture:unobtainium_seeds",
-    "mysticalagriculture:vibranium_seeds",
-    "mysticalagriculture:nether_star_seeds",
-    "mysticalagriculture:dragon_egg_seeds",
-    "mysticalagriculture:gaia_spirit_seeds",
-    "mysticalagriculture:awakened_draconium_seeds",
-    "mysticalagriculture:neutronium_seeds",
-    "mysticalagriculture:nitro_crystal_seeds",
-  ]);
-});
-
-function createSeedRecipes(event, seeds, farmlandConfigs) {
-  seeds.forEach(seed => {
-    const essence = seed.replace("_seeds", "_essence");
-
-    farmlandConfigs.forEach(config => {
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
       const farmland = config.farmland;
       const ticks = config.ticks;
       const outputCount = config.output;
@@ -322,11 +293,7 @@ function createSeedRecipes(event, seeds, farmlandConfigs) {
             "_"
           )}`
         )
-<<<<<<< HEAD
         .structureId("mm:essenceforge_structure_on1")
-=======
-        .structureId("mm:essenceforge_structure_on")
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
         .ticks(ticks)
         // Input Energy
         .input({
@@ -373,142 +340,7 @@ function createSeedRecipes(event, seeds, farmlandConfigs) {
             item: essence,
             count: outputCount,
           },
-<<<<<<< HEAD
-=======
-        })
-        // Output Seed with 1% Chance
-        .output({
-          type: "mm:output/simple",
-          chance: 0.01,
-          ingredient: {
-            type: "mm:item",
-            item: seed,
-            count: 1,
-          },
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425
         });
     });
   });
 }
-<<<<<<< HEAD
-=======
-
-function createTier6SeedRecipes(event, seeds) {
-  const seedToCrux = {
-    "mysticalagriculture:allthemodium_seeds": "allthemodium:allthemodium_block",
-    "mysticalagriculture:dark_metal_ingot_seeds":
-      "born_in_chaos_v1:dark_metal_block",
-    "mysticalagriculture:plutonium_seeds": "evolvedmekanism:block_better_gold",
-    "mysticalagriculture:unobtainium_seeds": "allthemodium:unobtainium_block",
-    "mysticalagriculture:vibranium_seeds": "allthemodium:vibranium_block",
-    "mysticalagriculture:nether_star_seeds":
-      "mysticalagradditions:nether_star_crux",
-    "mysticalagriculture:dragon_egg_seeds":
-      "mysticalagradditions:dragon_egg_crux",
-    "mysticalagriculture:gaia_spirit_seeds":
-      "mysticalagradditions:gaia_spirit_crux",
-    "mysticalagriculture:awakened_draconium_seeds":
-      "mysticalagradditions:awakened_draconium_crux",
-    "mysticalagriculture:neutronium_seeds":
-      "mysticalagradditions:neutronium_crux",
-    "mysticalagriculture:nitro_crystal_seeds":
-      "mysticalagradditions:nitro_crystal_crux",
-  };
-
-  seeds.forEach(seed => {
-    const essence = seed.replace("_seeds", "_essence");
-    const crux = seedToCrux[seed];
-
-    if (!crux) {
-      console.error(`No Crux found for Seed: ${seed}`);
-      return;
-    }
-
-    // Recipe for Tier 6 Seeds
-    event
-      .create(`mm:essenceforge_${seed.replace(":", "_")}`)
-      .structureId("mm:essenceforge_structure_on")
-      .ticks(800)
-      // Input Energy
-      .input({
-        type: "mm:input/consume",
-        ingredient: {
-          type: "mm:energy",
-          amount: 1000000,
-        },
-      })
-      // Input Seed
-      .input({
-        type: "mm:input/consume",
-        chance: 0.0,
-        ingredient: {
-          type: "mm:item",
-          item: seed,
-          count: 1,
-        },
-      })
-      // Input Farmland
-      .input({
-        type: "mm:input/consume",
-        chance: 0.0,
-        ingredient: {
-          type: "mm:item",
-          item: "mysticalagradditions:insanium_farmland",
-          count: 1,
-        },
-      })
-      // Input Crux
-      .input({
-        type: "mm:input/consume",
-        chance: 0.0,
-        ingredient: {
-          type: "mm:item",
-          item: crux,
-          count: 1,
-        },
-      })
-      // Input Ether
-      .input({
-        type: "mm:input/consume",
-        ingredient: {
-          type: "mm:fluid",
-          fluid: "industrialforegoing:ether_gas",
-          amount: 50,
-        },
-      })
-      // Output Essence
-      .output({
-        type: "mm:output/simple",
-        ingredient: {
-          type: "mm:item",
-          item: essence,
-          count: 128,
-        },
-      })
-      // Output Seed with 1% Chance
-      .output({
-        type: "mm:output/simple",
-        chance: 0.01,
-        ingredient: {
-          type: "mm:item",
-          item: seed,
-          count: 1,
-        },
-      });
-  });
-}
-
-const cruxes = [
-  "allthemodium:allthemodium_block",
-  "born_in_chaos_v1:dark_metal_block",
-  "evolvedmekanism:block_better_gold",
-  "allthemodium:unobtainium_block",
-  "allthemodium:vibranium_block",
-  "mysticalagradditions:nether_star_crux",
-  "mysticalagradditions:dragon_egg_crux",
-  "mysticalagradditions:gaia_spirit_crux",
-  "mysticalagradditions:awakened_draconium_crux",
-  "mysticalagradditions:neutronium_crux",
-  "mysticalagradditions:nitro_crystal_crux",
-];
->>>>>>> aaa06ae3ba8155296024a41a6dbe6b2e5ddcc425

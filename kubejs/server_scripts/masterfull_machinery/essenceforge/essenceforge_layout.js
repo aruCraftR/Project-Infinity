@@ -40,11 +40,11 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('J', {
-          block: 'minecraft:redstone_lamp',
+          block: "minecraft:redstone_lamp",
           properties: [
             {
               property: "lit",
-              value: "false",
+              value: "true",
             },
           ],
         })
@@ -80,7 +80,7 @@ MMEvents.createStructures((event) => {
   event
     .create('mm:essenceforge_structure_off1')
     .controllerId('mm:essenceforge_controller')
-    .name('EssenceForge (Off)')
+    .name('EssenceForge (Off) Singlemode')
     .layout((a) => {
       a.layer(['AAAAA', 'ADDDA', 'ADDDA', 'ADDDA', 'AAAAA'])
         .layer(['PHQHR', 'HHHHH', 'QHHHQ', 'HHHHH', 'SHQHT'])
@@ -117,7 +117,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('J', {
-          block: 'minecraft:redstone_lamp',
+          block: "minecraft:redstone_lamp",
           properties: [
             {
               property: "lit",
@@ -194,11 +194,11 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('J', {
-          block: 'minecraft:redstone_lamp',
+          block: "minecraft:redstone_lamp",
           properties: [
             {
               property: "lit",
-              value: "false",
+              value: "true",
             },
           ],
         })
@@ -274,7 +274,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('J', {
-          block: 'minecraft:redstone_lamp',
+          block: "minecraft:redstone_lamp",
           properties: [
             {
               property: "lit",
