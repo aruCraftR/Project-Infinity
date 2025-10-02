@@ -84,7 +84,12 @@
 			y: 2.0d
 		}
 		{
-			description: ["&rThe Construction Wand mod allows players to place multiple blocks simultaneously, facilitating faster and more efficient building. Depending on the wand's material, up to 1,024 blocks can be placed at once."]
+			description: [
+				"&4The Construction Wand&r mod allows players to place multiple blocks simultaneously, facilitating faster and more efficient building. Depending on the wand's material, up to 1,024 blocks can be placed at once."
+				""
+				""
+				"&1The Pipes Connector&r mod allows players to place multiple pipes simultaneously. Hold a supported Pipe in your Off-Hand and shift right click a block. Then shift right click another block. You can change the depth with shift and mouse wheel. Shift right click into the air to open the GUI. Here you can change the settings or place the pipes."
+			]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
 				id: "73E17D3567E3D6BD"
@@ -92,19 +97,33 @@
 				xp_levels: 3
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "05D9E287D437CDDB"
-				item: {
-					Count: 1
-					id: "constructionwand:stone_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
+			tasks: [
+				{
+					id: "05D9E287D437CDDB"
+					item: {
+						Count: 1
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Wand"
+				{
+					id: "5525333FC1B80868"
+					item: {
+						Count: 1
+						id: "pipe_connector:pipe_connector"
+						tag: {
+							CustomModelData: 0
+							pipe_connector: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wand and Pipe Connector"
 			x: -5.0d
 			y: 4.0d
 		}

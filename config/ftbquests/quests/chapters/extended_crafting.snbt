@@ -979,6 +979,7 @@
 						Id: "extendedcrafting:electrum"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.0d

@@ -894,7 +894,9 @@
 			tasks: [{
 				id: "0C267E8C8B050DD1"
 				item: "tconstruct:scorched_anvil"
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Tinker's Anvil"
 			x: 3.5d

@@ -17,19 +17,13 @@ EMC
 
 /---------------------------------------------------------------------------------------------------------------/
 changelog
--UPDATED FORGE
 -updated some mods
--added Advanced Loot Info
--removed neruina
--removed InsaneLib and Area Effect Clouds 3D (they are dependencys from Progressive Bosses I forgot to remove) (thx to LingJiuQiSan)
--remoded Showcase Item
+-added tool belt (testing)
+-added Observable
+-updated actually subtractions to fix a bug
+-added pipe connector and added some conduits and pipes to the tags
 
--added more recipes for the essenceforge (there are 2 structures, you can redstone control them to activate them(redstone lamp), 1 is for single recipes)
-    (2. one for multi recipes)
-    -you can add up to 4 specific seeds together and get 4 times as many essence at the same time
--fixed HNN quest(thx to SchwarzeSchlange)
--removed recipe for sfm water tank
--added recipe for cast chest (tinkers) (thx to haccounth)
+-added a new server from Valhalla MC (thx to alpderps)
 /---------------------------
 known bugs:
 -some mystical agriculture essence recipes are visually bugged. try them inside a crafting table
