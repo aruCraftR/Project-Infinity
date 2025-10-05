@@ -7,6 +7,10 @@ smithing table automation in extreme smithing table
 build multiblock to get creative item? or for super endgame microminers?
 woot config
 dimlets enderman low chance
+super ultimate tier 1-6 seeds???
+gateway fallen chaos knight
+mob improsemt tool for bosses
+loot crates in dungeon super low chance
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -18,13 +22,38 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 changelog
 -updated some mods
--added tool belt (testing)
--added Observable
--updated actually subtractions to fix a bug
--added pipe connector and added some conduits and pipes to the tags
+-added structure essentials (thx to alpderps)
+-added Integrated Scripting (thx to nibbus2000)
 
--added a new server from Valhalla MC (thx to alpderps)
+-updated Extra Hostile Networks
+    -INFO this will remove all the simulation chambers and loot fabricators! and will add tier 1-4
+
+-removed EMI!
+-removed AE2 EMI Integration Addon
+-removed evolved wither
+-removed Botanical Machinery (forgot to remove it, wont change anything)
+-removed EnderChests and EnderTanks!!!! use DimStorage
+-removed KubeJS ProjectE Fork
+-removed KubeJS Powah
+-removed KubeJS Botania
+-removed KubeJS BloodMagic
+-removed Inventory Sorter and added Inventory Sorter Fork (thx to maiki44)
+-removed structure compass and added explorers compass (thx to RxDnz)
+
+-added air, fire, water and earth seeds to essenceforge
+-added air, fire, water and earth essence to tier 1 super essence
+-changed essenceforge tier 1 recipes (3 --> 5 seeds)
+-changed the recipe for ether gas from "The Wither" (evolved wither mod) to Piglich (allthemodium mod)
+-changed vibranium ingot recipe (3 insanium_essence --> 1 insanium_essence)
+-added a small shop item to buy inscriber plates when you are on the server (thx to alpderps)
+-removed chance cubes from chest loot and world gen and added them to the shop
+-fixed draconic core recipe (adwanced awakening altar) (thx to warnux76 and grey)
+-added some loot crates to the shop
+-added electrum ingot recipe to the combiner (thx to warnux76)
+
+
+-some mystical agriculture essence recipes are visually bugged. try them inside a crafting table
+            FIXED because I removed EMI
 /---------------------------
 known bugs:
--some mystical agriculture essence recipes are visually bugged. try them inside a crafting table
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

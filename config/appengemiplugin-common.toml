@@ -1,3 +1,0 @@
-#expose network inventory to emi, syncs bom
-exposeNetworkInventoryToEmi = true
-

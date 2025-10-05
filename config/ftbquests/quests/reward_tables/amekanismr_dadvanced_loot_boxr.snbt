@@ -1,16 +1,6 @@
 {
 	icon: "mekanism:basic_tier_installer"
 	id: "74164DBBE7919A3B"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		glow: 1b
-		string_id: "mekanism_advanced_loot_box"
-	}
 	loot_size: 1
 	order_index: 34
 	rewards: [

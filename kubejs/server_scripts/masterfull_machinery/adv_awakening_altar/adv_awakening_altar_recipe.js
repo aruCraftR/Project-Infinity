@@ -201,7 +201,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:nether_star',
-        count: 4,
+        count: 1,
       },
     })
     .input({
@@ -232,7 +232,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:awakened_core',
-        count: 4,
+        count: 1,
       },
     });
 
@@ -661,7 +661,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:nether_star',
-        count: 16,
+        count: 4,
       },
     })
     .input({
@@ -692,7 +692,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:awakened_core',
-        count: 16,
+        count: 4,
       },
     });
 

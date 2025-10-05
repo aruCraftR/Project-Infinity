@@ -369,18 +369,6 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  create3x3(event, 'mekanismgenerators:wind_generator', [
-    'minecraft:iron_ingot',
-    'mekanism:ingot_osmium',
-    'minecraft:iron_ingot',
-    'mekanism:ingot_osmium',
-    'mekanism:alloy_infused',
-    'mekanism:ingot_osmium',
-    'mekanism:alloy_infused',
-    'mekanism:basic_control_circuit',
-    'mekanism:alloy_infused',
-  ]);
-
   shapeless(event, '8x ironfurnaces:rainbow_plating', [
     'ironfurnaces:item_xmas',
     'ironfurnaces:iron_furnace',

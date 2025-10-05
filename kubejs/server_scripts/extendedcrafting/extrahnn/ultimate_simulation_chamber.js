@@ -22,8 +22,8 @@ ServerEvents.recipes((event) => {
         },
       },
       result: {
-        item: 'extrahnn:ultimate_sim_chamber',
+        item: 'extrahnn:ultimate_sim_chamber_v1',
       },
     })
-    .id('extrahnn:ultimate_sim_chamber');
+    .id('extrahnn:ultimate_sim_chamber_v1');
 });

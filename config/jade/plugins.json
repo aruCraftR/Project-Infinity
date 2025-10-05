@@ -54,12 +54,6 @@
   "entangled": {
     "entangled_block_component": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
-  },
   "exdeorum": {
     "infested_leaves": true,
     "barrel": true,
@@ -93,6 +87,13 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "extendedae_plus": {
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_master_location": true
   },
   "extendedcrafting": {
     "elite_auto_table": true,
@@ -139,9 +140,6 @@
   "waystones": {
     "waystone": true
   },
-  "enderchests": {
-    "hud": true
-  },
   "mm": {
     "controller_progress": true
   },
@@ -152,9 +150,6 @@
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
-  },
-  "voidminers": {
-    "ultimate_title": true
   },
   "pneumaticcraft": {
     "pneumatic": true,

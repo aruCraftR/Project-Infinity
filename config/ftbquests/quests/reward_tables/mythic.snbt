@@ -1,19 +1,28 @@
 {
 	icon: "minecraft:nether_star"
 	id: "481E10AEAC95C550"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "mythic_reward"
+	}
 	loot_size: 1
 	order_index: 14
 	rewards: [
 		{ item: "mekanism:pellet_antimatter", weight: 2.0f }
 		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1, weight: 1.5f }
-		{ item: "mysticalagriculture:allthemodium_seeds", weight: 0.1f }
-		{ item: "mysticalagriculture:vibranium_seeds", weight: 0.1f }
-		{ item: "mysticalagriculture:unobtainium_seeds", weight: 0.1f }
+		{ item: "mysticalagriculture:allthemodium_seeds", weight: 0.05f }
+		{ item: "mysticalagriculture:vibranium_seeds", weight: 0.05f }
+		{ item: "mysticalagriculture:unobtainium_seeds", weight: 0.05f }
 		{ item: "allthemodium:unobtainium_allthemodium_alloy_block", random_bonus: 1, weight: 3.0f }
 		{ item: "mekanism:ultimate_induction_cell", weight: 2.0f }
 		{ item: "mekanism:ultimate_induction_provider", weight: 2.0f }
 		{ item: "botania:dice", weight: 2.0f }
-		{ count: 36, item: "powah:reactor_nitro", weight: 3.0f }
+		{ count: 36, item: "powah:reactor_nitro", weight: 5.0f }
 		{
 			item: {
 				Count: 1
@@ -44,7 +53,7 @@
 					}
 				}
 			}
-			weight: 0.25f
+			weight: 0.15f
 		}
 		{
 			item: {
@@ -76,7 +85,7 @@
 					}
 				}
 			}
-			weight: 0.25f
+			weight: 0.15f
 		}
 		{
 			item: {
@@ -106,7 +115,7 @@
 					}
 				}
 			}
-			weight: 0.25f
+			weight: 0.15f
 		}
 		{
 			item: {
@@ -138,7 +147,7 @@
 					}
 				}
 			}
-			weight: 0.25f
+			weight: 0.15f
 		}
 		{
 			item: {
@@ -170,7 +179,7 @@
 					}
 				}
 			}
-			weight: 0.25f
+			weight: 0.15f
 		}
 		{
 			item: {
@@ -200,7 +209,7 @@
 					}
 				}
 			}
-			weight: 0.25f
+			weight: 0.15f
 		}
 	]
 	title: "&5Mythic Reward"

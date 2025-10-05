@@ -442,6 +442,8 @@
 				"&1-Item Modifiers&f"
 				""
 				"You dont need the same tier miner and same tier modifiers. "
+				""
+				"place maximum 6 item modifiers!"
 			]
 			id: "7A53D218AE346717"
 			tasks: [
@@ -649,10 +651,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"3B023D3A72B6DB76"
-				"1F7ACEEDD4FE9EBA"
-			]
+			dependencies: ["3B023D3A72B6DB76"]
 			id: "224DA46DAC47E550"
 			rewards: [{
 				id: "275422952168ADDF"
@@ -669,6 +668,7 @@
 			y: 0.3928571428571388d
 		}
 		{
+			dependencies: ["224DA46DAC47E550"]
 			id: "1F7ACEEDD4FE9EBA"
 			rewards: [{
 				id: "55F8CD59C798F5BA"

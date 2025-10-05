@@ -1836,7 +1836,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Ocean Biome"
+			subtitle: "Find him inside the Hunting Dimension. Ocean Biome"
 			tasks: [{
 				entity: "cataclysm:scylla"
 				id: "1C01F6151B04646A"

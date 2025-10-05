@@ -11,19 +11,19 @@
 			id: "0C8BB19B42305267"
 			rewards: [
 				{
-					id: "23F8B4ABFBC2B2A1"
+					id: "7E109B76ED97E3CB"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E553690F9567D73"
-					table_id: 5196609362437981520L
+					id: "2781DFC5713F8858"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
 			shape: "pentagon"
-			size: 1.4d
+			size: 1.6d
 			tasks: [{
 				icon: {
 					Count: 1
@@ -38,26 +38,26 @@
 				value: 6900000
 			}]
 			title: "&cSince Last Death"
-			x: 3.15d
-			y: -3.15d
+			x: -1.6d
+			y: -6.4d
 		}
 		{
 			id: "7D8DD102700A5C97"
 			rewards: [
 				{
-					id: "38DDF93EE002BB81"
+					id: "2838C6E494C026E0"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7851F11A77D7325D"
-					table_id: 5196609362437981520L
+					id: "5E59CBB80DAC0D1D"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
 			shape: "pentagon"
-			size: 1.4d
+			size: 1.6d
 			tasks: [{
 				icon: "minecraft:clock"
 				id: "5710C05DA1B84695"
@@ -66,24 +66,26 @@
 				value: 5900000
 			}]
 			title: "&bTime Played"
-			x: -1.05d
-			y: -3.15d
+			x: 0.0d
+			y: -6.4d
 		}
 		{
 			id: "4641D535199C5F8B"
 			rewards: [
 				{
-					id: "64607DD54F20FFDB"
+					id: "43A03480D67C39BB"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7F0C4AE743E1137B"
-					table_id: 5196609362437981520L
+					id: "60ABB3DC2BB7EC2F"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			shape: "square"
+			size: 1.6d
 			subtitle: "1 million steaks waiting to be grilled"
 			tasks: [{
 				consume_items: true
@@ -93,52 +95,55 @@
 				type: "item"
 			}]
 			title: "&6King of the Grill"
-			x: 2.5d
-			y: -4.5d
+			x: -8.0d
+			y: -4.8d
 		}
 		{
 			id: "36901054929FE3EF"
 			rewards: [
 				{
-					id: "2816289512468A08"
+					id: "3A5B1A4A70AB75DA"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "312ACF629C795006"
-					table_id: 5196609362437981520L
+					id: "16D8C8C7E03791D2"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			shape: "square"
+			size: 1.6d
 			subtitle: "Spend 1 million of diamonds to benefit poor"
 			tasks: [{
 				consume_items: true
-				count: 1000000L
+				count: 5000000L
 				id: "79ACBA57DC39394B"
 				item: "minecraft:diamond"
 				title: "1,000,000 Diamonds"
 				type: "item"
 			}]
 			title: "&9Robin Hood"
-			x: -1.5d
-			y: -7.5d
+			x: -9.6d
+			y: -6.4d
 		}
 		{
 			id: "7B44968F569EEE16"
 			rewards: [
 				{
-					id: "087E284A95DCC812"
+					id: "264CB97C6450DC26"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "622E42CB04AA75F1"
-					table_id: 5196609362437981520L
+					id: "5B8244B94AB78AD3"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			subtitle: "Vanilla Crafting Table"
 			tasks: [{
 				icon: "minecraft:crafting_table"
@@ -148,8 +153,8 @@
 				type: "stat"
 				value: 1000
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: 0.8d
+			y: -10.4d
 		}
 		{
 			icon: {
@@ -165,17 +170,19 @@
 			id: "4749F46F794687BF"
 			rewards: [
 				{
-					id: "368580F43564009A"
+					id: "16E7A7E58D4FFDCB"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2449F02E6375CC90"
-					table_id: 5196609362437981520L
+					id: "70685C77A6DD32B3"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			shape: "circle"
+			size: 1.6d
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
@@ -184,24 +191,25 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -0.5d
-			y: -7.5d
+			x: -9.6d
+			y: -8.8d
 		}
 		{
 			id: "4E04E3C10F2CBF85"
 			rewards: [
 				{
-					id: "049AD2E22B83EA08"
+					id: "450E5AED2BCA2231"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "080A9EF2FAB622A4"
-					table_id: 5196609362437981520L
+					id: "3596E9D0B953A24E"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				id: "5CFE33E5A9F78A10"
 				points: false
@@ -209,24 +217,25 @@
 				type: "xp"
 				value: 3000L
 			}]
-			x: 2.5d
-			y: -6.0d
+			x: 1.6d
+			y: -6.4d
 		}
 		{
 			id: "37B5AB03011BEAC2"
 			rewards: [
 				{
-					id: "74B1D36C1AAEB65B"
+					id: "44D2CB4EF8A790E0"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6071B391AEC4B3D0"
-					table_id: 5196609362437981520L
+					id: "5266D8681CC6D190"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				icon: "minecraft:red_bed"
 				id: "0F332AE1241A512A"
@@ -235,25 +244,26 @@
 				type: "stat"
 				value: 3000
 			}]
-			x: 3.5d
-			y: -7.5d
+			x: 2.4000000000000004d
+			y: -8.8d
 		}
 		{
 			description: ["Use Jukebox."]
 			id: "1FD5C5128D418042"
 			rewards: [
 				{
-					id: "2475772A80A56DFA"
+					id: "2D01B3ABCB84E451"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0A23E06FA57AF0C7"
-					table_id: 5196609362437981520L
+					id: "121C67D47A2F6750"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				icon: "minecraft:jukebox"
 				id: "5C69AE6392056334"
@@ -262,24 +272,25 @@
 				type: "stat"
 				value: 1000
 			}]
-			x: 3.5d
-			y: -6.0d
+			x: -0.8d
+			y: -8.8d
 		}
 		{
 			id: "410C1A5F6FA99764"
 			rewards: [
 				{
-					id: "6754A891FD7BA4D1"
+					id: "0A5FE67D78B23F5B"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "56BABC83F2FC0237"
-					table_id: 5196609362437981520L
+					id: "37873C4FDBFE0F16"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				icon: {
 					Count: 1
@@ -295,24 +306,25 @@
 				value: 1500
 			}]
 			title: "&6That's fishy.."
-			x: -1.5d
-			y: -6.0d
+			x: -0.8d
+			y: -10.4d
 		}
 		{
 			id: "5D9E10F27EEAF2A1"
 			rewards: [
 				{
-					id: "20E24B144B44328C"
+					id: "437BD2F281D72007"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4BE098FE9ADDAA9F"
-					table_id: 5196609362437981520L
+					id: "1E63CE8E01090FC8"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "2C3910CD1178E3CC"
@@ -321,25 +333,27 @@
 				type: "stat"
 				value: 500
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 0.8d
+			y: -8.8d
 		}
 		{
 			description: ["Use &eTask Screen&r to complete this Quest."]
 			id: "48AAA21C2214AED4"
 			rewards: [
 				{
-					id: "5648F4675BC71784"
+					id: "2B0B7D563498C045"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2816A3EF3454132E"
-					table_id: 5196609362437981520L
+					id: "6F8CA11A2FC0AAB2"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			shape: "square"
+			size: 1.6d
 			subtitle: "Hot Stuff"
 			tasks: [{
 				amount: 1000000000L
@@ -349,25 +363,27 @@
 				type: "fluid"
 			}]
 			title: "&4The Smeltery"
-			x: -0.5d
-			y: -4.5d
+			x: -6.4d
+			y: -4.8d
 		}
 		{
 			description: ["Use &eTask Screen&r to complete this Quest."]
 			id: "51F42BF270D6F54D"
 			rewards: [
 				{
-					id: "6779A7C34ABE05E0"
+					id: "4945D44FBD597D87"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "44DFBA04873EAFDB"
-					table_id: 5196609362437981520L
+					id: "52B0F3D75C402B42"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			shape: "square"
+			size: 1.6d
 			subtitle: "Cool, eh?"
 			tasks: [{
 				id: "4D8588BE28BFAE5C"
@@ -376,78 +392,78 @@
 				value: 1000000000L
 			}]
 			title: "&5All That Power"
-			x: 1.0d
-			y: -7.5d
+			x: -11.2d
+			y: -4.8d
 		}
 		{
 			id: "7CFE69A0CD15C6A3"
 			rewards: [
 				{
-					id: "05DE11439A75E650"
+					id: "4C25B8B7EA2F487C"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "65C7D87BD6A1619F"
-					table_id: 5196609362437981520L
+					id: "11C159FF83E07467"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			tasks: [{
 				id: "4076914782A79491"
 				item: "allthemodium:alloy_sword"
 				type: "item"
 			}]
 			title: "&6Allthemodium Alloy Blade"
-			x: 2.25d
-			y: -1.875d
+			x: 0.0d
+			y: -1.6d
 		}
 		{
 			id: "7B1F42202D89F563"
 			rewards: [
 				{
-					id: "5C0CB4D7B5D11ECA"
+					id: "447C7F3A2B585802"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0B4F9F94A9D53245"
-					table_id: 5196609362437981520L
+					id: "64F6E3F9DA4F979D"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.6d
 			tasks: [{
 				id: "22F14CC788517E4D"
 				item: "allthemodium:alloy_paxel"
 				type: "item"
 			}]
 			title: "&6Allthemodium Alloy Paxel"
-			x: 0.0d
-			y: -1.875d
+			x: 1.6d
+			y: -1.6d
 		}
 		{
 			id: "0B6ACDEFAD525E54"
 			rewards: [
 				{
-					id: "51CABDC2084A1432"
+					id: "22B9E8AC089BF747"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "76430FF0CB72B304"
+					id: "14D5F039D476B6AF"
 					table_id: 5196609362437981520L
 					type: "random"
 				}
 			]
-			shape: "octagon"
-			size: 1.5d
+			shape: "pentagon"
+			size: 1.6d
 			tasks: [{
 				consume_items: true
 				count: 200L
@@ -460,24 +476,25 @@
 				type: "item"
 			}]
 			title: "&5The Master of the Singularity"
-			x: 1.125d
-			y: -0.375d
+			x: -16.0d
+			y: -4.8d
 		}
 		{
 			id: "3DEA57E2758E6168"
 			rewards: [
 				{
-					id: "4FD8A53F5C0F2B77"
+					id: "0BC4F290749ADF98"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "49590EFA9FA3DDEB"
-					table_id: 5196609362437981520L
+					id: "6E46C155C8BB3BFF"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				icon: "draconicevolution:mob_soul"
 				id: "6C3E75B7FC24C344"
@@ -487,24 +504,25 @@
 				value: 10000
 			}]
 			title: "&2Travel 10k Blocks Riding a Pig"
-			x: 1.0d
-			y: -6.0d
+			x: 0.8d
+			y: -4.0d
 		}
 		{
 			id: "20D79DE310D450E6"
 			rewards: [
 				{
-					id: "554E3F8B53C22938"
+					id: "4B2DE5D777A11CA6"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4383FEF1BE9CE812"
-					table_id: 5196609362437981520L
+					id: "226BBD138D07846F"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			size: 1.6d
 			tasks: [{
 				icon: "minecraft:chest"
 				id: "771136E7D407A4F9"
@@ -514,113 +532,115 @@
 				value: 10000
 			}]
 			title: "&cBeing a little Chesty"
-			x: 2.5d
-			y: -7.5d
+			x: 2.4000000000000004d
+			y: -10.4d
 		}
 		{
 			id: "474ACDC55BF7AEB6"
 			rewards: [
 				{
-					id: "262AE29A884A428A"
+					id: "7F6B75C2129DF54F"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "238253F327D5AE3D"
-					table_id: 5196609362437981520L
+					id: "49E7B56BFAB5BCF6"
+					table_id: 7175652334583451871L
 					type: "random"
 				}
 			]
+			shape: "square"
+			size: 1.6d
 			subtitle: "Spend 1 million Wood"
 			tasks: [{
 				consume_items: true
-				count: 1000000L
+				count: 10000000L
 				id: "6C4EDABA20BE140C"
 				item: "minecraft:oak_log"
 				title: "1,000,000 Wood"
 				type: "item"
 			}]
 			title: "&9Robin Wood"
-			x: -1.5d
-			y: -8.5d
+			x: -11.2d
+			y: -6.4d
 		}
 		{
 			id: "40B567A060344181"
 			rewards: [
 				{
-					id: "419E1CBCD7F983E0"
+					id: "36111E5D388F97B2"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4237C190693337C4"
+					id: "384CA7B2D1C9A3F3"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "square"
 			size: 1.6d
 			subtitle: "Stuff the vault with half a million radiant cores."
 			tasks: [{
 				consume_items: true
-				count: 500000L
+				count: 50000L
 				id: "486429CD1A0F4F2E"
 				item: "minecraft:nether_star"
 				title: "500,000 Nether Stars"
 				type: "item"
 			}]
 			title: "&4Nether Star Donation Drive"
-			x: -2.0d
-			y: -10.0d
+			x: -6.4d
+			y: -6.4d
 		}
 		{
 			id: "0E9F435C0E5D4713"
 			rewards: [
 				{
-					id: "7E0ACC19ED15A61B"
+					id: "4A43EBBC2E34996E"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4D644285234C5CDB"
+					id: "5ADD618CB59E5C6F"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "square"
 			size: 1.6d
 			subtitle: "Become the bank every villager dreams about."
 			tasks: [{
 				consume_items: true
-				count: 1000000L
+				count: 2500000L
 				id: "31023B177EBC52E0"
 				item: "minecraft:emerald"
 				title: "1,000,000 Emeralds"
 				type: "item"
 			}]
 			title: "&2Emerald Endowment"
-			x: 0.0d
-			y: -10.0d
+			x: -8.0d
+			y: -6.4d
 		}
 		{
 			id: "43149D12087D4F3B"
 			rewards: [
 				{
-					id: "2936E382B96019A3"
+					id: "16D9BB989E095387"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5F0CB8C7C72FBA6E"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "341684C04430B351"
+					table_id: 5196609362437981520L
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "pentagon"
 			size: 1.6d
 			subtitle: "Stack a quarter million Vibranium ingots."
 			tasks: [{
@@ -632,25 +652,25 @@
 				type: "item"
 			}]
 			title: "&6Vibranium Vault"
-			x: 2.0d
-			y: -10.0d
+			x: -17.6d
+			y: -5.6000000000000005d
 		}
 		{
 			id: "235D7640E01D8091"
 			rewards: [
 				{
-					id: "1179624C3480A7B1"
+					id: "224A086D0F145330"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "506001BA398648CE"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "4537D6294C940F3A"
+					table_id: 5196609362437981520L
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "pentagon"
 			size: 1.6d
 			subtitle: "If it's unobtainable, prove otherwise."
 			tasks: [{
@@ -662,25 +682,25 @@
 				type: "item"
 			}]
 			title: "&dUnobtainium Treasury"
-			x: 4.0d
-			y: -10.0d
+			x: -17.6d
+			y: -4.0d
 		}
 		{
 			id: "389CB23E412B4414"
 			rewards: [
 				{
-					id: "1472D5FA68CDBCD6"
+					id: "7EA71B8A7A6EB663"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0AC2933F75AAA6F2"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "53893E700EB4033E"
+					table_id: 5196609362437981520L
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "pentagon"
 			size: 1.6d
 			subtitle: "Build a sea of chaotic energy nodes."
 			tasks: [{
@@ -692,25 +712,25 @@
 				type: "item"
 			}]
 			title: "&5Chaotic Core Cascade"
-			x: 6.0d
-			y: -10.0d
+			x: -17.6d
+			y: -2.4000000000000004d
 		}
 		{
 			id: "377B743A696C45AC"
 			rewards: [
 				{
-					id: "02764FDDE6CE6978"
+					id: "20B96327AD136430"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "09AFF8F46C269B22"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "4F60248A6B273DF6"
+					table_id: 5196609362437981520L
+					type: "random"
 				}
 			]
-			shape: "hexagon"
+			shape: "pentagon"
 			size: 1.6d
 			subtitle: "Harvest a thousand shards from Chaos Islands."
 			tasks: [{
@@ -722,25 +742,25 @@
 				type: "item"
 			}]
 			title: "&5Shardfall"
-			x: -2.0d
-			y: -12.5d
+			x: -17.6d
+			y: -8.8d
 		}
 		{
 			id: "78107466704B4A67"
 			rewards: [
 				{
-					id: "5BBE978FF5EE1DC7"
+					id: "3ADE72CDDA899E14"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1D81D93F781DAD98"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "666CAF19AC469A52"
+					table_id: 5196609362437981520L
+					type: "random"
 				}
 			]
-			shape: "hexagon"
+			shape: "pentagon"
 			size: 1.6d
 			subtitle: "Serve every table with the ultimate alloy plate."
 			tasks: [{
@@ -752,25 +772,25 @@
 				type: "item"
 			}]
 			title: "&6Ultimate Ingot Buffet"
-			x: 0.0d
-			y: -12.5d
+			x: -17.6d
+			y: -7.2d
 		}
 		{
 			id: "6AE372ED9E592127"
 			rewards: [
 				{
-					id: "75A22BCAD929CF9A"
+					id: "167B9838ADF306BA"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "570FEC9B5A0812CB"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "01AA3C9AE5BA878D"
+					table_id: 5196609362437981520L
+					type: "random"
 				}
 			]
-			shape: "hexagon"
+			shape: "pentagon"
 			size: 1.6d
 			subtitle: "Wrap the base in pure creative essence."
 			tasks: [{
@@ -782,22 +802,22 @@
 				type: "item"
 			}]
 			title: "&dCreative Essence Cloud"
-			x: 2.0d
-			y: -12.5d
+			x: -16.0d
+			y: -6.4d
 		}
 		{
 			id: "1713E867378539D3"
 			rewards: [
 				{
-					id: "2524D4571ED2AC8F"
+					id: "65CA5D07F5F50464"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1F72F0BE1B5B757C"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "761E13663EE0EB9B"
+					table_id: 7025454341029952768L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -812,25 +832,25 @@
 				type: "item"
 			}]
 			title: "&cNitro Grid Overload"
-			x: 4.0d
-			y: -12.5d
+			x: -8.0d
+			y: -2.4d
 		}
 		{
 			id: "7361FD250CCE46BF"
 			rewards: [
 				{
-					id: "0BC86397E45825CF"
+					id: "70147013AAE03E6E"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "32977DE4537B75B9"
+					id: "15CBDA7BA13B0593"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "hexagon"
+			shape: "square"
 			size: 1.6d
 			subtitle: "Feed the SPS an ocean of polonium."
 			tasks: [{
@@ -842,22 +862,22 @@
 				type: "item"
 			}]
 			title: "&3Polonium Pantry"
-			x: 6.0d
-			y: -12.5d
+			x: -9.6d
+			y: -4.8d
 		}
 		{
 			id: "5E9C5364DC38464A"
 			rewards: [
 				{
-					id: "41FE5E28E244FAF8"
+					id: "12BDC4F8ECB0F2B1"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "08F86E20107DA91D"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "72F252CF239854F1"
+					table_id: 7025454341029952768L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -872,22 +892,22 @@
 				type: "item"
 			}]
 			title: "&6Supreme Machine Network"
-			x: -2.0d
-			y: -15.0d
+			x: -11.2d
+			y: -2.4d
 		}
 		{
 			id: "5A3DE33C9E5340CC"
 			rewards: [
 				{
-					id: "072095EC2FD00C2C"
+					id: "683D12EA4F8D34FF"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2ABCAA40EDC5FE7C"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "30E2A68E9658F242"
+					table_id: 7025454341029952768L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -902,26 +922,26 @@
 				type: "item"
 			}]
 			title: "&5Catalyst Cascade"
-			x: 0.0d
-			y: -15.0d
+			x: -9.6d
+			y: -2.4d
 		}
 		{
 			id: "610C248072E94321"
 			rewards: [
 				{
-					id: "06FA4593158FC721"
+					id: "05581F2051A6A591"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "036FC989ECAD31AE"
+					id: "3BA6D8594C3F3FF3"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "pentagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.6d
 			subtitle: "Fly five thousand kilometers without touching ground."
 			tasks: [{
 				icon: {
@@ -938,26 +958,26 @@
 				value: 500000000
 			}]
 			title: "&bElytra Marathon"
-			x: 2.0d
-			y: -15.0d
+			x: -9.6d
+			y: -10.4d
 		}
 		{
 			id: "1F6ABBFA66784434"
 			rewards: [
 				{
-					id: "743E5E237C217F9F"
+					id: "67F02CC5FA67EB43"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "46D0FF0F95C166AE"
+					id: "7EB143D471795086"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "pentagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.6d
 			subtitle: "Sprint the overworld into a groove."
 			tasks: [{
 				icon: {
@@ -974,26 +994,26 @@
 				value: 750000000
 			}]
 			title: "&2Sprint Ultramarathon"
-			x: 4.0d
-			y: -15.0d
+			x: -11.2d
+			y: -10.4d
 		}
 		{
 			id: "6A7F691984D24DAD"
 			rewards: [
 				{
-					id: "4396B3ABF392B827"
+					id: "2566977E9C52A34C"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "76375F61BC72C7D7"
+					id: "165F6ACA30F5BD44"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "pentagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.6d
 			subtitle: "Cross oceans on pure lung power."
 			tasks: [{
 				icon: {
@@ -1010,26 +1030,26 @@
 				value: 250000000
 			}]
 			title: "&3Underwater Express"
-			x: 6.0d
-			y: -15.0d
+			x: -8.0d
+			y: -10.4d
 		}
 		{
 			id: "4392C17BF1FE07DA"
 			rewards: [
 				{
-					id: "11345FDC6D0320A7"
+					id: "42534C64B844AE2A"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "06E6F7CCB9FD2545"
+					id: "0BE78775C68A78D3"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "pentagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.6d
 			subtitle: "Hop until gravity files a complaint."
 			tasks: [{
 				icon: "minecraft:rabbit_foot"
@@ -1040,26 +1060,26 @@
 				value: 500000
 			}]
 			title: "&9Leap Legend"
-			x: -2.0d
-			y: -17.5d
+			x: -6.4d
+			y: -10.4d
 		}
 		{
 			id: "59E12BEE18525A04"
 			rewards: [
 				{
-					id: "7AD9C2FF69E06379"
+					id: "569D2D2CE59900FE"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0F8C678384E391E7"
+					id: "57C15ED4787F1F73"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "pentagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.6d
 			subtitle: "Deal half a billion hearts of damage."
 			tasks: [{
 				icon: {
@@ -1076,26 +1096,26 @@
 				value: 500000000
 			}]
 			title: "&4Damage Incarnate"
-			x: 0.0d
-			y: -17.5d
+			x: -11.2d
+			y: -8.8d
 		}
 		{
 			id: "6FB3737F16474152"
 			rewards: [
 				{
-					id: "2825CED112E0777B"
+					id: "5790E08E1BDA28B9"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6EE2E991AB22E6A8"
-					table_id: 7175652334583451871L
-					type: "loot"
+					id: "2C4849303484D529"
+					table_id: 7025454341029952768L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
-			size: 1.5d
+			size: 1.6d
 			subtitle: "Populate the planet with happy animals."
 			tasks: [{
 				icon: "minecraft:wheat"
@@ -1106,25 +1126,25 @@
 				value: 10000
 			}]
 			title: "&aMaster Breeder"
-			x: 2.0d
-			y: -17.5d
+			x: -6.4d
+			y: -2.4d
 		}
 		{
 			id: "716924CBD0704A22"
 			rewards: [
 				{
-					id: "75F349DC339D3469"
+					id: "72EC0E5B71F8AD2C"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5ABC02A1CF97C509"
+					id: "30BA445D99AB471A"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "circle"
 			size: 1.6d
 			subtitle: "No more dragon resets."
 			tasks: [{
@@ -1136,25 +1156,25 @@
 				value: 50L
 			}]
 			title: "&5Dragon Eradicator"
-			x: 4.0d
-			y: -17.5d
+			x: -8.0d
+			y: -8.8d
 		}
 		{
 			id: "62BDFE77BBDB4FE0"
 			rewards: [
 				{
-					id: "73CE9EF4A0B2CD21"
+					id: "5E005E21064A5BC7"
 					item: "kubejs:ascended_coin"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6B07C24369535138"
+					id: "1C7EFC4786D831EC"
 					table_id: 7175652334583451871L
-					type: "loot"
+					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "circle"
 			size: 1.6d
 			subtitle: "Empty every ocean monument twice over."
 			tasks: [{
@@ -1166,8 +1186,35 @@
 				value: 250L
 			}]
 			title: "&3Guardian Buster"
-			x: 6.0d
-			y: -17.5d
+			x: -6.4d
+			y: -8.8d
+		}
+		{
+			id: "26B04A86EAAA4E9C"
+			rewards: [
+				{
+					id: "1DB90AA41D4C9C01"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C374AB24D2319EF"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+			]
+			size: 1.6d
+			subtitle: "Die 1000 times"
+			tasks: [{
+				id: "328D228B8F1B1B9D"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1000
+			}]
+			title: "&3DIE"
+			x: 3.2d
+			y: -6.4d
 		}
 	]
 	title: "Legendary Challenges"

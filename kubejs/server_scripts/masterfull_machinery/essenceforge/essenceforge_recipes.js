@@ -10,6 +10,10 @@ MMEvents.createProcesses((event) => {
       'mysticalagriculture:wood_seeds',
       'mysticalagriculture:ice_seeds',
       'mysticalagriculture:deepslate_seeds',
+      'mysticalagriculture:earth_seeds',
+      'mysticalagriculture:water_seeds',
+      'mysticalagriculture:air_seeds',
+      'mysticalagriculture:fire_seeds',
     ],
     [
       {
@@ -277,9 +281,9 @@ MMEvents.createProcesses((event) => {
   );
 });
 
-function createSeedRecipes(event, seeds, farmlandConfigs) {
+function createSeedRecipes (event, seeds, farmlandConfigs) {
   seeds.forEach((seed) => {
-    const essence = seed.replace("_seeds", "_essence");
+    const essence = seed.replace('_seeds', '_essence');
 
     farmlandConfigs.forEach((config) => {
       const farmland = config.farmland;
@@ -293,7 +297,7 @@ function createSeedRecipes(event, seeds, farmlandConfigs) {
             '_'
           )}`
         )
-        .structureId("mm:essenceforge_structure_on1")
+        .structureId('mm:essenceforge_structure_on1')
         .ticks(ticks)
         // Input Energy
         .input({

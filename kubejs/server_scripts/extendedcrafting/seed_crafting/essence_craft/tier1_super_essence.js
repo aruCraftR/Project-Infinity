@@ -22,6 +22,18 @@ ServerEvents.recipes((event) => {
         {
           item: 'mysticalagriculture:deepslate_essence',
         },
+        {
+          item: 'mysticalagriculture:air_essence',
+        },
+        {
+          item: 'mysticalagriculture:earth_essence',
+        },
+        {
+          item: 'mysticalagriculture:water_essence',
+        },
+        {
+          item: 'mysticalagriculture:fire_essence',
+        },
       ],
       result: {
         item: 'kubejs:tier1_super_essence',

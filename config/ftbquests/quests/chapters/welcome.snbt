@@ -401,7 +401,7 @@
 					type: "item"
 				}
 				{
-					command: "/summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"Friend\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
+					command: "execute as @p run summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"Friend\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
 					icon: "draconicevolution:dragon_heart"
 					id: "035BC1E95467477D"
 					title: "Your first friend :)"
@@ -1800,22 +1800,6 @@
 			]
 			x: 15.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["79385E9EDA7936A9"]
-			id: "5A54F2B3B023C425"
-			rewards: [{
-				id: "06FA559ABDB6246D"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "063B8E216554AE8C"
-				item: "evolved_wither:summon_the_wither"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 2.0d
 		}
 	]
 	title: "Early Game"

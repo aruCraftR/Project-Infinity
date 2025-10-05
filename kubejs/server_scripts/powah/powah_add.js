@@ -1,18 +1,28 @@
 ServerEvents.recipes((event) => {
-  event.recipes.powah.energizing(
-    [
-      'allthemodium:allthemodium_ingot',
-      'bloodmagic:life_essence_bucket',
-      '3x mysticalagradditions:insanium_essence',
-      'twilightforest:fiery_block',
+  event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+      { item: 'allthemodium:allthemodium_ingot' },
+      { item: 'bloodmagic:life_essence_bucket' },
+      { item: 'mysticalagradditions:insanium_essence'},
+      { item: 'twilightforest:fiery_block' },
     ],
-    'allthemodium:vibranium_ingot',
-    100000
-  );
+    energy: 100000,
+    result: {
+      item: 'allthemodium:vibranium_ingot',
+    },
+  });
 
-  event.recipes.powah.energizing(
-    ['minecraft:iron_block', 'minecraft:gold_block'],
-    '2x powah:energized_steel_block',
-    90000
-  );
+  event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+      { item: 'minecraft:iron_block' },
+      { item: 'minecraft:gold_block' },
+    ],
+    energy: 90000,
+    result: {
+      item: 'powah:energized_steel_block',
+      count: 2,
+    },
+  });
 });

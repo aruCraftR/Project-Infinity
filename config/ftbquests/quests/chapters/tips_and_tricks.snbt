@@ -885,7 +885,7 @@
 			description: [
 				"&2Nature's Compass&r is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
 				""
-				"&3Structure Compass&r is an item that allows you to locate structures anywhere in the world."
+				"&3Explorers Compass&r is an item that allows you to locate structures anywhere in the world."
 				""
 				"&eRight-Clicking&r with &o&bCompass&r in hand will open the selection &o&bGUI&r, from which you can search for a biome/structure or view information about it."
 				""
@@ -899,27 +899,38 @@
 				xp_levels: 3
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "6577E9C9B9BAF288"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "naturescompass:naturescompass"
-							}
-							{
-								Count: 1b
-								id: "structurecompass:structure_compass"
-							}
-						]
+			tasks: [
+				{
+					id: "6577E9C9B9BAF288"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturescompass:naturescompass"
+								}
+								{
+									Count: 1b
+									id: "structurecompass:structure_compass"
+								}
+							]
+						}
 					}
+					title: "Compasses"
+					type: "item"
 				}
-				title: "Compasses"
-				type: "item"
-			}]
+				{
+					id: "68DF577F55DA9B70"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "The Compasses"
 			x: -1.0d
 			y: -2.0d
@@ -1326,6 +1337,8 @@
 				"By placing special torches, you can increase the tick rate of machines, crop growth, or other block-based activities in their vicinity."
 				""
 				"This mod is perfect for making farms more efficient or speeding up slow processes, with customizable settings to tailor the experience."
+				""
+				"&4BE CAREFUL TO NOT PLACE TO MANY! IT WILL CRASH YOUR GAME/ SERVER&r"
 			]
 			icon: "torcherino:double_compressed_torcherino"
 			id: "54D3F98DB1BC6BB2"

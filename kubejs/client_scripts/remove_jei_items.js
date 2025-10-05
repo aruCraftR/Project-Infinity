@@ -13,3 +13,16 @@ JEIEvents.hideItems((event) => {
     if (!excludedItems.includes(id)) event.hide(id);
   });
 });
+
+JEIEvents.removeCategories((event) => {
+  event.remove([
+    'ali:block_loot',
+    'ali:fishing_loot',
+    'ali:hero_loot',
+    'ali:archaelogy_loot',
+    'ali:plant_loot',
+    'ali:gameplay_loot',
+    'ali:trade_loot',
+    'cyclic:packager',
+  ]);
+});

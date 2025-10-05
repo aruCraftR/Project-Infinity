@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0D8CAF4DE45416EA"
-					type: "random"
+					id: "61DCC097F10758A3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -545,9 +545,9 @@
 			description: [""]
 			id: "6D949F5B7B8E0C99"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "60EAC3B87F2E4A3A"
-				type: "random"
+				id: "6BF473F035A2A969"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "5A8C46395F79E20C"
@@ -569,9 +569,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "665E8EBF14237DEC"
-					type: "random"
+					id: "058D4DEDA5E234A0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -588,9 +588,9 @@
 			description: [""]
 			id: "632F67712671FADC"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0EB3D880AA332B17"
-				type: "random"
+				id: "0E98A9DBDB27DC53"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "352B184AAC228442"
@@ -618,9 +618,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2A0CA92916C3B6E8"
-					type: "random"
+					id: "4FA70245E826D074"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -652,9 +652,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "15515EE0803D9A14"
-					type: "random"
+					id: "1CD0B945D37BB391"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -676,9 +676,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "741765DCB084463B"
-					type: "random"
+					id: "0DCDC64AF664848B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -702,9 +702,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7DBB86909CA49CED"
-					type: "random"
+					id: "78D57BB02B94C1A2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -735,9 +735,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "765759969741803F"
-					type: "random"
+					id: "1C1D9A26F10E9A07"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -763,9 +763,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6CD8C62304A9BB06"
-					type: "random"
+					id: "178B530911683682"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -788,11 +788,6 @@
 			id: "7904E7153115E60B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5CA2547A09BCAA5E"
-					type: "random"
-				}
-				{
 					id: "17D4ED4BD2D249B3"
 					item: {
 						Count: 1
@@ -804,6 +799,11 @@
 							}]
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "68E706C25E78016F"
+					item: "kubejs:apotheotic_coin"
 					type: "item"
 				}
 			]
@@ -829,9 +829,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "69A21A745BD7ABC8"
-					type: "random"
+					id: "419D3D59FD7ED8E3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -861,9 +861,9 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "64B196DC363DEDA6"
-					type: "random"
+					id: "39EBBC58D778BBDF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -886,9 +886,9 @@
 					xp_levels: 5
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2A0D7461CB879852"
-					type: "random"
+					id: "082D09623D0D671E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -904,9 +904,9 @@
 			dependencies: ["75629F027EFA3F37"]
 			id: "5750B15C47F6A465"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "24EFFAFA4038C73E"
-				type: "random"
+				id: "306ADF3D259D5E99"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2EDA9C56B13EDA48"
@@ -920,9 +920,9 @@
 			dependencies: ["75629F027EFA3F37"]
 			id: "5B10941CBBE8BD78"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6FBA3D6A3788B659"
-				type: "random"
+				id: "686FB2455EDF2048"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "280FE6CFF2649951"
@@ -945,9 +945,9 @@
 			]
 			id: "2ADB147456335D83"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B9616E553E235A9"
-				type: "random"
+				id: "331FDDC6CA01CCF0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "01A77856DDFF2DA2"
@@ -964,9 +964,9 @@
 			]
 			id: "06885913DAFC07A6"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F08D0C5AF2F40E2"
-				type: "random"
+				id: "1BC814646B36360B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				id: "03FE72CD0EAFD6EB"
@@ -988,9 +988,9 @@
 			icon_scale: 2.0d
 			id: "75629F027EFA3F37"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4F80D75FB2C1867B"
-				type: "random"
+				id: "46AD672228502265"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
@@ -1004,6 +1004,11 @@
 		{
 			icon: "cataclysm:cursed_eye"
 			id: "5332B1DB126DC67B"
+			rewards: [{
+				id: "259D5F499BBF54F4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "cataclysm:cursed_eye"
 				id: "58326474C20CB7F8"
@@ -1024,6 +1029,11 @@
 			}
 			icon_scale: 2.0d
 			id: "6E07C0FEB2929E94"
+			rewards: [{
+				id: "5D25916456AAF916"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				id: "36FD47FA976FF180"
@@ -1035,6 +1045,11 @@
 		}
 		{
 			id: "73868448C3A6720D"
+			rewards: [{
+				id: "28C4148189F5C73B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "148C5A50DA410070"
 				item: "cataclysm:black_steel_ingot"
@@ -1046,6 +1061,11 @@
 		{
 			dependencies: ["6E07C0FEB2929E94"]
 			id: "3042F1A22B16D7B2"
+			rewards: [{
+				id: "183D504954BDE468"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CB5D0A421040D24"
 				item: "cataclysm:cursium_ingot"
@@ -1060,6 +1080,11 @@
 				"73868448C3A6720D"
 			]
 			id: "11777F570384FB3C"
+			rewards: [{
+				id: "7880D440F088265D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "50382C17B7259761"
 				item: "cataclysm:soul_render"
@@ -1074,6 +1099,11 @@
 				"73868448C3A6720D"
 			]
 			id: "280AB37BC77F15BB"
+			rewards: [{
+				id: "21B7B89CB1FAA2FC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CEAEB412AAE5C85"
 				item: "cataclysm:the_annihilator"
@@ -1088,6 +1118,11 @@
 				"73868448C3A6720D"
 			]
 			id: "661E381C67642DD4"
+			rewards: [{
+				id: "45E07235A0F5A0C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D4B5A9D72319A69"
 				item: "cataclysm:cursed_bow"
@@ -1099,6 +1134,11 @@
 		{
 			icon: "cataclysm:storm_eye"
 			id: "31BE62DBD52E4C11"
+			rewards: [{
+				id: "6DAB60890A9C5FC6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "cataclysm:storm_eye"
 				id: "00BCA0B80E79BFB0"
@@ -1119,6 +1159,11 @@
 			}
 			icon_scale: 2.0d
 			id: "2735DFF63B3DFC6E"
+			rewards: [{
+				id: "26FE5142110015BE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:scylla"
 				id: "58FF9428167016A4"
@@ -1131,6 +1176,11 @@
 		{
 			dependencies: ["2735DFF63B3DFC6E"]
 			id: "43CA453F48BDEC00"
+			rewards: [{
+				id: "73434902922FAE46"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B6BA26811E3F9CF"
 				item: "cataclysm:essence_of_the_storm"
@@ -1142,6 +1192,11 @@
 		{
 			dependencies: ["2735DFF63B3DFC6E"]
 			id: "1891466EB1D96231"
+			rewards: [{
+				id: "631FBF6B8CAFEA70"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79F10C092F24ABD7"
 				item: "cataclysm:lacrima"
@@ -1156,6 +1211,11 @@
 				"1891466EB1D96231"
 			]
 			id: "639EE1A8C6747E95"
+			rewards: [{
+				id: "417CD27625F159FD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DB238C94A0A1BC1"
 				item: "cataclysm:ceraunus"
@@ -1170,6 +1230,11 @@
 				"1891466EB1D96231"
 			]
 			id: "16B30F6621C669C8"
+			rewards: [{
+				id: "6986B0C23AC82FBC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AFFAA63385B9667"
 				item: "cataclysm:astrape"
@@ -1181,6 +1246,11 @@
 		{
 			dependencies: ["1891466EB1D96231"]
 			id: "3D1EBEFD61814220"
+			rewards: [{
+				id: "3D9CD08BB09AB0AF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47B399A46FF6D43D"
 				item: {

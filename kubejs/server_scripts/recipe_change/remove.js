@@ -1,4 +1,4 @@
-// priority: 10000
+priority: 0;
 //Items to remove by output
 const removeItemsbyOutput = [
   'minecraft:bedrock',
@@ -310,7 +310,6 @@ const removeItemsbyID = [
   'nuclearcraft:zinc_block',
   'common_ore_library:crafting/gear/steel',
   'alltheores:steel_block',
-  'mekanismgenerators:generator/wind',
   'rftoolsbuilder:shape_card_quarry',
   'jei:/avaritia/eternal_singularity',
   'avaritia:infinity_catalyst',
@@ -344,14 +343,40 @@ const removeItemsbyID = [
   'voidminers:ultimate_miner',
   'cyclic:crafting_bag',
   'sfm:water_tank',
+  'nuclearcraft:electrum_block',
+  'cyclic:packager',
   '',
   '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  
 ];
 
 const removeItemsbyType = [
   'cyclic:packager',
+  'cyclic:solidifier',
   'thermal:insolator',
   'thermal:insolator_catalyst',
+  'exdeorum:compressed_sieve',
+  'industrialforegoing:mycelial_meatallurgic',
+  'exdeorum:compressed_hammer',
+  'bloodmagic:arcfurnace',
+  'ftbquests:loot_crate',
+  'pneumaticcraft:heat_properties',
+  'tconstruct:worktable',
+  'ae2:attunement',
+  'packagedauto:fluid_package_contents',
+  'packagedauto:fluid_package_filling',
+  'packagedauto:package_contents',
+  'packagedauto:package_processing',
+  'packagedauto:package_recipe',
+  'packagedauto:packaging',
 ];
 
 //Function to remove the items above
@@ -378,6 +403,11 @@ ServerEvents.recipes((event) => {
     output: /dragon_egg/,
   });
 
+  event.remove([{ output: /bucket/, type: 'thermal:bottler' }]);
+  event.remove([{ output: /bottler_florb/, type: 'thermal:bottler' }]);
+
+  event.remove({ output: /infinity_catalyst/, type: 'avaritia:extreme_craft' });
+
   event.remove({
     input: [
       'thermal:press_coin_die',
@@ -393,116 +423,6 @@ ServerEvents.recipes((event) => {
       'tconstruct:coin_sand_cast',
       'tconstruct:coin_cast',
     ],
-  });
-
-  event.remove({
-    not: {
-      output: [
-        Item.of(
-          'industrialforegoing:range_addon0',
-          '{TitaniumAugment:{Range:0.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon1',
-          '{TitaniumAugment:{Range:1.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon2',
-          '{TitaniumAugment:{Range:2.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon3',
-          '{TitaniumAugment:{Range:3.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon4',
-          '{TitaniumAugment:{Range:4.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon5',
-          '{TitaniumAugment:{Range:5.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon6',
-          '{TitaniumAugment:{Range:6.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon7',
-          '{TitaniumAugment:{Range:7.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon8',
-          '{TitaniumAugment:{Range:8.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon9',
-          '{TitaniumAugment:{Range:9.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon10',
-          '{TitaniumAugment:{Range:10.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:range_addon11',
-          '{TitaniumAugment:{Range:11.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:speed_addon_1',
-          '{TitaniumAugment:{Speed:2.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:speed_addon_2',
-          '{TitaniumAugment:{Speed:3.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:efficiency_addon_1',
-          '{TitaniumAugment:{Efficiency:0.9f}}'
-        ),
-        Item.of(
-          'industrialforegoing:efficiency_addon_2',
-          '{TitaniumAugment:{Efficiency:0.8f}}'
-        ),
-        Item.of(
-          'industrialforegoing:processing_addon_1',
-          '{TitaniumAugment:{Processing:2.0f}}'
-        ),
-        Item.of(
-          'industrialforegoing:processing_addon_2',
-          '{TitaniumAugment:{Processing:3.0f}}'
-        ),
-      ],
-    },
-
-    output: /_addon_/,
-    mod: 'industrialforegoing',
-  });
-
-  event.remove({
-    not: {
-      output: [
-        Item.of(
-          'mifa:processing_addon_3',
-          '{TitaniumAugment:{Processing:4.0f}}'
-        ),
-        Item.of(
-          'mifa:processing_addon_4',
-          '{TitaniumAugment:{Processing:5.0f}}'
-        ),
-        Item.of('mifa:speed_addon_3', '{TitaniumAugment:{Speed:4.0f}}'),
-        Item.of('mifa:speed_addon_4', '{TitaniumAugment:{Speed:5.0f}}'),
-        Item.of(
-          'mifa:efficiency_addon_3',
-          '{TitaniumAugment:{Efficiency:0.7f}}'
-        ),
-        Item.of(
-          'mifa:efficiency_addon_4',
-          '{TitaniumAugment:{Efficiency:0.6f}}'
-        ),
-      ],
-    },
-
-    output: /_addon_/,
-    mod: 'mifa',
   });
 });
 

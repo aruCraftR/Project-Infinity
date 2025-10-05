@@ -50,5 +50,6 @@
   "mbtool.structure.woot_tier_4_diamond": "Woot Tier 4 Diamond",
   "mbtool.structure.woot_tier_5_netherite": "Woot Tier 5 Netherite",
   "mbtool.structure.mythicbotany_voidminer_ritual": "MythicBotany Voidminer Ritual",
-  "mbtool.structure.essenceforge": "Essenceforge"
+  "mbtool.structure.essenceforge_singlemode": "Essenceforge Singlemode",
+  "mbtool.structure.essenceforge_multimode": "Essenceforge Multimode"
 }

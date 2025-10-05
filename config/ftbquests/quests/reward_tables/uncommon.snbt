@@ -1,6 +1,15 @@
 {
 	icon: "ftbquests:lootcrate"
 	id: "3A3BDBA4E9AD13C4"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "uncommon_reward"
+	}
 	loot_size: 1
 	order_index: 10
 	rewards: [
@@ -86,17 +95,6 @@
 		}
 		{ item: "hostilenetworks:sim_chamber" }
 		{ item: "hostilenetworks:loot_fabricator" }
-		{
-			item: {
-				Count: 1
-				id: "enderchests:ender_chest"
-				tag: {
-					code: "000"
-					owner: "all"
-				}
-			}
-			weight: 2.0f
-		}
 		{ item: "sophisticatedbackpacks:void_upgrade", weight: 2.0f }
 		{ item: "dankstorage:dank_3" }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1", weight: 5.0f }

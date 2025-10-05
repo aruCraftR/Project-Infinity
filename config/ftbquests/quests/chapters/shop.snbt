@@ -2119,7 +2119,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 1000000L
+				count: 100000L
 				id: "659D5E6CAD927714"
 				item: "enderio:octadic_capacitor"
 				match_nbt: false
@@ -2149,7 +2149,7 @@
 				id: "363766417B8C3516"
 				max_input: 2147483647L
 				type: "forge_energy"
-				value: 5000000000000L
+				value: 500000000000000L
 			}]
 			x: -7.5d
 			y: 13.0d
@@ -2181,9 +2181,9 @@
 				id: "561DC08E8EB72232"
 				nbt: { }
 				type: "questsadditions:killnbt"
-				value: 10000L
+				value: 250L
 			}]
-			title: "Kill: 10Kx Wither"
+			title: "Kill: 250x Wither"
 			x: -6.5d
 			y: 13.0d
 		}
@@ -2196,6 +2196,750 @@
 			}]
 			x: -7.5d
 			y: 11.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"When you are on a server you can use this trade. "
+				"If on singleplayer then go search the meteors in hunting dimension or lost cities."
+			]
+			id: "3D2DB9C3D7B39D17"
+			optional: true
+			rewards: [
+				{
+					id: "3125EFEE829E7727"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6E2A2F1C3559D092"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "21B51994A1707A32"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "56FD088F3AA9BECC"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "70129F8EECCFF920"
+					item: "advanced_ae:quantum_processor_press"
+					type: "item"
+				}
+				{
+					id: "060EAD50A051B2A7"
+					item: "appflux:energy_processor_press"
+					type: "item"
+				}
+				{
+					id: "09ACFF7BE44DF5FC"
+					item: "megacells:accumulation_processor_press"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "4AFC173D8A7984F8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7001BAE7FB253E8A"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "68DFB26E4D62ABAE"
+					item: "megacells:sky_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Inscriber Presses"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "7C342FC279D9DDCB"
+			optional: true
+			rewards: [{
+				id: "26A99071BA179ECA"
+				item: "chancecubes:chance_cube"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "613B34DFA13E62A0"
+				item: { Count: 8, id: "kubejs:infused_coin" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "33F8A72B292D596D"
+			optional: true
+			rewards: [{
+				id: "71440A5035E66BFB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "common_reward"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6E844930631F3C4D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&aCommon Loot Crate"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "533A00EE6E47DE0A"
+			optional: true
+			rewards: [{
+				id: "36A697382197C725"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "uncommon_reward"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2DEA72B49F4B43D2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&2Uncommon Loot Crate"
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "14DB4AF55D2324C1"
+			optional: true
+			rewards: [{
+				id: "56F97591D758115A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "rare_reward"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4DC2A786E17D953E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&9Rare Loot Crate"
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "1214E6ADB3BED8A3"
+			optional: true
+			rewards: [{
+				id: "42B0DEE235696948"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "epic_reward"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "59DF0EBEE6A162FF"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&eEpic Loot Crate"
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "3951B07EA573593B"
+			optional: true
+			rewards: [{
+				id: "28DCA7B5491D6E33"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "legendary_reward"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "142EE8DEFCC4DBEE"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&cLegendary Loot Crate"
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "4CC79D2D833DB43A"
+			optional: true
+			rewards: [{
+				id: "3E89908CEBDB9749"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "mythic_reward"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "13A949502DABB8ED"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&5Mythic Loot Crate"
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "387D824688AA51F6"
+			optional: true
+			rewards: [{
+				id: "29DD2EF52D6DC4EE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_1_seed_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54722D68DC46E769"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&aTier 1 Seed Crate"
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "2039DCD2D0B134B0"
+			optional: true
+			rewards: [{
+				id: "15135DFCC991D365"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_2_seed_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7A702DF243008BB5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&2Tier 2 Seed Crate"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "23D354D1B1816982"
+			optional: true
+			rewards: [{
+				id: "3359395649967916"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_3_seed_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "175CF227477D8AA6"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&6Tier 3 Seed Crate"
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "175892FD048EEF25"
+			optional: true
+			rewards: [{
+				id: "77F29F547C966039"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_4_seed_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "24B228A5C14318BD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&9Tier 4 Seed Crate"
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "70218208AA687752"
+			optional: true
+			rewards: [{
+				id: "76841A8904C4A010"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_5_seed_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "0A2CCB9210FC6E6B"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&cTier 5 Seed Crate"
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "131FE21036BACDA8"
+			optional: true
+			rewards: [{
+				id: "22C18495BD8BE9A7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_6_seed_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5864F0B11BF51CFD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&5Tier 6 Seed Crate"
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "113D2767E823335D"
+			optional: true
+			rewards: [{
+				id: "17B6641DC4A4DF05"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_chaotic"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5AF6B7267F29E96E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&5DE Chaotic Loot Crate"
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "3B8FD7AD472F7603"
+			optional: true
+			rewards: [{
+				id: "138ADE5D7007E489"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_draconic"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "19A8748AE163D22F"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&cDE Draconic Loot Crate"
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "48B11B61EE35E4B2"
+			optional: true
+			rewards: [{
+				id: "632EB7F08A00B0C3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_wyvern"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "40C902D650A4BDB9"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&2DE Wyvern Loot Crate"
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "7765B1B15362D569"
+			optional: true
+			rewards: [{
+				id: "318D186C22848A77"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_basic"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11BD1B80C24A8DB2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&aDE Basic Loot Crate"
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "2389CB796C6B75EE"
+			optional: true
+			rewards: [{
+				id: "6ECF2D3E6AAFBE21"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "common_mana_materials_loot_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "747824998DEBC3F2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&aBotania Common Loot Crate"
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "1660630621FA9AFD"
+			optional: true
+			rewards: [{
+				id: "57314F94D66D4CBF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "legendary_mana_loot_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "55536FAA200D89F2"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&cBotania Legendary Loot Crate"
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "67AEC3F50909EA0C"
+			optional: true
+			rewards: [{
+				id: "1056CC543027925C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "mekanism_basic_rewards"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "01CCF75335429EA7"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			title: "&aMekanism Common Loot Crate"
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "mythic_reward"
+				}
+			}
+			id: "42A556F31120375C"
+			optional: true
+			rewards: [{
+				id: "01A1B592F5DFB5B7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "essence_bag"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "29FA3CE5B22C5E82"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			title: "&2Essence Loot Crate"
+			x: 5.5d
+			y: 14.5d
 		}
 	]
 	title: "&dShop"

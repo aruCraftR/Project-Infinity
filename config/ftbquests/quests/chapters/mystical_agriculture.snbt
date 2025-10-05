@@ -4682,6 +4682,70 @@
 			x: -9.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["28586493542A3B3A"]
+			id: "20789971E35F8D0A"
+			rewards: [{
+				id: "3B187384DC132B9E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2277396A58C16EDF"
+				item: "mysticalagriculture:air_seeds"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28586493542A3B3A"]
+			id: "78874A993A9FD544"
+			rewards: [{
+				id: "309E0E6E5C72E8D5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71BD61CB7B0457C4"
+				item: "mysticalagriculture:fire_seeds"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28586493542A3B3A"]
+			id: "0508642046973C8F"
+			rewards: [{
+				id: "612D87ECBD05AA73"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BC82FDC56961D5A"
+				item: "mysticalagriculture:earth_seeds"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28586493542A3B3A"]
+			id: "2E78008078C97E6C"
+			rewards: [{
+				id: "1A15B00ABF9B43BA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60BF46704A5E696D"
+				item: "mysticalagriculture:water_seeds"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 3.5d
+		}
 	]
 	title: "Mystical Agriculture"
 }

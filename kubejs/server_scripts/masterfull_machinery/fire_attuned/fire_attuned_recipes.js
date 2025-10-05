@@ -83,7 +83,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'botanicalextramachinery:crimson_dragonstone',
+        item: 'botania:terrasteel_ingot',
         count: 4,
       },
     })

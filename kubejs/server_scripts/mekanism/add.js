@@ -202,4 +202,13 @@ ServerEvents.recipes((event) => {
     'enderio:pulsating_alloy_ingot',
     1
   );
+  combining(
+    event,
+    1,
+    'thermal:silver_ingot',
+    1,
+    'minecraft:gold_ingot',
+    'thermal:electrum_ingot',
+    1
+  );
 });

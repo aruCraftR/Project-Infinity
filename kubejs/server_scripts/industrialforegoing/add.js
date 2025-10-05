@@ -4,8 +4,8 @@ ServerEvents.recipes((event) => {
     catalyst: {
       item: 'industrialforegoing:laser_lens10',
     },
-    entity: 'evolved_wither:the_wither',
-    output: "{Amount:25,FluidName:'industrialforegoing:ether_gas'}",
+    entity: 'allthemodium:piglich',
+    output: "{Amount:30,FluidName:'industrialforegoing:ether_gas'}",
     pointer: 0,
     rarity: [
       {

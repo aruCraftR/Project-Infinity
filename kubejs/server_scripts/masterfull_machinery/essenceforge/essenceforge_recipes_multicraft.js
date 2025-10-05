@@ -2,6 +2,10 @@ priority: 1;
 MMEvents.createProcesses((event) => {
   // --- Tier 1 ---
   const tier1Seeds = [
+    'mysticalagriculture:earth_seeds',
+    'mysticalagriculture:water_seeds',
+    'mysticalagriculture:air_seeds',
+    'mysticalagriculture:fire_seeds',
     'mysticalagriculture:inferium_seeds',
     'mysticalagriculture:stone_seeds',
     'mysticalagriculture:dirt_seeds',
@@ -41,7 +45,7 @@ MMEvents.createProcesses((event) => {
       output: 128,
     },
   ];
-  createMultiSeedRecipes(event, tier1Seeds, tier1FarmlandConfigs, 3);
+  createMultiSeedRecipes(event, tier1Seeds, tier1FarmlandConfigs, 5);
 
   // --- Tier 2 ---
   const tier2Seeds = [
@@ -292,7 +296,7 @@ function createMultiSeedRecipes (
   maxSeedsPerRecipe
 ) {
   for (let i = 0; i < seeds.length; i += maxSeedsPerRecipe) {
-    let chunk = seeds.slice(i, i + maxSeedsPerRecipe); // <- fix: keine Redeclaration mehr
+    let chunk = seeds.slice(i, i + maxSeedsPerRecipe);
 
     farmlandConfigs.forEach((config) => {
       const farmland = config.farmland;

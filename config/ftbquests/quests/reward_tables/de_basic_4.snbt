@@ -1,12 +1,21 @@
 {
 	icon: "draconicevolution:chaotic_core"
 	id: "17BF0466A6A4DA01"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "de_chaotic"
+	}
 	loot_size: 1
 	order_index: 42
 	rewards: [
-		{ count: 3, item: "draconicevolution:chaotic_core", weight: 2.0f }
-		{ count: 3, item: "draconicevolution:medium_chaos_frag", weight: 0.5f }
-		{ count: 2, item: "draconicevolution:awakened_draconium_block", weight: 2.0f }
+		{ count: 3, item: "draconicevolution:chaotic_core", weight: 0.5f }
+		{ count: 3, item: "draconicevolution:medium_chaos_frag", weight: 0.05f }
+		{ count: 2, item: "draconicevolution:awakened_draconium_block", weight: 3.0f }
 		{ count: 2, item: "draconicevolution:chaotic_energy_core" }
 	]
 	title: "DE Chaotic"

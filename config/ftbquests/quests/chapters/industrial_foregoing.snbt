@@ -445,7 +445,7 @@
 			description: [
 				"The &dSludge Bucket&r contains &dSludge&r collected from machines like the &bPlant Gatherer&r."
 				""
-				"It can be processed in a &bSkudge Refiner&r to obtain useful &amaterials&r."
+				"It can be processed in a &bSludge Refiner&r to obtain useful &amaterials&r."
 			]
 			hide_dependency_lines: true
 			id: "11B642D71326CB26"

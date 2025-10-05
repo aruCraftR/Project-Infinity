@@ -22,8 +22,8 @@ ServerEvents.recipes((event) => {
         },
       },
       result: {
-        item: 'extrahnn:ultimate_loot_fabricator',
+        item: 'extrahnn:ultimate_loot_fabricator_v1',
       },
     })
-    .id('extrahnn:ultimate_loot_fabricator');
+    .id('extrahnn:ultimate_loot_fabricator_v1');
 });
