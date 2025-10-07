@@ -60,7 +60,7 @@
 			}]
 			title: "Welcome to &9Hostile Neural Networks&r!"
 			x: -2.5d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
@@ -89,7 +89,7 @@
 			}]
 			title: "&aLearning Mobs&r"
 			x: -4.0d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
@@ -118,7 +118,7 @@
 			}]
 			title: "&9Modeling Mobs&r"
 			x: -1.0d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -150,7 +150,7 @@
 			}]
 			title: "&aSimulating Deaths&r"
 			x: -2.5d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -190,7 +190,7 @@
 			}]
 			title: "Leveling Up Data Models"
 			x: -2.5d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -210,7 +210,7 @@
 			}]
 			title: "Generalized Overworld Prediction"
 			x: -3.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -230,7 +230,7 @@
 			}]
 			title: "Generalized Nether Prediction"
 			x: -2.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -250,7 +250,7 @@
 			}]
 			title: "Generalized End Prediction"
 			x: -1.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1424,7 +1424,7 @@
 			}]
 			title: "Creating &dLoot&r"
 			x: -2.5d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2598,7 +2598,7 @@
 			}]
 			title: "Generalized Twilight Prediction"
 			x: -0.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2750,11 +2750,11 @@
 			size: 1.5d
 			tasks: [{
 				id: "663D6B5E96B491FD"
-				item: "extrahnn:ultimate_loot_fabricator"
+				item: "extrahnn:ultimate_loot_fabricator_v1"
 				type: "item"
 			}]
 			x: 2.25d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6C878E306E620FAE"]
@@ -2778,11 +2778,11 @@
 			size: 1.5d
 			tasks: [{
 				id: "2ED24C4C5AE11E84"
-				item: "extrahnn:ultimate_sim_chamber"
+				item: "extrahnn:ultimate_sim_chamber_v1"
 				type: "item"
 			}]
 			x: 6.75d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6C878E306E620FAE"]
@@ -2810,7 +2810,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6C878E306E620FAE"]
@@ -2838,7 +2838,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
@@ -2876,7 +2876,7 @@
 			}]
 			title: "Wither Skeleton, Wither, Ender Dragon, Warden Data Model"
 			x: 9.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
@@ -2893,7 +2893,7 @@
 				type: "item"
 			}]
 			x: 6.3214285714285765d
-			y: 2.8214285714285765d
+			y: 0.8214285714285765d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
@@ -2910,7 +2910,7 @@
 				type: "item"
 			}]
 			x: 6.8214285714285765d
-			y: 1.8214285714285765d
+			y: -0.1785714285714235d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
@@ -2927,7 +2927,7 @@
 				type: "item"
 			}]
 			x: 7.3214285714285765d
-			y: 2.8214285714285765d
+			y: 0.8214285714285765d
 		}
 		{
 			dependencies: [
@@ -3477,6 +3477,174 @@
 			}]
 			x: 1.0d
 			y: 17.5d
+		}
+		{
+			dependencies: ["6C878E306E620FAE"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "5C3177532204DA62"
+			min_width: 300
+			rewards: [
+				{
+					id: "53C66B8CF8F4C2B5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67899918CDC74AB7"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "627F1915BCFC722B"
+				item: "extrahnn:ultimate_loot_fabricator_v2"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C3177532204DA62"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "161CEB53492BDBB2"
+			min_width: 300
+			rewards: [
+				{
+					id: "50D7E9FB70DE31E3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "42CF60A26B69A9B6"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "080B408D4950EB6C"
+				item: "extrahnn:ultimate_loot_fabricator_v3"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["161CEB53492BDBB2"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "45FD2226287B545E"
+			min_width: 300
+			rewards: [
+				{
+					id: "1CA0D66A5B2D3A5F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A0A55E3336A1CC2"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "44D8337A48115EA4"
+				item: "extrahnn:ultimate_loot_fabricator_v4"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20667F122EADBD6B"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "764AC50C2A450ACC"
+			min_width: 300
+			rewards: [
+				{
+					id: "1A51CDDBCFE99818"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "56751365AC755A14"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "11633F251E8925A9"
+				item: "extrahnn:ultimate_sim_chamber_v2"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["764AC50C2A450ACC"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "0E5C4120BD3908B5"
+			min_width: 300
+			rewards: [
+				{
+					id: "18B670B96ACD052D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "32EBDAF24407858E"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4FF803A39171F0D5"
+				item: "extrahnn:ultimate_sim_chamber_v3"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0E5C4120BD3908B5"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "33B09B78983BA676"
+			min_width: 300
+			rewards: [
+				{
+					id: "5C6C0383B8C779AC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7705D1310F6C8DEB"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "126117C06EA823F4"
+				item: "extrahnn:ultimate_sim_chamber_v4"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.5d
 		}
 	]
 	title: "&aHostile Neural Networks"

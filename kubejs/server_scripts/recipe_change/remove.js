@@ -345,7 +345,7 @@ const removeItemsbyID = [
   'sfm:water_tank',
   'nuclearcraft:electrum_block',
   'cyclic:packager',
-  '',
+  'chancecubes:chance_cube',
   '',
   '',
   '',

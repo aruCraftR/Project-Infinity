@@ -2270,6 +2270,7 @@
 		}
 		{
 			can_repeat: true
+			icon: "chancecubes:chance_cube"
 			id: "7C342FC279D9DDCB"
 			optional: true
 			rewards: [{

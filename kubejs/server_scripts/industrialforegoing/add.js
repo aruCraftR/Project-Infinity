@@ -2,17 +2,17 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: 'industrialforegoing:laser_drill_fluid',
     catalyst: {
-      item: 'industrialforegoing:laser_lens10',
+      item: 'industrialforegoing:laser_lens11',
     },
-    entity: 'allthemodium:piglich',
-    output: "{Amount:30,FluidName:'industrialforegoing:ether_gas'}",
+    entity: 'minecraft:zombie',
+    output: '{Amount:25,FluidName:"industrialforegoing:ether_gas"}',
     pointer: 0,
     rarity: [
       {
         blacklist: {},
-        depth_max: 256,
-        depth_min: -64,
-        weight: 8,
+        depth_max: 64,
+        depth_min: 64,
+        weight: 100,
         whitelist: {},
       },
     ],

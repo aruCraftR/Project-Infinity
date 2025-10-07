@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
   ]);
 
   shapeless(event, '2x cyclic:gem_amber', [
-    'tconstruct:honey_bucket',
+    '#forge:honey',
     'minecraft:fire_charge',
     'minecraft:magma_block',
     'minecraft:redstone',
@@ -521,6 +521,7 @@ ServerEvents.recipes((event) => {
   });
 
   create3x3same(event, 'avaritia:blaze_cube', ['avaritia_expand:blaze_nugget']);
+  event.blasting('kubejs:azure_silver_ingot', ['kubejs:azure_silver_ore']);
 });
 
 // Category: extendedcrafting_projecte

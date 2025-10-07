@@ -1798,6 +1798,7 @@
 					type: "item"
 				}
 			]
+			title: "Dungeon Pass"
 			x: 15.5d
 			y: -1.0d
 		}

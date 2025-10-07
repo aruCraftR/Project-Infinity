@@ -26,7 +26,10 @@ changelog
 -fixed some HNN data model outputs
 -removed chance cube recipe
 -added azure silver ore to blasting recipe
--removed piglich from the ether gas and added 
+-removed piglich from the ether gas (broken, I dont know why)
+-changed gateway spawn timers for ignis easy
+-fixed honey bucket for crystallized amber recipe
+-added menril sapling to botanypots
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station
