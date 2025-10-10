@@ -131,7 +131,7 @@
     "chancecubes:troll_tnt": true,
     "chancecubes:wait_for_it": true,
     "chancecubes:clear_inventory": false,
-    "chancecubes:item_of_destiny": true,
+    "chancecubes:item_of_destiny": false,
     "chancecubes:juke_box": true,
     "chancecubes:book_of_memes": true,
     "chancecubes:table_flip": true,

@@ -250,9 +250,11 @@
     ],
     "rewards": [
         {
-            "type": "gateways:entity_loot",
-            "entity": "minecraft:wither",
-            "rolls": 60
+            "type": "gateways:stack",
+            "stack": {
+                "item": "minecraft:nether_star",
+                "count": 40
+            }
         }
     ],
     "completion_xp": 500,

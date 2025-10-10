@@ -521,7 +521,145 @@ ServerEvents.recipes((event) => {
   });
 
   create3x3same(event, 'avaritia:blaze_cube', ['avaritia_expand:blaze_nugget']);
+
   event.blasting('kubejs:azure_silver_ingot', ['kubejs:azure_silver_ore']);
+
+  create3x3(event, 'sophisticatedbackpacks:stack_upgrade_omega_tier', [
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'kubejs:infinity_1',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+  ]);
+  create3x3(event, 'sophisticatedstorage:stack_upgrade_omega_tier', [
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'kubejs:infinity_1',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+    'sophisticatedstorage:stack_upgrade_tier_5',
+  ]);
+});
+// Category: Industrial Foregoing
+ServerEvents.recipes((event) => {
+  //Efficiency Addons
+  event.shapeless('kubejs:efficiency_addon_1', [
+    Item.of(
+      'industrialforegoing:efficiency_addon_1',
+      '{TitaniumAugment:{Efficiency:0.9f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:efficiency_addon_2', [
+    Item.of(
+      'industrialforegoing:efficiency_addon_2',
+      '{TitaniumAugment:{Efficiency:0.8f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:efficiency_addon_3', [
+    Item.of(
+      'ifeu:efficiency_addon_3',
+      '{TitaniumAugment:{Efficiency:0.7f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:efficiency_addon_4', [
+    Item.of(
+      'ifeu:efficiency_addon_4',
+      '{TitaniumAugment:{Efficiency:0.6f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:efficiency_addon_5', [
+    Item.of(
+      'ifeu:efficiency_addon_5',
+      '{TitaniumAugment:{Efficiency:0.5f}}'
+    ).weakNBT(),
+  ]);
+  //Speed Addons
+  event.shapeless('kubejs:speed_addon_1', [
+    Item.of(
+      'industrialforegoing:speed_addon_1',
+      '{TitaniumAugment:{Speed:2.0f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:speed_addon_2', [
+    Item.of(
+      'industrialforegoing:speed_addon_2',
+      '{TitaniumAugment:{Speed:3.0f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:speed_addon_3', [
+    Item.of('ifeu:speed_addon_3', '{TitaniumAugment:{Speed:4.0f}}').weakNBT(),
+  ]);
+  event.shapeless('kubejs:speed_addon_4', [
+    Item.of('ifeu:speed_addon_4', '{TitaniumAugment:{Speed:5.0f}}').weakNBT(),
+  ]);
+  event.shapeless('kubejs:speed_addon_5', [
+    Item.of('ifeu:speed_addon_5', '{TitaniumAugment:{Speed:6.0f}}').weakNBT(),
+  ]);
+  //Processing Addons
+  event.shapeless('kubejs:processing_addon_1', [
+    Item.of(
+      'industrialforegoing:processing_addon_1',
+      '{TitaniumAugment:{Processing:2.0f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:processing_addon_2', [
+    Item.of(
+      'industrialforegoing:processing_addon_2',
+      '{TitaniumAugment:{Processing:3.0f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:processing_addon_3', [
+    Item.of(
+      'ifeu:processing_addon_3',
+      '{TitaniumAugment:{Processing:4.0f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:processing_addon_4', [
+    Item.of(
+      'ifeu:processing_addon_4',
+      '{TitaniumAugment:{Processing:5.0f}}'
+    ).weakNBT(),
+  ]);
+  event.shapeless('kubejs:processing_addon_5', [
+    Item.of(
+      'ifeu:processing_addon_5',
+      '{TitaniumAugment:{Processing:6.0f}}'
+    ).weakNBT(),
+  ]);
+
+  // Thread Addons
+  event.shapeless('kubejs:thread_addon_1', [
+    Item.of('ifeu:thread_addon_1', '{TitaniumAugment:{Thread:1.0f}}').weakNBT(),
+  ]);
+  event.shapeless('kubejs:thread_addon_2', [
+    Item.of('ifeu:thread_addon_2', '{TitaniumAugment:{Thread:2.0f}}').weakNBT(),
+  ]);
+  event.shapeless('kubejs:thread_addon_3', [
+    Item.of('ifeu:thread_addon_3', '{TitaniumAugment:{Thread:3.0f}}').weakNBT(),
+  ]);
+  event.shapeless('kubejs:thread_addon_4', [
+    Item.of('ifeu:thread_addon_4', '{TitaniumAugment:{Thread:4.0f}}').weakNBT(),
+  ]);
+  event.shapeless('kubejs:thread_addon_5', [
+    Item.of('ifeu:thread_addon_5', '{TitaniumAugment:{Thread:5.0f}}').weakNBT(),
+  ]);
+});
+
+// Category: Hostile Networks
+ServerEvents.recipes((event) => {
+  shapeless(event, 'kubejs:chaos_guardian_prediction', [
+    Item.of(
+      'hostilenetworks:prediction',
+      '{data_model:{id:"hostilenetworks:draconicevolution/draconic_guardian"}}'
+    ).weakNBT(),
+  ]);
 });
 
 // Category: extendedcrafting_projecte
@@ -533,18 +671,6 @@ ServerEvents.recipes((event) => {
     'projecte:aeternalis_fuel',
     'projecte:alchemical_chest',
     'projecte:aeternalis_fuel',
-    'projecte:high_covalence_dust',
-    'projecte:medium_covalence_dust',
-    'projecte:low_covalence_dust',
-  ]);
-
-  create3x3(event, 'projecte:repair_talisman', [
-    'projecte:low_covalence_dust',
-    'projecte:medium_covalence_dust',
-    'projecte:high_covalence_dust',
-    'botania:manaweave_cloth',
-    'minecraft:paper',
-    'botania:manaweave_cloth',
     'projecte:high_covalence_dust',
     'projecte:medium_covalence_dust',
     'projecte:low_covalence_dust',

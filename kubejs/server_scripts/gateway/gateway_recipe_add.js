@@ -6,6 +6,7 @@ ServerEvents.recipes((event) => {
     ['basalz_gate', 'thermal:basalz_rod'],
     ['blitz_gate', 'thermal:blitz_rod'],
     ['blizz_gate', 'thermal:blizz_rod'],
+    ['born_in_chaos_gate', 'born_in_chaos_v1:transmuting_elixir'],
     ['cavespider_gate', 'minecraft:fermented_spider_eye'],
     ['chicken_gate', 'minecraft:egg'],
     ['cow_gate', 'minecraft:milk_bucket'],

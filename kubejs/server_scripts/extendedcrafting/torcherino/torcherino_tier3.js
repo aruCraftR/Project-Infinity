@@ -9,13 +9,13 @@ ServerEvents.recipes((event) => {
           item: 'torcherino:compressed_torcherino',
         },
         B: {
-          item: 'kubejs:sculk_alloy_ingot',
+          item: 'botanicalextramachinery:crimson_dragonstone_block',
         },
         C: {
           item: 'evolvedmekanism:alloy_exoversal',
         },
         D: {
-          item: 'allthemodium:unobtainium_ingot',
+          item: 'allthemodium:unobtainium_vibranium_alloy_block',
         },
       },
       result: {

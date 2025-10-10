@@ -150,20 +150,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "168589EE8F605CB8"
+				id: "11101CA9AB84A000"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:alpha_yeti"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -5.0d
@@ -356,20 +353,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "2A642878CCCD9EC2"
+				id: "2C815CE9554CABFB"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:lich"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -7.0d
@@ -527,20 +521,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "24CF824F0A8E51FF"
+				id: "3FC4CD74040F0248"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:minoshroom"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -5.0d
@@ -561,20 +552,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "01DF7AA1DC40106B"
+				id: "533A42418983F2D4"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:ur_ghast"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -7.0d
@@ -595,20 +583,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "5BEF2601CFD380F3"
+				id: "6E81A54ECD76E93F"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:knight_phantom"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -9.0d
@@ -732,20 +717,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "0C01B674E6CA7852"
+				id: "14C7C2934BFDBAC6"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:hydra"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -3.0d
@@ -835,20 +817,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "70D9CEE27A1002E9"
+				id: "376D33F166DD140E"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:naga"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -9.0d
@@ -937,20 +916,17 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "7C4C20313093BCC1"
+				id: "7F2B6424E9DA259C"
 				item: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "twilightforest:snow_queen"
 						}
 					}
 				}
 				match_nbt: true
-				only_from_crafting: false
 				type: "item"
 			}]
 			x: -3.0d

@@ -256,6 +256,12 @@
 		}
 		{
 			dependencies: ["48FAE3394DCC00E0"]
+			description: [
+				"You dont need to use a pipe to output the items from the loot exporter."
+				""
+				"Just place a barrel beside the loot exporter and its auto exporting to the barrel"
+			]
+			icon: "woot_revived:copper_cell"
 			id: "42CBFE605060FF20"
 			rewards: [{
 				id: "24108466F4FB4B7C"
@@ -1074,6 +1080,12 @@
 			y: 9.0d
 		}
 		{
+			dependencies: [
+				"42CBFE605060FF20"
+				"0D10194315F6BCC7"
+			]
+			description: ["need the shard drop upgrade 1 to upgrade to tier 2"]
+			icon: "woot_revived:iron_cell"
 			id: "33F7680769B9FD4E"
 			rewards: [{
 				id: "5923B5A7D3EE64AE"
@@ -1083,53 +1095,136 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "67B9241D35DB83D0"
-					item: "woot_revived:copper_cell"
+					count: 12L
+					id: "7626070A97BB6059"
+					item: { Count: 12, id: "woot_revived:iron_plinth" }
 					type: "item"
 				}
 				{
-					id: "19E9D3A59CCDD9C4"
-					item: "woot_revived:copper_pylon"
+					count: 20L
+					id: "1610DEF2B0CD69AB"
+					item: { Count: 20, id: "woot_revived:iron_pylon" }
 					type: "item"
 				}
 				{
-					id: "4EAD3BDA3BB42912"
-					item: "woot_revived:copper_plinth"
+					id: "70F231A8BA683B61"
+					item: "woot_revived:iron_cell"
 					type: "item"
 				}
 				{
-					id: "58E58C4B76C85A79"
-					item: "woot_revived:export"
+					count: 3L
+					id: "51E27C5BD9A6496F"
+					item: { Count: 3, id: "woot_revived:factory_ctr_base_sec" }
 					type: "item"
 				}
 				{
-					id: "667210B97362B48D"
-					item: "woot_revived:import"
-					type: "item"
-				}
-				{
-					id: "25466C3F3D6E354C"
-					item: "woot_revived:factory_connect"
-					type: "item"
-				}
-				{
-					id: "071CE46AF51009CF"
-					item: "woot_revived:factory_upgrade"
-					type: "item"
-				}
-				{
-					id: "1E4A478E0A2C06F1"
-					item: "woot_revived:heart"
-					type: "item"
-				}
-				{
-					id: "59C566BB762FAF25"
-					item: "woot_revived:factory_ctr_base_pri"
+					count: 4L
+					id: "7CAF986799072F70"
+					item: { Count: 4, id: "woot_revived:factory_upgrade" }
 					type: "item"
 				}
 			]
 			title: "Tier 2 Multiblock"
 			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33F7680769B9FD4E"]
+			icon: "woot_revived:gold_cell"
+			id: "2DF7B0A4E49ACEB1"
+			rewards: [{
+				id: "1224E9E122C0F7EB"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2C7CED8DD8CE5A7B"
+					item: "woot_revived:gold_cell"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "2C44B79E81CFA29A"
+					item: { Count: 24, id: "woot_revived:gold_plinth" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "0D7CA37A16401B05"
+					item: { Count: 36, id: "woot_revived:gold_pylon" }
+					type: "item"
+				}
+			]
+			title: "Tier 3 Multiblock"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2DF7B0A4E49ACEB1"]
+			icon: "woot_revived:diamond_cell"
+			id: "1ED70668BFC6611F"
+			rewards: [{
+				id: "54FA47BF9885B616"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7FD732DD610CC63B"
+					item: "woot_revived:diamond_cell"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "55573481D52F7C69"
+					item: { Count: 32, id: "woot_revived:diamond_pylon" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7850619F0925F43C"
+					item: { Count: 32, id: "woot_revived:diamond_plinth" }
+					type: "item"
+				}
+			]
+			title: "Tier 4 Multiblock"
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1ED70668BFC6611F"]
+			icon: "woot_revived:netherite_cell"
+			id: "449FA7FE3CBD2102"
+			rewards: [{
+				id: "217DCDC309836412"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5F805F90E8187255"
+					item: "woot_revived:netherite_cell"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "515D891877F6AF89"
+					item: { Count: 12, id: "woot_revived:netherite_pylon" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "14D1F719BD88E25E"
+					item: { Count: 24, id: "woot_revived:netherite_plinth" }
+					type: "item"
+				}
+			]
+			title: "Tier 5 Multiblock"
+			x: 12.0d
 			y: 3.0d
 		}
 	]

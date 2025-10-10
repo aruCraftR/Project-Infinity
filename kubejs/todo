@@ -8,9 +8,7 @@ build multiblock to get creative item? or for super endgame microminers?
 woot config
 dimlets enderman low chance
 super ultimate tier 1-6 seeds???
-gateway fallen chaos knight
-mob improsemt tool for bosses
-loot crates in dungeon super low chance
+mob imprisonment tool for bosses
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -22,14 +20,47 @@ EMC
 /---------------------------------------------------------------------------------------------------------------/
 changelog
 -updated some mods
+-removed Industrial Foregoing Souls
+-removed More Industrial Foregoing Addons (MIFA)
+    -this will remove some speed and energy addons
+-removed Masterful Machinery and added a JAR that fixed TPS (Modname: Masterful Machinery TPS Fix)
+    -this will get removed once the original MM Dev gets a better TPS fix
+
+-added Soulplied Energistics (backport) and Souls Disk
+-added OMNI Cells
+-added Industrial Foregoing Extra Upgrades (IFEU)
+-added applied botanics addon
+-added blocks tickrate booster (thx to igentuman)
+-added AppliedE (Testing)
 
 -fixed some HNN data model outputs
+-fixed HNN quest
 -removed chance cube recipe
--added azure silver ore to blasting recipe
--removed piglich from the ether gas (broken, I dont know why)
--changed gateway spawn timers for ignis easy
--fixed honey bucket for crystallized amber recipe
--added menril sapling to botanypots
+-added azure silver ore to blasting recipe (thx to vexnox)
+-fixed piglich ether gas recipe
+-changed gateway spawn timers for ignis easy (thx to warnux76)
+-fixed honey bucket for crystallized amber recipe (thx to xyzone)
+-added menril sapling to botanypots (thx to grey9832)
+-added blazing_crystal_block, niotic_crystal_block, spirited_crystal_block and nitro_crystal_block to powah recipe (thx to goldiek19)
+-changed recipe for omega tier upgrades
+-changed recipe for repair talisman and soulstone
+-changed woot quest
+-fixed manasteel in tinkers smeltery recipe (thx to ninninextagram)
+-changed gateway of the wither reward (thx to DoomedCells)
+-you can enchant allthemodium and vibranium meshes with efficiency and fortune (thx to toURL)
+-enabled some hidden sophisticated chests and barrels that got hidden because of JEI
+-changed recipe for creative me item and fluid cell (thx to fox_rin)
+-changed mob duplicator to 20000 MB tank size (thx to ghst_toast)
+-readded the step assist upgrade from AdvancedAE
+    -the crash got fixed
+-added born in chaos gateway with lord pumpkinhead boss (thx to sven1_1)
+-changed the recipes for Industrial Foregoing speed, efficiency, processing and thread addons (tier 2 - 6)
+-changed torcherino recipes
+-changed infinity crucible recipe for chaos shard
+-changed infinity crucible layout
+-changed recipe for upgrade_module_stack
+-added a recipe for small chaos shard from chaos guardian data model
+-added chaos guardian data model
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

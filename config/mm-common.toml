@@ -4,4 +4,9 @@ debugTool = true
 splitRecipesJei = true
 #The default value of 'autoPush' (when not set) on ports that support automatic extract to nearby storages
 portsAutoExtractByDefault = false
+#Enables async structure validation to improve TPS. Disable in case of issues.
+asyncValidation = true
+#How often controller will check structure. 1 means every tick, 20 means every second.
+#Range: 1 ~ 100
+structureValidationRate = 10
 

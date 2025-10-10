@@ -1850,12 +1850,9 @@
 		{
 			icon: {
 				Count: 1
-				id: "obtrophies:trophy"
+				id: "draconicevolution:mob_soul"
 				tag: {
-					BlockEntityTag: {
-						VariantID: 0
-						entity: "cataclysm:clawdian"
-					}
+					EntityName: "cataclysm:clawdian"
 				}
 			}
 			icon_scale: 2.0d

@@ -163,7 +163,7 @@ StartupEvents.registry('item', (e) => {
     .glow(true);
 
   //silent items
-  function createingot(e, input) {
+  function createingot (e, input) {
     e.create(input)
       .tag('forge:ingots/' + input)
       .tag('ae2:metal_ingots')
@@ -187,7 +187,7 @@ StartupEvents.registry('item', (e) => {
   createingot(e, 'voidmetal_ingot');
   createingot(e, 'sculk_alloy_ingot');
 
-  function createdust(e, input) {
+  function createdust (e, input) {
     e.create(input)
       .tag('forge:dusts/' + input)
       .tag('forge:dusts')
@@ -203,7 +203,7 @@ StartupEvents.registry('item', (e) => {
   createdust(e, 'starmetal_dust');
   createdust(e, 'tyrian_steel_dust');
 
-  function createraw(e, input) {
+  function createraw (e, input) {
     e.create(input)
       .tag('c:raw_materials/' + input)
       .tag('forge:raw_materials/' + input)
@@ -293,6 +293,48 @@ StartupEvents.registry('item', (e) => {
     .texture('kubejs:item/chaotic_essence')
     .glow(true)
     .tag('kubejs:chaotic_essence');
+
+      //Chaotic Essence
+  e.create('chaos_guardian_prediction')
+    .maxStackSize(64)
+    .displayName('§5Chaos Guardian Prediction')
+    .texture('kubejs:item/chaos_guardian_prediction')
+    .glow(true)
+    .tag('kubejs:chaos_guardian_prediction');
+
+  //Industrial Foregoing Addons
+  function createAddon (e, input) {
+    e.create(input)
+      .texture('kubejs:item/industrial_forgegoing/' + input)
+      .tag('industrialforegoing:addon')
+      .displayName(
+        input
+          .replace(/_/g, ' ')
+          .replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase())
+        + ' Dummy Item'
+      );
+  }
+  createAddon(e, 'efficiency_addon_1');
+  createAddon(e, 'efficiency_addon_2');
+  createAddon(e, 'efficiency_addon_3');
+  createAddon(e, 'efficiency_addon_4');
+  createAddon(e, 'efficiency_addon_5');
+  createAddon(e, 'efficiency_addon_6');
+  createAddon(e, 'processing_addon_1');
+  createAddon(e, 'processing_addon_2');
+  createAddon(e, 'processing_addon_3');
+  createAddon(e, 'processing_addon_4');
+  createAddon(e, 'processing_addon_5');
+  createAddon(e, 'speed_addon_1');
+  createAddon(e, 'speed_addon_2');
+  createAddon(e, 'speed_addon_3');
+  createAddon(e, 'speed_addon_4');
+  createAddon(e, 'speed_addon_5');
+  createAddon(e, 'thread_addon_1');
+  createAddon(e, 'thread_addon_2');
+  createAddon(e, 'thread_addon_3');
+  createAddon(e, 'thread_addon_4');
+  createAddon(e, 'thread_addon_5');
 });
 
 StartupEvents.registry('block', (event) => {
@@ -381,7 +423,7 @@ StartupEvents.registry('block', (event) => {
 });
 
 StartupEvents.registry('block', (e) => {
-  function createblock(e, input1, input2) {
+  function createblock (e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tag('forge:storage_blocks/' + input1)
@@ -406,7 +448,7 @@ StartupEvents.registry('block', (e) => {
   createblock(e, 'solarmetal_block', 'Solarmetal Block');
   createblock(e, 'voidmetal_block', 'Voidmetal Block');
 
-  function createore(e, input1, input2) {
+  function createore (e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tagBlock('mineable/pickaxe')

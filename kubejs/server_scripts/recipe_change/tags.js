@@ -69,25 +69,6 @@ ServerEvents.tags('item', (event) => {
   event.add('forge:fruits/chorus', 'minecraft:chorus_fruit');
   event.add('forge:vegetables/beetroot', 'minecraft:beetroot');
   event.add('forge:rubber', 'thermal:cured_rubber');
-
-  event.add('nuclearcraft:uranium', [
-    'nuclearcraft:fuel_uranium_leu_235',
-    'nuclearcraft:fuel_uranium_leu_233_za',
-    'nuclearcraft:fuel_uranium_leu_235_ox',
-    'nuclearcraft:fuel_uranium_heu_235_ox',
-    'nuclearcraft:fuel_uranium_heu_233_za',
-    'nuclearcraft:fuel_uranium_heu_233',
-    'nuclearcraft:fuel_uranium_leu_233',
-    'nuclearcraft:fuel_uranium_leu_235_za',
-    'nuclearcraft:fuel_uranium_heu_235_za',
-    'nuclearcraft:fuel_uranium_heu_235',
-    'nuclearcraft:fuel_uranium_leu_233_ni',
-    'nuclearcraft:fuel_uranium_leu_235_ni',
-    'nuclearcraft:fuel_uranium_heu_235_ni',
-    'nuclearcraft:fuel_uranium_leu_233_ox',
-    'nuclearcraft:fuel_uranium_heu_233_ox',
-    'nuclearcraft:fuel_uranium_heu_233_ni',
-  ]);
 });
 
 ServerEvents.tags('block', (event) => {

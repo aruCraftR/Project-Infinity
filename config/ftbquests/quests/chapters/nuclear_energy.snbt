@@ -58,178 +58,110 @@
 				type: "item"
 			}]
 			subtitle: "Cooling down the reactor"
-			tasks: [
-				{
-					id: "5625B89D6CCB0DA6"
-					item: "nuclearcraft:empty_heat_sink"
-					type: "item"
+			tasks: [{
+				id: "626E6DB260B9435F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:water_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:copper_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:cryotheum_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:slime_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:netherite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:enderium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:end_stone_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:cobalt_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fluorite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:redstone_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:carobbiite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lithium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:liquid_helium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:platinum_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:arsenic_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:villiaumite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lead_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:gold_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:boron_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:silver_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lapis_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:quartz_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:prismarine_heat_sink"
+							}
+						]
+					}
 				}
-				{
-					id: "3B69FFB9EAC5527C"
-					item: "nuclearcraft:copper_heat_sink"
-					type: "item"
-				}
-				{
-					id: "650BA6EFE8D02A0A"
-					item: "nuclearcraft:cryotheum_heat_sink"
-					type: "item"
-				}
-				{
-					id: "01471100B9789179"
-					item: "nuclearcraft:slime_heat_sink"
-					type: "item"
-				}
-				{
-					id: "10020427FE2D9EAD"
-					item: "nuclearcraft:netherite_heat_sink"
-					type: "item"
-				}
-				{
-					id: "0F010EACB7D1751B"
-					item: "nuclearcraft:enderium_heat_sink"
-					type: "item"
-				}
-				{
-					id: "2451367B5A3A7BF1"
-					item: "nuclearcraft:end_stone_heat_sink"
-					type: "item"
-				}
-				{
-					id: "09EBB55075B818D2"
-					item: "nuclearcraft:cobalt_heat_sink"
-					type: "item"
-				}
-				{
-					id: "496133EFF4FCBE38"
-					item: "nuclearcraft:fluorite_heat_sink"
-					type: "item"
-				}
-				{
-					id: "7FF39F3B8CECA00B"
-					item: "nuclearcraft:redstone_heat_sink"
-					type: "item"
-				}
-				{
-					id: "4D2C2196E4C85CEB"
-					item: "nuclearcraft:carobbiite_heat_sink"
-					type: "item"
-				}
-				{
-					id: "0DF5625FD7E43341"
-					item: "nuclearcraft:lithium_heat_sink"
-					type: "item"
-				}
-				{
-					id: "335E979B6A916A38"
-					item: "nuclearcraft:liquid_helium_heat_sink"
-					type: "item"
-				}
-				{
-					id: "6D5F6953F863722F"
-					item: "nuclearcraft:platinum_heat_sink"
-					type: "item"
-				}
-				{
-					id: "6ADA71696C52F49D"
-					item: "nuclearcraft:arsenic_heat_sink"
-					type: "item"
-				}
-				{
-					id: "1540F4A026E79DCB"
-					item: "nuclearcraft:villiaumite_heat_sink"
-					type: "item"
-				}
-				{
-					id: "59C155408C80233F"
-					item: "nuclearcraft:lead_heat_sink"
-					type: "item"
-				}
-				{
-					id: "78E5ED6F9F3FDE73"
-					item: "nuclearcraft:gold_heat_sink"
-					type: "item"
-				}
-				{
-					id: "0C95315A4F80F27F"
-					item: "nuclearcraft:boron_heat_sink"
-					type: "item"
-				}
-				{
-					id: "7362AB0151A52A9B"
-					item: "nuclearcraft:silver_heat_sink"
-					type: "item"
-				}
-				{
-					id: "22D83DB2512833F8"
-					item: "nuclearcraft:lapis_heat_sink"
-					type: "item"
-				}
-				{
-					id: "7263B3F99E6549F2"
-					item: "nuclearcraft:emerald_heat_sink"
-					type: "item"
-				}
-				{
-					id: "3B05D4665302434A"
-					item: "nuclearcraft:quartz_heat_sink"
-					type: "item"
-				}
-				{
-					id: "6E648339B501E84C"
-					item: "nuclearcraft:prismarine_heat_sink"
-					type: "item"
-				}
-				{
-					id: "3B9AE3C16166C24E"
-					item: "nuclearcraft:tin_heat_sink"
-					type: "item"
-				}
-				{
-					id: "46EAF9F44F9CCD2A"
-					item: "nuclearcraft:obsidian_heat_sink"
-					type: "item"
-				}
-				{
-					id: "56FB17386F2AE044"
-					item: "nuclearcraft:purpur_heat_sink"
-					type: "item"
-				}
-				{
-					id: "6089304A156B8AA4"
-					item: "nuclearcraft:aluminum_heat_sink"
-					type: "item"
-				}
-				{
-					id: "33D55030805BB224"
-					item: "nuclearcraft:magnesium_heat_sink"
-					type: "item"
-				}
-				{
-					id: "5E872375050DA610"
-					item: "nuclearcraft:diamond_heat_sink"
-					type: "item"
-				}
-				{
-					id: "7A738DD2862B4B4C"
-					item: "nuclearcraft:iron_heat_sink"
-					type: "item"
-				}
-				{
-					id: "55C19BD157A8DED3"
-					item: "nuclearcraft:glowstone_heat_sink"
-					type: "item"
-				}
-				{
-					id: "6301B4895BA2B70B"
-					item: "nuclearcraft:liquid_nitrogen_heat_sink"
-					type: "item"
-				}
-				{
-					id: "041956DA70D10875"
-					item: "nuclearcraft:water_heat_sink"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Heat Sinks"
 			x: -7.0d
 			y: -1.0d
@@ -278,38 +210,46 @@
 				type: "item"
 			}]
 			subtitle: "Pump some coolants"
-			tasks: [
-				{
-					id: "7B80BA3FFD7BB9BD"
-					item: "nuclearcraft:active_liquid_nitrogen_heat_sink"
-					type: "item"
+			tasks: [{
+				id: "26D9C96ADDB5F86A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:active_cryotheum_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_liquid_nitrogen_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_liquid_helium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:empty_active_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_water_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_redstone_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_enderium_heat_sink"
+							}
+						]
+					}
 				}
-				{
-					id: "7C5603506BA4F19E"
-					item: "nuclearcraft:active_cryotheum_heat_sink"
-					type: "item"
-				}
-				{
-					id: "7ED45F7AD3639966"
-					item: "nuclearcraft:active_liquid_helium_heat_sink"
-					type: "item"
-				}
-				{
-					id: "0CC43D020A0A32CF"
-					item: "nuclearcraft:active_water_heat_sink"
-					type: "item"
-				}
-				{
-					id: "7B678F2E19B87F2B"
-					item: "nuclearcraft:active_redstone_heat_sink"
-					type: "item"
-				}
-				{
-					id: "5116AAC9B95A98AB"
-					item: "nuclearcraft:active_enderium_heat_sink"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Active Heat Sinks"
 			x: -7.0d
 			y: 1.5d

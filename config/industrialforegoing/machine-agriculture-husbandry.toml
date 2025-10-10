@@ -91,7 +91,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 50000
 		#Max Essence [mb] - Default: [8000 mb]
-		tankSize = 8000
+		tankSize = 20000
 		#Exact Copy to spawn - Default: [false]
 		exactCopy = false
 		#Essence needed to spawn [Mob health*EssenceNeeded] - Default: [12]

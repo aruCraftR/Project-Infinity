@@ -1,8 +1,8 @@
 priority: 1;
 MMEvents.createProcesses((event) => {
-  //chaos_shard
+  //chaos_shard1
   event
-    .create('mm:infinity_crucible_recipe')
+    .create('mm:infinity_crucible_recipe1')
     .structureId('mm:infinity_crucible_structure')
     .ticks(1)
     .input({
@@ -57,21 +57,13 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'avaritia:neutron_ingot',
+        item: 'avaritia:neutron_nugget',
         count: 2,
       },
     })
     .input({
       type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'extendedcrafting:the_ultimate_ingot',
-        count: 2,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      chance: 0.25,
+      chance: 0.0,
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:ultimate_heart',
@@ -82,7 +74,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 2140000000,
+        amount: 200000000,
       },
     })
     .output({
@@ -91,6 +83,52 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'draconicevolution:chaos_shard',
         count: 4,
+      },
+    });
+
+  //chaos_shard2
+  event
+    .create('mm:infinity_crucible_recipe2')
+    .structureId('mm:infinity_crucible_structure')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:mekanism/gas',
+        gas: 'mekanism:antimatter',
+        amount: 5,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: "kubejs:chaos_guardian_prediction",
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:ultimate_heart',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 200000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:small_chaos_frag',
+        count: 16,
       },
     });
 });

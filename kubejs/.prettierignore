@@ -21,3 +21,5 @@ assets/
 #              property: "lit",
 #              value: "false",
 server_scripts/masterfull_machinery/essenceforge/essenceforge_layout.js
+# Ignore this file because its destroying the recipe for ether gas from piglich
+server_scripts/industrialforegoing/add.js

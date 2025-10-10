@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_subatomic',
         },
         D: {
-          item: 'allthemodium:vibranium_ingot',
+          item: 'allthemodium:unobtainium_block',
         },
       },
       result: {

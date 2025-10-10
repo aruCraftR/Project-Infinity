@@ -29,7 +29,9 @@
     "pickletweaks:flint_shears",
     "twilightforest:block_and_chain",
     "cyclic:shears_flint",
-    "cyclic:shears_obsidian"
+    "cyclic:shears_obsidian",
+    "kubejs:allthemodium_mesh",
+    "kubejs:vibranium_mesh"
   ],
   "incompatible": [
     "cyclic:auto_smelt",

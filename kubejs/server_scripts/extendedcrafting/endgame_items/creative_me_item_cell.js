@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_creative',
         },
         H: {
-          item: 'pneumaticcraft:transistor',
+          item: 'avaritia:infinity_ingot',
         },
         I: {
           item: 'ironfurnaces:million_furnace',
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'industrialforegoing:supreme_black_hole_unit',
         },
         L: {
-          item: 'ae2:spatial_storage_cell_128',
+          item: 'mekanism:creative_bin',
         },
       },
       result: {

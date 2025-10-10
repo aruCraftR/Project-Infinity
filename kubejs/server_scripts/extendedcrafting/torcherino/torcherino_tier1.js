@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
           item: 'mekanism:alloy_atomic',
         },
         D: {
-          item: 'allthemodium:allthemodium_nugget',
+          item: 'allthemodium:unobtainium_ingot',
         },
       },
       result: {

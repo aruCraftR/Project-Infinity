@@ -29,5 +29,6 @@
   "gateways.turtle_gate": "Gateway of the Turtle",
   "gateways.warden_gate": "Gateway of the Warden",
   "gateways.wither_gate": "Gateway of the Wither",
-  "gateways.witherskeleton_gate": "Gateway of the Witherskeleton"
+  "gateways.witherskeleton_gate": "Gateway of the Witherskeleton",
+  "gateways.born_in_chaos_gate": "Gateway of Born in Chaos"
 }
