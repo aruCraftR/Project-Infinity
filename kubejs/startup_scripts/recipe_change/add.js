@@ -319,7 +319,6 @@ StartupEvents.registry('item', (e) => {
   createAddon(e, 'efficiency_addon_3');
   createAddon(e, 'efficiency_addon_4');
   createAddon(e, 'efficiency_addon_5');
-  createAddon(e, 'efficiency_addon_6');
   createAddon(e, 'processing_addon_1');
   createAddon(e, 'processing_addon_2');
   createAddon(e, 'processing_addon_3');
