@@ -10,283 +10,394 @@
 	quests: [
 		{
 			dependencies: ["24CF73443031CEAE"]
-			description: ["Right click on a chicken to get Golden Egg."]
+			description: [
+				"&a右击&f鸡获得&a金鸡蛋&f."
+				""
+				""
+				"&7[Right click on a chicken to get Golden Egg.]&f"
+			]
 			id: "210137C6556CA68B"
-			rewards: [{
-				id: "77B1EE37A7B30114"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7B53396BDF15CA59"
-				item: "mob_grinding_utils:nutritious_chicken_feed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "77B1EE37A7B30114"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B53396BDF15CA59"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["24CF73443031CEAE"]
-			description: ["Right click on a chicken to get Rotten Egg."]
+			description: [
+				"&a右击&f鸡获得&a腐烂鸡蛋&f."
+				""
+				""
+				"&7[Right click on a chicken to get Rotten Egg.]&f"
+			]
 			id: "5D61FEEE2C38D2FE"
-			rewards: [{
-				id: "4A0DAB4156C393D6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2B3A051363A8DE6A"
-				item: "mob_grinding_utils:gm_chicken_feed_cursed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A0DAB4156C393D6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B3A051363A8DE6A"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["210137C6556CA68B"]
 			description: [
-				"Use on dirt to create Delightful Dirt."
-				"(make a 5x5 of dirt and use it in the middle)"
+				"用于泥土上创建&a祈福之土&f."
+				"(制作一个5x5的泥土区域并在中心使用)"
 				""
-				"Passive mobs spawn on this."
+				"被动生物会在此生成."
 				""
-				"As time goes on it will grow grass and the like, if all the Delightful Dirt is covered, it will not spawn passive mobs so make sure to check on that."
+				"随着时间的推移,它会生长草等植物,如果所有&a祈福之土&f被覆盖,将不会生成被动生物,因此请确保检查."
+				""
+				""
+				"&7[Use on dirt to create Delightful Dirt.]&f"
+				"&7[(make a 5x5 of dirt and use it in the middle)]&f"
+				""
+				"&7[Passive mobs spawn on this.]&f"
+				""
+				"&7[As time goes on it will grow grass and the like, if all the Delightful Dirt is covered, it will not spawn passive mobs so make sure to check on that.]&f"
 			]
 			id: "24DB954ED93BE6EE"
-			rewards: [{
-				id: "74ACF3E7240DC8E9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "055ED1EE7C16D6C0"
-				item: "mob_grinding_utils:golden_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "74ACF3E7240DC8E9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "055ED1EE7C16D6C0"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5D61FEEE2C38D2FE"]
 			description: [
-				"Use on dirt to create Dreadful Dirt."
-				"(make a 5x5 of dirt and use it in the middle)"
+				"用于泥土上创建&a诅咒之土&f."
+				"(制作一个5x5的泥土区域并在中心使用)"
 				""
-				"Hostile mobs spawn on this."
+				"敌对生物会在此生成."
 				""
-				"They will only spawn if there is no light."
-				"You could use Tinted Glass to see them spawn."
+				"它们只会在无光环境下生成."
+				"你可以使用&a遮光玻璃&f观察它们生成."
+				""
+				""
+				"&7[Use on dirt to create Dreadful Dirt.]&f"
+				"&7[(make a 5x5 of dirt and use it in the middle)]&f"
+				""
+				"&7[Hostile mobs spawn on this.]&f"
+				""
+				"&7[They will only spawn if there is no light.]&f"
+				"&7[You could use Tinted Glass to see them spawn.]&f"
 			]
 			id: "384436003FDA9258"
-			rewards: [{
-				id: "56F69C6DDE766411"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D15CBD52CDFA33B"
-				item: "mob_grinding_utils:rotten_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56F69C6DDE766411"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D15CBD52CDFA33B"
+					item: "mob_grinding_utils:rotten_egg"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 4.0d
 		}
 		{
-			description: ["Push mobs. Need redstone signal."]
+			description: [
+				"推动生物.需要红石信号."
+				""
+				""
+				"&7[Push mobs. Need redstone signal.]&f"
+			]
 			id: "1FE3645BC1E7689F"
-			rewards: [{
-				id: "4FE5E05A7EE6A176"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "35FAF4C9A71B2B18"
-				item: "mob_grinding_utils:fan"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4FE5E05A7EE6A176"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35FAF4C9A71B2B18"
+					item: "mob_grinding_utils:fan"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 3.0d
 		}
 		{
 			id: "22F42406271175A4"
-			rewards: [{
-				id: "38A21F980D71089B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 6L
-				id: "330B414C6107C73D"
-				item: "darkutils:vector_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "38A21F980D71089B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "330B414C6107C73D"
+					item: "darkutils:vector_plate"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 5.0d
 		}
 		{
-			description: ["Absorbs any items and XP in the area."]
+			description: [
+				"吸收区域内的任何物品和经验值."
+				""
+				""
+				"&7[Absorbs any items and XP in the area.]&f"
+			]
 			id: "7E200B1A028DF704"
-			rewards: [{
-				id: "1589F0BA39A0F8CA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "038E21007F51AE91"
-				item: "mob_grinding_utils:absorption_hopper"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1589F0BA39A0F8CA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "038E21007F51AE91"
+					item: "mob_grinding_utils:absorption_hopper"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7E200B1A028DF704"]
 			id: "4D5F9B7F5289FC5E"
-			rewards: [{
-				id: "119DA5F1D8F14B75"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 6L
-				id: "5D853211DB384055"
-				item: "mob_grinding_utils:absorption_upgrade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "119DA5F1D8F14B75"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "5D853211DB384055"
+					item: "mob_grinding_utils:absorption_upgrade"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 5.0d
 		}
 		{
-			description: ["A simple fluid storage."]
+			description: [
+				"简单的流体存储."
+				""
+				""
+				"&7[A simple fluid storage.]&f"
+			]
 			id: "13297FADD13D3A84"
-			rewards: [{
-				id: "477391B84AA37600"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "096D4E8AADFDEA41"
-				item: "mob_grinding_utils:tank"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "477391B84AA37600"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "096D4E8AADFDEA41"
+					item: "mob_grinding_utils:tank"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1FE3645BC1E7689F"]
 			id: "2304A253226E03A5"
-			rewards: [{
-				id: "65DDC88376D5FF08"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 3L
-				id: "7EE4204C86853192"
-				item: "mob_grinding_utils:fan_upgrade_width"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65DDC88376D5FF08"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "7EE4204C86853192"
+					item: "mob_grinding_utils:fan_upgrade_width"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1FE3645BC1E7689F"]
 			id: "779732C99B227912"
-			rewards: [{
-				id: "3689708DDCF6D01E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 3L
-				id: "4F18AE358971652F"
-				item: "mob_grinding_utils:fan_upgrade_speed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3689708DDCF6D01E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "4F18AE358971652F"
+					item: "mob_grinding_utils:fan_upgrade_speed"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 4.0d
 		}
 		{
-			description: ["Attacks anything that comes in contact with it."]
+			description: [
+				"攻击任何接触它的物体."
+				""
+				""
+				"&7[Attacks anything that comes in contact with it.]&f"
+			]
 			id: "5B658B92D3E5641D"
-			rewards: [{
-				id: "24A53725A4767287"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B90123C857BB6BF"
-				item: "mob_grinding_utils:saw"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "24A53725A4767287"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B90123C857BB6BF"
+					item: "mob_grinding_utils:saw"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "7777FF92637BFDA9"
-			rewards: [{
-				id: "6AA96A5291F99309"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "48158C8362BA3D10"
-				item: "mob_grinding_utils:saw_upgrade_arthropod"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6AA96A5291F99309"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "48158C8362BA3D10"
+					item: "mob_grinding_utils:saw_upgrade_arthropod"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "536E9964CD34B018"
-			rewards: [{
-				id: "3F9CD5E90186E7B1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "46E948461EECE1BA"
-				item: "mob_grinding_utils:saw_upgrade_beheading"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F9CD5E90186E7B1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "46E948461EECE1BA"
+					item: "mob_grinding_utils:saw_upgrade_beheading"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "4BB70479F0653A76"
-			rewards: [{
-				id: "385DDEB519CD5B65"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "2E14022AE3CEEE3B"
-				item: "mob_grinding_utils:saw_upgrade_fire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "385DDEB519CD5B65"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "2E14022AE3CEEE3B"
+					item: "mob_grinding_utils:saw_upgrade_fire"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "5AC73E5F5CF24D08"
-			rewards: [{
-				id: "72EE86FA3A5D1FD2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "22F8566B39322842"
-				item: "mob_grinding_utils:saw_upgrade_looting"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "72EE86FA3A5D1FD2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "22F8566B39322842"
+					item: "mob_grinding_utils:saw_upgrade_looting"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -294,116 +405,161 @@
 			dependencies: ["5B658B92D3E5641D"]
 			disable_toast: true
 			id: "14984F77D74D663C"
-			rewards: [{
-				id: "31B829EE9EFB8B6C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "0966FD3761B475F2"
-				item: "mob_grinding_utils:saw_upgrade_sharpness"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "31B829EE9EFB8B6C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "0966FD3761B475F2"
+					item: "mob_grinding_utils:saw_upgrade_sharpness"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
 			id: "27215DB061F207FD"
-			rewards: [{
-				id: "17F9BEA14D3C243F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "74C644B3C88C453D"
-				item: "mob_grinding_utils:saw_upgrade_smite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "17F9BEA14D3C243F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "74C644B3C88C453D"
+					item: "mob_grinding_utils:saw_upgrade_smite"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
-			description: ["Put it on XP fluid tank to extract XP."]
+			description: [
+				"将其放在经验流体储罐上以提取经验."
+				""
+				""
+				"&7[Put it on XP fluid tank to extract XP.]&f"
+			]
 			id: "05D2473CB1BE8F74"
-			rewards: [{
-				id: "602C1752EC984164"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3831E7F9D2D3C328"
-				item: "mob_grinding_utils:xp_tap"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "602C1752EC984164"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3831E7F9D2D3C328"
+					item: "mob_grinding_utils:xp_tap"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
-			description: ["Transfer your xp to the tank by standing on it."]
+			description: [
+				"站在上面将你的经验值传输至&a灌入其中&f."
+				""
+				""
+				"&7[Transfer your xp to the tank by standing on it.]&f"
+			]
 			id: "2507593830977B88"
-			rewards: [{
-				id: "3E653D6E079C2996"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "35FED3BBF7D97C80"
-				item: "mob_grinding_utils:tank_sink"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E653D6E079C2996"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35FED3BBF7D97C80"
+					item: "mob_grinding_utils:tank_sink"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2507593830977B88"]
 			id: "24CF73443031CEAE"
-			rewards: [{
-				id: "50F9998AC7A56B18"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "662970080B4A46A6"
-				item: "mob_grinding_utils:fluid_xp_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "50F9998AC7A56B18"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "662970080B4A46A6"
+					item: "mob_grinding_utils:fluid_xp_bucket"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 4.0d
 		}
 		{
-			description: ["Glass that doesn't let light through."]
+			description: [
+				"不透光的玻璃."
+				""
+				""
+				"&7[Glass that doesn't let light through.]&f"
+			]
 			id: "6A752619712F23A1"
-			rewards: [{
-				id: "77C4F3D09F6262DC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 20L
-				id: "276FF76F3017270F"
-				item: "mob_grinding_utils:tinted_glass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "77C4F3D09F6262DC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 20L
+					id: "276FF76F3017270F"
+					item: "mob_grinding_utils:tinted_glass"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
 			description: [
-				"Solidifies Fluid XP."
-				"Requires an XP Moult and Fluid XP in its tank."
+				"固化&a流体经验&f."
+				"需要经验蜕和储罐中的&a流体经验&f."
+				""
+				""
+				"&7[Solidifies Fluid XP.]&f"
+				"&7[Requires an XP Moult and Fluid XP in its tank.]&f"
 			]
 			id: "1118F827D5CCFB65"
-			rewards: [{
-				id: "516662C70EAD3A29"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "516662C70EAD3A29"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "06790125666758B9"
@@ -422,15 +578,21 @@
 		{
 			dependencies: ["1118F827D5CCFB65"]
 			description: [
-				"Uses a Mob Egg on the top slot."
-				"Fuelled by solid XP. Create Egg Mob with \"GM Chicken Feed\""
+				"顶部槽位使用生物蛋."
+				"以固体经验为燃料.用“&aGM鸡饲料&f“创建蛋生物"
+				""
+				""
+				"&7[Uses a Mob Egg on the top slot.]&f"
+				"&7[Fuelled by solid XP. Create Egg Mob with \"GM Chicken Feed\"]&f"
 			]
 			id: "2EA3E6C82DA79317"
-			rewards: [{
-				id: "1F7BC477D3106019"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F7BC477D3106019"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6B0B7F43B5D8ECDF"
@@ -449,73 +611,104 @@
 		{
 			dependencies: ["22F42406271175A4"]
 			id: "7F60EE6788023C3D"
-			rewards: [{
-				id: "2F933F775E8CB3E9"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 6L
-				id: "3FF41E69B4E04458"
-				item: "darkutils:vector_plate_fast"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F933F775E8CB3E9"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "3FF41E69B4E04458"
+					item: "darkutils:vector_plate_fast"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["7F60EE6788023C3D"]
 			id: "491DEEB61BD41BF3"
-			rewards: [{
-				id: "2F2F3942478DD62A"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 6L
-				id: "5817840148D45EE7"
-				item: "darkutils:vector_plate_extreme"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F2F3942478DD62A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "5817840148D45EE7"
+					item: "darkutils:vector_plate_extreme"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
-			description: ["For a just a &l&olittle extra&r fluid storage..."]
+			description: [
+				"只为了一&l&o点点额外&r的流体存储..."
+				""
+				""
+				"&7[For a just a llittle extra fluid storage...]&f"
+			]
 			id: "3C09EDD821E4995D"
-			rewards: [{
-				id: "2A68D8DDE7DED8DA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "58ECE5FFA6DEACDF"
-				item: "mob_grinding_utils:jumbo_tank"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A68D8DDE7DED8DA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "58ECE5FFA6DEACDF"
+					item: "mob_grinding_utils:jumbo_tank"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
-			description: ["A easy way to deactivated teleporting mobs in a small radius"]
+			description: [
+				"在小范围内禁用生物传送的简便方法"
+				""
+				""
+				"&7[A easy way to deactivated teleporting mobs in a small radius]&f"
+			]
 			id: "7C56E7051D52722C"
-			rewards: [{
-				id: "5C666620CDA51362"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D1AE83CA5A827AC"
-				item: "mob_grinding_utils:ender_inhibitor_on"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C666620CDA51362"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D1AE83CA5A827AC"
+					item: "mob_grinding_utils:ender_inhibitor_on"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 5.0d
 		}
 		{
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			icon: "cataclysm:desert_eye"
 			id: "05211E5EF2F50447"
 			rewards: [
@@ -531,34 +724,50 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				icon: "cataclysm:desert_eye"
-				id: "6755374B10990987"
-				structure: "cataclysm:cursed_pyramid"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "cataclysm:desert_eye"
+					id: "6755374B10990987"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+			]
 			x: 0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["05211E5EF2F50447"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "6D949F5B7B8E0C99"
-			rewards: [{
-				id: "6BF473F035A2A969"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5A8C46395F79E20C"
-				item: "cataclysm:necklace_of_the_desert"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6BF473F035A2A969"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A8C46395F79E20C"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -2.5d
 		}
 		{
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			icon: "cataclysm:abyss_eye"
 			id: "62A23997985036E7"
 			rewards: [
@@ -574,35 +783,51 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				icon: "cataclysm:abyss_eye"
-				id: "794493E097462A5B"
-				structure: "cataclysm:sunken_city"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "cataclysm:abyss_eye"
+					id: "794493E097462A5B"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+			]
 			x: -6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["62A23997985036E7"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "632F67712671FADC"
-			rewards: [{
-				id: "0E98A9DBDB27DC53"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "352B184AAC228442"
-				item: "cataclysm:abyssal_sacrifice"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0E98A9DBDB27DC53"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "352B184AAC228442"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["632F67712671FADC"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			icon: {
 				Count: 1
 				id: "draconicevolution:mob_soul"
@@ -623,18 +848,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				id: "5C21E17C17C9472D"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "5C21E17C17C9472D"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2CFA932171B76689"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "7F978B60987E53DB"
 			rewards: [
 				{
@@ -643,10 +875,12 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [{
-								id: "evilcraft:life_stealing"
-								lvl: 3s
-							}]
+							StoredEnchantments: [
+								{
+									id: "evilcraft:life_stealing"
+									lvl: 3s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -657,17 +891,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "035BE76AAE1833D2"
-				item: "cataclysm:tidal_claws"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "035BE76AAE1833D2"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2CFA932171B76689"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "35A2FAE57A8C60C7"
 			rewards: [
 				{
@@ -681,17 +922,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1B32DEB213367A1D"
-				item: "cataclysm:abyssal_egg"
-				type: "item"
-			}]
-			title: "Obtain The Abyssal Egg"
+			tasks: [
+				{
+					id: "1B32DEB213367A1D"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+			]
+			title: "获取深渊之卵&7[Obtain The Abyssal Egg]&f"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			icon: "cataclysm:mech_eye"
 			id: "65A58DDD992E911C"
 			rewards: [
@@ -707,18 +955,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				icon: "cataclysm:mech_eye"
-				id: "5F3D10D7A225704E"
-				structure: "cataclysm:ancient_factory"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					icon: "cataclysm:mech_eye"
+					id: "5F3D10D7A225704E"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+			]
 			x: 8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["65A58DDD992E911C"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			icon: {
 				Count: 1
 				id: "draconicevolution:mob_soul"
@@ -740,20 +995,27 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:the_harbinger"
-				id: "06DFEB3AD31CE5EC"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Kill the harbinger"
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "06DFEB3AD31CE5EC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "击杀先驱者&7[Kill the harbinger]&f"
 			x: 8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3D5F259F0263E4AD"]
 			dependency_requirement: "one_completed"
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "48E3CB3381D466E3"
 			rewards: [
 				{
@@ -768,22 +1030,29 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 9L
-				id: "380FADEAC91AC0DF"
-				item: "cataclysm:witherite_ingot"
-				type: "item"
-			}]
-			title: "Obtain Witherite"
+			tasks: [
+				{
+					count: 9L
+					id: "380FADEAC91AC0DF"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			title: "获取凋灵矿&7[Obtain Witherite]&f"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2EA2F770EFCD342B"]
 			description: [
-				"My personal favorite weapon."
+				"我最钟爱的武器."
 				""
-				"Haha saw go brrrrr"
+				"哈哈,锯片嗡嗡作响"
+				""
+				""
+				"&7[My personal favorite weapon.]&f"
+				""
+				"&7[Haha saw go brrrrr]&f"
 			]
 			id: "7904E7153115E60B"
 			rewards: [
@@ -793,10 +1062,12 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:sharpness"
-								lvl: 3s
-							}]
+							StoredEnchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 3s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -808,18 +1079,25 @@
 				}
 			]
 			shape: "heart"
-			tasks: [{
-				id: "283DF4012C49C783"
-				item: "cataclysm:meat_shredder"
-				type: "item"
-			}]
-			title: "Craft the Meat Shredder"
+			tasks: [
+				{
+					id: "283DF4012C49C783"
+					item: "cataclysm:meat_shredder"
+					type: "item"
+				}
+			]
+			title: "制作&a绞肉锯&f&7[Craft the Meat Shredder]&f"
 			x: 8.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2EA2F770EFCD342B"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "39DBEDCA587BA1E1"
 			rewards: [
 				{
@@ -834,24 +1112,31 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "17C7FF4269796B13"
-				item: {
-					Count: 1
-					id: "cataclysm:laser_gatling"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "17C7FF4269796B13"
+					item: {
+						Count: 1
+						id: "cataclysm:laser_gatling"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Craft The Laser Gatling"
+			]
+			title: "制作&a激光加特林&f&7[Craft The Laser Gatling]&f"
 			x: 7.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2EA2F770EFCD342B"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			hide_dependent_lines: true
 			id: "61FF844439FCBE0E"
 			rewards: [
@@ -866,18 +1151,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "12FD0DF7B8B4F521"
-				item: "cataclysm:wither_assault_shoulder_weapon"
-				type: "item"
-			}]
-			title: "Craft the WASW"
+			tasks: [
+				{
+					id: "12FD0DF7B8B4F521"
+					item: "cataclysm:wither_assault_shoulder_weapon"
+					type: "item"
+				}
+			]
+			title: "制作WASW&7[Craft the WASW]&f"
 			x: 9.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["48E3CB3381D466E3"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "2EA2F770EFCD342B"
 			rewards: [
 				{
@@ -891,50 +1183,60 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "52E89E2CDABF47C8"
-				item: "cataclysm:mechanical_fusion_anvil"
-				type: "item"
-			}]
-			title: "Craft the Mechanical Fusion Anvil"
+			tasks: [
+				{
+					id: "52E89E2CDABF47C8"
+					item: "cataclysm:mechanical_fusion_anvil"
+					type: "item"
+				}
+			]
+			title: "制作&a机械融合砧&f&7[Craft the Mechanical Fusion Anvil]&f"
 			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["75629F027EFA3F37"]
 			id: "5750B15C47F6A465"
-			rewards: [{
-				id: "306ADF3D259D5E99"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2EDA9C56B13EDA48"
-				item: "cataclysm:sandstorm_in_a_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "306ADF3D259D5E99"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2EDA9C56B13EDA48"
+					item: "cataclysm:sandstorm_in_a_bottle"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["75629F027EFA3F37"]
 			id: "5B10941CBBE8BD78"
-			rewards: [{
-				id: "686FB2455EDF2048"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "280FE6CFF2649951"
-				item: {
-					Count: 1
-					id: "cataclysm:ancient_spear"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "686FB2455EDF2048"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "280FE6CFF2649951"
+					item: {
+						Count: 1
+						id: "cataclysm:ancient_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -1.0d
 		}
@@ -944,16 +1246,20 @@
 				"661E381C67642DD4"
 			]
 			id: "2ADB147456335D83"
-			rewards: [{
-				id: "331FDDC6CA01CCF0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "01A77856DDFF2DA2"
-				item: "cataclysm:wrath_of_the_desert"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "331FDDC6CA01CCF0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01A77856DDFF2DA2"
+					item: "cataclysm:wrath_of_the_desert"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -1.0d
 		}
@@ -963,16 +1269,20 @@
 				"373592864A465D37"
 			]
 			id: "06885913DAFC07A6"
-			rewards: [{
-				id: "1BC814646B36360B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "03FE72CD0EAFD6EB"
-				item: "cataclysm:gauntlet_of_maelstrom"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BC814646B36360B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03FE72CD0EAFD6EB"
+					item: "cataclysm:gauntlet_of_maelstrom"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -4.0d
 		}
@@ -987,34 +1297,42 @@
 			}
 			icon_scale: 2.0d
 			id: "75629F027EFA3F37"
-			rewards: [{
-				id: "46AD672228502265"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:ancient_remnant"
-				id: "66D76E834020E175"
-				type: "kill"
-				value: 1L
-			}]
+			rewards: [
+				{
+					id: "46AD672228502265"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "66D76E834020E175"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			icon: "cataclysm:cursed_eye"
 			id: "5332B1DB126DC67B"
-			rewards: [{
-				id: "259D5F499BBF54F4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "cataclysm:cursed_eye"
-				id: "58326474C20CB7F8"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
-			}]
+			rewards: [
+				{
+					id: "259D5F499BBF54F4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "cataclysm:cursed_eye"
+					id: "58326474C20CB7F8"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+			]
 			x: -4.0d
 			y: 0.5d
 		}
@@ -1029,48 +1347,60 @@
 			}
 			icon_scale: 2.0d
 			id: "6E07C0FEB2929E94"
-			rewards: [{
-				id: "5D25916456AAF916"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:maledictus"
-				id: "36FD47FA976FF180"
-				type: "kill"
-				value: 1L
-			}]
+			rewards: [
+				{
+					id: "5D25916456AAF916"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "36FD47FA976FF180"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			id: "73868448C3A6720D"
-			rewards: [{
-				id: "28C4148189F5C73B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "148C5A50DA410070"
-				item: "cataclysm:black_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "28C4148189F5C73B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "148C5A50DA410070"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6E07C0FEB2929E94"]
 			id: "3042F1A22B16D7B2"
-			rewards: [{
-				id: "183D504954BDE468"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5CB5D0A421040D24"
-				item: "cataclysm:cursium_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "183D504954BDE468"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CB5D0A421040D24"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.5d
 		}
@@ -1080,16 +1410,20 @@
 				"73868448C3A6720D"
 			]
 			id: "11777F570384FB3C"
-			rewards: [{
-				id: "7880D440F088265D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "50382C17B7259761"
-				item: "cataclysm:soul_render"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7880D440F088265D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50382C17B7259761"
+					item: "cataclysm:soul_render"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.5d
 		}
@@ -1099,16 +1433,20 @@
 				"73868448C3A6720D"
 			]
 			id: "280AB37BC77F15BB"
-			rewards: [{
-				id: "21B7B89CB1FAA2FC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4CEAEB412AAE5C85"
-				item: "cataclysm:the_annihilator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "21B7B89CB1FAA2FC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4CEAEB412AAE5C85"
+					item: "cataclysm:the_annihilator"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.5d
 		}
@@ -1118,33 +1456,41 @@
 				"73868448C3A6720D"
 			]
 			id: "661E381C67642DD4"
-			rewards: [{
-				id: "45E07235A0F5A0C2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D4B5A9D72319A69"
-				item: "cataclysm:cursed_bow"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "45E07235A0F5A0C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D4B5A9D72319A69"
+					item: "cataclysm:cursed_bow"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			icon: "cataclysm:storm_eye"
 			id: "31BE62DBD52E4C11"
-			rewards: [{
-				id: "6DAB60890A9C5FC6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "cataclysm:storm_eye"
-				id: "00BCA0B80E79BFB0"
-				structure: "cataclysm:acropolis"
-				type: "structure"
-			}]
+			rewards: [
+				{
+					id: "6DAB60890A9C5FC6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "cataclysm:storm_eye"
+					id: "00BCA0B80E79BFB0"
+					structure: "cataclysm:acropolis"
+					type: "structure"
+				}
+			]
 			x: -4.0d
 			y: -5.0d
 		}
@@ -1159,49 +1505,61 @@
 			}
 			icon_scale: 2.0d
 			id: "2735DFF63B3DFC6E"
-			rewards: [{
-				id: "26FE5142110015BE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:scylla"
-				id: "58FF9428167016A4"
-				type: "kill"
-				value: 1L
-			}]
+			rewards: [
+				{
+					id: "26FE5142110015BE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "58FF9428167016A4"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: -2.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2735DFF63B3DFC6E"]
 			id: "43CA453F48BDEC00"
-			rewards: [{
-				id: "73434902922FAE46"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5B6BA26811E3F9CF"
-				item: "cataclysm:essence_of_the_storm"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "73434902922FAE46"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B6BA26811E3F9CF"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2735DFF63B3DFC6E"]
 			id: "1891466EB1D96231"
-			rewards: [{
-				id: "631FBF6B8CAFEA70"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "79F10C092F24ABD7"
-				item: "cataclysm:lacrima"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "631FBF6B8CAFEA70"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79F10C092F24ABD7"
+					item: "cataclysm:lacrima"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -4.0d
 		}
@@ -1211,16 +1569,20 @@
 				"1891466EB1D96231"
 			]
 			id: "639EE1A8C6747E95"
-			rewards: [{
-				id: "417CD27625F159FD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DB238C94A0A1BC1"
-				item: "cataclysm:ceraunus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "417CD27625F159FD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2DB238C94A0A1BC1"
+					item: "cataclysm:ceraunus"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -5.0d
 		}
@@ -1230,41 +1592,49 @@
 				"1891466EB1D96231"
 			]
 			id: "16B30F6621C669C8"
-			rewards: [{
-				id: "6986B0C23AC82FBC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5AFFAA63385B9667"
-				item: "cataclysm:astrape"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6986B0C23AC82FBC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AFFAA63385B9667"
+					item: "cataclysm:astrape"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1891466EB1D96231"]
 			id: "3D1EBEFD61814220"
-			rewards: [{
-				id: "3D9CD08BB09AB0AF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "47B399A46FF6D43D"
-				item: {
-					Count: 1
-					id: "cataclysm:azure_sea_shield"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "3D9CD08BB09AB0AF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "47B399A46FF6D43D"
+					item: {
+						Count: 1
+						id: "cataclysm:azure_sea_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -4.0d
 		}
 	]
-	title: "Mob Grinding"
+	title: "怪物磨床&7[Mob Grinding]&f"
 }

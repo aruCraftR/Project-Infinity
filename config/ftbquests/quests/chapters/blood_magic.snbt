@@ -62,36 +62,61 @@
 	quests: [
 		{
 			description: [
-				"A &cdark&r and &5mystical&r mod where &9blood&r = power. Sacrifice health, mobs, or even villagers to fuel &6rituals&r, &edemonic pacts&r, and &dforbidden crafts&r."
+				"一款融合&c黑暗&r与&5神秘&r的模组,其中&9血液&r即力量.通过牺牲生命值、生物甚至村民来驱动&e仪式&r、&e恶魔契约&r和&d禁忌造物&r."
 				""
-				"Core Systems:"
+				"核心系统:"
 				""
-				"&cBlood Altar&r (Infuse items with HP)"
+				"&c&a血之祭坛&f&r(用生命值灌注物品)"
 				""
-				"&9Living Armor&r (Grows stronger with kills)"
+				"&9活体盔甲&r(随杀戮成长强化)"
 				""
-				"&5Ritual Stones&r (Large-scale magic effects)"
+				"&5&a仪式石&f&r(大范围魔法效果)"
 				""
-				"&dSoul Forge&r (Demonic crafting station)"
+				"&d灵魂熔炉&r(恶魔锻造台)"
 				""
-				"Endgame:"
+				"终局内容:"
 				""
-				"&4Hellfire Forge&r (Eldritch items)"
+				"&4&a狱火锻炉&f&r(诡奇物品锻造)"
 				""
-				"&cMaster Ritual&r (World-altering spells)"
+				"&c大师仪式&r(改变世界的法术)"
 				""
-				"(For players who think &9\"life is just another resource\"&r.)"
+				"(献给认为&9“生命不过是另一种资源“&r的玩家)"
 				""
-				"&c\"Power flows where blood spills.\"&r"
+				"&c“鲜血流淌之处,力量奔涌不息“&r"
+				""
+				""
+				"&7[A dark and mystical mod where blood = power. Sacrifice health, mobs, or even villagers to fuel rituals, demonic pacts, and forbidden crafts.]&f"
+				""
+				"&7[Core Systems:]&f"
+				""
+				"&7[Blood Altar (Infuse items with HP)]&f"
+				""
+				"&7[Living Armor (Grows stronger with kills)]&f"
+				""
+				"&7[Ritual Stones (Large-scale magic effects)]&f"
+				""
+				"&7[Soul Forge (Demonic crafting station)]&f"
+				""
+				"&7[Endgame:]&f"
+				""
+				"&7[Hellfire Forge (Eldritch items)]&f"
+				""
+				"&7[Master Ritual (World-altering spells)]&f"
+				""
+				"&7[(For players who think \"life is just another resource\".)]&f"
+				""
+				"&7[\"Power flows where blood spills.\"]&f"
 			]
 			disable_toast: true
 			id: "5DAC7D2ABCD2E37A"
 			min_width: 350
-			rewards: [{
-				id: "32D81637C391527D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32D81637C391527D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [
@@ -112,322 +137,511 @@
 					type: "item"
 				}
 			]
-			title: "&4Blood Magic&r"
+			title: "&4&d血魔法&f&r&7[Blood Magic]&f"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5DAC7D2ABCD2E37A"]
 			description: [
-				"The &efirst-tier&r crafting station for &6basic blood magic&r, requiring manual &cblood sacrifice&r to function."
+				"&e基础血魔法&r的&e初级&r合成站,需要手动&c血祭&r才能运作."
 				""
-				"Key Features:"
+				"核心特性:"
 				""
-				"Stores up to &910,000 LP&r"
+				"储存上限&910,000生命源质&r"
 				""
-				"Crafts &5Weak Blood Orb&r, &6Blank Slates&r"
+				"合成&5&a虚弱气血宝珠&f&r、&e&a空白石板&f&r"
 				""
-				"Requires &dplayer health sacrifice&r (no mobs yet)"
+				"需消耗&d玩家生命值&r(尚不可用生物祭品)"
 				""
-				"&c\"Your first steps into the dark arts\"&r"
+				"&c“踏入黑暗艺术的第一步“&r"
 				""
-				"(Place &9Sacrificial Knife&r in offhand for easier use!)"
+				"(将&9&a牺牲匕首&f&r置于副手可便捷使用!)"
+				""
+				""
+				"&7[The first-tier crafting station for basic blood magic, requiring manual blood sacrifice to function.]&f"
+				""
+				"&7[Key Features:]&f"
+				""
+				"&7[Stores up to 10,000 LP]&f"
+				""
+				"&7[Crafts Weak Blood Orb, Blank Slates]&f"
+				""
+				"&7[Requires player health sacrifice (no mobs yet)]&f"
+				""
+				"&7[\"Your first steps into the dark arts\"]&f"
+				""
+				"&7[(Place Sacrificial Knife in offhand for easier use!)]&f"
 			]
 			id: "73FAA926443C20D2"
-			rewards: [{
-				id: "427AF2EB5CE9240D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "427AF2EB5CE9240D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "781BDE39C15F3648"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
-			title: "&4Blood Altar (Tier 1)&r"
+			tasks: [
+				{
+					id: "781BDE39C15F3648"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+			]
+			title: "&4&a血之祭坛&f (等级1)&r&7[Blood Altar (Tier 1)]&f"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["73FAA926443C20D2"]
 			description: [
-				"The &efirst-tier&r container for storing &aLife Essence&r (LP). Acts as your &9initial blood battery&r for basic &5Blood Magic&r rituals and crafts."
+				"用于储存&a&a生命源质&f&r(LP)的&e初级&r容器,作为基础&5&d血魔法&f&r仪式和合成的&9初始血能电池&r."
 				""
-				"Key Stats:"
+				"关键属性:"
 				""
-				"&cCapacity:&r 10,000 LP"
+				"&c容量:&r10,000 LP"
 				""
-				"&9Used&r in early &6Blood Altar&r recipes"
+				"用于早期&e&a血之祭坛&f&r配方"
 				""
-				"&dUpgrades&r to higher-tier orbs (Demon->Archmage->Transcendent)"
+				"可&d升级&r为高阶宝珠(恶魔→大法师→超凡)"
 				""
-				"(The &4\"training wheels\"&r for aspiring blood mages!)"
+				"(血法师学徒的&4“训练轮“&r!)"
 				""
-				"&c\"Every master began with a single drop\"&r"
+				"&c“每位大师都始于第一滴血“&r"
+				""
+				""
+				"&7[The first-tier container for storing Life Essence (LP). Acts as your initial blood battery for basic Blood Magic rituals and crafts.]&f"
+				""
+				"&7[Key Stats:]&f"
+				""
+				"&7[Capacity: 10,000 LP]&f"
+				""
+				"&7[Used in early Blood Altar recipes]&f"
+				""
+				"&7[Upgrades to higher-tier orbs (Demon->Archmage->Transcendent)]&f"
+				""
+				"&7[(The \"training wheels\" for aspiring blood mages!)]&f"
+				""
+				"&7[\"Every master began with a single drop\"]&f"
 			]
 			id: "65404DD229B6D840"
-			rewards: [{
-				id: "7D3697F091A512BF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "475253D85E6BD0C9"
-				item: "bloodmagic:weakbloodorb"
-				type: "item"
-			}]
-			title: "&6Weak Blood Orb&r"
+			rewards: [
+				{
+					id: "7D3697F091A512BF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "475253D85E6BD0C9"
+					item: "bloodmagic:weakbloodorb"
+					type: "item"
+				}
+			]
+			title: "&e&a虚弱气血宝珠&f&r&7[Weak Blood Orb]&f"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["73FAA926443C20D2"]
 			description: [
-				"A smooth stone tablet used as a &5base material&r for crafting various &6ritual components&r and &dblood-infused items&r."
+				"平滑的石质碑板,作为制作各类&e仪式组件&r和&d血浸物品&r的&5基础材料&r."
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Crafting &eRitual Stones&r"
+				"合成&e&a仪式石&f&r"
 				""
-				"Creating &cDivination Sigils&r"
+				"制作&c&a占卜印记&f&r"
 				""
-				"Upgrading &9Blood Altars&r"
+				"升级&9&a血之祭坛&f&r"
 				""
-				"(The &4\"blank canvas\"&r for dark rituals!)"
+				"(黑暗仪式的&4“空白画布“&r!)"
 				""
-				"To create a &6Blank Slate&r, place a &9Stone&r in a &6Blood Altar&r filled with &aLife Essence&r."
+				"制作方式:将&9石头&r放入注满&a&a生命源质&f&r的&e&a血之祭坛&f&r."
 				""
-				"&9\"Shape it with blood, empower it with will\"&r"
+				"&9“以血塑形,以意志赋能“&r"
+				""
+				""
+				"&7[A smooth stone tablet used as a base material for crafting various ritual components and blood-infused items.]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Crafting Ritual Stones]&f"
+				""
+				"&7[Creating Divination Sigils]&f"
+				""
+				"&7[Upgrading Blood Altars]&f"
+				""
+				"&7[(The \"blank canvas\" for dark rituals!)]&f"
+				""
+				"&7[To create a Blank Slate, place a Stone in a Blood Altar filled with Life Essence.]&f"
+				""
+				"&7[\"Shape it with blood, empower it with will\"]&f"
 			]
 			id: "4E1776664123D7AF"
-			rewards: [{
-				id: "7FD14E29670FEFAB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "38C7C1A3D84BB756"
-				item: { Count: 2, id: "bloodmagic:blankslate" }
-				type: "item"
-			}]
-			title: "&7Blank Slate&r"
+			rewards: [
+				{
+					id: "7FD14E29670FEFAB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "38C7C1A3D84BB756"
+					item: {
+						Count: 2
+						id: "bloodmagic:blankslate"
+					}
+					type: "item"
+				}
+			]
+			title: "&7&a空白石板&f&r&7[Blank Slate]&f"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4E1776664123D7AF"]
 			description: [
-				"An advanced crafting station that combines &6alchemy&r and &dblood magic&r to create powerful potions and items."
+				"结合&e炼金术&r与&d血魔法&r的高级合成台,可制作强效药水与物品."
 				""
-				"Key Features:"
+				"核心特性:"
 				""
-				"Brews &cBlood Potions&r (longer-lasting effects)"
+				"酿造&c血之药水&r(效果持续时间更长)"
 				""
-				"Uses &eLife Essence (LP)&r instead of water"
+				"使用&e&a生命源质&f(LP)&r替代水"
 				""
-				"Can create &9throwable potion bombs&r"
+				"可制作&9投掷式药水炸弹&r"
 				""
-				"(Upgrade with &6Alchemy Flasks&r for enhanced recipes!)"
+				"(用&e炼金烧瓶&r升级可解锁强化配方!)"
 				""
-				"&d\"Where science and sacrifice collide\"&r"
+				"&d“科学与献祭在此交汇“&r"
+				""
+				""
+				"&7[An advanced crafting station that combines alchemy and blood magic to create powerful potions and items.]&f"
+				""
+				"&7[Key Features:]&f"
+				""
+				"&7[Brews Blood Potions (longer-lasting effects)]&f"
+				""
+				"&7[Uses Life Essence (LP) instead of water]&f"
+				""
+				"&7[Can create throwable potion bombs]&f"
+				""
+				"&7[(Upgrade with Alchemy Flasks for enhanced recipes!)]&f"
+				""
+				"&7[\"Where science and sacrifice collide\"]&f"
 			]
 			id: "64F092F84E2BF678"
-			rewards: [{
-				id: "4A849C13A4C9246D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6B9714A811ACFE8E"
-				item: "bloodmagic:alchemytable"
-				type: "item"
-			}]
-			title: "&5Alchemy Table&r"
+			rewards: [
+				{
+					id: "4A849C13A4C9246D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B9714A811ACFE8E"
+					item: "bloodmagic:alchemytable"
+					type: "item"
+				}
+			]
+			title: "&5&a炼金术桌&f&r&7[Alchemy Table]&f"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["64F092F84E2BF678"]
 			description: [
-				"A mystical residue left behind after performing &5blood rituals&r or burning &6magical items&r in a &dHellfire Forge&r. Used as a catalyst in advanced alchemy and demonic crafting."
+				"进行&5血魔法仪式&r或在&d&a狱火锻炉&f&r中焚烧&e魔法物品&r后残留的神秘残渣,作为高级炼金与恶魔锻造的催化剂."
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Crafting &eRitual Stones&r"
+				"合成&e&a仪式石&f&r"
 				""
-				"Brewing &cPotions of Expulsion&r (anti-demon)"
+				"酿造&c驱魔药水&r(对抗恶魔)"
 				""
-				"Creating &9Bound Tools&r"
+				"制作&9&a灵魂绑定&f物品&r"
 				""
-				"*(The &4\"phoenix ashes\"&r of dark magic - worthless alone, powerful when combined.)*"
+				"(黑暗魔法的&4“凤凰余烬“&r——单独无用,组合显威)"
 				""
-				"&d\"From destruction comes creation\"&r"
+				"&d“毁灭中诞生创造“&r"
 				""
-				"(Drops from &5Sacrificial Rituals&r or &9Hellfire smelting&r.)"
+				"(通过&5献祭仪式&r或&9狱火熔炼&r获取)"
+				""
+				""
+				"&7[A mystical residue left behind after performing blood rituals or burning magical items in a Hellfire Forge. Used as a catalyst in advanced alchemy and demonic crafting.]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Crafting Ritual Stones]&f"
+				""
+				"&7[Brewing Potions of Expulsion (anti-demon)]&f"
+				""
+				"&7[Creating Bound Tools]&f"
+				""
+				"&7[*(The \"phoenix ashes\" of dark magic - worthless alone, powerful when combined.)*]&f"
+				""
+				"&7[\"From destruction comes creation\"]&f"
+				""
+				"&7[(Drops from Sacrificial Rituals or Hellfire smelting.)]&f"
 			]
 			id: "41B86340D8D3F0B4"
-			rewards: [{
-				id: "5A1E69E02404A3EF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "4E1F89F9702C1A56"
-				item: {
-					Count: 1
-					id: "bloodmagic:arcaneashes"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "5A1E69E02404A3EF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&7Arcane Ashes&r"
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4E1F89F9702C1A56"
+					item: {
+						Count: 1
+						id: "bloodmagic:arcaneashes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7&a奥术粉灰&f&r&7[Arcane Ashes]&f"
 			x: -5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41B86340D8D3F0B4"]
 			description: [
-				"A dangerous focus that manipulates &6lava&r at the cost of &cLife Essence&r (LP)."
+				"通过消耗&c&a生命源质&f&r(LP)来操控&e熔岩&r的危险法器"
 				""
-				"Functions:"
+				"功能说明:"
 				""
-				"&eRight-click&r: Places lava source (&6200 LP/use&r)"
+				"&e右键点击&r:放置熔岩源块(每次消耗&e200点生命源质&r)"
 				""
-				"&eShift-right-click&r: Drains lava into LP (20mB → &51 LP&r)"
+				"&eShift+右键&r:将熔岩转化为生命源质(20毫升→&51点生命源质&r)"
 				""
-				"&cWarning&r: No fire immunity - use carefully!"
+				"&c警告&r:不具备火焰免疫——请谨慎使用!"
 				""
-				"Works with &5Volcanic Will&r (demon will type)"
+				"与&5火山意志&r(恶魔意志类型)协同作用"
 				""
-				"&dNether utility&r: Create obsidian platforms"
+				"&d下界实用功能&r:制造黑曜石平台"
 				""
-				"&6\"Molten power demands bloody payment\"&r"
+				"&e“熔岩之力需以鲜血为代价“&r"
+				""
+				""
+				"&7[A dangerous focus that manipulates lava at the cost of Life Essence (LP).]&f"
+				""
+				"&7[Functions:]&f"
+				""
+				"&7[Right-click: Places lava source (200 LP/use)]&f"
+				""
+				"&7[Shift-right-click: Drains lava into LP (20mB → 1 LP)]&f"
+				""
+				"&7[Warning: No fire immunity - use carefully!]&f"
+				""
+				"&7[Works with Volcanic Will (demon will type)]&f"
+				""
+				"&7[Nether utility: Create obsidian platforms]&f"
+				""
+				"&7[\"Molten power demands bloody payment\"]&f"
 			]
 			id: "59CB0AE1662FF899"
-			rewards: [{
-				id: "21B29AFD71E33135"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "21B29AFD71E33135"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "185DCFB18AABD168"
-				item: "bloodmagic:lavasigil"
-				type: "item"
-			}]
-			title: "&4Lava Sigil&r"
+			tasks: [
+				{
+					id: "185DCFB18AABD168"
+					item: "bloodmagic:lavasigil"
+					type: "item"
+				}
+			]
+			title: "&4&a熔岩印记&f&r&7[Lava Sigil]&f"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41B86340D8D3F0B4"]
 			description: [
-				"A magical tool that reveals &ehidden information&r about blocks and networks in exchange for &cLife Essence&r."
+				"通过消耗&c&a生命源质&f&r来揭示方块与网络的&e隐藏信息&r的魔法工具"
 				""
-				"Functions:"
+				"功能说明:"
 				""
-				"Checks &6Blood Altar&r LP levels"
+				"检测&e&a血之祭坛&f&r的生命源质储量"
 				""
-				"Displays &5ME Network&r storage"
+				"显示&5ME网络&r存储状态"
 				""
-				"Scans &9fluid/energy&r containers"
+				"扫描&9流体/能量&r容器"
 				""
-				"&b\"Knowledge whispers to those who bleed\"&r"
+				"&b“知识向流血者低语“&r"
 				""
-				"(Crafted with &5Blank Slate&r and &cRedstone&r.)"
+				"(使用&5&a空白石板&f&r与&c红石&r合成)"
+				""
+				""
+				"&7[A magical tool that reveals hidden information about blocks and networks in exchange for Life Essence.]&f"
+				""
+				"&7[Functions:]&f"
+				""
+				"&7[Checks Blood Altar LP levels]&f"
+				""
+				"&7[Displays ME Network storage]&f"
+				""
+				"&7[Scans fluid/energy containers]&f"
+				""
+				"&7[\"Knowledge whispers to those who bleed\"]&f"
+				""
+				"&7[(Crafted with Blank Slate and Redstone.)]&f"
 			]
 			id: "5C06626C637113FB"
-			rewards: [{
-				id: "1237C735AD49FD95"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1237C735AD49FD95"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "75CD95ABB7DC6DD7"
-				item: "bloodmagic:divinationsigil"
-				type: "item"
-			}]
-			title: "&5Divination Sigil&r"
+			tasks: [
+				{
+					id: "75CD95ABB7DC6DD7"
+					item: "bloodmagic:divinationsigil"
+					type: "item"
+				}
+			]
+			title: "&5&a占卜印记&f&r&7[Divination Sigil]&f"
 			x: -5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["41B86340D8D3F0B4"]
 			description: [
-				"A magical focus that manipulates &bwater&r using &cLife Essence&r (LP). Functions as a &5hydromancer's tool&r for both utility and combat."
+				"运用&c&a生命源质&f&r(LP)操控&b水流&r的魔法法器,兼具实用功能与战斗能力的&5水系法师工具&r"
 				""
-				"Key Abilities:"
+				"核心能力:"
 				""
-				"&eRight-click&r: Creates water source blocks (costs &6100 LP&r)"
+				"&e右键点击&r:创造水源方块(消耗&e100点生命源质&r)"
 				""
-				"&eShift-right-click&r: Drains water (converts to LP)"
+				"&eShift+右键&r:吸收水流(转化为生命源质)"
 				""
-				"&cOffensive use&r: Launches water projectiles"
+				"&c进攻用途&r:发射水弹"
 				""
-				"Special Traits:"
+				"特性说明:"
 				""
-				"Works with &9Aqua Pathway&r rituals"
+				"与&9水之途径&r仪式协同"
 				""
-				"Can extinguish &4fire&r and &5lava&r"
+				"可熄灭&4火焰&r与&5熔岩&r"
 				""
-				"*(The &6\"liquid control\"&r sigil - equally useful in dungeons and farms!)*"
+				"*(&e“流体掌控“&r印记——地牢与农场皆适用!)*"
 				""
-				"&b\"Where blood meets the tide\"&r"
+				"&b“鲜血与潮汐交汇之处“&r"
+				""
+				""
+				"&7[A magical focus that manipulates water using Life Essence (LP). Functions as a hydromancer's tool for both utility and combat.]&f"
+				""
+				"&7[Key Abilities:]&f"
+				""
+				"&7[Right-click: Creates water source blocks (costs 100 LP)]&f"
+				""
+				"&7[Shift-right-click: Drains water (converts to LP)]&f"
+				""
+				"&7[Offensive use: Launches water projectiles]&f"
+				""
+				"&7[Special Traits:]&f"
+				""
+				"&7[Works with Aqua Pathway rituals]&f"
+				""
+				"&7[Can extinguish fire and lava]&f"
+				""
+				"&7[*(The \"liquid control\" sigil - equally useful in dungeons and farms!)*]&f"
+				""
+				"&7[\"Where blood meets the tide\"]&f"
 			]
 			id: "4A8F713E3BD34708"
-			rewards: [{
-				id: "27F674C4EB0DE3D9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "27F674C4EB0DE3D9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "448F6980BE528FE4"
-				item: "bloodmagic:watersigil"
-				type: "item"
-			}]
-			title: "&9Water Sigil&r"
+			tasks: [
+				{
+					id: "448F6980BE528FE4"
+					item: "bloodmagic:watersigil"
+					type: "item"
+				}
+			]
+			title: "&9&a水之印记&f&r&7[Water Sigil]&f"
 			x: -5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4E1776664123D7AF"]
 			description: [
-				"An upgraded version of the altar with &eincreased capacity&r and &6new crafting options&r."
+				"拥有&e更高容量&r和&e新合成选项&r的祭坛升级版本"
 				""
-				"Key Improvements:"
+				"核心升级:"
 				""
-				"Stores up to &950,000 LP&r"
+				"最高存储&95万点生命源质&r"
 				""
-				"Unlocks &5Apprentice Blood Orb&r"
+				"解锁&5&a学徒气血宝珠&f&r"
 				""
-				"Accepts &dmob sacrifices&r (more efficient)"
+				"接受&d生物献祭&r(更高效)"
 				""
-				"&5Weak Blood Orb&r in altar"
+				"祭坛内生成&5&a虚弱气血宝珠&f&r"
 				""
-				"&c\"Where true blood magic begins\"&r"
+				"&c“真正血魔法的起点“&r"
+				""
+				""
+				"&7[An upgraded version of the altar with increased capacity and new crafting options.]&f"
+				""
+				"&7[Key Improvements:]&f"
+				""
+				"&7[Stores up to 50,000 LP]&f"
+				""
+				"&7[Unlocks Apprentice Blood Orb]&f"
+				""
+				"&7[Accepts mob sacrifices (more efficient)]&f"
+				""
+				"&7[Weak Blood Orb in altar]&f"
+				""
+				"&7[\"Where true blood magic begins\"]&f"
 			]
 			icon: "bloodmagic:altar"
 			id: "098739DBD39DD927"
-			rewards: [{
-				id: "2E50D3656BCBF03F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2E50D3656BCBF03F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				count: 8L
-				id: "3205827D6E0D8CA5"
-				item: { Count: 8, id: "bloodmagic:blankrune" }
-				type: "item"
-			}]
-			title: "&4Blood Altar (Tier 2)&r"
+			tasks: [
+				{
+					count: 8L
+					id: "3205827D6E0D8CA5"
+					item: {
+						Count: 8
+						id: "bloodmagic:blankrune"
+					}
+					type: "item"
+				}
+			]
+			title: "&4&a血之祭坛&f (二阶)&r&7[Blood Altar (Tier 2)]&f"
 			x: -1.5d
 			y: 5.5d
 		}
@@ -437,66 +651,110 @@
 				"5EDA6D65B85934AF"
 			]
 			description: [
-				"The ultimate &cdemonic crafting station&r, fueled by &6Hellfire&r and &5Demon Will&r. Used to create the most powerful &dblood-infused artifacts&r and &esentient weapons&r."
+				"以&e地狱火&r和&5&a恶魔意志&f&r驱动的终极&c恶魔锻造台&r,用于制作最强大的&d血铸神器&r与&e感知武器&r"
 				""
-				"Key Features:"
+				"核心特性:"
 				""
-				"Requires &9Demon Will Crystals&r as fuel"
+				"需要&9&a恶魔意志结晶&f&r作为燃料"
 				""
-				"Crafts &6Living Armor&r upgrades"
+				"锻造&e活体盔甲&r升级部件"
 				""
-				"Forges &5Eldritch-tier&r tools"
+				"铸造&5邪神秘法&r工具"
 				""
-				"&c\"Where mortal steel meets infernal power\"&r"
+				"&c“凡铁与地狱之力交融之处“&r"
+				""
+				""
+				"&7[The ultimate demonic crafting station, fueled by Hellfire and Demon Will. Used to create the most powerful blood-infused artifacts and sentient weapons.]&f"
+				""
+				"&7[Key Features:]&f"
+				""
+				"&7[Requires Demon Will Crystals as fuel]&f"
+				""
+				"&7[Crafts Living Armor upgrades]&f"
+				""
+				"&7[Forges Eldritch-tier tools]&f"
+				""
+				"&7[\"Where mortal steel meets infernal power\"]&f"
 			]
 			id: "6C76C01054FBFBC6"
-			rewards: [{
-				id: "7B8CFB1AA7565644"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6F92CCC482965DB3"
-				item: "bloodmagic:soulforge"
-				type: "item"
-			}]
-			title: "&4Hellfire Forge&r"
+			rewards: [
+				{
+					id: "7B8CFB1AA7565644"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F92CCC482965DB3"
+					item: "bloodmagic:soulforge"
+					type: "item"
+				}
+			]
+			title: "&4&a狱火锻炉&f&r&7[Hellfire Forge]&f"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["73FAA926443C20D2"]
 			description: [
-				"A dark energy source harvested from &5tormented souls&r, used to fuel &dadvanced blood magic&r and &6sentient tools&r."
+				"从&5被折磨的灵魂&r中提取的黑暗能量源,用于驱动&d高阶血魔法&r与&e感知工具&r"
 				""
-				"Sources:"
+				"获取途径:"
 				""
-				"&cWill-producing mobs&r (killed near &9Demon Crucible&r)"
+				"&c产志生物&r(在&9&a恶魔坩埚&f&r附近击杀)"
 				""
-				"&eCrystallized Will&r (processed in &5Hellfire Forge&r)"
+				"&e结晶意志&r(通过&5&a狱火锻炉&f&r加工)"
 				""
-				"Will Types:"
+				"意志类型:"
 				""
-				"&6Raw Will&r (basic form)"
+				"&e原始意志&r(基础形态)"
 				""
-				"&dCorrosive Will&r (damages user)"
+				"&d腐蚀意志&r(对使用者造成伤害)"
 				""
-				"&5Destructive Will&r (explosive effects)"
+				"&5毁灭意志&r(产生爆炸效果)"
 				""
-				"&eVengeful Will&r (combat boosts)"
+				"&e复仇意志&r(提升战斗能力)"
 				""
-				"&9Steadfast Will&r (defensive buffs)"
+				"&9坚毅意志&r(提供防御增益)"
 				""
-				"(Handle with care - &cwrong will types corrupt equipment&r!)"
+				"(小心处理——&c错误意志类型会腐蚀装备&r!)"
 				""
-				"&4\"The screams of demons power your ascent\"&r"
+				"&4“恶魔的尖啸助你登顶“&r"
+				""
+				""
+				"&7[A dark energy source harvested from tormented souls, used to fuel advanced blood magic and sentient tools.]&f"
+				""
+				"&7[Sources:]&f"
+				""
+				"&7[Will-producing mobs (killed near Demon Crucible)]&f"
+				""
+				"&7[Crystallized Will (processed in Hellfire Forge)]&f"
+				""
+				"&7[Will Types:]&f"
+				""
+				"&7[Raw Will (basic form)]&f"
+				""
+				"&7[Corrosive Will (damages user)]&f"
+				""
+				"&7[Destructive Will (explosive effects)]&f"
+				""
+				"&7[Vengeful Will (combat boosts)]&f"
+				""
+				"&7[Steadfast Will (defensive buffs)]&f"
+				""
+				"&7[(Handle with care - wrong will types corrupt equipment!)]&f"
+				""
+				"&7[\"The screams of demons power your ascent\"]&f"
 			]
 			id: "5EDA6D65B85934AF"
-			rewards: [{
-				id: "5F8341CE28E58A7A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5F8341CE28E58A7A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6E708F7471658547"
@@ -512,314 +770,482 @@
 				{
 					count: 3L
 					id: "1DE08A93E9A9D102"
-					item: { Count: 3, id: "bloodmagic:soulsnare" }
+					item: {
+						Count: 3
+						id: "bloodmagic:soulsnare"
+					}
 					type: "item"
 				}
 			]
-			title: "&4Demon Will&r"
+			title: "&4&a恶魔意志&f&r&7[Demon Will]&f"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6C76C01054FBFBC6"]
 			description: [
-				"The &esmallest&r and most basic container for storing &cDemon Will&r, used in &6early&r blood magic crafting."
+				"最&e基础&r的&c&a恶魔意志&r储存容器,用于&e初期&r血魔法合成"
 				""
-				"Capacity:"
+				"容量:"
 				""
-				"Holds up to &9100 Will&r of any type"
+				"可容纳任意类型意志&9最多100点&r"
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Fuels &5first-tier&r sentient tools"
+				"为&5初阶&r感知工具供能"
 				""
-				"Required for &6basic Hellfire Forge&r recipes"
+				"&e基础&a狱火锻炉&f&r配方必需品"
 				""
-				"Crafts &dentry-level&r Will-infused items"
+				"合成&d入门级&r意志灌注物品"
 				""
-				"&4\"A fledgling vessel for demonic power\"&r"
+				"&4“承载恶魔之力的雏形容器“&r"
+				""
+				""
+				"&7[The smallest and most basic container for storing Demon Will, used in early blood magic crafting.]&f"
+				""
+				"&7[Capacity:]&f"
+				""
+				"&7[Holds up to 100 Will of any type]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Fuels first-tier sentient tools]&f"
+				""
+				"&7[Required for basic Hellfire Forge recipes]&f"
+				""
+				"&7[Crafts entry-level Will-infused items]&f"
+				""
+				"&7[\"A fledgling vessel for demonic power\"]&f"
 			]
 			id: "51F0416194224BB8"
-			rewards: [{
-				id: "31FDFFF649CF53F2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "02B39E0354AFBB6A"
-				item: {
-					Count: 1
-					id: "bloodmagic:soulgempetty"
-					tag: { }
+			rewards: [
+				{
+					id: "31FDFFF649CF53F2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&5Petty Tartaric Gem&r"
+			]
+			tasks: [
+				{
+					id: "02B39E0354AFBB6A"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgempetty"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&5&a微尘地狱魂石&f&r&7[Petty Tartaric Gem]&f"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["51F0416194224BB8"]
 			description: [
-				"A basic container for storing &cDemon Will&r, used to power &6early-game&r sentient tools and &dblood magic&r devices."
+				"储存&c&a恶魔意志&f&r的基础容器,用于为早期游戏&r的感知工具和&d血魔法&r装置供能."
 				""
-				"Capacity:"
+				"容量:"
 				""
-				"Holds up to &9200 Will&r of any type"
+				"可储存任意类型意志上限为&9200点&r"
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Fuels &5Sentient Weapons&r"
+				"为&5感知武器&r供能"
 				""
-				"Crafts &6Will-Infused Armor&r"
+				"合成&e意志灌注护甲&r"
 				""
-				"Required for &dHellfire Forge&r recipes"
+				"&d&a狱火锻炉&f&r配方必需材料"
 				""
-				"&4\"The first taste of demonic power\"&r"
+				"&4“恶魔之力的初尝滋味“&r"
+				""
+				""
+				"&7[A basic container for storing Demon Will, used to power early-game sentient tools and blood magic devices.]&f"
+				""
+				"&7[Capacity:]&f"
+				""
+				"&7[Holds up to 200 Will of any type]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Fuels Sentient Weapons]&f"
+				""
+				"&7[Crafts Will-Infused Armor]&f"
+				""
+				"&7[Required for Hellfire Forge recipes]&f"
+				""
+				"&7[\"The first taste of demonic power\"]&f"
 			]
 			id: "05648E2D91442148"
-			rewards: [{
-				id: "282AC9F7B068F9E0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "252DAE8DBDFA0191"
-				item: {
-					Count: 1
-					id: "bloodmagic:soulgemlesser"
-					tag: { }
+			rewards: [
+				{
+					id: "282AC9F7B068F9E0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&5Lesser Tartaric Gem&r"
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "252DAE8DBDFA0191"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgemlesser"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&5&a微尘地狱魂石&f&r&7[Lesser Tartaric Gem]&f"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["05648E2D91442148"]
 			description: [
-				"An upgraded vessel for storing &cDemon Will&r, offering greater capacity than the &eLesser Tartaric Gem&r."
+				"升级版意志储存容器,比&e&a微尘地狱魂石&f&r具有更大容量."
 				""
-				"Capacity:"
+				"容量:"
 				""
-				"Holds up to &9500 Will&r of any type"
+				"可储存任意类型意志上限为&9500点&r"
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Powers &6intermediate sentient tools&r"
+				"为&e中级感知工具&r供能"
 				""
-				"Required for &dadvanced Hellfire Forge&r recipes"
+				"&d高级&a狱火锻炉&f&r配方必需材料"
 				""
-				"Used in &5Living Armor&r augmentation"
+				"用于&5活化护甲&r强化"
 				""
-				"&4\"Demonic energy condensed into crystalline form\"&r"
+				"&4“凝聚成晶态的恶魔能量“&r"
+				""
+				""
+				"&7[An upgraded vessel for storing Demon Will, offering greater capacity than the Lesser Tartaric Gem.]&f"
+				""
+				"&7[Capacity:]&f"
+				""
+				"&7[Holds up to 500 Will of any type]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Powers intermediate sentient tools]&f"
+				""
+				"&7[Required for advanced Hellfire Forge recipes]&f"
+				""
+				"&7[Used in Living Armor augmentation]&f"
+				""
+				"&7[\"Demonic energy condensed into crystalline form\"]&f"
 			]
 			id: "6DB85BA2177BC968"
-			rewards: [{
-				id: "5473AF1A8377C86A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "45366E895A52BCD5"
-				item: {
-					Count: 1
-					id: "bloodmagic:soulgemcommon"
-					tag: { }
+			rewards: [
+				{
+					id: "5473AF1A8377C86A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&5Common Tartaric Gem&r"
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "45366E895A52BCD5"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgemcommon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&5&a普通地狱魂石&f&r&7[Common Tartaric Gem]&f"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6DB85BA2177BC968"]
 			description: [
-				"An advanced container capable of storing &clarge quantities&r of &6Demon Will&r for powering &dhigh-tier blood magic&r equipment."
+				"可储存&c大量&r&e&a恶魔意志&f&r的高级容器,用于为&d高阶血魔法&r设备供能."
 				""
-				"Capacity:"
+				"容量:"
 				""
-				"Holds up to &91,000 Will&r of any type"
+				"可储存任意类型意志上限为&91,000点&r"
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Fuels &5sentient weapons&r and &6armor&r"
+				"为&5感知武器&r和&e护甲&r供能"
 				""
-				"Required for &deldritch rituals&r"
+				"&d邪术仪式&r必需材料"
 				""
-				"Powers &9master-level&r Hellfire Forge crafts"
+				"为&9大师级&r&a狱火锻炉&f工艺供能"
 				""
-				"&4\"A crucible of concentrated demonic might\"&r"
+				"&4“浓缩恶魔之力的熔铸核心“&r"
+				""
+				""
+				"&7[An advanced container capable of storing large quantities of Demon Will for powering high-tier blood magic equipment.]&f"
+				""
+				"&7[Capacity:]&f"
+				""
+				"&7[Holds up to 1,000 Will of any type]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Fuels sentient weapons and armor]&f"
+				""
+				"&7[Required for eldritch rituals]&f"
+				""
+				"&7[Powers master-level Hellfire Forge crafts]&f"
+				""
+				"&7[\"A crucible of concentrated demonic might\"]&f"
 			]
 			id: "3FC369A567A12B72"
-			rewards: [{
-				id: "2C0CBF1B021D8D13"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "7CAA9303D156523B"
-				item: {
-					Count: 1
-					id: "bloodmagic:soulgemgreater"
-					tag: { }
+			rewards: [
+				{
+					id: "2C0CBF1B021D8D13"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&5Greater Tartaric Gem&r"
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7CAA9303D156523B"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgemgreater"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&5&a硕大地狱魂石&f&r&7[Greater Tartaric Gem]&f"
 			x: 3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["51F0416194224BB8"]
 			description: [
-				"The &6Sentient Sword&r is a powerful weapon in Blood Magic that uses &9Demon Will&r to enhance its damage."
+				"&e&a感知利刃&f&r是&d血魔法&f中的强力武器,通过&9&a恶魔意志&f&r增强伤害."
 				""
-				"To create a &6Sentient Sword&r, combine a &9Petty Tartaric Gem&r with an &9Iron Sword&r in a &6Hellfire Forge&r. The sword's power increases with the amount of Demon Will stored in your gem."
+				"合成方式:在&e&a狱火锻炉&f&r中将&9&a微尘地狱魂石&f&r与&9&a铁剑&f&r结合.武器威力随宝石中储存的&a恶魔意志&f数量提升."
 				""
-				"&4\"The blade remembers every life it takes\"&r"
+				"&4“剑锋铭记每一次终结的生命“&r"
+				""
+				""
+				"&7[The Sentient Sword is a powerful weapon in Blood Magic that uses Demon Will to enhance its damage.]&f"
+				""
+				"&7[To create a Sentient Sword, combine a Petty Tartaric Gem with an Iron Sword in a Hellfire Forge. The sword's power increases with the amount of Demon Will stored in your gem.]&f"
+				""
+				"&7[\"The blade remembers every life it takes\"]&f"
 			]
 			id: "0D73A4AECC70634C"
-			rewards: [{
-				id: "17C24BFB992D5BAD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "7B3524B10BD5C25D"
-				item: {
-					Count: 1
-					id: "bloodmagic:soulsword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "17C24BFB992D5BAD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&4Sentient Sword&r"
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B3524B10BD5C25D"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4&a感知利刃&f&r&7[Sentient Sword]&f"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["098739DBD39DD927"]
 			description: [
-				"A ritual blade that harvests &clife essence&r from &6mobs&r and &dvillagers&r for your &5Blood Altar&r."
+				"通过仪式从&e生物&r和&d村民&r身上采集&c生命精华&r注入&5&a血之祭坛&f&r的 ritual 匕首."
 				""
-				"Key Traits:"
+				"核心特性:"
 				""
-				"&eRight-click mobs&r to fill altar (&9+400 LP/kill&r)"
+				"&e右键点击生物&r填充祭坛(&9+400生命值/击杀&r)"
 				""
-				"Works with &6Tier 2+&r altars"
+				"兼容&e二级及以上&r祭坛"
 				""
-				"&cNo player damage&r (unlike Sacrificial Knife)"
+				"&c不会伤害玩家&r(与&a牺牲匕首&f不同)"
 				""
-				"Special Uses:"
+				"特殊用途:"
 				""
-				"&5Automated farms&r with &dWell of Suffering&r ritual"
+				"配合&d&a苦难之井&f&r仪式实现&5自动化农场&r"
 				""
-				"&9Villager-based&r LP generation"
+				"&9村民转化&r生命值生成"
 				""
-				"&4\"Your victims' blood becomes your strength\"&r"
+				"&4“逝者的鲜血化作你的力量“&r"
+				""
+				""
+				"&7[A ritual blade that harvests life essence from mobs and villagers for your Blood Altar.]&f"
+				""
+				"&7[Key Traits:]&f"
+				""
+				"&7[Right-click mobs to fill altar (+400 LP/kill)]&f"
+				""
+				"&7[Works with Tier 2+ altars]&f"
+				""
+				"&7[No player damage (unlike Sacrificial Knife)]&f"
+				""
+				"&7[Special Uses:]&f"
+				""
+				"&7[Automated farms with Well of Suffering ritual]&f"
+				""
+				"&7[Villager-based LP generation]&f"
+				""
+				"&7[\"Your victims' blood becomes your strength\"]&f"
 			]
 			id: "4C995C3674757962"
-			rewards: [{
-				id: "2FA2F5342D7DA655"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2D158CC0CDF8DC3D"
-				item: "bloodmagic:daggerofsacrifice"
-				type: "item"
-			}]
-			title: "&4Dagger of Sacrifice&r"
+			rewards: [
+				{
+					id: "2FA2F5342D7DA655"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D158CC0CDF8DC3D"
+					item: "bloodmagic:daggerofsacrifice"
+					type: "item"
+				}
+			]
+			title: "&4&a献祭之刃&f&r&7[Dagger of Sacrifice]&f"
 			x: -3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["098739DBD39DD927"]
 			description: [
-				"A &5blood-infused&r enhancement that &6accelerates&r the &dprocessing speed&r of your &cBlood Altar&r."
+				"&5血能灌注&r的增强符文,可&e加速&r&c&a血之祭坛&f&r的&d处理速度&r."
 				""
-				"Key Effects:"
+				"核心效果:"
 				""
-				"&9Reduces craft time&r by 10% per rune"
+				"&9每个符文减少10%合成时间&r"
 				""
-				"&5Stacks up&r to 16 runes (max 160% speed)"
+				"&5最多叠加&r16个符文(最高160%速度)"
 				""
-				"Must be placed &dbeneath&r the altar"
+				"必须放置在祭坛&d下方&r"
 				""
-				"&c\"Time bends where blood flows fastest\"&r"
+				"&c“鲜血奔流之处时间为之诡异“&r"
+				""
+				""
+				"&7[A blood-infused enhancement that accelerates the processing speed of your Blood Altar.]&f"
+				""
+				"&7[Key Effects:]&f"
+				""
+				"&7[Reduces craft time by 10% per rune]&f"
+				""
+				"&7[Stacks up to 16 runes (max 160% speed)]&f"
+				""
+				"&7[Must be placed beneath the altar]&f"
+				""
+				"&7[\"Time bends where blood flows fastest\"]&f"
 			]
 			id: "2AD12CE61EF32E7D"
-			rewards: [{
-				id: "0CCA679A7DE00358"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "565566B5643AEA3B"
-				item: "bloodmagic:speedrune"
-				type: "item"
-			}]
-			title: "&eSpeed Rune&r"
+			rewards: [
+				{
+					id: "0CCA679A7DE00358"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "565566B5643AEA3B"
+					item: "bloodmagic:speedrune"
+					type: "item"
+				}
+			]
+			title: "&e&a迅捷符文&f&r&7[Speed Rune]&f"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["098739DBD39DD927"]
 			description: [
-				"An &5upgraded version&r of the Blank Slate, used for &dadvanced blood magic&r crafting and &caltar enhancements&r."
+				"&a空白石板&f的&5升级版本&r,用于&d高阶血魔法&r合成与&c祭坛强化&r."
 				""
-				"Key Uses:"
+				"主要用途:"
 				""
-				"Crafts &9Tier 3+&r altar components"
+				"合成&9三级及以上&r祭坛组件"
 				""
-				"Used in &dHellfire Forge&r recipes"
+				"用于&d&a狱火锻炉&f&r配方"
 				""
-				"&4\"Fortified through sacrificial rites\"&r"
+				"&4“通过献祭仪式强化的造物“&r"
+				""
+				""
+				"&7[An upgraded version of the Blank Slate, used for advanced blood magic crafting and altar enhancements.]&f"
+				""
+				"&7[Key Uses:]&f"
+				""
+				"&7[Crafts Tier 3+ altar components]&f"
+				""
+				"&7[Used in Hellfire Forge recipes]&f"
+				""
+				"&7[\"Fortified through sacrificial rites\"]&f"
 			]
 			id: "3B1FD1ED7C69EFCE"
-			rewards: [{
-				id: "49AB17BF6BBEE0A3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0822AD2AF7D15838"
-				item: "bloodmagic:reinforcedslate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "49AB17BF6BBEE0A3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0822AD2AF7D15838"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3B1FD1ED7C69EFCE"]
 			description: [
-				"Tier 2 Sigils are more advanced sigils that offer greater functionality and power."
+				"二级印记是更高级的印记,提供更强的功能与力量."
 				""
-				"&6Sigil of the Green Grove&r: A &2nature-infused&r focus that uses &cLife Essence&r to &5accelerate plant growth&r and &6harvest crops&r."
+				"&e&a绿丛印记&f&r:蕴含&2自然之力&r的媒介,消耗&c&a生命源质&f&r来&5加速植物生长&r并&e收割作物&r."
 				""
-				"&6Sigil of the Fast Miner&r: A &6blood-powered&r tool that grants &5temporary haste&r and &dmining speed&r boosts in exchange for &cLife Essence&r."
+				"&e&a速掘印记&f&r:以&e鲜血驱动&r的工具,通过消耗&c&a生命源质&f&r换取&5临时急迫&r效果与&d&a挖掘速度&f&r提升."
 				""
-				"&6Seer's Sigil&r: A &ddivination tool&r that reveals &ehidden information&r about blocks and entities for &cLife Essence&r."
+				"&e&a先知印记&f&r:作为&d占卜器具&r,消耗&c&a生命源质&f&r揭示方块与实体的&e隐藏信息&r."
 				""
-				"&6Void Sigil&r: A &5dark artifact&r that consumes &cLife Essence&r to &ddestroy blocks&r and &6entities&r."
+				"&e&a虚空印记&f&r:作为&5黑暗造物&r,通过消耗&c&a生命源质&f&r来摧毁方块&r与实体&r."
 				""
-				"&6Air Sigil&r: Allows the player to &3fly&r short distances when activated."
+				"&e&a风之印记&f&r:激活时允许玩家进行短距离&3飞行&r."
+				""
+				""
+				"&7[Tier 2 Sigils are more advanced sigils that offer greater functionality and power.]&f"
+				""
+				"&7[Sigil of the Green Grove: A nature-infused focus that uses Life Essence to accelerate plant growth and harvest crops.]&f"
+				""
+				"&7[Sigil of the Fast Miner: A blood-powered tool that grants temporary haste and mining speed boosts in exchange for Life Essence.]&f"
+				""
+				"&7[Seer's Sigil: A divination tool that reveals hidden information about blocks and entities for Life Essence.]&f"
+				""
+				"&7[Void Sigil: A dark artifact that consumes Life Essence to destroy blocks and entities.]&f"
+				""
+				"&7[Air Sigil: Allows the player to fly short distances when activated.]&f"
 			]
 			id: "495A6CA8D208A9C3"
-			rewards: [{
-				id: "5F3705D7DC858568"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5F3705D7DC858568"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -856,286 +1282,446 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2 Sigils"
+			title: "二级印记&7[Tier 2 Sigils]&f"
 			x: 1.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3B1FD1ED7C69EFCE"]
 			description: [
-				"A &5blood-infused&r stone that &cenhances&r the &defficiency&r of your &6Blood Altar&r when placed beneath it."
+				"注有&5鲜血之力的&r石头,置于&e&a血之祭坛&f&r下方时可&c提升&r祭坛的&d效率&r."
 				""
-				"Key Effects:"
+				"核心效果:"
 				""
-				"&9Increases LP gain&r by 5% per rune"
+				"&9每枚符文增加5%生命源质获取量&r"
 				""
-				"&5Stacks up&r to 16 runes (max +80%)"
+				"&5最多叠加&r16枚(最高+80%)"
 				""
-				"Works with &dboth&r player and mob sacrifices"
+				"对玩家与生物献祭&d皆有效&r"
 				""
-				"&c\"More blood, more power\"&r"
+				"&c“鲜血愈多,力量愈强“&r"
+				""
+				""
+				"&7[A blood-infused stone that enhances the efficiency of your Blood Altar when placed beneath it.]&f"
+				""
+				"&7[Key Effects:]&f"
+				""
+				"&7[Increases LP gain by 5% per rune]&f"
+				""
+				"&7[Stacks up to 16 runes (max +80%)]&f"
+				""
+				"&7[Works with both player and mob sacrifices]&f"
+				""
+				"&7[\"More blood, more power\"]&f"
 			]
 			id: "08B32C58D27F5FCA"
-			rewards: [{
-				id: "71F185AF7EDCF235"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71F185AF7EDCF235"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "6A09831198631680"
-				item: "bloodmagic:sacrificerune"
-				type: "item"
-			}]
-			title: "&4Rune of Sacrifice&r"
+			tasks: [
+				{
+					id: "6A09831198631680"
+					item: "bloodmagic:sacrificerune"
+					type: "item"
+				}
+			]
+			title: "&4&a献祭符文&f&r&7[Rune of Sacrifice]&f"
 			x: 2.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["3B1FD1ED7C69EFCE"]
 			description: [
-				"The &5second-tier&r container for &cLife Essence&r, offering &esignificantly increased&r capacity over the Weak Blood Orb."
+				"&c&a生命源质&f&r的&5二级&r容器,相比&a虚弱气血宝珠&f拥有&e显著提升&r的容量."
 				""
-				"Key Stats:"
+				"关键属性:"
 				""
-				"&6Capacity:&r 50,000 LP"
+				"&e容量:&r 50,000 生命源质"
 				""
-				"Unlocks &dTier 3 Altar&r crafts"
+				"解锁&d三级祭坛&r合成"
 				""
-				"Enables &9automated sacrifice&r systems"
+				"启用&9自动化献祭&r系统"
 				""
-				"Upgrade Path:"
+				"升级路径:"
 				""
-				"&c\"The apprentice becomes the master\"&r"
+				"&c“学徒终成大师“&r"
+				""
+				""
+				"&7[The second-tier container for Life Essence, offering significantly increased capacity over the Weak Blood Orb.]&f"
+				""
+				"&7[Key Stats:]&f"
+				""
+				"&7[Capacity: 50,000 LP]&f"
+				""
+				"&7[Unlocks Tier 3 Altar crafts]&f"
+				""
+				"&7[Enables automated sacrifice systems]&f"
+				""
+				"&7[Upgrade Path:]&f"
+				""
+				"&7[\"The apprentice becomes the master\"]&f"
 			]
 			id: "77CDE03E47476C41"
-			rewards: [{
-				id: "1D4737CA764E79B4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1D4737CA764E79B4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "1530041C5C45E219"
-				item: "bloodmagic:apprenticebloodorb"
-				type: "item"
-			}]
-			title: "&9Apprentice Blood Orb&r"
+			tasks: [
+				{
+					id: "1530041C5C45E219"
+					item: "bloodmagic:apprenticebloodorb"
+					type: "item"
+				}
+			]
+			title: "&9&a学徒气血宝珠&f&r&7[Apprentice Blood Orb]&f"
 			x: 2.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3B1FD1ED7C69EFCE"]
 			description: [
-				"A &cvampiric&r enhancement that &6increases&r the &dLP yield&r from &5your own health&r when placed beneath a Blood Altar."
+				"置于&a血之祭坛&f&r下方时,可通过&5自身生命值&r&e提升&r&d生命源质产量&r的&c嗜血&r强化物."
 				""
-				"Key Traits:"
+				"核心特性:"
 				""
-				"&9Boosts player sacrifice&r by +10% LP/heart"
+				"&9每颗心额外提供10%生命源质&r"
 				""
-				"&5Does not affect&r mob sacrifices"
+				"&5对生物献祭无效&r"
 				""
-				"&dStacks&r with Speed Runes"
+				"可与&a速度符文&f&r&d叠加&r"
 				""
-				"Warning:"
+				"警告:"
 				""
-				"&cNo extra protection&r - you lose health faster"
+				"&c无额外保护&r——生命值流失更快"
 				""
-				"&4\"The deepest cuts yield the greatest power\"&r"
+				"&4“愈深的伤口孕育愈强的力量“&r"
+				""
+				""
+				"&7[A vampiric enhancement that increases the LP yield from your own health when placed beneath a Blood Altar.]&f"
+				""
+				"&7[Key Traits:]&f"
+				""
+				"&7[Boosts player sacrifice by +10% LP/heart]&f"
+				""
+				"&7[Does not affect mob sacrifices]&f"
+				""
+				"&7[Stacks with Speed Runes]&f"
+				""
+				"&7[Warning:]&f"
+				""
+				"&7[No extra protection - you lose health faster]&f"
+				""
+				"&7[\"The deepest cuts yield the greatest power\"]&f"
 			]
 			id: "7D920F47F140D412"
-			rewards: [{
-				id: "67A9FDF2EEFF08CD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67A9FDF2EEFF08CD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "5CFF3690B23E1DFD"
-				item: "bloodmagic:selfsacrificerune"
-				type: "item"
-			}]
-			title: "&4Rune of Self-Sacrifice&r"
+			tasks: [
+				{
+					id: "5CFF3690B23E1DFD"
+					item: "bloodmagic:selfsacrificerune"
+					type: "item"
+				}
+			]
+			title: "&4自献符文&r&7[Rune of Self-Sacrifice]&f"
 			x: 2.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["3B1FD1ED7C69EFCE"]
 			description: [
-				"To upgrade to a &6Tier 3 Altar&r, add another layer of &6Runes&r around your altar and place &6Pillars&r with &6Glowstone&r or &6Sea Lanterns&r on top at the corners. This upgrade allows access to Tier 3 items and rituals."
+				"升级至&e三级祭坛&r需在祭坛周围增铺一层&e符文&r,并在四角立柱顶端放置&e萤石&r或&e&a海晶灯&f&r.此升级可解锁三级物品与仪式."
 				""
-				"The &eadvanced&r blood crafting station that unlocks &5automated sacrifice&r and &6demon will&r systems."
+				"作为&e高级&r鲜血工坊,可开启&5自动化献祭&r与&e恶魔意志&r系统."
 				""
-				"&6Capacity:&r 200,000 LP"
+				"&e容量:&r 200,000 生命源质"
 				""
-				"Accepts &9Demon Will&r infusion"
+				"支持&9&a恶魔意志&f&r灌注"
 				""
-				"Crafts &5Sentient Tools&r"
+				"合成&5感知工具&r"
 				""
-				"&c\"Where mortal blood meets demonic power\"&r"
+				"&c“凡人之血与恶魔之力交汇之处“&r"
+				""
+				""
+				"&7[To upgrade to a Tier 3 Altar, add another layer of Runes around your altar and place Pillars with Glowstone or Sea Lanterns on top at the corners. This upgrade allows access to Tier 3 items and rituals.]&f"
+				""
+				"&7[The advanced blood crafting station that unlocks automated sacrifice and demon will systems.]&f"
+				""
+				"&7[Capacity: 200,000 LP]&f"
+				""
+				"&7[Accepts Demon Will infusion]&f"
+				""
+				"&7[Crafts Sentient Tools]&f"
+				""
+				"&7[\"Where mortal blood meets demonic power\"]&f"
 			]
 			icon: "bloodmagic:altar"
 			id: "1EBA1473A9CB3A98"
-			rewards: [{
-				id: "29EC669FA934DF27"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 28L
-				id: "1923E7041AE7D534"
-				item: { Count: 28, id: "bloodmagic:blankrune" }
-				type: "item"
-			}]
-			title: "&4Blood Altar (Tier 3)&r"
+			rewards: [
+				{
+					id: "29EC669FA934DF27"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 28L
+					id: "1923E7041AE7D534"
+					item: {
+						Count: 28
+						id: "bloodmagic:blankrune"
+					}
+					type: "item"
+				}
+			]
+			title: "&4&a血之祭坛&f(三级)&r&7[Blood Altar (Tier 3)]&f"
 			x: -1.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1EBA1473A9CB3A98"]
 			description: [
-				"The &6Imbued Slate&r is a higher-tier crafting component in Blood Magic."
+				"&e&a灌输石板&f&r是&d血魔法&f&r中的高级合成组件."
 				""
-				"To create an &6Imbued Slate&r, place a &9Reinforced Slate&r into a &6Tier 3 Blood Altar&r with sufficient &aLife Essence&r. This item is essential for crafting higher-tier runes and advanced magical items."
+				"制作&e&a灌输石板&f&r需将&9&a强化石板&f&r放入存有足量&a&a生命源质&f&r的&e三级&a血之祭坛&f&r.此物品是合成高级符文与魔法器具的核心材料."
+				""
+				""
+				"&7[The Imbued Slate is a higher-tier crafting component in Blood Magic.]&f"
+				""
+				"&7[To create an Imbued Slate, place a Reinforced Slate into a Tier 3 Blood Altar with sufficient Life Essence. This item is essential for crafting higher-tier runes and advanced magical items.]&f"
 			]
 			id: "0017E7E624D7A187"
-			rewards: [{
-				id: "1A791FF46C8A04DB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "616C59D465A0ADB3"
-				item: "bloodmagic:infusedslate"
-				type: "item"
-			}]
-			title: "&5Imbued Slate&r"
+			rewards: [
+				{
+					id: "1A791FF46C8A04DB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "616C59D465A0ADB3"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+			]
+			title: "&5&a灌输石板&f&r&7[Imbued Slate]&f"
 			x: -1.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0017E7E624D7A187"]
 			description: [
-				"A rune that boosts input/output speed of Life Essence (LP) when placed beneath a Blood Altar."
+				"置于&a血之祭坛&f&r下方时可提升&a生命源质&f&r(LP)输入输出速度的符文."
 				""
-				"Effects:"
-				"&a+15% Faster LP Transfer&r (per rune, stacks up to 16)"
+				"效果:"
+				"&a生命源质传输速度+15%&r(每枚可叠加,最多16枚)"
 				""
-				"Accelerates both filling (from sacrifices) and draining (for crafts)"
+				"同时加速献祭填充与合成&a消耗&f&r过程"
 				""
-				"Works with all altar tiers"
+				"适用于所有等级祭坛"
 				""
-				"No effect on total LP capacity"
+				"不影响总容量"
 				""
-				"&c\"Blood flows swifter where the Displacement Rune lies\"&r"
+				"&c“鲜血在&a转位符文&f处奔流不息“&r"
+				""
+				""
+				"&7[A rune that boosts input/output speed of Life Essence (LP) when placed beneath a Blood Altar.]&f"
+				""
+				"&7[Effects:]&f"
+				"&7[+15% Faster LP Transfer (per rune, stacks up to 16)]&f"
+				""
+				"&7[Accelerates both filling (from sacrifices) and draining (for crafts)]&f"
+				""
+				"&7[Works with all altar tiers]&f"
+				""
+				"&7[No effect on total LP capacity]&f"
+				""
+				"&7[\"Blood flows swifter where the Displacement Rune lies\"]&f"
 			]
 			id: "186696602137991F"
-			rewards: [{
-				id: "75D4E9EAD25DD63A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "75D4E9EAD25DD63A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "4788444F7797041D"
-				item: "bloodmagic:dislocationrune"
-				type: "item"
-			}]
-			title: "&5Displacement Rune&r"
+			tasks: [
+				{
+					id: "4788444F7797041D"
+					item: "bloodmagic:dislocationrune"
+					type: "item"
+				}
+			]
+			title: "&5&a转位符文&f&r&7[Displacement Rune]&f"
 			x: -4.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0017E7E624D7A187"]
 			description: [
-				"A &ebloodstone engraving&r that &6expands&r a Blood Altar's &dLP storage potential&r when placed beneath it."
+				"一种&e血石雕刻&r,置于&a血之祭坛&f下方时可&e扩展&f祭坛的&dLP存储潜力&r."
 				""
-				"Mechanics:"
+				"机制说明:"
 				""
-				"&9+10% base capacity&r per rune"
+				"&9每枚符文提供+10%基础容量&r"
 				""
-				"&5Stacks multiplicatively&r (16 runes = ~450% total)"
+				"&5效果以乘法叠加&r(16枚符文≈450%总容量)"
 				""
-				"&dRequired component&r for altar tier progression"
+				"祭坛等级提升的&d必需组件&r"
 				""
-				"&4\"The vessel grows as the rituals demand\"&r"
+				"&4“容器随仪式需求而成长“&r"
+				""
+				""
+				"&7[A bloodstone engraving that expands a Blood Altar's LP storage potential when placed beneath it.]&f"
+				""
+				"&7[Mechanics:]&f"
+				""
+				"&7[+10% base capacity per rune]&f"
+				""
+				"&7[Stacks multiplicatively (16 runes = ~450% total)]&f"
+				""
+				"&7[Required component for altar tier progression]&f"
+				""
+				"&7[\"The vessel grows as the rituals demand\"]&f"
 			]
 			id: "068CA5CEB6FADBA7"
-			rewards: [{
-				id: "40BC8E65A29BEA97"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "40BC8E65A29BEA97"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "761EDF00837FC070"
-				item: "bloodmagic:altarcapacityrune"
-				type: "item"
-			}]
-			title: "&5Rune of Capacity&r"
+			tasks: [
+				{
+					id: "761EDF00837FC070"
+					item: "bloodmagic:altarcapacityrune"
+					type: "item"
+				}
+			]
+			title: "&5&a增容符文&f&r&7[Rune of Capacity]&f"
 			x: -4.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["0017E7E624D7A187"]
 			description: [
-				"The &eultimate&r tier of blood orb, capable of storing &6massive amounts&r of &cLife Essence&r (LP) and interfacing with &dadvanced arcane systems&r."
+				"&e最高阶&r的血之宝珠,可存储&e海量&r的&c&a生命源质&f&r(LP)并能与&d高等奥术系统&r交互."
 				""
-				"Key Stats:"
+				"关键属性:"
 				""
-				"&9Capacity: 1,000,000 LP&r"
+				"&9容量:1,000,000 LP&r"
 				""
-				"Unlocks &5master-tier crafts&r"
+				"解锁&5大师级造物&r"
 				""
-				"Enables &6dimensional blood magic&r"
+				"启用&e跨维度血魔法&r"
 				""
-				"Special Abilities:"
+				"特殊能力:"
 				""
-				"&dAuto-replenishes&r from nearby altars"
+				"&d自动从附近祭坛补充能量&r"
 				""
-				"&5Charges items&r in player inventory"
+				"&5为玩家库存中的物品充能&r"
 				""
-				"&9Binds to Will networks&r"
+				"&9与意志网络绑定&r"
 				""
-				"&c\"The pinnacle of blood mastery\"&r"
+				"&c“血魔法 mastery 的巅峰之作“&r"
+				""
+				""
+				"&7[The ultimate tier of blood orb, capable of storing massive amounts of Life Essence (LP) and interfacing with advanced arcane systems.]&f"
+				""
+				"&7[Key Stats:]&f"
+				""
+				"&7[Capacity: 1,000,000 LP]&f"
+				""
+				"&7[Unlocks master-tier crafts]&f"
+				""
+				"&7[Enables dimensional blood magic]&f"
+				""
+				"&7[Special Abilities:]&f"
+				""
+				"&7[Auto-replenishes from nearby altars]&f"
+				""
+				"&7[Charges items in player inventory]&f"
+				""
+				"&7[Binds to Will networks]&f"
+				""
+				"&7[\"The pinnacle of blood mastery\"]&f"
 			]
 			id: "61038641FE8BBD17"
-			rewards: [{
-				id: "32DB3CB0B795A18D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32DB3CB0B795A18D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "703A96323430BDBB"
-				item: "bloodmagic:magicianbloodorb"
-				type: "item"
-			}]
-			title: "&5Magician's Blood Orb&r"
+			tasks: [
+				{
+					id: "703A96323430BDBB"
+					item: "bloodmagic:magicianbloodorb"
+					type: "item"
+				}
+			]
+			title: "&5魔法师之&a血之宝珠&f&r&7[Magician's Blood Orb]&f"
 			x: -5.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["61038641FE8BBD17"]
 			description: [
-				"The &6Living Armor&r is a powerful set of armor in Blood Magic that can be customized and upgraded through use."
+				"&e活体护甲&r是&d血魔法&f中一套可通过使用定制升级的强大护甲."
 				""
-				"To create each piece of &6Living Armor&r, you need to use &6Arcane Ashes&r, &6Binding Reagent&r, and the corresponding &9iron armor piece&r. Place these items on a solid block in the specified order, and after a few seconds, they will transform into the &6Living Armor&r piece with 100 available upgrade points."
+				"制作每件&e活体护甲&r需要&e&a奥术粉灰&f&r、&e&a束缚试剂&f&r及对应的&9铁质护甲部件&r.将这些物品按特定顺序放置在实体方块上,数秒后便会转化为拥有100升级点的&e活体护甲部件&r."
 				""
-				"The &6Living Armor&r adapts and improves based on the wearer's actions, offering unique &dabilities&r and &cenhancements&r."
+				"&e活体护甲&r会根据穿戴者的行动自适应进化,提供独特的&d能力&r与&c强化效果&r."
 				""
-				"&6Creating Living Armor:&r"
-				"1. Place &6Arcane Ashes&r on the ground."
-				"2. Add &6Binding Reagent&r on top of the ashes."
-				"3. Finally, place an &9Iron Armor Piece&r."
+				"&e制作活体护甲:&r"
+				"1. 将&e&a奥术粉灰&f&r放置于地面"
+				"2. 在灰烬上方添加&e&a束缚试剂&f&r"
+				"3. 最后放置&9&a铁质护甲部件&f&r"
+				""
+				""
+				"&7[The Living Armor is a powerful set of armor in Blood Magic that can be customized and upgraded through use.]&f"
+				""
+				"&7[To create each piece of Living Armor, you need to use Arcane Ashes, Binding Reagent, and the corresponding iron armor piece. Place these items on a solid block in the specified order, and after a few seconds, they will transform into the Living Armor piece with 100 available upgrade points.]&f"
+				""
+				"&7[The Living Armor adapts and improves based on the wearer's actions, offering unique abilities and enhancements.]&f"
+				""
+				"&7[Creating Living Armor:]&f"
+				"&7[1. Place Arcane Ashes on the ground.]&f"
+				"&7[2. Add Binding Reagent on top of the ashes.]&f"
+				"&7[3. Finally, place an Iron Armor Piece.]&f"
 			]
 			id: "4B8C167136410668"
 			min_width: 275
-			rewards: [{
-				id: "346218E65D0FD6FD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "346218E65D0FD6FD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1193,20 +1779,31 @@
 		{
 			dependencies: ["0017E7E624D7A187"]
 			description: [
-				"Tier 3 Sigils offer advanced functionalities and greater power."
+				"三级印记提供进阶功能与更强力量."
 				""
-				"&6Sigil of Magnetism&r: A &eblood-powered&r focus that &6attracts items&r toward the user at the cost of &cLife Essence&r."
+				"&e&a磁引印记&f&r:以消耗&c&a生命源质&f&r为代价,形成&e血能驱动&r的聚焦器&e吸附物品&r至使用者身边."
 				""
-				"&6Sigil of Holding&r: A &6blood-infused&r storage focus that grants &9extra inventory space&r at the cost of &cLife Essence&r."
+				"&e&a集持印记&f&r:以消耗&c&a生命源质&f&r为代价,通过&e血能灌注&r的存储聚焦器提供&9额外库存空间&r."
 				""
-				"&6Sigil of the Blood Lamp&r: A &cblood-fueled&r light source that creates &6floating orbs&r of light."
+				"&e&a血光印记&f&r:依靠&c鲜血供能&r的光源,创造&e悬浮光球&r."
+				""
+				""
+				"&7[Tier 3 Sigils offer advanced functionalities and greater power.]&f"
+				""
+				"&7[Sigil of Magnetism: A blood-powered focus that attracts items toward the user at the cost of Life Essence.]&f"
+				""
+				"&7[Sigil of Holding: A blood-infused storage focus that grants extra inventory space at the cost of Life Essence.]&f"
+				""
+				"&7[Sigil of the Blood Lamp: A blood-fueled light source that creates floating orbs of light.]&f"
 			]
 			id: "16B74ED1BBB3560A"
-			rewards: [{
-				id: "1357E0D25531A715"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1357E0D25531A715"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1245,16 +1842,23 @@
 		{
 			dependencies: ["0017E7E624D7A187"]
 			description: [
-				"The &6Master Ritual&r in Blood Magic allows for the performance of powerful rituals using &9Ritual Stones&r."
+				"&d血魔法&f中的&e主仪式&r可通过&9&a仪式石&f&r施展强大仪式."
 				""
-				"To set up a &6Master Ritual&r, you need &98 Ritual Stones&r and &91 Master Ritual Stone&r. Arrange the 8 Ritual Stones in a specific pattern, and place the Master Ritual Stone in the center. This setup serves as the base for various rituals that can be performed using the &6Ritual Diviner&r and &9Weak Activation Crystal&r."
+				"布置&e主仪式&r需要&98枚&a仪式石&f&r和&91枚&a主仪式石&f&r.将8枚&a仪式石&f按特定图案排列,并将&a主仪式石&f置于中央.此结构构成使用&e&a仪式推测杖&f&r和&9&a虚弱激活水晶&f&r施展各类仪式的基础."
+				""
+				""
+				"&7[The Master Ritual in Blood Magic allows for the performance of powerful rituals using Ritual Stones.]&f"
+				""
+				"&7[To set up a Master Ritual, you need 8 Ritual Stones and 1 Master Ritual Stone. Arrange the 8 Ritual Stones in a specific pattern, and place the Master Ritual Stone in the center. This setup serves as the base for various rituals that can be performed using the Ritual Diviner and Weak Activation Crystal.]&f"
 			]
 			id: "51CEAB5690F70D37"
-			rewards: [{
-				id: "0D6CF9F77ABCE68A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0D6CF9F77ABCE68A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7CDEC578072C3D55"
@@ -1264,29 +1868,41 @@
 				{
 					count: 8L
 					id: "24893D685EBD5562"
-					item: { Count: 8, id: "bloodmagic:ritualstone" }
+					item: {
+						Count: 8
+						id: "bloodmagic:ritualstone"
+					}
 					type: "item"
 				}
 			]
-			title: "&5Master Ritual Stone&r"
+			title: "&5&a主仪式石&f&r&7[Master Ritual Stone]&f"
 			x: 0.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["51CEAB5690F70D37"]
 			description: [
-				"The &6Ritual Diviner&r is a tool used to help set up complex ritual structures quickly and accurately."
+				"&e&a仪式推测杖&f&r是用于快速精准搭建复杂仪式结构的工具."
 				""
-				"To use the &6Ritual Diviner&r, hold it in your hand and right-click on a &9Master Ritual Stone&r. The diviner will automatically place the &9Ritual Stones&r in the correct pattern for the selected ritual."
+				"手持&e&a仪式推测杖&f&r对&9&a主仪式石&f&r右键点击,推测杖会自动按选定仪式要求摆放&9&a仪式石&f&r."
 				""
-				"The &6Weak Activation Crystal&r is required to activate the rituals. To create it, place a &9Lava Crystal&r in a &6Tier 2 Blood Altar&r filled with &aLife Essence&r. Right-click the Master Ritual Stone with the activated crystal to start the ritual."
+				"激活仪式需使用&e&a虚弱激活水晶&f&r.将其置于注满&a&a生命源质&f&r的&e二级&a血之祭坛&f&r中的&9&a熔岩水晶&f&r转化而成.对&a主仪式石&f右键使用激活后的水晶即可启动仪式."
+				""
+				""
+				"&7[The Ritual Diviner is a tool used to help set up complex ritual structures quickly and accurately.]&f"
+				""
+				"&7[To use the Ritual Diviner, hold it in your hand and right-click on a Master Ritual Stone. The diviner will automatically place the Ritual Stones in the correct pattern for the selected ritual.]&f"
+				""
+				"&7[The Weak Activation Crystal is required to activate the rituals. To create it, place a Lava Crystal in a Tier 2 Blood Altar filled with Life Essence. Right-click the Master Ritual Stone with the activated crystal to start the ritual.]&f"
 			]
 			id: "4E30AA1DA9FFB571"
-			rewards: [{
-				id: "27D8A5760F8FA4B1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "27D8A5760F8FA4B1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6058D8FBB907F17D"
@@ -1305,64 +1921,91 @@
 		{
 			dependencies: ["4E30AA1DA9FFB571"]
 			description: [
-				"The &6Iron Key&r is used to unlock doors within Blood Magic dungeons."
+				"&e&a铁制钥匙&f&r用于&a解锁&f&d血魔法&f地牢内的门扉."
 				""
-				"To use the &6Iron Key&r, right-click on locked doors found within dungeons. These dungeons contain various challenges and valuable rewards, including rare Blood Magic items and components."
+				"对地牢内上锁的门右键使用&e&a铁制钥匙&f&r.这些地牢蕴含多种挑战与珍贵奖励,包括稀有&d血魔法&f物品与组件."
+				""
+				""
+				"&7[The Iron Key is used to unlock doors within Blood Magic dungeons.]&f"
+				""
+				"&7[To use the Iron Key, right-click on locked doors found within dungeons. These dungeons contain various challenges and valuable rewards, including rare Blood Magic items and components.]&f"
 			]
 			id: "208066618DFE54A3"
-			rewards: [{
-				id: "616561F83E39E15C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			subtitle: "&oThe key to my heart!"
-			tasks: [{
-				id: "50F88EDFBC45B85B"
-				item: "bloodmagic:simplekey"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "616561F83E39E15C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			subtitle: "&o通往我内心的钥匙!&7[The key to my heart!]&f"
+			tasks: [
+				{
+					id: "50F88EDFBC45B85B"
+					item: "bloodmagic:simplekey"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0017E7E624D7A187"]
 			description: [
-				"The &6Alchemical Reaction Chamber&r is a machine used to perform alchemical reactions and craft advanced Blood Magic items."
+				"&e&a炼金反应炉&f&r 是用于进行炼金反应和制作高级&d血魔法&f物品的机器."
 				""
-				"To use the &6Alchemical Reaction Chamber&r, place it in your world and supply it with &aLife Essence&r. Combine various ingredients in the chamber's GUI to perform reactions and create powerful items."
+				"使用&e&a炼金反应炉&f&r时,将其放置在世界中并供应&a&a生命源质&f&r.在反应炉的图形界面中组合各种材料以进行反应并制造强力物品."
+				""
+				""
+				"&7[The Alchemical Reaction Chamber is a machine used to perform alchemical reactions and craft advanced Blood Magic items.]&f"
+				""
+				"&7[To use the Alchemical Reaction Chamber, place it in your world and supply it with Life Essence. Combine various ingredients in the chamber's GUI to perform reactions and create powerful items.]&f"
 			]
 			id: "75AD3E66F0A022BB"
-			rewards: [{
-				id: "0D6E8EFFA32F1660"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "697782D86D189B1B"
-				item: "bloodmagic:alchemicalreactionchamber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0D6E8EFFA32F1660"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "697782D86D189B1B"
+					item: "bloodmagic:alchemicalreactionchamber"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["4E30AA1DA9FFB571"]
 			description: [
-				"&6Tau Fruit&r is a special fruit used in Blood Magic rituals and crafting."
+				"&e&a血命果&f&r 是用于&d血魔法&f仪式和合成的特殊果实."
 				""
-				"To obtain &6Tau Fruit&r, you need to grow &9Tau Seeds&r, which can be found in Blood Magic dungeons or crafted using &9Life Essence&r. Plant the seeds on farmland and wait for the fruit to grow. Harvest the fruit once it has matured."
+				"获取&e&a血命果&f&r需要种植&9Tau种子&r,这些种子可在&d血魔法&f地牢中找到或使用&9&a生命源质&f&r合成.将种子种在耕地上等待果实成熟,成长完毕后即可收获."
+				""
+				""
+				"&7[Tau Fruit is a special fruit used in Blood Magic rituals and crafting.]&f"
+				""
+				"&7[To obtain Tau Fruit, you need to grow Tau Seeds, which can be found in Blood Magic dungeons or crafted using Life Essence. Plant the seeds on farmland and wait for the fruit to grow. Harvest the fruit once it has matured.]&f"
 			]
 			id: "4892927E047E4F4B"
-			rewards: [{
-				id: "2DD03A1DBCD69367"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D924263116ADDE1"
-				item: "bloodmagic:weak_tau"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2DD03A1DBCD69367"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D924263116ADDE1"
+					item: "bloodmagic:weak_tau"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 11.5d
 		}
@@ -1372,20 +2015,31 @@
 				"2A3D741FE4BA1BC1"
 			]
 			description: [
-				"The &6Weak Blood Shard&r is a key component for crafting advanced Blood Magic items."
+				"&e&a虚弱气血碎片&f&r 是制作高级&d血魔法&f物品的关键材料."
 				""
-				"The &6Sanguine Reverter&r is a tool used to revert certain Blood Magic blocks back to their original state."
+				"&e&a血染恢复宝具&f&r 可将特定&d血魔法&f方块恢复至原始状态的工具."
 				""
-				"The &6Large Bloodstone Brick&r is used in higher-tier altar structures."
+				"&e&a大血石砖&f&r 用于高阶祭坛结构."
 				""
-				"To create &6Large Bloodstone Bricks&r, combine &9Weak Blood Shards&r with &9Stone&r in a crafting table."
+				"制作&e&a大血石砖&f&r时,在工作台中用&9&a虚弱气血碎片&f&r与&9石头&r合成."
+				""
+				""
+				"&7[The Weak Blood Shard is a key component for crafting advanced Blood Magic items.]&f"
+				""
+				"&7[The Sanguine Reverter is a tool used to revert certain Blood Magic blocks back to their original state.]&f"
+				""
+				"&7[The Large Bloodstone Brick is used in higher-tier altar structures.]&f"
+				""
+				"&7[To create Large Bloodstone Bricks, combine Weak Blood Shards with Stone in a crafting table.]&f"
 			]
 			id: "25E66D104A076690"
-			rewards: [{
-				id: "13A96C5C9EE5C730"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13A96C5C9EE5C730"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "53FCAC0DE2202BEC"
@@ -1415,20 +2069,27 @@
 		{
 			dependencies: ["4892927E047E4F4B"]
 			description: [
-				"&6Saturated Tau&r is an enhanced form of Tau Fruit used in more advanced rituals and crafting."
+				"&e&a饱满血命果&f&r 是&a血命果&f的强化形态,用于更高级的仪式和合成."
+				""
+				""
+				"&7[Saturated Tau is an enhanced form of Tau Fruit used in more advanced rituals and crafting.]&f"
 				""
 			]
 			id: "2A3D741FE4BA1BC1"
-			rewards: [{
-				id: "2A19ED66AAA0FDCC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0864BAEED58FB999"
-				item: "bloodmagic:strong_tau"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A19ED66AAA0FDCC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0864BAEED58FB999"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 13.5d
 		}
@@ -1438,25 +2099,37 @@
 				"25E66D104A076690"
 			]
 			description: [
-				"The &6Tier 4 Altar Upgrade&r significantly enhances your &6Blood Altar&r, increasing its capacity and unlocking powerful rituals and items."
+				"&e四级祭坛升级&r 显著增强&e&a血之祭坛&f&r,提升其容量并解锁强力仪式和物品."
 				""
-				"To upgrade to a &6Tier 4 Altar&r, add another layer of &6Blood Runes&r around your altar and place &6Large Bloodstone Bricks&r with &9Glowstone&r or &9Sea Lanterns&r on top at the corners. This upgrade allows access to Tier 4 items and rituals."
+				"升级至&e四级祭坛&r需在祭坛周围追加一层&e血之符文&r,并在四角顶部放置&e&a大血石砖&f&r与&9萤石&r或&9&a海晶灯&f&r.此升级可解锁四级物品和仪式."
+				""
+				""
+				"&7[The Tier 4 Altar Upgrade significantly enhances your Blood Altar, increasing its capacity and unlocking powerful rituals and items.]&f"
+				""
+				"&7[To upgrade to a Tier 4 Altar, add another layer of Blood Runes around your altar and place Large Bloodstone Bricks with Glowstone or Sea Lanterns on top at the corners. This upgrade allows access to Tier 4 items and rituals.]&f"
 			]
 			icon: "bloodmagic:altar"
 			id: "44055C4F5CE1A5D7"
-			rewards: [{
-				id: "5FB43671DF34F317"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5FB43671DF34F317"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
-			tasks: [{
-				count: 48L
-				id: "2F3C05DD71A8BB60"
-				item: { Count: 48, id: "bloodmagic:blankrune" }
-				type: "item"
-			}]
-			title: "Tier 4 Altar Upgrade"
+			tasks: [
+				{
+					count: 48L
+					id: "2F3C05DD71A8BB60"
+					item: {
+						Count: 48
+						id: "bloodmagic:blankrune"
+					}
+					type: "item"
+				}
+			]
+			title: "四级祭坛升级&7[Tier 4 Altar Upgrade]&f"
 			x: -1.5d
 			y: 15.5d
 		}
@@ -1466,81 +2139,118 @@
 				"75A49040AD06B49E"
 			]
 			description: [
-				"The &6Tier 5 Altar Upgrade&r is the pinnacle of Blood Altar enhancements, greatly increasing its capacity and unlocking the most powerful rituals and items."
+				"&e五级祭坛升级&r 是&a血之祭坛&f强化的顶峰,极大提升容量并解锁最强仪式和物品."
 				""
-				"To upgrade to a &6Tier 5 Altar&r, add another layer of &6Blood Runes&r around your altar and place &6Beacons&r at the corners with &9Glowstone&r or &9Sea Lanterns&r on top. This upgrade allows access to Tier 5 items, including the &6Ethereal Slate&r and &6Master Blood Orb&r."
+				"升级至&e五级祭坛&r需在祭坛周围追加一层&e血之符文&r,并在四角用&9萤石&r或&9&a海晶灯&f&r顶部放置&e信标&r.此升级可解锁五级物品,包括&e&a悬幽石板&f&r和&e&a导师气血宝珠&f&r."
+				""
+				""
+				"&7[The Tier 5 Altar Upgrade is the pinnacle of Blood Altar enhancements, greatly increasing its capacity and unlocking the most powerful rituals and items.]&f"
+				""
+				"&7[To upgrade to a Tier 5 Altar, add another layer of Blood Runes around your altar and place Beacons at the corners with Glowstone or Sea Lanterns on top. This upgrade allows access to Tier 5 items, including the Ethereal Slate and Master Blood Orb.]&f"
 			]
 			icon: "bloodmagic:altar"
 			id: "56CA047C3AE92A7E"
-			rewards: [{
-				id: "121F2E3BFCAB3A2D"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "121F2E3BFCAB3A2D"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
-			tasks: [{
-				count: 64L
-				id: "08094A0E8091570E"
-				item: { Count: 64, id: "bloodmagic:blankrune" }
-				type: "item"
-			}]
-			title: "Tier 5 Altar Upgrade"
+			tasks: [
+				{
+					count: 64L
+					id: "08094A0E8091570E"
+					item: {
+						Count: 64
+						id: "bloodmagic:blankrune"
+					}
+					type: "item"
+				}
+			]
+			title: "五级祭坛升级&7[Tier 5 Altar Upgrade]&f"
 			x: -4.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["56CA047C3AE92A7E"]
 			description: [
-				"The &6Ethereal Slate&r is one of the highest-tier crafting components in Blood Magic."
+				"&e&a悬幽石板&f&r 是&d血魔法&f中最高阶的合成材料之一."
 				""
-				"To create an &6Ethereal Slate&r, place a &9Demonic Slate&r into a &6Tier 5 Blood Altar&r with sufficient &aLife Essence&r. This item is essential for crafting the most powerful runes and magical items."
+				"制作&e&a悬幽石板&f&r需将&9&a恶魔石板&f&r放入拥有充足&a&a生命源质&f&r的&e五级&a血之祭坛&f&r中.此物品是制作最强符文和魔法装备的核心材料."
+				""
+				""
+				"&7[The Ethereal Slate is one of the highest-tier crafting components in Blood Magic.]&f"
+				""
+				"&7[To create an Ethereal Slate, place a Demonic Slate into a Tier 5 Blood Altar with sufficient Life Essence. This item is essential for crafting the most powerful runes and magical items.]&f"
 			]
 			id: "758D9BC1EC4E6DF7"
-			rewards: [{
-				id: "0E934238ACB5C660"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0E934238ACB5C660"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
-			tasks: [{
-				id: "604625FBB57C51A8"
-				item: "bloodmagic:etherealslate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "604625FBB57C51A8"
+					item: "bloodmagic:etherealslate"
+					type: "item"
+				}
+			]
 			x: -6.375d
 			y: 15.375d
 		}
 		{
 			dependencies: ["44055C4F5CE1A5D7"]
 			description: [
-				"The &6Demonic Slate&r is a high-tier crafting component in Blood Magic."
+				"&e&a恶魔石板&f&r 是&d血魔法&f中的高阶合成材料."
 				""
-				"To create a &6Demonic Slate&r, place an &9Imbued Slate&r into a &6Tier 4 Blood Altar&r with sufficient &aLife Essence&r. This item is essential for crafting the highest-tier runes and advanced magical items."
+				"制作&e&a恶魔石板&f&r需将&9&a灌输石板&f&r放入拥有充足&a&a生命源质&f&r的&e四级&a血之祭坛&f&r中.此物品是制作最高阶符文和高级魔法装备的必要材料."
+				""
+				""
+				"&7[The Demonic Slate is a high-tier crafting component in Blood Magic.]&f"
+				""
+				"&7[To create a Demonic Slate, place an Imbued Slate into a Tier 4 Blood Altar with sufficient Life Essence. This item is essential for crafting the highest-tier runes and advanced magical items.]&f"
 			]
 			id: "68E7BB2D7225DAC0"
-			rewards: [{
-				id: "19F4184831BFFE25"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6FE626C2E4C7BB46"
-				item: "bloodmagic:demonslate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19F4184831BFFE25"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FE626C2E4C7BB46"
+					item: "bloodmagic:demonslate"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 18.0d
 		}
 		{
 			dependencies: ["68E7BB2D7225DAC0"]
-			description: ["The &6Ritual Diviner (Dusk)&r is an upgraded version of the Ritual Diviner, allowing you to create more complex rituals that require Dusk runes."]
+			description: [
+				"&e&a仪式推测杖&f(暮色)&r 是&a仪式推测杖&f的升级版,可创建需要暮色符文的更复杂仪式."
+				""
+				""
+				"&7[The Ritual Diviner (Dusk) is an upgraded version of the Ritual Diviner, allowing you to create more complex rituals that require Dusk runes.]&f"
+			]
 			id: "5646BE0B079F8B88"
-			rewards: [{
-				id: "5981077EC6EC2B92"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5981077EC6EC2B92"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "17A97A90B62B210C"
@@ -1565,47 +2275,71 @@
 		{
 			dependencies: ["5646BE0B079F8B88"]
 			description: [
-				"The Edge of the Hidden Realm, also known as &6Demonic Realm&r, is a dimension in Blood Magic filled with powerful mobs and valuable resources."
+				"&a隐域之缘仪式&f(又称&e恶魔领域&r)是&d血魔法&f中的维度,充满强大生物和珍贵资源."
 				""
-				"To access the &6Demonic Realm&r, you must perform the &dPathway to the Endless Realm&r Ritual using a &9Master Ritual Stone&r and specific ritual components. Once activated, the ritual will open a portal to the Demon Realm, where you can gather unique resources and face challenging foes."
+				"进入&e恶魔领域&r需通过&9&a主仪式石&f&r和特定仪式组件执行&d通往无垠领域的路径&f&a魔法仪式&f.仪式激活后将开启通往恶魔领域的传送门,可在此获取独特资源并挑战强大敌人."
+				""
+				""
+				"&7[The Edge of the Hidden Realm, also known as Demonic Realm, is a dimension in Blood Magic filled with powerful mobs and valuable resources.]&f"
+				""
+				"&7[To access the Demonic Realm, you must perform the Pathway to the Endless Realm Ritual using a Master Ritual Stone and specific ritual components. Once activated, the ritual will open a portal to the Demon Realm, where you can gather unique resources and face challenging foes.]&f"
 			]
 			id: "75A49040AD06B49E"
-			rewards: [{
-				id: "481EBB45D9AF7C1B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			subtitle: "oooOooOoOoo scary"
-			tasks: [{
-				id: "07F92B45D00B3AD4"
-				item: "bloodmagic:rawdemonite"
-				type: "item"
-			}]
-			title: "&4Edge of the Hidden Realm"
+			rewards: [
+				{
+					id: "481EBB45D9AF7C1B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			subtitle: "oooOooOoOoo 骇人&7[oooOooOoOoo scary]&f"
+			tasks: [
+				{
+					id: "07F92B45D00B3AD4"
+					item: "bloodmagic:rawdemonite"
+					type: "item"
+				}
+			]
+			title: "&4&a隐域之缘仪式&f&7[Edge of the Hidden Realm]&f"
 			x: -4.0d
 			y: 18.0d
 		}
 		{
 			dependencies: ["75A49040AD06B49E"]
 			description: [
-				"&6Reinforced Runes&r are upgraded versions of the basic runes used to enhance the functionality and efficiency of your &6Blood Altar&r. They provide significant benefits for various altar operations, making them essential for advanced Blood Magic progression."
+				"&e强化符文&r是基础符文的升级版本,用于提升&e&a血之祭坛&f&r的功能与效率.它们能为各类祭坛操作提供显著增益,是&d血魔法&f进阶发展的核心要素."
 				"{@pagebreak}"
-				"The &6Reinforced Rune of Sacrifice&r further increases the amount of &aLife Essence&r gained from sacrificing mobs at your &6Blood Altar&r."
+				"&e强化献祭符文&f&r可进一步增加通过&e&a血之祭坛&f&r献祭生物获得的&a&a生命源质&f&r数量."
 				"{@pagebreak}"
-				"The &6Reinforced Rune of Self-Sacrifice&r significantly increases the amount of &aLife Essence&r gained from using the &6Sacrificial Knife&r."
+				"&e强化自我牺牲符文&r大幅提升使用&e&a牺牲匕首&f&r获取&a&a生命源质&f&r的效率."
 				"{@pagebreak}"
-				"The &6Reinforced Rune of Capacity&r greatly enhances the maximum amount of &aLife Essence&r your &6Blood Altar&r can hold."
+				"&e强化增容符文&f&r极大扩展&e&a血之祭坛&f&r可储存的&a&a生命源质&f&r上限."
 				"{@pagebreak}"
-				"The &6Reinforced Acceleration Rune&r dramatically speeds up the processing time for all operations performed by your &6Blood Altar&r."
+				"&e强化促速符文&f&r显著加快&e&a血之祭坛&f&r所有操作的处理速度."
 				"{@pagebreak}"
-				"The &6Reinforced Charging Rune&r increases the rate at which &aLife Essence&r is transferred into or out of your &6Blood Altar&r."
+				"&e强化充能符文&r提升&a&a生命源质&f&r流入或流出&e&a血之祭坛&f&r的传输速率."
+				""
+				""
+				"&7[Reinforced Runes are upgraded versions of the basic runes used to enhance the functionality and efficiency of your Blood Altar. They provide significant benefits for various altar operations, making them essential for advanced Blood Magic progression.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[The Reinforced Rune of Sacrifice further increases the amount of Life Essence gained from sacrificing mobs at your Blood Altar.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[The Reinforced Rune of Self-Sacrifice significantly increases the amount of Life Essence gained from using the Sacrificial Knife.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[The Reinforced Rune of Capacity greatly enhances the maximum amount of Life Essence your Blood Altar can hold.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[The Reinforced Acceleration Rune dramatically speeds up the processing time for all operations performed by your Blood Altar.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[The Reinforced Charging Rune increases the rate at which Life Essence is transferred into or out of your Blood Altar.]&f"
 			]
 			id: "20A19C760C502102"
-			rewards: [{
-				id: "2EBDE7D0D5A4CCB0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EBDE7D0D5A4CCB0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [
@@ -1635,159 +2369,236 @@
 					type: "item"
 				}
 			]
-			title: "The Reinforced Runes"
+			title: "&a强化&f 符文&7[The Reinforced Runes]&f"
 			x: -5.071428571428548d
 			y: 18.01785714285714d
 		}
 		{
 			dependencies: ["68E7BB2D7225DAC0"]
-			description: ["The &6Teleposition Sigil&r allows you to teleport to a pre-set location at the cost of &aLife Essence&r."]
+			description: [
+				"&e传送印记&r可使你消耗&a&a生命源质&f&r传送到预设位置."
+				""
+				""
+				"&7[The Teleposition Sigil allows you to teleport to a pre-set location at the cost of Life Essence.]&f"
+			]
 			id: "65DB99BFAB06AACE"
-			rewards: [{
-				id: "26CB0ECA20E6F7AF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "26CB0ECA20E6F7AF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "4513682097AF65B6"
-				item: "bloodmagic:telepositionsigil"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4513682097AF65B6"
+					item: "bloodmagic:telepositionsigil"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["68E7BB2D7225DAC0"]
-			description: ["The &6Acceleration Rune&r speeds up the processing time for all operations performed by your &6Blood Altar&r."]
+			description: [
+				"&e&a促速符文&f&r可加快&e&a血之祭坛&f&r所有操作的处理速度."
+				""
+				""
+				"&7[The Acceleration Rune speeds up the processing time for all operations performed by your Blood Altar.]&f"
+			]
 			id: "5529F8F3523DD4EA"
-			rewards: [{
-				id: "7B34D2E774C9FCA4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7B34D2E774C9FCA4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "28444BE7B5E6FE7D"
-				item: "bloodmagic:accelerationrune"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "28444BE7B5E6FE7D"
+					item: "bloodmagic:accelerationrune"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 18.0d
 		}
 		{
 			dependencies: ["68E7BB2D7225DAC0"]
-			description: ["The &6Rune of Augmented Capacity&r significantly increases the maximum amount of &aLife Essence&r your &6Blood Altar&r can hold."]
+			description: [
+				"&e&a超容符文&f&r显著提升&e&a血之祭坛&f&r可储存的&a&a生命源质&f&r上限."
+				""
+				""
+				"&7[The Rune of Augmented Capacity significantly increases the maximum amount of Life Essence your Blood Altar can hold.]&f"
+			]
 			id: "6F5C0E3996E5B522"
-			rewards: [{
-				id: "6498E403287F71E6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6498E403287F71E6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "4719F5A1C475B70A"
-				item: "bloodmagic:bettercapacityrune"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4719F5A1C475B70A"
+					item: "bloodmagic:bettercapacityrune"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["68E7BB2D7225DAC0"]
-			description: ["The &6Charging Rune&r increases the rate at which &aLife Essence&r is transferred into or out of your &6Blood Altar&r."]
+			description: [
+				"&e充能符文&r提高&a&a生命源质&f&r流入或流出&e&a血之祭坛&f&r的传输速率."
+				""
+				""
+				"&7[The Charging Rune increases the rate at which Life Essence is transferred into or out of your Blood Altar.]&f"
+			]
 			id: "6DBB240E393F9A42"
-			rewards: [{
-				id: "6C424DB42559E043"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C424DB42559E043"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "13C318F7F3D177E1"
-				item: "bloodmagic:chargingrune"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13C318F7F3D177E1"
+					item: "bloodmagic:chargingrune"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 18.0d
 		}
 		{
 			dependencies: ["44055C4F5CE1A5D7"]
 			description: [
-				"The &6Master Blood Orb&r is the fourth tier of Blood Orbs, used to store even more &aLife Essence&r for the most advanced crafting and rituals."
+				"&e&a导师气血宝珠&f&r是&a血之宝珠&f的第四阶形态,可为最顶级的合成与仪式储存更大量的&a&a生命源质&f&r."
 				""
-				"To create a &6Master Blood Orb&r, place a &9Weak Blood Shard&r in a &6Tier 4 Blood Altar&r with sufficient Life Essence. Right-click the orb to bind it to yourself, allowing you to store and use a massive amount of Life Essence."
+				"制作&e&a导师气血宝珠&f&r需将&9&a虚弱气血碎片&f&r放入含有足量&a生命源质&f的&e四阶血之祭坛&f&r中.右键点击宝珠可将其与自身绑定,从而存储并使用巨量&a生命源质&f."
+				""
+				""
+				"&7[The Master Blood Orb is the fourth tier of Blood Orbs, used to store even more Life Essence for the most advanced crafting and rituals.]&f"
+				""
+				"&7[To create a Master Blood Orb, place a Weak Blood Shard in a Tier 4 Blood Altar with sufficient Life Essence. Right-click the orb to bind it to yourself, allowing you to store and use a massive amount of Life Essence.]&f"
 			]
 			id: "16BB7891E4666D6F"
-			rewards: [{
-				id: "1BB15219BB171AF0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "08A77C3725BF17B9"
-				item: "bloodmagic:masterbloodorb"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BB15219BB171AF0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "08A77C3725BF17B9"
+					item: "bloodmagic:masterbloodorb"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["73FAA926443C20D2"]
 			description: [
-				"The basic tool for &cfilling your Blood Altar&r by converting your &6own health&r into &aLife Essence&r."
+				"通过将&e自身生命值&r转化为&a&a生命源质&f&r来&c填充血之祭坛&f&r的基础工具."
 				""
-				"Be carefull you can kill yourself by spamming left click"
+				"注意:连续左键点击可能导致角色死亡"
 				""
-				"Key Traits:"
+				"核心特性:"
 				""
-				"&dRight-click&r while sneaking to drain &c1 heart&r → &550LP&r"
+				"&d潜行时右键点击&r可消耗&c&a一颗心&f&r → &50点生命源质&r"
 				""
-				"Must be used on/near a &6Blood Altar&r"
+				"必须在&e&a血之祭坛&f&r上或附近使用"
 				""
-				"&9Upgrades&r available (e.g., &eDagger of Sacrifice&r for mob sacrifices)"
+				"可进行&9升级&r(例如使用&e&a献祭刀&f&r献祭生物)"
 				""
-				"(The &4\"starter syringe\"&r for all blood mages!)"
+				"(所有血魔法师&4“的入门必备工具“&r)"
 				""
-				"&c\"Your first cut is the deepest\"&r"
+				"&c“第一次的割伤总是最深刻的“&r"
+				""
+				""
+				"&7[The basic tool for filling your Blood Altar by converting your own health into Life Essence.]&f"
+				""
+				"&7[Be carefull you can kill yourself by spamming left click]&f"
+				""
+				"&7[Key Traits:]&f"
+				""
+				"&7[Right-click while sneaking to drain 1 heart → 50LP]&f"
+				""
+				"&7[Must be used on/near a Blood Altar]&f"
+				""
+				"&7[Upgrades available (e.g., Dagger of Sacrifice for mob sacrifices)]&f"
+				""
+				"&7[(The \"starter syringe\" for all blood mages!)]&f"
+				""
+				"&7[\"Your first cut is the deepest\"]&f"
 			]
 			id: "2B756E4217B687FA"
-			rewards: [{
-				id: "05F1E5E65D5493EE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "72D13B44DF1D345B"
-				item: {
-					Count: 1
-					id: "bloodmagic:sacrificialdagger"
-					tag: { }
+			rewards: [
+				{
+					id: "05F1E5E65D5493EE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&9Sacrificial Knife&r"
+			]
+			tasks: [
+				{
+					id: "72D13B44DF1D345B"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&9&a牺牲匕首&f&r&7[Sacrificial Knife]&f"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["73FAA926443C20D2"]
 			description: [
-				"&1Inf Blood! &r"
+				"&1无限血源!&r"
 				""
-				"Shift right click a blood magic altar then shift right click a virtual sacrificer."
+				"对血魔法祭坛按住Shift键&a右键点击&f,再对虚拟献祭器按住Shift键&a右键点击&f."
 				""
-				"Put a Data Model (at least basic) inside and its generating Blood for you."
+				"放入&a数据模型&f(至少需基础型号)即可自动生成血液."
 				""
-				"&4DONT put Data Models from Extra Hostile Neural Networks inside!&r"
+				"&4禁止放入来自额外&d深度怪物学习&f模组的&a数据模型&f!&r"
+				""
+				""
+				"&7[Inf Blood! ]&f"
+				""
+				"&7[Shift right click a blood magic altar then shift right click a virtual sacrificer.]&f"
+				""
+				"&7[Put a Data Model (at least basic) inside and its generating Blood for you.]&f"
+				""
+				"&7[DONT put Data Models from Extra Hostile Neural Networks inside!]&f"
 			]
 			icon: "sanguine_networks:virtual_sacrificer"
 			id: "6F406DD695352A5E"
-			rewards: [{
-				id: "1484F66F167BCC9B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1484F66F167BCC9B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2EB79108038EF56A"
@@ -1804,5 +2615,5 @@
 			y: -0.5d
 		}
 	]
-	title: "Blood Magic"
+	title: "&d血魔法&f&7[Blood Magic]&f"
 }

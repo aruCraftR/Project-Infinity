@@ -59,7 +59,7 @@ ServerEvents.commandRegistry(event => {
                     .executes((ctx) => {
                         /** @type {Internal.Holder$Reference<Internal.Block>} */
                         let block = Arguments.registry(event, "block").getResult(ctx, "block_to_blacklist")
-                        ctx.source.player.tell(Text.of("Blacklisted block: ").append(Text.blue(block.get().name)))
+                        ctx.source.player.tell(Text.of("黑名单方块:").append(Text.blue(block.get().name)))
                         blacklistedBlocks.push(block.get().id);
 
                         return 1;
@@ -71,7 +71,7 @@ ServerEvents.commandRegistry(event => {
     event.register(
         Commands.literal('List_BlackListed_Block')
             .executes((ctx) => {
-                ctx.source.player.tell('BlackListed Block list : \n');
+                ctx.source.player.tell('黑名单方块列表:\n');
                 blacklistedBlocks.forEach(function (item) {
                     ctx.source.player.tell(Text.of(item + "\n").color(0xFFFFFF));
                     return 1;
@@ -162,7 +162,7 @@ BlockEvents.rightClicked(event => {
         if (pos1 && pos2 && startGenerating) {
             pos3 = pos1 - pos2;
             console.log("Generate the Layer and the Key");
-            player.tell(Text.of("Generate the Layer and the Key").color(0x00FF00));
+            player.tell(Text.of("生成层级与密钥").color(0x00FF00));
             generateLayer(event.getLevel(), pos1, pos2, pos3, player);
             startGenerating = false;
         }

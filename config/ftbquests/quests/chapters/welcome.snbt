@@ -57,7 +57,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["Shop"]
+			hover: ["商店"]
 			image: "kubejs:item/ascended_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -67,7 +67,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["Shop"]
+			hover: ["商店"]
 			image: "kubejs:item/apotheotic_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -77,7 +77,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["Shop"]
+			hover: ["商店"]
 			image: "kubejs:item/infused_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -107,7 +107,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome!"]
+			description: [
+				"欢迎!"
+				""
+				""
+				"&7[Welcome!]&f"
+			]
 			id: "23BDBBD3001F9774"
 			rewards: [
 				{
@@ -131,12 +136,14 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "6CB3ED756B23BE88"
-				title: "Ready?"
-				type: "checkmark"
-			}]
-			title: "Welcome"
+			tasks: [
+				{
+					id: "6CB3ED756B23BE88"
+					title: "准备好了吗？"
+					type: "checkmark"
+				}
+			]
+			title: "欢迎&7[Welcome]&f"
 			x: -3.0d
 			y: -11.0d
 		}
@@ -145,18 +152,22 @@
 			dependency_requirement: "one_completed"
 			icon: "minecraft:crafting_table"
 			id: "22C568A17B5D1B46"
-			rewards: [{
-				id: "3A7EB3B1ED2B9C14"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3A7EB3B1ED2B9C14"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "29CD23D3C0D3DA7E"
-				type: "checkmark"
-			}]
-			title: "Start"
+			tasks: [
+				{
+					id: "29CD23D3C0D3DA7E"
+					type: "checkmark"
+				}
+			]
+			title: "启程&7[Start]&f"
 			x: -3.0d
 			y: -8.0d
 		}
@@ -178,16 +189,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "Plant the sapling and get some logs. Spam shift to bonemeal"
-			tasks: [{
-				count: 3L
-				icon: "minecraft:oak_log"
-				id: "1BB08F6BC4167067"
-				item: "minecraft:oak_log"
-				title: "Any #minecraft:logs"
-				type: "item"
-			}]
-			title: "Where it all began"
+			subtitle: "种下树苗获取原木.连续按Shift键使用骨粉催熟&7[Plant the sapling and get some logs. Spam shift to bonemeal]&f"
+			tasks: [
+				{
+					count: 3L
+					icon: "minecraft:oak_log"
+					id: "1BB08F6BC4167067"
+					item: "minecraft:oak_log"
+					title: "任意#minecraft:原木"
+					type: "item"
+				}
+			]
+			title: "万物伊始&7[Where it all began]&f"
 			x: 0.5d
 			y: -8.5d
 		}
@@ -208,12 +221,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "39565EF66F300895"
-				item: "solarflux:sp_1"
-				type: "item"
-			}]
-			title: "First Energy"
+			tasks: [
+				{
+					id: "39565EF66F300895"
+					item: "solarflux:sp_1"
+					type: "item"
+				}
+			]
+			title: "初始能源&7[First Energy]&f"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -234,13 +249,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "2x2 pebble = 1 Cobblestone"
-			tasks: [{
-				id: "4AE51A3A3D9B6E3A"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			title: "Stone"
+			subtitle: "2x2鹅卵石=1圆石&7[2x2 pebble = 1 Cobblestone]&f"
+			tasks: [
+				{
+					id: "4AE51A3A3D9B6E3A"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "石头&7[Stone]&f"
 			x: 0.5d
 			y: -7.0d
 		}
@@ -265,18 +282,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "22FBCA5AA2D1B8B1"
-				item: {
-					Count: 1
-					id: "exdeorum:crook"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "22FBCA5AA2D1B8B1"
+					item: {
+						Count: 1
+						id: "exdeorum:crook"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Crook"
+			]
+			title: "钩杖&7[Crook]&f"
 			x: 3.0d
 			y: -8.5d
 		}
@@ -301,19 +320,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "Place the cobble and hammer it down"
-			tasks: [{
-				id: "596CB9CDB4192339"
-				item: {
-					Count: 1
-					id: "exdeorum:stone_hammer"
-					tag: {
-						Damage: 0
+			subtitle: "放置圆石并用锤子敲击&7[Place the cobble and hammer it down]&f"
+			tasks: [
+				{
+					id: "596CB9CDB4192339"
+					item: {
+						Count: 1
+						id: "exdeorum:stone_hammer"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Hammer time"
+			]
+			title: "锤击时刻&7[Hammer time]&f"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -333,12 +354,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "41B28C0567C513BC"
-				item: "minecraft:string"
-				type: "item"
-			}]
-			title: "String"
+			tasks: [
+				{
+					id: "41B28C0567C513BC"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "线&7[String]&f"
 			x: 4.5d
 			y: -8.5d
 		}
@@ -380,7 +403,7 @@
 					type: "item"
 				}
 			]
-			title: "Mesh"
+			title: "筛网&7[Mesh]&f"
 			x: 6.5d
 			y: -8.5d
 		}
@@ -401,20 +424,22 @@
 					type: "item"
 				}
 				{
-					command: "execute as @p run summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"Friend\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
+					command: "execute as @p run summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"朋友\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
 					icon: "draconicevolution:dragon_heart"
 					id: "035BC1E95467477D"
-					title: "Your first friend :)"
+					title: "你的第一个朋友:)"
 					type: "command"
 				}
 			]
-			tasks: [{
-				count: 3L
-				id: "7CF148153F47112C"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			title: "Time to get some gravel"
+			tasks: [
+				{
+					count: 3L
+					id: "7CF148153F47112C"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			title: "获取沙砾之时&7[Time to get some gravel]&f"
 			x: 3.0d
 			y: -6.0d
 		}
@@ -448,7 +473,7 @@
 					type: "item"
 				}
 			]
-			title: "Flint Mesh"
+			title: "&a燧石筛网&f&7[Flint Mesh]&f"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -469,12 +494,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6BB34060F0E0CF88"
-				item: "exdeorum:iron_mesh"
-				type: "item"
-			}]
-			title: "Iron Mesh"
+			tasks: [
+				{
+					id: "6BB34060F0E0CF88"
+					item: "exdeorum:iron_mesh"
+					type: "item"
+				}
+			]
+			title: "&a铁筛网&f&7[Iron Mesh]&f"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -494,12 +521,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2E0FB9514B1670B0"
-				item: "exdeorum:golden_mesh"
-				type: "item"
-			}]
-			title: "Gold Mesh"
+			tasks: [
+				{
+					id: "2E0FB9514B1670B0"
+					item: "exdeorum:golden_mesh"
+					type: "item"
+				}
+			]
+			title: "&a金筛网&f&7[Gold Mesh]&f"
 			x: 8.0d
 			y: -4.0d
 		}
@@ -520,22 +549,26 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "6786082559455714"
-				item: "exdeorum:netherite_mesh"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6786082559455714"
+					item: "exdeorum:netherite_mesh"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2CF0EE5C0651F531"]
 			id: "231765C07B4A12B7"
-			rewards: [{
-				id: "4FC6D1192E322DCB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4FC6D1192E322DCB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3B51E5B051595390"
@@ -548,7 +581,7 @@
 					type: "item"
 				}
 			]
-			title: "Furnace"
+			title: "熔炉&7[Furnace]&f"
 			x: 9.5d
 			y: -5.0d
 		}
@@ -570,12 +603,14 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				id: "255694580F7FD8B1"
-				item: "exdeorum:oak_barrel"
-				type: "item"
-			}]
-			title: "Barrel"
+			tasks: [
+				{
+					id: "255694580F7FD8B1"
+					item: "exdeorum:oak_barrel"
+					type: "item"
+				}
+			]
+			title: "木桶&7[Barrel]&f"
 			x: 3.0d
 			y: -10.0d
 		}
@@ -604,11 +639,14 @@
 				{
 					count: 4L
 					id: "3666FAF9BA72EA22"
-					item: { Count: 4, id: "minecraft:clay_ball" }
+					item: {
+						Count: 4
+						id: "minecraft:clay_ball"
+					}
 					type: "item"
 				}
 			]
-			title: "Clay"
+			title: "粘土&7[Clay]&f"
 			x: 5.5d
 			y: -10.0d
 		}
@@ -650,7 +688,7 @@
 					type: "item"
 				}
 			]
-			title: "Crucible"
+			title: "熔炼釜&7[Crucible]&f"
 			x: 7.5d
 			y: -13.0d
 		}
@@ -687,11 +725,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1C50BB96A8128D96"
-				type: "checkmark"
-			}]
-			title: "Headstart"
+			tasks: [
+				{
+					id: "1C50BB96A8128D96"
+					type: "checkmark"
+				}
+			]
+			title: "领先优势&7[Headstart]&f"
 			x: -4.5d
 			y: -9.0d
 		}
@@ -712,13 +752,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "Check heat sources"
-			tasks: [{
-				id: "7F1EEFBE68C82523"
-				title: "Crucible heat sources!"
-				type: "checkmark"
-			}]
-			title: "Heat"
+			subtitle: "查看热源类型&7[Check heat sources]&f"
+			tasks: [
+				{
+					id: "7F1EEFBE68C82523"
+					title: "熔炉热源!"
+					type: "checkmark"
+				}
+			]
+			title: "热源&7[Heat]&f"
 			x: 7.5d
 			y: -16.0d
 		}
@@ -727,23 +769,32 @@
 			icon: "minecraft:oak_sapling"
 			id: "29F82373417B2006"
 			optional: true
-			rewards: [{
-				id: "6477CE5C4204FFED"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2019707AE4DAC703"
-				title: "{atm9.quest.start1.emergency}"
-				type: "checkmark"
-			}]
-			title: "Emergency"
+			rewards: [
+				{
+					id: "6477CE5C4204FFED"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2019707AE4DAC703"
+					title: "{atm9.quest.start1.emergency}"
+					type: "checkmark"
+				}
+			]
+			title: "应急措施&7[Emergency]&f"
 			x: -4.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
-			description: ["Milk + Water inside a barrel = Smile Block"]
+			description: [
+				"木桶内牛奶+水=粘液块"
+				""
+				""
+				"&7[Milk + Water inside a barrel = Smile Block]&f"
+			]
 			icon: "minecraft:slime_ball"
 			id: "40A3726417C13F83"
 			rewards: [
@@ -759,12 +810,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "54859420D904A6AC"
-				item: "minecraft:slime_block"
-				type: "item"
-			}]
-			title: "Slime"
+			tasks: [
+				{
+					id: "54859420D904A6AC"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+			]
+			title: "粘液&7[Slime]&f"
 			x: 4.5d
 			y: -11.0d
 		}
@@ -785,12 +838,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1244CE2DE8D1F57F"
-				item: "exdeorum:diamond_mesh"
-				type: "item"
-			}]
-			title: "Diamond Mesh"
+			tasks: [
+				{
+					id: "1244CE2DE8D1F57F"
+					item: "exdeorum:diamond_mesh"
+					type: "item"
+				}
+			]
+			title: "&a钻石筛网&f&7[Diamond Mesh]&f"
 			x: 8.0d
 			y: -3.0d
 		}
@@ -798,18 +853,22 @@
 			dependencies: ["1EFE097BA29A5C0D"]
 			icon: "exdeorum:oak_crucible"
 			id: "3755C36AE60FF795"
-			rewards: [{
-				id: "691C23C4E5A3B7BC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			subtitle: "Put the leaves in the Wodden Crucible and get some water"
-			tasks: [{
-				id: "17626A5DBEBE5CB5"
-				item: "exdeorum:oak_crucible"
-				type: "item"
-			}]
-			title: "Crucible"
+			rewards: [
+				{
+					id: "691C23C4E5A3B7BC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			subtitle: "将树叶放入木质熔炼釜获取水&7[Put the leaves in the Wodden Crucible and get some water]&f"
+			tasks: [
+				{
+					id: "17626A5DBEBE5CB5"
+					item: "exdeorum:oak_crucible"
+					type: "item"
+				}
+			]
+			title: "熔炼釜&7[Crucible]&f"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -828,18 +887,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3C1A3BCB3654256C"
-				item: {
-					Count: 1
-					id: "pickletweaks:flint_shears"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3C1A3BCB3654256C"
+					item: {
+						Count: 1
+						id: "pickletweaks:flint_shears"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Shears"
+			]
+			title: "剪刀&7[Shears]&f"
 			x: 4.5d
 			y: -5.0d
 		}
@@ -859,12 +920,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5D41217820D4BA15"
-				item: "minecraft:bone_meal"
-				type: "item"
-			}]
-			title: "Bone Meal"
+			tasks: [
+				{
+					id: "5D41217820D4BA15"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			title: "&a骨粉&f&7[Bone Meal]&f"
 			x: 6.0d
 			y: -13.0d
 		}
@@ -883,20 +946,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Shear some leaves"
-			tasks: [{
-				id: "5674B09AC991D7EB"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:leaves"
+			subtitle: "修剪一些树叶&7[Shear some leaves]&f"
+			tasks: [
+				{
+					id: "5674B09AC991D7EB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:leaves"
+						}
 					}
+					title: "任意#minecraft:树叶"
+					type: "item"
 				}
-				title: "Any #minecraft:leaves"
-				type: "item"
-			}]
-			title: "Leaves, Leaves, Leaves"
+			]
+			title: "树叶,树叶,树叶&7[Leaves, Leaves, Leaves]&f"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -918,12 +983,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0405D0B3B51B04C7"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			title: "Lava"
+			tasks: [
+				{
+					id: "0405D0B3B51B04C7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "熔岩&7[Lava]&f"
 			x: 8.5d
 			y: -14.5d
 		}
@@ -945,12 +1012,14 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "1BE92C22167ECF39"
-				item: "mysticalagriculture:inferium_essence"
-				type: "item"
-			}]
-			title: "Your first Inferium Essence"
+			tasks: [
+				{
+					id: "1BE92C22167ECF39"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+			]
+			title: "你的第一份地狱精华&7[Your first Inferium Essence]&f"
 			x: 3.0d
 			y: -17.0d
 		}
@@ -970,96 +1039,121 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7533F3A728F89EA0"
-				item: "dankstorage:dank_1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7533F3A728F89EA0"
+					item: "dankstorage:dank_1"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
 			id: "0DE706CEFF3D04DC"
-			rewards: [{
-				id: "0DCB34F1647A1279"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "269B12BF6CEBC55B"
-				item: "exdeorum:stone_barrel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0DCB34F1647A1279"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "269B12BF6CEBC55B"
+					item: "exdeorum:stone_barrel"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["0DE706CEFF3D04DC"]
-			description: ["place a stone barrel on top of a block of mycelium and input water."]
+			description: [
+				"将石桶放置在菌丝块上方并注入水."
+				""
+				""
+				"&7[place a stone barrel on top of a block of mycelium and input water.]&f"
+			]
 			id: "3B2C5513A8781DD3"
-			rewards: [{
-				id: "27D46D2646731D70"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "27D46D2646731D70"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "2A5A47ACE1821C05"
-				item: "exdeorum:witch_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A5A47ACE1821C05"
+					item: "exdeorum:witch_water_bucket"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["3B2C5513A8781DD3"]
 			id: "02CC88B4C844851B"
-			rewards: [{
-				id: "5B85D793641F307A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5DF219ADC0D0011D"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:netherrack"
-							}
-							{
-								Count: 1b
-								id: "minecraft:blackstone"
-							}
-							{
-								Count: 1b
-								id: "minecraft:soul_sand"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "5B85D793641F307A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Witchwater"
+			]
+			tasks: [
+				{
+					id: "5DF219ADC0D0011D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:netherrack"
+								}
+								{
+									Count: 1b
+									id: "minecraft:blackstone"
+								}
+								{
+									Count: 1b
+									id: "minecraft:soul_sand"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "巫水&7[Witchwater]&f"
 			x: 3.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["768F0E715B05D9E4"]
 			description: [
-				"you can right click dirt to turn it into a grass or mycelium block"
-				"thats a easy way to spawn passive mobs or to get witch water"
+				"你可以&a右键点击&f泥土将其变为草方块或菌丝块"
+				"这是生成被动生物或获取巫水的简单方法"
+				""
+				""
+				"&7[you can right click dirt to turn it into a grass or mycelium block]&f"
+				"&7[thats a easy way to spawn passive mobs or to get witch water]&f"
 			]
 			id: "30A5C7F6D624883F"
-			rewards: [{
-				id: "4186346EF8BD457B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4186346EF8BD457B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6796CC6B57FBA03E"
@@ -1092,12 +1186,14 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				count: 32L
-				id: "1EE2D70FEC9BC78D"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 32L
+					id: "1EE2D70FEC9BC78D"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -15.5d
 		}
@@ -1117,13 +1213,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "hold shift and rightclick the grass"
-			tasks: [{
-				count: 64L
-				id: "2B0618FC9B055FEE"
-				item: { Count: 64, id: "botania:pebble" }
-				type: "item"
-			}]
+			subtitle: "按住Shift键并右键点击草方块&7[hold shift and rightclick the grass]&f"
+			tasks: [
+				{
+					count: 64L
+					id: "2B0618FC9B055FEE"
+					item: {
+						Count: 64
+						id: "botania:pebble"
+					}
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -7.0d
 		}
@@ -1132,25 +1233,34 @@
 			dependency_requirement: "one_completed"
 			icon: "minecraft:water_bucket"
 			id: "1E9CDF0F2C01BBE6"
-			rewards: [{
-				count: 2
-				id: "54B53513294D87EC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "54B53513294D87EC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
-			tasks: [{
-				id: "6D9D4B4C98329596"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			title: "Water is life"
+			tasks: [
+				{
+					id: "6D9D4B4C98329596"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "水即生命&7[Water is life]&f"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01FEB5D4F5ADD557"]
-			description: ["Multiblock for sieving a lot of gravel/ sand/ dust."]
+			description: [
+				"用于大量筛沙砾/沙子/尘埃的多方块结构."
+				""
+				""
+				"&7[Multiblock for sieving a lot of gravel/ sand/ dust.]&f"
+			]
 			icon: "mm:auto_sieve_controller"
 			id: "0F714BB148F47C46"
 			rewards: [
@@ -1173,12 +1283,14 @@
 								name: "{\"color\":\"#5555FF\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:breaker/attribute/experienced\"},\"\",{\"translate\":\"affix.apotheosis:breaker/mob_effect/spelunkers.suffix\"}]}"
 								rarity: "apotheosis:rare"
 								sockets: 0
-								uuids: [[I;
-									-402412480
-									1742097167
-									-2079450055
-									574219832
-								]]
+								uuids: [
+									[I;
+										-402412480
+										1742097167
+										-2079450055
+										574219832
+									]
+								]
 							}
 							apoth_rspawn: 1b
 						}
@@ -1336,16 +1448,21 @@
 		{
 			dependencies: ["6CC58829AD442C66"]
 			id: "1B3A1C61683F9AC5"
-			rewards: [{
-				id: "78A238BEAA6B0C01"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "78A238BEAA6B0C01"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 8L
 					id: "0A86451BA4B018E4"
-					item: { Count: 8, id: "minecraft:obsidian" }
+					item: {
+						Count: 8
+						id: "minecraft:obsidian"
+					}
 					type: "item"
 				}
 				{
@@ -1366,29 +1483,40 @@
 		{
 			dependencies: ["1B3A1C61683F9AC5"]
 			id: "54570484E6D79EAC"
-			rewards: [{
-				id: "44A38EE14E718A6D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "222910EBDA03BD64"
-				item: "jamd:portal_block"
-				type: "item"
-			}]
-			title: "New best friend"
+			rewards: [
+				{
+					id: "44A38EE14E718A6D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "222910EBDA03BD64"
+					item: "jamd:portal_block"
+					type: "item"
+				}
+			]
+			title: "新挚友&7[New best friend]&f"
 			x: 8.5d
 			y: -17.5d
 		}
 		{
 			dependencies: ["53F7B1EE005A696C"]
-			description: ["You can upgrade the Botany Pots to auto insert the Items inside a chest. Botany Pot + Hopper"]
+			description: [
+				"你可以将&a植物盆&f升级为自动将物品输入箱子.&a植物盆&f + 漏斗"
+				""
+				""
+				"&7[You can upgrade the Botany Pots to auto insert the Items inside a chest. Botany Pot + Hopper]&f"
+			]
 			id: "09B818DD9EDA7FFC"
-			rewards: [{
-				id: "511E5D109F2B4179"
-				item: "minecraft:hopper"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "511E5D109F2B4179"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "459E257743851531"
@@ -1415,11 +1543,13 @@
 				}
 			}
 			id: "2E67ACDA0A622EC2"
-			rewards: [{
-				id: "3F4A6A5A0D66F4F3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F4A6A5A0D66F4F3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0D769701EF175404"
@@ -1450,16 +1580,21 @@
 		{
 			dependencies: ["4A536710A11856F2"]
 			id: "7DC3CBED724D9B99"
-			rewards: [{
-				id: "10C333EA2096F027"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10C333EA2096F027"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 16L
 					id: "039A25176D16B53E"
-					item: { Count: 16, id: "minecraft:rotten_flesh" }
+					item: {
+						Count: 16
+						id: "minecraft:rotten_flesh"
+					}
 					type: "item"
 				}
 				{
@@ -1469,7 +1604,7 @@
 					type: "item"
 				}
 			]
-			title: "Mob Farm?"
+			title: "&a怪物农场&f？&7[Mob Farm?]&f"
 			x: 4.5d
 			y: -7.0d
 		}
@@ -1477,11 +1612,13 @@
 			dependencies: ["2E67ACDA0A622EC2"]
 			icon: "hunting_dimension_reforged:frame"
 			id: "0932042F7B58F486"
-			rewards: [{
-				id: "34131B8EB83145A5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34131B8EB83145A5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 10L
@@ -1501,71 +1638,87 @@
 					type: "item"
 				}
 			]
-			title: "Hunting Dimension"
+			title: "&a狩猎维度&f&7[Hunting Dimension]&f"
 			x: 1.0d
 			y: -18.0d
 		}
 		{
 			dependencies: ["6CC58829AD442C66"]
 			id: "443E0B6569414CD8"
-			rewards: [{
-				id: "3E7CC611E86F03F9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "75C3F64D436F7921"
-				item: "cobblefordays:tier_1"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E7CC611E86F03F9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75C3F64D436F7921"
+					item: "cobblefordays:tier_1"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: -13.5d
 		}
 		{
 			dependencies: ["443E0B6569414CD8"]
 			id: "2667E7C444889CD9"
-			rewards: [{
-				id: "72C8D6E75087301F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6232684489CF1D06"
-				item: "cobblefordays:tier_2"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "72C8D6E75087301F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6232684489CF1D06"
+					item: "cobblefordays:tier_2"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["2667E7C444889CD9"]
 			id: "6AB51F94C899CEDF"
-			rewards: [{
-				id: "0F9A5D448B1A254B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B031D2FEEDAE56C"
-				item: "cobblefordays:tier_3"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0F9A5D448B1A254B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B031D2FEEDAE56C"
+					item: "cobblefordays:tier_3"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: -11.5d
 		}
 		{
 			dependencies: ["6AB51F94C899CEDF"]
 			id: "6A9BF1C9D5178FB2"
-			rewards: [{
-				id: "3F202100886BB805"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "74EC07F44CFBAB65"
-				item: "cobblefordays:tier_4"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F202100886BB805"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74EC07F44CFBAB65"
+					item: "cobblefordays:tier_4"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: -10.0d
 		}
@@ -1585,22 +1738,26 @@
 					type: "loot"
 				}
 			]
-			tasks: [{
-				id: "2BD8A99395036FA2"
-				item: "cobblefordays:tier_5"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2BD8A99395036FA2"
+					item: "cobblefordays:tier_5"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["25D1363D8890E7C3"]
 			id: "0E519EB534A90450"
-			rewards: [{
-				id: "694EBABEE7765C85"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "694EBABEE7765C85"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4914E02ED35B7962"
@@ -1653,26 +1810,42 @@
 		{
 			dependencies: ["0E519EB534A90450"]
 			description: [
-				"&4You dont have to use the Cakes. The Nether Portal is not disabled.&r"
+				"&4你不必使用蛋糕.&a下界传送门&f并未禁用.&r"
 				""
-				"Place the Nether Cake on your island and right click it with a empty hand. You should place the Overworld Cake in the Nether."
+				"将&a下界蛋糕&f放在你的岛屿上并用空手&a右键点击&f它.你应该将主世界蛋糕放在&a下界&f."
 				""
-				"You can refill the Cakes with some items."
+				"你可以用一些物品补充蛋糕."
 				""
-				"Overworld Cake: Sapling"
-				"Nether Cake: Obsidian"
-				"End Cake: Ender Eye"
-				"Hunting Dimension Cake: Arrow"
-				"Lost Cities Cake: Beds"
-				"Twillight Dimension Cake: Diamonds"
+				"主世界蛋糕:树苗"
+				"&a下界蛋糕&f:黑曜石"
+				"&a末地蛋糕&f:&a末影之眼&f"
+				"&a狩猎维度蛋糕&f:箭"
+				"失落城市蛋糕:床"
+				"暮色维度蛋糕:钻石"
+				""
+				""
+				"&7[You dont have to use the Cakes. The Nether Portal is not disabled.]&f"
+				""
+				"&7[Place the Nether Cake on your island and right click it with a empty hand. You should place the Overworld Cake in the Nether.]&f"
+				""
+				"&7[You can refill the Cakes with some items.]&f"
+				""
+				"&7[Overworld Cake: Sapling]&f"
+				"&7[Nether Cake: Obsidian]&f"
+				"&7[End Cake: Ender Eye]&f"
+				"&7[Hunting Dimension Cake: Arrow]&f"
+				"&7[Lost Cities Cake: Beds]&f"
+				"&7[Twillight Dimension Cake: Diamonds]&f"
 			]
 			icon: "telepastries:nether_cake"
 			id: "698080C232C3E5FC"
-			rewards: [{
-				id: "1E394EA7537E63BB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E394EA7537E63BB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "482FB5F44E969478"
@@ -1692,11 +1865,13 @@
 			dependencies: ["698080C232C3E5FC"]
 			icon: "telepastries:end_cake"
 			id: "76779A876D143D34"
-			rewards: [{
-				id: "76FDD728D833BC55"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "76FDD728D833BC55"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1538616623671398"
@@ -1747,13 +1922,19 @@
 				{
 					count: 3L
 					id: "31E7845EABC2734E"
-					item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+					item: {
+						Count: 3
+						id: "minecraft:wither_skeleton_skull"
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "575524AE8C7C9022"
-					item: { Count: 4, id: "minecraft:soul_sand" }
+					item: {
+						Count: 4
+						id: "minecraft:soul_sand"
+					}
 					type: "item"
 				}
 				{
@@ -1768,28 +1949,33 @@
 						}
 					}
 					id: "6D8469EFAF4121D1"
-					title: "Kill the Wither"
+					title: "击杀凋灵"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Kill the Wither"
+			title: "击杀凋灵&7[Kill the Wither]&f"
 			x: 11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["76779A876D143D34"]
 			id: "2BD5A176D1FF28AB"
-			rewards: [{
-				id: "2A648285011CC925"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A648285011CC925"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 14L
 					id: "10300058D430D399"
-					item: { Count: 14, id: "minecraft:chiseled_stone_bricks" }
+					item: {
+						Count: 14
+						id: "minecraft:chiseled_stone_bricks"
+					}
 					type: "item"
 				}
 				{
@@ -1798,10 +1984,10 @@
 					type: "item"
 				}
 			]
-			title: "Dungeon Pass"
+			title: "地牢通行证&7[Dungeon Pass]&f"
 			x: 15.5d
 			y: -1.0d
 		}
 	]
-	title: "Early Game"
+	title: "前期发展&7[Early Game]&f"
 }

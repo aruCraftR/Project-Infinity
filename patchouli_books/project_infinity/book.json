@@ -1,7 +1,7 @@
 {
-    "name": "Project Infinity 0.1",
+    "name": "无限工程 0.1",
     "subtitle": "Multiblock Guide Book",
-    "landing_text": "Welcome to the Guide Book",
+    "landing_text": "欢迎阅读指南手册",
     "creative_tab": "minecraft:tools_and_utilities",
     "model": "patchouli:book_purple"
 }

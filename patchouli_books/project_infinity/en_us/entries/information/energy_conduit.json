@@ -1,19 +1,19 @@
 {
-    "name": "EnergyIO Conduit" ,
+    "name": "能量传输导管",
     "icon": "enderio:energy_conduit",
     "category": "patchouli:information",
     "pages": [
         {
             "anchor": "energy_conduit",
             "type": "items/1",
-            "header": "EnergyIO Conduit I/O" ,
+            "header": "EnergyIO Conduit I/O",
             "item1": "enderio:conductive_conduit",
             "item2": "enderio:energetic_conduit",
             "item3": "enderio:vibrant_conduit",
             "item4": "enderio:endsteel_conduit",
             "item5": "enderio:lumium_conduit",
             "text1": "I/O:         2 024 rf/t",
-            "text2": "I/O:         8 192 rf/t",
+            "text2": "输入/输出:8,192 RF/刻",
             "text3": "I/O:        32 768 rf/t",
             "text4": "I/O:       131 072 rf/t",
             "text5": "I/O:       524 288 rf/t"
@@ -21,13 +21,13 @@
         {
             "anchor": "energy_conduit",
             "type": "items/1",
-            "header": "EnergyIO Conduit I/O" ,
+            "header": "EnergyIO Conduit I/O",
             "item1": "enderio:signalum_conduit",
             "item2": "enderio:enderium_conduit",
             "item3": "enderio:sculk_superconductor_conduit",
             "item4": "enderio:energy_conduit",
             "text1": "I/O:     2 097 152 rf/t",
-            "text2": "I/O:     4 194 304 rf/t",
+            "text2": "输入/输出:4,194,304 RF/刻",
             "text3": "I/O:   134 217 728 rf/t",
             "text4": "I/O: 2 147 483 647 rf/t"
         }

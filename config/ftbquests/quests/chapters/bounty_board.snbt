@@ -25,15 +25,17 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "5457CD8C1ABA0B9E"
-				title: "Kill 5 Zombies"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Zombie"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5457CD8C1ABA0B9E"
+					title: "击杀5只僵尸"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "僵尸&7[Zombie]&f"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -54,14 +56,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "3AD10C31CB6BA4C2"
-				title: "Kill 10 Zombies"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "3AD10C31CB6BA4C2"
+					title: "击杀10只僵尸"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: -4.0d
 			y: -2.0d
 		}
@@ -87,35 +91,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "51471254BFEBDAA7"
-				title: "Kill 50 Zombies"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "51471254BFEBDAA7"
+					title: "击杀50只僵尸"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: -4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["146232B8504789C1"]
 			id: "7D5B36BF3EC0C93F"
-			rewards: [{
-				id: "5EE6508C9196C859"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5EE6508C9196C859"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "5056DC37AEF523E5"
-				title: "Kill 100 Zombies"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5056DC37AEF523E5"
+					title: "击杀100只僵尸"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: -4.0d
 			y: -5.0d
 		}
@@ -134,15 +144,17 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "5B35720DF93CE2DB"
-				title: "Kill 5 Skeletons"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Skeleton"
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "5B35720DF93CE2DB"
+					title: "击杀5只骷髅"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "骷髅&7[Skeleton]&f"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -163,14 +175,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "015CB0D172D0712A"
-				title: "Kill 10 Skeletons"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "015CB0D172D0712A"
+					title: "击杀10只骷髅"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -190,35 +204,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "2E17443A1BF2A0DA"
-				title: "Kill 50 Skeletons"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2E17443A1BF2A0DA"
+					title: "击杀50只骷髅"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["410E0DD607CB3469"]
 			id: "555957ED58ABF8F8"
-			rewards: [{
-				id: "3049D5044A651D66"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3049D5044A651D66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "00655AC734444E54"
-				title: "Kill 100 Skeletons"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "00655AC734444E54"
+					title: "击杀100只骷髅"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: -2.0d
 			y: -5.0d
 		}
@@ -237,15 +257,17 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "423AF6C6647B1626"
-				title: "Kill 5 Creepers"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Creeper"
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "423AF6C6647B1626"
+					title: "击杀5只苦力怕"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "苦力怕&7[Creeper]&f"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -266,14 +288,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "1AB92CF7F0246D21"
-				title: "Kill 10 Creepers"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "1AB92CF7F0246D21"
+					title: "击杀10只苦力怕"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
@@ -293,35 +317,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "24BA89BD9898759B"
-				title: "Kill 50 Creepers"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "24BA89BD9898759B"
+					title: "击杀50只苦力怕"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 0.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["76A29816F19E33A2"]
 			id: "5FCA4FF8C135435E"
-			rewards: [{
-				id: "163D77EBF2FD3C07"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "163D77EBF2FD3C07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "045D1087A2692360"
-				title: "Kill 100 Creepers"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "045D1087A2692360"
+					title: "击杀100只苦力怕"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 0.0d
 			y: -5.0d
 		}
@@ -350,15 +380,17 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_head"
-				id: "1809F1F9A3043683"
-				title: "Kill the Ender Dragon"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Dragon"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "1809F1F9A3043683"
+					title: "&a击杀末影龙&f"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "末影龙&7[Dragon]&f"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -387,15 +419,17 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "171FD27057746E80"
-				title: "Kill the Wither"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Wither"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "171FD27057746E80"
+					title: "击杀凋灵"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "凋灵&7[Wither]&f"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -425,15 +459,17 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:elder_guardian"
-				icon: "minecraft:elder_guardian_spawn_egg"
-				id: "2F28B803C75DA3B2"
-				title: "Kill the Elder Guardian"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Elder Gurdian"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "minecraft:elder_guardian_spawn_egg"
+					id: "2F28B803C75DA3B2"
+					title: "击杀远古守卫者"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "远古守卫者&7[Elder Gurdian]&f"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -460,8 +496,8 @@
 						tag: {
 							Damage: 0
 							display: {
-								Lore: ["[{\"text\":\"For those brave enough to slaughter the Mighty and Annoying Trader\",\"italic\":false}]"]
-								Name: "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
+								Lore: ["[{\"text\":\"献给那些勇于斩杀强大而恼人的旅行商人的勇士\",\"italic\":false}]"]
+								Name: "[{\"text\":\"阿尔弗雷德GG之剑\",\"italic\":false}]"
 							}
 						}
 					}
@@ -474,16 +510,18 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "I dont like him."
-			tasks: [{
-				entity: "minecraft:wandering_trader"
-				icon: "minecraft:trader_llama_spawn_egg"
-				id: "596ABB45C0612AAF"
-				title: "Kill the Trader Villager"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Wandering Trader"
+			subtitle: "我不喜欢这家伙.&7[I dont like him.]&f"
+			tasks: [
+				{
+					entity: "minecraft:wandering_trader"
+					icon: "minecraft:trader_llama_spawn_egg"
+					id: "596ABB45C0612AAF"
+					title: "击杀村民商人"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "流浪商人&7[Wandering Trader]&f"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -503,15 +541,17 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_pearl"
-				id: "0EA4B08DAAFA4287"
-				title: "&l&9The End Bounty:&r&e Endermen"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Enderman"
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "0EA4B08DAAFA4287"
+					title: "&l&9&a终结&f 悬赏:&r&e 末影人"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "末影人&7[Enderman]&f"
 			x: 10.0d
 			y: -0.5d
 		}
@@ -533,14 +573,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_pearl"
-				id: "58BF5D3267CF02F8"
-				title: "Kill 10 Endermen"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "58BF5D3267CF02F8"
+					title: "击杀10只末影人"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 10.0d
 			y: -2.0d
 		}
@@ -561,35 +603,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_pearl"
-				id: "6BA6847A172C8DD7"
-				title: "Kill 50 Endermen"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "6BA6847A172C8DD7"
+					title: "击杀50只末影人"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 10.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2AAF57D1D8AB6BF8"]
 			id: "479A4E778D8D7317"
-			rewards: [{
-				id: "0283DADCE6B472D3"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "0283DADCE6B472D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_eye"
-				id: "53C23DB8B4D1CEE2"
-				title: "Kill 100 Endermen"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_eye"
+					id: "53C23DB8B4D1CEE2"
+					title: "击杀100只末影人"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 10.0d
 			y: -5.0d
 		}
@@ -618,13 +666,15 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "18644A08B73A4B12"
-				type: "kill"
-				value: 5L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "18644A08B73A4B12"
+					type: "kill"
+					value: 5L
+				}
+			]
 			x: 2.0d
 			y: -0.5d
 		}
@@ -645,14 +695,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "5801AF8000768808"
-				title: "Kill 10 Spiders"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "5801AF8000768808"
+					title: "击杀10只蜘蛛"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -678,35 +730,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "0F94F7427F99DAFE"
-				title: "Kill 50 Spiders"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "0F94F7427F99DAFE"
+					title: "击杀50只蜘蛛"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["63A1F25DF658928A"]
 			id: "2D7E335B9D780E70"
-			rewards: [{
-				id: "53478B9D7B4FC292"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "53478B9D7B4FC292"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "0F8ACB07CFA8CB33"
-				title: "Kill 100 Spiders"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "0F8ACB07CFA8CB33"
+					title: "击杀100只蜘蛛"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 2.0d
 			y: -5.0d
 		}
@@ -726,15 +784,17 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_powder"
-				id: "1718CA0F8978181C"
-				title: "&l&cThe Nether Bounty:&r&e Blazes"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Blaze"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_powder"
+					id: "1718CA0F8978181C"
+					title: "&l&c&a地狱&f 悬赏:&r&e 烈焰人"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "烈焰人&7[Blaze]&f"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -755,14 +815,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
-				id: "00445193DEB7EAA0"
-				title: "Kill 10 Blazes"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "00445193DEB7EAA0"
+					title: "击杀10只烈焰人"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 6.0d
 			y: -2.0d
 		}
@@ -782,35 +844,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
-				id: "404D3420276BD963"
-				title: "Kill 50 Blazes"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "404D3420276BD963"
+					title: "击杀50只烈焰人"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6C9BC3A699E57162"]
 			id: "35CC1F1DA9530688"
-			rewards: [{
-				id: "60C7B04DA2A98148"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "60C7B04DA2A98148"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
-				id: "2038156A13C07BFC"
-				title: "Kill 100 Blazes"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "2038156A13C07BFC"
+					title: "击杀100只烈焰人"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 6.0d
 			y: -5.0d
 		}
@@ -829,21 +897,23 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:invisibility"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
 					}
+					id: "7BAB5E17D2DE4E3E"
+					title: "&l&9主世界悬赏:&r&e 女巫"
+					type: "kill"
+					value: 5L
 				}
-				id: "7BAB5E17D2DE4E3E"
-				title: "&l&9Overworld Bounty:&r&e Witches"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Witch"
+			]
+			title: "女巫&7[Witch]&f"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -883,20 +953,22 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:leaping"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:leaping"
+						}
 					}
+					id: "7127A76DEB4D1696"
+					title: "击杀10个女巫"
+					type: "kill"
+					value: 10L
 				}
-				id: "7127A76DEB4D1696"
-				title: "Kill 10 Witches"
-				type: "kill"
-				value: 10L
-			}]
+			]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -928,47 +1000,53 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:slowness"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
 					}
+					id: "78A782913B7E6353"
+					title: "击杀50个女巫"
+					type: "kill"
+					value: 50L
 				}
-				id: "78A782913B7E6353"
-				title: "Kill 50 Witches"
-				type: "kill"
-				value: 50L
-			}]
+			]
 			x: 4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2D136FCDA92C92AC"]
 			id: "6F93A02E620C69FE"
-			rewards: [{
-				id: "16A2561A7D16AD5D"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "16A2561A7D16AD5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1
-					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "ars_nouveau:shielding_potion_strong"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "ars_nouveau:shielding_potion_strong"
+						}
 					}
+					id: "5A3D6416BA0C7A20"
+					title: "击杀100个女巫"
+					type: "kill"
+					value: 100L
 				}
-				id: "5A3D6416BA0C7A20"
-				title: "Kill 100 Witches"
-				type: "kill"
-				value: 100L
-			}]
+			]
 			x: 4.0d
 			y: -5.0d
 		}
@@ -992,15 +1070,17 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "1016033CBB003413"
-				title: "&l&cThe Nether Bounty:&r&e Wither Skeles"
-				type: "kill"
-				value: 5L
-			}]
-			title: "Wither Skeleton"
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "1016033CBB003413"
+					title: "&l&c&a地狱&f 悬赏:&r&e 凋灵骷髅"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "&a凋灵骷髅&f&7[Wither Skeleton]&f"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -1021,14 +1101,16 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "33107949548BC22D"
-				title: "Kill 10 Wither Skeles"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "33107949548BC22D"
+					title: "击杀10只凋灵骷髅"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 8.0d
 			y: -2.0d
 		}
@@ -1048,35 +1130,41 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "29A605F8B896F3B9"
-				title: "Kill 50 Wither Skeles"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "29A605F8B896F3B9"
+					title: "击杀50只凋灵骷髅"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["65CE9117B923C0DB"]
 			id: "180B3AFF8C552F3F"
-			rewards: [{
-				id: "6DA661CBC29632EE"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "6DA661CBC29632EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "727813FFC599C36D"
-				title: "Kill 100 Wither Skeles"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "727813FFC599C36D"
+					title: "击杀100只凋灵骷髅"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 8.0d
 			y: -5.0d
 		}
@@ -1106,16 +1194,18 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Craft the sculk shrieker or visit the hunting dimension"
-			tasks: [{
-				entity: "minecraft:warden"
-				icon: "minecraft:spawner"
-				id: "69678CAC075C8EA5"
-				title: "Kill the Warden"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Warden"
+			subtitle: "合成幽匿尖啸体或前往&a狩猎&f维度&7[Craft the sculk shrieker or visit the hunting dimension]&f"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: "minecraft:spawner"
+					id: "69678CAC075C8EA5"
+					title: "击杀监守者"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "监守者&7[Warden]&f"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -1153,14 +1243,16 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead_withouta_horse"
-				id: "65EB78DE87A47727"
-				title: "Kill the Lord Pumpkinhead"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Lord Pumpkinhead"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lord_pumpkinhead_withouta_horse"
+					id: "65EB78DE87A47727"
+					title: "击杀南瓜头领主"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "南瓜头领主&7[Lord Pumpkinhead]&f"
 			x: 4.5d
 			y: 6.0d
 		}
@@ -1190,7 +1282,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find me inside the Lost Cities Dimension"
+			subtitle: "在失落之城维度中寻找我&7[Find me inside the Lost Cities Dimension]&f"
 			tasks: [
 				{
 					checkItem: false
@@ -1206,7 +1298,7 @@
 					type: "item"
 				}
 			]
-			title: "Night Lich"
+			title: "&a暗夜巫妖&f&7[Night Lich]&f"
 			x: -3.75d
 			y: 3.75d
 		}
@@ -1236,7 +1328,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find me inside the Hunting Dimension"
+			subtitle: "在&a狩猎维度&f中寻找我&7[Find me inside the Hunting Dimension]&f"
 			tasks: [
 				{
 					checkItem: false
@@ -1252,7 +1344,7 @@
 					type: "item"
 				}
 			]
-			title: "Void Blossom"
+			title: "虚空之花&7[Void Blossom]&f"
 			x: -3.75d
 			y: 5.25d
 		}
@@ -1282,12 +1374,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the End Dimension"
+			subtitle: "在&a末地&f维度中寻找他&7[Find him inside the End Dimension]&f"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:obsidilith"
 					id: "0566E585581CB0CC"
-					title: "Kill the Obsidilith"
+					title: "击杀黑曜石魔像"
 					type: "kill"
 					value: 1L
 				}
@@ -1297,7 +1389,7 @@
 					type: "item"
 				}
 			]
-			title: "Obsidilith"
+			title: "黑曜石巨像&7[Obsidilith]&f"
 			x: -3.75d
 			y: 6.75d
 		}
@@ -1327,12 +1419,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Nether Dimension"
+			subtitle: "在&a下界&f维度中寻找他&7[Find him inside the Nether Dimension]&f"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:gauntlet"
 					id: "7CA6E6B748931FD8"
-					title: "Kill the Nether Gauntlet"
+					title: "击杀&a下界&f 守卫"
 					type: "kill"
 					value: 1L
 				}
@@ -1342,18 +1434,25 @@
 					type: "item"
 				}
 			]
-			title: "Nether Gauntlet"
+			title: "下界魔像&7[Nether Gauntlet]&f"
 			x: -5.25d
 			y: 4.5d
 		}
 		{
-			description: ["Place the Sculk Shrieker and insert the Sculk Core. Jump on the Shrieker. The Warden will spawn. You need to sieve a lot to get the items"]
+			description: [
+				"放置&a幽匿尖啸体&f并嵌入幽匿核心.在尖啸体上跳跃.&a监守者&f将会生成.需要大量筛矿获取物品"
+				""
+				""
+				"&7[Place the Sculk Shrieker and insert the Sculk Core. Jump on the Shrieker. The Warden will spawn. You need to sieve a lot to get the items]&f"
+			]
 			id: "239FCC26EECF4DE2"
-			rewards: [{
-				id: "53C5BD162D05A8F7"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53C5BD162D05A8F7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6605145444C5F796"
@@ -1395,15 +1494,17 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension"
-			tasks: [{
-				entity: "cataclysm:aptrgangr"
-				id: "654C72C6E2C547B7"
-				title: "Kill the Aptrgangr"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Aptrgangr"
+			subtitle: "在失落之城维度中寻找他&7[Find him inside the Lost Cities Dimension]&f"
+			tasks: [
+				{
+					entity: "cataclysm:aptrgangr"
+					id: "654C72C6E2C547B7"
+					title: "击杀亡躯巨怪"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "亡行尸&7[Aptrgangr]&f"
 			x: 9.75d
 			y: 6.75d
 		}
@@ -1433,14 +1534,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Underwater"
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				id: "198DE332E1BAFD9C"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Leviathan"
+			subtitle: "在失落之城维度水下寻找他&7[Find him inside the Lost Cities Dimension. Underwater]&f"
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "198DE332E1BAFD9C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "利维坦&7[Leviathan]&f"
 			x: 9.75d
 			y: 3.75d
 		}
@@ -1470,7 +1573,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Nether Dimension"
+			subtitle: "在&a下界&f维度中寻找他&7[Find him inside the Nether Dimension]&f"
 			tasks: [
 				{
 					entity: "cataclysm:ignis"
@@ -1484,7 +1587,7 @@
 					type: "item"
 				}
 			]
-			title: "Ignis"
+			title: "伊格尼斯&7[Ignis]&f"
 			x: 12.75d
 			y: 6.75d
 		}
@@ -1514,7 +1617,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension"
+			subtitle: "在失落之城维度中寻找他&7[Find him inside the Lost Cities Dimension]&f"
 			tasks: [
 				{
 					entity: "cataclysm:the_harbinger"
@@ -1528,7 +1631,7 @@
 					type: "item"
 				}
 			]
-			title: "Harbinger"
+			title: "先驱者&7[Harbinger]&f"
 			x: 8.25d
 			y: 6.75d
 		}
@@ -1558,14 +1661,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension"
-			tasks: [{
-				entity: "cataclysm:the_prowler"
-				id: "03786D24313C4DD6"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Prowler"
+			subtitle: "在失落之城维度中寻找他&7[Find him inside the Lost Cities Dimension]&f"
+			tasks: [
+				{
+					entity: "cataclysm:the_prowler"
+					id: "03786D24313C4DD6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "潜行者&7[Prowler]&f"
 			x: 8.25d
 			y: 5.25d
 		}
@@ -1595,7 +1700,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Desert Biomes"
+			subtitle: "在失落之城维度的&a沙漠类生物群系&f中寻找他&7[Find him inside the Lost Cities Dimension. Desert Biomes]&f"
 			tasks: [
 				{
 					entity: "cataclysm:ancient_remnant"
@@ -1609,7 +1714,7 @@
 					type: "item"
 				}
 			]
-			title: "Ancient Remnant"
+			title: "&a远古遗魂&f&7[Ancient Remnant]&f"
 			x: 11.25d
 			y: 3.75d
 		}
@@ -1639,14 +1744,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the End Dimension"
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				id: "58863AB3C5D809FF"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Ender Guardian"
+			subtitle: "在&a末地&f维度中寻找他&7[Find him inside the End Dimension]&f"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "58863AB3C5D809FF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a末影守卫&f&7[Ender Guardian]&f"
 			x: 11.25d
 			y: 5.25d
 		}
@@ -1676,14 +1783,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Nether Dimension"
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				id: "12C3CE4F3DE40F2D"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Netherite Monstrosity"
+			subtitle: "在&a下界&f维度中寻找他&7[Find him inside the Nether Dimension]&f"
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "12C3CE4F3DE40F2D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a下界合金巨兽&f&7[Netherite Monstrosity]&f"
 			x: 12.75d
 			y: 5.25d
 		}
@@ -1713,14 +1822,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Snowy Biomes"
-			tasks: [{
-				entity: "cataclysm:maledictus"
-				id: "28D13321B6BCB4D0"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Maledictus"
+			subtitle: "在失落之城维度内寻找他. &a积雪类生物群系&f&7[Find him inside the Lost Cities Dimension. Snowy Biomes]&f"
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "28D13321B6BCB4D0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "诅咒者&7[Maledictus]&f"
 			x: 9.75d
 			y: 5.25d
 		}
@@ -1750,14 +1861,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "You have to spawn him"
-			tasks: [{
-				entity: "botania:doppleganger"
-				id: "0408A89C580DA4D5"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Gaia"
+			subtitle: "你需要生成他&7[You have to spawn him]&f"
+			tasks: [
+				{
+					entity: "botania:doppleganger"
+					id: "0408A89C580DA4D5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "盖亚&7[Gaia]&f"
 			x: -5.25d
 			y: 6.0d
 		}
@@ -1787,7 +1900,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the End Dimension"
+			subtitle: "在 &a末地&f 维度内寻找他&7[Find him inside the End Dimension]&f"
 			tasks: [
 				{
 					entity: "cataclysm:ender_golem"
@@ -1806,7 +1919,7 @@
 					type: "item"
 				}
 			]
-			title: "Ender Golem"
+			title: "&a末影傀儡&f&7[Ender Golem]&f"
 			x: 11.25d
 			y: 6.75d
 		}
@@ -1836,14 +1949,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Hunting Dimension. Ocean Biome"
-			tasks: [{
-				entity: "cataclysm:scylla"
-				id: "1C01F6151B04646A"
-				title: "Kill Scylla"
-				type: "kill"
-				value: 1L
-			}]
+			subtitle: "在 &a狩猎维度&f 的海洋生物群系中寻找他&7[Find him inside the Hunting Dimension. Ocean Biome]&f"
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "1C01F6151B04646A"
+					title: "击杀斯库拉"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 8.25d
 			y: 3.75d
 		}
@@ -1870,17 +1985,19 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Ocean Biome. Miniboss"
-			tasks: [{
-				entity: "cataclysm:clawdian"
-				id: "40FEA6E2775962A9"
-				title: "Kill the Clawdian"
-				type: "kill"
-				value: 1L
-			}]
+			subtitle: "在失落之城维度的海洋生物群系中寻找他.小型Boss&7[Find him inside the Lost Cities Dimension. Ocean Biome. Miniboss]&f"
+			tasks: [
+				{
+					entity: "cataclysm:clawdian"
+					id: "40FEA6E2775962A9"
+					title: "击杀爪族战士"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 12.75d
 			y: 3.75d
 		}
 	]
-	title: "Kill, Kill, KILL!!!!!!"
+	title: "杀,杀,杀!!!!!!&7[Kill, Kill, KILL!!!!!!]&f"
 }

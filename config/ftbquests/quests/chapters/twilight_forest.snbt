@@ -11,11 +11,13 @@
 			dependencies: ["5AECF3E8794966F6"]
 			icon: "twilightforest:naga_trophy"
 			id: "2CFD2AD9D6D1CDE7"
-			rewards: [{
-				id: "619C968014DFF075"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "619C968014DFF075"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -40,11 +42,13 @@
 			]
 			icon: "twilightforest:lich_trophy"
 			id: "03BE22C4F4327D85"
-			rewards: [{
-				id: "5228FA5B8FD05CA1"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5228FA5B8FD05CA1"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -67,14 +71,21 @@
 				"5AECF3E8794966F6"
 				"03BE22C4F4327D85"
 			]
-			description: ["Eat the stew to get to the hydra"]
+			description: [
+				"食用炖汤可传送至三头蛇所在地"
+				""
+				""
+				"&7[Eat the stew to get to the hydra]&f"
+			]
 			icon: "twilightforest:minoshroom_trophy"
 			id: "137EEB53A7AEFACB"
-			rewards: [{
-				id: "3562912C9D2AD5B3"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3562912C9D2AD5B3"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -99,11 +110,13 @@
 			]
 			icon: "twilightforest:hydra_trophy"
 			id: "2655AEA606D917F5"
-			rewards: [{
-				id: "642C3B151B4B547A"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "642C3B151B4B547A"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -128,11 +141,13 @@
 			]
 			icon: "twilightforest:knight_phantom_trophy"
 			id: "10DDE39EDD22C246"
-			rewards: [{
-				id: "0946C523B8728EF1"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0946C523B8728EF1"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -157,11 +172,13 @@
 			]
 			icon: "twilightforest:ur_ghast_trophy"
 			id: "1205750974177866"
-			rewards: [{
-				id: "46D75D7E19E7B193"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "46D75D7E19E7B193"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -186,11 +203,13 @@
 			]
 			icon: "twilightforest:alpha_yeti_trophy"
 			id: "3FB32225FC259586"
-			rewards: [{
-				id: "2EFC4F17FAAD26CE"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EFC4F17FAAD26CE"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -215,11 +234,13 @@
 			]
 			icon: "twilightforest:snow_queen_trophy"
 			id: "6F24EE5D16F9CB7A"
-			rewards: [{
-				id: "0A510AE892F15A6C"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0A510AE892F15A6C"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -245,11 +266,13 @@
 			icon: "twilightforest:quest_ram_trophy"
 			id: "245AF45D4BFCCADE"
 			optional: true
-			rewards: [{
-				id: "3090E190EB1013A4"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3090E190EB1013A4"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -338,15 +361,15 @@
 					type: "item"
 				}
 			]
-			title: "Quest Ram Trophy"
+			title: "&a谜题羊奖杯&f&7[Quest Ram Trophy]&f"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Use the Cake or build the portal."
+				"使用蛋糕或搭建传送门."
 				""
-				"4x4 with grass blocks. fill it with water. place flowers on the grass blocks and trow a diamond in the water."
+				"用草方块搭建4x4区域.注满水.在草方块上放置花朵并向水中投入一颗钻石."
 				""
 				"{image:kubejs:block/screen/twilight_forest_portal width:100 height:100 align:center}"
 			]
@@ -354,11 +377,13 @@
 			hide_dependent_lines: true
 			icon: "telepastries:twilight_cake"
 			id: "5AECF3E8794966F6"
-			rewards: [{
-				id: "097F1E5E2C0DD9E8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "097F1E5E2C0DD9E8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 3.0d
 			tasks: [
 				{
@@ -376,5 +401,5 @@
 			y: -3.0d
 		}
 	]
-	title: "Twilight Forest"
+	title: "&d暮色森林&f&7[Twilight Forest]&f"
 }

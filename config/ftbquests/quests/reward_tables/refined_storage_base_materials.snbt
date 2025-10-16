@@ -3,10 +3,19 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ count: 5, item: "ae2:silicon" }
-		{ count: 5, item: "refinedstorage:quartz_enriched_iron", weight: 2.0f }
-		{ item: "refinedstorage:machine_casing" }
+		{
+			count: 5
+			item: "ae2:silicon"
+		}
+		{
+			count: 5
+			item: "refinedstorage:quartz_enriched_iron"
+			weight: 2.0f
+		}
+		{
+			item: "refinedstorage:machine_casing"
+		}
 	]
-	title: "Refined Storage Base Materials"
+	title: "&d精致存储&f基础材料&7[Refined Storage Base Materials]&f"
 	use_title: true
 }

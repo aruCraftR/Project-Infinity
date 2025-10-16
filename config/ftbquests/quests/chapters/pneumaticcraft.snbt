@@ -9,7 +9,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["If you don't really like quests you can use the book."]
+			description: [
+				"若您不太喜欢任务模式,可使用此书."
+				""
+				""
+				"&7[If you don't really like quests you can use the book.]&f"
+			]
 			hide_dependency_lines: false
 			id: "371A34B297C8A8EF"
 			min_width: 250
@@ -37,17 +42,24 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "1D5049AE4BC0BA39"
-				item: "pneumaticcraft:ingot_iron_compressed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D5049AE4BC0BA39"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["A strong building material resistant to pressure explosions. Reinforced Stone is ideal for creating safe environments for your pneumatic setups."]
+			description: [
+				"一种坚固的建筑材料,能抵抗压力爆炸.&a强化石头&f是创建气动设备安全环境的理想选择."
+				""
+				""
+				"&7[A strong building material resistant to pressure explosions. Reinforced Stone is ideal for creating safe environments for your pneumatic setups.]&f"
+			]
 			id: "65E2AF881709C896"
 			min_required_dependencies: 1
 			rewards: [
@@ -62,18 +74,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 32L
-				id: "052A7C7918C3A0D5"
-				item: "pneumaticcraft:reinforced_stone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 32L
+					id: "052A7C7918C3A0D5"
+					item: "pneumaticcraft:reinforced_stone"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["Compressed Iron Armor offers a solid balance of protection and durability. Useful early on game."]
+			description: [
+				"&a压缩铁&f护甲在防护性和耐久性之间取得良好平衡.适用于游戏前期."
+				""
+				""
+				"&7[Compressed Iron Armor offers a solid balance of protection and durability. Useful early on game.]&f"
+			]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:compressed_iron_chestplate"
@@ -154,7 +173,12 @@
 		{
 			dependencies: ["371A34B297C8A8EF"]
 			dependency_requirement: "one_completed"
-			description: ["Start automating Compressed Iron production with this Mystical Agriculture seed. It requires initial crafting effort but pays off with a passive and renewable source of Compressed Iron."]
+			description: [
+				"通过此&d神秘农业&f种子开始自动化生产&a压缩铁&f.虽需初期合成投入,但能通过被动可再生的&a压缩铁&f来源获得回报."
+				""
+				""
+				"&7[Start automating Compressed Iron production with this Mystical Agriculture seed. It requires initial crafting effort but pays off with a passive and renewable source of Compressed Iron.]&f"
+			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "6FD65139CD50A8C0"
@@ -179,18 +203,25 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "47CC78B479496E5B"
-				item: "mysticalagriculture:compressed_iron_seeds"
-				type: "item"
-			}]
-			title: "Iron seeds"
+			tasks: [
+				{
+					id: "47CC78B479496E5B"
+					item: "mysticalagriculture:compressed_iron_seeds"
+					type: "item"
+				}
+			]
+			title: "铁种子&7[Iron seeds]&f"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["Basic Pressure Tubes are used to connect pneumatic machines. They transfer compressed air but can be fragile at high pressures."]
+			description: [
+				"基础&a压力管道&f用于连接气动设备.可输送压缩空气,但在高压环境下较为脆弱."
+				""
+				""
+				"&7[Basic Pressure Tubes are used to connect pneumatic machines. They transfer compressed air but can be fragile at high pressures.]&f"
+			]
 			id: "40F634AC38F42B88"
 			rewards: [
 				{
@@ -204,18 +235,28 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 16L
-				id: "78082DDA22FC7B9B"
-				item: { Count: 16, id: "pneumaticcraft:pressure_tube" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "78082DDA22FC7B9B"
+					item: {
+						Count: 16
+						id: "pneumaticcraft:pressure_tube"
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
-			description: ["Pressure is the core mechanic of PneumaticCraft. Machines require air pressure to function. Learn how to generate, manage, and safely use compressed air without bursting your systems."]
+			description: [
+				"压力是&d气动工艺&f的核心机制.机器需要气压才能运转.学习如何生成、管理并安全使用压缩空气,避免系统爆裂."
+				""
+				""
+				"&7[Pressure is the core mechanic of PneumaticCraft. Machines require air pressure to function. Learn how to generate, manage, and safely use compressed air without bursting your systems.]&f"
+			]
 			hide_until_deps_visible: true
 			id: "7B2008977702D0C8"
 			rewards: [
@@ -230,11 +271,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1EEC7B67E037F766"
-				type: "checkmark"
-			}]
-			title: "Pressure"
+			tasks: [
+				{
+					id: "1EEC7B67E037F766"
+					type: "checkmark"
+				}
+			]
+			title: "压力&7[Pressure]&f"
 			x: -2.0d
 			y: 7.5d
 		}
@@ -243,7 +286,12 @@
 				"122EDEC12C9A05D2"
 				"65E2AF881709C896"
 			]
-			description: ["Used to craft pressurized items, like Empty PCBs. Feed it pressure and watch it process recipes that normal crafting can't handle."]
+			description: [
+				"用于制作加压物品(如&a空印刷电路板&f).注入压力后,可处理普通合成无法完成的配方."
+				""
+				""
+				"&7[Used to craft pressurized items, like Empty PCBs. Feed it pressure and watch it process recipes that normal crafting can't handle.]&f"
+			]
 			icon: "pneumaticcraft:pressure_chamber_interface"
 			id: "63F6F4EBCEB914B0"
 			min_width: 400
@@ -276,18 +324,26 @@
 				{
 					count: 2L
 					id: "22F4EC53E46518B1"
-					item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
+					item: {
+						Count: 2
+						id: "pneumaticcraft:pressure_chamber_interface"
+					}
 					type: "item"
 				}
 			]
-			title: "Pressure Chamber"
+			title: "&a压力室&f&7[Pressure Chamber]&f"
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
 			dependency_requirement: "all_started"
-			description: ["Add safety to your machines with Security Upgrades. These prevent overpressure explosions and are vital in large or automated setups."]
+			description: [
+				"通过安全升级为您的机器增添保障.这些升级能防止过压爆炸,在大型或自动化设备中至关重要."
+				""
+				""
+				"&7[Add safety to your machines with Security Upgrades. These prevent overpressure explosions and are vital in large or automated setups.]&f"
+			]
 			id: "122EDEC12C9A05D2"
 			rewards: [
 				{
@@ -301,18 +357,28 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 2L
-				id: "6914FD46650A6B01"
-				item: { Count: 2, id: "pneumaticcraft:security_upgrade" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "6914FD46650A6B01"
+					item: {
+						Count: 2
+						id: "pneumaticcraft:security_upgrade"
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["40F634AC38F42B88"]
-			description: ["This is your main method of generating pressure. Feed it coal or other burnables to produce compressed air. Be careful too much pressure can be dangerous!"]
+			description: [
+				"这是产生压力的主要方式.投入煤炭或其他可燃物来制造压缩空气.注意:压力过大会非常危险!"
+				""
+				""
+				"&7[This is your main method of generating pressure. Feed it coal or other burnables to produce compressed air. Be careful too much pressure can be dangerous!]&f"
+			]
 			id: "3E16CF590C911129"
 			rewards: [
 				{
@@ -327,11 +393,13 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "56A35164A8E072BE"
-				item: "pneumaticcraft:air_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56A35164A8E072BE"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 6.0d
 		}
@@ -357,11 +425,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "46E93CA18CA750A4"
-				item: "pneumaticcraft:pneumatic_wrench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46E93CA18CA750A4"
+					item: "pneumaticcraft:pneumatic_wrench"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 5.0d
 		}
@@ -370,7 +440,12 @@
 				"65E2AF881709C896"
 				"40F634AC38F42B88"
 			]
-			description: ["Used to charge pneumatic tools and armor with compressed air. Essential when you begin using items like the Jackhammer or Minigun."]
+			description: [
+				"用于为气动工具和盔甲充入压缩空气.当开始使用钻岩机或迷你机枪等装备时必不可少."
+				""
+				""
+				"&7[Used to charge pneumatic tools and armor with compressed air. Essential when you begin using items like the Jackhammer or Minigun.]&f"
+			]
 			id: "0AEAEA976ED0C470"
 			rewards: [
 				{
@@ -384,11 +459,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "26885ED4036D69D2"
-				item: "pneumaticcraft:charging_station"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26885ED4036D69D2"
+					item: "pneumaticcraft:charging_station"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 4.0d
 		}
@@ -414,11 +491,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "772A9A02784FC672"
-				item: "pneumaticcraft:manometer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "772A9A02784FC672"
+					item: "pneumaticcraft:manometer"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 4.0d
 		}
@@ -445,17 +524,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2669B32EE3AEDEF8"
-				item: "pneumaticcraft:camo_applicator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2669B32EE3AEDEF8"
+					item: "pneumaticcraft:camo_applicator"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["63F6F4EBCEB914B0"]
-			description: ["The base fluid for all pneumatic fuels. Extracted with a Gas Lift or Pumpjack and processed in a Refinery for Diesel, Gasoline, and more."]
+			description: [
+				"所有气动燃料的基础流体.通过&a气举&f或深井泵提取,并在精炼厂加工成柴油、汽油等产品."
+				""
+				""
+				"&7[The base fluid for all pneumatic fuels. Extracted with a Gas Lift or Pumpjack and processed in a Refinery for Diesel, Gasoline, and more.]&f"
+			]
 			id: "6CA01DCE1F4A0EC3"
 			rewards: [
 				{
@@ -469,18 +555,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6C705DCE141062B0"
-				item: "pneumaticcraft:oil_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6C705DCE141062B0"
+					item: "pneumaticcraft:oil_bucket"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6CA01DCE1F4A0EC3"]
 			description: [
-				"A method to extract Crude Oil from underground reservoirs. Requires power and pressure but is the first step toward oil processing."
+				"从地下储层提取&a原油&f的方法.需消耗能量与压力,是石油加工的首步工序."
 				""
 				""
 				"{image:pneumaticcraft:textures/patchouli/oil_pumping.png width:200 height:200 align:right fit:true}"
@@ -509,7 +597,10 @@
 				{
 					count: 32L
 					id: "4DFB6DCDCBFF7A2C"
-					item: { Count: 64, id: "pneumaticcraft:drill_pipe" }
+					item: {
+						Count: 64
+						id: "pneumaticcraft:drill_pipe"
+					}
 					type: "item"
 				}
 				{
@@ -526,7 +617,12 @@
 				"6CA01DCE1F4A0EC3"
 				"75D3F3C1D4A3EAA2"
 			]
-			description: ["Processes Crude Oil into usable fuels: Diesel, Gasoline, LPG, and more. This is your main fluid processing station for pneumatic fuel chains."]
+			description: [
+				"将&a原油&f加工成可用燃料:柴油、汽油、液化石油气等.这是气动燃料链中的核心流体处理站."
+				""
+				""
+				"&7[Processes Crude Oil into usable fuels: Diesel, Gasoline, LPG, and more. This is your main fluid processing station for pneumatic fuel chains.]&f"
+			]
 			icon: "pneumaticcraft:refinery"
 			id: "72C09FD89C28B1EC"
 			min_width: 300
@@ -557,13 +653,19 @@
 				{
 					count: 4L
 					id: "35E1DCDF9712B702"
-					item: { Count: 4, id: "pneumaticcraft:refinery_output" }
+					item: {
+						Count: 4
+						id: "pneumaticcraft:refinery_output"
+					}
 					type: "item"
 				}
 				{
 					count: 19L
 					id: "77B3A5EDBE2053B2"
-					item: { Count: 19, id: "pneumaticcraft:thermal_lagging" }
+					item: {
+						Count: 19
+						id: "pneumaticcraft:thermal_lagging"
+					}
 					type: "item"
 				}
 			]
@@ -572,7 +674,12 @@
 		}
 		{
 			dependencies: ["6CA01DCE1F4A0EC3"]
-			description: ["Splits compressed air into hot and cold streams. Useful for creating heat gradients needed in various machines like Refiners and Processing Plants."]
+			description: [
+				"将压缩空气分流为热流与冷流.可为精炼厂和&a处理&f厂等设备制造必需的热力梯度."
+				""
+				""
+				"&7[Splits compressed air into hot and cold streams. Useful for creating heat gradients needed in various machines like Refiners and Processing Plants.]&f"
+			]
 			id: "5AEE86EB39FD4087"
 			rewards: [
 				{
@@ -586,17 +693,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1E83B5E813F34290"
-				item: "pneumaticcraft:vortex_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E83B5E813F34290"
+					item: "pneumaticcraft:vortex_tube"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5AEE86EB39FD4087"]
-			description: ["Helps manage excess heat in thermal systems. Place these to dissipate heat and maintain optimal operation temperatures."]
+			description: [
+				"用于管理热力系统中的过剩热量.放置这些装置可消散热量,维持最佳运行温度."
+				""
+				""
+				"&7[Helps manage excess heat in thermal systems. Place these to dissipate heat and maintain optimal operation temperatures.]&f"
+			]
 			hide_dependency_lines: false
 			id: "3F9CCCFEF4E84166"
 			optional: true
@@ -612,17 +726,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2B250211827F00CD"
-				item: "pneumaticcraft:heat_sink"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2B250211827F00CD"
+					item: "pneumaticcraft:heat_sink"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5AEE86EB39FD4087"]
-			description: ["Transfers heat between machines or areas. Vital for creating efficient and balanced thermal systems."]
+			description: [
+				"在机器或区域间传递热量.对创建高效平衡的热力系统至关重要."
+				""
+				""
+				"&7[Transfers heat between machines or areas. Vital for creating efficient and balanced thermal systems.]&f"
+			]
 			id: "75D3F3C1D4A3EAA2"
 			rewards: [
 				{
@@ -636,11 +757,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "54D71DF75158990B"
-				item: "pneumaticcraft:heat_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "54D71DF75158990B"
+					item: "pneumaticcraft:heat_pipe"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 7.5d
 		}
@@ -659,11 +782,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0987C92B24E85529"
-				item: "pneumaticcraft:diesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0987C92B24E85529"
+					item: "pneumaticcraft:diesel_bucket"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 4.5d
 		}
@@ -682,11 +807,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "51B8052B00972CAE"
-				item: "pneumaticcraft:gasoline_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "51B8052B00972CAE"
+					item: "pneumaticcraft:gasoline_bucket"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 6.0d
 		}
@@ -706,17 +833,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "67CB1F35E3D8F8E6"
-				item: "pneumaticcraft:lpg_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67CB1F35E3D8F8E6"
+					item: "pneumaticcraft:lpg_bucket"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["04BE9F63E6003475"]
-			description: ["A multi functional machine that combines heat and pressure to create complex products like Plastic, Yeast, or Vegetable Oil."]
+			description: [
+				"集热力与压力于一体的多功能机器,可制造塑料、酵母或&a植物油&f等复杂产品."
+				""
+				""
+				"&7[A multi functional machine that combines heat and pressure to create complex products like Plastic, Yeast, or Vegetable Oil.]&f"
+			]
 			id: "43EF5513A1C52A37"
 			rewards: [
 				{
@@ -730,17 +864,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "79AE5C89B41B2E1D"
-				item: "pneumaticcraft:thermopneumatic_processing_plant"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "79AE5C89B41B2E1D"
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["43EF5513A1C52A37"]
-			description: ["Main ingredient used for various recipes from now on."]
+			description: [
+				"从现在起成为多种配方的主要原料."
+				""
+				""
+				"&7[Main ingredient used for various recipes from now on.]&f"
+			]
 			id: "54169B69725C49DF"
 			rewards: [
 				{
@@ -755,17 +896,24 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				id: "465E4DA026258598"
-				item: "industrialforegoing:plastic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "465E4DA026258598"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["Used to generate Rubber, a key component in plastic making. Can be automated with Mystical Agriculture."]
+			description: [
+				"用于生产橡胶(塑料制造的关键材料),可通过&d神秘农业&f实现自动化生产."
+				""
+				""
+				"&7[Used to generate Rubber, a key component in plastic making. Can be automated with Mystical Agriculture.]&f"
+			]
 			hide_until_deps_visible: true
 			id: "3F657CF4EBDDC3C4"
 			optional: true
@@ -788,17 +936,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "394922AA87243AC6"
-				item: "mysticalagriculture:plastic_seeds"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "394922AA87243AC6"
+					item: "mysticalagriculture:plastic_seeds"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["The first step in making Printed Circuit Boards. Crafted in a Pneumatic Chamber and later processed with UV, acid, and assembly machines."]
+			description: [
+				"制作&a印刷电路板&f的第一步.在气动室中制作,后续需经过紫外线、酸洗和组装机处理."
+				""
+				""
+				"&7[The first step in making Printed Circuit Boards. Crafted in a Pneumatic Chamber and later processed with UV, acid, and assembly machines.]&f"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -819,17 +974,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "071DA0091E3B96EA"
-				item: "pneumaticcraft:empty_pcb"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "071DA0091E3B96EA"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["43EF5513A1C52A37"]
-			description: ["Used to apply various upgrades to your pneumatic tools or armor. Insert into Charging Stations to customize your gear."]
+			description: [
+				"用于为气动工具或盔甲添加各类升级模块.放入充能站即可自定义装备属性."
+				""
+				""
+				"&7[Used to apply various upgrades to your pneumatic tools or armor. Insert into Charging Stations to customize your gear.]&f"
+			]
 			id: "5A9D6672385D3D82"
 			optional: true
 			rewards: [
@@ -844,17 +1006,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "517D32E01C12B2AF"
-				item: "pneumaticcraft:upgrade_matrix"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "517D32E01C12B2AF"
+					item: "pneumaticcraft:upgrade_matrix"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["Used to access the Amadron system, a drone-based trading network. Allows you to buy or sell items using in-game currency or fluids."]
+			description: [
+				"用于接入Amadron系统——基于无人机的贸易网络.可通过游戏内货币或流体买卖物品."
+				""
+				""
+				"&7[Used to access the Amadron system, a drone-based trading network. Allows you to buy or sell items using in-game currency or fluids.]&f"
+			]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:amadron_tablet"
@@ -881,11 +1050,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "513D5A4104275DA8"
-				item: "pneumaticcraft:amadron_tablet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "513D5A4104275DA8"
+					item: "pneumaticcraft:amadron_tablet"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 8.0d
 		}
@@ -894,7 +1065,12 @@
 				"230463E830D6FFEB"
 				"0D5015B8FF482D0A"
 			]
-			description: ["Used to guide the creation of PCBs. Place in the UV Light Box with an Empty PCB to expose it for etching."]
+			description: [
+				"用于指导印刷电路板制作.将其与&a空印刷电路板&f放入&a紫外光灯箱&f中进行曝光蚀刻."
+				""
+				""
+				"&7[Used to guide the creation of PCBs. Place in the UV Light Box with an Empty PCB to expose it for etching.]&f"
+			]
 			id: "7040CA41C0A3C2F2"
 			rewards: [
 				{
@@ -908,17 +1084,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "33C895A683077073"
-				item: "pneumaticcraft:pcb_blueprint"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33C895A683077073"
+					item: "pneumaticcraft:pcb_blueprint"
+					type: "item"
+				}
+			]
 			x: 15.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7040CA41C0A3C2F2"]
-			description: ["Exposes Empty PCBs using UV light. This process is required before the etching stage. Make sure it's powered and properly configured."]
+			description: [
+				"使用紫外线曝光&a空印刷电路板&f,这是蚀刻前的必要工序.需确保供电充足且配置正确."
+				""
+				""
+				"&7[Exposes Empty PCBs using UV light. This process is required before the etching stage. Make sure it's powered and properly configured.]&f"
+			]
 			id: "2CC56A4F06E53307"
 			rewards: [
 				{
@@ -932,17 +1115,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2F86488FC900EE22"
-				item: "pneumaticcraft:uv_light_box"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2F86488FC900EE22"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+			]
 			x: 15.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2CC56A4F06E53307"]
-			description: ["Used with Etching Acid to chemically process exposed PCBs. Slowly converts them into Unassembled PCBs."]
+			description: [
+				"与&a蚀刻酸&f配合对曝光后的电路板进行化学处理,逐步转化为未组装的电路板."
+				""
+				""
+				"&7[Used with Etching Acid to chemically process exposed PCBs. Slowly converts them into Unassembled PCBs.]&f"
+			]
 			id: "0D2F5CC96269F9E3"
 			rewards: [
 				{
@@ -956,17 +1146,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "642A986106FC39D5"
-				item: "pneumaticcraft:etching_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "642A986106FC39D5"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+			]
 			x: 17.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2CC56A4F06E53307"]
-			description: ["The chemical used in the Etching Tank to dissolve unwanted copper on the PCB."]
+			description: [
+				"在&a蚀刻器&f中使用的化学剂,用于溶解电路板上多余的铜箔."
+				""
+				""
+				"&7[The chemical used in the Etching Tank to dissolve unwanted copper on the PCB.]&f"
+			]
 			id: "52D3697F1F5625C7"
 			rewards: [
 				{
@@ -985,11 +1182,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "4BA3DB05F9E0F440"
-				item: "pneumaticcraft:etching_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4BA3DB05F9E0F440"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
 			x: 17.0d
 			y: 7.0d
 		}
@@ -998,7 +1197,12 @@
 				"52D3697F1F5625C7"
 				"0D2F5CC96269F9E3"
 			]
-			description: ["A processed but incomplete circuit board. You’ll need to send it through an Assembly Line to finalize it."]
+			description: [
+				"经过处理但未完成的电路板,需要送入组装流水线进行最终加工."
+				""
+				""
+				"&7[A processed but incomplete circuit board. You'll need to send it through an Assembly Line to finalize it.]&f"
+			]
 			id: "602C3E88D96F8843"
 			rewards: [
 				{
@@ -1012,11 +1216,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3D3BD61439134171"
-				item: "pneumaticcraft:unassembled_pcb"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D3BD61439134171"
+					item: "pneumaticcraft:unassembled_pcb"
+					type: "item"
+				}
+			]
 			x: 18.5d
 			y: 6.0d
 		}
@@ -1036,12 +1242,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 2L
-				id: "7E538C87D777B809"
-				item: "pneumaticcraft:transistor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7E538C87D777B809"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+			]
 			x: 19.5d
 			y: 7.5d
 		}
@@ -1061,12 +1269,17 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 2L
-				id: "6F954349AC36A8EE"
-				item: { Count: 2, id: "pneumaticcraft:capacitor" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "6F954349AC36A8EE"
+					item: {
+						Count: 2
+						id: "pneumaticcraft:capacitor"
+					}
+					type: "item"
+				}
+			]
 			x: 20.5d
 			y: 7.5d
 		}
@@ -1076,7 +1289,12 @@
 				"15D355EB164EBE68"
 				"7D81F2381516204D"
 			]
-			description: ["The completed Printed Circuit Board, ready to be used in advanced machines and upgrades. Requires a fully functional Assembly System."]
+			description: [
+				"制作完成的&a电路板&f,可用于高级机器和升级模块,需要完整的组装系统才能生产."
+				""
+				""
+				"&7[The completed Printed Circuit Board, ready to be used in advanced machines and upgrades. Requires a fully functional Assembly System.]&f"
+			]
 			id: "1427B3AB09510D20"
 			rewards: [
 				{
@@ -1092,17 +1310,24 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			tasks: [{
-				id: "7227DF9A138EF8A4"
-				item: "pneumaticcraft:printed_circuit_board"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7227DF9A138EF8A4"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+			]
 			x: 20.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1427B3AB09510D20"]
-			description: ["Tiny but powerful missiles used in combat or Sentry systems. Another example of PneumaticCraft’s tech-meets-combat features."]
+			description: [
+				"用于战斗或哨戒系统的微型强力导弹,体现了&d气动工艺&f科技与战斗结合的特性."
+				""
+				""
+				"&7[Tiny but powerful missiles used in combat or Sentry systems. Another example of PneumaticCraft's tech-meets-combat features.]&f"
+			]
 			id: "6D124ACF4AE80490"
 			rewards: [
 				{
@@ -1116,17 +1341,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "25DB01423306BCB0"
-				item: {
-					Count: 1
-					id: "pneumaticcraft:micromissiles"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "25DB01423306BCB0"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:micromissiles"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 20.0d
 			y: 5.0d
 		}
@@ -1145,17 +1372,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0434C940BC8BF492"
-				item: "pneumaticcraft:lubricant_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0434C940BC8BF492"
+					item: "pneumaticcraft:lubricant_bucket"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["43EF5513A1C52A37"]
-			description: ["An ingredient used in recipes or as a fuel alternative. Can be produced from seeds in the Processing Plant."]
+			description: [
+				"作为配方材料或替代燃料使用,可通过&a处理&f厂用种子生产."
+				""
+				""
+				"&7[An ingredient used in recipes or as a fuel alternative. Can be produced from seeds in the Processing Plant.]&f"
+			]
 			id: "649167FC31EB916E"
 			rewards: [
 				{
@@ -1169,17 +1403,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5CD3D552F51AEF08"
-				item: "pneumaticcraft:vegetable_oil_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5CD3D552F51AEF08"
+					item: "pneumaticcraft:vegetable_oil_bucket"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["649167FC31EB916E"]
-			description: ["Delicious and satisfying! A recipe created using PneumaticCraft’s food processing chain. Not just tasty—this also demonstrates machine integration."]
+			description: [
+				"美味又满足!这是利用&d气动工艺&f的食物加工链创造的配方.不仅口感绝佳——更展示了机械集成化的魅力."
+				""
+				""
+				"&7[Delicious and satisfying! A recipe created using PneumaticCraft's food processing chain. Not just tasty—this also demonstrates machine integration.]&f"
+			]
 			id: "42951D14ADCD9332"
 			rewards: [
 				{
@@ -1193,17 +1434,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "569BF001CEBF7853"
-				item: "pneumaticcraft:cod_n_chips"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "569BF001CEBF7853"
+					item: "pneumaticcraft:cod_n_chips"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["43EF5513A1C52A37"]
-			description: ["A food crafting ingredient made under specific conditions in the Thermopneumatic Plant. Used in recipes like Sourdough or Salmon Tempura."]
+			description: [
+				"在热力 pneumatic 工厂特定条件下制成的食品合成原料.可用于制作酸面团或&a鲑鱼天妇罗&f等配方."
+				""
+				""
+				"&7[A food crafting ingredient made under specific conditions in the Thermopneumatic Plant. Used in recipes like Sourdough or Salmon Tempura.]&f"
+			]
 			id: "0D31CD79BE6CC8D2"
 			optional: true
 			rewards: [
@@ -1218,17 +1466,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0A0F2FE6667668B4"
-				item: "pneumaticcraft:yeast_culture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A0F2FE6667668B4"
+					item: "pneumaticcraft:yeast_culture_bucket"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["0D31CD79BE6CC8D2"]
-			description: ["A special food item crafted with Yeast and other ingredients. Great nourishment and an example of PneumaticCraft’s unique food mechanics."]
+			description: [
+				"用酵母与其他原料合成的特殊食品.提供绝佳营养,同时展现了&d气动工艺&f独特的食物机制."
+				""
+				""
+				"&7[A special food item crafted with Yeast and other ingredients. Great nourishment and an example of PneumaticCraft's unique food mechanics.]&f"
+			]
 			id: "5A0860631323B5E3"
 			optional: true
 			rewards: [
@@ -1243,17 +1498,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "398EB377CFF84584"
-				item: "pneumaticcraft:sourdough"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "398EB377CFF84584"
+					item: "pneumaticcraft:sourdough"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			description: ["Makes crops grow faster"]
+			description: [
+				"加速作物生长"
+				""
+				""
+				"&7[Makes crops grow faster]&f"
+			]
 			id: "21624A6500545C42"
 			rewards: [
 				{
@@ -1272,11 +1534,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "71648EA7642F2F98"
-				item: "pneumaticcraft:crop_support"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71648EA7642F2F98"
+					item: "pneumaticcraft:crop_support"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 1.0d
 		}
@@ -1295,17 +1559,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5AABACDDAB9931BD"
-				item: "pneumaticcraft:assembly_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5AABACDDAB9931BD"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["An upgrade to standard tubes. These can handle much higher pressures without exploding ideal for advanced or large scale systems."]
+			description: [
+				"标准管道的升级版.可承受更高压力而不会爆炸,非常适合高级或大型系统."
+				""
+				""
+				"&7[An upgrade to standard tubes. These can handle much higher pressures without exploding ideal for advanced or large scale systems.]&f"
+			]
 			id: "32C3E14578D48E6C"
 			optional: true
 			rewards: [
@@ -1320,11 +1591,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5EE58C7A02CDDEAB"
-				item: "pneumaticcraft:reinforced_pressure_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EE58C7A02CDDEAB"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 9.0d
 		}
@@ -1343,11 +1616,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6F6E29CA6E7C73CF"
-				item: "pneumaticcraft:assembly_platform"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F6E29CA6E7C73CF"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 5.0d
 		}
@@ -1366,11 +1641,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5D7B8FC80827036D"
-				item: "pneumaticcraft:assembly_io_unit_export"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D7B8FC80827036D"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 4.0d
 		}
@@ -1389,11 +1666,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "231904B21E2469D7"
-				item: "pneumaticcraft:assembly_io_unit_import"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "231904B21E2469D7"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 7.0d
 		}
@@ -1413,11 +1692,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "61D1591D2196CFBA"
-				item: "pneumaticcraft:assembly_laser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61D1591D2196CFBA"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 3.0d
 		}
@@ -1437,11 +1718,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7BC0D5FBCC775A7A"
-				item: "pneumaticcraft:assembly_drill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BC0D5FBCC775A7A"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 8.0d
 		}
@@ -1454,7 +1737,12 @@
 				"795143471F31A64A"
 				"0D50BDEFA0319EA1"
 			]
-			description: ["Yeah im not guiding you on how to use them use your brain for once."]
+			description: [
+				"没错,我可不会指导你怎么用它们,这次动动脑子自己想办法."
+				""
+				""
+				"&7[Yeah im not guiding you on how to use them use your brain for once.]&f"
+			]
 			id: "3A9AC6AB4407DC32"
 			min_width: 250
 			rewards: [
@@ -1470,18 +1758,25 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "5B60A2A80EBB37FF"
-				title: "eh"
-				type: "checkmark"
-			}]
-			title: "Don't feel like it"
+			tasks: [
+				{
+					id: "5B60A2A80EBB37FF"
+					title: "呃"
+					type: "checkmark"
+				}
+			]
+			title: "不想解释&7[Don't feel like it]&f"
 			x: 25.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["40F634AC38F42B88"]
-			description: ["Tube Junctions help you organize and route air flow in complex systems. Handy when connecting multiple machines from a single compressor line."]
+			description: [
+				"&a管道跨接点&f能帮助你在复杂系统中整理和引导气流.当需要从单一压缩机线路连接多个机器时非常实用."
+				""
+				""
+				"&7[Tube Junctions help you organize and route air flow in complex systems. Handy when connecting multiple machines from a single compressor line.]&f"
+			]
 			id: "7FB12EC3A5888123"
 			optional: true
 			rewards: [
@@ -1497,17 +1792,24 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "7DA329A34A338668"
-				item: "pneumaticcraft:tube_junction"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DA329A34A338668"
+					item: "pneumaticcraft:tube_junction"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3A9AC6AB4407DC32"]
-			description: ["Even more robust than Reinforced Tubes. These can handle extreme pressure and flow rates needed for high throughput setups."]
+			description: [
+				"比强化管道更坚固的版本.可承受高通量配置所需的极端压力与流速."
+				""
+				""
+				"&7[Even more robust than Reinforced Tubes. These can handle extreme pressure and flow rates needed for high throughput setups.]&f"
+			]
 			id: "64E2E05B228EA53E"
 			rewards: [
 				{
@@ -1521,17 +1823,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5109AD27D2D93269"
-				item: "pneumaticcraft:advanced_pressure_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5109AD27D2D93269"
+					item: "pneumaticcraft:advanced_pressure_tube"
+					type: "item"
+				}
+			]
 			x: 26.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["64E2E05B228EA53E"]
-			description: ["Generates pressure using Redstone Flux (RF). Useful if you have access to a strong power grid instead of fuel or heat."]
+			description: [
+				"利用红石通量(RF)产生压力.若拥有强力电网而非燃料或热源时非常实用."
+				""
+				""
+				"&7[Generates pressure using Redstone Flux (RF). Useful if you have access to a strong power grid instead of fuel or heat.]&f"
+			]
 			id: "7395B41685F4BC1A"
 			rewards: [
 				{
@@ -1545,17 +1854,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0FF09F8AE76CDC96"
-				item: "pneumaticcraft:flux_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0FF09F8AE76CDC96"
+					item: "pneumaticcraft:flux_compressor"
+					type: "item"
+				}
+			]
 			x: 28.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["64E2E05B228EA53E"]
-			description: ["An upgraded version of the Air Compressor. More efficient, faster, and capable of higher pressures."]
+			description: [
+				"&a空气压缩机&f的升级版本.效率更高、速度更快,且能产生更大压力."
+				""
+				""
+				"&7[An upgraded version of the Air Compressor. More efficient, faster, and capable of higher pressures.]&f"
+			]
 			id: "2745297337E13E9E"
 			rewards: [
 				{
@@ -1569,11 +1885,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "31D49013ABE68843"
-				item: "pneumaticcraft:advanced_air_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31D49013ABE68843"
+					item: "pneumaticcraft:advanced_air_compressor"
+					type: "item"
+				}
+			]
 			x: 28.0d
 			y: 5.5d
 		}
@@ -1595,18 +1913,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "38F7BA2B8FC50520"
-				item: "pneumaticcraft:solar_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "38F7BA2B8FC50520"
+					item: "pneumaticcraft:solar_compressor"
+					type: "item"
+				}
+			]
 			x: 26.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
 			description: [
-				"An alternative to the Air Compressor, this uses flammable fluids like Diesel or LPG. Often more efficient and cleaner for long-term setups."
+				"可替代&a空气压缩机&f,使用柴油或液化石油气等可燃流体.长期运行效率更高且更清洁."
 				""
 				""
 				""
@@ -1625,18 +1945,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7C9F61622A4A5E94"
-				item: "pneumaticcraft:liquid_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C9F61622A4A5E94"
+					item: "pneumaticcraft:liquid_compressor"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2745297337E13E9E"]
 			description: [
-				"Generates pressure from lightning. A powerful and futuristic alternative with no fuel or heat required."
+				"通过闪电产生压力.无需燃料或热量的高效未来科技方案."
 				""
 				""
 				"{image:pneumaticcraft:textures/patchouli/electrostatic_compressor.png width:100 height:100 align:left fit:true}"
@@ -1654,18 +1976,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "35756A83B78F3F8A"
-				item: "pneumaticcraft:electrostatic_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35756A83B78F3F8A"
+					item: "pneumaticcraft:electrostatic_compressor"
+					type: "item"
+				}
+			]
 			x: 29.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
 			description: [
-				"Generates pressure using heat instead of fuel."
+				"利用热能而非燃料产生压力."
 				""
 				"{image:pneumaticcraft:textures/patchouli/thermal_compressor.png width:100 height:100 align:left fit:true}"
 			]
@@ -1682,17 +2006,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2974FD173EA30320"
-				item: "pneumaticcraft:thermal_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2974FD173EA30320"
+					item: "pneumaticcraft:thermal_compressor"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			description: ["A high-powered tool powered by pressure. Breaks blocks faster than traditional tools and supports drill bit upgrades."]
+			description: [
+				"由气压驱动的高功率工具.破坏方块速度超越传统工具,并支持钻头升级."
+				""
+				""
+				"&7[A high-powered tool powered by pressure. Breaks blocks faster than traditional tools and supports drill bit upgrades.]&f"
+			]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:jackhammer"
@@ -1713,11 +2044,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7902D4BF9699E1C0"
-				item: "pneumaticcraft:jackhammer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7902D4BF9699E1C0"
+					item: "pneumaticcraft:jackhammer"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: 4.5d
 		}
@@ -1739,11 +2072,13 @@
 			]
 			shape: "diamond"
 			size: 1.1d
-			tasks: [{
-				id: "19DED55076DD7406"
-				item: "pneumaticcraft:heat_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19DED55076DD7406"
+					item: "pneumaticcraft:heat_frame"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 7.5d
 		}
@@ -1768,11 +2103,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5ED9B866B6340170"
-				item: "pneumaticcraft:drill_bit_diamond"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5ED9B866B6340170"
+					item: "pneumaticcraft:drill_bit_diamond"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 4.5d
 		}
@@ -1791,12 +2128,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 3L
-				id: "1ADA892FCECCFF47"
-				item: "pneumaticcraft:solar_cell"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 3L
+					id: "1ADA892FCECCFF47"
+					item: "pneumaticcraft:solar_cell"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 7.5d
 		}
@@ -1823,17 +2162,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "69AA17BB9454C502"
-				item: "pneumaticcraft:drill_bit_netherite"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69AA17BB9454C502"
+					item: "pneumaticcraft:drill_bit_netherite"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["64E2E05B228EA53E"]
-			description: ["A special block that connects your inventory directly to pressure systems. Great for wireless automation and tool usage."]
+			description: [
+				"将物品栏直接连接至压力系统的特殊方块.为无线自动化和工具使用提供极大便利."
+				""
+				""
+				"&7[A special block that connects your inventory directly to pressure systems. Great for wireless automation and tool usage.]&f"
+			]
 			id: "64D34A6C3487C5DF"
 			rewards: [
 				{
@@ -1849,17 +2195,24 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "295BF54A9DAC634C"
-				item: "pneumaticcraft:aerial_interface"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "295BF54A9DAC634C"
+					item: "pneumaticcraft:aerial_interface"
+					type: "item"
+				}
+			]
 			x: 26.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2745297337E13E9E"]
-			description: ["A high end compressor that runs on fluid fuels. Provides better fuel efficiency and higher pressure capacity."]
+			description: [
+				"使用流体燃料运行的高端压缩机.提供更优的燃料效率和更高的压力容量."
+				""
+				""
+				"&7[A high end compressor that runs on fluid fuels. Provides better fuel efficiency and higher pressure capacity.]&f"
+			]
 			id: "02643BAD1AE747C6"
 			rewards: [
 				{
@@ -1873,11 +2226,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "46164653473C8CDB"
-				item: "pneumaticcraft:advanced_liquid_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46164653473C8CDB"
+					item: "pneumaticcraft:advanced_liquid_compressor"
+					type: "item"
+				}
+			]
 			x: 29.5d
 			y: 5.0d
 		}
@@ -1897,17 +2252,24 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "2C8686ED04F885AA"
-				item: "pneumaticcraft:charging_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C8686ED04F885AA"
+					item: "pneumaticcraft:charging_module"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["22572456571C3F8D"]
-			description: [""]
+			description: [
+				""
+				""
+				""
+				""
+			]
 			id: "132DF9ECEFFB3B71"
 			rewards: [
 				{
@@ -1922,17 +2284,24 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "18E6FFF0AC1612F5"
-				item: "pneumaticcraft:module_expansion_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18E6FFF0AC1612F5"
+					item: "pneumaticcraft:module_expansion_card"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["142C67218BD16867"]
-			description: ["A powerful air-powered weapon. It requires pressure and proper ammo to operate. Great for defense or just having fun with tech."]
+			description: [
+				"强力的气动武器.需要压力与合适弹药才能运作,既可用于防御,也能体验科技乐趣."
+				""
+				""
+				"&7[A powerful air-powered weapon. It requires pressure and proper ammo to operate. Great for defense or just having fun with tech.]&f"
+			]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:minigun"
@@ -1953,17 +2322,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3C4D170739B83904"
-				item: "pneumaticcraft:minigun"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C4D170739B83904"
+					item: "pneumaticcraft:minigun"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["65E2AF881709C896"]
-			description: ["The ammunition for the Minigun. Craft it in bulk and keep it stored in your Charging Station or inventory."]
+			description: [
+				"机枪的弹药.批量制作并储存在充能&a空间站&f或物品栏中."
+				""
+				""
+				"&7[The ammunition for the Minigun. Craft it in bulk and keep it stored in your Charging Station or inventory.]&f"
+			]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:gun_ammo"
@@ -1984,25 +2360,27 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "500BA99608E87FAF"
-				item: {
-					Count: 1
-					id: "pneumaticcraft:gun_ammo"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "500BA99608E87FAF"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:gun_ammo"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Minigun ammo"
+			]
+			title: "机枪弹药&7[Minigun ammo]&f"
 			x: 3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["495DCA49B4E80852"]
 			description: [
-				"Autonomous air-powered turret. Defend your base from mobs or intruders using programmable targeting and loaded Minigun Ammo."
+				"自主气动炮台.通过可编程瞄准系统与装填的&a加特林机枪弹药&f,保护你的基地免受生物或入侵者威胁."
 				""
 				""
 				"{image:pneumaticcraft:textures/patchouli/sentry_turret.png width:100 height:100 align:left fit:true}"
@@ -2020,30 +2398,36 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "02A2904F56A5A71B"
-				item: "pneumaticcraft:sentry_turret"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "02A2904F56A5A71B"
+					item: "pneumaticcraft:sentry_turret"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5A0860631323B5E3"]
 			id: "2FFE707159EF2DA6"
-			rewards: [{
-				id: "0224867098D8C636"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "43E5FF47EA66C763"
-				item: "pneumaticcraft:raw_salmon_tempura"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0224867098D8C636"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "43E5FF47EA66C763"
+					item: "pneumaticcraft:raw_salmon_tempura"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 10.5d
 		}
 	]
-	title: "&2PneumaticCraft"
+	title: "&2&d气动工艺&f&7[PneumaticCraft]&f"
 }

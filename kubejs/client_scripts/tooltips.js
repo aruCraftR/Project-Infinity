@@ -29,9 +29,9 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(
     ['mm:multi_compactor_controller'],
     (item, advanced, text) => {
-      text.add(1, Text.white('You will get the Philosopher Stone and'));
-      text.add(2, Text.white('the Master Infusion Crystal back.'));
-      text.add(3, Text.white('They dont get consumed.'));
+      text.add(1, Text.white('你将获得贤者之石与'));
+      text.add(2, Text.white('主灌注水晶的返还.'));
+      text.add(3, Text.white('它们不会被消耗.'));
     }
   );
 
@@ -44,14 +44,14 @@ ItemEvents.tooltip((event) => {
     (item, advanced, text) => {
       if (!event.shift) {
         text.add(1, [
-          Text.of('Hold ').gold(),
-          Text.of('Shift ').yellow(),
-          Text.of('to see more info.').gold(),
+          Text.of('按住').gold(),
+          Text.of('Shift键').yellow(),
+          Text.of('查看更多信息.').gold(),
         ]);
       } else {
         text.add(
           1,
-          Text.green('Build a Neutron Collector. Good Luck!').bold(true)
+          Text.green('建造一个中子收集器.祝你好运!').bold(true)
         );
       }
     }
@@ -60,12 +60,12 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(['armorplus:lava_crystal'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
+        Text.of('按住').gold(),
+        Text.of('Shift键').yellow(),
+        Text.of('查看更多信息.').gold(),
       ]);
     } else {
-      text.add(1, Text.green('Trow me in Lava to get Infused Lava Crystal'));
+      text.add(1, Text.green('将我投入岩浆以获得灌注熔岩水晶'));
     }
     text.remove(2);
   });
@@ -74,9 +74,9 @@ ItemEvents.tooltip((event) => {
     if (!event.shift) {
       text.remove(1);
       text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
+        Text.of('按住').gold(),
+        Text.of('Shift键').yellow(),
+        Text.of('查看更多信息.').gold(),
       ]);
     } else {
       (text.add(
@@ -105,12 +105,12 @@ ItemEvents.tooltip((event) => {
     (item, advanced, text) => {
       if (!event.shift) {
         text.add(1, [
-          Text.of('Hold ').gold(),
-          Text.of('Shift ').yellow(),
-          Text.of('to see more info.').gold(),
+          Text.of('按住').gold(),
+          Text.of('Shift键').yellow(),
+          Text.of('查看更多信息.').gold(),
         ]);
       } else {
-        text.add(1, Text.green('Find me inside the Mining Dimension'));
+        text.add(1, Text.green('在采矿维度内找到我'));
       }
     }
   );
@@ -120,9 +120,9 @@ ItemEvents.tooltip((event) => {
     (item, advanced, text) => {
       if (!event.shift) {
         text.add(1, [
-          Text.of('Hold ').gold(),
-          Text.of('Shift ').yellow(),
-          Text.of('to see more info.').gold(),
+          Text.of('按住').gold(),
+          Text.of('Shift键').yellow(),
+          Text.of('查看更多信息.').gold(),
         ]);
       } else {
         text.add(
@@ -138,14 +138,14 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(['occultism:iesnium_ore'], (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, [
-        Text.of('Hold ').gold(),
-        Text.of('Shift ').yellow(),
-        Text.of('to see more info.').gold(),
+        Text.of('按住').gold(),
+        Text.of('Shift键').yellow(),
+        Text.of('查看更多信息.').gold(),
       ]);
     } else {
       text.add(
         1,
-        Text.green('Find me inside the Nether Mining Dimension. Y-Level 0-50')
+        Text.green('在下界采矿维度内找到我.Y轴高度0-50')
       );
     }
   });
@@ -162,14 +162,14 @@ ItemEvents.tooltip((event) => {
       'botanicalmachinery:mana_battery_creative',
     ],
     (item, advanced, text) => {
-      text.add(1, Text.red('Recipe added by Kem5540. Thanks a lot!'));
+      text.add(1, Text.red('配方由Kem5540添加.非常感谢!'));
     }
   );
 
   event.addAdvanced(
     ['pneumaticcraft:creative_compressor'],
     (item, advanced, text) => {
-      text.add(1, Text.red('Recipe added by Itz_izumito. Thanks a lot!'));
+      text.add(1, Text.red('配方由Itz_izumito添加.非常感谢!'));
     }
   );
 
@@ -189,7 +189,7 @@ ItemEvents.tooltip((event) => {
   );
 
   event.addAdvanced(['kubejs:ultimate_prediction'], (item, advanced, text) => {
-    text.add(1, Text.red('Recipe and Item added by realspinelle.'));
-    text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
+    text.add(1, Text.red('配方与物品由realspinelle添加.'));
+    text.add(2, Text.red('非常感谢!别恨我,恨他:)'));
   });
 });

@@ -1,9 +1,24 @@
 {
 	chapter_groups: [
-		{ id: "5F4DF11C296D769D", title: "&5Storyline" }
-		{ id: "3D3A412C3395C674", title: "Resource Generation" }
-		{ id: "5255C8D5C49409ED", title: "Storage and Power" }
-		{ id: "29543B666C58207C", title: "Production" }
-		{ id: "5A71028F4E9FB5EC", title: "Challenges" }
+		{
+			id: "5F4DF11C296D769D"
+			title: "&5剧情线"
+		}
+		{
+			id: "3D3A412C3395C674"
+			title: "资源生成"
+		}
+		{
+			id: "5255C8D5C49409ED"
+			title: "存储与能源"
+		}
+		{
+			id: "29543B666C58207C"
+			title: "生产制造"
+		}
+		{
+			id: "5A71028F4E9FB5EC"
+			title: "挑战任务"
+		}
 	]
 }

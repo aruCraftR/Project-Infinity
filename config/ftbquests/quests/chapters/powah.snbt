@@ -37,9 +37,14 @@
 	quests: [
 		{
 			description: [
-				"Powah is a modern tech mod that adds efficient energy generation, storage, and transmission systems to Minecraft. It introduces Energetic Blocks, Reactors, and Upgrades that operate using its internal energy system, \"Energized.\""
+				"Powah是一款现代科技模组,为Minecraft添加高效能源生成、存储与传输系统.它引入能量方块、反应堆和升级设备,全部使用其内部“充能“体系运作."
 				""
-				"To get started, go out and mine some &aUraninite&r!"
+				"入门指南:去挖掘一些&a沥青铀矿&r!"
+				""
+				""
+				"&7[Powah is a modern tech mod that adds efficient energy generation, storage, and transmission systems to Minecraft. It introduces Energetic Blocks, Reactors, and Upgrades that operate using its internal energy system, \"Energized.\"]&f"
+				""
+				"&7[To get started, go out and mine some Uraninite!]&f"
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
@@ -63,19 +68,25 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "3C45AF8C3DC5A45E"
-				item: "powah:uraninite_raw"
-				type: "item"
-			}]
-			title: "&aWelcome to&r &9Powah&r!!!"
+			tasks: [
+				{
+					id: "3C45AF8C3DC5A45E"
+					item: "powah:uraninite_raw"
+					type: "item"
+				}
+			]
+			title: "&a欢迎来到&r &9Powah&r!!!&7[Welcome to Powah!!!]&f"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B2027DA7AA6FF34"]
 			description: [
-				"Dielectric Paste is a crafting material used in Powah to create insulated Energized Cables, preventing energy loss in power transfer. It's also used in higher-tier machines and reactors for improved energy efficiency."
+				"&a绝缘覆层&f是Powah中的合成材料,用于制造绝缘充能电缆,防止能量传输损耗.同时也用于提升高阶机器和反应堆的能效."
+				""
+				""
+				""
+				"&7[Dielectric Paste is a crafting material used in Powah to create insulated Energized Cables, preventing energy loss in power transfer. It's also used in higher-tier machines and reactors for improved energy efficiency.]&f"
 				""
 			]
 			hide_dependency_lines: false
@@ -108,13 +119,18 @@
 					type: "item"
 				}
 			]
-			title: "Starting with Dielectric Mats"
+			title: "从绝缘覆层开始&7[Starting with Dielectric Mats]&f"
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["The Energizing Orb is a multiblock structure from Powah that uses energy (\"Energized\") to craft special items and charge gear. It acts as a powered crafting station for high-tech recipes."]
+			description: [
+				"充能宝珠是Powah的多方块结构,利用能量(“充能“)合成特殊物品并为装备充电.它是高科技配方专用的动力合成站."
+				""
+				""
+				"&7[The Energizing Orb is a multiblock structure from Powah that uses energy (\"Energized\") to craft special items and charge gear. It acts as a powered crafting station for high-tech recipes.]&f"
+			]
 			hide_dependency_lines: false
 			icon: "powah:energizing_orb"
 			id: "3DDF87A1E5F5D009"
@@ -202,13 +218,18 @@
 					type: "item"
 				}
 			]
-			title: "The &9Energizing Orb&r"
+			title: "&9充能宝珠&r&7[The Energizing Orb]&f"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Generates power from heat (lava, magma blocks, fire)."]
+			description: [
+				"通过热能(岩浆、岩浆块、火焰)发电."
+				""
+				""
+				"&7[Generates power from heat (lava, magma blocks, fire).]&f"
+			]
 			id: "52E59FCB39D66BCF"
 			rewards: [
 				{
@@ -223,17 +244,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "6D3CE4788C112806"
-				item: "powah:thermo_generator_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D3CE4788C112806"
+					item: "powah:thermo_generator_starter"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Burns solid fuels (coal, wood) for energy."]
+			description: [
+				"燃烧固体燃料(煤炭、木材)产生能量."
+				""
+				""
+				"&7[Burns solid fuels (coal, wood) for energy.]&f"
+			]
 			id: "3D5F87F8E6B89C1B"
 			rewards: [
 				{
@@ -248,17 +276,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "7071C57ACD94C9F5"
-				item: "powah:furnator_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7071C57ACD94C9F5"
+					item: "powah:furnator_starter"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Daylight-powered generator (tiers: Basic → Blazing → Nitro)."]
+			description: [
+				"日光发电机(等级:基础→炽焰→硝基)."
+				""
+				""
+				"&7[Daylight-powered generator (tiers: Basic → Blazing → Nitro).]&f"
+			]
 			id: "7678B5DD1339833E"
 			rewards: [
 				{
@@ -273,17 +308,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "2B3E7BB9F4D228A7"
-				item: "powah:solar_panel_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2B3E7BB9F4D228A7"
+					item: "powah:solar_panel_starter"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Upgraded thermal gen that consumes lava buckets faster for higher output."]
+			description: [
+				"&a增强型&f热力发电机,通过更快消耗熔岩桶实现更高输出."
+				""
+				""
+				"&7[Upgraded thermal gen that consumes lava buckets faster for higher output.]&f"
+			]
 			id: "0FD62827710F0AC6"
 			rewards: [
 				{
@@ -298,24 +340,35 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "58D16A3D3A480A37"
-				item: "powah:magmator_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58D16A3D3A480A37"
+					item: "powah:magmator_starter"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
 			description: [
-				"The &9Reactor&r is a 3x4x3 multiblock generator that burns &aUrananite&r as fuel to produce FE."
+				"&9反应堆&r是3x4x3的多方块发电机,通过燃烧&a铀矿&r产生FE能量."
 				""
-				"To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!"
+				"建造需36个反应堆方块.手持36个方块时放置一个将自动搭建完整结构,请提前清理施工区域!"
 				""
-				"You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &bcoolant&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &bDry Ice&r makes for a great solid coolant! (Note: 1 Water Bucket will do)"
+				"冷却反应堆可提升FE产量,可使用固态或液态&b冷却剂&r.使用固态冷却剂时需额外添加液态冷却剂,&b&a干冰&f&r是优质固态冷却剂!(注:1桶&a水&f即可)"
 				""
-				"Late-game energy source."
+				"后期能源来源."
+				""
+				""
+				"&7[The Reactor is a 3x4x3 multiblock generator that burns Urananite as fuel to produce FE.]&f"
+				""
+				"&7[To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!]&f"
+				""
+				"&7[You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid coolant. To use a solid coolant, you'll also need to give it some liquid coolant as well. Dry Ice makes for a great solid coolant! (Note: 1 Water Bucket will do)]&f"
+				""
+				"&7[Late-game energy source.]&f"
 			]
 			id: "1B0087400B0B8B49"
 			min_width: 300
@@ -337,19 +390,26 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				count: 36L
-				id: "576DD3980CD97FBC"
-				item: "powah:reactor_starter"
-				type: "item"
-			}]
-			title: "Reactor (Starter)"
+			tasks: [
+				{
+					count: 36L
+					id: "576DD3980CD97FBC"
+					item: "powah:reactor_starter"
+					type: "item"
+				}
+			]
+			title: "反应堆(初级)&7[Reactor (Starter)]&f"
 			x: -1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7D52DD751DDADA1B"]
-			description: ["Teleports energy between two linked gates across dimensions."]
+			description: [
+				"跨维度在相连的传送门间传输能量."
+				""
+				""
+				"&7[Teleports energy between two linked gates across dimensions.]&f"
+			]
 			id: "3CB6DC5B09C62CFE"
 			rewards: [
 				{
@@ -364,17 +424,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "185C323B23AA0983"
-				item: "powah:ender_gate_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "185C323B23AA0983"
+					item: "powah:ender_gate_starter"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Basic power transfer wire (insulate with Dielectric Paste)."]
+			description: [
+				"基础能量传输线(需用&a绝缘覆层&f包裹)."
+				""
+				""
+				"&7[Basic power transfer wire (insulate with Dielectric Paste).]&f"
+			]
 			id: "7D52DD751DDADA1B"
 			rewards: [
 				{
@@ -389,17 +456,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "72A59D5484D75032"
-				item: "powah:energy_cable_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72A59D5484D75032"
+					item: "powah:energy_cable_starter"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Wirelessly charges equipped tools/armor when linked to a Binding Card."]
+			description: [
+				"当与&a绑定卡&f连接时,可为装备的工具/盔甲无线充电."
+				""
+				""
+				"&7[Wirelessly charges equipped tools/armor when linked to a Binding Card.]&f"
+			]
 			icon: "powah:player_transmitter_starter"
 			id: "677365A816994C8B"
 			rewards: [
@@ -447,7 +521,12 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Transfers energy wirelessly between linked blocks (upgradeable range)."]
+			description: [
+				"在相连方块间无线传输能量(可升级范围)."
+				""
+				""
+				"&7[Transfers energy wirelessly between linked blocks (upgradeable range).]&f"
+			]
 			id: "5BCA3F716348ECCD"
 			optional: true
 			rewards: [
@@ -463,17 +542,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "3C2CFE54F8372650"
-				item: "powah:energy_hopper_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C2CFE54F8372650"
+					item: "powah:energy_hopper_starter"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Releases stored energy into adjacent machines or cables."]
+			description: [
+				"将储存的能量释放至相邻机器或电缆."
+				""
+				""
+				"&7[Releases stored energy into adjacent machines or cables.]&f"
+			]
 			id: "33816AF0E699F19F"
 			optional: true
 			rewards: [
@@ -489,17 +575,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "43B03D8E251B44DD"
-				item: "powah:energy_discharger_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43B03D8E251B44DD"
+					item: "powah:energy_discharger_starter"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["The Energy Cell is Powah’s modular energy storage block, capable of storing and distributing \"Energized\" power to connected machines or cables."]
+			description: [
+				"&a能源元件&f是Powah的模块化能量存储单元,可储存并向连接的机器或电缆分配“充能“能量."
+				""
+				""
+				"&7[The Energy Cell is Powah's modular energy storage block, capable of storing and distributing \"Energized\" power to connected machines or cables.]&f"
+			]
 			id: "78202A1CF5D86B94"
 			rewards: [
 				{
@@ -514,18 +607,25 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "096413BFA9FB2C10"
-				item: "powah:energy_cell_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "096413BFA9FB2C10"
+					item: "powah:energy_cell_starter"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
 			dependency_requirement: "one_completed"
-			description: ["Wireless energy storage that syncs across dimensions (like an Ender Chest for power)."]
+			description: [
+				"跨维度同步的无线能量存储(类似能量的&a末影箱&f)."
+				""
+				""
+				"&7[Wireless energy storage that syncs across dimensions (like an Ender Chest for power).]&f"
+			]
 			hide_dependency_lines: true
 			id: "700F3FF7C23D0C0F"
 			rewards: [
@@ -541,17 +641,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "30E35BC580349772"
-				item: "powah:ender_cell_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "30E35BC580349772"
+					item: "powah:ender_cell_starter"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Portable energy storage (small → large tiers)."]
+			description: [
+				"便携能量存储设备(小→大等级)."
+				""
+				""
+				"&7[Portable energy storage (small → large tiers).]&f"
+			]
 			id: "61A8FAEC4FF18449"
 			rewards: [
 				{
@@ -566,15 +673,17 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "1D02EF09FDC433ED"
-				item: {
-					Count: 1
-					id: "powah:battery_starter"
-					tag: { }
+			tasks: [
+				{
+					id: "1D02EF09FDC433ED"
+					item: {
+						Count: 1
+						id: "powah:battery_starter"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -11.0d
 			y: 6.5d
 		}
@@ -597,11 +706,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "13A1F6468574ED2A"
-				item: "powah:energy_discharger_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13A1F6468574ED2A"
+					item: "powah:energy_discharger_basic"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 1.5d
 		}
@@ -623,11 +734,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "66DEF2F1E882F41E"
-				item: "powah:energy_hopper_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66DEF2F1E882F41E"
+					item: "powah:energy_hopper_basic"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 1.5d
 		}
@@ -648,11 +761,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "5ED7B42C22BCD280"
-				item: "powah:player_transmitter_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5ED7B42C22BCD280"
+					item: "powah:player_transmitter_basic"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 1.5d
 		}
@@ -673,15 +788,17 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "64BF6A3821454638"
-				item: {
-					Count: 1
-					id: "powah:battery_basic"
-					tag: { }
+			tasks: [
+				{
+					id: "64BF6A3821454638"
+					item: {
+						Count: 1
+						id: "powah:battery_basic"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -11.5d
 			y: 7.5d
 		}
@@ -703,11 +820,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "08187D03C13CC05A"
-				item: "powah:ender_cell_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08187D03C13CC05A"
+					item: "powah:ender_cell_basic"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 7.5d
 		}
@@ -730,11 +849,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "166247828A9C16E2"
-				item: "powah:energy_cell_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "166247828A9C16E2"
+					item: "powah:energy_cell_basic"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 15.5d
 		}
@@ -757,11 +878,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "6FFB4F8A40315B4F"
-				item: "powah:energy_cable_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6FFB4F8A40315B4F"
+					item: "powah:energy_cable_basic"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 15.5d
 		}
@@ -782,11 +905,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "2519EA38B1E3AA6F"
-				item: "powah:ender_gate_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2519EA38B1E3AA6F"
+					item: "powah:ender_gate_basic"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 15.5d
 		}
@@ -807,11 +932,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "18DA813AAFFAB349"
-				item: "powah:magmator_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18DA813AAFFAB349"
+					item: "powah:magmator_basic"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 7.5d
 		}
@@ -832,11 +959,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "2920C14299A40CD7"
-				item: "powah:furnator_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2920C14299A40CD7"
+					item: "powah:furnator_basic"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 7.5d
 		}
@@ -857,11 +986,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "414DD76E288A6CF7"
-				item: "powah:thermo_generator_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "414DD76E288A6CF7"
+					item: "powah:thermo_generator_basic"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 7.5d
 		}
@@ -882,13 +1013,15 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				count: 36L
-				id: "18847CA551A72B03"
-				item: "powah:reactor_basic"
-				type: "item"
-			}]
-			title: "Reactor (Basic)"
+			tasks: [
+				{
+					count: 36L
+					id: "18847CA551A72B03"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+			]
+			title: "反应堆(基础)&7[Reactor (Basic)]&f"
 			x: -1.5d
 			y: 11.5d
 		}
@@ -909,11 +1042,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "487DA52CCD1741A3"
-				item: "powah:solar_panel_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "487DA52CCD1741A3"
+					item: "powah:solar_panel_basic"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 11.5d
 		}
@@ -936,11 +1071,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "040A94FEA0038444"
-				item: "powah:energy_discharger_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "040A94FEA0038444"
+					item: "powah:energy_discharger_hardened"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 1.5d
 		}
@@ -962,11 +1099,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "5B3DDFB23CA6C703"
-				item: "powah:energy_hopper_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B3DDFB23CA6C703"
+					item: "powah:energy_hopper_hardened"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 1.5d
 		}
@@ -987,11 +1126,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "764E430B973B8BD9"
-				item: "powah:player_transmitter_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "764E430B973B8BD9"
+					item: "powah:player_transmitter_hardened"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 1.5d
 		}
@@ -1012,15 +1153,17 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "4FB89D5C29752C55"
-				item: {
-					Count: 1
-					id: "powah:battery_hardened"
-					tag: { }
+			tasks: [
+				{
+					id: "4FB89D5C29752C55"
+					item: {
+						Count: 1
+						id: "powah:battery_hardened"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -12.5d
 			y: 7.5d
 		}
@@ -1041,11 +1184,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "672A18DBFAA84594"
-				item: "powah:energy_cell_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "672A18DBFAA84594"
+					item: "powah:energy_cell_hardened"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 15.5d
 		}
@@ -1067,11 +1212,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "5E8665A0E3D4A148"
-				item: "powah:ender_cell_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E8665A0E3D4A148"
+					item: "powah:ender_cell_hardened"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 7.5d
 		}
@@ -1094,11 +1241,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "43621F44015EB06D"
-				item: "powah:energy_cable_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43621F44015EB06D"
+					item: "powah:energy_cable_hardened"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 15.5d
 		}
@@ -1119,11 +1268,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "5333BF78E072B674"
-				item: "powah:ender_gate_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5333BF78E072B674"
+					item: "powah:ender_gate_hardened"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 15.5d
 		}
@@ -1144,11 +1295,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "2AA92A1DCA9C3CAF"
-				item: "powah:magmator_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AA92A1DCA9C3CAF"
+					item: "powah:magmator_hardened"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 7.5d
 		}
@@ -1169,11 +1322,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "297B24A480069307"
-				item: "powah:furnator_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "297B24A480069307"
+					item: "powah:furnator_hardened"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 7.5d
 		}
@@ -1194,11 +1349,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "1FAA953BA925186C"
-				item: "powah:thermo_generator_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1FAA953BA925186C"
+					item: "powah:thermo_generator_hardened"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 7.5d
 		}
@@ -1219,13 +1376,15 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				count: 36L
-				id: "60AF685179E1AB4B"
-				item: "powah:reactor_hardened"
-				type: "item"
-			}]
-			title: "Reactor (Hardened)"
+			tasks: [
+				{
+					count: 36L
+					id: "60AF685179E1AB4B"
+					item: "powah:reactor_hardened"
+					type: "item"
+				}
+			]
+			title: "反应堆(强化)&7[Reactor (Hardened)]&f"
 			x: -2.5d
 			y: 11.5d
 		}
@@ -1246,11 +1405,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "11F169284433B9B7"
-				item: "powah:solar_panel_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "11F169284433B9B7"
+					item: "powah:solar_panel_hardened"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 11.5d
 		}
@@ -1271,15 +1432,17 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "022DA80D4ABA1C00"
-				item: {
-					Count: 1
-					id: "powah:battery_blazing"
-					tag: { }
+			tasks: [
+				{
+					id: "022DA80D4ABA1C00"
+					item: {
+						Count: 1
+						id: "powah:battery_blazing"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -13.0d
 			y: 6.5d
 		}
@@ -1302,11 +1465,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0E9A11E8D18F4183"
-				item: "powah:energy_discharger_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E9A11E8D18F4183"
+					item: "powah:energy_discharger_blazing"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 0.5d
 		}
@@ -1328,11 +1493,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3F987D5B5E9410DF"
-				item: "powah:energy_hopper_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3F987D5B5E9410DF"
+					item: "powah:energy_hopper_blazing"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 0.5d
 		}
@@ -1353,11 +1520,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "23562B6B16954B2E"
-				item: "powah:player_transmitter_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "23562B6B16954B2E"
+					item: "powah:player_transmitter_blazing"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.5d
 		}
@@ -1379,11 +1548,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "798970D8B1A023B8"
-				item: "powah:ender_cell_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "798970D8B1A023B8"
+					item: "powah:ender_cell_blazing"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: 6.5d
 		}
@@ -1404,11 +1575,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "50B61EC144D1832F"
-				item: "powah:energy_cell_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "50B61EC144D1832F"
+					item: "powah:energy_cell_blazing"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 14.5d
 		}
@@ -1431,11 +1604,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "2A02CDC7FDC41BD1"
-				item: "powah:energy_cable_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A02CDC7FDC41BD1"
+					item: "powah:energy_cable_blazing"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 14.5d
 		}
@@ -1456,11 +1631,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1F8C7940E92E8229"
-				item: "powah:ender_gate_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1F8C7940E92E8229"
+					item: "powah:ender_gate_blazing"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 14.5d
 		}
@@ -1481,11 +1658,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3F7EBFC46DB90461"
-				item: "powah:magmator_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3F7EBFC46DB90461"
+					item: "powah:magmator_blazing"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 6.5d
 		}
@@ -1506,11 +1685,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "2E5070E71CCEDADE"
-				item: "powah:furnator_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E5070E71CCEDADE"
+					item: "powah:furnator_blazing"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 6.5d
 		}
@@ -1531,11 +1712,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "33E55040BA517135"
-				item: "powah:thermo_generator_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33E55040BA517135"
+					item: "powah:thermo_generator_blazing"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 6.5d
 		}
@@ -1556,13 +1739,15 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				count: 36L
-				id: "6CA9B3DA3B774238"
-				item: "powah:reactor_blazing"
-				type: "item"
-			}]
-			title: "Reactor (Blazing)"
+			tasks: [
+				{
+					count: 36L
+					id: "6CA9B3DA3B774238"
+					item: "powah:reactor_blazing"
+					type: "item"
+				}
+			]
+			title: "反应堆(炽焰)&7[Reactor (Blazing)]&f"
 			x: -3.0d
 			y: 10.5d
 		}
@@ -1583,11 +1768,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "6F667F3C54316DA3"
-				item: "powah:solar_panel_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F667F3C54316DA3"
+					item: "powah:solar_panel_blazing"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 10.5d
 		}
@@ -1610,11 +1797,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "04410F1240964912"
-				item: "powah:energy_discharger_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04410F1240964912"
+					item: "powah:energy_discharger_niotic"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -0.5d
 		}
@@ -1636,11 +1825,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "5E09C884ABD4A22F"
-				item: "powah:energy_hopper_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E09C884ABD4A22F"
+					item: "powah:energy_hopper_niotic"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -0.5d
 		}
@@ -1661,11 +1852,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "7FB09E6585E098BB"
-				item: "powah:player_transmitter_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FB09E6585E098BB"
+					item: "powah:player_transmitter_niotic"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -0.5d
 		}
@@ -1686,15 +1879,17 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "732BEE5909694731"
-				item: {
-					Count: 1
-					id: "powah:battery_niotic"
-					tag: { }
+			tasks: [
+				{
+					id: "732BEE5909694731"
+					item: {
+						Count: 1
+						id: "powah:battery_niotic"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -12.5d
 			y: 5.5d
 		}
@@ -1716,11 +1911,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "2FE8500140D5D2E8"
-				item: "powah:ender_cell_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FE8500140D5D2E8"
+					item: "powah:ender_cell_niotic"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 5.5d
 		}
@@ -1741,11 +1938,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "6B0A0DA8C0C79568"
-				item: "powah:energy_cell_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B0A0DA8C0C79568"
+					item: "powah:energy_cell_niotic"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 13.5d
 		}
@@ -1768,11 +1967,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "73D0B49F46505EB0"
-				item: "powah:energy_cable_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "73D0B49F46505EB0"
+					item: "powah:energy_cable_niotic"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 13.5d
 		}
@@ -1793,11 +1994,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "6947E1FB9DF4719A"
-				item: "powah:ender_gate_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6947E1FB9DF4719A"
+					item: "powah:ender_gate_niotic"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 13.5d
 		}
@@ -1818,11 +2021,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "0AD625D068474E21"
-				item: "powah:magmator_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AD625D068474E21"
+					item: "powah:magmator_niotic"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 5.5d
 		}
@@ -1843,11 +2048,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "436D9B4714379730"
-				item: "powah:furnator_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "436D9B4714379730"
+					item: "powah:furnator_niotic"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 5.5d
 		}
@@ -1868,11 +2075,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "3507C8B858D39314"
-				item: "powah:thermo_generator_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3507C8B858D39314"
+					item: "powah:thermo_generator_niotic"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 5.5d
 		}
@@ -1893,13 +2102,15 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				count: 36L
-				id: "011563130B58F561"
-				item: "powah:reactor_niotic"
-				type: "item"
-			}]
-			title: "Reactor (Niotic)"
+			tasks: [
+				{
+					count: 36L
+					id: "011563130B58F561"
+					item: "powah:reactor_niotic"
+					type: "item"
+				}
+			]
+			title: "反应堆(灵息)&7[Reactor (Niotic)]&f"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -1920,11 +2131,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "56504998BB4B686E"
-				item: "powah:solar_panel_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56504998BB4B686E"
+					item: "powah:solar_panel_niotic"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 9.5d
 		}
@@ -1945,15 +2158,17 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "064EE05D48DAFC60"
-				item: {
-					Count: 1
-					id: "powah:battery_spirited"
-					tag: { }
+			tasks: [
+				{
+					id: "064EE05D48DAFC60"
+					item: {
+						Count: 1
+						id: "powah:battery_spirited"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -11.5d
 			y: 5.5d
 		}
@@ -1974,11 +2189,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "5409500542236E1A"
-				item: "powah:player_transmitter_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5409500542236E1A"
+					item: "powah:player_transmitter_spirited"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -0.5d
 		}
@@ -2000,11 +2217,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "0BB591BF32031D66"
-				item: "powah:energy_hopper_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BB591BF32031D66"
+					item: "powah:energy_hopper_spirited"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -0.5d
 		}
@@ -2027,11 +2246,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "26D5E58095BD9A31"
-				item: "powah:energy_discharger_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26D5E58095BD9A31"
+					item: "powah:energy_discharger_spirited"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -0.5d
 		}
@@ -2053,11 +2274,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "60A94CD9FA76AF4B"
-				item: "powah:ender_cell_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "60A94CD9FA76AF4B"
+					item: "powah:ender_cell_spirited"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 5.5d
 		}
@@ -2078,11 +2301,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "355DD6351F004027"
-				item: "powah:energy_cell_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "355DD6351F004027"
+					item: "powah:energy_cell_spirited"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 13.5d
 		}
@@ -2105,11 +2330,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "112F14F2CFAAE9B7"
-				item: "powah:energy_cable_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "112F14F2CFAAE9B7"
+					item: "powah:energy_cable_spirited"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 13.5d
 		}
@@ -2130,11 +2357,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "5AA3BDCABBC5E9C1"
-				item: "powah:ender_gate_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5AA3BDCABBC5E9C1"
+					item: "powah:ender_gate_spirited"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 13.5d
 		}
@@ -2155,11 +2384,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "2E611F9024AF2142"
-				item: "powah:magmator_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E611F9024AF2142"
+					item: "powah:magmator_spirited"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 5.5d
 		}
@@ -2180,11 +2411,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "69E6F047C9CE65D5"
-				item: "powah:furnator_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69E6F047C9CE65D5"
+					item: "powah:furnator_spirited"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 5.5d
 		}
@@ -2205,11 +2438,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "32F356FA79D13349"
-				item: "powah:thermo_generator_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32F356FA79D13349"
+					item: "powah:thermo_generator_spirited"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 5.5d
 		}
@@ -2230,13 +2465,15 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				count: 36L
-				id: "31C9199965D38CAB"
-				item: "powah:reactor_spirited"
-				type: "item"
-			}]
-			title: "Reactor (Spirited)"
+			tasks: [
+				{
+					count: 36L
+					id: "31C9199965D38CAB"
+					item: "powah:reactor_spirited"
+					type: "item"
+				}
+			]
+			title: "反应堆(激流)&7[Reactor (Spirited)]&f"
 			x: -1.5d
 			y: 9.5d
 		}
@@ -2257,11 +2494,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "6A76F943F5E6E2E7"
-				item: "powah:solar_panel_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A76F943F5E6E2E7"
+					item: "powah:solar_panel_spirited"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 9.5d
 		}
@@ -2282,11 +2521,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "3FE9AB0CAE241A22"
-				item: "powah:player_transmitter_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3FE9AB0CAE241A22"
+					item: "powah:player_transmitter_nitro"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 0.5d
 		}
@@ -2309,11 +2550,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "5526935A94E25966"
-				item: "powah:energy_discharger_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5526935A94E25966"
+					item: "powah:energy_discharger_nitro"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 0.5d
 		}
@@ -2336,11 +2579,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "01ABA3DA3EFD0C2A"
-				item: "powah:energy_hopper_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "01ABA3DA3EFD0C2A"
+					item: "powah:energy_hopper_nitro"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 0.5d
 		}
@@ -2361,15 +2606,17 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "053841A23C52379F"
-				item: {
-					Count: 1
-					id: "powah:battery_nitro"
-					tag: { }
+			tasks: [
+				{
+					id: "053841A23C52379F"
+					item: {
+						Count: 1
+						id: "powah:battery_nitro"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -12.0d
 			y: 6.5d
 		}
@@ -2390,11 +2637,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "4FBBE996E440514A"
-				item: "powah:ender_cell_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FBBE996E440514A"
+					item: "powah:ender_cell_nitro"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 6.5d
 		}
@@ -2415,11 +2664,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "6B9FC8EDB5ED952E"
-				item: "powah:energy_cell_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B9FC8EDB5ED952E"
+					item: "powah:energy_cell_nitro"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 14.5d
 		}
@@ -2441,11 +2692,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "25DA30BFB0E2C71B"
-				item: "powah:energy_cable_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25DA30BFB0E2C71B"
+					item: "powah:energy_cable_nitro"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 14.5d
 		}
@@ -2466,11 +2719,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "09770035C196D36D"
-				item: "powah:ender_gate_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "09770035C196D36D"
+					item: "powah:ender_gate_nitro"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 14.5d
 		}
@@ -2491,11 +2746,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "36A675359DAB88CA"
-				item: "powah:magmator_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "36A675359DAB88CA"
+					item: "powah:magmator_nitro"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 6.5d
 		}
@@ -2516,11 +2773,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "4030018C42DCB948"
-				item: "powah:furnator_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4030018C42DCB948"
+					item: "powah:furnator_nitro"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 6.5d
 		}
@@ -2541,11 +2800,13 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "7E8AFD4455E17266"
-				item: "powah:thermo_generator_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E8AFD4455E17266"
+					item: "powah:thermo_generator_nitro"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 6.5d
 		}
@@ -2566,13 +2827,15 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				count: 36L
-				id: "3EA18C3E289956AE"
-				item: "powah:reactor_nitro"
-				type: "item"
-			}]
-			title: "Reactor (Nitro)"
+			tasks: [
+				{
+					count: 36L
+					id: "3EA18C3E289956AE"
+					item: "powah:reactor_nitro"
+					type: "item"
+				}
+			]
+			title: "反应堆(硝基)&7[Reactor (Nitro)]&f"
 			x: -2.0d
 			y: 10.5d
 		}
@@ -2593,17 +2856,24 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "0E6B0D7B3BAC9760"
-				item: "powah:solar_panel_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E6B0D7B3BAC9760"
+					item: "powah:solar_panel_nitro"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Upgrades the Orb’s speed/capacity when placed adjacent."]
+			description: [
+				"相邻放置时可提升能量球的传输速度/容量."
+				""
+				""
+				"&7[Upgrades the Orb's speed/capacity when placed adjacent.]&f"
+			]
 			hide_dependency_lines: true
 			id: "1C273D9E046FD18A"
 			rewards: [
@@ -2619,11 +2889,13 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "2E74430108DE6170"
-				item: "powah:energizing_rod_starter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E74430108DE6170"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: 6.5d
 		}
@@ -2644,11 +2916,13 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "1B8D93C482A9186D"
-				item: "powah:energizing_rod_basic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B8D93C482A9186D"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: 7.5d
 		}
@@ -2669,11 +2943,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "11BF64326BEABFF4"
-				item: "powah:energizing_rod_hardened"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "11BF64326BEABFF4"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: 7.5d
 		}
@@ -2694,11 +2970,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "4FF7B35FC042EDA3"
-				item: "powah:energizing_rod_blazing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FF7B35FC042EDA3"
+					item: "powah:energizing_rod_blazing"
+					type: "item"
+				}
+			]
 			x: -10.0d
 			y: 6.5d
 		}
@@ -2719,11 +2997,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "4779D480ED4EB6E9"
-				item: "powah:energizing_rod_niotic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4779D480ED4EB6E9"
+					item: "powah:energizing_rod_niotic"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: 5.5d
 		}
@@ -2744,11 +3024,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "11FD956A8B254218"
-				item: "powah:energizing_rod_spirited"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "11FD956A8B254218"
+					item: "powah:energizing_rod_spirited"
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: 5.5d
 		}
@@ -2770,28 +3052,37 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "4AC121B4951DE6E9"
-				item: "powah:energizing_rod_nitro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4AC121B4951DE6E9"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["3DDF87A1E5F5D009"]
-			description: ["Binding Cards are used to link Powah devices wirelessly, allowing energy transfer or remote activation without cables."]
+			description: [
+				"&a绑定卡&f用于无线连接Powah设备,实现无需电缆的能量传输或远程激活."
+				""
+				""
+				"&7[Binding Cards are used to link Powah devices wirelessly, allowing energy transfer or remote activation without cables.]&f"
+			]
 			id: "42DB7552290E9A98"
 			shape: "square"
-			tasks: [{
-				id: "7D03C4570EC40C29"
-				item: "powah:binding_card"
-				type: "item"
-			}]
-			title: "Binding Cards"
+			tasks: [
+				{
+					id: "7D03C4570EC40C29"
+					item: "powah:binding_card"
+					type: "item"
+				}
+			]
+			title: "&a绑定卡&f&7[Binding Cards]&f"
 			x: 1.0d
 			y: 8.0d
 		}
 	]
-	title: "&cPowah"
+	title: "&c能源动力学&f&7[Powah]&f"
 }

@@ -9,19 +9,34 @@
 	quests: [
 		{
 			description: [
-				"Prepare yourself for an epic journey in the &5Epic&r &bChallenges&r chapter! Here, you will face a great number of weird and fun challenges that test various aspects of your Minecraft skills."
+				"准备好迎接&5史诗&r &b挑战&r章节的史诗旅程吧!在这里,你将面对大量奇怪而有趣的挑战,考验你在Minecraft中的各种技能."
 				""
-				"&9What to Expect&r:"
-				"- &cCrafting Challenges&r: Test your ability to create complex items."
-				"- &eJumping Challenges&r: Perfect your Jumping skills."
-				"- &aCollecting Challenges&r: Gather specific items and resources."
-				"- &6Placing Challenges&r: Polish off your building skills."
-				"- &7Breaking Challenges&r: Break blocks efficiently.."
-				"- &bInteracting Challenges&r: Engage with various Entities."
+				"&9预期内容&r:"
+				"- &c合成挑战&r:测试你制作复杂物品的能力."
+				"- &e跳跃挑战&r:完善你的跳跃技巧."
+				"- &a收集挑战&r:收集特定物品和资源."
+				"- &e放置挑战&r:磨练你的建筑技能."
+				"- &7破坏挑战&r:高效破坏方块."
+				"- &b互动挑战&r:与各种实体互动."
 				""
-				"And many more! Each challenge is designed to be unique and engaging, pushing you to think creatively and act swiftly. Can you finish them all?"
+				"还有更多!每个挑战都设计得独特而引人入胜,推动你创造性思考并迅速行动.你能完成所有挑战吗？"
 				""
-				"&n&l&4NOTE:&r &4Some challenges can only be done using Vanilla Blocks or Items.&r"
+				"&n&l&4注意:&r &4部分挑战只能使用原版方块或物品完成.&r"
+				""
+				""
+				"&7[Prepare yourself for an epic journey in the Epic Challenges chapter! Here, you will face a great number of weird and fun challenges that test various aspects of your Minecraft skills.]&f"
+				""
+				"&7[What to Expect:]&f"
+				"&7[- Crafting Challenges: Test your ability to create complex items.]&f"
+				"&7[- Jumping Challenges: Perfect your Jumping skills.]&f"
+				"&7[- Collecting Challenges: Gather specific items and resources.]&f"
+				"&7[- Placing Challenges: Polish off your building skills.]&f"
+				"&7[- Breaking Challenges: Break blocks efficiently..]&f"
+				"&7[- Interacting Challenges: Engage with various Entities.]&f"
+				""
+				"&7[And many more! Each challenge is designed to be unique and engaging, pushing you to think creatively and act swiftly. Can you finish them all?]&f"
+				""
+				"&7[lNOTE: Some challenges can only be done using Vanilla Blocks or Items.]&f"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -30,10 +45,12 @@
 			min_width: 400
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "6F03A7F37EB82147"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6F03A7F37EB82147"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 4.0d
 		}
@@ -41,15 +58,17 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "75DF212BEA5E3884"
 			shape: "diamond"
-			subtitle: "Times jumped"
-			tasks: [{
-				icon: "draconicevolution:item_draconium_jump"
-				id: "1AAE04E07D1BFC89"
-				stat: "minecraft:jump"
-				title: "Bunny bun bun I"
-				type: "stat"
-				value: 500
-			}]
+			subtitle: "跳跃次数&7[Times jumped]&f"
+			tasks: [
+				{
+					icon: "draconicevolution:item_draconium_jump"
+					id: "1AAE04E07D1BFC89"
+					stat: "minecraft:jump"
+					title: "兔兔蹦蹦 I"
+					type: "stat"
+					value: 500
+				}
+			]
 			x: 3.5d
 			y: 2.5d
 		}
@@ -57,15 +76,17 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "18DF9D429BC79A1F"
 			shape: "diamond"
-			subtitle: "Open the furnace"
-			tasks: [{
-				icon: "minecraft:furnace"
-				id: "7459860F6AB0A8A0"
-				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) I"
-				type: "stat"
-				value: 50
-			}]
+			subtitle: "打开熔炉&7[Open the furnace]&f"
+			tasks: [
+				{
+					icon: "minecraft:furnace"
+					id: "7459860F6AB0A8A0"
+					stat: "minecraft:interact_with_furnace"
+					title: "毛靴入炉 I"
+					type: "stat"
+					value: 50
+				}
+			]
 			x: 6.0d
 			y: 4.5d
 		}
@@ -73,15 +94,17 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "299772B87B7A6EDE"
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
-			tasks: [{
-				icon: "minecraft:crafting_table"
-				id: "14378209632C523F"
-				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft I"
-				type: "stat"
-				value: 50
-			}]
+			subtitle: "打开工作台&7[Open Crafting Table]&f"
+			tasks: [
+				{
+					icon: "minecraft:crafting_table"
+					id: "14378209632C523F"
+					stat: "minecraft:interact_with_crafting_table"
+					title: "匠心匠艺 I"
+					type: "stat"
+					value: 50
+				}
+			]
 			x: 0.0d
 			y: 2.5d
 		}
@@ -89,21 +112,23 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "26F5537324333FF4"
 			shape: "diamond"
-			subtitle: "Deal Damage"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 0
+			subtitle: "造成&a伤害&f&7[Deal Damage]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "62A0C4F4CBA39846"
+					stat: "minecraft:damage_dealt"
+					title: "那'可是成吨的&a伤害&f I"
+					type: "stat"
+					value: 1000
 				}
-				id: "62A0C4F4CBA39846"
-				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage I"
-				type: "stat"
-				value: 1000
-			}]
+			]
 			x: -3.5d
 			y: 2.5d
 		}
@@ -111,15 +136,17 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "16236912E787D392"
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
-			tasks: [{
-				icon: "minecraft:enchanting_table"
-				id: "0536C2D540D42AE0"
-				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical I"
-				type: "stat"
-				value: 50
-			}]
+			subtitle: "附魔物品或书籍&7[Enchant Items or Books]&f"
+			tasks: [
+				{
+					icon: "minecraft:enchanting_table"
+					id: "0536C2D540D42AE0"
+					stat: "minecraft:enchant_item"
+					title: "&b魔法修行 I"
+					type: "stat"
+					value: 50
+				}
+			]
 			x: -7.0d
 			y: 2.5d
 		}
@@ -127,21 +154,23 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "55DBB5F0220B25F1"
 			shape: "diamond"
-			subtitle: "Catch fish"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			subtitle: "钓鱼&7[Catch fish]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "3806BD78C294B6CA"
+					stat: "minecraft:fish_caught"
+					title: "好大一条 I"
+					type: "stat"
+					value: 100
 				}
-				id: "3806BD78C294B6CA"
-				stat: "minecraft:fish_caught"
-				title: "What a catch I"
-				type: "stat"
-				value: 100
-			}]
+			]
 			x: -3.5d
 			y: 6.0d
 		}
@@ -149,24 +178,26 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "19D5E57463E7BEC0"
 			shape: "diamond"
-			subtitle: "Breed Animals"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:cow"
+			subtitle: "繁殖动物&7[Breed Animals]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "minecraft:cow"
+							}
 						}
 					}
+					id: "7AAFF94D47513A8A"
+					stat: "minecraft:animals_bred"
+					title: "红线牵缘 I"
+					type: "stat"
+					value: 100
 				}
-				id: "7AAFF94D47513A8A"
-				stat: "minecraft:animals_bred"
-				title: "Match Maker I"
-				type: "stat"
-				value: 100
-			}]
+			]
 			x: 0.0d
 			y: 6.0d
 		}
@@ -174,15 +205,17 @@
 			dependencies: ["64CD0F9017E449BB"]
 			id: "06827568C3A9A731"
 			shape: "diamond"
-			subtitle: "Blocks placed with wand"
-			tasks: [{
-				icon: "minecraft:oak_log"
-				id: "59E793831DEC57D2"
-				stat: "constructionwand:use_wand"
-				title: "Bob the Builder I"
-				type: "stat"
-				value: 1000
-			}]
+			subtitle: "用魔杖放置的方块&7[Blocks placed with wand]&f"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "59E793831DEC57D2"
+					stat: "constructionwand:use_wand"
+					title: "建筑大师鲍勃 I"
+					type: "stat"
+					value: 1000
+				}
+			]
 			x: -7.0d
 			y: 6.0d
 		}
@@ -191,15 +224,17 @@
 			hide_until_deps_visible: true
 			id: "54A6FC9766F9CA1A"
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
-			tasks: [{
-				icon: "minecraft:enchanting_table"
-				id: "1DB2945EAF2F30B9"
-				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical II"
-				type: "stat"
-				value: 100
-			}]
+			subtitle: "附魔物品或书籍&7[Enchant Items or Books]&f"
+			tasks: [
+				{
+					icon: "minecraft:enchanting_table"
+					id: "1DB2945EAF2F30B9"
+					stat: "minecraft:enchant_item"
+					title: "&b魔法修行 II"
+					type: "stat"
+					value: 100
+				}
+			]
 			x: -7.0d
 			y: 1.5d
 		}
@@ -208,15 +243,17 @@
 			hide_until_deps_visible: true
 			id: "2A077ECA2E708F50"
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
-			tasks: [{
-				icon: "minecraft:enchanting_table"
-				id: "118E84485684E81E"
-				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical III"
-				type: "stat"
-				value: 200
-			}]
+			subtitle: "附魔物品或书籍&7[Enchant Items or Books]&f"
+			tasks: [
+				{
+					icon: "minecraft:enchanting_table"
+					id: "118E84485684E81E"
+					stat: "minecraft:enchant_item"
+					title: "&b魔法修行 III"
+					type: "stat"
+					value: 200
+				}
+			]
 			x: -8.0d
 			y: 2.5d
 		}
@@ -225,15 +262,17 @@
 			hide_until_deps_visible: true
 			id: "3CD7B38E825288A5"
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
-			tasks: [{
-				icon: "minecraft:enchanting_table"
-				id: "028EEA174C611728"
-				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical IV"
-				type: "stat"
-				value: 350
-			}]
+			subtitle: "附魔物品或书籍&7[Enchant Items or Books]&f"
+			tasks: [
+				{
+					icon: "minecraft:enchanting_table"
+					id: "028EEA174C611728"
+					stat: "minecraft:enchant_item"
+					title: "&b魔法修行 IV"
+					type: "stat"
+					value: 350
+				}
+			]
 			x: -7.0d
 			y: 3.5d
 		}
@@ -242,15 +281,17 @@
 			hide_until_deps_visible: true
 			id: "5F173C7988F6D8ED"
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
-			tasks: [{
-				icon: "minecraft:enchanting_table"
-				id: "43C420679CFCBBBE"
-				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical V"
-				type: "stat"
-				value: 500
-			}]
+			subtitle: "附魔物品或书籍&7[Enchant Items or Books]&f"
+			tasks: [
+				{
+					icon: "minecraft:enchanting_table"
+					id: "43C420679CFCBBBE"
+					stat: "minecraft:enchant_item"
+					title: "&b魔法修行 V"
+					type: "stat"
+					value: 500
+				}
+			]
 			x: -6.0d
 			y: 2.5d
 		}
@@ -259,21 +300,23 @@
 			hide_until_deps_visible: true
 			id: "00519B8C94347248"
 			shape: "diamond"
-			subtitle: "Deal Damage"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:stone_sword"
-					tag: {
-						Damage: 0
+			subtitle: "造成&a伤害&f&7[Deal Damage]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "556398176F33BC7B"
+					stat: "minecraft:damage_dealt"
+					title: "那'可是成吨的&a伤害&f II"
+					type: "stat"
+					value: 5000
 				}
-				id: "556398176F33BC7B"
-				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage II"
-				type: "stat"
-				value: 5000
-			}]
+			]
 			x: -3.5d
 			y: 1.5d
 		}
@@ -282,21 +325,23 @@
 			hide_until_deps_visible: true
 			id: "523C0087C03663BD"
 			shape: "diamond"
-			subtitle: "Deal Damage"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:iron_sword"
-					tag: {
-						Damage: 0
+			subtitle: "造成&a伤害&f&7[Deal Damage]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "2467160D7AF5B761"
+					stat: "minecraft:damage_dealt"
+					title: "那'可是成吨的&a伤害&f III"
+					type: "stat"
+					value: 10000
 				}
-				id: "2467160D7AF5B761"
-				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage III"
-				type: "stat"
-				value: 10000
-			}]
+			]
 			x: -4.5d
 			y: 2.5d
 		}
@@ -305,21 +350,23 @@
 			hide_until_deps_visible: true
 			id: "5A2E0FE2DE82013B"
 			shape: "diamond"
-			subtitle: "Deal Damage"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:diamond_sword"
-					tag: {
-						Damage: 0
+			subtitle: "造成&a伤害&f&7[Deal Damage]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "41F1BDAAB6F4E694"
+					stat: "minecraft:damage_dealt"
+					title: "那'可是成吨的&a伤害&f IV"
+					type: "stat"
+					value: 50000
 				}
-				id: "41F1BDAAB6F4E694"
-				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage IV"
-				type: "stat"
-				value: 50000
-			}]
+			]
 			x: -3.5d
 			y: 3.5d
 		}
@@ -328,21 +375,23 @@
 			hide_until_deps_visible: true
 			id: "48C92ECA577FA2A8"
 			shape: "diamond"
-			subtitle: "Deal Damage"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
+			subtitle: "造成&a伤害&f&7[Deal Damage]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "442FA2DAD1F3F1FE"
+					stat: "minecraft:damage_dealt"
+					title: "那'可是成吨的&a伤害&f V"
+					type: "stat"
+					value: 100000
 				}
-				id: "442FA2DAD1F3F1FE"
-				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage V"
-				type: "stat"
-				value: 100000
-			}]
+			]
 			x: -2.5d
 			y: 2.5d
 		}
@@ -351,15 +400,17 @@
 			hide_until_deps_visible: true
 			id: "4661B033AC123DA0"
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
-			tasks: [{
-				icon: "minecraft:crafting_table"
-				id: "30890E8E145B7EF6"
-				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft II"
-				type: "stat"
-				value: 100
-			}]
+			subtitle: "打开工作台&7[Open Crafting Table]&f"
+			tasks: [
+				{
+					icon: "minecraft:crafting_table"
+					id: "30890E8E145B7EF6"
+					stat: "minecraft:interact_with_crafting_table"
+					title: "匠心匠艺 II"
+					type: "stat"
+					value: 100
+				}
+			]
 			x: 0.0d
 			y: 1.5d
 		}
@@ -368,15 +419,17 @@
 			hide_until_deps_visible: true
 			id: "5CF7CF7E308A5897"
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
-			tasks: [{
-				icon: "minecraft:crafting_table"
-				id: "0B86FFDBA44F193A"
-				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft III"
-				type: "stat"
-				value: 150
-			}]
+			subtitle: "打开工作台&7[Open Crafting Table]&f"
+			tasks: [
+				{
+					icon: "minecraft:crafting_table"
+					id: "0B86FFDBA44F193A"
+					stat: "minecraft:interact_with_crafting_table"
+					title: "匠心匠艺 III"
+					type: "stat"
+					value: 150
+				}
+			]
 			x: -1.0d
 			y: 2.5d
 		}
@@ -385,15 +438,17 @@
 			hide_until_deps_visible: true
 			id: "5FD8D89E8E57169B"
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
-			tasks: [{
-				icon: "minecraft:crafting_table"
-				id: "4EA453D3488A447F"
-				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft IV"
-				type: "stat"
-				value: 200
-			}]
+			subtitle: "打开工作台&7[Open Crafting Table]&f"
+			tasks: [
+				{
+					icon: "minecraft:crafting_table"
+					id: "4EA453D3488A447F"
+					stat: "minecraft:interact_with_crafting_table"
+					title: "匠心匠艺 IV"
+					type: "stat"
+					value: 200
+				}
+			]
 			x: 0.0d
 			y: 3.5d
 		}
@@ -402,15 +457,17 @@
 			hide_until_deps_visible: true
 			id: "440196F457F5B33A"
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
-			tasks: [{
-				icon: "minecraft:crafting_table"
-				id: "2C999F81DCFF5EA5"
-				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft V"
-				type: "stat"
-				value: 300
-			}]
+			subtitle: "打开工作台&7[Open Crafting Table]&f"
+			tasks: [
+				{
+					icon: "minecraft:crafting_table"
+					id: "2C999F81DCFF5EA5"
+					stat: "minecraft:interact_with_crafting_table"
+					title: "匠心匠艺 V"
+					type: "stat"
+					value: 300
+				}
+			]
 			x: 1.0d
 			y: 2.5d
 		}
@@ -418,15 +475,17 @@
 			dependencies: ["06827568C3A9A731"]
 			hide_until_deps_visible: true
 			id: "4BC2221A168D44DC"
-			subtitle: "Blocks placed with wand"
-			tasks: [{
-				icon: "minecraft:oak_log"
-				id: "6E7B3B11C8C0EE51"
-				stat: "constructionwand:use_wand"
-				title: "Bob the Builder II"
-				type: "stat"
-				value: 5000
-			}]
+			subtitle: "魔杖放置的方块&7[Blocks placed with wand]&f"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "6E7B3B11C8C0EE51"
+					stat: "constructionwand:use_wand"
+					title: "建筑大师鲍勃 II"
+					type: "stat"
+					value: 5000
+				}
+			]
 			x: -7.0d
 			y: 5.0d
 		}
@@ -434,15 +493,17 @@
 			dependencies: ["4BC2221A168D44DC"]
 			hide_until_deps_visible: true
 			id: "3C4C52FB2E13E19D"
-			subtitle: "Blocks placed with wand"
-			tasks: [{
-				icon: "minecraft:oak_log"
-				id: "3530BC17B0F9E68C"
-				stat: "constructionwand:use_wand"
-				title: "Bob the Builder III"
-				type: "stat"
-				value: 15000
-			}]
+			subtitle: "魔杖放置的方块&7[Blocks placed with wand]&f"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "3530BC17B0F9E68C"
+					stat: "constructionwand:use_wand"
+					title: "建筑大师鲍勃 III"
+					type: "stat"
+					value: 15000
+				}
+			]
 			x: -8.0d
 			y: 6.0d
 		}
@@ -450,15 +511,17 @@
 			dependencies: ["3C4C52FB2E13E19D"]
 			hide_until_deps_visible: true
 			id: "7E56D7F3AC4E65C1"
-			subtitle: "Blocks placed with wand"
-			tasks: [{
-				icon: "minecraft:oak_log"
-				id: "2F6B85ACC78BC525"
-				stat: "constructionwand:use_wand"
-				title: "Bob the Builder IV"
-				type: "stat"
-				value: 30000
-			}]
+			subtitle: "魔杖放置的方块&7[Blocks placed with wand]&f"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "2F6B85ACC78BC525"
+					stat: "constructionwand:use_wand"
+					title: "建筑大师鲍勃 IV"
+					type: "stat"
+					value: 30000
+				}
+			]
 			x: -7.0d
 			y: 7.0d
 		}
@@ -466,36 +529,40 @@
 			dependencies: ["7E56D7F3AC4E65C1"]
 			hide_until_deps_visible: true
 			id: "6743803C6D45C219"
-			subtitle: "Blocks placed with wand"
-			tasks: [{
-				icon: "minecraft:oak_log"
-				id: "3539C5120BF42049"
-				stat: "constructionwand:use_wand"
-				title: "Bob the Builder V"
-				type: "stat"
-				value: 100000
-			}]
+			subtitle: "魔杖放置的方块&7[Blocks placed with wand]&f"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "3539C5120BF42049"
+					stat: "constructionwand:use_wand"
+					title: "建筑大师鲍勃 V"
+					type: "stat"
+					value: 100000
+				}
+			]
 			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
 			id: "393886001086EBB0"
-			subtitle: "Damage blocked"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
+			subtitle: "格挡伤害&7[Damage blocked]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "4A70A1236C52D7FB"
+					stat: "minecraft:damage_blocked_by_shield"
+					title: "方块收集者 I"
+					type: "stat"
+					value: 500
 				}
-				id: "4A70A1236C52D7FB"
-				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked I"
-				type: "stat"
-				value: 500
-			}]
+			]
 			x: 3.5d
 			y: 6.0d
 		}
@@ -503,14 +570,16 @@
 			dependencies: ["75DF212BEA5E3884"]
 			hide_until_deps_visible: true
 			id: "46E032EB11B66CDC"
-			tasks: [{
-				icon: "draconicevolution:item_draconium_jump"
-				id: "3EDEA5DE61F7990B"
-				stat: "minecraft:jump"
-				title: "Bunny bun bun II"
-				type: "stat"
-				value: 2500
-			}]
+			tasks: [
+				{
+					icon: "draconicevolution:item_draconium_jump"
+					id: "3EDEA5DE61F7990B"
+					stat: "minecraft:jump"
+					title: "兔兔蹦蹦 II"
+					type: "stat"
+					value: 2500
+				}
+			]
 			x: 3.5d
 			y: 1.5d
 		}
@@ -518,14 +587,16 @@
 			dependencies: ["46E032EB11B66CDC"]
 			hide_until_deps_visible: true
 			id: "7EB569BE9EDAD34D"
-			tasks: [{
-				icon: "draconicevolution:item_wyvern_jump"
-				id: "319679FA245E4089"
-				stat: "minecraft:jump"
-				title: "Bunny bun bun III"
-				type: "stat"
-				value: 5000
-			}]
+			tasks: [
+				{
+					icon: "draconicevolution:item_wyvern_jump"
+					id: "319679FA245E4089"
+					stat: "minecraft:jump"
+					title: "兔兔蹦蹦 III"
+					type: "stat"
+					value: 5000
+				}
+			]
 			x: 2.5d
 			y: 2.5d
 		}
@@ -533,14 +604,16 @@
 			dependencies: ["7EB569BE9EDAD34D"]
 			hide_until_deps_visible: true
 			id: "441C7DC9E03D4B09"
-			tasks: [{
-				icon: "draconicevolution:item_draconic_jump"
-				id: "59F8F4B6919CA83D"
-				stat: "minecraft:jump"
-				title: "Bunny bun bun IV"
-				type: "stat"
-				value: 15000
-			}]
+			tasks: [
+				{
+					icon: "draconicevolution:item_draconic_jump"
+					id: "59F8F4B6919CA83D"
+					stat: "minecraft:jump"
+					title: "兔兔蹦蹦 IV"
+					type: "stat"
+					value: 15000
+				}
+			]
 			x: 3.5d
 			y: 3.5d
 		}
@@ -548,14 +621,16 @@
 			dependencies: ["441C7DC9E03D4B09"]
 			hide_until_deps_visible: true
 			id: "5E78AD1CE1D8F372"
-			tasks: [{
-				icon: "draconicevolution:item_chaotic_jump"
-				id: "1E6C28774F2292F9"
-				stat: "minecraft:jump"
-				title: "Bunny bun bun V"
-				type: "stat"
-				value: 50000
-			}]
+			tasks: [
+				{
+					icon: "draconicevolution:item_chaotic_jump"
+					id: "1E6C28774F2292F9"
+					stat: "minecraft:jump"
+					title: "兔兔蹦蹦 V"
+					type: "stat"
+					value: 50000
+				}
+			]
 			x: 4.5d
 			y: 2.5d
 		}
@@ -563,14 +638,16 @@
 			dependencies: ["18DF9D429BC79A1F"]
 			hide_until_deps_visible: true
 			id: "4AE095F400815442"
-			tasks: [{
-				icon: "minecraft:furnace"
-				id: "76EBF7B58C3115A2"
-				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) II"
-				type: "stat"
-				value: 100
-			}]
+			tasks: [
+				{
+					icon: "minecraft:furnace"
+					id: "76EBF7B58C3115A2"
+					stat: "minecraft:interact_with_furnace"
+					title: "毛靴入炉 II"
+					type: "stat"
+					value: 100
+				}
+			]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -578,14 +655,16 @@
 			dependencies: ["4AE095F400815442"]
 			hide_until_deps_visible: true
 			id: "6A171D9804160EDA"
-			tasks: [{
-				icon: "minecraft:furnace"
-				id: "782D1250F93E2B48"
-				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) III"
-				type: "stat"
-				value: 150
-			}]
+			tasks: [
+				{
+					icon: "minecraft:furnace"
+					id: "782D1250F93E2B48"
+					stat: "minecraft:interact_with_furnace"
+					title: "毛靴入炉 III"
+					type: "stat"
+					value: 150
+				}
+			]
 			x: 5.0d
 			y: 4.5d
 		}
@@ -593,14 +672,16 @@
 			dependencies: ["6A171D9804160EDA"]
 			hide_until_deps_visible: true
 			id: "424F51068F2F6CC9"
-			tasks: [{
-				icon: "minecraft:furnace"
-				id: "3BF62819488A1B58"
-				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) IV"
-				type: "stat"
-				value: 200
-			}]
+			tasks: [
+				{
+					icon: "minecraft:furnace"
+					id: "3BF62819488A1B58"
+					stat: "minecraft:interact_with_furnace"
+					title: "毛靴入炉 IV"
+					type: "stat"
+					value: 200
+				}
+			]
 			x: 6.0d
 			y: 5.5d
 		}
@@ -608,14 +689,16 @@
 			dependencies: ["424F51068F2F6CC9"]
 			hide_until_deps_visible: true
 			id: "432DB1D05BB06469"
-			tasks: [{
-				icon: "minecraft:furnace"
-				id: "77C39F7D38554A36"
-				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) V"
-				type: "stat"
-				value: 250
-			}]
+			tasks: [
+				{
+					icon: "minecraft:furnace"
+					id: "77C39F7D38554A36"
+					stat: "minecraft:interact_with_furnace"
+					title: "毛靴入炉 V"
+					type: "stat"
+					value: 250
+				}
+			]
 			x: 7.0d
 			y: 4.5d
 		}
@@ -623,21 +706,23 @@
 			dependencies: ["55DBB5F0220B25F1"]
 			hide_until_deps_visible: true
 			id: "744C033B5C929A34"
-			subtitle: "Catch fish"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			subtitle: "捕获鱼类&7[Catch fish]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "138E4294638605DB"
+					stat: "minecraft:fish_caught"
+					title: "好大一条 II"
+					type: "stat"
+					value: 250
 				}
-				id: "138E4294638605DB"
-				stat: "minecraft:fish_caught"
-				title: "What a catch  II"
-				type: "stat"
-				value: 250
-			}]
+			]
 			x: -3.5d
 			y: 5.0d
 		}
@@ -645,21 +730,23 @@
 			dependencies: ["744C033B5C929A34"]
 			hide_until_deps_visible: true
 			id: "396325258130E693"
-			subtitle: "Catch fish"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			subtitle: "捕获鱼类&7[Catch fish]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "2BD4557622D5CAA0"
+					stat: "minecraft:fish_caught"
+					title: "好大一条 III"
+					type: "stat"
+					value: 500
 				}
-				id: "2BD4557622D5CAA0"
-				stat: "minecraft:fish_caught"
-				title: "What a catch III"
-				type: "stat"
-				value: 500
-			}]
+			]
 			x: -4.5d
 			y: 6.0d
 		}
@@ -667,21 +754,23 @@
 			dependencies: ["396325258130E693"]
 			hide_until_deps_visible: true
 			id: "6AFE7E124180A592"
-			subtitle: "Catch fish"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			subtitle: "捕获鱼类&7[Catch fish]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "4DA1BE80FAAC6B3A"
+					stat: "minecraft:fish_caught"
+					title: "好大一条 IV"
+					type: "stat"
+					value: 1000
 				}
-				id: "4DA1BE80FAAC6B3A"
-				stat: "minecraft:fish_caught"
-				title: "What a catch IV"
-				type: "stat"
-				value: 1000
-			}]
+			]
 			x: -3.5d
 			y: 7.0d
 		}
@@ -689,21 +778,23 @@
 			dependencies: ["6AFE7E124180A592"]
 			hide_until_deps_visible: true
 			id: "62CB979901DCD6FF"
-			subtitle: "Catch fish"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			subtitle: "捕获鱼类&7[Catch fish]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "5B82FD41CA951FB7"
+					stat: "minecraft:mob_kills"
+					title: "好大一条 V"
+					type: "stat"
+					value: 1000
 				}
-				id: "5B82FD41CA951FB7"
-				stat: "minecraft:mob_kills"
-				title: "What a catch V"
-				type: "stat"
-				value: 1000
-			}]
+			]
 			x: -2.5d
 			y: 6.0d
 		}
@@ -711,23 +802,25 @@
 			dependencies: ["19D5E57463E7BEC0"]
 			hide_until_deps_visible: true
 			id: "678804F4C9F8B415"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:cow"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "minecraft:cow"
+							}
 						}
 					}
+					id: "10ECA9D39776DDB4"
+					stat: "minecraft:animals_bred"
+					title: "红线牵缘 II"
+					type: "stat"
+					value: 250
 				}
-				id: "10ECA9D39776DDB4"
-				stat: "minecraft:animals_bred"
-				title: "Match Maker II"
-				type: "stat"
-				value: 250
-			}]
+			]
 			x: 0.0d
 			y: 5.0d
 		}
@@ -735,23 +828,25 @@
 			dependencies: ["678804F4C9F8B415"]
 			hide_until_deps_visible: true
 			id: "01AFEF906324CCAA"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:cow"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "minecraft:cow"
+							}
 						}
 					}
+					id: "7474BB4E0087B44C"
+					stat: "minecraft:animals_bred"
+					title: "媒人 III"
+					type: "stat"
+					value: 500
 				}
-				id: "7474BB4E0087B44C"
-				stat: "minecraft:animals_bred"
-				title: "Match Maker III"
-				type: "stat"
-				value: 500
-			}]
+			]
 			x: -1.0d
 			y: 6.0d
 		}
@@ -759,23 +854,25 @@
 			dependencies: ["01AFEF906324CCAA"]
 			hide_until_deps_visible: true
 			id: "4D3E69CD544F3E29"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:cow"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "minecraft:cow"
+							}
 						}
 					}
+					id: "743E573A1F65C503"
+					stat: "minecraft:animals_bred"
+					title: "媒人 IV"
+					type: "stat"
+					value: 1000
 				}
-				id: "743E573A1F65C503"
-				stat: "minecraft:animals_bred"
-				title: "Match Maker IV"
-				type: "stat"
-				value: 1000
-			}]
+			]
 			x: 0.0d
 			y: 7.0d
 		}
@@ -783,23 +880,25 @@
 			dependencies: ["4D3E69CD544F3E29"]
 			hide_until_deps_visible: true
 			id: "595DFEA592E18E68"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "minecraft:cow"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "minecraft:cow"
+							}
 						}
 					}
+					id: "3468C04845852BFB"
+					stat: "minecraft:animals_bred"
+					title: "媒人 V"
+					type: "stat"
+					value: 2500
 				}
-				id: "3468C04845852BFB"
-				stat: "minecraft:animals_bred"
-				title: "Match Maker V"
-				type: "stat"
-				value: 2500
-			}]
+			]
 			x: 1.0d
 			y: 6.0d
 		}
@@ -807,21 +906,23 @@
 			dependencies: ["393886001086EBB0"]
 			hide_until_deps_visible: true
 			id: "798DBD3027B8FCE2"
-			subtitle: "Damage blocked"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
+			subtitle: "格挡伤害&7[Damage blocked]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "2FE2A689B1BFFC56"
+					stat: "minecraft:damage_blocked_by_shield"
+					title: "受阻 II"
+					type: "stat"
+					value: 5000
 				}
-				id: "2FE2A689B1BFFC56"
-				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked II"
-				type: "stat"
-				value: 5000
-			}]
+			]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -829,21 +930,23 @@
 			dependencies: ["798DBD3027B8FCE2"]
 			hide_until_deps_visible: true
 			id: "1AD03F8A3FAFDD32"
-			subtitle: "Damage blocked"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
+			subtitle: "格挡伤害&7[Damage blocked]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "3B8460267BBA4FA6"
+					stat: "minecraft:damage_blocked_by_shield"
+					title: "受阻 III"
+					type: "stat"
+					value: 10000
 				}
-				id: "3B8460267BBA4FA6"
-				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked III"
-				type: "stat"
-				value: 10000
-			}]
+			]
 			x: 2.5d
 			y: 6.0d
 		}
@@ -851,21 +954,23 @@
 			dependencies: ["1AD03F8A3FAFDD32"]
 			hide_until_deps_visible: true
 			id: "5033D3F0F59D1B6D"
-			subtitle: "Damage blocked"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
+			subtitle: "格挡伤害&7[Damage blocked]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "70ED446D043D6754"
+					stat: "minecraft:damage_blocked_by_shield"
+					title: "受阻 IV"
+					type: "stat"
+					value: 50000
 				}
-				id: "70ED446D043D6754"
-				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked IV"
-				type: "stat"
-				value: 50000
-			}]
+			]
 			x: 3.5d
 			y: 7.0d
 		}
@@ -873,24 +978,26 @@
 			dependencies: ["5033D3F0F59D1B6D"]
 			hide_until_deps_visible: true
 			id: "4EF5324EF25D1B65"
-			subtitle: "Damage blocked"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
+			subtitle: "格挡伤害&7[Damage blocked]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "5D6286A6E13F7E3D"
+					stat: "minecraft:damage_blocked_by_shield"
+					title: "受阻 V"
+					type: "stat"
+					value: 100000
 				}
-				id: "5D6286A6E13F7E3D"
-				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked V"
-				type: "stat"
-				value: 100000
-			}]
+			]
 			x: 4.5d
 			y: 6.0d
 		}
 	]
-	title: "Epic Challenges"
+	title: "史诗挑战&7[Epic Challenges]&f"
 }

@@ -11,153 +11,236 @@
 	quests: [
 		{
 			description: [
-				"A tech-focused mod introducing &bdigital item storage&r and &eautomated crafting&r via sophisticated &5ME Networks&r. Replaces traditional chests with a &dsearchable,&r channel-managed system using &6Storage Cells&r and &bquantum technology&r."
+				"科技向模组,通过精密&5ME网络&r实现&b数字化物品存储&r与&e自动化合成&r.以可&d搜索的&r频道管理系统替代传统箱子,运用&e&a存储单元&f&r与&b量子技术&r."
 				""
-				"Core Components:"
+				"&a核心组件&f:"
 				""
-				"&5ME Drives&r (hold digital storage media)"
+				"&5&aME驱动器&f&r(承载数字存储介质)"
 				""
-				"&bWireless Terminals&r (remote network access)"
+				"&b无线终端&r(远程访问网络)"
 				""
-				"&dMolecular Assemblers&r (on-demand crafting)"
+				"&d&a分子装配室&f&r(按需合成)"
 				""
-				"&9Quantum Bridges&r (cross-dimensional networks)"
+				"&9量子桥&r(跨维度网络)"
 				""
-				"*(Integrates with &6RF/FE&r power systems while maintaining unique &5AE2 energy&r mechanics.)*"
+				"*(兼容&eRF/FE&r能源系统,同时保持独特的&5AE2能源&r机制)*"
 				""
-				"&a\"Your entire base's inventory - one wireless terminal away\"&r"
+				"&a“整个基地的库存——仅需一个无线终端“&r"
+				""
+				""
+				"&7[A tech-focused mod introducing digital item storage and automated crafting via sophisticated ME Networks. Replaces traditional chests with a searchable, channel-managed system using Storage Cells and quantum technology.]&f"
+				""
+				"&7[Core Components:]&f"
+				""
+				"&7[ME Drives (hold digital storage media)]&f"
+				""
+				"&7[Wireless Terminals (remote network access)]&f"
+				""
+				"&7[Molecular Assemblers (on-demand crafting)]&f"
+				""
+				"&7[Quantum Bridges (cross-dimensional networks)]&f"
+				""
+				"&7[*(Integrates with RF/FE power systems while maintaining unique AE2 energy mechanics.)*]&f"
+				""
+				"&7[\"Your entire base's inventory - one wireless terminal away\"]&f"
 			]
 			id: "0AA72D6706542CA6"
-			rewards: [{
-				id: "7DD6D42829FF4FB8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7DD6D42829FF4FB8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "095C87F6F730A3A4"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
-			}]
-			title: "&5Applied Energistics 2&r"
+			tasks: [
+				{
+					id: "095C87F6F730A3A4"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "&5&d应用能源2&f&r&7[Applied Energistics 2]&f"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0AA72D6706542CA6"]
 			description: [
-				"Specialized tools for rotating and disassembling &5ME Machines&r without breaking them. Preserves block configurations during base redesigns."
+				"专业工具,可无损旋转与拆卸&5ME机器&r,基地改造时保留方块配置."
 				""
-				"(Drops rotated blocks intact - no more accidental machine loss!)"
+				"(完整掉落已旋转方块——再无机器误损风险!)"
 				""
-				"&e\"Silent ME network architect tools\"&r"
+				"&e“静默ME网络架构工具“&r"
+				""
+				""
+				"&7[Specialized tools for rotating and disassembling ME Machines without breaking them. Preserves block configurations during base redesigns.]&f"
+				""
+				"&7[(Drops rotated blocks intact - no more accidental machine loss!)]&f"
+				""
+				"&7[\"Silent ME network architect tools\"]&f"
 			]
 			id: "4EF01E6BA6182A27"
-			rewards: [{
-				id: "7A537FC71C354647"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "48A651940AED347B"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:quartz_wrench"
-					}
+			rewards: [
+				{
+					id: "7A537FC71C354647"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Wrenches"
-				type: "item"
-			}]
-			title: "&9Wrenches&r"
+			]
+			tasks: [
+				{
+					id: "48A651940AED347B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:quartz_wrench"
+						}
+					}
+					title: "扳手"
+					type: "item"
+				}
+			]
+			title: "&9扳手&r&7[Wrenches]&f"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0AA72D6706542CA6"]
 			description: [
-				"A dedicated block that rapidly recharges &5AE2-powered devices&r like Wireless Terminals and Portable Cells. Connects directly to &5ME Networks&r and operates at &e3×&r normal charging speed."
+				"一个专用方块,可快速为&5AE2供电设备&r(如无线终端和&a便携元件&f)充电.直接连接到&5ME网络&r,并以&e3倍&r于正常&a充电&f速度运行."
 				""
-				"&a✔&r Faster than manual charging"
-				"&a✔&r Automated charging possible"
-				"&c!&r Requires continuous &5ME Network&r power"
-				"You also can charge Certus Quarzt Crystals"
+				"&a✔&r比手动充电更快"
+				"&a✔&r可实现自动化&a充电&f"
+				"&c!&r需要持续的&5ME网络&r供电"
+				"您还可以为赛特斯石英晶体充电"
+				""
+				""
+				"&7[A dedicated block that rapidly recharges AE2-powered devices like Wireless Terminals and Portable Cells. Connects directly to ME Networks and operates at 3× normal charging speed.]&f"
+				""
+				"&7[✔ Faster than manual charging]&f"
+				"&7[✔ Automated charging possible]&f"
+				"&7[! Requires continuous ME Network power]&f"
+				"&7[You also can charge Certus Quarzt Crystals]&f"
 			]
 			id: "4C57DF99E9A0BF6A"
-			rewards: [{
-				id: "0062435F2F48B9A8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "705FA8B4FEC38F78"
-				item: "ae2:charger"
-				type: "item"
-			}]
-			title: "&bCharger &r"
+			rewards: [
+				{
+					id: "0062435F2F48B9A8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "705FA8B4FEC38F78"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			title: "&b充能器&r&7[Charger ]&f"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4C57DF99E9A0BF6A"]
 			description: [
-				"The core device that bridges external power systems (&6RF&r/&cFE&r) with your &5ME Network&r."
+				"连接外部能源系统(&eRF&r/&cFE&r)与&5ME网络&r的核心设备."
 				""
-				"Functions:"
+				"功能:"
 				""
-				"Converts &6RF/FE&r → &5AE2 Power&r"
+				"将&eRF/FE&r转换为&5AE2能源&r"
 				""
-				"Must connect to &eME Cables&r or &aME Controller&r"
+				"必须连接至&eME线缆&r或&a&aME控制器&f&r"
 				""
-				"Enables non-AE2 power sources (like &dSolar Panels&r) to fuel your network"
+				"支持非AE2能源(如&d&a光伏电池&f&r)为网络供能"
 				""
-				"Key Properties:"
-				"&a✔&r Works &eautomatically&r (zero configuration)"
-				"&a✔&r No channel consumption"
-				"&c!&r &4One-way conversion only&r (cannot extract AE2 power as RF/FE)"
+				"关键特性:"
+				"&a✔&r &e自动运行&r(无需配置)"
+				"&a✔&r 不消耗频道"
+				"&c!&r &4仅支持单向转换&r(无法将AE2能源提取为RF/FE)"
+				""
+				""
+				"&7[The core device that bridges external power systems (RF/FE) with your ME Network.]&f"
+				""
+				"&7[Functions:]&f"
+				""
+				"&7[Converts RF/FE → AE2 Power]&f"
+				""
+				"&7[Must connect to ME Cables or ME Controller]&f"
+				""
+				"&7[Enables non-AE2 power sources (like Solar Panels) to fuel your network]&f"
+				""
+				"&7[Key Properties:]&f"
+				"&7[✔ Works automatically (zero configuration)]&f"
+				"&7[✔ No channel consumption]&f"
+				"&7[! One-way conversion only (cannot extract AE2 power as RF/FE)]&f"
 			]
 			id: "19F70C37419802B0"
-			rewards: [{
-				id: "1C5F3A25320244BF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "688156C4EB3D71FD"
-				item: "ae2:energy_acceptor"
-				type: "item"
-			}]
-			title: "&bEnergy Acceptor &r"
+			rewards: [
+				{
+					id: "1C5F3A25320244BF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "688156C4EB3D71FD"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+			]
+			title: "&b&a能源接收器&f &r&7[Energy Acceptor ]&f"
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19F70C37419802B0"]
 			description: [
-				"The standard energy storage block for &5ME Networks&r, storing AE2 power with configurable input/output sides."
+				"&5ME网络&r的标准能源存储单元,可配置输入/输出面以存储AE2能源."
 				""
-				"Variants:"
+				"变体:"
 				""
-				"&eEnergy Cell&r (basic storage)"
+				"&e&a能源元件&f&r(基础存储)"
 				""
-				"&5Dense Energy Cell&r (higher capacity)"
+				"&5&a致密能源元件&f&r(更高容量)"
 				""
-				"Key Properties:"
+				"关键特性:"
 				""
-				"Must connect to &5ME Controller&r"
+				"必须连接至&5&aME控制器&f&r"
 				""
-				"No channel consumption"
+				"不消耗频道"
 				""
-				"Works with &6P2P Tunnels&r"
+				"兼容&e&aP2P通道&f&r"
+				""
+				""
+				"&7[The standard energy storage block for ME Networks, storing AE2 power with configurable input/output sides.]&f"
+				""
+				"&7[Variants:]&f"
+				""
+				"&7[Energy Cell (basic storage)]&f"
+				""
+				"&7[Dense Energy Cell (higher capacity)]&f"
+				""
+				"&7[Key Properties:]&f"
+				""
+				"&7[Must connect to ME Controller]&f"
+				""
+				"&7[No channel consumption]&f"
+				""
+				"&7[Works with P2P Tunnels]&f"
 			]
 			id: "57BA62BB010D870C"
-			rewards: [{
-				id: "2188E8DE811807D4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2188E8DE811807D4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "53D657AD713C82AF"
@@ -178,131 +261,185 @@
 					type: "item"
 				}
 			]
-			title: "&bEnergy Cell &r"
+			title: "&b&a能源元件&f &r&7[Energy Cell ]&f"
 			x: 4.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["57BA62BB010D870C"]
-			description: ["Energy cards add more energy storage to certain tools like portable terminals, and make Vibration Chambers more efficient."]
+			description: [
+				"能源卡可为便携终端等工具增加能源存储容量,并提升&a谐振仓&f的工作效率."
+				""
+				""
+				"&7[Energy cards add more energy storage to certain tools like portable terminals, and make Vibration Chambers more efficient.]&f"
+			]
 			id: "6504C8B99E8C47A5"
-			rewards: [{
-				id: "64D3C0A050094962"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1C576B49EC3C6444"
-				item: "ae2:energy_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "64D3C0A050094962"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C576B49EC3C6444"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4C57DF99E9A0BF6A"]
-			description: ["A vibrant purple crystal used as a core component in AE2 recipes. Naturally generates in the world but can also be crafted by combining Certus Quartz, Redstone, and Nether Quartz in water."]
+			description: [
+				"一种鲜艳的紫色水晶,作为AE2合成配方核心材料.自然生成于世界中,也可通过将&a赛特斯石英&f、红石与&a下界石英&f在水中合成获得."
+				""
+				""
+				"&7[A vibrant purple crystal used as a core component in AE2 recipes. Naturally generates in the world but can also be crafted by combining Certus Quartz, Redstone, and Nether Quartz in water.]&f"
+			]
 			id: "42BF0D7E017F718B"
-			rewards: [{
-				id: "4F112DC88F4294BB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "04726FE341F5C206"
-				item: "ae2:fluix_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F112DC88F4294BB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04726FE341F5C206"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["42BF0D7E017F718B"]
-			description: ["The &6ME Glass Cable&r is the most basic type of cable used to connect devices in an &dME Network&r. It can carry up to &d8 channels&r, making it suitable for &asmall to medium-sized networks&r. This cable is essential for &ainitial network setups&r and is often used as the &dbackbone&r of the network."]
+			description: [
+				"&eME玻璃线缆&r是连接&dME网络&r设备的最基础线缆类型,最多可传输&d8个频道&r,适用于&a中小型网络&r.该线缆是&a初始网络构建&r的核心组件,常作为网络的&d主干线&r使用."
+				""
+				""
+				"&7[The ME Glass Cable is the most basic type of cable used to connect devices in an ME Network. It can carry up to 8 channels, making it suitable for small to medium-sized networks. This cable is essential for initial network setups and is often used as the backbone of the network.]&f"
+			]
 			id: "5AF160257BEEF682"
-			rewards: [{
-				id: "36691B5458522E92"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0FF0E33F047C173A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:glass_cable"
-					}
+			rewards: [
+				{
+					id: "36691B5458522E92"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Glass Cables"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0FF0E33F047C173A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+					title: "玻璃电缆"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5AF160257BEEF682"]
-			description: ["The &6Covered Cable&r is an upgraded version of the &6ME Glass Cable&r. It also supports up to &d8 channels&r but provides additional &aprotection and durability&r. &6Covered Cables&r can be further upgraded to &6Dense Covered Cables&r."]
+			description: [
+				"&e覆皮线缆&r是&eME玻璃线缆&r的升级版本,同样支持&d8个频道&r,但提供额外的&a防护性与耐久度&r.&e覆皮线缆&r可进一步升级为&e致密覆皮线缆&r."
+				""
+				""
+				"&7[The Covered Cable is an upgraded version of the ME Glass Cable. It also supports up to 8 channels but provides additional protection and durability. Covered Cables can be further upgraded to Dense Covered Cables.]&f"
+			]
 			id: "3623D4179724500D"
-			rewards: [{
-				id: "166147866EEAE0A5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0FAF29A93AB26BB8"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:covered_cable"
-					}
+			rewards: [
+				{
+					id: "166147866EEAE0A5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Covered Cables"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0FAF29A93AB26BB8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+					title: "包覆电缆"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3623D4179724500D"]
-			description: ["The &6Dense Covered Cable&r can carry up to &d32 channels&r, making it ideal for &alarger and more complex networks&r. This type of cable is used for the &dmain data trunks&r where a higher channel capacity is required. Due to its high capacity, &6Dense Cables&r are perfect for connecting to an &bME Controller&r or distributing channels to multiple sub-networks."]
+			description: [
+				"&e致密覆皮线缆&r最多可传输&d32个频道&r,是&a大型复杂网络&r的理想选择.此类线缆用于需要高频道容量的&d主干数据线路&r,非常适合连接&b&aME控制器&f&r或向多个子网络分配频道."
+				""
+				""
+				"&7[The Dense Covered Cable can carry up to 32 channels, making it ideal for larger and more complex networks. This type of cable is used for the main data trunks where a higher channel capacity is required. Due to its high capacity, Dense Cables are perfect for connecting to an ME Controller or distributing channels to multiple sub-networks.]&f"
+			]
 			id: "495ED54AC102B1FD"
-			rewards: [{
-				id: "0FD27301E4E28D77"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CAFAD588028F497"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:covered_dense_cable"
-					}
+			rewards: [
+				{
+					id: "0FD27301E4E28D77"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Dense Covered Cables"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "2CAFAD588028F497"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+					title: "密集包覆电缆"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5AF160257BEEF682"]
 			description: [
-				"The &bQuartz Cutting Knife&r is a crafting tool available in both &6Nether Quartz&r and &6Certus Quartz&r variants. It's useful for various tasks, including crafting &bCable Anchors&r."
+				"&b&a石英切割刀&f&r是可使用&e&a下界石英&f&r或&e&a赛特斯石英&f&r制作的合成工具,可用于制作&b线缆锚点&r等多项任务."
 				""
-				"&bCable Anchors&r, crafted with the knife, can separate cables without dyeing. They can also be used to make &bCable Facades&r, which disguise cables within walls by covering them with the face of any block. While facade recipes are hidden in JEI, they can be crafted by placing any block surrounded by 4 &bCable Anchors&r in the crafting grid."
+				"&b线缆锚点&r(通过切割刀制作)可分离线缆且无需染色,还能用于制作&b线缆伪装板&r——通过覆盖任意方块表面将线缆隐藏于墙内.虽然伪装板配方在JEI中隐藏,但可通过在工作台中将任意方块与4个&b线缆锚点&r环绕摆放来合成."
 				""
-				"Additionally, the knife can craft &bInscriber Name Presses&r by right-clicking to open a GUI. These presses can rename items in an &bInscriber&r, with two presses combining their names in sequence."
+				"此外,右键切割刀可打开GUI制作&b&a名称压印模板&f&r,这些模板可在&b刻印机&r中按顺序组合两个模板的名称来重命名物品."
+				""
+				""
+				"&7[The Quartz Cutting Knife is a crafting tool available in both Nether Quartz and Certus Quartz variants. It's useful for various tasks, including crafting Cable Anchors.]&f"
+				""
+				"&7[Cable Anchors, crafted with the knife, can separate cables without dyeing. They can also be used to make Cable Facades, which disguise cables within walls by covering them with the face of any block. While facade recipes are hidden in JEI, they can be crafted by placing any block surrounded by 4 Cable Anchors in the crafting grid.]&f"
+				""
+				"&7[Additionally, the knife can craft Inscriber Name Presses by right-clicking to open a GUI. These presses can rename items in an Inscriber, with two presses combining their names in sequence.]&f"
 			]
 			id: "295618B74C1FED6C"
-			rewards: [{
-				id: "389B1B3D0F0AB2EA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "389B1B3D0F0AB2EA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2B5F09CD533709A9"
@@ -318,7 +455,7 @@
 							value: "ae2:knife"
 						}
 					}
-					title: "Quartz Cutting Knives"
+					title: "石英切割刀"
 					type: "item"
 				}
 				{
@@ -336,100 +473,148 @@
 		}
 		{
 			dependencies: ["3623D4179724500D"]
-			description: ["The &bME Smart Cable&r functions similarly to &6Covered Cable&r but with an added feature. It can carry up to &d8 channels&r and &dvisually displays&r the number of channels being used with &acolored lines&r along the cable. This visualization helps in &amanaging and optimizing&r the network."]
+			description: [
+				"&bME智能线缆&r功能类似&e覆皮线缆&r,但新增特性:最多传输&d8个频道&r,并通过线缆上的&a彩色线条&r&d可视化显示&r频道使用数量,有助于&a管理与优化&r网络."
+				""
+				""
+				"&7[The ME Smart Cable functions similarly to Covered Cable but with an added feature. It can carry up to 8 channels and visually displays the number of channels being used with colored lines along the cable. This visualization helps in managing and optimizing the network.]&f"
+			]
 			id: "72BC8C4941732A6E"
-			rewards: [{
-				id: "083EAAFB5BF0D277"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2195343241355CBD"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:smart_cable"
-					}
+			rewards: [
+				{
+					id: "083EAAFB5BF0D277"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Smart Cables"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "2195343241355CBD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "智能电缆"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["495ED54AC102B1FD"]
-			description: ["The &bDense Smart Cable&r works like &6Dense Covered Cable&r but includes a &avisual display&r of the channels being used. It can carry up to &d32 channels&r, providing a &dclear view&r of network usage. These cables are excellent for &amonitoring large networks&r and ensuring &aefficient channel distribution&r."]
+			description: [
+				"&b致密智能线缆&r 的功能类似于 &e致密包覆线缆&r,但增加了通道使用情况的 &a可视化显示&r.它最多可传输 &d32个通道&r,提供网络使用状况的 &d清晰视图&r.这类线缆非常适合 &a监控大型网络&r 并确保 &a通道高效分配&r."
+				""
+				""
+				"&7[The Dense Smart Cable works like Dense Covered Cable but includes a visual display of the channels being used. It can carry up to 32 channels, providing a clear view of network usage. These cables are excellent for monitoring large networks and ensuring efficient channel distribution.]&f"
+			]
 			id: "6AB8E0C6EBB47F90"
-			rewards: [{
-				id: "44399E1B5F6AEF83"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18121C66F20142F4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:smart_dense_cable"
-					}
+			rewards: [
+				{
+					id: "44399E1B5F6AEF83"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Dense Smart Cable"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "18121C66F20142F4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "密集智能电缆"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5AF160257BEEF682"]
-			description: ["Cable Colorer"]
+			description: [
+				"线缆染色器"
+				""
+				""
+				"&7[Cable Colorer]&f"
+			]
 			id: "3A17AE55B0F3B543"
-			rewards: [{
-				id: "4B92718FDCDA5FAD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57799035C0B45D53"
-				item: {
-					Count: 1
-					id: "ae2:color_applicator"
-					tag: { }
+			rewards: [
+				{
+					id: "4B92718FDCDA5FAD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "57799035C0B45D53"
+					item: {
+						Count: 1
+						id: "ae2:color_applicator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["19F6AA2773B46E1A"]
 			description: [
-				"A crafted component essential for advanced &bME Network&r devices. Comes in three tiers, each requiring an &eInscriber&r with its corresponding press:"
+				"高级 &bME网络&r 设备的核心合成组件.分为三个等级,每个等级需要搭配对应压印模板的 &e蚀刻&r 机制作:"
 				""
-				"&bLogic Processor&r"
+				"&b&a逻辑处理器&f&r"
 				""
-				"Base tier for most machines (&5Interfaces&r, &9Drives&r)"
+				"多数机器的基础部件(&5接口&r、&9驱动器&r)"
 				""
-				"&6Engineering Processor&r"
+				"&e&a工程处理器&f&r"
 				""
-				"Used for automation blocks (&cExport/Import Buses&r)"
+				"用于自动化模块(&c输出/输入总线&r)"
 				""
-				"&dCalculation Processor&r"
+				"&d&a运算处理器&f&r"
 				""
-				"Required for high-tier devices (&aQuantum Bridge&r, &eControllers&r)"
+				"高阶设备必备组件(&a量子桥&r、&e控制器&r)"
 				""
-				"(The &9\"microchips\"&r powering AE2's advanced technology.)"
+				"(驱动AE2尖端科技的 &9“微芯片“&r)"
 				""
-				"&e\"From simple storage to quantum computing\"&r"
+				"&e“从简单存储到量子计算“&r"
+				""
+				""
+				"&7[A crafted component essential for advanced ME Network devices. Comes in three tiers, each requiring an Inscriber with its corresponding press:]&f"
+				""
+				"&7[Logic Processor]&f"
+				""
+				"&7[Base tier for most machines (Interfaces, Drives)]&f"
+				""
+				"&7[Engineering Processor]&f"
+				""
+				"&7[Used for automation blocks (Export/Import Buses)]&f"
+				""
+				"&7[Calculation Processor]&f"
+				""
+				"&7[Required for high-tier devices (Quantum Bridge, Controllers)]&f"
+				""
+				"&7[(The \"microchips\" powering AE2's advanced technology.)]&f"
+				""
+				"&7[\"From simple storage to quantum computing\"]&f"
 			]
 			id: "750B10A7ADE8DE08"
-			rewards: [{
-				id: "14A42D5EC0CC46D8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "14A42D5EC0CC46D8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0F4F69ADEC8D41F6"
@@ -453,16 +638,23 @@
 		{
 			dependencies: ["750B10A7ADE8DE08"]
 			description: [
-				"The central interface for accessing your entire ME network inventory. This panel displays all items stored in connected ME Drives and allows searching, sorting, and item withdrawal/insertion. Functions as the primary control hub for the storage system."
+				"访问整个ME网络存储的核心界面.该面板显示所有连接 &aME驱动器&f 中的存储物品,支持搜索、整理及物品存取功能,是存储系统的主控制枢纽."
 				""
-				"The &6ME Crafting Terminal&r is an enhanced version that includes a crafting grid, enabling convenient crafting using any network-contained items visible through the terminal."
+				"&eME合成终端&r 是增强版本,配备合成网格,可通过终端直接使用网络内任何可见物品进行便捷合成."
+				""
+				""
+				"&7[The central interface for accessing your entire ME network inventory. This panel displays all items stored in connected ME Drives and allows searching, sorting, and item withdrawal/insertion. Functions as the primary control hub for the storage system.]&f"
+				""
+				"&7[The ME Crafting Terminal is an enhanced version that includes a crafting grid, enabling convenient crafting using any network-contained items visible through the terminal.]&f"
 			]
 			id: "16C065EA59F9F415"
-			rewards: [{
-				id: "3949CCB9BFF7B7C2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3949CCB9BFF7B7C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0540671AA07AC5D7"
@@ -480,18 +672,27 @@
 		}
 		{
 			dependencies: ["16C065EA59F9F415"]
-			description: ["A handheld diagnostic device for analyzing and configuring ME networks. Used to check connections, identify channel usage, and troubleshoot system components. Visually displays network links when right-clicking cables or devices."]
+			description: [
+				"用于分析和配置ME网络的手持诊断设备.可检查连接状态、识别通道使用情况并排查系统组件故障,右键点击线缆或设备时会显示网络链接的可视化图示."
+				""
+				""
+				"&7[A handheld diagnostic device for analyzing and configuring ME networks. Used to check connections, identify channel usage, and troubleshoot system components. Visually displays network links when right-clicking cables or devices.]&f"
+			]
 			id: "7D26915C5E25FE03"
-			rewards: [{
-				id: "00D827617D832657"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "734A1913B5E4AA9B"
-				item: "ae2:network_tool"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "00D827617D832657"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "734A1913B5E4AA9B"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 6.5d
 		}
@@ -501,93 +702,152 @@
 				"7FD3236DCC28E77E"
 			]
 			description: [
-				"The central &bpower hub&r and &echannel manager&r for &5ME Networks&r. This multiblock structure provides both energy distribution and network control for all connected devices."
+				"&5ME网络&r 的中央 &b能源枢纽&r 与 &e通道管理器&r.这个多方块结构为所有连接设备提供能源分配和网络控制功能."
 				""
-				"Core Functions:"
+				"核心功能:"
 				""
-				"Supplies &6AE2 power&r (via &dEnergy Acceptor&r)"
+				"供应 &eAE2能源&r(通过 &d&a能源接收器&f&r)"
 				""
-				"Manages &c8-channel limit&r per cable branch"
+				"管理每根线缆分支 &c8通道上限&r"
 				""
-				"Expands via &9multiblock formation&r (up to 7×7×7)"
+				"通过 &9多方块结构&r 扩展(最大7×7×7)"
 				""
-				"(The &a\"brain and heart\"&r of any AE2 system.)"
+				"(所有AE2系统的 &a“大脑与心脏“&r)"
 				""
-				"&e\"Where quantum logistics begin\"&r"
+				"&e“量子物流的起点“&r"
+				""
+				""
+				"&7[The central power hub and channel manager for ME Networks. This multiblock structure provides both energy distribution and network control for all connected devices.]&f"
+				""
+				"&7[Core Functions:]&f"
+				""
+				"&7[Supplies AE2 power (via Energy Acceptor)]&f"
+				""
+				"&7[Manages 8-channel limit per cable branch]&f"
+				""
+				"&7[Expands via multiblock formation (up to 7×7×7)]&f"
+				""
+				"&7[(The \"brain and heart\" of any AE2 system.)]&f"
+				""
+				"&7[\"Where quantum logistics begin\"]&f"
 			]
 			id: "5D343A8BA24FA327"
-			rewards: [{
-				id: "03AE45267E50674D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "196EFD1B878FA880"
-				item: "ae2:controller"
-				type: "item"
-			}]
-			title: "&5ME Controller&r"
+			rewards: [
+				{
+					id: "03AE45267E50674D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "196EFD1B878FA880"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "&5&aME控制器&f&r&7[ME Controller]&f"
 			x: -2.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5AF160257BEEF682"]
 			description: [
-				"In Applied Energistics 2, &6channels&r are a fundamental concept that dictate how many devices can be connected and managed within an &dME Network&r."
+				"在 &d应用能源2&f 中,&e通道&r 是决定 &dME网络&r 内可连接与管理设备数量的核心机制."
 				""
-				"A network management system that limits device connections to 8 channels per cable branch. Channels are used by:"
+				"该网络管理系统限制每根线缆分支最多连接8个通道.使用通道的设备包括:"
 				""
-				"Active machines (Interfaces, Import/Export Buses)"
+				"主动机器(接口、输入/输出总线)"
 				""
-				"Storage devices (Drives, Chests)"
+				"存储设备(驱动器、存储箱)"
 				""
-				"Terminals"
+				"终端"
+				""
+				""
+				"&7[In Applied Energistics 2, channels are a fundamental concept that dictate how many devices can be connected and managed within an ME Network.]&f"
+				""
+				"&7[A network management system that limits device connections to 8 channels per cable branch. Channels are used by:]&f"
+				""
+				"&7[Active machines (Interfaces, Import/Export Buses)]&f"
+				""
+				"&7[Storage devices (Drives, Chests)]&f"
+				""
+				"&7[Terminals]&f"
 			]
 			id: "7FD3236DCC28E77E"
-			rewards: [{
-				id: "021095239969F926"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69DC460CA9DBFE47"
-				title: "Channels Information"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "021095239969F926"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69DC460CA9DBFE47"
+					title: "频道信息"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["16C065EA59F9F415"]
 			description: [
-				"&1ME Drive&r"
-				"The physical storage device for digital &5Storage Cells&r in an &bME Network&r. Acts as a bay for up to &e10 cells&r (1K-65M types)."
+				"&1&aME驱动器&f&r"
+				"&bME网络&r 中数字 &5&a存储元件&f&r 的物理存储设备,可作为最多 &e10个存储单元&r(1K-65M类型)的装载舱."
 				""
-				"Key Properties:"
+				"关键特性:"
 				""
-				"&6No internal storage&r - capacity depends on inserted cells"
+				"&e无内置存储&r - 容量取决于插入的存储单元"
 				""
-				"Requires &5Fluix Cable&r connection and &dME Controller&r power"
+				"需要连接 &5荧石线缆&r 并由 &d&aME控制器&f&r 供电"
 				""
-				"&5ME Chest&r"
-				"A wireless access point to your &bME Network&r inventory."
+				"&5&aME存储箱&f&r"
+				"访问 &bME网络&r 存储的无线接入点."
 				""
-				"Special Traits:"
+				"特殊属性:"
 				""
-				"Needs &6Wireless Access Point&r + power"
+				"需要 &e无线访问点&r + 能源供应"
 				""
-				"Shows only &epermitted items&r (via Security Terminal)"
+				"仅显示 &e授权物品&r(通过 &a安全终端&f 设置)"
 				""
-				"Works &across dimensions&r with Quantum Link"
+				"配合 &a量子连接器&f 实现 &a跨维度&r 访问"
 				""
-				"&e\"From physical storage to quantum access\"&r"
+				"&e“从实体存储到量子访问“&r"
+				""
+				""
+				"&7[ME Drive]&f"
+				"&7[The physical storage device for digital Storage Cells in an ME Network. Acts as a bay for up to 10 cells (1K-65M types).]&f"
+				""
+				"&7[Key Properties:]&f"
+				""
+				"&7[No internal storage - capacity depends on inserted cells]&f"
+				""
+				"&7[Requires Fluix Cable connection and ME Controller power]&f"
+				""
+				"&7[ME Chest]&f"
+				"&7[A wireless access point to your ME Network inventory.]&f"
+				""
+				"&7[Special Traits:]&f"
+				""
+				"&7[Needs Wireless Access Point + power]&f"
+				""
+				"&7[Shows only permitted items (via Security Terminal)]&f"
+				""
+				"&7[Works cross dimensions with Quantum Link]&f"
+				""
+				"&7[\"From physical storage to quantum access\"]&f"
 			]
 			id: "0942C0CC13ABAF70"
-			rewards: [{
-				id: "0789D9EFF057885F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0789D9EFF057885F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "77BA60B884FBED8C"
@@ -600,93 +860,136 @@
 					type: "item"
 				}
 			]
-			title: "ME Chest and ME Drive"
+			title: "&aME存储箱&f 与 &aME驱动器&f&7[ME Chest and ME Drive]&f"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["0942C0CC13ABAF70"]
-			description: ["A dual-purpose block that transfers items between physical inventories (chests, machines) and your ME network. It can import/export items and swap Storage Cells in drives without breaking the network connection. Connects via ME cables and requires power."]
+			description: [
+				"一种双功能方块,可在实体容器(箱子、机器)与您的ME网络间传输物品.支持物品导入/导出,并能在不中断网络连接的情况下更换驱动器中的&a存储元件&f.通过ME线缆连接且需要供电."
+				""
+				""
+				"&7[A dual-purpose block that transfers items between physical inventories (chests, machines) and your ME network. It can import/export items and swap Storage Cells in drives without breaking the network connection. Connects via ME cables and requires power.]&f"
+			]
 			id: "6F3C4259ECFFAC99"
-			rewards: [{
-				id: "3740B3C7164B69B2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3B565947E39D3370"
-				item: "ae2:io_port"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3740B3C7164B69B2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B565947E39D3370"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0942C0CC13ABAF70"]
 			description: [
-				"The &bCell Workbench&r is used to &apartition&r cells to hold specific items, creating a &dwhitelist filter&r. It also allows cells to be upgraded with cards like the &bInverter Card&r, which changes the whitelist to a &ablacklist&r."
+				"&b&a元件工作台&f&r用于对存储单元进行&a分区设置&r以限定存放特定物品,形成&d白名单过滤机制&r.同时支持通过&b&a反相卡&f&r等升级卡将白名单转换为&a黑名单&r模式."
 				""
-				"Additionally, cells can have their &apriority&r adjusted via the workbench, determining if they receive items first or wait until higher-priority cells are filled."
+				"此外还可调整存储单元的&a优先级&r,决定物品是优先存入还是等待更高优先级的单元填满."
+				""
+				""
+				"&7[The Cell Workbench is used to partition cells to hold specific items, creating a whitelist filter. It also allows cells to be upgraded with cards like the Inverter Card, which changes the whitelist to a blacklist.]&f"
+				""
+				"&7[Additionally, cells can have their priority adjusted via the workbench, determining if they receive items first or wait until higher-priority cells are filled.]&f"
 			]
 			id: "3DA71E83EE2BAB7C"
-			rewards: [{
-				id: "7130F6056F601137"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "77CF0C516B002A19"
-				item: "ae2:cell_workbench"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7130F6056F601137"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77CF0C516B002A19"
+					item: "ae2:cell_workbench"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["3DA71E83EE2BAB7C"]
-			description: ["The &bOverflow Destruction Card&r is an upgrade for storage cells that automatically &ddelete&r any items of a type already contained within the cell if the cell is full, preventing overflow."]
+			description: [
+				"&b溢出销毁卡&r是一种存储单元升级组件,当单元存满时自动&d删除&r已存储类型的多余物品,有效防止溢出."
+				""
+				""
+				"&7[The Overflow Destruction Card is an upgrade for storage cells that automatically delete any items of a type already contained within the cell if the cell is full, preventing overflow.]&f"
+			]
 			id: "62FD4E6D43FCC228"
-			rewards: [{
-				id: "6EED6EAA12567577"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6EED6EAA12567577"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "1221927EA6CE425A"
-				item: "ae2:void_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1221927EA6CE425A"
+					item: "ae2:void_card"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3DA71E83EE2BAB7C"]
-			description: ["The &bEqual Distribution Card&r is a storage cell upgrade that &dpre-allocates&r a specific amount of items for each type, similar to a &aFunctional Storage drawer&r, where each compartment holds a set number of stacks, preventing items from one type crowding out others."]
+			description: [
+				"&b均分分配卡&r作为存储单元升级组件,能够为每种物品类型&d预分配&r特定存储空间,其机制类似于&a功能存储抽屉&r——每个隔间固定存放设定数量的堆叠物品,避免单一物品种类挤占其他物品空间."
+				""
+				""
+				"&7[The Equal Distribution Card is a storage cell upgrade that pre-allocates a specific amount of items for each type, similar to a Functional Storage drawer, where each compartment holds a set number of stacks, preventing items from one type crowding out others.]&f"
+			]
 			id: "5C786EAC4B7CBEB4"
-			rewards: [{
-				id: "64E784835A847605"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "64E784835A847605"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "688899B4776824FE"
-				item: "ae2:equal_distribution_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "688899B4776824FE"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5D343A8BA24FA327"]
-			description: ["A block that enables wireless ME network access for devices like Wireless Terminals or ME Chests. Requires power and boosts signal strength for extended range."]
+			description: [
+				"为无线终端或&aME箱子&f等设备提供无线ME网络接入的方块.需要供电并通过增强信号强度来扩展连接范围."
+				""
+				""
+				"&7[A block that enables wireless ME network access for devices like Wireless Terminals or ME Chests. Requires power and boosts signal strength for extended range.]&f"
+			]
 			id: "2AFDEEA844B0DC0B"
-			rewards: [{
-				id: "53ADB8F3C0BA2951"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53ADB8F3C0BA2951"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "32D239674C3F886B"
@@ -704,13 +1007,20 @@
 		}
 		{
 			dependencies: ["2AFDEEA844B0DC0B"]
-			description: ["A portable device that provides wireless access to your ME network inventory and crafting system. Requires connection to a powered Wireless Access Point and consumes energy during use."]
+			description: [
+				"便携式设备,可无线访问ME网络存储系统及合成功能.需连接至已供电的无线接入点,使用过程中持续消耗能量."
+				""
+				""
+				"&7[A portable device that provides wireless access to your ME network inventory and crafting system. Requires connection to a powered Wireless Access Point and consumes energy during use.]&f"
+			]
 			id: "4D278F1E4C68E29D"
-			rewards: [{
-				id: "2718BC192C38D586"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2718BC192C38D586"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "18B050467523B0F0"
@@ -729,18 +1039,27 @@
 		{
 			dependencies: ["5D343A8BA24FA327"]
 			description: [
-				"A late-game block that slowly compresses stacks of identical items (1,000 units) into Singularities, which are used for crafting high-tier AE2 components like Quantum Bridges. Requires continuous AE2 power and outputs to adjacent inventories."
+				"终局阶段方块,能将1000个同类物品缓慢压缩成用于制作量子桥等高级AE2组件的&a奇点&f.需要持续AE能源供应,成品输出至相邻容器."
 				""
 				""
-				"Matter Ball:"
-				"A dense sphere of compressed matter created by the Matter Condenser when processing 1,000 units of any item."
+				"&a物质球&f:"
+				"由&a物质聚合器&f处理1000个任意物品后产生的致密压缩物质球体."
+				""
+				""
+				"&7[A late-game block that slowly compresses stacks of identical items (1,000 units) into Singularities, which are used for crafting high-tier AE2 components like Quantum Bridges. Requires continuous AE2 power and outputs to adjacent inventories.]&f"
+				""
+				""
+				"&7[Matter Ball:]&f"
+				"&7[A dense sphere of compressed matter created by the Matter Condenser when processing 1,000 units of any item.]&f"
 			]
 			id: "487D717B87795D2F"
-			rewards: [{
-				id: "7E3DFC7CFC06BC1D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E3DFC7CFC06BC1D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0E7F4B0C33E15CCD"
@@ -759,16 +1078,23 @@
 		{
 			dependencies: ["487D717B87795D2F"]
 			description: [
-				"Using a &a64k storage component&r or higher, the &bMatter Condenser&r can produce a &bSingularity&r. A single singularity requires &d256,000 items&r to be voided, equivalent to &o4,000 stacks&r!"
+				"使用&a64k存储组件&r或更高级别组件时,&b&a物质聚合器&f&r可生成&b奇点&r.每个奇点需要湮灭&d256,000个物品&r,相当于&o4,000组&r!"
 				""
-				"To see its true potential, throw the singularity on the ground with a piece of &6Ender Dust&r. This will cause some damage to the surroundings, but AE2 offers &bTiny TNT&r to minimize the impact."
+				"若要见证其真正潜力,可将奇点与&e&a末影珍珠&f&r一同投掷于地面.这会对周围环境造成一定破坏,但AE2提供的&b微型TNT&r可有效控制影响范围."
+				""
+				""
+				"&7[Using a 64k storage component or higher, the Matter Condenser can produce a Singularity. A single singularity requires 256,000 items to be voided, equivalent to 4,000 stacks!]&f"
+				""
+				"&7[To see its true potential, throw the singularity on the ground with a piece of Ender Dust. This will cause some damage to the surroundings, but AE2 offers Tiny TNT to minimize the impact.]&f"
 			]
 			id: "47F7DC87790D5064"
-			rewards: [{
-				id: "253DA70539924343"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "253DA70539924343"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "022E1F4B2E0634A4"
@@ -793,38 +1119,59 @@
 			dependencies: ["47F7DC87790D5064"]
 			dependency_requirement: "all_started"
 			description: [
-				"&1ME Quantum Ring:&r"
-				"The primary multiblock structure for interdimensional ME networks. Forms one endpoint of a Quantum Network Bridge when linked to a matching ring in another dimension. Requires a Quantum Entangled Singularity for activation."
+				"&1&aME量子环&f:&r"
+				"跨维度ME网络的核心多方块结构.与异维度对应量子环连接后构成量子网络桥的端点,需使用&a量子纠缠态奇点&f激活."
 				""
-				"&5ME Quantum Link Chamber:&r"
-				"A support block for the Quantum Ring that stabilizes interdimensional connections. Must be placed inside the ring and supplied with power."
+				"&5&aME量子链接仓&f:&r"
+				"量子环的辅助稳定装置,用于维持跨维度连接.必须放置于环内结构并持续供电."
 				""
-				"&cQuantum Entangled Singularity:&r"
-				"A crafted singularity that synchronizes two Quantum Rings across dimensions, enabling cross-dimensional ME networks. Created by combining 4 Singularities in an ME Condenser."
+				"&c&a量子纠缠态奇点&f:&r"
+				"通过四个普通奇点在ME冷凝器中合成,可使两个量子环实现跨维度同步,构建跨维度ME网络."
+				""
+				""
+				"&7[ME Quantum Ring:]&f"
+				"&7[The primary multiblock structure for interdimensional ME networks. Forms one endpoint of a Quantum Network Bridge when linked to a matching ring in another dimension. Requires a Quantum Entangled Singularity for activation.]&f"
+				""
+				"&7[ME Quantum Link Chamber:]&f"
+				"&7[A support block for the Quantum Ring that stabilizes interdimensional connections. Must be placed inside the ring and supplied with power.]&f"
+				""
+				"&7[Quantum Entangled Singularity:]&f"
+				"&7[A crafted singularity that synchronizes two Quantum Rings across dimensions, enabling cross-dimensional ME networks. Created by combining 4 Singularities in an ME Condenser.]&f"
 			]
 			id: "726DF1B2F0DFE008"
-			rewards: [{
-				id: "1BE45BC3BB71B77E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BE45BC3BB71B77E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 16L
 					id: "7284539577CF2E58"
-					item: { Count: 16, id: "ae2:quantum_ring" }
+					item: {
+						Count: 16
+						id: "ae2:quantum_ring"
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "32C4B5F6070FD102"
-					item: { Count: 2, id: "ae2:quantum_link" }
+					item: {
+						Count: 2
+						id: "ae2:quantum_link"
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "3F7AB9FC2455B492"
-					item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+					item: {
+						Count: 2
+						id: "ae2:quantum_entangled_singularity"
+					}
 					type: "item"
 				}
 			]
@@ -833,18 +1180,27 @@
 		}
 		{
 			dependencies: ["0942C0CC13ABAF70"]
-			description: ["The &6ME Storage Component&r is a vital item in the &bApplied Energistics 2&r mod, used to store items within your &dME Network&r."]
+			description: [
+				"&eME存储组件&r是&b&d应用能源2&f&r模组中的核心物品,用于在&dME网络&r中存储物品."
+				""
+				""
+				"&7[The ME Storage Component is a vital item in the Applied Energistics 2 mod, used to store items within your ME Network.]&f"
+			]
 			id: "1F4EBEDFCB7ED937"
-			rewards: [{
-				id: "4043C7FB6A063D82"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "376A4BFFCE8BED9A"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4043C7FB6A063D82"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "376A4BFFCE8BED9A"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 11.5d
 		}
@@ -854,21 +1210,32 @@
 				"1F4EBEDFCB7ED937"
 			]
 			description: [
-				"The &bCharged Staff&r is a simple powered staff that deals &c3 hearts&r of damage and consumes &d300AE&r per hit. It uses pre-1.9 combat mechanics, allowing you to &aspam-click&r like in the good old days."
+				"&b充能手杖&r是一把简易充能法杖,每次攻击造成&c3点生命值&r伤害并消耗&d300AE&r能量.采用1.9版本前的战斗机制,让你能像往日般&a狂点鼠标&r连续攻击."
 				""
-				"The &bEntropy Manipulator&r, when &oused&r on certain blocks in the world, will &asmelt them in-place&r, such as &dsand to glass&r and &dmetal ores to metal ingots&r. If used on other blocks, it will simply &alight a fire&r on the block."
+				"&b&a熵变机械臂&f&r对世界中特定方块&o使用&r时,可&a就地熔炼&r这些方块,例如将&d沙子熔成玻璃&r或&d金属矿石熔成金属锭&r.若对其他方块使用,则会在该方块上&a点燃火焰&r."
 				""
-				"The &bMatter Cannon&r functions similarly to the &bColor Applicator&r as a dedicated cell for holding \"ammo\" items such as &dMatter Balls&r and &diron/gold nuggets&r. These can then be fired to deal &adamage to mobs&r or &abreak blocks&r. Heavier \"ammo\", like &dmetal nuggets&r, will deal more damage and destroy harder blocks."
+				"&b&a物质炮&f&r功能类似&b&a染色器&f&r,作为专用存储单元可容纳“弹药“物品,如&d&a物质球&f&r和&d铁/金粒&r.发射后可对生物&a造成伤害&r或&a破坏方块&r.较重弹药(如&d金属粒&r)能造成更高伤害并摧毁更坚硬的方块."
 				""
-				"&dMatter Balls&r in a &bMatter Cannon&r can be substituted with &bPaint Balls&r, which will apply a paint splatter effect on the face of the block being fired at. &bLumen Paint Balls&r are a variant of paint balls exclusively used by the &bMatter Cannon&r, whose paint splatters also give off light once present in the world."
+				"&b&a物质炮&f&r中的&d&a物质球&f&r可替换为&b&a染色球&f&r,后者会在被击中方块表面形成泼溅染色效果.&b流明&a染色球&f&r是&b&a物质炮&f&r专用变种弹药,其染色泼溅物存在于世界中时会持续发光."
+				""
+				""
+				"&7[The Charged Staff is a simple powered staff that deals 3 hearts of damage and consumes 300AE per hit. It uses pre-1.9 combat mechanics, allowing you to spam-click like in the good old days.]&f"
+				""
+				"&7[The Entropy Manipulator, when used on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If used on other blocks, it will simply light a fire on the block.]&f"
+				""
+				"&7[The Matter Cannon functions similarly to the Color Applicator as a dedicated cell for holding \"ammo\" items such as Matter Balls and iron/gold nuggets. These can then be fired to deal damage to mobs or break blocks. Heavier \"ammo\", like metal nuggets, will deal more damage and destroy harder blocks.]&f"
+				""
+				"&7[Matter Balls in a Matter Cannon can be substituted with Paint Balls, which will apply a paint splatter effect on the face of the block being fired at. Lumen Paint Balls are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off light once present in the world.]&f"
 			]
 			hide_dependency_lines: true
 			id: "2CE3008EE0CDFD64"
-			rewards: [{
-				id: "1E4E363F1684980D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E4E363F1684980D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "25BE72A3AE0FC180"
@@ -890,280 +1257,349 @@
 					type: "item"
 				}
 			]
-			title: "Weapons!"
+			title: "武器!&7[Weapons!]&f"
 			x: -4.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["1F4EBEDFCB7ED937"]
 			id: "76D2365D82FEF9D4"
-			rewards: [{
-				id: "09BAFFFDF7BC3FC2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "09BAFFFDF7BC3FC2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "5987CF40825D5868"
-				item: "ae2:cell_component_4k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5987CF40825D5868"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["76D2365D82FEF9D4"]
 			id: "245FB107FCE683A1"
-			rewards: [{
-				id: "6BB56CE946F5F2EE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6BB56CE946F5F2EE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "627E847B9FE98A4D"
-				item: "ae2:cell_component_16k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "627E847B9FE98A4D"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["245FB107FCE683A1"]
 			id: "31B8C5427DEEF8F3"
-			rewards: [{
-				id: "5D8F29C33BE52159"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5D8F29C33BE52159"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "40A9AB7814C6E9D0"
-				item: "ae2:cell_component_64k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "40A9AB7814C6E9D0"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["31B8C5427DEEF8F3"]
 			id: "5699EBB38EE95725"
-			rewards: [{
-				id: "63A4C4126E940A7E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "63A4C4126E940A7E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "43A17D1480323673"
-				item: "ae2:cell_component_256k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43A17D1480323673"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5699EBB38EE95725"]
 			id: "2D3C0B94D4733949"
-			rewards: [{
-				id: "1E82595219811C76"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E82595219811C76"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "578E677738722389"
-				item: "ae2additions:cell_component_1024"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "578E677738722389"
+					item: "ae2additions:cell_component_1024"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["2D3C0B94D4733949"]
 			id: "65E554EA88D817EA"
-			rewards: [{
-				id: "071113E16C045158"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "071113E16C045158"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "245E3E20FC099F73"
-				item: "ae2additions:cell_component_4096"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "245E3E20FC099F73"
+					item: "ae2additions:cell_component_4096"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["65E554EA88D817EA"]
 			id: "3CF25E652ACE48CF"
-			rewards: [{
-				id: "473182EA6A19A00B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "473182EA6A19A00B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "468368C7C8143912"
-				item: "ae2additions:cell_component_16384"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "468368C7C8143912"
+					item: "ae2additions:cell_component_16384"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["3CF25E652ACE48CF"]
 			id: "609A534487771CEA"
-			rewards: [{
-				id: "60DE2ED8B9E645D3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "60DE2ED8B9E645D3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "68A8803CAC8A3892"
-				item: "ae2additions:cell_component_65536"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68A8803CAC8A3892"
+					item: "ae2additions:cell_component_65536"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["1F4EBEDFCB7ED937"]
-			description: ["This storage cell allows you to store all types of items, fluids, and chemicals in one cell. No longer do you need separate storage cells for items, fluids, and chemicals."]
+			description: [
+				"该存储单元可同时容纳所有类型的物品、流体和化学品.无需再为物品、流体和化学品分别配置专用存储单元."
+				""
+				""
+				"&7[This storage cell allows you to store all types of items, fluids, and chemicals in one cell. No longer do you need separate storage cells for items, fluids, and chemicals.]&f"
+			]
 			id: "10A4748598F5EE60"
 			min_width: 400
-			rewards: [{
-				id: "26E811F1D76E1163"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "701F0AED4325D9DA"
-				item: "ae2additions:super_cell_component_1k"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "26E811F1D76E1163"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "701F0AED4325D9DA"
+					item: "ae2additions:super_cell_component_1k"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["10A4748598F5EE60"]
 			id: "77DC1140F9B8CF57"
-			rewards: [{
-				id: "67B81CC9053AB3C3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67B81CC9053AB3C3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "7D8CDCF84D4033E8"
-				item: "ae2additions:super_cell_component_4k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7D8CDCF84D4033E8"
+					item: "ae2additions:super_cell_component_4k"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["77DC1140F9B8CF57"]
 			id: "1D70EC9CB1B9157D"
-			rewards: [{
-				id: "7FE79A1E052090DC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7FE79A1E052090DC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "29AEAB1C4978FF6B"
-				item: "ae2additions:super_cell_component_16k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "29AEAB1C4978FF6B"
+					item: "ae2additions:super_cell_component_16k"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["1D70EC9CB1B9157D"]
 			id: "643A62446C505B29"
-			rewards: [{
-				id: "6CD6DBE412727DFB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6CD6DBE412727DFB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "41D499314A42F4CA"
-				item: "ae2additions:super_cell_component_64k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41D499314A42F4CA"
+					item: "ae2additions:super_cell_component_64k"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["643A62446C505B29"]
 			id: "0E43D8A769E9C13C"
-			rewards: [{
-				id: "6E25A581F078C159"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6E25A581F078C159"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "20F30A41C0C7A3F3"
-				item: "ae2additions:super_cell_component_256k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20F30A41C0C7A3F3"
+					item: "ae2additions:super_cell_component_256k"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["0E43D8A769E9C13C"]
 			id: "2EC5B0BFC8566621"
-			rewards: [{
-				id: "71263CFED36822E1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71263CFED36822E1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "59322B6B64BD595E"
-				item: "ae2additions:super_cell_component_1024k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59322B6B64BD595E"
+					item: "ae2additions:super_cell_component_1024k"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["2EC5B0BFC8566621"]
 			id: "2BA521A430A3DF7D"
-			rewards: [{
-				id: "491E80F0890B8AE4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "491E80F0890B8AE4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "580FB3B624B53EDE"
-				item: "ae2additions:super_cell_component_4096k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "580FB3B624B53EDE"
+					item: "ae2additions:super_cell_component_4096k"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["2BA521A430A3DF7D"]
 			id: "791B063470A312E7"
-			rewards: [{
-				id: "683DB0F2B3EBE231"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "683DB0F2B3EBE231"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "0D3E9E8CC55647CE"
-				item: "ae2additions:super_cell_component_16m"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0D3E9E8CC55647CE"
+					item: "ae2additions:super_cell_component_16m"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 14.0d
 		}
@@ -1184,85 +1620,120 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1DBD68E62A819C9D"
-				item: "ae2additions:super_cell_component_65m"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1DBD68E62A819C9D"
+					item: "ae2additions:super_cell_component_65m"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["1F4EBEDFCB7ED937"]
 			description: [
-				"Once you have a &61k Storage Component&r, you can craft a &b1k ME Item Storage Cell&r to begin your digital item storage journey. For most of your storage needs, you'll want to create several &bME Item Storage Cells&r."
+				"获得&e1k存储组件&r后,可合成&b1k ME物品&a存储单元&f&r开启数字物品存储之旅.为满足多数存储需求,建议制作多个&bME物品&a存储单元&f&r."
 				""
-				"Each &bME Item Storage Cell&r can store up to &d63 different item types&r. When you add a new item type to a cell, it uses part of the cell's total &acapacity in bytes&r. Each type already stored uses &a1 byte&r for every &d8 items&r of that type."
+				"每个&bME物品&a存储单元&f&r最多存储&d63种不同物品类型&r.新增物品类型时会占用单元&a字节总容量&r的部分空间.已存储的每种类型每&d8个物品&r占用&a1字节&r."
 				""
-				"For example, a &b1k ME Item Storage Cell&r filled with only cobblestone can hold up to &d8,128 cobblestone&r (&d8*1024 bytes&r total capacity - &d8 bytes&r for the single item type)."
+				"例如:仅存储圆石的&b1k ME物品&a存储单元&f&r最多可容纳&d8,128个圆石&r(总容量&d8*1024字节&r - 单一物品类型占用&d8字节&r)."
 				""
-				"If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and &aright-click in the air&r with the cell in your hand."
+				"若需重新利用空单元,可将其拆解回组件和外壳.手持单元潜行并&a在ai界面右键点击&r即可完成操作."
+				""
+				""
+				"&7[Once you have a 1k Storage Component, you can craft a 1k ME Item Storage Cell to begin your digital item storage journey. For most of your storage needs, you'll want to create several ME Item Storage Cells.]&f"
+				""
+				"&7[Each ME Item Storage Cell can store up to 63 different item types. When you add a new item type to a cell, it uses part of the cell's total capacity in bytes. Each type already stored uses 1 byte for every 8 items of that type.]&f"
+				""
+				"&7[For example, a 1k ME Item Storage Cell filled with only cobblestone can hold up to 8,128 cobblestone (8*1024 bytes total capacity - 8 bytes for the single item type).]&f"
+				""
+				"&7[If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and right-click in the air with the cell in your hand.]&f"
 			]
 			id: "10EF77AB8EF3EEF7"
-			rewards: [{
-				id: "7D21BED0CE7896C0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F496136FB7F4856"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
+			rewards: [
+				{
+					id: "7D21BED0CE7896C0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0F496136FB7F4856"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["10A4748598F5EE60"]
 			description: [
-				"Once you have a &61k Super Storage Component&r, you can craft a &b1k ME Super Storage Cell&r to begin your versatile storage journey. These super storage cells allow you to store items, fluids, and chemicals all in one cell, making them highly efficient for all your storage needs."
+				"获得&e1k超级存储组件&r后,可合成&b1k ME超级&a存储单元&f&r开启全能存储之旅.此类超级存储单元可同时容纳物品、流体和化学品,高效满足所有存储需求."
 				""
-				"Each &bME Super Storage Cell&r can store up to &d63 different types&r of items, fluids, or chemicals. When you add a new type to a cell, it uses part of the cell's total &acapacity in bytes&r. Each type already stored uses &a1 byte&r for every &d8 units&r of that type."
+				"每个&bME超级&a存储单元&f&r最多存储&d63种不同类型&r的物品、流体或化学品.新增类型时会占用单元&a字节总容量&r的部分空间.已存储的每种类型每&d8个单位&r占用&a1字节&r."
 				""
-				"For example, a &b1k ME Super Storage Cell&r filled with only cobblestone can hold up to &d8,128 cobblestone&r (&d8*1024 bytes&r total capacity - &d8 bytes&r for the single item type)."
+				"例如:仅存储圆石的&b1k ME超级&a存储单元&f&r最多可容纳&d8,128个圆石&r(总容量&d8*1024字节&r - 单一物品类型占用&d8字节&r)."
 				""
-				"If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and &aright-click in the air&r with the cell in your hand."
+				"若需重新利用空单元,可将其拆解回组件和外壳.手持单元潜行并&a在ai界面右键点击&r即可完成操作."
+				""
+				""
+				"&7[Once you have a 1k Super Storage Component, you can craft a 1k ME Super Storage Cell to begin your versatile storage journey. These super storage cells allow you to store items, fluids, and chemicals all in one cell, making them highly efficient for all your storage needs.]&f"
+				""
+				"&7[Each ME Super Storage Cell can store up to 63 different types of items, fluids, or chemicals. When you add a new type to a cell, it uses part of the cell's total capacity in bytes. Each type already stored uses 1 byte for every 8 units of that type.]&f"
+				""
+				"&7[For example, a 1k ME Super Storage Cell filled with only cobblestone can hold up to 8,128 cobblestone (8*1024 bytes total capacity - 8 bytes for the single item type).]&f"
+				""
+				"&7[If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and right-click in the air with the cell in your hand.]&f"
 			]
 			id: "33F9C602D37216F5"
-			rewards: [{
-				id: "2587DB674757105F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "342645B7B0710A39"
-				item: {
-					Count: 1
-					id: "ae2additions:super_cell_1k"
-					tag: { }
+			rewards: [
+				{
+					id: "2587DB674757105F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "342645B7B0710A39"
+					item: {
+						Count: 1
+						id: "ae2additions:super_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["10EF77AB8EF3EEF7"]
 			description: [
-				"&bPortable Cells&r are a versatile &dstorage solution&r. Just like regular storage cells, they can be inserted into an &bME Chest&r or &bME Drive&r to store items."
+				"&b&a便携元件&f&r 是一种多功能&d存储解决方案&r.与常规存储元件类似,它们可插入&b&aME箱子&f&r或&b&aME驱动器&f&r中存储物品."
 				""
-				"The key difference is that &bPortable Cells&r offer &ddirect access&r to their contents without needing to be placed in a network. They function like a &adigital backpack&r, allowing you to &aaccess your stored items&r &aanytime, anywhere&r by simply using the cell item itself. This makes them an excellent choice for &amobile storage&r and &aquick item retrieval&r on the go."
+				"关键区别在于&b&a便携元件&f&r提供&d直接访问&r功能,无需接入网络即可操作内容物.它们如同&a数字背包&r,只需使用元件本身即可随时随地&r访问存储物品,是&a移动存储&r和&a快速取用物品&r的理想选择."
+				""
+				""
+				"&7[Portable Cells are a versatile storage solution. Just like regular storage cells, they can be inserted into an ME Chest or ME Drive to store items.]&f"
+				""
+				"&7[The key difference is that Portable Cells offer direct access to their contents without needing to be placed in a network. They function like a digital backpack, allowing you to access your stored items anytime, anywhere by simply using the cell item itself. This makes them an excellent choice for mobile storage and quick item retrieval on the go.]&f"
 			]
 			id: "7B1E1AF7188B1A2E"
-			rewards: [{
-				id: "4117A616E5985470"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4117A616E5985470"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00382ED41548D4E7"
@@ -1296,124 +1767,179 @@
 			y: 16.5d
 		}
 		{
-			description: ["A specialized machine that works with Spatial Storage Cells to capture or deploy entire spatial regions. It must be connected to an ME network and placed within a frame of Spatial Pylons marking the area to be stored."]
+			description: [
+				"专用于配合空间&a存储单元&f捕获或部署整个空间区域的精密机器.必须连接ME网络,并置于标记存储区域的&a空间塔&f框架内."
+				""
+				""
+				"&7[A specialized machine that works with Spatial Storage Cells to capture or deploy entire spatial regions. It must be connected to an ME network and placed within a frame of Spatial Pylons marking the area to be stored.]&f"
+			]
 			id: "4F51E1672ECE7D3B"
-			rewards: [{
-				id: "3073471435BAB01F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FA4347FAC295997"
-				item: "ae2:spatial_io_port"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3073471435BAB01F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5FA4347FAC295997"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["4F51E1672ECE7D3B"]
-			description: ["A structural block used to define the boundaries of a spatial storage area. When arranged in a cube formation around a region, they allow Spatial I/O Ports to capture or deploy that space using Spatial Storage Cells. Acts as both a marker and stabilizer for dimensional storage operations."]
+			description: [
+				"用于界定空间存储区域边界的结构方块.当围绕某个区域组成立方体阵列时,可配合空间I/O端口使用空间&a存储单元&f进行空间捕获或部署.在维度存储操作中兼具标记器和稳定器功能."
+				""
+				""
+				"&7[A structural block used to define the boundaries of a spatial storage area. When arranged in a cube formation around a region, they allow Spatial I/O Ports to capture or deploy that space using Spatial Storage Cells. Acts as both a marker and stabilizer for dimensional storage operations.]&f"
+			]
 			id: "3DE753D68B8335C8"
-			rewards: [{
-				id: "789B484E53642590"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09ACB62B41675026"
-				item: "ae2:spatial_pylon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "789B484E53642590"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09ACB62B41675026"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["3DE753D68B8335C8"]
 			description: [
-				"A high-tier device that prevents chunks containing critical ME infrastructure from unloading when players are absent. Maintains active chunks to preserve Spatial Storage dimensions, quantum bridges, and other AE2 mechanics that normally depend on chunk loading."
+				"高阶设备,用于在玩家离开时防止包含关键ME基础设施的区块被卸载.通过维持区块活跃状态来保护空间存储维度、量子桥及其他通常依赖区块加载的AE2机制."
 				""
-				"(Functions like a more advanced version of other chunk loaders, specifically optimized for AE2's interdimensional storage systems.)"
+				"(功能相当于其他区块加载器的进阶版,专为AE2跨维度存储系统优化)"
 				""
-				"Note: Requires constant power and careful placement to avoid server performance impacts. Works across dimensions when properly configured with Quantum Network Bridges."
+				"注:需持续供电并谨慎放置以避免影响服务器性能.通过量子网络桥正确配置后可跨维度运作."
+				""
+				""
+				"&7[A high-tier device that prevents chunks containing critical ME infrastructure from unloading when players are absent. Maintains active chunks to preserve Spatial Storage dimensions, quantum bridges, and other AE2 mechanics that normally depend on chunk loading.]&f"
+				""
+				"&7[(Functions like a more advanced version of other chunk loaders, specifically optimized for AE2's interdimensional storage systems.)]&f"
+				""
+				"&7[Note: Requires constant power and careful placement to avoid server performance impacts. Works across dimensions when properly configured with Quantum Network Bridges.]&f"
 			]
 			id: "62458187F95EE35A"
-			rewards: [{
-				id: "01E7049A6EAB7554"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D05105547C9F2D5"
-				item: "ae2:spatial_anchor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "01E7049A6EAB7554"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D05105547C9F2D5"
+					item: "ae2:spatial_anchor"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["3DE753D68B8335C8"]
 			description: [
-				"A high-tier storage device that captures and stores entire spatial regions as portable dimensional pockets. These cells work with Spatial I/O Ports to save and restore custom-built areas (like rooms or machines) in your world. Larger cells (16³, 128³) require significant power and proper Spatial Pylon framing."
+				"可将整个空间区域捕获并存储为便携式维度口袋的高阶存储设备.这些单元配合空间I/O端口使用,可保存和还原世界中自定义区域(如房间或机器).更大容量单元(16³, 128³)需显著能耗和正确的&a空间塔&f框架."
 				""
-				"(Note: Some blocks like spawners or bedrock cannot be stored. Handle with care to avoid world corruption.)"
+				"(注:刷怪笼、基岩等部分方块不可存储.需谨慎操作以避免世界损坏)"
+				""
+				""
+				"&7[A high-tier storage device that captures and stores entire spatial regions as portable dimensional pockets. These cells work with Spatial I/O Ports to save and restore custom-built areas (like rooms or machines) in your world. Larger cells (16³, 128³) require significant power and proper Spatial Pylon framing.]&f"
+				""
+				"&7[(Note: Some blocks like spawners or bedrock cannot be stored. Handle with care to avoid world corruption.)]&f"
 			]
 			id: "2FF641C1FD519E5D"
-			rewards: [{
-				id: "28F82CE1B5AA5154"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "23F5200EAAE4CA73"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ae2:spatial_storage_cell_2"
-							}
-							{
-								Count: 1b
-								id: "ae2:spatial_storage_cell_16"
-							}
-							{
-								Count: 1b
-								id: "ae2:spatial_storage_cell_128"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "28F82CE1B5AA5154"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Spatial Storage Cells"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "23F5200EAAE4CA73"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:spatial_storage_cell_2"
+								}
+								{
+									Count: 1b
+									id: "ae2:spatial_storage_cell_16"
+								}
+								{
+									Count: 1b
+									id: "ae2:spatial_storage_cell_128"
+								}
+							]
+						}
+					}
+					title: "空间&a存储单元&f"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 13.5d
 		}
 		{
 			description: [
-				"A machine that supplies crafting ingredients to adjacent machines (e.g. furnaces, pulverizers) when triggered by an &bME Automation Recipe&r. Acts as the interface between your &5ME Network&r and external processing devices."
+				"当&bME自动化配方&r触发时,可向相邻机器(熔炉、粉碎机等)提供合成原料的装置.作为&5ME网络&r与外部处理设备之间的接口."
 				""
-				"Key Features:"
+				"核心特性:"
 				""
-				"Outputs items based on &eProcessing Patterns&r "
+				"基于&e&a处理样板&f&r输出物品"
 				""
-				"Can push/pull from inventories and machines"
+				"支持从容器和机器推送/提取"
 				""
-				"Works with &6Autocrafting&r setups"
+				"兼容&e自动合成&r系统"
 				""
-				"*(The essential bridge for &dnon-AE2 machine integration&r into your network!)*"
+				"*(将&d非AE2机器整合&r入网络的重要桥梁!)*"
 				""
-				"&a\"Automation's best friend\"&r"
+				"&a“自动化最佳伙伴“&r"
+				""
+				""
+				"&7[A machine that supplies crafting ingredients to adjacent machines (e.g. furnaces, pulverizers) when triggered by an ME Automation Recipe. Acts as the interface between your ME Network and external processing devices.]&f"
+				""
+				"&7[Key Features:]&f"
+				""
+				"&7[Outputs items based on Processing Patterns ]&f"
+				""
+				"&7[Can push/pull from inventories and machines]&f"
+				""
+				"&7[Works with Autocrafting setups]&f"
+				""
+				"&7[*(The essential bridge for non-AE2 machine integration into your network!)*]&f"
+				""
+				"&7[\"Automation's best friend\"]&f"
 			]
 			id: "07179D5D4D9AC02E"
-			rewards: [{
-				id: "6F60D849CEB47072"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F60D849CEB47072"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -1426,7 +1952,7 @@
 							value: "ae2:pattern_provider"
 						}
 					}
-					title: "Pattern Providers"
+					title: "样板供应器"
 					type: "item"
 				}
 				{
@@ -1435,63 +1961,97 @@
 					type: "item"
 				}
 			]
-			title: "&5Pattern Provider&r"
+			title: "&5样板供应器&r&7[Pattern Provider]&f"
 			x: 10.5d
 			y: 0.75d
 		}
 		{
 			dependencies: ["07179D5D4D9AC02E"]
 			description: [
-				"A device that speeds up crop growth in a &b3x3 area&r beneath it when powered by an &5ME Network&r. Works on &ewheat&r, &dcarrots&r, &6potatoes&r, and other farmable plants."
+				"由&5ME网络&r供能时,可加速其下方&b3x3区域&r内作物生长的设备.对&e小麦&r、&d胡萝卜&r、&e马铃薯&r及其他可耕种植物有效."
 				""
-				"Key Traits:"
+				"特性:"
 				""
-				"Requires &5AE2 power&r (2 AE/t)"
+				"需要&5AE2能源&r(2 AE/秒)"
 				""
-				"Stacks effects with multiple accelerators"
+				"多台加速器效果可叠加"
 				""
-				"&cDoes not affect&r bonemeal or tick-based growth"
+				"&c不影响&r骨粉或基于游戏刻的生长机制"
 				""
-				"(The &bfarmer's high-tech solution&r for compact crop farms!)"
+				"(&b紧凑型农场&r的高科技解决方案!)"
 				""
-				"&e\"Like sunlight steroids for plants\"&r"
+				"&e“植物的日光增强剂“&r"
+				""
+				""
+				"&7[A device that speeds up crop growth in a 3x3 area beneath it when powered by an ME Network. Works on wheat, carrots, potatoes, and other farmable plants.]&f"
+				""
+				"&7[Key Traits:]&f"
+				""
+				"&7[Requires AE2 power (2 AE/t)]&f"
+				""
+				"&7[Stacks effects with multiple accelerators]&f"
+				""
+				"&7[Does not affect bonemeal or tick-based growth]&f"
+				""
+				"&7[(The farmer's high-tech solution for compact crop farms!)]&f"
+				""
+				"&7[\"Like sunlight steroids for plants\"]&f"
 			]
 			id: "076C2AC9BA063D14"
-			rewards: [{
-				id: "25A2A4F2742709AA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "281A87C339CCDC89"
-				item: "ae2:growth_accelerator"
-				type: "item"
-			}]
-			title: "&aGrowth Accelerator&r"
+			rewards: [
+				{
+					id: "25A2A4F2742709AA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "281A87C339CCDC89"
+					item: "ae2:growth_accelerator"
+					type: "item"
+				}
+			]
+			title: "&a&a生长加速器&f&r&7[Growth Accelerator]&f"
 			x: 9.017857142857146d
 			y: 0.7619047619047628d
 		}
 		{
 			dependencies: ["07179D5D4D9AC02E"]
 			description: [
-				"A digital recipe blueprint used for &bautomated crafting&r and &eprocessing&r in &5ME Systems&r. Encodes either crafting steps (for &dMolecular Assemblers&r) or machine workflows (for &6Pattern Providers&r)."
+				"一种数字配方蓝图,用于&5ME系统&r中的&b自动化合成&r和&e处理&r.可编码合成步骤(用于&d&a分子装配室&f&r)或机器工作流程(用于&e样板供应器&r)."
 				""
-				"Key Types:"
+				"关键类型:"
 				""
-				"&bCrafting Pattern&r (bench recipes)"
+				"&b合成样板&r(工作台配方)"
 				""
-				"&eProcessing Pattern&r (machine/furnace recipes)"
+				"&e&a处理样板&f&r(机器/熔炉配方)"
 				""
-				"(Stored in &5ME Interfaces&r to enable &9autocrafting&r systems.)"
+				"(存储于&5&aME接口&f&r以启用&9自动化合成&r系统.)"
 				""
-				"&a\"The ME Network's recipe memory\"&r"
+				"&a“ME网络的配方记忆库“&r"
+				""
+				""
+				"&7[A digital recipe blueprint used for automated crafting and processing in ME Systems. Encodes either crafting steps (for Molecular Assemblers) or machine workflows (for Pattern Providers).]&f"
+				""
+				"&7[Key Types:]&f"
+				""
+				"&7[Crafting Pattern (bench recipes)]&f"
+				""
+				"&7[Processing Pattern (machine/furnace recipes)]&f"
+				""
+				"&7[(Stored in ME Interfaces to enable autocrafting systems.)]&f"
+				""
+				"&7[\"The ME Network's recipe memory\"]&f"
 			]
 			id: "6C3B025A4B223E82"
-			rewards: [{
-				id: "197347A6B48A2576"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "197347A6B48A2576"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "488F0FABA0FF0A72"
@@ -1504,79 +2064,129 @@
 					type: "item"
 				}
 			]
-			title: "&5Pattern&r"
+			title: "&5样板&r&7[Pattern]&f"
 			x: 12.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["07179D5D4D9AC02E"]
 			description: [
-				"A redstone control device that emits a &esignal strength&r based on &5ME Network&r conditions. Can monitor:"
+				"一种红石控制装置,根据&5ME网络&r状态发出&e信号强度&r.可监控:"
 				""
-				"&bItem quantities&r (e.g. emit when <64 iron)"
+				"&b物品数量&r(例如当铁锭<64时触发)"
 				""
-				"&6Energy levels&r (emit when power <25%)"
+				"&e能量等级&r(当能源<25%时触发)"
 				""
-				"&dCrafting status&r (active jobs)"
+				"&d合成状态&r(进行中的任务)"
 				""
-				"Key Use:"
+				"核心用途:"
 				""
-				"Controls &9automatic factories&r via redstone"
+				"通过红石控制&9自动化工厂&r"
 				""
-				"Pairs with &cExport Buses&r for smart restocking"
+				"与&c输出总线&r配合实现智能补货"
 				""
-				"Configurable with &eME Storage Monitor&r"
+				"可通过&e&aME存储监控器&f&r配置"
 				""
-				"*(The &b\"if-then\" brain&r for AE2 automation!)*"
+				"*(AE2自动化中的&b“条件判断大脑“&r!)*"
 				""
-				"&aRedstone meets quantum computing&r"
+				"&a红石遇见量子计算&r"
+				""
+				""
+				"&7[A redstone control device that emits a signal strength based on ME Network conditions. Can monitor:]&f"
+				""
+				"&7[Item quantities (e.g. emit when <64 iron)]&f"
+				""
+				"&7[Energy levels (emit when power <25%)]&f"
+				""
+				"&7[Crafting status (active jobs)]&f"
+				""
+				"&7[Key Use:]&f"
+				""
+				"&7[Controls automatic factories via redstone]&f"
+				""
+				"&7[Pairs with Export Buses for smart restocking]&f"
+				""
+				"&7[Configurable with ME Storage Monitor]&f"
+				""
+				"&7[*(The \"if-then\" brain for AE2 automation!)*]&f"
+				""
+				"&7[Redstone meets quantum computing]&f"
 			]
 			id: "3FDA0D970B6C6227"
-			rewards: [{
-				id: "744DD5886C798419"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "209E7842FB11C045"
-				item: "ae2:level_emitter"
-				type: "item"
-			}]
-			title: "&5ME Level Emitter&r"
+			rewards: [
+				{
+					id: "744DD5886C798419"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "209E7842FB11C045"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "&5&aME标准发信器&f&r&7[ME Level Emitter]&f"
 			x: 12.113095238095234d
 			y: 0.7142857142857153d
 		}
 		{
 			dependencies: ["3FDA0D970B6C6227"]
 			description: [
-				"An upgrade that adds &credstone control&r to compatible &5ME Devices&r, enabling activation/deactivation based on signals."
+				"为兼容的&5ME设备&r添加&c红石控制&r的升级卡,支持根据信号激活/停用功能."
 				""
-				"Compatible Devices:"
+				"兼容设备:"
 				""
-				"&bImport/Export Buses&r (toggle item transfer)"
+				"&b输入/输出总线&r(切换物品传输)"
 				""
-				"&6Molecular Assemblers&r (disable crafting)"
+				"&e&a分子装配室&f&r(禁用合成功能)"
 				""
-				"&dLevel Emitters&r (chain conditions)"
+				"&d电平发射器&r(级联条件控制)"
 				""
-				"Modes:"
+				"工作模式:"
 				""
-				"&aActive on High&r"
+				"&a高电平激活&r"
 				""
-				"&1Active on Low&r"
+				"&1低电平激活&r"
 				""
-				"&eIgnore Redstone&r (default)"
+				"&e&a忽略红石信号&f&r(默认)"
 				""
-				"*(The &9\"on/off switch\"&r for smart ME systems!)*"
+				"*(智能ME系统的&9“通断开关“&r!)*"
 				""
-				"&b\"Logic meets logistics\"&r"
+				"&b“逻辑与物流的结合“&r"
+				""
+				""
+				"&7[An upgrade that adds redstone control to compatible ME Devices, enabling activation/deactivation based on signals.]&f"
+				""
+				"&7[Compatible Devices:]&f"
+				""
+				"&7[Import/Export Buses (toggle item transfer)]&f"
+				""
+				"&7[Molecular Assemblers (disable crafting)]&f"
+				""
+				"&7[Level Emitters (chain conditions)]&f"
+				""
+				"&7[Modes:]&f"
+				""
+				"&7[Active on High]&f"
+				""
+				"&7[Active on Low]&f"
+				""
+				"&7[Ignore Redstone (default)]&f"
+				""
+				"&7[*(The \"on/off switch\" for smart ME systems!)*]&f"
+				""
+				"&7[\"Logic meets logistics\"]&f"
 			]
 			id: "2C0A45666CCB62BE"
-			rewards: [{
-				id: "41A30CC275E1F39A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "41A30CC275E1F39A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "50FD7EE85E324607"
@@ -1589,475 +2199,696 @@
 					type: "item"
 				}
 			]
-			title: "&4Redstone Card&r"
+			title: "&4&a红石卡&f&r&7[Redstone Card]&f"
 			x: 13.589285714285715d
 			y: 0.7142857142857153d
 		}
 		{
 			dependencies: ["2C0A45666CCB62BE"]
 			description: [
-				"An upgrade that enables &bautocrafting functionality&r for &5ME Interfaces&r and &6Pattern Providers&r. Required to:"
+				"为&5&aME接口&f&r和&e样板供应器&r启用&b自动化合成功能&r的升级卡.用于:"
 				""
-				"&eRequest remote crafting&r via terminals"
+				"&e通过终端远程请求合成&r"
 				""
-				"&dProcess recursive recipes&r (multi-step crafts)"
+				"&d处理递归配方&r(多步骤合成)"
 				""
-				"&cLink to Crafting CPUs&r"
+				"&c连接合成CPU&r"
 				""
-				"Key Limitation:"
+				"关键限制:"
 				""
-				"Consumes &9additional channels&r when installed"
+				"安装时消耗&9额外频道&r"
 				""
-				"(The &a\"brain implant\"&r that makes ME Networks truly autonomous!)"
+				"(让ME网络真正实现自主化的&a“脑机植入物“&r!)"
 				""
-				"&e\"From storage to factory with one card\"&r"
+				"&e“一卡实现从存储到工厂的跨越“&r"
+				""
+				""
+				"&7[An upgrade that enables autocrafting functionality for ME Interfaces and Pattern Providers. Required to:]&f"
+				""
+				"&7[Request remote crafting via terminals]&f"
+				""
+				"&7[Process recursive recipes (multi-step crafts)]&f"
+				""
+				"&7[Link to Crafting CPUs]&f"
+				""
+				"&7[Key Limitation:]&f"
+				""
+				"&7[Consumes additional channels when installed]&f"
+				""
+				"&7[(The \"brain implant\" that makes ME Networks truly autonomous!)]&f"
+				""
+				"&7[\"From storage to factory with one card\"]&f"
 			]
 			id: "6B8E3833F41BD726"
-			rewards: [{
-				id: "2677CDEA1D8F8AF9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4170449F3A1EE55A"
-				item: "ae2:crafting_card"
-				type: "item"
-			}]
-			title: "&5Crafting Card&r"
+			rewards: [
+				{
+					id: "2677CDEA1D8F8AF9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4170449F3A1EE55A"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+			]
+			title: "&5合成卡&r&7[Crafting Card]&f"
 			x: 14.970238095238088d
 			y: 0.7142857142857153d
 		}
 		{
 			dependencies: ["07179D5D4D9AC02E"]
 			description: [
-				"A specialized memory unit that &btemporarily holds items&r during &eautocrafting processes&r. Comes in tiered capacities (1k to 256M) to handle complex recipes."
+				"专用于&e自动化合成过程&r中&b临时存储物品&r的存储单元,提供分级容量(1k至256M)以处理复杂配方."
 				""
-				"Key Functions:"
+				"核心功能:"
 				""
-				"Buffers &6ingredients&r and &dintermediate products&r"
+				"缓冲&e原料&r和&d中间产物&r"
 				""
-				"Links to &9Crafting CPUs&r for multi-step crafts"
+				"连接&9合成CPU&r处理多步骤合成"
 				""
-				"Prevents &cnetwork clogging&r during large jobs"
+				"防止大型任务中的&c网络堵塞&r"
 				""
-				"(The &a\"scratchpad\"&r for your ME Network's crafting calculations!)"
+				"(ME网络合成计算的&a“临时工作区“&r!)"
 				""
-				"&e\"Where unfinished crafts wait patiently\"&r"
+				"&e“未完成合成品的静候之处“&r"
+				""
+				""
+				"&7[A specialized memory unit that temporarily holds items during autocrafting processes. Comes in tiered capacities (1k to 256M) to handle complex recipes.]&f"
+				""
+				"&7[Key Functions:]&f"
+				""
+				"&7[Buffers ingredients and intermediate products]&f"
+				""
+				"&7[Links to Crafting CPUs for multi-step crafts]&f"
+				""
+				"&7[Prevents network clogging during large jobs]&f"
+				""
+				"&7[(The \"scratchpad\" for your ME Network's crafting calculations!)]&f"
+				""
+				"&7[\"Where unfinished crafts wait patiently\"]&f"
 			]
 			id: "29099185E69DAFCD"
-			rewards: [{
-				id: "5137CAC25AFF4E65"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F22F039CD75C066"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ae2:1k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:4k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:16k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:64k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:256k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:1024k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:4096k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:16384k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:65536k_crafting_storage"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "5137CAC25AFF4E65"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "Crafting Storages"
-				type: "item"
-			}]
-			title: "&5Crafting Storage&r"
+			]
+			tasks: [
+				{
+					id: "0F22F039CD75C066"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:1024k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:4096k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:16384k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:65536k_crafting_storage"
+								}
+							]
+						}
+					}
+					title: "合成存储器"
+					type: "item"
+				}
+			]
+			title: "&5合成存储器&r&7[Crafting Storage]&f"
 			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["29099185E69DAFCD"]
 			description: [
-				"An upgrade for &bCrafting CPUs&r that enables &eparallel recipe processing&r, allowing multiple crafting steps to execute &esimultaneously&r. Each unit adds +1 &9concurrent operation&r."
+				"&b合成CPU&r的升级组件,实现&e并行配方处理&r,允许多个合成步骤&e同步执行&r.每单元增加+1&9并发操作&r."
 				""
-				"Key Traits:"
+				"核心特性:"
 				""
-				"&dEssential&r for complex autocrafting"
+				"&d必备&r于复杂自动化合成"
 				""
-				"Stackable up to &615 units&r per CPU"
+				"每个CPU可堆叠至&e15单元&r"
 				""
-				"Requires &cadditional channels&r"
+				"需要&c额外频道&r"
 				""
-				"(The &a\"multicore processor\"&r for your ME Network!)"
+				"(ME网络的&a“多核处理器“&r!)"
 				""
-				"&e\"Parallel crafting at quantum speeds\"&r"
+				"&e“以量子速度并行合成“&r"
+				""
+				""
+				"&7[An upgrade for Crafting CPUs that enables parallel recipe processing, allowing multiple crafting steps to execute simultaneously. Each unit adds +1 concurrent operation.]&f"
+				""
+				"&7[Key Traits:]&f"
+				""
+				"&7[Essential for complex autocrafting]&f"
+				""
+				"&7[Stackable up to 15 units per CPU]&f"
+				""
+				"&7[Requires additional channels]&f"
+				""
+				"&7[(The \"multicore processor\" for your ME Network!)]&f"
+				""
+				"&7[\"Parallel crafting at quantum speeds\"]&f"
 			]
 			id: "53E4BBE093B08389"
-			rewards: [{
-				id: "6C7D5A667D62176B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D9221D18BBE642A"
-				item: "ae2:crafting_accelerator"
-				type: "item"
-			}]
-			title: "&5Crafting Co-Processing Unit&r"
+			rewards: [
+				{
+					id: "6C7D5A667D62176B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D9221D18BBE642A"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "&5&a并行处理单元&f&r&7[Crafting Co-Processing Unit]&f"
 			x: 13.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["53E4BBE093B08389"]
 			description: [
-				"A display block that shows &blive status&r of ongoing &eautocrafting jobs&r in your &5ME Network&r. Lists queued, in-progress, and completed crafts with detailed progress bars."
+				"一种显示方块,可实时展示您&5ME网络&r中正在进行的&e自动合成任务&r的&b实时状态&r.通过详细的进度条列出排队中、进行中和已完成的合成任务."
 				""
-				"Key Features:"
+				"主要特性:"
 				""
-				"&dReal-time updates&r on all crafting orders"
+				"所有合成订单的&d实时更新&r"
 				""
-				"&6Color-coded&r status (pending/active/error)"
+				"&e颜色编码&r状态(待处理/活跃/错误)"
 				""
-				"&cClick-to-cancel&r functionality"
+				"&c点击取消&r功能"
 				""
-				"(The &a\"mission control center\"&r for your automated factory!)"
+				"(您自动化工厂的&a“任务控制中心“&r!)"
+				""
+				""
+				"&7[A display block that shows live status of ongoing autocrafting jobs in your ME Network. Lists queued, in-progress, and completed crafts with detailed progress bars.]&f"
+				""
+				"&7[Key Features:]&f"
+				""
+				"&7[Real-time updates on all crafting orders]&f"
+				""
+				"&7[Color-coded status (pending/active/error)]&f"
+				""
+				"&7[Click-to-cancel functionality]&f"
+				""
+				"&7[(The \"mission control center\" for your automated factory!)]&f"
 			]
 			id: "0A34FD02D54EA6A2"
-			rewards: [{
-				id: "14659FDCF79898AF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4651D22FA898486F"
-				item: "ae2:crafting_monitor"
-				type: "item"
-			}]
-			title: "&5Crafting Monitor&r"
+			rewards: [
+				{
+					id: "14659FDCF79898AF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4651D22FA898486F"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
+			title: "&5合成监控器&r&7[Crafting Monitor]&f"
 			x: 15.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6C3B025A4B223E82"]
 			description: [
-				"The core crafting machine for &bME Networks&r, capable of &einstantaneous item production&r when provided with &6Encoded Patterns&r and materials. Functions as a &dhigh-tech workbench&r that pulls ingredients directly from connected &5ME Storage&r."
+				"&bME网络&r的核心合成机器,在提供&e&a编码样板&f&r和材料时可实现&e瞬时物品生产&r.作为&d高科技工作台&r,可直接从连接的&5ME存储器&r中提取原料."
 				""
-				"Key Traits:"
+				"关键特性:"
 				""
-				"Requires &bCrafting Patterns&r"
+				"需要&b合成样板&r"
 				""
-				"Needs &9co-processors&r for parallel crafting"
+				"需要&9协处理器&r实现并行合成"
 				""
-				"Uses &5AE2 power&r during operation"
+				"运行期间消耗&5AE2能源&r"
 				""
-				"&aYour ME Network's robotic crafting arm&r"
+				"&a您ME网络的机械合成臂&r"
+				""
+				""
+				"&7[The core crafting machine for ME Networks, capable of instantaneous item production when provided with Encoded Patterns and materials. Functions as a high-tech workbench that pulls ingredients directly from connected ME Storage.]&f"
+				""
+				"&7[Key Traits:]&f"
+				""
+				"&7[Requires Crafting Patterns]&f"
+				""
+				"&7[Needs co-processors for parallel crafting]&f"
+				""
+				"&7[Uses AE2 power during operation]&f"
+				""
+				"&7[Your ME Network's robotic crafting arm]&f"
 			]
 			id: "1C29C4D117761F30"
-			rewards: [{
-				id: "50543D82ADB5A562"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3EFA8453757B1ADA"
-				item: "ae2:molecular_assembler"
-				type: "item"
-			}]
-			title: "&5Molecular Assembler&r"
+			rewards: [
+				{
+					id: "50543D82ADB5A562"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3EFA8453757B1ADA"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "&5&a分子装配室&f&r&7[Molecular Assembler]&f"
 			x: 13.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1C29C4D117761F30"]
 			description: [
-				"An upgrade component that &bboosts processing speed&r for &5ME Machines&r when installed in compatible devices. Each card provides a &e+25% speed increase&r (stackable up to 4 cards)."
+				"一种升级组件,安装于兼容设备时可&b提升&5ME机器&r的处理速度.每张卡提供&e+25%速度提升&r(最多可叠加4张)."
 				""
-				"Compatible Machines:"
+				"兼容机器:"
 				""
-				"&bMolecular Assemblers&r"
+				"&b&a分子装配室&f&r"
 				""
-				"&6Inscribers&r"
+				"&e压印机&r"
 				""
-				"&dPattern Providers&r"
+				"&d样板供应器&r"
 				""
-				"Trade-off:"
+				"代价:"
 				""
-				"Increases &cpower consumption&r proportionally"
+				"按比例增加&c能源消耗&r"
 				""
-				"(The &9overclocking chip&r for AE2 automation systems.)"
+				"(AE2自动化系统的&9超频芯片&r.)"
 				""
-				"&e\"More speed, more power, more efficiency\"&r"
+				"&e“更快速度,更强动力,更高效率“&r"
+				""
+				""
+				"&7[An upgrade component that boosts processing speed for ME Machines when installed in compatible devices. Each card provides a +25% speed increase (stackable up to 4 cards).]&f"
+				""
+				"&7[Compatible Machines:]&f"
+				""
+				"&7[Molecular Assemblers]&f"
+				""
+				"&7[Inscribers]&f"
+				""
+				"&7[Pattern Providers]&f"
+				""
+				"&7[Trade-off:]&f"
+				""
+				"&7[Increases power consumption proportionally]&f"
+				""
+				"&7[(The overclocking chip for AE2 automation systems.)]&f"
+				""
+				"&7[\"More speed, more power, more efficiency\"]&f"
 			]
 			id: "292C729230F5259E"
-			rewards: [{
-				id: "06A00A6EC0C0C2C2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "03357BBC88416887"
-				item: "ae2:speed_card"
-				type: "item"
-			}]
-			title: "&5Acceleration Card&r"
+			rewards: [
+				{
+					id: "06A00A6EC0C0C2C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03357BBC88416887"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			title: "&5&a加速卡&f&r&7[Acceleration Card]&f"
 			x: 15.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"To make life &aeasier&r, AE2 offers a suite of devices for manipulating &dME data&r, enabling you to move stored items around the world."
+				"为让生活&a更便捷&r,AE2提供了一套操作&dME数据&r的设备,使您能在全球范围内转移存储的物品."
 				""
-				"The &bME Interface&r is one such device. As an input device, the &bInterface&r allows any &aitem, fluid, etc.&r to be piped externally through it, which is then automatically stored in the &dME Network&r to which the interface is connected."
+				"&b&aME接口&f&r便是此类设备之一.作为输入设备,&b接口&r允许任何&a物品、流体等&r通过外部管道输入,并自动存入其所连接的&dME网络&r."
 				""
-				"As an output device, the &bInterface&r can be configured to keep a certain amount of a stored item in stock, transferring it from the &dME network&r to its own internal inventory. This allows items to be received by an &aexternal source&r like another player or a pipe."
+				"作为输出设备,&b接口&r可配置为保持特定数量的库存物品,将其从&dME网络&r转移至自身内部库存.这使得物品可被&a外部源&r(如其他玩家或管道)接收."
+				""
+				""
+				"&7[To make life easier, AE2 offers a suite of devices for manipulating ME data, enabling you to move stored items around the world.]&f"
+				""
+				"&7[The ME Interface is one such device. As an input device, the Interface allows any item, fluid, etc. to be piped externally through it, which is then automatically stored in the ME Network to which the interface is connected.]&f"
+				""
+				"&7[As an output device, the Interface can be configured to keep a certain amount of a stored item in stock, transferring it from the ME network to its own internal inventory. This allows items to be received by an external source like another player or a pipe.]&f"
 			]
 			id: "5C083F2DA57E133F"
-			rewards: [{
-				id: "4F1C5C7F17D8859D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F1C5C7F17D8859D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "1A9B673EAD96B33B"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:interface"
+			tasks: [
+				{
+					id: "1A9B673EAD96B33B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:interface"
+						}
 					}
+					title: "ME接口"
+					type: "item"
 				}
-				title: "Me Interfaces"
-				type: "item"
-			}]
+			]
 			x: 10.5d
 			y: 15.25d
 		}
 		{
 			dependencies: ["5C083F2DA57E133F"]
 			description: [
-				"An important concept in AE2 is \"&esubnetting&r\", where a separate &dME network&r (&ea subnetwork&r) works alongside the main network to perform specialized functions."
+				"AE2中的一个重要概念是“&e子网划分&r“,即独立的&dME网络&r(&e子网&r)与主网络协同工作以执行特定功能."
 				""
-				"What separates a subnetwork from a detached network is the use of &bQuartz Fiber&r as a cable part. Placed between two otherwise unconnected lengths of cable, the &bQuartz Fiber&r transfers no &adata&r or &achannels&r, only &apower&r."
+				"子网与独立网络的区别在于使用&b&a石英纤维&f&r作为电缆部件.置于两段未连接的电缆之间时,&b&a石英纤维&f&r不传输&a数据&r或&a频道&r,仅传输&a能源&r."
 				""
-				"Thus, a subnetwork on the other side of the &bQuartz Fiber&r can be powered by the main network's power source without requiring additional &apower generation&r."
+				"因此,&b&a石英纤维&f&r另一端的子网可由主网络的能源供电,无需额外的&a发电设备&r."
+				""
+				""
+				"&7[An important concept in AE2 is \"subnetting\", where a separate ME network (a subnetwork) works alongside the main network to perform specialized functions.]&f"
+				""
+				"&7[What separates a subnetwork from a detached network is the use of Quartz Fiber as a cable part. Placed between two otherwise unconnected lengths of cable, the Quartz Fiber transfers no data or channels, only power.]&f"
+				""
+				"&7[Thus, a subnetwork on the other side of the Quartz Fiber can be powered by the main network's power source without requiring additional power generation.]&f"
 			]
 			id: "505F8B8819FE572C"
-			rewards: [{
-				id: "6C234FDF37352E3A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "40023B22EA61ECE0"
-				item: "ae2:quartz_fiber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C234FDF37352E3A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40023B22EA61ECE0"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["5C083F2DA57E133F"]
 			description: [
-				"&bP2P&r (peer-to-peer) is a powerful system in AE2, allowing for the transfer of &aitems&r, &afluids&r, and more without intermediary &dME storage&r."
+				"&bP2P&r(点对点)是AE2中的强大系统,无需通过&dME存储器&r中介即可传输&a物品&r、&a流体&r等."
 				""
-				"Right-clicking a &bP2P tunnel&r with certain items will &eattune&r the tunnel for transferring items through pipes, energy through cables, redstone signals, and even &dME connections&r."
+				"使用特定物品右击&bP2P通道&r可&e调谐&r该通道,使其能通过管道传输物品、通过电缆传输能源、传输红石信号甚至&dME连接&r."
 				""
-				"&bP2P tunnels&r must be linked using a &eMemory Card&r, detailed in the next quest."
+				"&bP2P通道&r必须使用&e&a内存卡&f&r进行链接,详细内容将在下一个任务中说明."
+				""
+				""
+				"&7[P2P (peer-to-peer) is a powerful system in AE2, allowing for the transfer of items, fluids, and more without intermediary ME storage.]&f"
+				""
+				"&7[Right-clicking a P2P tunnel with certain items will attune the tunnel for transferring items through pipes, energy through cables, redstone signals, and even ME connections.]&f"
+				""
+				"&7[P2P tunnels must be linked using a Memory Card, detailed in the next quest.]&f"
 			]
 			id: "75B3AB84C74ED23F"
-			rewards: [{
-				id: "6D21F4AF170ACFA3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "312D2D3D848BEE08"
-				item: "ae2:me_p2p_tunnel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6D21F4AF170ACFA3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "312D2D3D848BEE08"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["75B3AB84C74ED23F"]
 			description: [
-				"The &bMemory Card&r is a versatile tool with two functions. Firstly, it saves device &aconfigurations&r (like whitelist filters) for copying to another device of the same kind."
+				"&b&a内存卡&f&r 是一款多功能工具,具备两项功能.首先,它能保存设备的&a配置&r(如白名单过滤器),以便复制到同类型的其他设备上."
 				""
-				"Secondly, the &bMemory Card&r links &eP2P tunnels&r together. The &bP2P tunnel&r being linked is assigned a unique &aID&r, stored on the memory card for future linking."
+				"其次,&b&a内存卡&f&r 能将&eP2P通道&r连接在一起.被连接的&bP2P通道&r会被分配一个唯一的&aID&r,并存储在内存卡上,供未来连接使用."
+				""
+				""
+				"&7[The Memory Card is a versatile tool with two functions. Firstly, it saves device configurations (like whitelist filters) for copying to another device of the same kind.]&f"
+				""
+				"&7[Secondly, the Memory Card links P2P tunnels together. The P2P tunnel being linked is assigned a unique ID, stored on the memory card for future linking.]&f"
 			]
 			id: "703FD6207A3C5475"
-			rewards: [{
-				id: "6681026E844ED525"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0969E0D77236CAF5"
-				item: {
-					Count: 1
-					id: "ae2:memory_card"
-					tag: { }
+			rewards: [
+				{
+					id: "6681026E844ED525"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0969E0D77236CAF5"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["33DD68B85F163F50"]
 			description: [
-				"The &bME Annihilation Plane&r automatically breaks blocks in front of it and returns dropped items directly to the &dME network&r."
+				"&b&aME破坏面板&f&r 会自动破坏其前方的方块,并将掉落的物品直接送回&dME网络&r."
 				""
-				"The &bAnnihilation Plane&r can be &aenchanted&r like a regular tool, affecting block drops similarly. This makes it ideal for processing ore blocks when enchanted with &dFortune&r."
+				"&b湮灭面板&r可以像常规工具一样进行&a附魔&r,类似地影响方块掉落.这使得它在附有&d时运&r附魔时,非常适合处理矿石方块."
 				""
-				"Enchantments increase the &aenergy use&r of the plane per block broken. Enchanting with &eEfficiency&r reduces overall energy use, while &eUnbreaking&r gives a chance to save energy, similar to regular tools."
+				"附魔会增加面板每破坏一个方块所消耗的&a能量&r.附魔&e效率&r会降低整体能量消耗,而&e耐久&r则有机会节省能量,这与常规工具类似."
+				""
+				""
+				"&7[The ME Annihilation Plane automatically breaks blocks in front of it and returns dropped items directly to the ME network.]&f"
+				""
+				"&7[The Annihilation Plane can be enchanted like a regular tool, affecting block drops similarly. This makes it ideal for processing ore blocks when enchanted with Fortune.]&f"
+				""
+				"&7[Enchantments increase the energy use of the plane per block broken. Enchanting with Efficiency reduces overall energy use, while Unbreaking gives a chance to save energy, similar to regular tools.]&f"
 			]
 			id: "1CF0D347EBEB72CB"
-			rewards: [{
-				id: "137831F1B212B63B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5527497EFA57B9B8"
-				item: "ae2:annihilation_plane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "137831F1B212B63B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5527497EFA57B9B8"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["5C083F2DA57E133F"]
-			description: ["The &bME Import Bus&r periodically pulls items from an &6external storage&r it faces. It can be &afiltered&r to only accept certain items from the connected inventory."]
+			description: [
+				"&bME输入总线&r 会定期从它面对的外部存储&r中拉取物品.它可以进行&a过滤&r,仅接受连接库存中的特定物品."
+				""
+				""
+				"&7[The ME Import Bus periodically pulls items from an external storage it faces. It can be filtered to only accept certain items from the connected inventory.]&f"
+			]
 			id: "33DD68B85F163F50"
-			rewards: [{
-				id: "31B9B501163B387D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "49064689E181806E"
-				item: "ae2:import_bus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "31B9B501163B387D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49064689E181806E"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 16.5d
 		}
 		{
 			dependencies: ["61C3E32E629F6E1E"]
 			description: [
-				"The &bME Formation Plane&r acts similarly to the &6Storage Bus&r but treats the &dworld itself&r as storage. It places any block in its &afilter&r directly in front of itself."
+				"&b&aME成型面板&f&r 的功能类似于&e存储总线&r,但将&d世界本身&r视为存储.它会将&a过滤器&r中的任何方块直接放置在其前方."
 				""
-				"This is useful for scenarios where a block can be processed by placing and breaking it with a tool."
+				"这在某些场景下非常有用,例如通过放置并用工具破坏方块来处理它."
+				""
+				""
+				"&7[The ME Formation Plane acts similarly to the Storage Bus but treats the world itself as storage. It places any block in its filter directly in front of itself.]&f"
+				""
+				"&7[This is useful for scenarios where a block can be processed by placing and breaking it with a tool.]&f"
 			]
 			id: "697C47E6F19215F5"
-			rewards: [{
-				id: "5AE5F3C35A0D4201"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EBB2423DB95FCF9"
-				item: "ae2:formation_plane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5AE5F3C35A0D4201"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EBB2423DB95FCF9"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["5C083F2DA57E133F"]
-			description: ["The &bME Export Bus&r periodically sends items from its &awhitelist filter&r to an external storage it faces. Unlike the Import Bus, the Export Bus requires &afiltering&r to function."]
+			description: [
+				"&bME输出总线&r 会定期将其&a白名单过滤器&r中的物品发送到它面对的外部存储.与输入总线不同,输出总线需要&a过滤&r才能正常工作."
+				""
+				""
+				"&7[The ME Export Bus periodically sends items from its whitelist filter to an external storage it faces. Unlike the Import Bus, the Export Bus requires filtering to function.]&f"
+			]
 			id: "61C3E32E629F6E1E"
-			rewards: [{
-				id: "56B4B0036BA055A5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "40376221C9C2A788"
-				item: "ae2:export_bus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56B4B0036BA055A5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40376221C9C2A788"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["5C083F2DA57E133F"]
 			description: [
-				"The &bME Storage Bus&r, when facing an external storage container, treats the container as part of the &dME network&r. This allows items to be inserted into or extracted from the container via &aME&r."
+				"&bME存储总线&r 当面对外部存储容器时,会将容器视为&dME网络&r的一部分.这使得可以通过&aME&r向容器插入或提取物品."
 				""
-				"&bStorage buses&r can be &afiltered&r and &aprioritized&r, making specific items go to the attached storage first. However, they won't retroactively move filtered items from elsewhere in the network."
+				"&b存储总线&r可以进行&a过滤&r和&a优先级设置&r,使特定物品优先进入连接的存储.然而,它们不会追溯移动网络中其他地方的已过滤物品."
+				""
+				""
+				"&7[The ME Storage Bus, when facing an external storage container, treats the container as part of the ME network. This allows items to be inserted into or extracted from the container via ME.]&f"
+				""
+				"&7[Storage buses can be filtered and prioritized, making specific items go to the attached storage first. However, they won't retroactively move filtered items from elsewhere in the network.]&f"
 			]
 			id: "15F7524D7B3E023C"
-			rewards: [{
-				id: "4A219C44E1BEF400"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5338E99AC931FF19"
-				item: "ae2:storage_bus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A219C44E1BEF400"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5338E99AC931FF19"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["15F7524D7B3E023C"]
-			description: ["The &bCapacity Card&r upgrades a bus to carry a larger filter. With &acapacity cards&r, Import and Export buses can support up to &anine slots&r from a single slot, and Storage buses can go from &d18 slots&r to a maximum of &d63 slots&r."]
+			description: [
+				"&b&a容量卡&f&r 可升级总线以承载更大的过滤器.使用&a容量卡&r,输入和输出总线可以从单个槽位支持多达&a九个槽位&r,而存储总线可以从&d18个槽位&r扩展到最多&d63个槽位&r."
+				""
+				""
+				"&7[The Capacity Card upgrades a bus to carry a larger filter. With capacity cards, Import and Export buses can support up to nine slots from a single slot, and Storage buses can go from 18 slots to a maximum of 63 slots.]&f"
+			]
 			id: "330EE51410D88BFD"
-			rewards: [{
-				id: "3BF5C96F4439E49F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6465484E927CE124"
-				item: "ae2:capacity_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3BF5C96F4439E49F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6465484E927CE124"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["330EE51410D88BFD"]
-			description: ["The &bFuzzy Card&r allows items to match filters regardless of &ametadata&r (like damage or enchantments). The &bInverter Card&r toggles bus filters from a &awhitelist&r to a &ablacklist&r."]
+			description: [
+				"&b&a模糊卡&f&r 允许物品无视&a元数据&r(如损伤或附魔)匹配过滤器.&b&a反相卡&f&r 可将总线过滤器从&a白名单&r切换为&a黑名单&r."
+				""
+				""
+				"&7[The Fuzzy Card allows items to match filters regardless of metadata (like damage or enchantments). The Inverter Card toggles bus filters from a whitelist to a blacklist.]&f"
+			]
 			id: "3041273D3B7942CA"
-			rewards: [{
-				id: "711C7FFF300FE60C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "711C7FFF300FE60C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5AAEECF3C8222961"
@@ -2076,30 +2907,51 @@
 		{
 			dependencies: ["4C57DF99E9A0BF6A"]
 			description: [
-				"A metal plate used in the &bInscriber&r to craft &eProcessors&r. Each press type corresponds to a specific processor tier:"
+				"一种金属板,用于&b压印机&r中以制作&e处理器&r.每种模板类型对应特定等级的处理器:"
 				""
-				"&bLogic Press&r"
+				"&b逻辑模板&r"
 				""
-				"Crafts &5Logic Processors&r"
+				"制作&5&a逻辑处理器&f&r"
 				""
-				"&6Engineering Press&r"
+				"&e工程模板&r"
 				""
-				"Crafts &eEngineering Processors&r"
+				"制作&e&a工程处理器&f&r"
 				""
-				"&dCalculation Press&r"
+				"&d运算模板&r"
 				""
-				"Crafts &aCalculation Processors&r"
+				"制作&a&a运算处理器&f&r"
 				""
-				"*(Presses are &9reusable&r and must be placed in the Inscriber's top/bottom slots.)*"
+				"*(模板是&9可重复使用&r的,必须放置在压印机的顶部/底部槽位.)*"
 				""
-				"&e\"The stamp that shapes AE2 technology\"&r"
+				"&e“塑造AE2技术的印记“&r"
+				""
+				""
+				"&7[A metal plate used in the Inscriber to craft Processors. Each press type corresponds to a specific processor tier:]&f"
+				""
+				"&7[Logic Press]&f"
+				""
+				"&7[Crafts Logic Processors]&f"
+				""
+				"&7[Engineering Press]&f"
+				""
+				"&7[Crafts Engineering Processors]&f"
+				""
+				"&7[Calculation Press]&f"
+				""
+				"&7[Crafts Calculation Processors]&f"
+				""
+				"&7[*(Presses are reusable and must be placed in the Inscriber's top/bottom slots.)*]&f"
+				""
+				"&7[\"The stamp that shapes AE2 technology\"]&f"
 			]
 			id: "19F6AA2773B46E1A"
-			rewards: [{
-				id: "751B2B74122D0160"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "751B2B74122D0160"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "514F88C54E08B709"
@@ -2122,19 +2974,26 @@
 					type: "item"
 				}
 			]
-			title: "&5Inscriber Press &r"
+			title: "&5压印模板 &r&7[Inscriber Press ]&f"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4D278F1E4C68E29D"]
-			description: ["The &dAE Infinity Booster&r add-on provides bespoke wireless boosters that grant &dinfinite connectivity range&r, with optional &across-dimensional support&r."]
+			description: [
+				"&dAE无限增强&r 附加组件提供定制无线增强器,赋予&d无限连接范围&r,并可选支持&a跨维度连接&r."
+				""
+				""
+				"&7[The AE Infinity Booster add-on provides bespoke wireless boosters that grant infinite connectivity range, with optional cross-dimensional support.]&f"
+			]
 			id: "26D97FEDA88228AC"
-			rewards: [{
-				id: "3C44C06546D6AA4C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3C44C06546D6AA4C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4D892B6E5603D936"
@@ -2153,21 +3012,28 @@
 		{
 			dependencies: ["5007013C1A395087"]
 			description: [
-				"The reaction chamber is capable of accelerating chemical reactions by using a catalyst fluid and a great amount of"
-				"power. In doing so, reactions that naturally occur can be forced to happen inside the chamber, most of the time with"
-				"more efficient results, due to the controlled environment."
+				"反应室能够通过使用催化剂流体和大量能量来加速化学反应.在此过程中,自然发生的反应可被强制在室内进行,由于受控环境的影响,大多数情况下能获得更高效的结果."
+				""
+				""
+				"&7[The reaction chamber is capable of accelerating chemical reactions by using a catalyst fluid and a great amount of]&f"
+				"&7[power. In doing so, reactions that naturally occur can be forced to happen inside the chamber, most of the time with]&f"
+				"&7[more efficient results, due to the controlled environment.]&f"
 			]
 			id: "74068F67A2FC5670"
-			rewards: [{
-				id: "25791EF7F4535650"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0516C8B12E15F58D"
-				item: "advanced_ae:reaction_chamber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "25791EF7F4535650"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0516C8B12E15F58D"
+					item: "advanced_ae:reaction_chamber"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 5.0d
 		}
@@ -2177,48 +3043,60 @@
 				"47F7DC87790D5064"
 			]
 			id: "5A2AE21D5DB5CCD6"
-			rewards: [{
-				id: "19EDF6D495C69141"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6F76F8A38FF8F68B"
-				item: "advanced_ae:shattered_singularity"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19EDF6D495C69141"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F76F8A38FF8F68B"
+					item: "advanced_ae:shattered_singularity"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["5A2AE21D5DB5CCD6"]
 			id: "2D9EAD557FD7611F"
-			rewards: [{
-				id: "4CCE3D25E7996D2D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4FBD0E57C7559AD6"
-				item: "advanced_ae:quantum_infused_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CCE3D25E7996D2D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FBD0E57C7559AD6"
+					item: "advanced_ae:quantum_infused_dust"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["2D9EAD557FD7611F"]
 			id: "37D2BC3357C4C258"
-			rewards: [{
-				id: "737B92A47C28BA32"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "392862359D57863B"
-				item: "advanced_ae:quantum_alloy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "737B92A47C28BA32"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "392862359D57863B"
+					item: "advanced_ae:quantum_alloy"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 5.0d
 		}
@@ -2228,107 +3106,145 @@
 				"19F6AA2773B46E1A"
 			]
 			id: "6C96E43F4539B32D"
-			rewards: [{
-				id: "010221EE1B7DFB91"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6DB993BAC3C62757"
-				item: "advanced_ae:quantum_processor_press"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "010221EE1B7DFB91"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DB993BAC3C62757"
+					item: "advanced_ae:quantum_processor_press"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6C96E43F4539B32D"]
 			id: "7D56B09C7550337A"
-			rewards: [{
-				id: "7E942E0FBE7AE418"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4166F122AED91534"
-				item: "advanced_ae:printed_quantum_processor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E942E0FBE7AE418"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4166F122AED91534"
+					item: "advanced_ae:printed_quantum_processor"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7D56B09C7550337A"]
 			id: "423C4C79C8DB1F6E"
-			rewards: [{
-				id: "65A04270D4EF8645"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1CE7D43BDF16FCA2"
-				item: "advanced_ae:quantum_processor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65A04270D4EF8645"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1CE7D43BDF16FCA2"
+					item: "advanced_ae:quantum_processor"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["423C4C79C8DB1F6E"]
 			id: "2C7079777A7E5E13"
-			rewards: [{
-				id: "07CD403ADD2B4C59"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7CA5AF227DFF5FE9"
-				item: "advanced_ae:quantum_storage_component"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "07CD403ADD2B4C59"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7CA5AF227DFF5FE9"
+					item: "advanced_ae:quantum_storage_component"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2C7079777A7E5E13"]
 			id: "16716309DF61F55D"
-			rewards: [{
-				id: "4B760319BAFA1888"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4AFCA92A8C425D49"
-				item: "advanced_ae:adv_processing_pattern"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4B760319BAFA1888"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AFCA92A8C425D49"
+					item: "advanced_ae:adv_processing_pattern"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["16716309DF61F55D"]
 			description: [
-				"Have you ever wondered what would it be like to wear you AE System?"
+				"是否曾想过将AE系统穿在身上会是什么体验？"
 				""
-				"Well, you don't have to wonder anymore. The &4quantum armor&r set is a highly technological stealthy apparel that connects to the AE2 system to provide convenient access to everything on the go! By default, it's an energy powered suit with defenses comparable to Netherite gear."
-				"It is capable of using its buffer to create an energy shield, providing a healthy amount of damage absorption. "
+				"现在您无需再想象.&4量子护甲&r套装是与AE2系统连接的高科技隐形装备,可随时随地便捷取用所有物品!默认情况下,这是一套能量驱动的防护服,其防御力堪比下界合金装备."
+				"它能利用能量缓冲生成护盾,提供可观的伤害吸收能力."
 				""
-				"The boots also provide all damage negation while the chestplate can eliminate flying mining penalties. However, the true power of this suit is"
-				"only unlocked when you fill it with upgrades!"
+				"战靴可完全免疫坠落伤害,胸甲则能消除悬空挖掘惩罚.但这套装备的真正威力"
+				"只有在安装升级组件后才会解锁!"
 				""
 				""
-				"To install &5upgrades,&r you need to have the pieces equipped and then open the Quantum Armor Configuration Menu, by"
-				"pressing the hotkey, (N by default)."
+				"安装&5升级组件&r时,需先装备对应护甲部件,随后通过默认快捷键N"
+				"打开量子护甲配置菜单."
 				""
-				"In this screen you will be able to add/remove upgrades as well as toggle them on/off and configure settings for the"
-				"upgrades that have them."
+				"在此界面中,您可以添加/移除升级组件,启用/禁用功能,并对支持配置的升级组件"
+				"进行参数设置."
+				""
+				""
+				"&7[Have you ever wondered what would it be like to wear you AE System?]&f"
+				""
+				"&7[Well, you don't have to wonder anymore. The quantum armor set is a highly technological stealthy apparel that connects to the AE2 system to provide convenient access to everything on the go! By default, it's an energy powered suit with defenses comparable to Netherite gear.]&f"
+				"&7[It is capable of using its buffer to create an energy shield, providing a healthy amount of damage absorption. ]&f"
+				""
+				"&7[The boots also provide all damage negation while the chestplate can eliminate flying mining penalties. However, the true power of this suit is]&f"
+				"&7[only unlocked when you fill it with upgrades!]&f"
+				""
+				""
+				"&7[To install upgrades, you need to have the pieces equipped and then open the Quantum Armor Configuration Menu, by]&f"
+				"&7[pressing the hotkey, (N by default).]&f"
+				""
+				"&7[In this screen you will be able to add/remove upgrades as well as toggle them on/off and configure settings for the]&f"
+				"&7[upgrades that have them.]&f"
 			]
 			id: "2A8FA05582ACC3FE"
-			rewards: [{
-				id: "348A31DAEB11D7BB"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "348A31DAEB11D7BB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5DE765112B473FBF"
@@ -2375,32 +3291,44 @@
 					type: "item"
 				}
 			]
-			title: "Quantum Armor"
+			title: "量子护甲&7[Quantum Armor]&f"
 			x: 15.0d
 			y: 3.5d
 		}
 		{
 			description: [
-				"In order to teach the &4ME Advanced Pattern Provider&r where to send your items, a special device is needed to encode that"
-				"information. You can use a right-click with it in hand to open its GUI."
+				"要为&4ME高级样板供应器&r设定物品输送目标,需要专用设备进行信息编码.手持该设备右键点击即可打开其图形界面."
 				""
-				"Encoded Processing Patterns can be inserted into the left slot, which will be decoded and all raw ingredients then"
-				"displayed in a list."
+				"将已编码的&a处理样板&f插入&a左侧&f槽位后,样板会被解码,所有原始材料将显示在列表中."
 				""
-				"Each row contains a set of buttons that represent all possible block faces to which the ingredient"
-				"can be sent to. Leaving the Selection in the \"A\" button will send it to whatever face is directly connected to the"
-				"Pattern Provider, while choosing a specific face will force that to be where items will be inserted. It's important to"
-				"note that advanced patterns can only be decoded properly by a small Adv Pattern Provider"
-				"or Adv Pattern Provider and will behave like a normal pattern if used in other types of"
-				"pattern provider. Additionally, if a single item cannot be inserted in the specified face, no items will be inserted"
-				"directionally and standard pattern provider behaviour will be applied."
+				"每行材料都配有代表所有可能输送方向的按钮组.选择“A“按钮中的&a自动分配&f选项,材料将直接输送至与样板供应器连接的任意面；若指定具体面,物品将强制从该面输入.需要注意的是,"
+				"高级样板仅能被小型高级样板供应器或标准高级样板供应器正确解码,"
+				"在其他类型的样板供应器中会作为普通样板运作.此外,若指定面无法输入单个物品,"
+				"系统将停止定向输送并启用标准样板供应器行为模式."
+				""
+				""
+				"&7[In order to teach the ME Advanced Pattern Provider where to send your items, a special device is needed to encode that]&f"
+				"&7[information. You can use a right-click with it in hand to open its GUI.]&f"
+				""
+				"&7[Encoded Processing Patterns can be inserted into the left slot, which will be decoded and all raw ingredients then]&f"
+				"&7[displayed in a list.]&f"
+				""
+				"&7[Each row contains a set of buttons that represent all possible block faces to which the ingredient]&f"
+				"&7[can be sent to. Leaving the Selection in the \"A\" button will send it to whatever face is directly connected to the]&f"
+				"&7[Pattern Provider, while choosing a specific face will force that to be where items will be inserted. It's important to]&f"
+				"&7[note that advanced patterns can only be decoded properly by a small Adv Pattern Provider]&f"
+				"&7[or Adv Pattern Provider and will behave like a normal pattern if used in other types of]&f"
+				"&7[pattern provider. Additionally, if a single item cannot be inserted in the specified face, no items will be inserted]&f"
+				"&7[directionally and standard pattern provider behaviour will be applied.]&f"
 			]
 			id: "18DA07CE1ACC69EF"
-			rewards: [{
-				id: "608A98D1B959EBCE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "608A98D1B959EBCE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1877B21E12DF02A3"
@@ -2423,23 +3351,32 @@
 		}
 		{
 			description: [
-				"&4ME Advanced Pattern Provider&r is a new type of &3Pattern Provider&r that upgrades"
-				"a standard version or an &cExtended Pattern Provider&r with the capability to configure the face to"
-				"which any individual item in a pattern will be pushed to. This powerful addition allows for automation of machines that"
-				"require specific sides for specific inputs to be done with a single block and no pipes!"
+				"&4高级样板供应器&r是一种新型的&3样板供应器&r,可通过升级标准版或&c扩展样板供应器&r获得,具备配置图案中每个物品输出方向的功能.这项强大升级使得需要特定侧面输入特定物品的机器自动化仅需单个方块即可实现,无需管道!"
 				""
-				"*Looking at you, Mekanism.*"
+				"*&a朝向&f你,&d通用机械&f.*"
 				""
-				"To be able to use this feature, you'll need to insert an &2Advanced Processing Pattern&r created"
-				"by inserting an encoded pattern in a &aAdvanced Pattern Encoder&r and taking out the advanced"
-				"version."
+				"要使用此功能,您需要插入一个&2高级&a处理样板&f&r,该样板通过将编码图案放入&a高级&a样板编码台&f&r并取出高级版本获得."
+				""
+				""
+				"&7[ME Advanced Pattern Provider is a new type of Pattern Provider that upgrades]&f"
+				"&7[a standard version or an Extended Pattern Provider with the capability to configure the face to]&f"
+				"&7[which any individual item in a pattern will be pushed to. This powerful addition allows for automation of machines that]&f"
+				"&7[require specific sides for specific inputs to be done with a single block and no pipes!]&f"
+				""
+				"&7[*Looking at you, Mekanism.*]&f"
+				""
+				"&7[To be able to use this feature, you'll need to insert an Advanced Processing Pattern created]&f"
+				"&7[by inserting an encoded pattern in a Advanced Pattern Encoder and taking out the advanced]&f"
+				"&7[version.]&f"
 			]
 			id: "24DBBC97F8635A16"
-			rewards: [{
-				id: "16C46D21A4D09511"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "16C46D21A4D09511"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "61DBA06121C1BFF9"
@@ -2462,28 +3399,47 @@
 		}
 		{
 			description: [
-				"&4Throughput Monitors&r are a subtype of monitor. They provide the same functionalities a <ItemLink id=\"ae2:storage_monitor\" />"
-				"does, with the addition of a throughput meter. I will keep track of a single item/fluid type and monitor changed to its"
-				"quantity, displaying the amount per second to the user."
+				"&4吞吐量监控器&r是监控器的一种子类型.它们提供与<ItemLink id=“ae2:storage_monitor“ />相同的功能"
+				",并额外增加了吞吐量计量功能.该设备会追踪单一物品/流体类型的数量变化,"
+				"以&a每秒&f为单位向用户显示流量数值."
 				""
-				"It does *not* require a channel."
+				"它*不需要*占用频道资源."
 				""
 				""
-				"The &1Throughput monitor configurator&r is a tool that can be used to change the presented data. Right-clicking a monitor"
-				"with one in hand will cycle between three options:"
+				"&1吞吐量监控器配置器&r是用于切换数据显示模式的工具.手持该工具右键点击监控器"
+				"可在三种模式间循环切换:"
 				""
-				"* Items per tick"
-				"* Items per second"
-				"* Items per minute"
+				"* 物品 &a每游戏刻&f"
+				"* 物品 &a每秒&f"
+				"* 物品每分钟"
 				""
-				"Note: It may take some time before the readings stabilize when changing the modes, so don't trust initial values!"
+				"注意:切换模式后读数需要时间稳定,请勿轻信初始数值!"
+				""
+				""
+				"&7[Throughput Monitors are a subtype of monitor. They provide the same functionalities a <ItemLink id=\"ae2:storage_monitor\" />]&f"
+				"&7[does, with the addition of a throughput meter. I will keep track of a single item/fluid type and monitor changed to its]&f"
+				"&7[quantity, displaying the amount per second to the user.]&f"
+				""
+				"&7[It does *not* require a channel.]&f"
+				""
+				""
+				"&7[The Throughput monitor configurator is a tool that can be used to change the presented data. Right-clicking a monitor]&f"
+				"&7[with one in hand will cycle between three options:]&f"
+				""
+				"&7[* Items per tick]&f"
+				"&7[* Items per second]&f"
+				"&7[* Items per minute]&f"
+				""
+				"&7[Note: It may take some time before the readings stabilize when changing the modes, so don't trust initial values!]&f"
 			]
 			id: "58F07416B7E6A42F"
-			rewards: [{
-				id: "3A870C157FFBF8A8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3A870C157FFBF8A8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "24EDA64371313DBB"
@@ -2501,22 +3457,34 @@
 		}
 		{
 			description: [
-				"The &cStock Export Bus&r can be configured to export an exact amount of the filtered stacks. It keeps track of the amount"
-				"currently present in the target inventory and doesn't insert above that number. To configure it, you open the GUI, drag"
-				"the desired item into the filter slot and, using a middle click, you can configure the amount. Note that it will not"
-				"regulate the output, meaning it won't extract extra items/fluids from the inventory if they go over the configured"
-				"amount."
+				"&c定量输出总线&r可配置为精确输出指定数量的过滤物品.它会持续监测目标容器中的当前数量"
+				",确保插入数量不超过设定值.配置时需打开图形界面,将所需物品拖入过滤槽,"
+				"通过中键点击设置数量.注意:它不会主动调节输出,这意味着当容器内物品超过设定值"
+				"时不会自动抽出多余物品/流体."
 				""
 				""
-				"The &2Import &9Export&r &4bus&r&r is a mixture of an &2Import Bus&r and an &9Export Bus&r. The"
-				"filter can be set to configure the exported stacks. Anything that is not on the filter is a valid stack to be imported."
+				"&2输入&9输出&r&4复合总线&r结合了&2输入总线&r和&9输出总线&r的功能."
+				"可通过过滤器配置输出物品,未列入过滤器的任何物品都将被视为可输入对象."
+				""
+				""
+				"&7[The Stock Export Bus can be configured to export an exact amount of the filtered stacks. It keeps track of the amount]&f"
+				"&7[currently present in the target inventory and doesn't insert above that number. To configure it, you open the GUI, drag]&f"
+				"&7[the desired item into the filter slot and, using a middle click, you can configure the amount. Note that it will not]&f"
+				"&7[regulate the output, meaning it won't extract extra items/fluids from the inventory if they go over the configured]&f"
+				"&7[amount.]&f"
+				""
+				""
+				"&7[The Import Export bus is a mixture of an Import Bus and an Export Bus. The]&f"
+				"&7[filter can be set to configure the exported stacks. Anything that is not on the filter is a valid stack to be imported.]&f"
 			]
 			id: "55EDCD2CB3329A4D"
-			rewards: [{
-				id: "4A5D0A16355AC9B6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A5D0A16355AC9B6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0F68E5C0D2DCEED6"
@@ -2534,22 +3502,31 @@
 		}
 		{
 			description: [
-				"The &1Quantum Crafter&r is a powerful and configurable auto-crafter. With the entire inventory of the AE systems at its"
-				"grasp, crafting non-stop becomes a trivial task. It is capable of running crafting jobs at a very fast pace while making"
-				"sure you never run out of crucial resources. It is also capable of running fluid substitution crafts as well as"
-				"recursive crafts, which have an input as an output."
+				"&1量子合成器&r是功能强大且可配置的自动合成设备.它能够调用整个AE系统的存储资源,"
+				"使持续合成变得轻而易举.该设备能以极快速度处理合成任务,同时确保关键资源永不枯竭."
+				"它还支持流体替代合成以及递归合成(即输出物可作为输入物的合成模式)."
+				""
+				""
+				"&7[The Quantum Crafter is a powerful and configurable auto-crafter. With the entire inventory of the AE systems at its]&f"
+				"&7[grasp, crafting non-stop becomes a trivial task. It is capable of running crafting jobs at a very fast pace while making]&f"
+				"&7[sure you never run out of crucial resources. It is also capable of running fluid substitution crafts as well as]&f"
+				"&7[recursive crafts, which have an input as an output.]&f"
 			]
 			id: "75D242FBEA58818C"
-			rewards: [{
-				id: "0E10B458476813A4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E8B0A2128A90462"
-				item: "advanced_ae:quantum_crafter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0E10B458476813A4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E8B0A2128A90462"
+					item: "advanced_ae:quantum_crafter"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 2.0d
 		}
@@ -2558,385 +3535,494 @@
 				"423C4C79C8DB1F6E"
 				"75091FDCAFC632ED"
 			]
-			description: ["The Quantum Upgrade Base doesn't do anything special on its own, but it is used as a crafting ingredient for all upgrade cards."]
+			description: [
+				"&a量子&f升级基板本身不具备特殊功能,但它是所有升级卡片的合成材料."
+				""
+				""
+				"&7[The Quantum Upgrade Base doesn't do anything special on its own, but it is used as a crafting ingredient for all upgrade cards.]&f"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5D5C5B1F12462C2E"
-			rewards: [{
-				id: "3C4B20789225F4F8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3C4B20789225F4F8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
-			tasks: [{
-				id: "10E1D3FEC9732E1F"
-				item: "advanced_ae:quantum_upgrade_base"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10E1D3FEC9732E1F"
+					item: "advanced_ae:quantum_upgrade_base"
+					type: "item"
+				}
+			]
 			x: 21.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "53587262A433C302"
-			rewards: [{
-				id: "10A95EC3EFE344BF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6EA3648C616CA787"
-				item: "advanced_ae:walk_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10A95EC3EFE344BF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6EA3648C616CA787"
+					item: "advanced_ae:walk_speed_card"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3BAE0CA249B3AF85"
-			rewards: [{
-				id: "19DD32A61EB10EFA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "008A0F210EC48AFF"
-				item: "advanced_ae:sprint_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19DD32A61EB10EFA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "008A0F210EC48AFF"
+					item: "advanced_ae:sprint_speed_card"
+					type: "item"
+				}
+			]
 			x: 26.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "7F6CF5E7660186F4"
-			rewards: [{
-				id: "717F4F5C143E486D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00A3006595D3CFF5"
-				item: "advanced_ae:jump_height_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "717F4F5C143E486D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00A3006595D3CFF5"
+					item: "advanced_ae:jump_height_card"
+					type: "item"
+				}
+			]
 			x: 25.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "38F05A767A95BA4F"
-			rewards: [{
-				id: "0DA80EDFE157D598"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7A773A4BFED5704E"
-				item: "advanced_ae:lava_immunity_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0DA80EDFE157D598"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A773A4BFED5704E"
+					item: "advanced_ae:lava_immunity_card"
+					type: "item"
+				}
+			]
 			x: 23.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "7A98FCB88B49E8B5"
-			rewards: [{
-				id: "48E494F688253E93"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "35D4908F1CE794E3"
-				item: "advanced_ae:flight_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "48E494F688253E93"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35D4908F1CE794E3"
+					item: "advanced_ae:flight_card"
+					type: "item"
+				}
+			]
 			x: 26.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "1A82B41793088F05"
-			rewards: [{
-				id: "34820E6B2F770115"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "774D8D193D2F2479"
-				item: "advanced_ae:water_breathing_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34820E6B2F770115"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "774D8D193D2F2479"
+					item: "advanced_ae:water_breathing_card"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			description: [
-				"The &4Auto Feeding Card&r enables the selection of specific items to be used to feed the player."
+				"&4&a自动补给&f卡片&r可配置特定物品自动补充给玩家."
 				""
-				"Simply drag the desired items into the filter slots and if the equipment is linked to the AE2 grid, it will try to find them in the system to feed the player when hungry."
+				"只需将所需物品拖入过滤槽,当装备与AE2网络连接时,系统会在玩家饥饿时自动从网络中查找并补充指定物品."
+				""
+				""
+				"&7[The Auto Feeding Card enables the selection of specific items to be used to feed the player.]&f"
+				""
+				"&7[Simply drag the desired items into the filter slots and if the equipment is linked to the AE2 grid, it will try to find them in the system to feed the player when hungry.]&f"
 			]
 			id: "6A1A8BF1DA2D269C"
-			rewards: [{
-				id: "4DD4DE7349EDAABD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "534B0E77BA562A4B"
-				item: "advanced_ae:auto_feeding_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4DD4DE7349EDAABD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "534B0E77BA562A4B"
+					item: "advanced_ae:auto_feeding_card"
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			description: [
-				"The &4Auto Stock Card&r also requires the equipment piece to be linked to the AE2 system and the proper range to the access point."
+				"&4自动库存卡片&r同样需要装备与AE2系统连接,且需在接入点有效范围内使用."
 				""
-				"It enables the configuration of a few stacks to be always kept at specific amounts in the user inventory."
+				"可配置若干物品始终在玩家库存中保持特定数量."
 				""
-				"The slots are not limited to a stack, so you can set them to have more than one slot filled in inventory at all times if you so desire."
+				"槽位不受单组堆叠限制,您可以根据需要设置多个槽位始终保持填充状态."
+				""
+				""
+				"&7[The Auto Stock Card also requires the equipment piece to be linked to the AE2 system and the proper range to the access point.]&f"
+				""
+				"&7[It enables the configuration of a few stacks to be always kept at specific amounts in the user inventory.]&f"
+				""
+				"&7[The slots are not limited to a stack, so you can set them to have more than one slot filled in inventory at all times if you so desire.]&f"
 			]
 			id: "1AC6F14C218DD46A"
-			rewards: [{
-				id: "00CC540017D42642"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7287DB10338D488C"
-				item: "advanced_ae:auto_stock_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "00CC540017D42642"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7287DB10338D488C"
+					item: "advanced_ae:auto_stock_card"
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "753DE33B3A4B155C"
-			rewards: [{
-				id: "7A7593FCB17C3448"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "762DAD915146AFCE"
-				item: "advanced_ae:magnet_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7A7593FCB17C3448"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "762DAD915146AFCE"
+					item: "advanced_ae:magnet_card"
+					type: "item"
+				}
+			]
 			x: 25.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "213F8D9402B5046A"
-			rewards: [{
-				id: "62BF453C9848CF2E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "74D10FBAA77ADEDB"
-				item: "advanced_ae:hp_buffer_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62BF453C9848CF2E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74D10FBAA77ADEDB"
+					item: "advanced_ae:hp_buffer_card"
+					type: "item"
+				}
+			]
 			x: 23.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "7DA2208D8C20B5CE"
-			rewards: [{
-				id: "7597058DA3171CBB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "76BA1377B4B8AE26"
-				item: "advanced_ae:evasion_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7597058DA3171CBB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76BA1377B4B8AE26"
+					item: "advanced_ae:evasion_card"
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3434D50487D65847"
-			rewards: [{
-				id: "67617584A9B3A294"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "19255607F9DE8219"
-				item: "advanced_ae:regeneration_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67617584A9B3A294"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19255607F9DE8219"
+					item: "advanced_ae:regeneration_card"
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "78926DDDB7EC0D01"
-			rewards: [{
-				id: "7C21E4780548DF57"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7908069C7A2D9088"
-				item: "advanced_ae:strength_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7C21E4780548DF57"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7908069C7A2D9088"
+					item: "advanced_ae:strength_card"
+					type: "item"
+				}
+			]
 			x: 22.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "690E54A59C0EA57D"
-			rewards: [{
-				id: "0D27F1F02BAE8007"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0692E35BA09BDF76"
-				item: "advanced_ae:attack_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0D27F1F02BAE8007"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0692E35BA09BDF76"
+					item: "advanced_ae:attack_speed_card"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "5230605BB77C9023"
-			rewards: [{
-				id: "35684ECCDC1E9390"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "32A4C12166D60F9C"
-				item: "advanced_ae:luck_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "35684ECCDC1E9390"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32A4C12166D60F9C"
+					item: "advanced_ae:luck_card"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "712384BB02405F0E"
-			rewards: [{
-				id: "7451348C032E0EFD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0C8C5CCAAE7D77AA"
-				item: "advanced_ae:reach_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7451348C032E0EFD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C8C5CCAAE7D77AA"
+					item: "advanced_ae:reach_card"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3785709704479CB6"
-			rewards: [{
-				id: "3B1EFB4870CD3BD0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "137C0A8331CE4E1E"
-				item: "advanced_ae:swim_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3B1EFB4870CD3BD0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "137C0A8331CE4E1E"
+					item: "advanced_ae:swim_speed_card"
+					type: "item"
+				}
+			]
 			x: 26.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "4CA0753DC10E0AB0"
-			rewards: [{
-				id: "4CC8984F5C8540B8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EE528EEAC690A6D"
-				item: "advanced_ae:night_vision_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CC8984F5C8540B8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EE528EEAC690A6D"
+					item: "advanced_ae:night_vision_card"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "0B294FAAA95A05C8"
-			rewards: [{
-				id: "78A540E1D698FA5B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1272054478FC50F8"
-				item: "advanced_ae:flight_drift_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "78A540E1D698FA5B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1272054478FC50F8"
+					item: "advanced_ae:flight_drift_card"
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3020BE06C1C3BA1B"
-			rewards: [{
-				id: "543344361D00CD4D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "10A74C0B98020E7F"
-				item: "advanced_ae:recharging_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "543344361D00CD4D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10A74C0B98020E7F"
+					item: "advanced_ae:recharging_card"
+					type: "item"
+				}
+			]
 			x: 26.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3C9C0DAFF14E1582"
-			rewards: [{
-				id: "1910CF8FB97C248F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3E254227F36E56D8"
-				item: "advanced_ae:portable_workbench_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1910CF8FB97C248F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E254227F36E56D8"
+					item: "advanced_ae:portable_workbench_card"
+					type: "item"
+				}
+			]
 			x: 27.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "2DB5F58E6290DA71"
-			rewards: [{
-				id: "0C1996DD1AB6B521"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A2AF5E84B1F0525"
-				item: "advanced_ae:pick_craft_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0C1996DD1AB6B521"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A2AF5E84B1F0525"
+					item: "advanced_ae:pick_craft_card"
+					type: "item"
+				}
+			]
 			x: 28.0d
 			y: 5.5d
 		}
@@ -2946,161 +4032,225 @@
 				"74068F67A2FC5670"
 			]
 			id: "75091FDCAFC632ED"
-			rewards: [{
-				id: "4BE70545D21F2681"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "504E7979978609A0"
-				item: "advanced_ae:quantum_alloy_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4BE70545D21F2681"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "504E7979978609A0"
+					item: "advanced_ae:quantum_alloy_plate"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["750B10A7ADE8DE08"]
 			description: [
-				"&4Advanced AE&r focuses on improving user experience when handling your &1ME System&r and expanding the possibilities of"
-				"end-game systems. This mod allows you to &aupgrade pattern providers&r with the capability to push items to specific sides"
-				"of the target machines and create multiblock computers that can run an unlimited amount of crafts, sharing"
-				"co-processors, while it has crafting storage left, plus a ton of other quality of life additions!"
+				"&4高级AE&r致力于提升&1ME系统&r的操作体验并扩展终局系统的可能性.本模组允许您&a升级样板供应器&r,"
+				"使其能够向目标机器的特定面推送物品,还能建造可运行无限量合成任务的多方块计算机——"
+				"只要合成存储空间充足,多个计算机可共享协处理器,此外还包含大量生活质量改进功能!"
+				""
+				""
+				"&7[Advanced AE focuses on improving user experience when handling your ME System and expanding the possibilities of]&f"
+				"&7[end-game systems. This mod allows you to upgrade pattern providers with the capability to push items to specific sides]&f"
+				"&7[of the target machines and create multiblock computers that can run an unlimited amount of crafts, sharing]&f"
+				"&7[co-processors, while it has crafting storage left, plus a ton of other quality of life additions!]&f"
 			]
 			id: "5007013C1A395087"
-			rewards: [{
-				id: "06C9DE9A732A1A39"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6578BD2FF71F4F14"
-				title: "Advanced AE"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "06C9DE9A732A1A39"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6578BD2FF71F4F14"
+					title: "高级AE"
+					type: "checkmark"
+				}
+			]
 			x: 3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2D950D37BA27DF62"]
 			description: [
-				"The &4Quantum core&r is the heart of the &1Quantum Computer&r. It has 256M of crafting storage and 8 co-processor threads by"
-				"itself."
+				"&4量子核心&r是&1&a量子计算机&f&r的心脏.它自身拥有256M合成存储空间和8个协处理器线程."
 				""
-				"It's the only block that can create a formed quantum computer by itself and provide all the benefits of a quantum computer."
+				"这是唯一能独立构成量子计算机并具备量子计算机全部功能的方块."
 				""
-				"However, if used to create a multiblock, a much more powerful computer can be created."
+				"但若用于构建多方块结构,则可创造出更强大的计算机."
 				""
-				"When used as a standalone computer, power must be provided through the Up or Down sides, where the connectors are."
+				"作为独立计算机使用时,必须通过带有连接器的上下面接入能源."
+				""
+				""
+				"&7[The Quantum core is the heart of the Quantum Computer. It has 256M of crafting storage and 8 co-processor threads by]&f"
+				"&7[itself.]&f"
+				""
+				"&7[It's the only block that can create a formed quantum computer by itself and provide all the benefits of a quantum computer.]&f"
+				""
+				"&7[However, if used to create a multiblock, a much more powerful computer can be created.]&f"
+				""
+				"&7[When used as a standalone computer, power must be provided through the Up or Down sides, where the connectors are.]&f"
 			]
 			id: "5680D3DCB53D9EAD"
-			rewards: [{
-				id: "276E2CABAFE1D818"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "01A477861F7F30E7"
-				item: "advanced_ae:quantum_core"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "276E2CABAFE1D818"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01A477861F7F30E7"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2D950D37BA27DF62"]
 			description: [
-				"These blocks provide the framing of the quantum computer. They are used as a building block for the quantum computer and"
-				"connect everything together."
+				"这些方块构成量子计算机的框架,作为量子计算机的建筑模块,"
+				"并将所有部件连接在一起."
+				""
+				""
+				"&7[These blocks provide the framing of the quantum computer. They are used as a building block for the quantum computer and]&f"
+				"&7[connect everything together.]&f"
 			]
 			id: "0ACCCC1B217D98D0"
-			rewards: [{
-				id: "153B31FE298E8ED1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "302C59CDACB228ED"
-				item: "advanced_ae:quantum_structure"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "153B31FE298E8ED1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "302C59CDACB228ED"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2D950D37BA27DF62"]
 			description: [
-				"Similarly to the Data Entanglers, &4multi-threaders&r enable accelerators to run extra threads in separate dimensions,"
-				"multiplying their co-processing power by 4. Only one of these can be placed in each quantum computer multiblock."
+				"与数据纠缠器类似,&4多线程器&r能让加速器在异维度运行额外线程,"
+				"使其协处理能力提升4倍.每个量子计算机多方块仅能放置一个."
+				""
+				""
+				"&7[Similarly to the Data Entanglers, multi-threaders enable accelerators to run extra threads in separate dimensions,]&f"
+				"&7[multiplying their co-processing power by 4. Only one of these can be placed in each quantum computer multiblock.]&f"
 			]
 			id: "441202CC380854DF"
-			rewards: [{
-				id: "68FA5FE42D95D697"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18A1191D142A3479"
-				item: "advanced_ae:quantum_multi_threader"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "68FA5FE42D95D697"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18A1191D142A3479"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2D950D37BA27DF62"]
 			description: [
-				"&4Quantum accelerators&r add &28 co-processors&r to the Quantum Computer multiblock. It's important to note that all crafting"
-				"patterns being run by the quantum computer are able to share all co-processors, so it's probably a good idea to invest"
-				"in a great amount of these."
+				"&4量子加速器&r可为&a量子计算机&f多方块增加&28个协处理器&r.需注意所有正在运行的合成配方"
+				"都能共享全部协处理器,因此大量配置这些加速器是明智之举."
+				""
+				""
+				"&7[Quantum accelerators add 8 co-processors to the Quantum Computer multiblock. It's important to note that all crafting]&f"
+				"&7[patterns being run by the quantum computer are able to share all co-processors, so it's probably a good idea to invest]&f"
+				"&7[in a great amount of these.]&f"
 			]
 			id: "20C24A8F55709AC6"
-			rewards: [{
-				id: "294BB0AE4810B82F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6694F900E7B70324"
-				item: "advanced_ae:quantum_accelerator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "294BB0AE4810B82F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6694F900E7B70324"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2D950D37BA27DF62"]
 			description: [
-				"&4Data Entanglers&r are a special block that affect all storage blocks present in the multi-block. They enable storage"
-				"blocks to store data in several dimensions, effectively multiplying their storage by 4. Only one of these can be placed"
-				"in each quantum computer multiblock."
+				"&4数据纠缠器&r是能影响多方块内所有存储方块的特殊装置.它使存储方块"
+				"能在多重维度存储数据,实际存储容量扩大4倍.每个量子计算机多方块仅能放置一个."
+				""
+				""
+				"&7[Data Entanglers are a special block that affect all storage blocks present in the multi-block. They enable storage]&f"
+				"&7[blocks to store data in several dimensions, effectively multiplying their storage by 4. Only one of these can be placed]&f"
+				"&7[in each quantum computer multiblock.]&f"
 			]
 			id: "1359A69F4F6B6CF1"
-			rewards: [{
-				id: "06DC0B4790808750"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57C6A7EB9D7B912D"
-				item: "advanced_ae:data_entangler"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06DC0B4790808750"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "57C6A7EB9D7B912D"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["2D950D37BA27DF62"]
 			description: [
-				"These blocks expand the crafting storage of the quantum core. They effectively increase the amount of concurrent tasks"
-				"the quantum computer is able to run. There are two variations, with &4128M&r and &2256M&r of capacity."
+				"这些方块可扩展量子核心的合成存储空间,有效提升量子计算机"
+				"能同时处理的任务数量.有两种规格:&4128M&r和&256M&r容量."
+				""
+				""
+				"&7[These blocks expand the crafting storage of the quantum core. They effectively increase the amount of concurrent tasks]&f"
+				"&7[the quantum computer is able to run. There are two variations, with 128M and 256M of capacity.]&f"
 			]
 			id: "2956AF6FF3F119B2"
-			rewards: [{
-				id: "0317FFB89D71B73F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0317FFB89D71B73F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3C25983C53E7B058"
@@ -3118,91 +4268,105 @@
 		}
 		{
 			description: [
-				"To create a multiblock quantum computer, some rules must be followed:"
+				"建造多方块量子计算机需遵循以下规则:"
 				""
-				"- The maximum size is &17x7x7&r (external dimensions);"
-				"- &cNo empty spaces&r can be present inside the multiblock. They can be filled with Quantum Unit for no additional benefits;"
-				"- Exactly &2one Quantum Core&r;"
-				"- At most &6one Data Entangler&r;"
-				"- At most &aone Quantum Multi Threader&r;"
-				"- All blocks on the &boutside layer must be Quantum Structure&r;"
-				"- No block on the inside can be Quantum Structure."
+				"- 最大尺寸为&17x7x7&r(外部尺寸)；"
+				"- 多方块结构内部&c不能存在空位&r.可用量子单元填充,但无额外增益；"
+				"- 必须包含&2唯一一个&a量子核心&f&r；"
+				"- 至多&6一个数据纠缠器&r；"
+				"- 至多&a一个量子多线程处理器&r；"
+				"- &b外层所有方块&r必须为量子结构框架；"
+				"- 内部不得出现量子结构方块."
 				"{image:kubejs:block/screen/advanced_ae_multiblock width:100 height:100 align:center fit:true}"
 			]
 			hide_dependent_lines: true
 			id: "2D950D37BA27DF62"
-			rewards: [{
-				id: "73570674EAE48E37"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "73570674EAE48E37"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 4.0d
-			tasks: [{
-				id: "2E22CF68F94A1DAA"
-				title: "Multiblock Info"
-				type: "checkmark"
-			}]
-			title: "Advanced AE Multiblock"
+			tasks: [
+				{
+					id: "2E22CF68F94A1DAA"
+					title: "多方块结构信息"
+					type: "checkmark"
+				}
+			]
+			title: "高级AE多方块结构"
 			x: 10.0d
 			y: 8.0d
 		}
 		{
 			description: [
-				"Assembler Matrix is a multiblock structure. It is an combination of Molecular Assembler and Pattern Provider."
+				"组装矩阵是多方块结构,融合了&a分子装配室&f与样板供应器的功能."
 				""
-				"It can run a lot crafting jobs at the same (with enough Crafting Accelerators in your ME network) and save channels for you."
+				"可同步处理大量合成任务(需ME网络中配置足够的合成加速器),并节省频道占用."
 				""
-				"It is a rectangular prism, with edge lengths between 3 and 7. "
-				"- Edges composed of &cAssembler Matrix Frame&r."
-				"- Faces composed of &9Assembler Matrix Wall/Glass&r."
-				"- Interior composed of &2Assembler Matrix Pattern/Craft/Speed Core&r."
+				"该结构为矩形棱柱体,边长范围3至7格."
+				"- 边缘需由&c组装器&a矩阵框架&f&r构成；"
+				"- 表面需由&9组装矩阵墙壁/玻璃&r构成；"
+				"- 内部需由&2组装矩阵样板/合成/加速核心&r构成."
 				""
-				"A valid Assembler Matrix must contain at least one pattern core and craft core. "
-				"It must be completely filled and can't be hollow."
-				"When Assembler Matrix is correctly formed and powered, the lines on Assembler Matrix Frame will turn blue."
+				"有效的组装矩阵必须包含至少一个样板核心与合成核心."
+				"结构必须完全实心,禁止存在中空区域."
+				"当组装矩阵正确成型且通电时,&a矩阵框架&f上的纹路将变为蓝色."
 				"{image:kubejs:block/screen/extended_ae_multiblock width:100 height:100 align:center fit:true}"
 			]
 			hide_dependent_lines: true
 			id: "0ECD78BDD6FABA7C"
-			rewards: [{
-				id: "028AEE77AE03B540"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "028AEE77AE03B540"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 4.0d
-			tasks: [{
-				id: "0959117F11D04843"
-				title: "Multiblock Info"
-				type: "checkmark"
-			}]
-			title: "Advanced AE Multiblock"
+			tasks: [
+				{
+					id: "0959117F11D04843"
+					title: "多方块结构信息"
+					type: "checkmark"
+				}
+			]
+			title: "高级AE多方块结构"
 			x: 16.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "4D7EF99A34233979"
-			rewards: [{
-				id: "45D752BFBE130D9E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0A66460508B61A3C"
-				item: "expatternprovider:assembler_matrix_frame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "45D752BFBE130D9E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A66460508B61A3C"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "0825C288B0AF3E44"
-			rewards: [{
-				id: "1C86E8F9447CE923"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1C86E8F9447CE923"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "755ACEBBAA2BE9EE"
@@ -3221,49 +4385,66 @@
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "5E3441120E4C5A2D"
-			rewards: [{
-				id: "123CD67FEDAE706F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "21E91958D99A03A6"
-				item: "expatternprovider:assembler_matrix_pattern"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "123CD67FEDAE706F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21E91958D99A03A6"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+			]
 			x: 16.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "29806054C47D0478"
-			rewards: [{
-				id: "51732DB74BD1A71B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0C3A0A2E6A5DDFC1"
-				item: "expatternprovider:assembler_matrix_crafter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51732DB74BD1A71B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C3A0A2E6A5DDFC1"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+			]
 			x: 17.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
-			description: ["5 max"]
+			description: [
+				"最多5个"
+				""
+				""
+				"&7[5 max]&f"
+			]
 			id: "6E14D2CF2A950157"
-			rewards: [{
-				id: "216EE897DCE5CFB7"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7B3C1F7E30FC05F6"
-				item: "expatternprovider:assembler_matrix_speed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "216EE897DCE5CFB7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B3C1F7E30FC05F6"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
 			x: 18.0d
 			y: 11.0d
 		}
@@ -3274,18 +4455,22 @@
 			id: "1168E67611CD8473"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode infinite"
-				id: "0B4E960D24EBFA33"
-				title: "Deactivate Channels"
-				type: "command"
-			}]
-			tasks: [{
-				id: "7E2F0B372A6BD7F8"
-				title: "Disable Channels"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode infinite"
+					id: "0B4E960D24EBFA33"
+					title: "停用频道功能"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7E2F0B372A6BD7F8"
+					title: "禁用频道功能"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -3296,18 +4481,22 @@
 			id: "72DB9CE799477E9C"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode default"
-				id: "20A2A48F60989F13"
-				title: "Activate Channels Default"
-				type: "command"
-			}]
-			tasks: [{
-				id: "7B7ED4D6FCF8A468"
-				title: "Activate Channels Default"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode default"
+					id: "20A2A48F60989F13"
+					title: "启用默认频道配置"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7B7ED4D6FCF8A468"
+					title: "启用默认频道配置"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: -2.0d
 		}
@@ -3318,18 +4507,22 @@
 			id: "413398C47C6392B1"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode x2"
-				id: "667E07B23CB2808B"
-				title: "Activate Channels 2x"
-				type: "command"
-			}]
-			tasks: [{
-				id: "4ABD302B3ABB2BFB"
-				title: "Activate Channels 2x"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode x2"
+					id: "667E07B23CB2808B"
+					title: "启用2倍频道模式"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "4ABD302B3ABB2BFB"
+					title: "启用2倍频道模式"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
@@ -3340,18 +4533,22 @@
 			id: "52CE6093E37F27FB"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode x3"
-				id: "0D732879B2A56646"
-				title: "Activate Channels 3x"
-				type: "command"
-			}]
-			tasks: [{
-				id: "070D4434E5C1767C"
-				title: "Activate Channels 3x"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode x3"
+					id: "0D732879B2A56646"
+					title: "启用3倍频道模式"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "070D4434E5C1767C"
+					title: "启用3倍频道模式"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
@@ -3362,21 +4559,25 @@
 			id: "2A1E9CC6A78B279C"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode x4"
-				id: "1F9469166DF2BD73"
-				title: "Activate Channels 4x"
-				type: "command"
-			}]
-			tasks: [{
-				id: "56180E379CE4AA0A"
-				title: "Activate Channels 4x"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode x4"
+					id: "1F9469166DF2BD73"
+					title: "启用4倍频道模式"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "56180E379CE4AA0A"
+					title: "启用4倍频道模式"
+					type: "checkmark"
+				}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
 	]
-	title: "Applied Energistics 2"
+	title: "&d应用能源2&f&7[Applied Energistics 2]&f"
 }

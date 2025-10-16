@@ -2,7 +2,13 @@
 	id: "18240B67396BDC49"
 	loot_size: 1
 	order_index: 8
-	rewards: [{ item: "extrastorage:neural_processor", random_bonus: 2, weight: 50.0f }]
-	title: "RS Advanced Parts"
+	rewards: [
+		{
+			item: "extrastorage:neural_processor"
+			random_bonus: 2
+			weight: 50.0f
+		}
+	]
+	title: "RS高级部件&7[RS Advanced Parts]&f"
 	use_title: true
 }

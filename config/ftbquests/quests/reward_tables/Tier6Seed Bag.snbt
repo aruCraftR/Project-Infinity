@@ -13,32 +13,101 @@
 	loot_size: 1
 	order_index: 20
 	rewards: [
-		{ item: "mysticalagradditions:insanium_farmland", weight: 7.0f }
-		{ item: "mysticalagradditions:insanium_coal_block", weight: 5.0f }
-		{ item: "mysticalagradditions:insanium_essence", random_bonus: 1, weight: 5.0f }
-		{ item: "mysticalagradditions:insanium_ingot", weight: 7.0f }
-		{ item: "mysticalagradditions:insanium_gemstone", weight: 5.0f }
-		{ item: "mysticalagradditions:insanium_coal", random_bonus: 2, weight: 5.0f }
-		{ item: "mysticalagradditions:insanium_apple", random_bonus: 2, weight: 7.0f }
-		{ item: "mysticalagradditions:supremium_coal_block", weight: 5.0f }
-		{ item: "mysticalagriculture:supremium_furnace", weight: 3.0f }
-		{ item: "mysticalagriculture:supremium_farmland", weight: 10.0f }
-		{ item: "mysticalagriculture:supremium_gemstone", weight: 7.0f }
-		{ item: "mysticalagriculture:supremium_ingot", random_bonus: 2, weight: 10.0f }
-		{ item: "mysticalagriculture:supremium_essence", random_bonus: 3, weight: 10.0f }
-		{ item: "mysticalagriculture:flight_augment", weight: 3.0f }
-		{ item: "mysticalagriculture:allthemodium_seeds" }
-		{ item: "mysticalagriculture:dark_metal_ingot_seeds" }
-		{ item: "mysticalagriculture:plutonium_seeds" }
-		{ item: "mysticalagriculture:vibranium_seeds" }
-		{ item: "mysticalagriculture:unobtainium_seeds" }
-		{ item: "mysticalagriculture:nether_star_seeds" }
-		{ item: "mysticalagriculture:dragon_egg_seeds" }
-		{ item: "mysticalagriculture:gaia_spirit_seeds" }
-		{ item: "mysticalagriculture:awakened_draconium_seeds" }
-		{ item: "mysticalagriculture:neutronium_seeds" }
-		{ item: "mysticalagriculture:nitro_crystal_seeds" }
+		{
+			item: "mysticalagradditions:insanium_farmland"
+			weight: 7.0f
+		}
+		{
+			item: "mysticalagradditions:insanium_coal_block"
+			weight: 5.0f
+		}
+		{
+			item: "mysticalagradditions:insanium_essence"
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{
+			item: "mysticalagradditions:insanium_ingot"
+			weight: 7.0f
+		}
+		{
+			item: "mysticalagradditions:insanium_gemstone"
+			weight: 5.0f
+		}
+		{
+			item: "mysticalagradditions:insanium_coal"
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{
+			item: "mysticalagradditions:insanium_apple"
+			random_bonus: 2
+			weight: 7.0f
+		}
+		{
+			item: "mysticalagradditions:supremium_coal_block"
+			weight: 5.0f
+		}
+		{
+			item: "mysticalagriculture:supremium_furnace"
+			weight: 3.0f
+		}
+		{
+			item: "mysticalagriculture:supremium_farmland"
+			weight: 10.0f
+		}
+		{
+			item: "mysticalagriculture:supremium_gemstone"
+			weight: 7.0f
+		}
+		{
+			item: "mysticalagriculture:supremium_ingot"
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			item: "mysticalagriculture:supremium_essence"
+			random_bonus: 3
+			weight: 10.0f
+		}
+		{
+			item: "mysticalagriculture:flight_augment"
+			weight: 3.0f
+		}
+		{
+			item: "mysticalagriculture:allthemodium_seeds"
+		}
+		{
+			item: "mysticalagriculture:dark_metal_ingot_seeds"
+		}
+		{
+			item: "mysticalagriculture:plutonium_seeds"
+		}
+		{
+			item: "mysticalagriculture:vibranium_seeds"
+		}
+		{
+			item: "mysticalagriculture:unobtainium_seeds"
+		}
+		{
+			item: "mysticalagriculture:nether_star_seeds"
+		}
+		{
+			item: "mysticalagriculture:dragon_egg_seeds"
+		}
+		{
+			item: "mysticalagriculture:gaia_spirit_seeds"
+		}
+		{
+			item: "mysticalagriculture:awakened_draconium_seeds"
+		}
+		{
+			item: "mysticalagriculture:neutronium_seeds"
+		}
+		{
+			item: "mysticalagriculture:nitro_crystal_seeds"
+		}
 	]
-	title: "&dTier 6 Seed Bag"
+	title: "&d六级种子袋&7[Tier 6 Seed Bag]&f"
 	use_title: true
 }

@@ -45,80 +45,113 @@
 	quests: [
 		{
 			description: [
-				"&bIndustrial Foregoing&r is a &6technology mod&r that offers automation for &dresource processing&r, &afarming&r, &cmob management&r, and &9energy control&r."
+				"&b&d工业先锋&f&r是一款&e科技类模组&r,提供&d资源处理&r、&a农业种植&r、&c生物管理&r和&9能源控制&r的自动化解决方案."
 				""
-				"Key machines include the &3Plant Gatherer&r and &5Plant Sower&r for crop automation, the &cFluid Extractor&r and &dLatex Processing Unit&r for fluid management, and the &9Pitiful Generator&r for power generation."
+				"核心机械包括用于作物自动化的&3&a收割机&f&r和&5&a播种机&f&r,用于流体管理的&c&a流体提取器&f&r和&d&a胶乳加工机&f&r,以及用于发电的&9&a木质燃料发电机&f&r."
 				""
-				"Mob interactions are handled by the &dMob Crusher&r and &eMob Duplicator&r, while the &bAnimal Rancher&r automates animal product collection."
+				"生物交互通过&d&a屠宰机&f&r和&e&a自动刷怪机&f&r处理,而&b&a动物资源收获机&f&r可实现动物产品的自动收集."
 				""
-				"Transport systems like &eConveyor Belts&r and &bFluid Pipes&r ensure efficient resource movement."
+				"运输系统如&e&a传送带&f&r和&b&a流体传输管道&f&r确保资源高效流转."
 				""
-				"&bIndustrial Foregoing&r simplifies automation and boosts efficiency in Minecraft."
+				"&b&d工业先锋&f&r简化了《我的世界》中的自动化流程并提升效率."
+				""
+				""
+				"&7[Industrial Foregoing is a technology mod that offers automation for resource processing, farming, mob management, and energy control.]&f"
+				""
+				"&7[Key machines include the Plant Gatherer and Plant Sower for crop automation, the Fluid Extractor and Latex Processing Unit for fluid management, and the Pitiful Generator for power generation.]&f"
+				""
+				"&7[Mob interactions are handled by the Mob Crusher and Mob Duplicator, while the Animal Rancher automates animal product collection.]&f"
+				""
+				"&7[Transport systems like Conveyor Belts and Fluid Pipes ensure efficient resource movement.]&f"
+				""
+				"&7[Industrial Foregoing simplifies automation and boosts efficiency in Minecraft.]&f"
 			]
 			disable_toast: true
 			id: "6369D6824087249B"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "697CCD01EE042163"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "697CCD01EE042163"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6369D6824087249B"]
 			id: "0DD9575CCAD78266"
-			tasks: [{
-				id: "4EDFE746D5FE15B9"
-				item: "industrialforegoing:machine_frame_pity"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4EDFE746D5FE15B9"
+					item: "industrialforegoing:machine_frame_pity"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["0DD9575CCAD78266"]
 			description: [
-				"The &bFluid Extractor&r is used to extract fluids from blocks."
+				"&b&a流体提取器&f&r用于从方块中提取流体."
 				""
-				"Place it facing a block like &n&boak wood&r to start extracting &dLatex&r."
+				"将其朝向&n&b橡木&r等方块放置即可开始提取&d胶乳&r."
 				""
-				"The extracted fluid can be transferred using &eFluid Pipes&r."
+				"&a提取&fed后的流体可通过&e&a流体传输管道&f&r进行输送."
+				""
+				""
+				"&7[The Fluid Extractor is used to extract fluids from blocks.]&f"
+				""
+				"&7[Place it facing a block like oak wood to start extracting Latex.]&f"
+				""
+				"&7[The extracted fluid can be transferred using Fluid Pipes.]&f"
 			]
 			id: "4B8CB53818688501"
-			tasks: [{
-				id: "5550BE577DCEC134"
-				item: "industrialforegoing:fluid_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5550BE577DCEC134"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 2.25d
 		}
 		{
 			dependencies: ["4B8CB53818688501"]
 			id: "3739E03745B3847A"
-			tasks: [{
-				id: "67483309BB668FD9"
-				item: "industrialforegoing:latex_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67483309BB668FD9"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["3739E03745B3847A"]
 			description: [
-				"The &dLatex Processing Unit&r converts &dLatex&r into &aTiny Dry Rubber&r when provided with &3Water&r."
+				"&d&a胶乳加工机&f&r在提供&3水&r的情况下可将&d胶乳&r转化为&a&a小块干橡胶&f&r."
 				""
-				"Ensure it's connected to both a &dLatex source&r and a &3Water source&r to produce &aTiny Dry Rubber&r."
+				"需同时连接&d胶乳源&r和&3水源&r以生产&a&a小块干橡胶&f&r."
+				""
+				""
+				"&7[The Latex Processing Unit converts Latex into Tiny Dry Rubber when provided with Water.]&f"
+				""
+				"&7[Ensure it's connected to both a Latex source and a Water source to produce Tiny Dry Rubber.]&f"
 			]
 			id: "720E5426BFA55DF4"
-			tasks: [{
-				id: "00B25DDEA93195C4"
-				item: "industrialforegoing:latex_processing_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00B25DDEA93195C4"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 2.25d
 		}
@@ -126,40 +159,44 @@
 			dependencies: ["720E5426BFA55DF4"]
 			icon: "industrialforegoing:dryrubber"
 			id: "6780823D40C32AF6"
-			tasks: [{
-				id: "34AC2C4E29ADF693"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Rubber\"}"
+			tasks: [
+				{
+					id: "34AC2C4E29ADF693"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"橡胶\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "industrialforegoing:dryrubber"
+								}
+								{
+									Count: 1b
+									id: "thermal:cured_rubber"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "industrialforegoing:dryrubber"
-							}
-							{
-								Count: 1b
-								id: "thermal:cured_rubber"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -4.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6780823D40C32AF6"]
 			id: "4449A55411128335"
-			tasks: [{
-				id: "2284D8497BCF1B47"
-				item: "industrialforegoing:plastic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2284D8497BCF1B47"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 6.5d
 		}
@@ -169,19 +206,26 @@
 				"4449A55411128335"
 			]
 			description: [
-				"The &eSewage Composter&r processes &cSewage&r into &aFertilizer&r."
+				"&e&a污水堆肥机&f&r能将&c污水&r转化为&a肥料&r."
 				""
-				"Provide it with &cSewage&r, which can be collected from animal farms using &eSewage Collectors&r, to produce &aFertilizer&r for crops."
+				"通过&e污水收集器&r从动物农场收集&c污水&r并输入机器,即可生产用于作物的&a肥料&r."
+				""
+				""
+				"&7[The Sewage Composter processes Sewage into Fertilizer.]&f"
+				""
+				"&7[Provide it with Sewage, which can be collected from animal farms using Sewage Collectors, to produce Fertilizer for crops.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "0CF441CB162B62B2"
 			shape: "diamond"
-			tasks: [{
-				id: "0127E7AD6F3849B9"
-				item: "industrialforegoing:sewage_composter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0127E7AD6F3849B9"
+					item: "industrialforegoing:sewage_composter"
+					type: "item"
+				}
+			]
 			x: -5.75d
 			y: 4.0d
 		}
@@ -191,19 +235,26 @@
 				"4449A55411128335"
 			]
 			description: [
-				"The &cSpores Recreator&r is used to convert &anormal mushrooms&r into &bNether Wart&r."
+				"&c&a蘑菇孢子繁殖器&f&r用于将&a普通蘑菇&r转化为&b&a地狱疣&f&r."
 				""
-				"Simply provide it with &3Water&r and power, and it will process the &amushrooms&r into &bNether Wart&r."
+				"只需提供&3水&r和电力,即可将&a蘑菇&r加工成&b&a地狱疣&f&r."
+				""
+				""
+				"&7[The Spores Recreator is used to convert normal mushrooms into Nether Wart.]&f"
+				""
+				"&7[Simply provide it with Water and power, and it will process the mushrooms into Nether Wart.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "07BD1E5F77EE63CF"
 			shape: "diamond"
-			tasks: [{
-				id: "63D3434676889545"
-				item: "industrialforegoing:spores_recreator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63D3434676889545"
+					item: "industrialforegoing:spores_recreator"
+					type: "item"
+				}
+			]
 			x: -6.25d
 			y: 3.5d
 		}
@@ -213,19 +264,26 @@
 				"4449A55411128335"
 			]
 			description: [
-				"The &9Water Condensator&r generates &3Water&r by condensing moisture from the air."
+				"&9&a蓄水器&f&r通过冷凝空气中的水分生成&3水&r."
 				""
-				"Place it with empty tanks or pipes connected to collect the generated &3Water&r."
+				"连接空储罐或管道即可收集生成的&3水&r."
+				""
+				""
+				"&7[The Water Condensator generates Water by condensing moisture from the air.]&f"
+				""
+				"&7[Place it with empty tanks or pipes connected to collect the generated Water.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "21EE456F005D0343"
 			shape: "diamond"
-			tasks: [{
-				id: "5E0427A9D0B561BE"
-				item: "industrialforegoing:water_condensator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E0427A9D0B561BE"
+					item: "industrialforegoing:water_condensator"
+					type: "item"
+				}
+			]
 			x: -6.75d
 			y: 4.0d
 		}
@@ -235,150 +293,226 @@
 				"4449A55411128335"
 			]
 			description: [
-				"The &dDye Mixer&r combines different dyes to create new colors."
+				"&d&a颜料调色器&f&r通过混合不同染料生成新颜色."
 				""
-				"Place &adyes&r in the input slots, and the &dDye Mixer&r will produce the desired color."
+				"将&a染料&r放入输入槽,机器便会产出目标颜色."
 				""
-				"Ensure it has &dpower&r and the necessary &adyes&r for operation."
+				"需确保供应&d电力&r和必要的&a染料&r方可运作."
+				""
+				""
+				"&7[The Dye Mixer combines different dyes to create new colors.]&f"
+				""
+				"&7[Place dyes in the input slots, and the Dye Mixer will produce the desired color.]&f"
+				""
+				"&7[Ensure it has power and the necessary dyes for operation.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5960F7B3CA809280"
 			shape: "diamond"
-			tasks: [{
-				id: "5A13CBAAE7173DA7"
-				item: "industrialforegoing:dye_mixer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A13CBAAE7173DA7"
+					item: "industrialforegoing:dye_mixer"
+					type: "item"
+				}
+			]
 			x: -6.25d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &bBlock Breaker&r breaks blocks in front of it."
+				"&b方块破坏器&f&r可破坏其前方的方块."
 				""
-				"Provide it with &dpower&r, and it will continuously break &ablocks&r, dropping the &aitems&r for collection."
+				"通入&d电力&r后将持续破坏&a方块&r,并掉落可供收集的&a物品&r."
 				""
-				"Ideal for &dautomated mining operations&r."
+				"适用于&d自动化采矿作业&r."
+				""
+				""
+				"&7[The Block Breaker breaks blocks in front of it.]&f"
+				""
+				"&7[Provide it with power, and it will continuously break blocks, dropping the items for collection.]&f"
+				""
+				"&7[Ideal for automated mining operations.]&f"
 			]
 			id: "09230E15B7C02F85"
-			tasks: [{
-				id: "48657DF892D6F557"
-				item: "industrialforegoing:block_breaker"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48657DF892D6F557"
+					item: "industrialforegoing:block_breaker"
+					type: "item"
+				}
+			]
 			x: -5.75d
 			y: 5.75d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &eBlock Placer&r automatically places blocks in front of it."
+				"&e方块放置器&f&r可自动在其前方放置方块."
 				""
-				"Provide it with &ablocks&r and &dpower&r, and it will place the &ablocks&r as specified."
+				"提供&a方块&r和&d电力&r后,将按设定放置&a方块&r."
 				""
-				"Useful for &dautomated building&r and &afarming setups&r."
+				"适用于&d自动化建筑&r和&a农业设施搭建&r."
+				""
+				""
+				"&7[The Block Placer automatically places blocks in front of it.]&f"
+				""
+				"&7[Provide it with blocks and power, and it will place the blocks as specified.]&f"
+				""
+				"&7[Useful for automated building and farming setups.]&f"
 			]
 			id: "493BCE6F7191D267"
-			tasks: [{
-				id: "00730B446BA878AC"
-				item: "industrialforegoing:block_placer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00730B446BA878AC"
+					item: "industrialforegoing:block_placer"
+					type: "item"
+				}
+			]
 			x: -5.25d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &bPlant Gatherer&r automates the harvesting of &acrops&r."
+				"&b&a收割机&f&r实现&a作物&r自动化收割."
 				""
-				"Place it in front of the crops and provide it with &dpower&r."
+				"放置于作物前方并通入&d电力&r."
 				""
-				"It will harvest fully grown &acrops&r and collect the &ayield&r for easy access."
+				"将收割成熟的&a作物&r并收集&a产出物&r以便获取."
+				""
+				""
+				"&7[The Plant Gatherer automates the harvesting of crops.]&f"
+				""
+				"&7[Place it in front of the crops and provide it with power.]&f"
+				""
+				"&7[It will harvest fully grown crops and collect the yield for easy access.]&f"
 			]
 			hide_dependency_lines: true
 			id: "314068155E263985"
 			shape: "diamond"
-			tasks: [{
-				id: "08E50EB42BADF128"
-				item: "industrialforegoing:plant_gatherer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08E50EB42BADF128"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &dPlant Sower&r automates the planting of &aseeds&r."
+				"&d&a播种机&f&r实现&a种子&r自动化种植."
 				""
-				"Place it beneath the farming area and provide it with &aseeds&r and &dpower&r."
+				"放置于耕种区域下方,提供&a种子&r和&d电力&r."
 				""
-				"It will plant the &aseeds&r in the configured area, ensuring a constant supply of crops."
+				"将在设定区域种植&a种子&r,确保持续的作物供应."
+				""
+				""
+				"&7[The Plant Sower automates the planting of seeds.]&f"
+				""
+				"&7[Place it beneath the farming area and provide it with seeds and power.]&f"
+				""
+				"&7[It will plant the seeds in the configured area, ensuring a constant supply of crops.]&f"
 			]
 			hide_dependency_lines: true
 			id: "0805FE8036EB6655"
 			shape: "diamond"
-			tasks: [{
-				id: "3B5358D5875B94D5"
-				item: "industrialforegoing:plant_sower"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B5358D5875B94D5"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &dFluid Placer&r places fluids in the world."
+				"&d&a流体成型器&f&r可将流体放置到世界中."
 				""
-				"Provide it with &afluids&r and &dpower&r, and it will place the &afluids&r in front of it."
+				"通入&a流体&r和&d电力&r后,将在其前方放置&a流体&r."
 				""
-				"Useful for creating &dautomated fluid setups&r."
+				"适用于创建&d自动化流体系统&r."
+				""
+				""
+				"&7[The Fluid Placer places fluids in the world.]&f"
+				""
+				"&7[Provide it with fluids and power, and it will place the fluids in front of it.]&f"
+				""
+				"&7[Useful for creating automated fluid setups.]&f"
 			]
 			id: "71A9A81DAD843B88"
-			tasks: [{
-				id: "31FB808700810BD7"
-				item: "industrialforegoing:fluid_placer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31FB808700810BD7"
+					item: "industrialforegoing:fluid_placer"
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &dFluid Collector&r collects fluids from the world."
+				"&d&a流体吸收器&f&r可从世界中收集流体."
 				""
-				"Place it near a &afluid source&r, and it will automatically collect the &afluid&r into its internal tank or connected tanks."
+				"将其放置在&a流体源&r附近,它会自动将&a流体&r收集到内部储罐或连接的储罐中."
 				""
-				"Ensure it has &dpower&r and proper &afluid storage&r."
+				"确保它有&d电力&r供应和适当的&a流体存储&r空间."
+				""
+				""
+				"&7[The Fluid Collector collects fluids from the world.]&f"
+				""
+				"&7[Place it near a fluid source, and it will automatically collect the fluid into its internal tank or connected tanks.]&f"
+				""
+				"&7[Ensure it has power and proper fluid storage.]&f"
 			]
 			id: "6C93B82EEA152199"
-			tasks: [{
-				id: "58CC454F29E58679"
-				item: "industrialforegoing:fluid_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58CC454F29E58679"
+					item: "industrialforegoing:fluid_collector"
+					type: "item"
+				}
+			]
 			x: -5.25d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &cAnimal Feeder&r automatically feeds &aanimals&r."
+				"&c&a饲育机&f&r可自动喂养&a动物&r."
 				""
-				"Place it in front of animals and provide it with &dfeed&r."
+				"将其放置在动物面前并提供&d饲料&r."
 				""
-				"The &eAnimal Rancher&r collects resources from &aanimals&r."
+				"&e&a动物资源收获机&f&r从&a动物&r身上收集资源."
 				""
-				"Place it near animals to collect &aresources&r like milk, wool, or eggs."
+				"将其放置在动物附近以收集如牛奶、羊毛或蛋等&a资源&r."
 				""
-				"The &bAnimal Baby Separator&r separates &ababy animals&r from adults."
+				"&b&a幼仔分管机&f&r将&a幼年动物&r与成年动物分开."
 				""
-				"Place it in the breeding area to automatically separate &ababy animals&r."
+				"将其放置在繁殖区域以自动分离&a幼年动物&r."
+				""
+				""
+				"&7[The Animal Feeder automatically feeds animals.]&f"
+				""
+				"&7[Place it in front of animals and provide it with feed.]&f"
+				""
+				"&7[The Animal Rancher collects resources from animals.]&f"
+				""
+				"&7[Place it near animals to collect resources like milk, wool, or eggs.]&f"
+				""
+				"&7[The Animal Baby Separator separates baby animals from adults.]&f"
+				""
+				"&7[Place it in the breeding area to automatically separate baby animals.]&f"
 			]
 			id: "0608B33CBA0EDBF3"
 			tasks: [
@@ -404,36 +538,54 @@
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &bBioreactor&r converts &aorganic materials&r into &dpower&r."
+				"&b生物反应器&r将&a有机材料&r转化为&d电力&r."
 				""
-				"Insert a variety of &aorganic items&r into its input slots."
+				"将各种&a有机物品&r放入其输入槽中."
 				""
-				"The more diverse the items, the more &dpower&r it generates."
+				"物品&a多样性&f越高,产生的&d电力&r越多."
+				""
+				""
+				"&7[The Bioreactor converts organic materials into power.]&f"
+				""
+				"&7[Insert a variety of organic items into its input slots.]&f"
+				""
+				"&7[The more diverse the items, the more power it generates.]&f"
 			]
 			id: "5706B73C528F473B"
-			tasks: [{
-				id: "66AE3A23AB254A20"
-				item: "industrialforegoing:bioreactor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66AE3A23AB254A20"
+					item: "industrialforegoing:bioreactor"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &dDissolution Chamber&r is used to craft advanced items and machines."
+				"&d&a化学溶解室&f&r用于制作高级物品和机器."
 				""
-				"Place the required &aresources&r into the chamber's slots, and ensure it has &dpower&r."
+				"将所需&a资源&r放入反应室的槽中,并确保有&d电力&r供应."
 				""
-				"It will process the resources and produce the desired &aoutput&r."
+				"它将处理资源并产生所需的&a产物&r."
+				""
+				""
+				"&7[The Dissolution Chamber is used to craft advanced items and machines.]&f"
+				""
+				"&7[Place the required resources into the chamber's slots, and ensure it has power.]&f"
+				""
+				"&7[It will process the resources and produce the desired output.]&f"
 			]
 			id: "1A36CF372E3E1B09"
-			tasks: [{
-				id: "35D59D213ACF690E"
-				item: "industrialforegoing:dissolution_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35D59D213ACF690E"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 9.25d
 		}
@@ -443,53 +595,80 @@
 				"0805FE8036EB6655"
 			]
 			description: [
-				"The &dSludge Bucket&r contains &dSludge&r collected from machines like the &bPlant Gatherer&r."
+				"&d&a污泥桶&f&r装有从如&b&a收割机&f&r等机器收集的&d污泥&r."
 				""
-				"It can be processed in a &bSludge Refiner&r to obtain useful &amaterials&r."
+				"可在&b&a污泥精炼机&f&r中处理以获得有用的&a材料&r."
+				""
+				""
+				"&7[The Sludge Bucket contains Sludge collected from machines like the Plant Gatherer.]&f"
+				""
+				"&7[It can be processed in a Sludge Refiner to obtain useful materials.]&f"
 			]
 			hide_dependency_lines: true
 			id: "11B642D71326CB26"
 			shape: "diamond"
-			tasks: [{
-				id: "153CBC9B590DEBA1"
-				item: "industrialforegoing:sludge_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "153CBC9B590DEBA1"
+					item: "industrialforegoing:sludge_bucket"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 4.0d
 		}
 		{
 			dependencies: ["11B642D71326CB26"]
 			description: [
-				"The &bSkudge Refiner&r processes &dSludge&r into useful &amaterials&r."
+				"&b污泥精炼机&r将&d污泥&r加工成有用的&a材料&r."
 				""
-				"Place it near a &dSludge source&r and provide it with &dpower&r."
+				"将其放置在&d污泥源&r附近并提供&d电力&r."
 				""
-				"It will convert the &dSludge&r into valuable &amaterials&r like &dClay&r, &aSand&r, and &bDirt&r."
+				"它将把&d污泥&r转化为有价值的&a材料&r,如&d粘土&r、&a沙子&r和&b泥土&r."
+				""
+				""
+				"&7[The Skudge Refiner processes Sludge into useful materials.]&f"
+				""
+				"&7[Place it near a Sludge source and provide it with power.]&f"
+				""
+				"&7[It will convert the Sludge into valuable materials like Clay, Sand, and Dirt.]&f"
 			]
 			hide_dependency_lines: true
 			id: "2E8B0B59ACD1F35B"
 			shape: "diamond"
-			tasks: [{
-				id: "030341F70F1C71B0"
-				item: "industrialforegoing:sludge_refiner"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "030341F70F1C71B0"
+					item: "industrialforegoing:sludge_refiner"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1A36CF372E3E1B09"]
 			description: [
-				"Addons enhance machine performance."
+				"附加组件可提升机器性能."
 				""
-				"&bSpeed Addons&r increase processing speed."
+				"&b速度附加组件&r提高处理速度."
 				""
-				"&cEfficiency Addons&r reduce power consumption."
+				"&c&a效率&f附加组件&r降低能耗."
 				""
-				"&9Range Addons&r expand the working area of machines."
+				"&9范围附加组件&r扩大机器的工作区域."
 				""
-				"Install addons by right-clicking the machine with the addon in hand."
+				"手持附加组件右键点击机器以安装."
+				""
+				""
+				"&7[Addons enhance machine performance.]&f"
+				""
+				"&7[Speed Addons increase processing speed.]&f"
+				""
+				"&7[Efficiency Addons reduce power consumption.]&f"
+				""
+				"&7[Range Addons expand the working area of machines.]&f"
+				""
+				"&7[Install addons by right-clicking the machine with the addon in hand.]&f"
 			]
 			icon: {
 				Count: 1
@@ -501,60 +680,82 @@
 				}
 			}
 			id: "753775F80FFD5B2C"
-			tasks: [{
-				id: "29F2C5F2A91CC581"
-				title: "Addons"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "29F2C5F2A91CC581"
+					title: "附加组件"
+					type: "checkmark"
+				}
+			]
 			x: -4.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1A36CF372E3E1B09"]
 			id: "41EEB789EC425194"
-			tasks: [{
-				id: "346695CC9038FA08"
-				item: "industrialforegoing:pink_slime"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "346695CC9038FA08"
+					item: "industrialforegoing:pink_slime"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["0608B33CBA0EDBF3"]
 			description: [
-				"The &dMob Slaughter Factory&r kills &amobs&r and collects &aLiquid Meat&r and &aPink Slime&r."
+				"&d&a屠宰场&f&r杀死&a生物&r并收集&a&a肉汤&f&r和&a&a粉红史莱姆&f&r."
 				""
-				"Provide it with &dpower&r and place it in an area with &amobs&r."
+				"提供&d电力&r并将其放置在有&a生物&r的区域."
 				""
-				"It will automatically kill the &amobs&r and collect their &aresources&r."
+				"它将自动杀死&a生物&r并收集它们的&a资源&r."
+				""
+				""
+				"&7[The Mob Slaughter Factory kills mobs and collects Liquid Meat and Pink Slime.]&f"
+				""
+				"&7[Provide it with power and place it in an area with mobs.]&f"
+				""
+				"&7[It will automatically kill the mobs and collect their resources.]&f"
 			]
 			id: "6F864188C6FD3638"
 			shape: "diamond"
-			tasks: [{
-				id: "0B6498CF3FD53225"
-				item: "industrialforegoing:mob_slaughter_factory"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B6498CF3FD53225"
+					item: "industrialforegoing:mob_slaughter_factory"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["6F864188C6FD3638"]
 			description: [
-				"The &dMeat Feeder&r automatically feeds the player with &aLiquid Meat&r."
+				"&d&a肉汤注射器&f&r自动用&a&a肉汤&f&r喂养玩家."
 				""
-				"Fill it with &aLiquid Meat&r and keep it in your inventory."
+				"将其装满&a&a肉汤&f&r并保持在物品栏中."
 				""
-				"It will automatically consume &aLiquid Meat&r to keep you &afeeding&r."
+				"它将自动消耗&a&a肉汤&f&r以保持你&a饱食&r."
+				""
+				""
+				"&7[The Meat Feeder automatically feeds the player with Liquid Meat.]&f"
+				""
+				"&7[Fill it with Liquid Meat and keep it in your inventory.]&f"
+				""
+				"&7[It will automatically consume Liquid Meat to keep you feeding.]&f"
 			]
 			id: "2FED203901B58547"
 			shape: "diamond"
-			tasks: [{
-				id: "7D0978903A9EF32D"
-				item: "industrialforegoing:meat_feeder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7D0978903A9EF32D"
+					item: "industrialforegoing:meat_feeder"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 8.5d
 		}
@@ -562,30 +763,41 @@
 			dependencies: ["6F864188C6FD3638"]
 			id: "6AD48DE3128C9F59"
 			shape: "diamond"
-			tasks: [{
-				id: "47FAA1CAD402608A"
-				item: "industrialforegoing:meat_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "47FAA1CAD402608A"
+					item: "industrialforegoing:meat_bucket"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["6F864188C6FD3638"]
 			description: [
-				"The &bMechanical Dirt&r spawns &amobs&r when provided with &aLiquid Meat&r and &dpower&r."
+				"&b&a机械诅咒之土&f&r在提供&a&a肉汤&f&r和&d电力&r时生成&a生物&r."
 				""
-				"Place it in a suitable spawning area and connect it to a &aLiquid Meat&r source."
+				"将其放置在合适的生成区域并连接到&a&a肉汤&f&r源."
 				""
-				"It will spawn &amobs&r for farming resources."
+				"它将生成&a生物&r以获取资源."
+				""
+				""
+				"&7[The Mechanical Dirt spawns mobs when provided with Liquid Meat and power.]&f"
+				""
+				"&7[Place it in a suitable spawning area and connect it to a Liquid Meat source.]&f"
+				""
+				"&7[It will spawn mobs for farming resources.]&f"
 			]
 			id: "2FD77E58D9FF8877"
 			shape: "diamond"
-			tasks: [{
-				id: "336DC76A02148DA2"
-				item: "industrialforegoing:mechanical_dirt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "336DC76A02148DA2"
+					item: "industrialforegoing:mechanical_dirt"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 5.5d
 		}
@@ -596,42 +808,55 @@
 				"12D9FABF6FA2AAEF"
 			]
 			description: [
-				"The &dWashing Factory&r cleans &aitems&r and &amaterials&r."
+				"&d&a洗矿厂&f&r清洁&a物品&r和&a材料&r."
 				""
-				"Provide it with &aWater&r and &dpower&r."
+				"提供&a水&r和&d电力&r."
 				""
-				"It removes &aimpurities&r from ores and other materials, improving their quality and yield."
+				"它去除矿石和其他材料中的&a杂质&r,提高其质量和产量."
+				""
+				""
+				"&7[The Washing Factory cleans items and materials.]&f"
+				""
+				"&7[Provide it with Water and power.]&f"
+				""
+				"&7[It removes impurities from ores and other materials, improving their quality and yield.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3C59084FEF875C41"
-			tasks: [{
-				id: "4EF9D0E13C643754"
-				item: "industrialforegoing:washing_factory"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4EF9D0E13C643754"
+					item: "industrialforegoing:washing_factory"
+					type: "item"
+				}
+			]
 			x: 1.75d
 			y: 7.5d
 		}
 		{
 			dependencies: ["6F864188C6FD3638"]
 			id: "00C159AC4289AB73"
-			tasks: [{
-				id: "40FEF9FC3766BB4C"
-				item: "industrialforegoing:pink_slime_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "40FEF9FC3766BB4C"
+					item: "industrialforegoing:pink_slime_bucket"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["00C159AC4289AB73"]
 			id: "12D9FABF6FA2AAEF"
-			tasks: [{
-				id: "4B5636C22055148A"
-				item: "industrialforegoing:pink_slime_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4B5636C22055148A"
+					item: "industrialforegoing:pink_slime_ingot"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 7.25d
 		}
@@ -641,544 +866,766 @@
 				"115CF270C8DA00B6"
 			]
 			id: "31C77BA11EF2B61C"
-			tasks: [{
-				id: "25E431FE3E7FEBFC"
-				item: "industrialforegoing:machine_frame_advanced"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25E431FE3E7FEBFC"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0DD9575CCAD78266"]
 			description: [
-				"The &bItem Transporter&r moves &aitems&r between machines and storage units."
+				"&b物品传送器&r在机器和存储单元之间移动&a物品&r."
 				""
-				"Connect it to an &aitem source&r and a &destination&r."
+				"将其连接到&a物品源&r和&a目的地&r."
 				""
-				"It ensures efficient item movement, supporting various automation setups."
+				"它确保高效的物品流动,支持各种自动化设置."
+				""
+				""
+				"&7[The Item Transporter moves items between machines and storage units.]&f"
+				""
+				"&7[Connect it to an item source and a estination.]&f"
+				""
+				"&7[It ensures efficient item movement, supporting various automation setups.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1796CD7D8F3612C1"
 			shape: "diamond"
-			tasks: [{
-				count: 2L
-				id: "1B643E0E7E2BFADF"
-				item: "industrialforegoing:item_transporter_type"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1B643E0E7E2BFADF"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0DD9575CCAD78266"]
 			description: [
-				"The &dFluid Transporter&r moves &afluids&r between machines and storage tanks."
+				"&d&a流体传送器&f&r在机器和储罐之间移动&a流体&r."
 				""
-				"Connect it to a &afluid source&r and a &adestination&r."
+				"将其连接到&a流体源&r和&a目的地&r."
 				""
-				"It ensures efficient fluid movement, supporting various automation setups."
+				"它确保高效的流体流动,支持各种自动化设置."
+				""
+				""
+				"&7[The Fluid Transporter moves fluids between machines and storage tanks.]&f"
+				""
+				"&7[Connect it to a fluid source and a destination.]&f"
+				""
+				"&7[It ensures efficient fluid movement, supporting various automation setups.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4FF8483C1DD019BE"
 			shape: "diamond"
-			tasks: [{
-				count: 2L
-				id: "7E75798698531321"
-				item: { Count: 2, id: "industrialforegoing:fluid_transporter_type" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7E75798698531321"
+					item: {
+						Count: 2
+						id: "industrialforegoing:fluid_transporter_type"
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0DD9575CCAD78266"]
 			description: [
-				"The &eWorld Transporter&r moves entire &ablocks&r and &amachines&r."
+				"&e&a世界传送器&f&r可整体移动&a方块&r和&a机器&r."
 				""
-				"Use it to transport complex setups from one location to another without dismantling them."
+				"无需拆卸即可将复杂装置从一个位置传输到另一个位置."
 				""
-				"It simplifies large-scale relocations and reorganizations."
+				"极大简化大规模搬迁与重组工作."
+				""
+				""
+				"&7[The World Transporter moves entire blocks and machines.]&f"
+				""
+				"&7[Use it to transport complex setups from one location to another without dismantling them.]&f"
+				""
+				"&7[It simplifies large-scale relocations and reorganizations.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "72AE2A8DC19D3A5B"
 			shape: "diamond"
-			tasks: [{
-				count: 2L
-				id: "47C9D8CEC08B65F9"
-				item: { Count: 2, id: "industrialforegoing:world_transporter_type" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "47C9D8CEC08B65F9"
+					item: {
+						Count: 2
+						id: "industrialforegoing:world_transporter_type"
+					}
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0DD9575CCAD78266"]
 			description: [
-				"The &dPitiful Generator&r generates &dpower&r from &acombustible items&r."
+				"&d&a木质燃料发电机&f&r通过&a可燃物&r产生&d电力&r."
 				""
-				"Place it with &acombustible fuel&r like &bCoal&r or &aWood&r."
+				"放入&b煤炭&r或&a木材&r等&a可燃燃料&r即可运作."
 				""
-				"It provides a steady supply of &dpower&r for early-stage automation."
+				"为早期自动化提供稳定的&d电力&r供应."
+				""
+				""
+				"&7[The Pitiful Generator generates power from combustible items.]&f"
+				""
+				"&7[Place it with combustible fuel like Coal or Wood.]&f"
+				""
+				"&7[It provides a steady supply of power for early-stage automation.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "0615933CCBB5411E"
 			shape: "diamond"
-			tasks: [{
-				id: "641D2F8ED44EB410"
-				item: "industrialforegoing:pitiful_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "641D2F8ED44EB410"
+					item: "industrialforegoing:pitiful_generator"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4449A55411128335"]
 			description: [
-				"The &cMob Imprisonment Tool&r captures and releases mobs."
+				"&c&a生物捕捉工具&f&r用于捕获和释放生物."
 				""
-				"&bRight-click&r on a &dmob&r to capture it, and &bRight-click&r again to release it."
+				"对&d生物&r&b右键点击&r捕获,再次&b右键点击&r即可释放."
 				""
-				"Useful for transporting &dmobs&r without the need for &aleads&r or &aminecarts&r."
+				"无需借助&a牵引绳&r或&a矿车&r即可运输&d生物&r."
+				""
+				""
+				"&7[The Mob Imprisonment Tool captures and releases mobs.]&f"
+				""
+				"&7[Right-click on a mob to capture it, and Right-click again to release it.]&f"
+				""
+				"&7[Useful for transporting mobs without the need for leads or minecarts.]&f"
 			]
 			id: "4C73A3B0E4396B29"
-			tasks: [{
-				id: "4851EDD6D0264F0B"
-				item: "industrialforegoing:mob_imprisonment_tool"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4851EDD6D0264F0B"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+			]
 			x: -5.75d
 			y: 7.0d
 		}
 		{
 			dependencies: ["0DD9575CCAD78266"]
 			id: "115CF270C8DA00B6"
-			tasks: [{
-				id: "26B8E528800E7206"
-				item: "industrialforegoing:machine_frame_simple"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26B8E528800E7206"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 2.25d
 		}
 		{
 			dependencies: ["115CF270C8DA00B6"]
 			description: [
-				"The &bMob Detector&r detects nearby &amobs&r and sends a &dredstone signal&r."
+				"&b&a生物探测器&f&r能探测附近&a生物&r并发出&d红石信号&r."
 				""
-				"Place it in areas where you need to monitor &amob activity&r."
+				"放置于需要监测&a生物活动&r的区域."
 				""
-				"It can trigger alarms or automated defenses when &amobs&r are detected."
+				"检测到&a生物&r时可触发警报或自动防御系统."
+				""
+				""
+				"&7[The Mob Detector detects nearby mobs and sends a redstone signal.]&f"
+				""
+				"&7[Place it in areas where you need to monitor mob activity.]&f"
+				""
+				"&7[It can trigger alarms or automated defenses when mobs are detected.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "18FCB1DAD9572A00"
 			shape: "diamond"
-			tasks: [{
-				id: "6D22A9E3D836399A"
-				item: "industrialforegoing:mob_detector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D22A9E3D836399A"
+					item: "industrialforegoing:mob_detector"
+					type: "item"
+				}
+			]
 			x: 3.25d
 			y: 4.5d
 		}
 		{
 			dependencies: ["115CF270C8DA00B6"]
 			description: [
-				"The &dFermentation Station&r converts &aorganic materials&r into &aEthanol&r."
+				"&d&a发酵站&f&r可将&a有机材料&r转化为&a乙醇&r."
 				""
-				"Place &aorganic items&r into the input slots and provide it with &dpower&r."
+				"在输入槽放入&a有机物品&r并供应&d电力&r即可运作."
 				""
-				"It produces &aEthanol&r, which can be used as fuel or in crafting recipes."
+				"产出的&a乙醇&r可作为燃料或合成配方原料."
+				""
+				""
+				"&7[The Fermentation Station converts organic materials into Ethanol.]&f"
+				""
+				"&7[Place organic items into the input slots and provide it with power.]&f"
+				""
+				"&7[It produces Ethanol, which can be used as fuel or in crafting recipes.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1002F4E426C36598"
 			shape: "diamond"
-			tasks: [{
-				id: "629C209E6083BE49"
-				item: "industrialforegoing:fermentation_station"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "629C209E6083BE49"
+					item: "industrialforegoing:fermentation_station"
+					type: "item"
+				}
+			]
 			x: 3.25d
 			y: 3.5d
 		}
 		{
 			dependencies: ["115CF270C8DA00B6"]
 			description: [
-				"The &bPlant Fertilizer&r automates the application of &afertilizer&r to crops."
+				"&b&a施肥机&f&r能自动为作物施加&a肥料&r."
 				""
-				"Place it near the farming area and provide it with &afertilizer&r and &dpower&r."
+				"放置于农田附近,提供&a肥料&r和&d电力&r即可运作."
 				""
-				"It boosts crop growth rates, ensuring faster harvests."
+				"可提升作物&a生长速度&f,确保更快收获."
+				""
+				""
+				"&7[The Plant Fertilizer automates the application of fertilizer to crops.]&f"
+				""
+				"&7[Place it near the farming area and provide it with fertilizer and power.]&f"
+				""
+				"&7[It boosts crop growth rates, ensuring faster harvests.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7E337ADD6A9E2516"
 			shape: "diamond"
-			tasks: [{
-				id: "016C083B7492A4AE"
-				item: "industrialforegoing:plant_fertilizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "016C083B7492A4AE"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+			]
 			x: 2.75d
 			y: 4.0d
 		}
 		{
 			dependencies: ["115CF270C8DA00B6"]
 			description: [
-				"The &bMarine Fisher&r automates &afishing&r."
+				"&b&a钓鱼机&f&r可实现&a钓鱼&r自动化."
 				""
-				"Place it in a body of &awater&r and provide it with &dpower&r."
+				"放置于&a水域&r中并供应&d电力&r即可运作."
 				""
-				"It will catch &afish&r and other aquatic items, collecting them for easy access."
+				"自动捕捉&a鱼类&r及其他水生生物,方便收集."
+				""
+				""
+				"&7[The Marine Fisher automates fishing.]&f"
+				""
+				"&7[Place it in a body of water and provide it with power.]&f"
+				""
+				"&7[It will catch fish and other aquatic items, collecting them for easy access.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1F24D9BBA0E58F57"
 			shape: "diamond"
-			tasks: [{
-				id: "47177F319A8F18D4"
-				item: "industrialforegoing:marine_fisher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "47177F319A8F18D4"
+					item: "industrialforegoing:marine_fisher"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: 3.5d
 		}
 		{
 			dependencies: ["115CF270C8DA00B6"]
 			description: [
-				"The &dHydroponic Bed&r grows &acrops&r using &aNutrient Solution&r instead of soil."
+				"&d&a水培床&f&r使用&a&a营养液&f&r而非土壤种植&a作物&r."
 				""
-				"Provide it with &aNutrient Solution&r and &dpower&r."
+				"供应&a&a营养液&f&r和&d电力&r即可运作."
 				""
-				"It ensures rapid and efficient crop growth, ideal for high-yield farming."
+				"确保作物快速高效生长,是实现高产量农耕的理想选择."
+				""
+				""
+				"&7[The Hydroponic Bed grows crops using Nutrient Solution instead of soil.]&f"
+				""
+				"&7[Provide it with Nutrient Solution and power.]&f"
+				""
+				"&7[It ensures rapid and efficient crop growth, ideal for high-yield farming.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3A984DEC00459804"
 			shape: "diamond"
-			tasks: [{
-				id: "24788A8507A43514"
-				item: "industrialforegoing:hydroponic_bed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24788A8507A43514"
+					item: "industrialforegoing:hydroponic_bed"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: 4.5d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &bStasis Chamber&r is used to immobilize &amobs&r and &aplayers&r within its range."
+				"&b&a冷凝室&f&r可禁锢范围内的&a生物&r和&a玩家&r."
 				""
-				"Place the &bStasis Chamber&r in a desired location and provide it with &dpower&r."
+				"将&b&a冷凝室&f&r置于目标位置并供应&d电力&r."
 				""
-				"It creates a field that &fparalyzes&r any &amob&r or &aplayer&r within its radius, making it useful for &dcontainment&r or &dmob farming setups&r."
+				"生成能使范围内&a生物&r或&a玩家&r&f瘫痪&r的力场,适用于&d禁锢&r或&d生物农场建设&r."
+				""
+				""
+				"&7[The Stasis Chamber is used to immobilize mobs and players within its range.]&f"
+				""
+				"&7[Place the Stasis Chamber in a desired location and provide it with power.]&f"
+				""
+				"&7[It creates a field that paralyzes any mob or player within its radius, making it useful for containment or mob farming setups.]&f"
 			]
 			id: "072DC5776151764D"
-			tasks: [{
-				id: "75426BF52F602FF1"
-				item: "industrialforegoing:stasis_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "75426BF52F602FF1"
+					item: "industrialforegoing:stasis_chamber"
+					type: "item"
+				}
+			]
 			x: 3.25d
 			y: 5.75d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &eMaterial StoneWork Factory&r is an all-in-one machine for processing &astone materials&r."
+				"&e&a造石加工机&f&r是处理&a石材&r的多功能一体机."
 				""
-				"Provide it with &dpower&r, &aWater&r, and &dLava&r."
+				"需供应&d电力&r、&a水&r和&d岩浆&r."
 				""
-				"It can perform tasks such as &acrushing, cutting, grinding&r, and &asmelting&r to produce various &astone-based materials&r."
+				"可执行&a破碎、切割、研磨&r及&a熔炼&r等操作,生产各种&a石材制品&r."
 				""
-				"Configure the &eMaterial StoneWork Factory&r through its interface to select the desired processes and outputs."
+				"通过界面配置&e&a造石加工机&f&r可选择加工流程和产出物."
+				""
+				""
+				"&7[The Material StoneWork Factory is an all-in-one machine for processing stone materials.]&f"
+				""
+				"&7[Provide it with power, Water, and Lava.]&f"
+				""
+				"&7[It can perform tasks such as crushing, cutting, grinding, and smelting to produce various stone-based materials.]&f"
+				""
+				"&7[Configure the Material StoneWork Factory through its interface to select the desired processes and outputs.]&f"
 			]
 			id: "012148BBA9DA43A0"
-			tasks: [{
-				id: "7FDF97AA39023E8E"
-				item: "industrialforegoing:material_stonework_factory"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FDF97AA39023E8E"
+					item: "industrialforegoing:material_stonework_factory"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 5.25d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &eFluid Sieving Machine&r processes &afluids&r to extract valuable &amaterials&r."
+				"&e&a流体筛分机&f&r通过处理&a流体&r提取珍贵&a材料&r."
 				""
-				"Provide it with &dpower&r and the specific &afluid&r you want to sieve."
+				"供应&d电力&r并注入待筛分的特定&a流体&r."
 				""
-				"The &eFluid Sieving Machine&r will separate the &afluid&r into its components, producing useful &amaterials&r as output."
+				"将&a流体&r分离为不同组分,产出有用&a材料&r."
+				""
+				""
+				"&7[The Fluid Sieving Machine processes fluids to extract valuable materials.]&f"
+				""
+				"&7[Provide it with power and the specific fluid you want to sieve.]&f"
+				""
+				"&7[The Fluid Sieving Machine will separate the fluid into its components, producing useful materials as output.]&f"
 			]
 			id: "0C6D669301F8655A"
-			tasks: [{
-				id: "5160441565411AD7"
-				item: "industrialforegoing:fluid_sieving_machine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5160441565411AD7"
+					item: "industrialforegoing:fluid_sieving_machine"
+					type: "item"
+				}
+			]
 			x: 5.75d
 			y: 7.25d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &bPotion Brewer&r automates the brewing of &apotions&r."
+				"&b&a自动炼药机&f&r可实现&a酿造&f&a药水&r的自动化."
 				""
-				"Provide it with &dWater Bottles&r, &aBrewing Ingredients&r, and &dpower&r."
+				"需提供&d&a水瓶&f&r、&a酿造原料&r和&d电力&r."
 				""
-				"The &bPotion Brewer&r will follow the standard brewing process to create &apotions&r."
+				"遵循标准&a酿造&f流程制作&a药水&r."
 				""
-				"Configure it to brew specific &apotions&r by placing the ingredients in the correct order."
+				"按正确顺序放置原料可配置酿造特定&a药水&r."
+				""
+				""
+				"&7[The Potion Brewer automates the brewing of potions.]&f"
+				""
+				"&7[Provide it with Water Bottles, Brewing Ingredients, and power.]&f"
+				""
+				"&7[The Potion Brewer will follow the standard brewing process to create potions.]&f"
+				""
+				"&7[Configure it to brew specific potions by placing the ingredients in the correct order.]&f"
 			]
 			id: "3CE5A863271DF6D2"
-			tasks: [{
-				id: "3863D548F15E8C46"
-				item: "industrialforegoing:potion_brewer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3863D548F15E8C46"
+					item: "industrialforegoing:potion_brewer"
+					type: "item"
+				}
+			]
 			x: 3.25d
 			y: 7.25d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &eEnchantment Applicator&r applies specific &aenchanted books&r to items."
+				"&e&a自动型铁砧&f&r可将特定的&a附魔书&r应用到物品上."
 				""
-				"Provide it with the &aitem&r to be enchanted, the &aenchanted book&r, and &dpower&r."
+				"请提供需要附魔的&a物品&r、&a附魔书&r以及&d能量&r."
 				""
-				"The &eEnchantment Applicator&r will transfer the enchantment from the book to the item, combining them if necessary."
+				"&e&a自动型铁砧&f&r会将附魔从书本转移至物品,必要时进行合并操作."
+				""
+				""
+				"&7[The Enchantment Applicator applies specific enchanted books to items.]&f"
+				""
+				"&7[Provide it with the item to be enchanted, the enchanted book, and power.]&f"
+				""
+				"&7[The Enchantment Applicator will transfer the enchantment from the book to the item, combining them if necessary.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1472CCB84AB8C6AC"
 			shape: "diamond"
-			tasks: [{
-				id: "4AE845808744CD04"
-				item: "industrialforegoing:enchantment_applicator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4AE845808744CD04"
+					item: "industrialforegoing:enchantment_applicator"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 9.25d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &bEnchantment Extractor&r removes &aenchantments&r from items and places them onto &abooks&r."
+				"&b&a附魔提取机&f&r可从物品中移除&a附魔&r并将其附着到&a书本&r上."
 				""
-				"Provide it with the &aenchanted item&r and &dbooks&r, and provide it with &dpower&r."
+				"请提供&a已附魔物品&r和&d书本&r,并为其供应&d能量&r."
 				""
-				"The &bEnchantment Extractor&r will extract the enchantments from the item and transfer them to the books, preserving the enchantments for future use."
+				"&b&a附魔提取机&f&r将提取物品中的附魔并转移至书本,便于后续使用这些附魔效果."
+				""
+				""
+				"&7[The Enchantment Extractor removes enchantments from items and places them onto books.]&f"
+				""
+				"&7[Provide it with the enchanted item and books, and provide it with power.]&f"
+				""
+				"&7[The Enchantment Extractor will extract the enchantments from the item and transfer them to the books, preserving the enchantments for future use.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "79421304E140F426"
 			shape: "diamond"
-			tasks: [{
-				id: "6BEC975433F9EDA4"
-				item: "industrialforegoing:enchantment_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6BEC975433F9EDA4"
+					item: "industrialforegoing:enchantment_extractor"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 8.75d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &dEnchantment Factory&r automates the enchanting process."
+				"&d&a自动附魔台&f&r实现了附魔流程自动化."
 				""
-				"Provide it with &abooks&r or &aitems&r to be enchanted, &aLapis Lazuli&r, and &dpower&r."
+				"请提供待附魔的&a书本&r或&a物品&r、&a&a青金石&f&r以及&d能量&r."
 				""
-				"The &dEnchantment Factory&r will apply random &aenchantments&r to the items, similar to an &aEnchanting Table&r."
+				"&d&a自动附魔台&f&r会像&a附魔台&r那样为物品随机添加&a附魔效果&r."
 				""
-				"Configure it to prioritize certain &aenchantments&r if desired."
+				"可根据需要配置优先附加特定&a附魔效果&r."
+				""
+				""
+				"&7[The Enchantment Factory automates the enchanting process.]&f"
+				""
+				"&7[Provide it with books or items to be enchanted, Lapis Lazuli, and power.]&f"
+				""
+				"&7[The Enchantment Factory will apply random enchantments to the items, similar to an Enchanting Table.]&f"
+				""
+				"&7[Configure it to prioritize certain enchantments if desired.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2033C1F285C61154"
 			shape: "diamond"
-			tasks: [{
-				id: "677C92C50132C03C"
-				item: "industrialforegoing:enchantment_factory"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "677C92C50132C03C"
+					item: "industrialforegoing:enchantment_factory"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 8.75d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &bEnchantment Sorter&r organizes &aenchanted items&r by their enchantments."
+				"&b附魔分类器&r能按附魔类型整理&a已附魔物品&r."
 				""
-				"Place the &aenchanted items&r into the input slots and provide it with &dpower&r."
+				"将&a已附魔物品&r放入输入槽并供应&d能量&r."
 				""
-				"The &bEnchantment Sorter&r will sort the items into different categories based on their &aenchantments&r, making it easier to manage and utilize them."
+				"&b附魔分类器&r会根据物品的&a附魔效果&r将其分门别类,方便管理使用."
+				""
+				""
+				"&7[The Enchantment Sorter organizes enchanted items by their enchantments.]&f"
+				""
+				"&7[Place the enchanted items into the input slots and provide it with power.]&f"
+				""
+				"&7[The Enchantment Sorter will sort the items into different categories based on their enchantments, making it easier to manage and utilize them.]&f"
 			]
 			id: "0FA2D721EFBA7DC0"
 			shape: "diamond"
-			tasks: [{
-				id: "023FC382CBC08787"
-				item: "industrialforegoing:enchantment_sorter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "023FC382CBC08787"
+					item: "industrialforegoing:enchantment_sorter"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 8.25d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &bMob Crusher&r is used to automatically kill &amobs&r and collect their drops."
+				"&b&a屠宰机&f&r用于自动击杀&a生物&r并收集掉落物."
 				""
-				"Place it facing the area where &amobs&r will spawn and provide it with &dpower&r."
+				"将其朝向生物生成区域并供应&d能量&r."
 				""
-				"The &bMob Crusher&r will kill any &amob&r in front of it and collect the &adropped items&r and &aLiquid Meat&r."
+				"&b&a屠宰机&f&r会消灭前方的所有&a生物&r,收集&a掉落物品&r和&a&a肉汤&f&r."
 				""
-				"It is useful for &dmob farms&r to collect resources without manual intervention."
+				"在&d生物农场&r中可自动收集资源,无需人工干预."
+				""
+				""
+				"&7[The Mob Crusher is used to automatically kill mobs and collect their drops.]&f"
+				""
+				"&7[Place it facing the area where mobs will spawn and provide it with power.]&f"
+				""
+				"&7[The Mob Crusher will kill any mob in front of it and collect the dropped items and Liquid Meat.]&f"
+				""
+				"&7[It is useful for mob farms to collect resources without manual intervention.]&f"
 			]
 			id: "79219F395AF8573B"
-			tasks: [{
-				id: "4977318168CA1067"
-				item: "industrialforegoing:mob_crusher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4977318168CA1067"
+					item: "industrialforegoing:mob_crusher"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 5.25d
 		}
 		{
 			dependencies: ["31C77BA11EF2B61C"]
 			description: [
-				"The &dMob Duplicator&r is used to spawn &amobs&r using &aEssence&r."
+				"&d&a自动刷怪机&f&r通过消耗&a精华&r生成&a生物&r."
 				""
-				"Place it in the desired location and provide it with &dpower&r and &aEssence&r."
+				"放置在目标位置并供应&d能量&r和&a精华&r."
 				""
-				"Insert a &dMob Imprisonment Tool&r containing the &amob&r you want to duplicate."
+				"放入装有目标&a生物&r的&d&a生物捕捉工具&f&r."
 				""
-				"The &dMob Duplicator&r will spawn copies of the &amob&r as long as it has &aEssence&r and &dpower&r."
+				"只要拥有充足&a精华&r和&d能量&r,&d&a自动刷怪机&f&r将持续生成该生物的复制体."
 				""
-				"This is useful for creating &dmob farms&r for resource generation."
+				"适用于建造&d生物农场&r以获取资源."
+				""
+				""
+				"&7[The Mob Duplicator is used to spawn mobs using Essence.]&f"
+				""
+				"&7[Place it in the desired location and provide it with power and Essence.]&f"
+				""
+				"&7[Insert a Mob Imprisonment Tool containing the mob you want to duplicate.]&f"
+				""
+				"&7[The Mob Duplicator will spawn copies of the mob as long as it has Essence and power.]&f"
+				""
+				"&7[This is useful for creating mob farms for resource generation.]&f"
 			]
 			id: "1695706A70AA37E6"
-			tasks: [{
-				id: "5A68E24D03B072EA"
-				item: "industrialforegoing:mob_duplicator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A68E24D03B072EA"
+					item: "industrialforegoing:mob_duplicator"
+					type: "item"
+				}
+			]
 			x: 5.75d
 			y: 5.75d
 		}
 		{
 			dependencies: ["0FA2D721EFBA7DC0"]
 			description: [
-				"The &dLaser Drill&r extracts &aores&r and &amaterials&r from the ground using laser technology."
+				"&d&a镭射钻&f&r运用激光技术从地下提取&a矿石&r与&a材料&r."
 				""
-				"Place it above the desired mining area and provide it with &dpower&r."
+				"将其置于目标采矿区域上方并供应&d能量&r."
 				""
-				"The &dLaser Drill&r works in conjunction with &dLaser Lens&r to determine the type of &amaterial&r to mine."
+				"&d&a镭射钻&f&r需配合&d&a镭射聚焦透镜&f&r来确定开采&a材料&r的类型."
 				""
-				"It will produce &aores&r and &amaterials&r based on the configured &dLaser Lens&r and the biome it's placed in."
+				"根据配置的&d&a镭射聚焦透镜&f&r及所在生物群系,它将产出对应的&a矿石&r和&a材料&r."
+				""
+				""
+				"&7[The Laser Drill extracts ores and materials from the ground using laser technology.]&f"
+				""
+				"&7[Place it above the desired mining area and provide it with power.]&f"
+				""
+				"&7[The Laser Drill works in conjunction with Laser Lens to determine the type of material to mine.]&f"
+				""
+				"&7[It will produce ores and materials based on the configured Laser Lens and the biome it's placed in.]&f"
 			]
 			id: "7162AD63AB61136A"
-			tasks: [{
-				id: "6F86604BDFA1A690"
-				item: "industrialforegoing:laser_drill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F86604BDFA1A690"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 8.25d
 		}
 		{
 			dependencies: ["7162AD63AB61136A"]
 			description: [
-				"The &bLaser Lens&r is used with the &dLaser Drill&r to specify the type of &amaterial&r to mine."
+				"&b&a镭射聚焦透镜&f&r与&d&a镭射钻&f&r配合使用,指定开采的&a材料&r类型."
 				""
-				"Place the &bLaser Lens&r into the &dLaser Drill&r's interface."
+				"将&b&a镭射聚焦透镜&f&r放入&d&a镭射钻&f&r的操作界面."
 				""
-				"Different colors of &bLaser Lens&r correspond to different &amaterials&r, influencing the &dLaser Drill&r's output."
+				"不同颜色的&b&a镭射聚焦透镜&f&r对应不同&a材料&r,会影响&d&a镭射钻&f&r的产出."
+				""
+				""
+				"&7[The Laser Lens is used with the Laser Drill to specify the type of material to mine.]&f"
+				""
+				"&7[Place the Laser Lens into the Laser Drill's interface.]&f"
+				""
+				"&7[Different colors of Laser Lens correspond to different materials, influencing the Laser Drill's output.]&f"
 			]
 			icon: "industrialforegoing:laser_lens0"
 			id: "0FCD5DFA1F96F41D"
-			tasks: [{
-				id: "31204C0C556BFB14"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens0"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens1"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens2"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens3"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens4"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens5"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens6"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens7"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens9"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens10"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens11"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens12"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens13"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens14"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens15"
-							}
-							{
-								Count: 1b
-								id: "industrialforegoing:laser_lens8"
-							}
-						]
+			tasks: [
+				{
+					id: "31204C0C556BFB14"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens0"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens1"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens2"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens3"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens4"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens5"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens6"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens7"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens9"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens10"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens11"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens12"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens13"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens14"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens15"
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:laser_lens8"
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 8.5d
 			y: 8.25d
 		}
@@ -1188,316 +1635,494 @@
 				"0E82AD0DE5384B35"
 			]
 			description: [
-				"The &dEther Gas Bucket&r contains &aEther Gas&r, a rare and valuable fluid."
+				"&d&a以太气体桶&f&r储存着稀有珍贵的流体——&a&a以太气体&f&r."
 				""
-				"It is used in advanced crafting recipes and certain &dmachines&r."
+				"用于高级合成配方及特定&d机械设备&r."
 				""
-				"To collect &aEther Gas&r, use a &dFluid Extractor&r on a &aWither&r while it is being spawned."
+				"收集&a&a以太气体&f&r时,需在&a凋灵&r生成过程中对其使用&d&a流体采集器&f&r."
+				""
+				""
+				"&7[The Ether Gas Bucket contains Ether Gas, a rare and valuable fluid.]&f"
+				""
+				"&7[It is used in advanced crafting recipes and certain machines.]&f"
+				""
+				"&7[To collect Ether Gas, use a Fluid Extractor on a Wither while it is being spawned.]&f"
 			]
 			id: "5113AD9751B850A7"
-			tasks: [{
-				id: "38D0F165E60BB1D7"
-				item: "industrialforegoing:ether_gas_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "38D0F165E60BB1D7"
+					item: "industrialforegoing:ether_gas_bucket"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 8.25d
 		}
 		{
 			id: "0E82AD0DE5384B35"
-			tasks: [{
-				id: "66273F325EF61571"
-				item: "industrialforegoing:machine_frame_supreme"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66273F325EF61571"
+					item: "industrialforegoing:machine_frame_supreme"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 8.25d
 		}
 		{
 			dependencies: ["0E82AD0DE5384B35"]
 			description: [
-				"&dWither Builder&r"
+				"&d&a凋灵生成器&f&r"
 				""
-				"The &dWither Builder&r is an incredible machine that takes the danger out of summoning the &aWither&r boss. By automating the entire process, it ensures you can focus on defense and resource collection without the hassle."
+				"&d&a凋灵生成器&f&r 是一款卓越的装置,它能安全地召唤&a凋灵&r首领,无需承担风险.通过自动化整个过程,确保您可以专注于防御和资源收集,省去繁琐操作."
 				""
-				"&6Setting It Up:&r"
+				"&e设置步骤:&r"
 				""
-				"&3Step 1: Find a Safe Spot&r"
-				"First, place the &dWither Builder&r in a secure, enclosed area to contain the &aWither&r when it spawns. This prevents unnecessary destruction and keeps your base safe."
+				"&3第一步:选择安全位置&r"
+				"首先,将&d&a凋灵生成器&f&r放置在一个安全封闭的区域,以便在&a凋灵&r生成时将其困住.这能防止不必要的破坏,保护您的基地安全."
 				""
-				"&3Step 2: Power It Up&r"
-				"Next, connect the &dWither Builder&r to a strong &dpower source&r. This machine requires a significant amount of energy, so make sure your power supply is robust."
+				"&3第二步:供能启动&r"
+				"接着,将&d&a凋灵生成器&f&r连接至强大的&d能源供应&r.此装置需要大量能量,因此请确保您的电源充足可靠."
 				"{@pagebreak}"
-				"&3Step 3: Load the Ingredients&r"
-				"Then, insert &a3 Wither Skeleton Skulls&r and &a4 Soul Sand&r or &aSoul Soil&r into the builder. These materials are essential for summoning the &aWither&r."
+				"&3第三步:放入材料&r"
+				"然后,向生成器内放入&a3个&a凋灵骷髅头颅&f&r和&a4个&a灵魂沙&f&r或&a&a灵魂土&f&r.这些材料是召唤&a凋灵&r所必需的."
 				""
-				"&3Step 4: Activate&r"
-				"Once powered and loaded with the necessary materials, the &dWither Builder&r will automatically construct the &aWither&r. Be prepared, as the &aWither&r will spawn hostile and ready to fight!"
+				"&3第四步:激活&r"
+				"一旦供能并装入所需材料,&d&a凋灵生成器&f&r将自动构建&a凋灵&r.请做好准备,因为&a凋灵&r生成时具有敌意并随时准备战斗!"
 				""
-				"&3Pro Tips:&r"
-				"- Surround the &dWither Builder&r with &cblast-resistant blocks&r like &bObsidian&r to minimize damage from the &aWither&r’s explosions."
-				"- Set up &dHoppers&r or &aItem Collectors&r nearby to automatically gather &aNether Stars&r and other valuable drops from the defeated &aWither&r."
+				"&3专业提示:&r"
+				"- 用&c防爆方块&r如&b黑曜石&r包围&d&a凋灵生成器&f&r,以减少&a凋灵&r爆炸造成的损害."
+				"- 在附近设置&d漏斗&r或&a物品收集器&r,自动收集击败&a凋灵&r后掉落的&a&a下界之星&f&r及其他珍贵物品."
+				""
+				""
+				"&7[Wither Builder]&f"
+				""
+				"&7[The Wither Builder is an incredible machine that takes the danger out of summoning the Wither boss. By automating the entire process, it ensures you can focus on defense and resource collection without the hassle.]&f"
+				""
+				"&7[Setting It Up:]&f"
+				""
+				"&7[Step 1: Find a Safe Spot]&f"
+				"&7[First, place the Wither Builder in a secure, enclosed area to contain the Wither when it spawns. This prevents unnecessary destruction and keeps your base safe.]&f"
+				""
+				"&7[Step 2: Power It Up]&f"
+				"&7[Next, connect the Wither Builder to a strong power source. This machine requires a significant amount of energy, so make sure your power supply is robust.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[Step 3: Load the Ingredients]&f"
+				"&7[Then, insert 3 Wither Skeleton Skulls and 4 Soul Sand or Soul Soil into the builder. These materials are essential for summoning the Wither.]&f"
+				""
+				"&7[Step 4: Activate]&f"
+				"&7[Once powered and loaded with the necessary materials, the Wither Builder will automatically construct the Wither. Be prepared, as the Wither will spawn hostile and ready to fight!]&f"
+				""
+				"&7[Pro Tips:]&f"
+				"&7[- Surround the Wither Builder with blast-resistant blocks like Obsidian to minimize damage from the Wither's explosions.]&f"
+				"&7[- Set up Hoppers or Item Collectors nearby to automatically gather Nether Stars and other valuable drops from the defeated Wither.]&f"
 			]
 			id: "5837C573A6DD9F15"
-			tasks: [{
-				id: "5C60C1C2014B6E3F"
-				item: "industrialforegoing:wither_builder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C60C1C2014B6E3F"
+					item: "industrialforegoing:wither_builder"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["0E82AD0DE5384B35"]
 			description: [
-				"The &dMycelial Reactor&r is a &bpowerhouse&r that combines the outputs of multiple &aMycelial Generators&r to produce immense amounts of &eenergy&r. This setup is perfect for high-demand energy needs, utilizing a variety of fuel types to keep everything running smoothly."
+				"&d&a菌丝网络产能反应堆&f&r是一个&b能量巨擘&r,它结合多个&a菌丝发电机&r的输出,产生巨大的能量&r.此设置非常适合高能耗需求,利用多种燃料类型确保一切平稳运行."
 				""
-				"&6How It Works:&r"
-				"The &dMycelial Reactor&r itself doesn’t need power to operate but instead relies on the &cenergy&r produced by connected &aMycelial Generators&r. When fully set up, it can output a tremendous amount of &9power&r, enough to fuel your most demanding machinery and systems."
+				"&e工作原理:&r"
+				"&d&a菌丝网络产能反应堆&f&r自身无需能源即可运行,而是依赖连接的&a菌丝发电机&r产生的&c能量&r.当完全设置好后,它能输出巨量的&9电力&r,足以驱动您最耗能的机器和系统."
 				"{@pagebreak}"
-				"&aMycelial Generators&r"
+				"&a菌丝发电机&r"
 				""
-				"These unique generators come in various types, each using different &efuel sources&r to produce &cpower&r. They are designed to work in tandem with the &dMycelial Reactor&r, contributing to its overall energy output."
+				"这些独特的发电机有多种类型,每种使用不同的&e燃料源&r来产生&c电力&r.它们设计用于与&d&a菌丝网络产能反应堆&f&r协同工作,共同贡献总能量输出."
+				""
+				""
+				"&7[The Mycelial Reactor is a powerhouse that combines the outputs of multiple Mycelial Generators to produce immense amounts of energy. This setup is perfect for high-demand energy needs, utilizing a variety of fuel types to keep everything running smoothly.]&f"
+				""
+				"&7[How It Works:]&f"
+				"&7[The Mycelial Reactor itself doesn't need power to operate but instead relies on the energy produced by connected Mycelial Generators. When fully set up, it can output a tremendous amount of power, enough to fuel your most demanding machinery and systems.]&f"
+				"&7[{@pagebreak}]&f"
+				"&7[Mycelial Generators]&f"
+				""
+				"&7[These unique generators come in various types, each using different fuel sources to produce power. They are designed to work in tandem with the Mycelial Reactor, contributing to its overall energy output.]&f"
 			]
 			id: "1D1174EBE379B36D"
-			tasks: [{
-				id: "0F4E5C9743362C45"
-				item: "industrialforegoing:mycelial_reactor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F4E5C9743362C45"
+					item: "industrialforegoing:mycelial_reactor"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &3Furnace Generator&r burns &aCombustible Items&r like &bCoal&r and &9Charcoal&r to generate &cEnergy&r. It’s a straightforward, reliable source of power, perfect for early to mid-game setups. Simply feed it fuel, and it will keep your machines running smoothly."]
+			description: [
+				"&3&a熔炉发电机&f&r燃烧&a可燃物品&r如&b煤炭&r和&9木炭&r来产生&c能量&r.它是一种简单可靠的能源,非常适合游戏早期到中期的设置.只需提供燃料,它就能让您的机器平稳运行."
+				""
+				""
+				"&7[The Furnace Generator burns Combustible Items like Coal and Charcoal to generate Energy. It's a straightforward, reliable source of power, perfect for early to mid-game setups. Simply feed it fuel, and it will keep your machines running smoothly.]&f"
+			]
 			id: "721C40D15B15DDC1"
-			tasks: [{
-				id: "1428E9D56D157F86"
-				item: "industrialforegoing:mycelial_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1428E9D56D157F86"
+					item: "industrialforegoing:mycelial_furnace"
+					type: "item"
+				}
+			]
 			x: 10.75d
 			y: 9.75d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &eSlimey Generator&r uses &aSlime-related Items&r such as &bSlimeballs&r and &dMagma Cream&r to produce &cEnergy&r. It’s a quirky way to convert your &aSlime&r collection into useful &cPower&r, especially if you have a slime farm."]
+			description: [
+				"&e&a史莱姆发电机&f&r使用&a史莱姆相关物品&r如&b粘液球&r和&d&a岩浆膏&f&r来产生&c能量&r.这是一种将您的&a史莱姆&r收藏转化为有用&c电力&r的独特方式,尤其当您拥有史莱姆农场时."
+				""
+				""
+				"&7[The Slimey Generator uses Slime-related Items such as Slimeballs and Magma Cream to produce Energy. It's a quirky way to convert your Slime collection into useful Power, especially if you have a slime farm.]&f"
+			]
 			id: "58697C7A011F53FE"
-			tasks: [{
-				id: "35847814C18449DB"
-				item: "industrialforegoing:mycelial_slimey"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35847814C18449DB"
+					item: "industrialforegoing:mycelial_slimey"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &6Culinary Generator&r consumes &aFood Items&r to generate &cEnergy&r. From simple &bBaked Potatoes&r to &dGolden Apples&r, this generator turns edible items into valuable &cPower&r. It’s ideal for those with abundant food supplies."]
+			description: [
+				"&e&a厨房发电机&f&r消耗&a&a食物&f&r来产生&c能量&r.从简单的&b&a烤马铃薯&f&r到&d&a金苹果&f&r,此发电机将可食用物品转化为宝贵的&c电力&r.对于食物供应充足的人来说,它是理想选择."
+				""
+				""
+				"&7[The Culinary Generator consumes Food Items to generate Energy. From simple Baked Potatoes to Golden Apples, this generator turns edible items into valuable Power. It's ideal for those with abundant food supplies.]&f"
+			]
 			id: "0318AF961DA821CA"
-			tasks: [{
-				id: "555617FC2866931F"
-				item: "industrialforegoing:mycelial_culinary"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "555617FC2866931F"
+					item: "industrialforegoing:mycelial_culinary"
+					type: "item"
+				}
+			]
 			x: 9.25d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &dPotion Generator&r converts &aPotions&r into &cEnergy&r. Different potions provide varying amounts of power, making it a versatile generator for those with an excess of brewing supplies. Simply feed it any potion, and watch it turn into &cPower&r."]
+			description: [
+				"&d&a药水发电机&f&r可将&a药水&r转化为&c能量&r.不同药水提供不同能量值,使其成为拥有过量&a酿造&f材料者的多功能发电机.只需投入任意药水,即可转化为&c能量&r."
+				""
+				""
+				"&7[The Potion Generator converts Potions into Energy. Different potions provide varying amounts of power, making it a versatile generator for those with an excess of brewing supplies. Simply feed it any potion, and watch it turn into Power.]&f"
+			]
 			id: "7FC6FF2B7A02FB5D"
-			tasks: [{
-				id: "5CB62F0419F2065D"
-				item: "industrialforegoing:mycelial_potion"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5CB62F0419F2065D"
+					item: "industrialforegoing:mycelial_potion"
+					type: "item"
+				}
+			]
 			x: 8.75d
 			y: 11.25d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &5Disenchanting Generator&r extracts &aPower&r from &bEnchanted Items&r. By feeding it items with enchantments, you can generate &cEnergy&r. It’s a great way to repurpose unwanted enchanted gear into something useful."]
+			description: [
+				"&5解咒发电机&r可从&b附魔物品&r中提取&a能量&r.通过投入带有附魔的物品,你可以产生&c能源&r.这是将不需要的附魔装备转化为有用资源的绝佳方式."
+				""
+				""
+				"&7[The Disenchanting Generator extracts Power from Enchanted Items. By feeding it items with enchantments, you can generate Energy. It's a great way to repurpose unwanted enchanted gear into something useful.]&f"
+			]
 			id: "168187D7A0036A6B"
-			tasks: [{
-				id: "7AA2D9D518285A66"
-				item: "industrialforegoing:mycelial_disenchantment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7AA2D9D518285A66"
+					item: "industrialforegoing:mycelial_disenchantment"
+					type: "item"
+				}
+			]
 			x: 9.25d
 			y: 13.0d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &9Ender Generator&r is powered by &aEnder Pearls&r and &5Eyes of Ender&r, producing significant amounts of &cEnergy&r. This generator is ideal for players with access to the &bEnd&r and its resources, offering a powerful energy source."]
+			description: [
+				"&9末影发电机&f&r以&a末影珍珠&f&r和&5末影之眼&r为动力,产生大量&c能源&r.这款发电机非常适合能获取&b末地&r及其资源的玩家,提供强大的能量来源."
+				""
+				""
+				"&7[The Ender Generator is powered by Ender Pearls and Eyes of Ender, producing significant amounts of Energy. This generator is ideal for players with access to the End and its resources, offering a powerful energy source.]&f"
+			]
 			id: "18289605711FE891"
-			tasks: [{
-				id: "65C8555EA6F44883"
-				item: "industrialforegoing:mycelial_ender"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "65C8555EA6F44883"
+					item: "industrialforegoing:mycelial_ender"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &2Explosive Generator&r uses &aTNT&r and other explosive items to create &cEnergy&r. It converts the destructive power of explosives into a useful energy source. Perfect for thrill-seekers looking for a high-risk, high-reward power solution."]
+			description: [
+				"&2TNT发电机&f&r利用TNT&r和其他爆炸物创造&c能源&r.它将爆炸物的破坏力转化为有用的能源,是追求高风险高回报能源方案的玩家的完美选择."
+				""
+				""
+				"&7[The Explosive Generator uses TNT and other explosive items to create Energy. It converts the destructive power of explosives into a useful energy source. Perfect for thrill-seekers looking for a high-risk, high-reward power solution.]&f"
+			]
 			id: "6222356D4DC8011D"
-			tasks: [{
-				id: "225A9785360107EA"
-				item: "industrialforegoing:mycelial_explosive"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "225A9785360107EA"
+					item: "industrialforegoing:mycelial_explosive"
+					type: "item"
+				}
+			]
 			x: 10.75d
 			y: 13.75d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &bFrosty Generator&r uses &aSnowballs&r and &9Ice&r to produce &cEnergy&r. It’s perfect for players in snowy biomes or those with access to ice farms. This generator turns cold resources into a steady stream of &cPower&r."]
+			description: [
+				"&b霜冻发电机&f&r使用&a雪球&r和&9冰&r产生&c能源&r.非常适合雪地生物群系或拥有冰农场的玩家,能将寒冷资源转化为稳定的&c能量&r流."
+				""
+				""
+				"&7[The Frosty Generator uses Snowballs and Ice to produce Energy. It's perfect for players in snowy biomes or those with access to ice farms. This generator turns cold resources into a steady stream of Power.]&f"
+			]
 			id: "69501D98C31724E0"
-			tasks: [{
-				id: "7C16C96BDE1900AE"
-				item: "industrialforegoing:mycelial_frosty"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C16C96BDE1900AE"
+					item: "industrialforegoing:mycelial_frosty"
+					type: "item"
+				}
+			]
 			x: 8.75d
 			y: 12.25d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &5Halitosis Generator&r uses the &aDragon’s Breath&r to produce &cEnergy&r. By capturing the essence of the Ender Dragon’s breath, this generator offers a unique and potent power source for your most advanced needs."]
+			description: [
+				"&5龙息发电机&f&r利用&a龙息&r产生&c能源&r.通过捕捉&a末影龙&f吐息的精髓,这款发电机为你的高端需求提供独特而强大的能量来源."
+				""
+				""
+				"&7[The Halitosis Generator uses the Dragon's Breath to produce Energy. By capturing the essence of the Ender Dragon's breath, this generator offers a unique and potent power source for your most advanced needs.]&f"
+			]
 			id: "47BABC95C5A372B8"
-			tasks: [{
-				id: "59DD934B323F2A92"
-				item: "industrialforegoing:mycelial_halitosis"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59DD934B323F2A92"
+					item: "industrialforegoing:mycelial_halitosis"
+					type: "item"
+				}
+			]
 			x: 12.25d
 			y: 9.75d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &6Magma Generator&r burns &9Lava&r to generate &cEnergy&r. This generator is perfect for players in or near the Nether, providing a reliable source of power from hot materials."]
+			description: [
+				"&e岩浆发电机&f&r燃烧&9岩浆&r产生&c能源&r.这款发电机非常适合身处&a下界&f或附近的玩家,能从炽热材料中获取可靠能源."
+				""
+				""
+				"&7[The Magma Generator burns Lava to generate Energy. This generator is perfect for players in or near the Nether, providing a reliable source of power from hot materials.]&f"
+			]
 			id: "0E7B5DB74C3C9ACB"
-			tasks: [{
-				id: "0A277248150352A2"
-				item: "industrialforegoing:mycelial_magma"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A277248150352A2"
+					item: "industrialforegoing:mycelial_magma"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &dPink Generator&r uses &aPink Dye&r and &bPink Items&r to generate &cEnergy&r. It’s a colorful and whimsical way to produce power, perfect for those who want to add a splash of pink to their setup."]
+			description: [
+				"&d粉红发电机&f&r使用&a粉红色染料&f&r和&b粉色物品&r产生&c能源&r.这是一种色彩缤纷的奇趣发电方式,适合想为设备增添一抹粉红的玩家."
+				""
+				""
+				"&7[The Pink Generator uses Pink Dye and Pink Items to generate Energy. It's a colorful and whimsical way to produce power, perfect for those who want to add a splash of pink to their setup.]&f"
+			]
 			id: "13D5B942165B8A98"
-			tasks: [{
-				id: "2AC2951233A03668"
-				item: "industrialforegoing:mycelial_pink"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AC2951233A03668"
+					item: "industrialforegoing:mycelial_pink"
+					type: "item"
+				}
+			]
 			x: 13.75d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &4Netherstar Generator&r utilizes the extremely rare &aNether Stars&r to produce enormous amounts of &cEnergy&r. It’s the ultimate power source for end-game setups, offering unparalleled energy output from the rarest materials."]
+			description: [
+				"&4下界之星发电机&f&r利用极其稀有的&a下界之星&f&r产生巨量&c能源&r.这是终局设置的终极能源,用最稀有材料提供无与伦比的能量输出."
+				""
+				""
+				"&7[The Netherstar Generator utilizes the extremely rare Nether Stars to produce enormous amounts of Energy. It's the ultimate power source for end-game setups, offering unparalleled energy output from the rarest materials.]&f"
+			]
 			id: "531B192D31815456"
-			tasks: [{
-				id: "6956EFD7966E7D19"
-				item: "industrialforegoing:mycelial_netherstar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6956EFD7966E7D19"
+					item: "industrialforegoing:mycelial_netherstar"
+					type: "item"
+				}
+			]
 			x: 14.25d
 			y: 11.25d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &4Death Generator&r harnesses the power of &aWither Skeleton Skulls&r and &dRotten Flesh&r to produce &cEnergy&r. By feeding it these dark materials, you can generate significant power, tapping into the essence of death itself."]
+			description: [
+				"&4死亡发电机&f&r利用&a凋灵骷髅头颅&f&r和&d腐肉&r产生&c能源&r.通过投入这些黑暗材料,你可以获取显著能量,直击死亡本质."
+				""
+				""
+				"&7[The Death Generator harnesses the power of Wither Skeleton Skulls and Rotten Flesh to produce Energy. By feeding it these dark materials, you can generate significant power, tapping into the essence of death itself.]&f"
+			]
 			id: "7E1CDBDA2BCE9744"
-			tasks: [{
-				id: "0DFF17324FDE257D"
-				item: "industrialforegoing:mycelial_death"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DFF17324FDE257D"
+					item: "industrialforegoing:mycelial_death"
+					type: "item"
+				}
+			]
 			x: 13.75d
 			y: 13.0d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &fRocket Generator&r uses &aFireworks&r to create &cEnergy&r. It’s a fun and explosive way to turn your stockpile of fireworks into a practical power source, adding a bit of flair to your energy production."]
+			description: [
+				"&f烟花发电机&r使用&a烟花&r创造&c能源&r.这是一种有趣且爆炸性的方式,将囤积的烟花转化为实用能源,为你的能量生产增添亮点."
+				""
+				""
+				"&7[The Rocket Generator uses Fireworks to create Energy. It's a fun and explosive way to turn your stockpile of fireworks into a practical power source, adding a bit of flair to your energy production.]&f"
+			]
 			id: "49ED53D162564102"
-			tasks: [{
-				id: "71F62BF6B0C9045F"
-				item: "industrialforegoing:mycelial_rocket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71F62BF6B0C9045F"
+					item: "industrialforegoing:mycelial_rocket"
+					type: "item"
+				}
+			]
 			x: 14.25d
 			y: 12.25d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &8Crimed Generator&r utilizes &aNether-based Items&r like &4Fungus&r and &6Shroomlight&r to generate &cEnergy&r. It’s a powerful generator for those who have access to the resources of the Nether."]
+			description: [
+				"&8绯红发电机&r利用&a下界物品&r(如&4菌类&r和&e菌光体&r)产生&c能源&r.对于能获取&a下界&f资源的玩家来说,这是一款强大的发电机."
+				""
+				""
+				"&7[The Crimed Generator utilizes Nether-based Items like Fungus and Shroomlight to generate Energy. It's a powerful generator for those who have access to the resources of the Nether.]&f"
+			]
 			id: "5C1667FA12469BEE"
-			tasks: [{
-				id: "199E691C2442801D"
-				item: "industrialforegoing:mycelial_crimed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "199E691C2442801D"
+					item: "industrialforegoing:mycelial_crimed"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["1D1174EBE379B36D"]
-			description: ["The &cMeatallurgic Generator&r uses &aMeat Items&r to produce &cEnergy&r. It’s an efficient way to turn your surplus meat, whether from farming or hunting, into a valuable power resource."]
+			description: [
+				"&c冶金发电机&r使用&a肉类物品&r产生&c能源&r.这是将农场或狩猎获得的过剩肉类转化为宝贵能源的有效方式."
+				""
+				""
+				"&7[The Meatallurgic Generator uses Meat Items to produce Energy. It's an efficient way to turn your surplus meat, whether from farming or hunting, into a valuable power resource.]&f"
+			]
 			id: "3BFC57385C345E2D"
-			tasks: [{
-				id: "43BFDB3E1401A6CA"
-				item: "industrialforegoing:mycelial_meatallurgic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43BFDB3E1401A6CA"
+					item: "industrialforegoing:mycelial_meatallurgic"
+					type: "item"
+				}
+			]
 			x: 12.25d
 			y: 13.75d
 		}
 		{
 			dependencies: ["0E82AD0DE5384B35"]
 			description: [
-				"The &bBlack Hole Controller&r is a &crevolutionary&r device for managing &aenormous quantities&r of &aitems&r and &9fluids&r. Acting as the &dcentral hub&r of your storage system, it provides &eseamless integration&r and &3real-time monitoring&r of all connected &eBlack Hole Units&r and &eBlack Hole Tanks&r."
+				"&b&a黑洞存储控制器&f&r是一款用于管理&a海量&r&a物品&r与&9流体&r的&c革命性&r设备.作为存储系统的&d核心枢纽&r,它能与所有连接的&e&a黑洞单元&f&r及&e&a黑洞储液罐&f&r实现&e无缝集成&r和&3实时监控&r."
 				""
-				"This controller allows you to handle all your &6storage needs&r from one place, making it incredibly &5efficient&r and &duser-friendly&r. The interface displays &fdetailed information&r about each connected unit, helping you keep track of your &aresources&r with ease."
+				"通过该控制器,您可一站式处理所有&e存储需求&r,享受极致&5高效&r与&d人性化&r操作体验.&a完整界面&f会显示每个连接单元的详细信息&r,助您轻松掌握&a资源&r动态."
 				""
-				"With the &bBlack Hole Controller&r, you can say goodbye to &4storage headaches&r and embrace a &estreamlined&r, &aorganized system&r where everything is &daccessible&r at your fingertips."
+				"拥有&b&a黑洞存储控制器&f&r,从此告别&4存储烦恼&r,拥抱&e流畅&r、&a井井有条&r的存储体系,一切资源皆可&d触手可及&r."
+				""
+				""
+				"&7[The Black Hole Controller is a revolutionary device for managing enormous quantities of items and fluids. Acting as the central hub of your storage system, it provides seamless integration and real-time monitoring of all connected Black Hole Units and Black Hole Tanks.]&f"
+				""
+				"&7[This controller allows you to handle all your storage needs from one place, making it incredibly efficient and user-friendly. The interface displays detailed information about each connected unit, helping you keep track of your resources with ease.]&f"
+				""
+				"&7[With the Black Hole Controller, you can say goodbye to storage headaches and embrace a streamlined, organized system where everything is accessible at your fingertips.]&f"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "003A1DABF0838A94"
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "7D3623492C1F6937"
-				item: "industrialforegoing:black_hole_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7D3623492C1F6937"
+					item: "industrialforegoing:black_hole_controller"
+					type: "item"
+				}
+			]
 			x: 8.75d
 			y: 3.5d
 		}
 		{
 			dependencies: ["003A1DABF0838A94"]
 			description: [
-				"The &eBlack Hole Unit&r is an &dincredible storage solution&r capable of holding an &9unlimited amount&r of a single type of &aitem&r. Imagine being able to store all your &3Cobblestone&r, &6Iron Ingots&r, or &5Diamonds&r in one compact unit without ever worrying about space."
+				"&e&a黑洞存储器&f&r是一种&d非凡存储方案&r,可容纳&9无限数量&r的单一&a物品&r.想象将全部&3圆石&r、&e&a铁锭&f&r或&5钻石&r存入一个紧凑单元,永无空间不足之忧."
 				""
-				"This unit integrates flawlessly with the &bBlack Hole Controller&r, providing you with &freal-time data&r on the quantity of items stored. Whether you're hoarding &2building materials&r or &drare resources&r, the &eBlack Hole Unit&r ensures you have instant access and unparalleled &6storage capacity&r."
+				"该单元与&b&a黑洞存储控制器&f&r完美集成,提供存储物品数量的&f实时数据&r.无论您囤积的是&2建材&r还是&d稀有资源&r,&e&a黑洞存储器&f&r都能提供即时存取与&e无与伦比的存储容量&r."
 				""
-				"For anyone engaged in &9large-scale projects&r or &aautomated systems&r, the &eBlack Hole Unit&r is a &cgame-changer&r, offering a &dclutter-free&r and highly &fefficient storage solution&r."
+				"对于从事&9大型工程&r或&a自动化系统&r的用户,&e&a黑洞存储器&f&r堪称&c颠覆性存在&r,提供&d零杂乱&r且高效&f的存储解决方案&r."
+				""
+				""
+				"&7[The Black Hole Unit is an incredible storage solution capable of holding an unlimited amount of a single type of item. Imagine being able to store all your Cobblestone, Iron Ingots, or Diamonds in one compact unit without ever worrying about space.]&f"
+				""
+				"&7[This unit integrates flawlessly with the Black Hole Controller, providing you with real-time data on the quantity of items stored. Whether you're hoarding building materials or rare resources, the Black Hole Unit ensures you have instant access and unparalleled storage capacity.]&f"
+				""
+				"&7[For anyone engaged in large-scale projects or automated systems, the Black Hole Unit is a game-changer, offering a clutter-free and highly efficient storage solution.]&f"
 			]
 			id: "5CCCCC23B9FA7A37"
 			shape: "diamond"
-			tasks: [{
-				id: "06D7677C82A7EDC2"
-				item: "industrialforegoing:common_black_hole_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06D7677C82A7EDC2"
+					item: "industrialforegoing:common_black_hole_unit"
+					type: "item"
+				}
+			]
 			x: 10.25d
 			y: 4.0d
 		}
@@ -1505,11 +2130,13 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "6C7DE8B2606A974F"
 			shape: "pentagon"
-			tasks: [{
-				id: "0A6683A4287A4E31"
-				item: "industrialforegoing:pity_black_hole_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A6683A4287A4E31"
+					item: "industrialforegoing:pity_black_hole_unit"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 4.5d
 		}
@@ -1517,11 +2144,13 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "4ED140E7CC9F8D9D"
 			shape: "hexagon"
-			tasks: [{
-				id: "00B90FA8C6813655"
-				item: "industrialforegoing:simple_black_hole_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00B90FA8C6813655"
+					item: "industrialforegoing:simple_black_hole_unit"
+					type: "item"
+				}
+			]
 			x: 8.75d
 			y: 5.0d
 		}
@@ -1529,11 +2158,13 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "497FA509F7154433"
 			shape: "octagon"
-			tasks: [{
-				id: "4BA250B50E043559"
-				item: "industrialforegoing:advanced_black_hole_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4BA250B50E043559"
+					item: "industrialforegoing:advanced_black_hole_unit"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 4.5d
 		}
@@ -1541,30 +2172,41 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "64E7996960F0581E"
 			shape: "circle"
-			tasks: [{
-				id: "4C9EA37A5BFBC575"
-				item: "industrialforegoing:supreme_black_hole_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C9EA37A5BFBC575"
+					item: "industrialforegoing:supreme_black_hole_unit"
+					type: "item"
+				}
+			]
 			x: 7.25d
 			y: 4.0d
 		}
 		{
 			dependencies: ["003A1DABF0838A94"]
 			description: [
-				"The &eBlack Hole Tank&r is designed to store &6vast amounts&r of &3fluids&r, with a capacity of up to &a2,000,000 millibuckets&r. Whether you need to store &bWater&r, &cLava&r, or more complex &9modded fluids&r, this tank has you covered."
+				"&e&a黑洞储液罐&f&r专为存储&e巨量&r&3流体&r设计,容量高达&a2,000,000毫桶&r.无论是&b水&r、&c熔岩&r还是复杂的&9模组流体&r,皆可从容应对."
 				""
-				"Connected to the &bBlack Hole Controller&r, it provides &deasy monitoring&r and &fmanagement&r of your fluid resources. The tank’s &4massive capacity&r makes it perfect for supporting &2industrial processes&r, &5farms&r, and &denergy systems&r that require a steady supply of fluids."
+				"连接至&b&a黑洞存储控制器&f&r后,可实现流体资源的&d便捷监控&r与&f管理&r.其&4超大容量&r完美适配需要稳定流体供给的&2工业流程&r、&5农场&r及&d能源系统&r."
 				""
-				"By integrating the &eBlack Hole Tank&r into your storage network, you can ensure that your fluid needs are met without constantly juggling containers or worrying about overflow. It simplifies your operations and guarantees that you always have the &afluids&r you need right at your disposal."
+				"将&e&a黑洞储液罐&f&r接入存储网络,可确保流体供应无忧,无需频繁调配容器或担心溢出.它简化操作流程,让所需&a流体&r随时待命."
+				""
+				""
+				"&7[The Black Hole Tank is designed to store vast amounts of fluids, with a capacity of up to 2,000,000 millibuckets. Whether you need to store Water, Lava, or more complex modded fluids, this tank has you covered.]&f"
+				""
+				"&7[Connected to the Black Hole Controller, it provides easy monitoring and management of your fluid resources. The tank's massive capacity makes it perfect for supporting industrial processes, farms, and energy systems that require a steady supply of fluids.]&f"
+				""
+				"&7[By integrating the Black Hole Tank into your storage network, you can ensure that your fluid needs are met without constantly juggling containers or worrying about overflow. It simplifies your operations and guarantees that you always have the fluids you need right at your disposal.]&f"
 			]
 			id: "20CF43561D87298B"
 			shape: "diamond"
-			tasks: [{
-				id: "6521283616A7AC7E"
-				item: "industrialforegoing:common_black_hole_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6521283616A7AC7E"
+					item: "industrialforegoing:common_black_hole_tank"
+					type: "item"
+				}
+			]
 			x: 7.25d
 			y: 3.0d
 		}
@@ -1572,11 +2214,13 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "78033BC253BA3DEC"
 			shape: "pentagon"
-			tasks: [{
-				id: "450FD0678C46FD99"
-				item: "industrialforegoing:pity_black_hole_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "450FD0678C46FD99"
+					item: "industrialforegoing:pity_black_hole_tank"
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 2.5d
 		}
@@ -1584,11 +2228,13 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "16FC910FC5BC05BC"
 			shape: "hexagon"
-			tasks: [{
-				id: "6A27D05DF198E63F"
-				item: "industrialforegoing:simple_black_hole_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A27D05DF198E63F"
+					item: "industrialforegoing:simple_black_hole_tank"
+					type: "item"
+				}
+			]
 			x: 8.75d
 			y: 2.0d
 		}
@@ -1596,11 +2242,13 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "092B99372DE42753"
 			shape: "octagon"
-			tasks: [{
-				id: "16A17053A4896451"
-				item: "industrialforegoing:advanced_black_hole_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "16A17053A4896451"
+					item: "industrialforegoing:advanced_black_hole_tank"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 2.5d
 		}
@@ -1608,37 +2256,46 @@
 			dependencies: ["003A1DABF0838A94"]
 			id: "0424664309D6E944"
 			shape: "circle"
-			tasks: [{
-				id: "48BE4B5FAF610785"
-				item: "industrialforegoing:supreme_black_hole_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48BE4B5FAF610785"
+					item: "industrialforegoing:supreme_black_hole_tank"
+					type: "item"
+				}
+			]
 			x: 10.25d
 			y: 3.0d
 		}
 		{
 			dependencies: ["12D9FABF6FA2AAEF"]
 			id: "55FA428413C4BEA1"
-			tasks: [{
-				count: 3L
-				id: "1A7ED99414653B1F"
-				item: { Count: 3, id: "kubejs:pink_slime_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 3L
+					id: "1A7ED99414653B1F"
+					item: {
+						Count: 3
+						id: "kubejs:pink_slime_block"
+					}
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["55FA428413C4BEA1"]
 			id: "5265EF70E28318F9"
-			tasks: [{
-				id: "598A5DE6A9E5FBFE"
-				item: "mm:pinky_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "598A5DE6A9E5FBFE"
+					item: "mm:pinky_controller"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 10.0d
 		}
 	]
-	title: "Industrial Foregoing"
+	title: "&d工业先锋&f&7[Industrial Foregoing]&f"
 }

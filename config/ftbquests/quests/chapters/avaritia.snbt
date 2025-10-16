@@ -10,43 +10,66 @@
 	quests: [
 		{
 			dependencies: ["3DB4820E671C641B"]
-			description: ["This can be used as a normal &6crafting table&r, or crafted for &6crafting table storage&r, similar to blocks of &bDiamond&r and &egold.&r"]
+			description: [
+				"可作为普通&e工作台&r使用,或合成为&e工作台存储单元&r,类似&b钻石&r与&e金&r方块."
+				""
+				""
+				"&7[This can be used as a normal crafting table, or crafted for crafting table storage, similar to blocks of Diamond and gold.]&f"
+			]
 			id: "128C850EFE438E33"
-			rewards: [{
-				count: 9
-				id: "6BF0A4331E3CCD38"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			tasks: [{
-				id: "460A4A35FC8CBD3F"
-				item: "avaritia:compressed_crafting_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "6BF0A4331E3CCD38"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "460A4A35FC8CBD3F"
+					item: "avaritia:compressed_crafting_table"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -15.5d
 		}
 		{
 			dependencies: ["128C850EFE438E33"]
-			description: ["Used to craft the &9Skulk Crafting Table.&r These are made with &6compressed crafting tables&r."]
+			description: [
+				"用于合成&9幽匿工作台&r,由&e压缩工作台&r制成."
+				""
+				""
+				"&7[Used to craft the Skulk Crafting Table. These are made with compressed crafting tables.]&f"
+			]
 			id: "63A46DD9090FABCD"
-			rewards: [{
-				count: 18
-				id: "527D681173D6F6BF"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5ADD90CC6A7B9F27"
-				item: "avaritia:double_compressed_crafting_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 18
+					id: "527D681173D6F6BF"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5ADD90CC6A7B9F27"
+					item: "avaritia:double_compressed_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -15.5d
 		}
 		{
 			dependencies: ["63A46DD9090FABCD"]
-			description: ["Infused with the echoes of the &dDeep Dark&r, this table unlocks a new &ccrafting table tier&r and a few vanilla items. It's the first step to &eultimate power&r."]
+			description: [
+				"注入了&d&a深暗之域&f&r的回响,此工作台解锁了新的合成台关联&r机制及部分原版物品,是通往&e终极力量&r的第一步."
+				""
+				""
+				"&7[Infused with the echoes of the Deep Dark, this table unlocks a new crafting table tier and a few vanilla items. It's the first step to ultimate power.]&f"
+			]
 			id: "6CD0A72A42EE5F15"
 			rewards: [
 				{
@@ -62,34 +85,50 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "34EB8A4E4AEF04C8"
-				item: "avaritia:sculk_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34EB8A4E4AEF04C8"
+					item: "avaritia:sculk_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -13.5d
 		}
 		{
-			description: ["&9Avaritia&r returns, &ereforged&r and &cdeadlier.&r This isn't just endgame anymore. It's &dbeyond endgame&r. Brace yourself."]
+			description: [
+				"&9无尽贪婪&r归来,经过&e重铸&r且&c更致命&r.这不仅是终局内容,更是&d超越终局&r的存在,请做好准备."
+				""
+				""
+				"&7[Avaritia returns, reforged and deadlier. This isn't just endgame anymore. It's beyond endgame. Brace yourself.]&f"
+			]
 			id: "3DB4820E671C641B"
-			rewards: [{
-				id: "32E5C292004F9AB8"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32E5C292004F9AB8"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "5082089445C519BF"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5082089445C519BF"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["Forged in &chellish flame&r, the &cNether table&r handles recipes too volatile for the &aOverworld.&r"]
+			description: [
+				"由&c地狱烈焰&r锻造而成,&c下界工作台&r可处理&a主世界&r无法承受的不稳定配方."
+				""
+				""
+				"&7[Forged in hellish flame, the Nether table handles recipes too volatile for the Overworld.]&f"
+			]
 			id: "6BCEC4DFC4050076"
 			rewards: [
 				{
@@ -107,17 +146,24 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				id: "2213B9C0045FABBC"
-				item: "avaritia:nether_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2213B9C0045FABBC"
+					item: "avaritia:nether_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -11.5d
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["A &bdiamond&r is no longer rare. A &dstar&r is no longer bright. This is the new foundation of &aimpossibility.&r Crafted at the &bSkulk Crafting Table&r."]
+			description: [
+				"&b钻石&r不再稀有,&d星辰&r不再璀璨.这是&a不可能&r的新基石,需在&b幽匿工作台&r合成."
+				""
+				""
+				"&7[A diamond is no longer rare. A star is no longer bright. This is the new foundation of impossibility. Crafted at the Skulk Crafting Table.]&f"
+			]
 			id: "58134A3611BA2D30"
 			rewards: [
 				{
@@ -133,17 +179,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7FD36B27D301DDAE"
-				item: "avaritia:diamond_lattice"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FD36B27D301DDAE"
+					item: "avaritia:diamond_lattice"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -13.5d
 		}
 		{
 			dependencies: ["58134A3611BA2D30"]
-			description: ["Crafted from &bDiamond lattice&r, this is used in a few &6crafting recipes.&r"]
+			description: [
+				"由&b钻石晶格&r制成,用于若干&e合成配方&r."
+				""
+				""
+				"&7[Crafted from Diamond lattice, this is used in a few crafting recipes.]&f"
+			]
 			id: "4431F1144F0C5C0C"
 			rewards: [
 				{
@@ -157,17 +210,24 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [{
-				id: "5B13D7F131A58028"
-				item: "avaritia:crystal_matrix_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B13D7F131A58028"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -13.5d
 		}
 		{
 			dependencies: ["4431F1144F0C5C0C"]
-			description: ["A block of &9Matrix Ingots&r which gives Enchanting tables &aEterna.&r And is used to craft."]
+			description: [
+				"由&9矩阵锭&r制成的方块,可为附魔台提供&a位阶&r,并用于合成."
+				""
+				""
+				"&7[A block of Matrix Ingots which gives Enchanting tables 位阶. And is used to craft.]&f"
+			]
 			id: "7CD16FF452E8EE3D"
 			rewards: [
 				{
@@ -181,11 +241,13 @@
 					xp_levels: 10
 				}
 			]
-			tasks: [{
-				id: "5754D5FA84A5C988"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5754D5FA84A5C988"
+					item: "avaritia:crystal_matrix"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -13.5d
 		}
@@ -218,182 +280,252 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "592379786B328524"
-				item: "avaritia:end_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "592379786B328524"
+					item: "avaritia:end_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["Made at the &cNether table&r these can be used to craft a block which provides &aEterna&r to &dEnchanting tables&r."]
+			description: [
+				"在&c下界工作台&r制作,可用于合成能为&d附魔台&r提供&a位阶&r的方块."
+				""
+				""
+				"&7[Made at the Nether table these can be used to craft a block which provides 位阶 to Enchanting tables.]&f"
+			]
 			id: "0847FA3F33F03338"
-			rewards: [{
-				count: 12
-				id: "48BFD476941E552A"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09E68A933DA270F9"
-				item: "avaritia:blaze_cube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "48BFD476941E552A"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09E68A933DA270F9"
+					item: "avaritia:blaze_cube"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["Same old &dnetherite,&r though it can be obtained in new ways."]
+			description: [
+				"依旧是传统的&d下界合金&r,但可通过新方式获取."
+				""
+				""
+				"&7[Same old netherite, though it can be obtained in new ways.]&f"
+			]
 			id: "182525B7EDF23BB5"
-			rewards: [{
-				id: "43E5619CA2F7F856"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D3D9511AC2C60C3"
-				item: "minecraft:ancient_debris"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "43E5619CA2F7F856"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D3D9511AC2C60C3"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在进步,&a很好&r,但还需&e精益求精&r."
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "253B13051E4540FB"
-			rewards: [{
-				count: 8
-				id: "170C43F75C3EC37F"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "533DDF8CAF7C9404"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "170C43F75C3EC37F"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "533DDF8CAF7C9404"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "07C6A708506A6522"
-			rewards: [{
-				count: 8
-				id: "1379505E90F8C8A9"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "29E59BAB046F34E5"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_pickaxe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "1379505E90F8C8A9"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "29E59BAB046F34E5"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "626B196AC0108F30"
-			rewards: [{
-				count: 8
-				id: "7CB3A2A4B4A4C31C"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0F87376511A9EBAB"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_axe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "7CB3A2A4B4A4C31C"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0F87376511A9EBAB"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "3F28748E2A3794ED"
-			rewards: [{
-				count: 8
-				id: "7296DC4692CD6724"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "50231CAE084549BC"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_shovel"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "7296DC4692CD6724"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "50231CAE084549BC"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "604B4CECA4FD44CB"
-			rewards: [{
-				count: 8
-				id: "7244B7302B698D44"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "2726810544BB7316"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_hoe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "7244B7302B698D44"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2726810544BB7316"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["What you have made so far &acomes together&r, &bThe extreme crafting table&f. You will use this for most of the &6powerful crafts&r."]
+			description: [
+				"你目前的成果&a汇聚一体&r,&b终极工作台&f.你将用它来完成大多数&e强力合成&r."
+				""
+				""
+				"&7[What you have made so far comes together, The extreme crafting table. You will use this for most of the powerful crafts.]&f"
+			]
 			id: "55ED711EFD438FC3"
 			rewards: [
 				{
@@ -410,228 +542,318 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "44821D30ED458E58"
-				item: "avaritia:extreme_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "44821D30ED458E58"
+					item: "avaritia:extreme_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "73B6E398931525BA"
-			rewards: [{
-				count: 8
-				id: "4198370CEA6ACEE5"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "3077C7D7ABC5A1E3"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "4198370CEA6ACEE5"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3077C7D7ABC5A1E3"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "64953DD2811A1713"
-			rewards: [{
-				count: 8
-				id: "75058A2FF1AFD22A"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "4D9EF2D8CE93BE9A"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_pickaxe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "75058A2FF1AFD22A"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4D9EF2D8CE93BE9A"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "48F4D5E88C907E51"
-			rewards: [{
-				count: 8
-				id: "4BF609E089AFE9C0"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "1B9D1F88AB583A6E"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_axe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "4BF609E089AFE9C0"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B9D1F88AB583A6E"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "4C7455970DDABF24"
-			rewards: [{
-				count: 8
-				id: "53B20FB1F85C504F"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "03719D1AB0CFF2DB"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_shovel"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "53B20FB1F85C504F"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "03719D1AB0CFF2DB"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: [
+				"你正在取得进展,&a不错,&r但你必须&e改进.&r"
+				""
+				""
+				"&7[You are making progress, good, but you must improve.]&f"
+			]
 			hide_dependency_lines: true
 			id: "74092BDC7DA9BAD9"
-			rewards: [{
-				count: 8
-				id: "0CD70847BD75EC97"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6F6973E1223B316C"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_hoe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "0CD70847BD75EC97"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6F6973E1223B316C"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
 			id: "104A0314ABBC6BCA"
-			tasks: [{
-				id: "5D8050A759D61BF3"
-				item: "avaritia:record_fragment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D8050A759D61BF3"
+					item: "avaritia:record_fragment"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["55ED711EFD438FC3"]
-			description: ["It condenses &9pure neutron energy&r from the &0void,&r one particle at a time. &cHigher tiers&r mean faster &ageneration&r and more &dmadness.&r This will &epassively&r generate &9Neu&9trons&r&r over a long period of time."]
+			description: [
+				"它从&0虚空&r中凝聚&9纯中子能量&r,一次一个粒子.&c更高等级&r意味着更快的&a生成&r速度和更多的&d疯狂.&r这将&e被动地&r在长时间内生成&9中子&r&r."
+				""
+				""
+				"&7[It condenses pure neutron energy from the void, one particle at a time. Higher tiers mean faster generation and more madness. This will passively generate Neutrons over a long period of time.]&f"
+			]
 			id: "42DF944251E8538F"
-			rewards: [{
-				count: 6
-				id: "3ADDB3E8CB1BE793"
-				item: "avaritia:crystal_matrix_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "3ADDB3E8CB1BE793"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
 			size: 1.0d
-			tasks: [{
-				id: "742214855C4420A6"
-				item: "avaritia:neutron_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "742214855C4420A6"
+					item: "avaritia:neutron_collector"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["42DF944251E8538F"]
-			description: ["A single unit of pure &9neutron matter&r. Useless alone, but terrifying in numbers."]
+			description: [
+				"一个单位的纯&9中子物质&r.单独无用,但数量庞大时极为可怕."
+				""
+				""
+				"&7[A single unit of pure neutron matter. Useless alone, but terrifying in numbers.]&f"
+			]
 			id: "7E164982974B7C55"
-			rewards: [{
-				id: "75904785CA912A47"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			tasks: [{
-				id: "099760566EFC9789"
-				item: "avaritia:neutron_pile"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "75904785CA912A47"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "099760566EFC9789"
+					item: "avaritia:neutron_pile"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["7E164982974B7C55"]
-			description: ["Useful in more powerful crafts."]
+			description: [
+				"用于更强大的合成中."
+				""
+				""
+				"&7[Useful in more powerful crafts.]&f"
+			]
 			id: "61B5E14CC5647919"
-			rewards: [{
-				id: "37320F02FC16256A"
-				type: "xp_levels"
-				xp_levels: 12
-			}]
-			tasks: [{
-				id: "5B929227E9D8B0A5"
-				item: "avaritia:neutron_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "37320F02FC16256A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			tasks: [
+				{
+					id: "5B929227E9D8B0A5"
+					item: "avaritia:neutron_nugget"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["61B5E14CC5647919"]
-			description: ["Used in crafting and for a block that provides &aEterna&r to &dEnchanting tables&r."]
+			description: [
+				"用于合成以及为&d附魔台&r提供&a位阶&r的方块."
+				""
+				""
+				"&7[Used in crafting and for a block that provides 位阶 to Enchanting tables.]&f"
+			]
 			id: "11B42EB302FA9DDF"
-			rewards: [{
-				id: "69CD7F12F64751E1"
-				type: "xp_levels"
-				xp_levels: 14
-			}]
-			tasks: [{
-				id: "013D01398BEE3C0A"
-				item: "avaritia:neutron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "69CD7F12F64751E1"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+			]
+			tasks: [
+				{
+					id: "013D01398BEE3C0A"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["11B42EB302FA9DDF"]
-			description: ["Provides &aEterna&r to &dEnchanting tables&r when used in place of a bookshelf."]
+			description: [
+				"当用来替代书架时,为&d附魔台&r提供&a位阶&r."
+				""
+				""
+				"&7[Provides 位阶 to Enchanting tables when used in place of a bookshelf.]&f"
+			]
 			id: "156E41193C265303"
 			rewards: [
 				{
@@ -646,59 +868,89 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2209013204E1A0CB"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2209013204E1A0CB"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["42DF944251E8538F"]
-			description: ["Generates &9Neutrons&r faster."]
+			description: [
+				"更快地生成&9中子&r."
+				""
+				""
+				"&7[Generates Neutrons faster.]&f"
+			]
 			id: "5DD4B5780494D422"
-			tasks: [{
-				id: "60EBF03A28F6FDC3"
-				item: "avaritia:dense_neutron_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "60EBF03A28F6FDC3"
+					item: "avaritia:dense_neutron_collector"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5DD4B5780494D422"]
-			description: ["Generates &9Neutron Ingots&r faster."]
+			description: [
+				"更快地生成&9中子锭&r."
+				""
+				""
+				"&7[Generates Neutron Ingots faster.]&f"
+			]
 			id: "2DD3DE061E0BD676"
-			tasks: [{
-				id: "3B7213EB1C2B3422"
-				item: "avaritia:denser_neutron_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B7213EB1C2B3422"
+					item: "avaritia:denser_neutron_collector"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2DD3DE061E0BD676"]
-			description: ["Generates &9Neutron Ingots&r faster."]
+			description: [
+				"更快地生成&9中子锭&r."
+				""
+				""
+				"&7[Generates Neutron Ingots faster.]&f"
+			]
 			id: "13931F57613DCC60"
-			rewards: [{
-				count: 2
-				id: "0BA14D3A4EE3CC88"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3FCCED5435F3B675"
-				item: "avaritia:densest_neutron_collector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0BA14D3A4EE3CC88"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3FCCED5435F3B675"
+					item: "avaritia:densest_neutron_collector"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["55ED711EFD438FC3"]
-			description: ["&dA true Pearl&r. Capable of creating a &0black hole&r when thrown. And used to craft the amazing &6Infinity Catalyst&r"]
+			description: [
+				"&d一颗真正的珍珠&r.投掷时能够制造&0黑洞&r.并用于合成惊人的&e无限催化剂&r"
+				""
+				""
+				"&7[A true Pearl. Capable of creating a black hole when thrown. And used to craft the amazing Infinity Catalyst]&f"
+			]
 			id: "54C6961ACAFC8D8B"
 			rewards: [
 				{
@@ -713,11 +965,13 @@
 					xp_levels: 20
 				}
 			]
-			tasks: [{
-				id: "0AC6C67AE31A65E6"
-				item: "avaritia:endest_pearl"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AC6C67AE31A65E6"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -5.0d
 		}
@@ -727,63 +981,95 @@
 				"2F6E8A0DFB555ED6"
 				"623B6948CC6BEE3B"
 			]
-			description: ["A spark of &6divine potential&r. Everything &mimpossible&r &9begins here&r. &eYou have come far&r, use this to craft the &9best&r of the &9best.&r"]
+			description: [
+				"一丝&e神圣潜能&r的火花.一切&m不可能&r&9从这里开始&r.&e你已经走得很远&r,用它来合成&9最好&r中的&9最好.&r"
+				""
+				""
+				"&7[A spark of divine potential. Everything impossible begins here. You have come far, use this to craft the best of the best.]&f"
+			]
 			id: "348E851939EFF3EB"
-			rewards: [{
-				id: "7CF6B6CE1EF7FFE6"
-				type: "xp_levels"
-				xp_levels: 100
-			}]
-			tasks: [{
-				id: "2CF0820CB8B7EE0A"
-				item: "avaritia:infinity_catalyst"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CF6B6CE1EF7FFE6"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2CF0820CB8B7EE0A"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["348E851939EFF3EB"]
-			description: ["Forged from &aeverything.&r Infused with &einfinity.&r This is the &6metal of gods&r."]
+			description: [
+				"由&a一切&r锻造而成.注入&e无限&r.这是&e神之金属&r."
+				""
+				""
+				"&7[Forged from everything. Infused with infinity. This is the metal of gods.]&f"
+			]
 			id: "2C53C8A3322CAB88"
-			rewards: [{
-				id: "1954BBB17319DE38"
-				type: "xp_levels"
-				xp_levels: 200
-			}]
+			rewards: [
+				{
+					id: "1954BBB17319DE38"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "03427BB2D4A55C27"
-				item: "avaritia:infinity_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "03427BB2D4A55C27"
+					item: "avaritia:infinity_ingot"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["54C6961ACAFC8D8B"]
-			description: ["Useful for &6crafting giant recipes&r from a few mods."]
+			description: [
+				"用于从几个模组中&e合成巨型配方&r."
+				""
+				""
+				"&7[Useful for crafting giant recipes from a few mods.]&f"
+			]
 			id: "3353D17D82959D0C"
-			rewards: [{
-				id: "2427616CF7ED18DD"
-				item: "extendedcrafting:elite_auto_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2427616CF7ED18DD"
+					item: "extendedcrafting:elite_auto_table"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Hey this is not from Avaritia!"
-			tasks: [{
-				id: "75AE8D903B1972C1"
-				item: "extendedcrafting:ultimate_table"
-				type: "item"
-			}]
+			subtitle: "嘿,这不是来自Avaritia!&7[Hey this is not from Avaritia!]&f"
+			tasks: [
+				{
+					id: "75AE8D903B1972C1"
+					item: "extendedcrafting:ultimate_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &6best&r of the &6best,&r &dno one can match you&r, You will see through all."]
+			description: [
+				"&e最好&r中的&e最好&r,&d无人能与你匹敌&r,你将看透一切."
+				""
+				""
+				"&7[The best of the best, no one can match you, You will see through all.]&f"
+			]
 			id: "1B7A6E394D17A5F9"
 			rewards: [
 				{
@@ -798,18 +1084,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "See beyond reality. No illusion can deceive you now."
-			tasks: [{
-				id: "7693959B8E016C97"
-				item: "avaritia:infinity_helmet"
-				type: "item"
-			}]
+			subtitle: "看透现实.现在没有任何幻象能欺骗你.&7[See beyond reality. No illusion can deceive you now.]&f"
+			tasks: [
+				{
+					id: "7693959B8E016C97"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. And it lets you &bfly&r!"]
+			description: [
+				"&d最好&r中的&d最好&r,&e无人能与你匹敌&r.并且它让你能&b飞行&r!"
+				""
+				""
+				"&7[The best of the best, no one can match you. And it lets you fly!]&f"
+			]
 			id: "4E4080F0A6E29532"
 			rewards: [
 				{
@@ -824,21 +1117,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "A heart of singularity. Protects against time, space, and logic."
-			tasks: [{
-				id: "14744B4644031618"
-				item: "avaritia:infinity_chestplate"
-				type: "item"
-			}]
+			subtitle: "奇点之心.抵御时间、空间和逻辑.&7[A heart of singularity. Protects against time, space, and logic.]&f"
+			tasks: [
+				{
+					id: "14744B4644031618"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
 			description: [
-				"The &dbest&r of the &dbest,&r &6no one can match you&r."
+				"&d最好&r中的&d最好&r,&e无人能与你匹敌&r."
 				""
-				"&e&ospeeeed&r&r"
+				"&e&o速&ed&r&r"
+				""
+				""
+				"&7[The best of the best, no one can match you.]&f"
+				""
+				"&7[speeeed]&f"
 			]
 			id: "08FBA6F89454D23D"
 			rewards: [
@@ -854,18 +1154,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Move with the weight of neutronium and the speed of starlight."
-			tasks: [{
-				id: "4DB1EE3CF1DEA987"
-				item: "avaritia:infinity_pants"
-				type: "item"
-			}]
+			subtitle: "以中子星的重量和星光的速度移动.&7[Move with the weight of neutronium and the speed of starlight.]&f"
+			tasks: [
+				{
+					id: "4DB1EE3CF1DEA987"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. Not even &agravity&r can kill you."]
+			description: [
+				"&d最好&r中的&d最好&r,&e无人能与你匹敌&r.甚至连&a重力&r也无法杀死你."
+				""
+				""
+				"&7[The best of the best, no one can match you. Not even gravity can kill you.]&f"
+			]
 			id: "598E3ECE201D52C2"
 			rewards: [
 				{
@@ -880,18 +1187,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gravity is optional. So is falling."
-			tasks: [{
-				id: "5D5CAE9D3C33F415"
-				item: "avaritia:infinity_boots"
-				type: "item"
-			}]
+			subtitle: "重力是可选的.坠落也是.&7[Gravity is optional. So is falling.]&f"
+			tasks: [
+				{
+					id: "5D5CAE9D3C33F415"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. Everything will die at your touch."]
+			description: [
+				"顶尖中的顶尖,无人能与你匹敌.万物触之即亡."
+				""
+				""
+				"&7[The best of the best, no one can match you. Everything will die at your touch.]&f"
+			]
 			id: "2CA7B7158BE3A3D4"
 			rewards: [
 				{
@@ -906,18 +1220,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "One hit. That’s all it takes. No exceptions."
-			tasks: [{
-				id: "1AD615AAB6B4E1F5"
-				item: "avaritia:infinity_sword"
-				type: "item"
-			}]
+			subtitle: "一击必杀.仅需如此,绝无例外.&7[One hit. That's all it takes. No exceptions.]&f"
+			tasks: [
+				{
+					id: "1AD615AAB6B4E1F5"
+					item: "avaritia:infinity_sword"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. The power to destroy all."]
+			description: [
+				"顶尖中的顶尖,无人能与你匹敌.拥有毁灭一切的力量."
+				""
+				""
+				"&7[The best of the best, no one can match you. The power to destroy all.]&f"
+			]
 			id: "2B56AEA32C0C43FD"
 			rewards: [
 				{
@@ -932,22 +1253,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mines everything. Breaks everything. Probably too much."
-			tasks: [{
-				id: "67636438AD4249BD"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_pickaxe"
-					tag: { }
+			subtitle: "挖掘万物,破坏一切.或许过于强大.&7[Mines everything. Breaks everything. Probably too much.]&f"
+			tasks: [
+				{
+					id: "67636438AD4249BD"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r."]
+			description: [
+				"顶尖中的顶尖,无人能与你匹敌."
+				""
+				""
+				"&7[The best of the best, no one can match you.]&f"
+			]
 			id: "40952B7721569DE2"
 			rewards: [
 				{
@@ -962,18 +1290,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Turns trees into dust. Turns enemies into memories."
-			tasks: [{
-				id: "5DF2AF19F4614AD1"
-				item: "avaritia:infinity_axe"
-				type: "item"
-			}]
+			subtitle: "化树木为尘埃,变敌手为回忆.&7[Turns trees into dust. Turns enemies into memories.]&f"
+			tasks: [
+				{
+					id: "5DF2AF19F4614AD1"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r."]
+			description: [
+				"顶尖中的顶尖,无人能与你匹敌."
+				""
+				""
+				"&7[The best of the best, no one can match you.]&f"
+			]
 			id: "282994DE03384B38"
 			rewards: [
 				{
@@ -988,22 +1323,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "A shovel that doesn't dig it devours."
-			tasks: [{
-				id: "3502D5596AFECA84"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_shovel"
-					tag: { }
+			subtitle: "此铲不掘地,只吞噬一切.&7[A shovel that doesn't dig it devours.]&f"
+			tasks: [
+				{
+					id: "3502D5596AFECA84"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_shovel"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. You can bring &agrowth&r and &alife&r to the world around you"]
+			description: [
+				"顶尖中的顶尖,无人能与你匹敌.你能为周遭世界带来生长与生机"
+				""
+				""
+				"&7[The best of the best, no one can match you. You can bring growth and life to the world around you]&f"
+			]
 			id: "10F556BBB559E13F"
 			rewards: [
 				{
@@ -1018,18 +1360,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Planets would grow from this, if you let them."
-			tasks: [{
-				id: "7C59ACB2216AB4D6"
-				item: "avaritia:infinity_hoe"
-				type: "item"
-			}]
+			subtitle: "若你允许,星球将由此生长.&7[Planets would grow from this, if you let them.]&f"
+			tasks: [
+				{
+					id: "7C59ACB2216AB4D6"
+					item: "avaritia:infinity_hoe"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. Summons more arrows on hit, has &dInfinity&r."]
+			description: [
+				"顶尖中的顶尖,无人能与你匹敌.击中时召唤更多箭矢,拥有无限附魔."
+				""
+				""
+				"&7[The best of the best, no one can match you. Summons more arrows on hit, has Infinity.]&f"
+			]
 			id: "7CDA899FDC1B3C0F"
 			rewards: [
 				{
@@ -1044,18 +1393,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "aim and shoot, your foe will die"
-			tasks: [{
-				id: "01BC9F5A5BEC81C7"
-				item: "avaritia:infinity_bow"
-				type: "item"
-			}]
+			subtitle: "瞄准射击,敌人必亡&7[aim and shoot, your foe will die]&f"
+			tasks: [
+				{
+					id: "01BC9F5A5BEC81C7"
+					item: "avaritia:infinity_bow"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["This &bblueprint&r holds the shape of &0impossible&r creations. Place it in the right station... and &drewrite creation&r. Use in the&b Extreme Smithing&r for some of the&a best utility gear&r."]
+			description: [
+				"这份蓝图承载着不可能造物的形态.置于正确的工坊...即可重写创造.在极限锻造中使用,制作部分顶级实用装备."
+				""
+				""
+				"&7[This blueprint holds the shape of impossible creations. Place it in the right station... and rewrite creation. Use in the Extreme Smithing for some of the best utility gear.]&f"
+			]
 			id: "3035A949E710CCCB"
 			rewards: [
 				{
@@ -1070,17 +1426,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "082003395B0CD91E"
-				item: "avaritia:upgrade_smithing_template"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "082003395B0CD91E"
+					item: "avaritia:upgrade_smithing_template"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["A &0mysterious component&r used to &dempower&r &9ancient tools&r and &bartifacts.&r Brimming with &cunstable energy&r and &aforbidden logic&r."]
+			description: [
+				"一种神秘组件,用于削弱远古工具与神器.充满不稳定能量与禁忌逻辑."
+				""
+				""
+				"&7[A mysterious component used to empower ancient tools and artifacts. Brimming with unstable energy and forbidden logic.]&f"
+			]
 			id: "01A250921FB4E8EA"
 			rewards: [
 				{
@@ -1095,45 +1458,65 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "379684CE22BC9BAF"
-				item: "avaritia:enhancement_core"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "379684CE22BC9BAF"
+					item: "avaritia:enhancement_core"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -0.5d
 		}
 		{
-			description: ["The flavor of the &dmultiverse&r. A soup brewed from &eeverything&r the &aworld&r offers. &lOne time use&r, but provides &damazing effects&r and &afully restores hunger&r and &esaturation.&r"]
+			description: [
+				"多元宇宙的滋味.以世界万物熬制的汤.一次性使用,但提供惊人效果,完全恢复饥饿值与饱和度."
+				""
+				""
+				"&7[The flavor of the multiverse. A soup brewed from everything the world offers. lOne time use, but provides amazing effects and fully restores hunger and saturation.]&f"
+			]
 			hide_dependency_lines: true
 			id: "623B6948CC6BEE3B"
-			rewards: [{
-				id: "15CC4E67F03094C1"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4882EE196750DC9A"
-				item: "avaritia:ultimate_stew"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "15CC4E67F03094C1"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4882EE196750DC9A"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -4.5d
 		}
 		{
-			description: ["&e&oYou are what you eat and this time&r&r, you're becoming a &dstar.&r Another amazing &6food source&r, though &aexpensive.&r"]
+			description: [
+				"人如其食,此番你将化身为星辰.又一神奇食物来源,虽价格昂贵."
+				""
+				""
+				"&7[You are what you eat and this time, you're becoming a star. Another amazing food source, though expensive.]&f"
+			]
 			hide_dependency_lines: true
 			id: "2F6E8A0DFB555ED6"
-			rewards: [{
-				id: "6334755C42F979D4"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "29CE94F7C72391D9"
-				item: "avaritia:cosmic_meatballs"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6334755C42F979D4"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29CE94F7C72391D9"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -4.5d
 		}
@@ -1143,7 +1526,12 @@
 				"3035A949E710CCCB"
 				"01A250921FB4E8EA"
 			]
-			description: ["&dThe final forge&r. Fuses power from the&a ancient tables&r into one &6absolute workstation&r."]
+			description: [
+				"终极熔炉.将远古工作台的力量融合为一绝对工作站."
+				""
+				""
+				"&7[The final forge. Fuses power from the ancient tables into one absolute workstation.]&f"
+			]
 			hide_dependency_lines: true
 			id: "3416441A94958EA1"
 			rewards: [
@@ -1161,17 +1549,24 @@
 			]
 			shape: "square"
 			size: 1.0d
-			tasks: [{
-				id: "0B7B601F59A88974"
-				item: "avaritia:extreme_smithing_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B7B601F59A88974"
+					item: "avaritia:extreme_smithing_table"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&eInfinite space&r inside an &6unmovable object&r. You’ll lose items before you fill it."]
+			description: [
+				"不可移动物体内的无限空间.填满之前你可能会丢失物品."
+				""
+				""
+				"&7[Infinite space inside an unmovable object. You'll lose items before you fill it.]&f"
+			]
 			id: "1CF726BC8C581693"
 			rewards: [
 				{
@@ -1186,17 +1581,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "546FE9F5811F181C"
-				item: "avaritia:infinity_chest"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "546FE9F5811F181C"
+					item: "avaritia:infinity_chest"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&bA second chance...&r &apowered by the infinite.&r &cJust don’t die 99 times.&r"]
+			description: [
+				"第二次机会...由无限之力驱动.只是别死上99次."
+				""
+				""
+				"&7[A second chance... powered by the infinite. Just don't die 99 times.]&f"
+			]
 			id: "239D0B5CA70AA4C5"
 			rewards: [
 				{
@@ -1211,23 +1613,30 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6F08F0612A0A4345"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_totem"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6F08F0612A0A4345"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_totem"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["Your &6horse&r now weighs billions of tons and is &0invulnerable.&r You’re welcome."]
+			description: [
+				"你的马现在重达数十亿吨且无敌.不客气."
+				""
+				""
+				"&7[Your horse now weighs billions of tons and is invulnerable. You're welcome.]&f"
+			]
 			id: "5B8F0C492F564758"
 			rewards: [
 				{
@@ -1242,18 +1651,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Thank you"
-			tasks: [{
-				id: "55E0B5EA98D05E3C"
-				item: "avaritia:neutron_horse_armor"
-				type: "item"
-			}]
+			subtitle: "感谢&7[Thank you]&f"
+			tasks: [
+				{
+					id: "55E0B5EA98D05E3C"
+					item: "avaritia:neutron_horse_armor"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["Turns out the &dcake&r was not a lie. &eInfinite food&r, &6never hunger.&r"]
+			description: [
+				"事实证明蛋糕并非谎言.无限食物,永不饥饿."
+				""
+				""
+				"&7[Turns out the cake was not a lie. Infinite food, never hunger.]&f"
+			]
 			id: "39FFA83723143D47"
 			rewards: [
 				{
@@ -1268,18 +1684,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "The solution to world hunger"
-			tasks: [{
-				id: "30F966ED6B1DFB6F"
-				item: "avaritia:endless_cake"
-				type: "item"
-			}]
+			subtitle: "解决世界饥饿问题的方案&7[The solution to world hunger]&f"
+			tasks: [
+				{
+					id: "30F966ED6B1DFB6F"
+					item: "avaritia:endless_cake"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["It doesn't do anything. Yet. But it looks like it will do something terrifying."]
+			description: [
+				"目前它无所作为.但看起来它将做出某些可怕之事."
+				""
+				""
+				"&7[It doesn't do anything. Yet. But it looks like it will do something terrifying.]&f"
+			]
 			id: "55D40CC92FA0FC2B"
 			rewards: [
 				{
@@ -1294,18 +1717,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "DO NOT CLICK U ON THE ANVIL"
-			tasks: [{
-				id: "63DE348D262D87C3"
-				item: "avaritia:extreme_anvil"
-				type: "item"
-			}]
+			subtitle: "切勿在铁砧上点击U&7[DO NOT CLICK U ON THE ANVIL]&f"
+			tasks: [
+				{
+					id: "63DE348D262D87C3"
+					item: "avaritia:extreme_anvil"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&bFly&r between &dstars.&r Ignore the &0void.&r Become the &bsky.&r"]
+			description: [
+				"星辰间翱翔.无视虚空.化为苍穹."
+				""
+				""
+				"&7[Fly between stars. Ignore the void. Become the sky.]&f"
+			]
 			id: "0C110E8F2F0509EC"
 			rewards: [
 				{
@@ -1320,17 +1750,24 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "532DB50F1D35890D"
-				item: "avaritia:infinity_elytra"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "532DB50F1D35890D"
+					item: "avaritia:infinity_elytra"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&eHolds anything.&r Even things that shouldn't be held. Useful? &aYes.&r Safe? &cNo.&r"]
+			description: [
+				"容纳万物.甚至包括不应被容纳之物.有用吗？是的.安全吗？不."
+				""
+				""
+				"&7[Holds anything. Even things that shouldn't be held. Useful? Yes. Safe? No.]&f"
+			]
 			id: "08DB6154965F3519"
 			rewards: [
 				{
@@ -1345,61 +1782,88 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0A9F31D9DAA86C9C"
-				item: "avaritia:infinity_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A9F31D9DAA86C9C"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["Provides Nigh &eInfinite&r &aEterna&r, and Used for a few &6crafting recipes&r."]
+			description: [
+				"提供近乎无限的位阶,用于少量合成配方."
+				""
+				""
+				"&7[Provides Nigh Infinite 位阶, and Used for a few crafting recipes.]&f"
+			]
 			id: "04E552E69695756D"
-			rewards: [{
-				id: "312E24468F558983"
-				type: "xp_levels"
-				xp_levels: 200
-			}]
-			tasks: [{
-				id: "1B3D2676CB8A5F68"
-				item: "avaritia:infinity"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "312E24468F558983"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+			]
+			tasks: [
+				{
+					id: "1B3D2676CB8A5F68"
+					item: "avaritia:infinity"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["Gathered from the &6Infinity Ingot&r, you will use this to craft the &bExtreme Smithing Table&r and &bTe&bmplate.&r&r"]
+			description: [
+				"从无限锭中采集,你将用此 &a合成&f 极限锻造台与模板."
+				""
+				""
+				"&7[Gathered from the Infinity Ingot, you will use this to craft the Extreme Smithing Table and Template.]&f"
+			]
 			id: "521E73E59FE17D9B"
-			rewards: [{
-				id: "1FD328961900EEAE"
-				type: "xp_levels"
-				xp_levels: 200
-			}]
-			tasks: [{
-				id: "082A4E35782BFF21"
-				item: "avaritia:infinity_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1FD328961900EEAE"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+			]
+			tasks: [
+				{
+					id: "082A4E35782BFF21"
+					item: "avaritia:infinity_nugget"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["348E851939EFF3EB"]
-			description: ["An &aexpensive&r &aflower&r crafted at the &bExtreme Crafting Table&r, this is used to provide near &dinfinite mana&r. &6Permanently&r, for &bBotania.&r"]
+			description: [
+				"一种昂贵之花,在终极工作台 &a合成&f,用于提供近乎无限的魔力.永久性地,为植物魔法."
+				""
+				""
+				"&7[An expensive flower crafted at the Extreme Crafting Table, this is used to provide near infinite mana. Permanently, for Botania.]&f"
+			]
 			id: "571F902C6B1A5DC7"
-			subtitle: "Asgarda- what now"
-			tasks: [{
-				id: "5BA72A53FBEF045A"
-				item: "botaniaasgard:asgardandelion"
-				type: "item"
-			}]
+			subtitle: "阿斯加德-现在如何&7[Asgarda- what now]&f"
+			tasks: [
+				{
+					id: "5BA72A53FBEF045A"
+					item: "botaniaasgard:asgardandelion"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -1.5d
 		}
 	]
-	title: " &5Avaritia"
+	title: "&5贪婪&f&7[ Avaritia]&f"
 }

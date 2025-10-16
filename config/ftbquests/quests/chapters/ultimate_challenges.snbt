@@ -24,20 +24,22 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "bloodmagic:soulscythe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "bloodmagic:soulscythe"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "5FE6CF4715CD753A"
+					stat: "minecraft:time_since_death"
+					type: "stat"
+					value: 6900000
 				}
-				id: "5FE6CF4715CD753A"
-				stat: "minecraft:time_since_death"
-				type: "stat"
-				value: 6900000
-			}]
-			title: "&cSince Last Death"
+			]
+			title: "&c自&a上一次死亡&f&7[Since Last Death]&f"
 			x: -1.6d
 			y: -6.4d
 		}
@@ -58,14 +60,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			tasks: [{
-				icon: "minecraft:clock"
-				id: "5710C05DA1B84695"
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 5900000
-			}]
-			title: "&bTime Played"
+			tasks: [
+				{
+					icon: "minecraft:clock"
+					id: "5710C05DA1B84695"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 5900000
+				}
+			]
+			title: "&b游戏时长&7[Time Played]&f"
 			x: 0.0d
 			y: -6.4d
 		}
@@ -86,15 +90,17 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "1 million steaks waiting to be grilled"
-			tasks: [{
-				consume_items: true
-				count: 1000000L
-				id: "57BA1BF3724BDAF9"
-				item: "minecraft:cooked_beef"
-				type: "item"
-			}]
-			title: "&6King of the Grill"
+			subtitle: "百万牛排待烤制&7[1 million steaks waiting to be grilled]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 1000000L
+					id: "57BA1BF3724BDAF9"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			title: "&e烧烤大师&7[King of the Grill]&f"
 			x: -8.0d
 			y: -4.8d
 		}
@@ -115,16 +121,18 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Spend 1 million of diamonds to benefit poor"
-			tasks: [{
-				consume_items: true
-				count: 5000000L
-				id: "79ACBA57DC39394B"
-				item: "minecraft:diamond"
-				title: "1,000,000 Diamonds"
-				type: "item"
-			}]
-			title: "&9Robin Hood"
+			subtitle: "消耗百万钻石济贫&7[Spend 1 million of diamonds to benefit poor]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 5000000L
+					id: "79ACBA57DC39394B"
+					item: "minecraft:diamond"
+					title: "1,000,000颗钻石"
+					type: "item"
+				}
+			]
+			title: "&9&a罗宾汉&f&7[Robin Hood]&f"
 			x: -9.6d
 			y: -6.4d
 		}
@@ -144,15 +152,17 @@
 				}
 			]
 			size: 1.6d
-			subtitle: "Vanilla Crafting Table"
-			tasks: [{
-				icon: "minecraft:crafting_table"
-				id: "632CDBDBB8ACE278"
-				stat: "minecraft:interact_with_crafting_table"
-				title: "&9Open Crafting Table 1k Times"
-				type: "stat"
-				value: 1000
-			}]
+			subtitle: "原版工作台&7[Vanilla Crafting Table]&f"
+			tasks: [
+				{
+					icon: "minecraft:crafting_table"
+					id: "632CDBDBB8ACE278"
+					stat: "minecraft:interact_with_crafting_table"
+					title: "&9开启工作台1千次"
+					type: "stat"
+					value: 1000
+				}
+			]
 			x: 0.8d
 			y: -10.4d
 		}
@@ -183,14 +193,16 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "51E2C4E17C4B629C"
-				title: "Kill: 100x Wither"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "51E2C4E17C4B629C"
+					title: "击杀:100次凋灵"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: -9.6d
 			y: -8.8d
 		}
@@ -210,13 +222,15 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				id: "5CFE33E5A9F78A10"
-				points: false
-				title: "XP Levels: &c3,000"
-				type: "xp"
-				value: 3000L
-			}]
+			tasks: [
+				{
+					id: "5CFE33E5A9F78A10"
+					points: false
+					title: "经验等级:&c3,000"
+					type: "xp"
+					value: 3000L
+				}
+			]
 			x: 1.6d
 			y: -6.4d
 		}
@@ -236,19 +250,26 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				icon: "minecraft:red_bed"
-				id: "0F332AE1241A512A"
-				stat: "minecraft:sleep_in_bed"
-				title: "Sleep: 3,000x in your bed"
-				type: "stat"
-				value: 3000
-			}]
+			tasks: [
+				{
+					icon: "minecraft:red_bed"
+					id: "0F332AE1241A512A"
+					stat: "minecraft:sleep_in_bed"
+					title: "在床上睡眠:3,000次"
+					type: "stat"
+					value: 3000
+				}
+			]
 			x: 2.4000000000000004d
 			y: -8.8d
 		}
 		{
-			description: ["Use Jukebox."]
+			description: [
+				"使用唱片机"
+				""
+				""
+				"&7[Use Jukebox.]&f"
+			]
 			id: "1FD5C5128D418042"
 			rewards: [
 				{
@@ -264,14 +285,16 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				icon: "minecraft:jukebox"
-				id: "5C69AE6392056334"
-				stat: "minecraft:play_record"
-				title: "Play: 1,000 Music Discs"
-				type: "stat"
-				value: 1000
-			}]
+			tasks: [
+				{
+					icon: "minecraft:jukebox"
+					id: "5C69AE6392056334"
+					stat: "minecraft:play_record"
+					title: "播放:1,000次&a音乐唱片&f"
+					type: "stat"
+					value: 1000
+				}
+			]
 			x: -0.8d
 			y: -8.8d
 		}
@@ -291,21 +314,23 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "14B3C291F47A3E72"
+					stat: "minecraft:fish_caught"
+					title: "捕获:1,500条鱼"
+					type: "stat"
+					value: 1500
 				}
-				id: "14B3C291F47A3E72"
-				stat: "minecraft:fish_caught"
-				title: "Catch: 1,500x Fish"
-				type: "stat"
-				value: 1500
-			}]
-			title: "&6That's fishy.."
+			]
+			title: "&e真有鱼腥味..&7[That's fishy..]&f"
 			x: -0.8d
 			y: -10.4d
 		}
@@ -325,19 +350,26 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				icon: "minecraft:enchanting_table"
-				id: "2C3910CD1178E3CC"
-				stat: "minecraft:enchant_item"
-				title: "Enchant: 500x Items"
-				type: "stat"
-				value: 500
-			}]
+			tasks: [
+				{
+					icon: "minecraft:enchanting_table"
+					id: "2C3910CD1178E3CC"
+					stat: "minecraft:enchant_item"
+					title: "附魔:500件物品"
+					type: "stat"
+					value: 500
+				}
+			]
 			x: 0.8d
 			y: -8.8d
 		}
 		{
-			description: ["Use &eTask Screen&r to complete this Quest."]
+			description: [
+				"使用&e&a目标显示器&f&r完成此任务"
+				""
+				""
+				"&7[Use Task Screen to complete this Quest.]&f"
+			]
 			id: "48AAA21C2214AED4"
 			rewards: [
 				{
@@ -354,20 +386,27 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Hot Stuff"
-			tasks: [{
-				amount: 1000000000L
-				fluid: "minecraft:lava"
-				id: "014040012F86D797"
-				title: "1,000,000 Buckets of Lava"
-				type: "fluid"
-			}]
-			title: "&4The Smeltery"
+			subtitle: "&a热料&f&7[Hot Stuff]&f"
+			tasks: [
+				{
+					amount: 1000000000L
+					fluid: "minecraft:lava"
+					id: "014040012F86D797"
+					title: "1,000,000桶岩浆"
+					type: "fluid"
+				}
+			]
+			title: "&4&a冶炼釜&f&7[The Smeltery]&f"
 			x: -6.4d
 			y: -4.8d
 		}
 		{
-			description: ["Use &eTask Screen&r to complete this Quest."]
+			description: [
+				"使用&e&a目标显示器&f&r完成此任务"
+				""
+				""
+				"&7[Use Task Screen to complete this Quest.]&f"
+			]
 			id: "51F42BF270D6F54D"
 			rewards: [
 				{
@@ -384,14 +423,16 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Cool, eh?"
-			tasks: [{
-				id: "4D8588BE28BFAE5C"
-				max_input: 1000L
-				type: "forge_energy"
-				value: 1000000000L
-			}]
-			title: "&5All That Power"
+			subtitle: "很酷吧？&7[Cool, eh?]&f"
+			tasks: [
+				{
+					id: "4D8588BE28BFAE5C"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 1000000000L
+				}
+			]
+			title: "&5无尽能源&7[All That Power]&f"
 			x: -11.2d
 			y: -4.8d
 		}
@@ -412,12 +453,14 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			tasks: [{
-				id: "4076914782A79491"
-				item: "allthemodium:alloy_sword"
-				type: "item"
-			}]
-			title: "&6Allthemodium Alloy Blade"
+			tasks: [
+				{
+					id: "4076914782A79491"
+					item: "allthemodium:alloy_sword"
+					type: "item"
+				}
+			]
+			title: "&e&aATM合金剑&f&7[Allthemodium Alloy Blade]&f"
 			x: 0.0d
 			y: -1.6d
 		}
@@ -438,12 +481,14 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			tasks: [{
-				id: "22F14CC788517E4D"
-				item: "allthemodium:alloy_paxel"
-				type: "item"
-			}]
-			title: "&6Allthemodium Alloy Paxel"
+			tasks: [
+				{
+					id: "22F14CC788517E4D"
+					item: "allthemodium:alloy_paxel"
+					type: "item"
+				}
+			]
+			title: "&e&aATM合金镐尖斧&f&7[Allthemodium Alloy Paxel]&f"
 			x: 1.6d
 			y: -1.6d
 		}
@@ -464,18 +509,20 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			tasks: [{
-				consume_items: true
-				count: 200L
-				id: "617E75FAC56E0FB5"
-				item: {
-					Count: 1
-					id: "extendedcrafting:ultimate_singularity"
-					tag: { }
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "617E75FAC56E0FB5"
+					item: {
+						Count: 1
+						id: "extendedcrafting:ultimate_singularity"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "&5The Master of the Singularity"
+			]
+			title: "&5&a奇点大师&f&7[The Master of the Singularity]&f"
 			x: -16.0d
 			y: -4.8d
 		}
@@ -495,15 +542,17 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				icon: "draconicevolution:mob_soul"
-				id: "6C3E75B7FC24C344"
-				stat: "minecraft:pig_one_cm"
-				title: "They see me piggin', They hatin'"
-				type: "stat"
-				value: 10000
-			}]
-			title: "&2Travel 10k Blocks Riding a Pig"
+			tasks: [
+				{
+					icon: "draconicevolution:mob_soul"
+					id: "6C3E75B7FC24C344"
+					stat: "minecraft:pig_one_cm"
+					title: "他们见我骑猪',他们嫉妒'"
+					type: "stat"
+					value: 10000
+				}
+			]
+			title: "&2骑猪行进万格&7[Travel 10k Blocks Riding a Pig]&f"
 			x: 0.8d
 			y: -4.0d
 		}
@@ -523,15 +572,17 @@
 				}
 			]
 			size: 1.6d
-			tasks: [{
-				icon: "minecraft:chest"
-				id: "771136E7D407A4F9"
-				stat: "minecraft:open_chest"
-				title: "Open 10k Chests"
-				type: "stat"
-				value: 10000
-			}]
-			title: "&cBeing a little Chesty"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "771136E7D407A4F9"
+					stat: "minecraft:open_chest"
+					title: "开启1万次箱子"
+					type: "stat"
+					value: 10000
+				}
+			]
+			title: "&c小小收藏家&7[Being a little Chesty]&f"
 			x: 2.4000000000000004d
 			y: -10.4d
 		}
@@ -552,16 +603,18 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Spend 1 million Wood"
-			tasks: [{
-				consume_items: true
-				count: 10000000L
-				id: "6C4EDABA20BE140C"
-				item: "minecraft:oak_log"
-				title: "1,000,000 Wood"
-				type: "item"
-			}]
-			title: "&9Robin Wood"
+			subtitle: "消耗百万木材&7[Spend 1 million Wood]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 10000000L
+					id: "6C4EDABA20BE140C"
+					item: "minecraft:oak_log"
+					title: "1,000,000份木材"
+					type: "item"
+				}
+			]
+			title: "&9罗宾木&7[Robin Wood]&f"
 			x: -11.2d
 			y: -6.4d
 		}
@@ -582,16 +635,18 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Stuff the vault with half a million radiant cores."
-			tasks: [{
-				consume_items: true
-				count: 50000L
-				id: "486429CD1A0F4F2E"
-				item: "minecraft:nether_star"
-				title: "50,000 Nether Stars"
-				type: "item"
-			}]
-			title: "&4Nether Star Donation Drive"
+			subtitle: "用五十万耀光核心填满宝库&7[Stuff the vault with half a million radiant cores.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 50000L
+					id: "486429CD1A0F4F2E"
+					item: "minecraft:nether_star"
+					title: "50,000颗&a下界之星&f"
+					type: "item"
+				}
+			]
+			title: "&4&a下界之星&f捐赠计划&7[Nether Star Donation Drive]&f"
 			x: -6.4d
 			y: -6.4d
 		}
@@ -612,16 +667,18 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Become the bank every villager dreams about."
-			tasks: [{
-				consume_items: true
-				count: 2500000L
-				id: "31023B177EBC52E0"
-				item: "minecraft:emerald"
-				title: "1,000,000 Emeralds"
-				type: "item"
-			}]
-			title: "&2Emerald Endowment"
+			subtitle: "成为村民梦寐以求的银行家&7[Become the bank every villager dreams about.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 2500000L
+					id: "31023B177EBC52E0"
+					item: "minecraft:emerald"
+					title: "1,000,000颗绿宝石"
+					type: "item"
+				}
+			]
+			title: "&2翡翠捐赠&7[Emerald Endowment]&f"
 			x: -8.0d
 			y: -6.4d
 		}
@@ -642,16 +699,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Stack a quarter million Vibranium ingots."
-			tasks: [{
-				consume_items: true
-				count: 250000L
-				id: "4691FD152DDF4022"
-				item: "allthemodium:vibranium_ingot"
-				title: "250,000 Vibranium Ingots"
-				type: "item"
-			}]
-			title: "&6Vibranium Vault"
+			subtitle: "囤积二十五万振金锭&7[Stack a quarter million Vibranium ingots.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 250000L
+					id: "4691FD152DDF4022"
+					item: "allthemodium:vibranium_ingot"
+					title: "250,000块&a振金锭&f"
+					type: "item"
+				}
+			]
+			title: "&e振金宝库&7[Vibranium Vault]&f"
 			x: -17.6d
 			y: -5.6000000000000005d
 		}
@@ -672,16 +731,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "If it's unobtainable, prove otherwise."
-			tasks: [{
-				consume_items: true
-				count: 150000L
-				id: "4C949CA352C54212"
-				item: "allthemodium:unobtainium_ingot"
-				title: "150,000 Unobtainium Ingots"
-				type: "item"
-			}]
-			title: "&dUnobtainium Treasury"
+			subtitle: "若不可得,请证明其可得&7[If it's unobtainable, prove otherwise.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 150000L
+					id: "4C949CA352C54212"
+					item: "allthemodium:unobtainium_ingot"
+					title: "150,000块&a难得素锭&f"
+					type: "item"
+				}
+			]
+			title: "&d难以获取之宝库&7[Unobtainium Treasury]&f"
 			x: -17.6d
 			y: -4.0d
 		}
@@ -702,16 +763,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Build a sea of chaotic energy nodes."
-			tasks: [{
-				consume_items: true
-				count: 512L
-				id: "13AF5FD687FC402C"
-				item: "draconicevolution:chaotic_core"
-				title: "512 Chaotic Cores"
-				type: "item"
-			}]
-			title: "&5Chaotic Core Cascade"
+			subtitle: "构建混沌能量节点的海洋&7[Build a sea of chaotic energy nodes.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "13AF5FD687FC402C"
+					item: "draconicevolution:chaotic_core"
+					title: "512 &a混沌核心&f"
+					type: "item"
+				}
+			]
+			title: "&5&a混沌核心&f瀑布&7[Chaotic Core Cascade]&f"
 			x: -17.6d
 			y: -2.4000000000000004d
 		}
@@ -732,16 +795,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Harvest a thousand shards from Chaos Islands."
-			tasks: [{
-				consume_items: true
-				count: 1000L
-				id: "5BE479CC32C741EB"
-				item: "draconicevolution:chaos_shard"
-				title: "1,000 Chaos Shards"
-				type: "item"
-			}]
-			title: "&5Shardfall"
+			subtitle: "从混沌岛屿收集一千枚碎片.&7[Harvest a thousand shards from Chaos Islands.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "5BE479CC32C741EB"
+					item: "draconicevolution:chaos_shard"
+					title: "1,000片&a混沌碎片&f"
+					type: "item"
+				}
+			]
+			title: "&5碎片陨落&7[Shardfall]&f"
 			x: -17.6d
 			y: -8.8d
 		}
@@ -762,16 +827,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Serve every table with the ultimate alloy plate."
-			tasks: [{
-				consume_items: true
-				count: 2048L
-				id: "7BD06564C4E149BE"
-				item: "extendedcrafting:the_ultimate_ingot"
-				title: "2,048 Ultimate Ingots"
-				type: "item"
-			}]
-			title: "&6Ultimate Ingot Buffet"
+			subtitle: "为每张餐桌奉上终极合金板.&7[Serve every table with the ultimate alloy plate.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 2048L
+					id: "7BD06564C4E149BE"
+					item: "extendedcrafting:the_ultimate_ingot"
+					title: "2,048块&a终极锭&f"
+					type: "item"
+				}
+			]
+			title: "&e&a终极锭&f 盛宴&7[Ultimate Ingot Buffet]&f"
 			x: -17.6d
 			y: -7.2d
 		}
@@ -792,16 +859,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Wrap the base in pure creative essence."
-			tasks: [{
-				consume_items: true
-				count: 1024L
-				id: "5815D97B298A4198"
-				item: "mysticalagradditions:creative_essence"
-				title: "1,024 Creative Essence"
-				type: "item"
-			}]
-			title: "&dCreative Essence Cloud"
+			subtitle: "用纯净创造精华包裹基地.&7[Wrap the base in pure creative essence.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "5815D97B298A4198"
+					item: "mysticalagradditions:creative_essence"
+					title: "1,024份&a创造精华&f"
+					type: "item"
+				}
+			]
+			title: "&d&a创造精华&f 云&7[Creative Essence Cloud]&f"
 			x: -16.0d
 			y: -6.4d
 		}
@@ -822,16 +891,18 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			subtitle: "Stage sixty-four nitro reactors at once."
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "18E23FEA96F84DEB"
-				item: "powah:reactor_nitro"
-				title: "64 Nitro Reactors"
-				type: "item"
-			}]
-			title: "&cNitro Grid Overload"
+			subtitle: "一次性启动六十四座硝基反应堆.&7[Stage sixty-four nitro reactors at once.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "18E23FEA96F84DEB"
+					item: "powah:reactor_nitro"
+					title: "64 &a硝基反应器&f"
+					type: "item"
+				}
+			]
+			title: "&c硝基电网过载&7[Nitro Grid Overload]&f"
 			x: -8.0d
 			y: -2.4d
 		}
@@ -852,16 +923,18 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Feed the SPS an ocean of polonium."
-			tasks: [{
-				consume_items: true
-				count: 5000L
-				id: "5A52DCC22F0445DA"
-				item: "mekanism:pellet_polonium"
-				title: "5,000 Polonium Pellets"
-				type: "item"
-			}]
-			title: "&3Polonium Pantry"
+			subtitle: "为SPS注入海量钋元素.&7[Feed the SPS an ocean of polonium.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "5A52DCC22F0445DA"
+					item: "mekanism:pellet_polonium"
+					title: "5,000粒&a钋靶丸&f"
+					type: "item"
+				}
+			]
+			title: "&3钋储藏室&7[Polonium Pantry]&f"
 			x: -9.6d
 			y: -4.8d
 		}
@@ -882,16 +955,18 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			subtitle: "Industrial Foregoing never sleeps."
-			tasks: [{
-				consume_items: true
-				count: 256L
-				id: "54E9A83CB5864DCE"
-				item: "industrialforegoing:machine_frame_supreme"
-				title: "256 Supreme Frames"
-				type: "item"
-			}]
-			title: "&6Supreme Machine Network"
+			subtitle: "&d工业先锋&f 永不眠.&7[Industrial Foregoing never sleeps.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "54E9A83CB5864DCE"
+					item: "industrialforegoing:machine_frame_supreme"
+					title: "256个至尊框架"
+					type: "item"
+				}
+			]
+			title: "&e至尊机器网络&7[Supreme Machine Network]&f"
 			x: -11.2d
 			y: -2.4d
 		}
@@ -912,16 +987,18 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			subtitle: "Line every assembly with catalysts."
-			tasks: [{
-				consume_items: true
-				count: 512L
-				id: "4744D6BD4E57458A"
-				item: "extendedcrafting:ultimate_catalyst"
-				title: "512 Ultimate Catalysts"
-				type: "item"
-			}]
-			title: "&5Catalyst Cascade"
+			subtitle: "为每个组装线配备催化剂.&7[Line every assembly with catalysts.]&f"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "4744D6BD4E57458A"
+					item: "extendedcrafting:ultimate_catalyst"
+					title: "512个终极催化剂"
+					type: "item"
+				}
+			]
+			title: "&5催化剂瀑流&7[Catalyst Cascade]&f"
 			x: -9.6d
 			y: -2.4d
 		}
@@ -942,22 +1019,24 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Fly five thousand kilometers without touching ground."
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
+			subtitle: "悬空飞行五千公里不触地.&7[Fly five thousand kilometers without touching ground.]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "2C8E67B8E9184D79"
+					stat: "minecraft:fly_one_cm"
+					title: "飞行5,000公里"
+					type: "stat"
+					value: 500000000
 				}
-				id: "2C8E67B8E9184D79"
-				stat: "minecraft:fly_one_cm"
-				title: "Fly 5,000 km"
-				type: "stat"
-				value: 500000000
-			}]
-			title: "&bElytra Marathon"
+			]
+			title: "&b鞘翅马拉松&7[Elytra Marathon]&f"
 			x: -9.6d
 			y: -10.4d
 		}
@@ -978,22 +1057,24 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Sprint the overworld into a groove."
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:golden_boots"
-					tag: {
-						Damage: 0
+			subtitle: "在主世界跑出完美轨迹.&7[Sprint the overworld into a groove.]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "24AE638F155D898C"
+					stat: "minecraft:sprint_one_cm"
+					title: "疾跑7,500公里"
+					type: "stat"
+					value: 750000000
 				}
-				id: "24AE638F155D898C"
-				stat: "minecraft:sprint_one_cm"
-				title: "Sprint 7,500 km"
-				type: "stat"
-				value: 750000000
-			}]
-			title: "&2Sprint Ultramarathon"
+			]
+			title: "&2超级疾跑马拉松&7[Sprint Ultramarathon]&f"
 			x: -11.2d
 			y: -10.4d
 		}
@@ -1014,22 +1095,24 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Cross oceans on pure lung power."
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:trident"
-					tag: {
-						Damage: 0
+			subtitle: "纯靠肺活量横渡海洋.&7[Cross oceans on pure lung power.]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "1987851DBD494093"
+					stat: "minecraft:swim_one_cm"
+					title: "游泳2,500公里"
+					type: "stat"
+					value: 250000000
 				}
-				id: "1987851DBD494093"
-				stat: "minecraft:swim_one_cm"
-				title: "Swim 2,500 km"
-				type: "stat"
-				value: 250000000
-			}]
-			title: "&3Underwater Express"
+			]
+			title: "&3水下特快&7[Underwater Express]&f"
 			x: -8.0d
 			y: -10.4d
 		}
@@ -1050,16 +1133,18 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Hop until gravity files a complaint."
-			tasks: [{
-				icon: "minecraft:rabbit_foot"
-				id: "5DAB376306833D90"
-				stat: "minecraft:jump"
-				title: "Jump 500,000 Times"
-				type: "stat"
-				value: 500000
-			}]
-			title: "&9Leap Legend"
+			subtitle: "跃至重力系统提出抗议.&7[Hop until gravity files a complaint.]&f"
+			tasks: [
+				{
+					icon: "minecraft:rabbit_foot"
+					id: "5DAB376306833D90"
+					stat: "minecraft:jump"
+					title: "跳跃500,000次"
+					type: "stat"
+					value: 500000
+				}
+			]
+			title: "&9跳跃传奇&7[Leap Legend]&f"
 			x: -6.4d
 			y: -10.4d
 		}
@@ -1080,22 +1165,24 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Deal half a billion hearts of damage."
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
+			subtitle: "造成五亿颗心的伤害量.&7[Deal half a billion hearts of damage.]&f"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "2DD56842D9FD447C"
+					stat: "minecraft:damage_dealt"
+					title: "造成500,000,000点&a伤害&f"
+					type: "stat"
+					value: 500000000
 				}
-				id: "2DD56842D9FD447C"
-				stat: "minecraft:damage_dealt"
-				title: "Deal 500,000,000 Damage"
-				type: "stat"
-				value: 500000000
-			}]
-			title: "&4Damage Incarnate"
+			]
+			title: "&4伤害化身&7[Damage Incarnate]&f"
 			x: -11.2d
 			y: -8.8d
 		}
@@ -1116,16 +1203,18 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Populate the planet with happy animals."
-			tasks: [{
-				icon: "minecraft:wheat"
-				id: "0A859316833A4093"
-				stat: "minecraft:animals_bred"
-				title: "Breed 10,000 Animals"
-				type: "stat"
-				value: 10000
-			}]
-			title: "&aMaster Breeder"
+			subtitle: "让星球遍布幸福动物.&7[Populate the planet with happy animals.]&f"
+			tasks: [
+				{
+					icon: "minecraft:wheat"
+					id: "0A859316833A4093"
+					stat: "minecraft:animals_bred"
+					title: "繁殖10,000只动物"
+					type: "stat"
+					value: 10000
+				}
+			]
+			title: "&a育种大师&7[Master Breeder]&f"
 			x: -6.4d
 			y: -2.4d
 		}
@@ -1146,16 +1235,18 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "No more dragon resets."
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_head"
-				id: "683141AC36E14C91"
-				title: "Slay 50 Ender Dragons"
-				type: "kill"
-				value: 50L
-			}]
-			title: "&5Dragon Eradicator"
+			subtitle: "终结巨龙重生循环.&7[No more dragon resets.]&f"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "683141AC36E14C91"
+					title: "斩杀50条&a末影龙&f"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "&5巨龙根除者&7[Dragon Eradicator]&f"
 			x: -8.0d
 			y: -8.8d
 		}
@@ -1176,16 +1267,18 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Empty every ocean monument twice over."
-			tasks: [{
-				entity: "minecraft:elder_guardian"
-				icon: "minecraft:prismarine_shard"
-				id: "3DDF2F594A6CD35B"
-				title: "Defeat 250 Elder Guardians"
-				type: "kill"
-				value: 250L
-			}]
-			title: "&3Guardian Buster"
+			subtitle: "清空每座海底神殿两次.&7[Empty every ocean monument twice over.]&f"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "minecraft:prismarine_shard"
+					id: "3DDF2F594A6CD35B"
+					title: "击败250只远古守卫者"
+					type: "kill"
+					value: 250L
+				}
+			]
+			title: "&3守卫者终结者&7[Guardian Buster]&f"
 			x: -6.4d
 			y: -8.8d
 		}
@@ -1205,17 +1298,19 @@
 				}
 			]
 			size: 1.6d
-			subtitle: "Die 1000 times"
-			tasks: [{
-				id: "328D228B8F1B1B9D"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 1000
-			}]
-			title: "&3DIE"
+			subtitle: "死亡1000次&7[Die 1000 times]&f"
+			tasks: [
+				{
+					id: "328D228B8F1B1B9D"
+					stat: "minecraft:deaths"
+					type: "stat"
+					value: 1000
+				}
+			]
+			title: "&3死亡&7[DIE]&f"
 			x: 3.2d
 			y: -6.4d
 		}
 	]
-	title: "Legendary Challenges"
+	title: "传奇挑战&7[Legendary Challenges]&f"
 }

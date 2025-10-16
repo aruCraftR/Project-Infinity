@@ -117,14 +117,21 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers."]
+			description: [
+				"&a虚空矿工&f 是一款M科技模组,添加了多层级多方块机器,可通过能源与可升级修改器从虚空中生成资源."
+				""
+				""
+				"&7[Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers.]&f"
+			]
 			id: "10650AD3F8696D4C"
 			size: 2.0d
-			tasks: [{
-				id: "25FADFE2900B9911"
-				title: "Welcome to Voidminers"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "25FADFE2900B9911"
+					title: "欢迎来到虚空矿工"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -8.0d
 		}
@@ -141,17 +148,23 @@
 				{
 					count: 20L
 					id: "338D5EA13ADBF6AF"
-					item: { Count: 20, id: "voidminers:rubetine_frame" }
+					item: {
+						Count: 20
+						id: "voidminers:rubetine_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "63A58033E0D136C1"
-					item: { Count: 9, id: "voidminers:glass_panel" }
+					item: {
+						Count: 9
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 			]
-			title: "Rubetine Miner Tier 1"
+			title: "一级红宝石矿工&7[Rubetine Miner Tier 1]&f"
 			x: -7.0d
 			y: 0.5d
 		}
@@ -162,48 +175,56 @@
 				"24CC64ABC1D2FADE"
 			]
 			id: "613DA71A509DC39C"
-			tasks: [{
-				count: 100L
-				id: "585BB4B5F94263F8"
-				item: "voidminers:rubetine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 100L
+					id: "585BB4B5F94263F8"
+					item: "voidminers:rubetine"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			id: "512222D9CB8B09F2"
-			tasks: [{
-				count: 25L
-				id: "409CEF9D36709899"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 25L
+					id: "409CEF9D36709899"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			id: "4A1B83D6B3D68FA8"
-			tasks: [{
-				count: 100L
-				id: "7FA10D713B0F8492"
-				item: "minecraft:blaze_powder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 100L
+					id: "7FA10D713B0F8492"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			id: "24CC64ABC1D2FADE"
-			tasks: [{
-				count: 100L
-				id: "54A2C4380DF5A477"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 100L
+					id: "54A2C4380DF5A477"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -5.0d
 		}
@@ -220,19 +241,28 @@
 				{
 					count: 36L
 					id: "42C76A6F2E92DDB1"
-					item: { Count: 36, id: "voidminers:aurantium_frame" }
+					item: {
+						Count: 36
+						id: "voidminers:aurantium_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 23L
 					id: "4DEC8094A116BD54"
-					item: { Count: 23, id: "voidminers:glass_panel" }
+					item: {
+						Count: 23
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "30CFF633DBC23ABD"
-					item: { Count: 2, id: "voidminers:null_modifier" }
+					item: {
+						Count: 2
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -252,19 +282,28 @@
 				{
 					count: 36L
 					id: "76FF348890B577AC"
-					item: { Count: 36, id: "voidminers:citrinetine_frame" }
+					item: {
+						Count: 36
+						id: "voidminers:citrinetine_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 21L
 					id: "014A45D765427D68"
-					item: { Count: 21, id: "voidminers:glass_panel" }
+					item: {
+						Count: 21
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "02BC48B252047B2D"
-					item: { Count: 4, id: "voidminers:null_modifier" }
+					item: {
+						Count: 4
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -284,19 +323,28 @@
 				{
 					count: 44L
 					id: "5B1ADCE78AFE009B"
-					item: { Count: 44, id: "voidminers:verdium_frame" }
+					item: {
+						Count: 44
+						id: "voidminers:verdium_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 39L
 					id: "07EBE545873D7E6B"
-					item: { Count: 39, id: "voidminers:glass_panel" }
+					item: {
+						Count: 39
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "3059583A9571C989"
-					item: { Count: 6, id: "voidminers:null_modifier" }
+					item: {
+						Count: 6
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -316,19 +364,28 @@
 				{
 					count: 48L
 					id: "0E58EAD37978D30F"
-					item: { Count: 48, id: "voidminers:azurine_frame" }
+					item: {
+						Count: 48
+						id: "voidminers:azurine_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 37L
 					id: "42C56536ADE9A9B8"
-					item: { Count: 37, id: "voidminers:glass_panel" }
+					item: {
+						Count: 37
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "0EB33FE413FEBDF1"
-					item: { Count: 8, id: "voidminers:null_modifier" }
+					item: {
+						Count: 8
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -348,19 +405,28 @@
 				{
 					count: 44L
 					id: "60B8FFBC1D6798D8"
-					item: { Count: 44, id: "voidminers:caerium_frame" }
+					item: {
+						Count: 44
+						id: "voidminers:caerium_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 35L
 					id: "15FA408B8BA96258"
-					item: { Count: 35, id: "voidminers:glass_panel" }
+					item: {
+						Count: 35
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "472186B9B5D0C2E8"
-					item: { Count: 10, id: "voidminers:null_modifier" }
+					item: {
+						Count: 10
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -380,19 +446,28 @@
 				{
 					count: 44L
 					id: "3241DB1A9A0ED049"
-					item: { Count: 44, id: "voidminers:amethystine_frame" }
+					item: {
+						Count: 44
+						id: "voidminers:amethystine_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 25L
 					id: "133856B8F508F64F"
-					item: { Count: 25, id: "voidminers:glass_panel" }
+					item: {
+						Count: 25
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "7FA7133044EBF2FB"
-					item: { Count: 12, id: "voidminers:null_modifier" }
+					item: {
+						Count: 12
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -414,19 +489,28 @@
 				{
 					count: 60L
 					id: "662D38DD236D188B"
-					item: { Count: 60, id: "voidminers:rosarium_frame" }
+					item: {
+						Count: 60
+						id: "voidminers:rosarium_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 30L
 					id: "4B58B041211B2924"
-					item: { Count: 30, id: "voidminers:glass_panel" }
+					item: {
+						Count: 30
+						id: "voidminers:glass_panel"
+					}
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "654982B8F0E74FEF"
-					item: { Count: 13, id: "voidminers:null_modifier" }
+					item: {
+						Count: 13
+						id: "voidminers:null_modifier"
+					}
 					type: "item"
 				}
 			]
@@ -436,14 +520,24 @@
 		{
 			dependencies: ["4447B5220839E9E6"]
 			description: [
-				"You can replace any of the NULL Modifiers with:"
-				"&4-Energy Modifiers"
-				"&2-Duration Modifiers"
-				"&1-Item Modifiers&f"
+				"您可用以下修改器替换任意NULL修改器:"
+				"&4-&a能量模式&f"
+				"&2-持续时间修改器"
+				"&1-物品修改器&f"
 				""
-				"You dont need the same tier miner and same tier modifiers. "
+				"无需同级矿工与同级修改器匹配"
 				""
-				"place maximum 6 item modifiers!"
+				"最多放置6个物品修改器!"
+				""
+				""
+				"&7[You can replace any of the NULL Modifiers with:]&f"
+				"&7[-Energy Modifiers]&f"
+				"&7[-Duration Modifiers]&f"
+				"&7[-Item Modifiers]&f"
+				""
+				"&7[You dont need the same tier miner and same tier modifiers. ]&f"
+				""
+				"&7[place maximum 6 item modifiers!]&f"
 			]
 			id: "7A53D218AE346717"
 			tasks: [
@@ -473,236 +567,301 @@
 				"76F5BDC7F3F7612B"
 			]
 			id: "6FF80530D4F0FD81"
-			rewards: [{
-				id: "576F9BA3F7EF3A6F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 100L
-				id: "6C2EBFE41C98F876"
-				item: "voidminers:solar_rubetine"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "576F9BA3F7EF3A6F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 100L
+					id: "6C2EBFE41C98F876"
+					item: "voidminers:solar_rubetine"
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			id: "76F5BDC7F3F7612B"
-			rewards: [{
-				id: "7C240C2AC0ED3195"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 100L
-				id: "1F6D0A023FBF12F1"
-				item: { Count: 100, id: "minecraft:glowstone_dust" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7C240C2AC0ED3195"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 100L
+					id: "1F6D0A023FBF12F1"
+					item: {
+						Count: 100
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
 			x: -16.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			id: "3CF8F5666110D88F"
-			rewards: [{
-				id: "0C4429861AD6066D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 100L
-				id: "3C6FEDE13D5115CB"
-				item: { Count: 100, id: "minecraft:diamond" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0C4429861AD6066D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 100L
+					id: "3C6FEDE13D5115CB"
+					item: {
+						Count: 100
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			id: "2F904B520C4AFBA5"
-			rewards: [{
-				id: "758ABBF5632F93FF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 25L
-				id: "555266A6A3AA3486"
-				item: { Count: 25, id: "minecraft:redstone" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "758ABBF5632F93FF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 25L
+					id: "555266A6A3AA3486"
+					item: {
+						Count: 25
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
 			x: -13.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6FF80530D4F0FD81"]
 			id: "6E34E7248F1B7E27"
-			rewards: [{
-				id: "601D2807D223A469"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6FDC24F69E3D7AEF"
-				item: "voidminers:solar_rubetine_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "601D2807D223A469"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FDC24F69E3D7AEF"
+					item: "voidminers:solar_rubetine_panel"
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6E34E7248F1B7E27"]
 			id: "00BFF2A289A45C93"
-			rewards: [{
-				id: "0FC4DD916E687384"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1E86278D27134870"
-				item: "voidminers:solar_aurantium_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0FC4DD916E687384"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E86278D27134870"
+					item: "voidminers:solar_aurantium_panel"
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["00BFF2A289A45C93"]
 			id: "7A90741510A28F4B"
-			rewards: [{
-				id: "33869343881BC7CE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "20D8B997BF9D9041"
-				item: "voidminers:solar_citrinetine_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "33869343881BC7CE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20D8B997BF9D9041"
+					item: "voidminers:solar_citrinetine_panel"
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7A90741510A28F4B"]
 			id: "1C9447B840223651"
-			rewards: [{
-				id: "15134EE4FEA40DBC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0AE032163E0FD94E"
-				item: "voidminers:solar_verdium_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "15134EE4FEA40DBC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0AE032163E0FD94E"
+					item: "voidminers:solar_verdium_panel"
+					type: "item"
+				}
+			]
 			x: -15.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["1C9447B840223651"]
 			id: "060875F3B7C81315"
-			rewards: [{
-				id: "4F2155F5A4C7C6FC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3BB68D62EE5E3132"
-				item: "voidminers:solar_azurine_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F2155F5A4C7C6FC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3BB68D62EE5E3132"
+					item: "voidminers:solar_azurine_panel"
+					type: "item"
+				}
+			]
 			x: -17.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["060875F3B7C81315"]
 			id: "39D243515A8CCB04"
-			rewards: [{
-				id: "2EBF960CD69CB94C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0530D322B7A44275"
-				item: "voidminers:solar_caerium_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EBF960CD69CB94C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0530D322B7A44275"
+					item: "voidminers:solar_caerium_panel"
+					type: "item"
+				}
+			]
 			x: -17.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["39D243515A8CCB04"]
 			id: "3B023D3A72B6DB76"
-			rewards: [{
-				id: "30FEC7DDD178D7A7"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2842BE67F487178F"
-				item: "voidminers:solar_amethystine_panel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "30FEC7DDD178D7A7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2842BE67F487178F"
+					item: "voidminers:solar_amethystine_panel"
+					type: "item"
+				}
+			]
 			x: -17.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3B023D3A72B6DB76"]
 			id: "224DA46DAC47E550"
-			rewards: [{
-				id: "275422952168ADDF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "275422952168ADDF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "55BFB93C686F003A"
-				item: "voidminers:solar_rosarium_panel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55BFB93C686F003A"
+					item: "voidminers:solar_rosarium_panel"
+					type: "item"
+				}
+			]
 			x: -17.480238095238093d
 			y: 0.3928571428571388d
 		}
 		{
 			dependencies: ["224DA46DAC47E550"]
 			id: "1F7ACEEDD4FE9EBA"
-			rewards: [{
-				id: "55F8CD59C798F5BA"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "55F8CD59C798F5BA"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "7B27BC435DE582A4"
-				item: "voidminers:solar_ultimate_panel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B27BC435DE582A4"
+					item: "voidminers:solar_ultimate_panel"
+					type: "item"
+				}
+			]
 			x: -17.385000000000005d
 			y: -1.8928571428571601d
 		}
 		{
 			dependencies: ["2AA3081EC2F565CC"]
 			id: "1680C380DBB6EC24"
-			rewards: [{
-				id: "4EBF40CEE64F628D"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4EBF40CEE64F628D"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "505C8747C70595C6"
-				item: "voidminers:ultimate_miner"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "505C8747C70595C6"
+					item: "voidminers:ultimate_miner"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -2.0d
 		}
 	]
-	title: "&dVoidminer"
+	title: "&d虚空矿工&f&7[Voidminer]&f"
 }

@@ -5,27 +5,27 @@ StartupEvents.registry('item', (e) => {
   e.create('ultimate_gem')
     .tag('balm:gems')
     .tag('forge:gems')
-    .displayName('§dUltimate Gem')
+    .displayName('§d终极宝石')
     .maxStackSize(64)
     .texture('kubejs:item/components/ultimate_gem')
     .glow(true);
 
   e.create('ultimate_prediction')
     .tag('kubejs:ultimate_prediction')
-    .displayName('§dUltimate Prediction')
+    .displayName('§d终极预言')
     .maxStackSize(64)
     .texture('kubejs:item/ultimate_prediction');
 
   e.create('allthemodium_mesh')
     .tag('exdeorum:sieve_meshes')
-    .displayName('§6Allthemodium Mesh')
+    .displayName('§6全钍筛网')
     .maxStackSize(64)
     .texture('kubejs:item/allthemodium_mesh')
     .glow(true);
 
   e.create('vibranium_mesh')
     .tag('exdeorum:sieve_meshes')
-    .displayName('§aVibranium Mesh')
+    .displayName('§a振金筛网')
     .maxStackSize(64)
     .texture('kubejs:item/vibranium_mesh')
     .glow(true);
@@ -33,7 +33,7 @@ StartupEvents.registry('item', (e) => {
   e.create('left_dragon_heart')
     .tag('kubejs:left_dragon_heart')
     .tag('kubejs:dragon_heart')
-    .displayName('§aLeft Dragon Heart')
+    .displayName('§a左龙心')
     .maxStackSize(64)
     .texture('kubejs:item/left_dragon_heart')
     .glow(true);
@@ -41,38 +41,38 @@ StartupEvents.registry('item', (e) => {
   e.create('right_dragon_heart')
     .tag('kubejs:right_dragon_heart')
     .tag('kubejs:dragon_heart')
-    .displayName('§aRight Dragon Heart')
+    .displayName('§a右龙心')
     .maxStackSize(64)
     .texture('kubejs:item/right_dragon_heart')
     .glow(true);
 
   e.create('ultimate_heart')
     .tag('kubejs:ultimate_heart')
-    .displayName('§dUltimate Heart')
+    .displayName('§d终极之心')
     .maxStackSize(64)
     .texture('kubejs:item/ultimate_heart');
 
   e.create('wither_heart')
     .tag('kubejs:wither_heart')
-    .displayName('§7Wither Heart')
+    .displayName('§7凋灵之心')
     .maxStackSize(64)
     .texture('kubejs:item/wither_heart');
 
   e.create('warden_heart')
     .tag('kubejs:warden_heart')
-    .displayName('§1Warden Heart')
+    .displayName('§1监守者之心')
     .maxStackSize(64)
     .texture('kubejs:item/warden_heart');
 
   e.create('creeper_heart')
     .tag('kubejs:creeper_heart')
-    .displayName('§2Creeper Heart')
+    .displayName('§2苦力怕之心')
     .maxStackSize(64)
     .texture('kubejs:item/creeper_heart');
 
   e.create('blaze_heart')
     .tag('kubejs:blaze_heart')
-    .displayName('§6Blaze Heart')
+    .displayName('§6烈焰人心')
     .maxStackSize(64)
     .texture('kubejs:item/blaze_heart');
 
@@ -234,62 +234,62 @@ StartupEvents.registry('item', (e) => {
   e.create('tier1_crafting_seed')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier1_crafting_seed')
-    .displayName('§aTier 1 Crafting Seed');
+    .displayName('§a一级合成种子');
   e.create('tier2_crafting_seed')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier2_crafting_seed')
-    .displayName('§2Tier 2 Crafting Seed');
+    .displayName('§2二级合成种子');
   e.create('tier3_crafting_seed')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier3_crafting_seed')
-    .displayName('§6Tier 3 Crafting Seed');
+    .displayName('§6三级合成种子');
   e.create('tier4_crafting_seed')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier4_crafting_seed')
-    .displayName('§9Tier 4 Crafting Seed');
+    .displayName('§9四级合成种子');
   e.create('tier5_crafting_seed')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier5_crafting_seed')
-    .displayName('§4Tier 5 Crafting Seed');
+    .displayName('§4五级合成种子');
   e.create('tier6_crafting_seed')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier6_crafting_seed')
-    .displayName('§5Tier 6 Crafting Seed');
+    .displayName('§5六级合成种子');
 
   //tier 1-6 super essence and ultimate essence
   e.create('tier1_super_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier1_super_essence')
-    .displayName('§aTier 1 Super Essence');
+    .displayName('§a一级超级精华');
   e.create('tier2_super_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier2_super_essence')
-    .displayName('§2Tier 2 Super Essence');
+    .displayName('§2二级超级精华');
   e.create('tier3_super_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier3_super_essence')
-    .displayName('§6Tier 3 Super Essence');
+    .displayName('§6三级超级精华');
   e.create('tier4_super_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier4_super_essence')
-    .displayName('§9Tier 4 Super Essence');
+    .displayName('§9四级超级精华');
   e.create('tier5_super_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier5_super_essence')
-    .displayName('§4Tier 5 Super Essence');
+    .displayName('§4五级超级精华');
   e.create('tier6_super_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/tier6_super_essence')
-    .displayName('§5Tier 6 Super Essence');
+    .displayName('§5六级超级精华');
   e.create('infinity_essence')
     .maxStackSize(64)
     .texture('kubejs:item/mysticalagriculture/infinity_essence')
-    .displayName('§dInfinity Essence');
+    .displayName('§d无限精华');
 
   //Chaotic Essence
   e.create('chaotic_essence')
     .maxStackSize(64)
-    .displayName('§5Chaotic Essence')
+    .displayName('§5混沌精华')
     .texture('kubejs:item/chaotic_essence')
     .glow(true)
     .tag('kubejs:chaotic_essence');
@@ -297,7 +297,7 @@ StartupEvents.registry('item', (e) => {
       //Chaotic Essence
   e.create('chaos_guardian_prediction')
     .maxStackSize(64)
-    .displayName('§5Chaos Guardian Prediction')
+    .displayName('§5混沌守卫者预言')
     .texture('kubejs:item/chaos_guardian_prediction')
     .glow(true)
     .tag('kubejs:chaos_guardian_prediction');
@@ -339,7 +339,7 @@ StartupEvents.registry('item', (e) => {
 StartupEvents.registry('block', (event) => {
   event
     .create('compressed_block_of_gunpowder')
-    .displayName('Compressed Block of Gunpowder')
+    .displayName('压缩火药块')
     .soundType('gravel')
     .hardness(0.8)
     .resistance(1.0)
@@ -347,7 +347,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('compressed_slate')
-    .displayName('Compressed Slate')
+    .displayName('压缩板岩')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
@@ -355,7 +355,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('double_compressed_slate')
-    .displayName('Double Compressed Slate')
+    .displayName('双重压缩板岩')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
@@ -363,7 +363,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('double_compressed_iron_block')
-    .displayName('Double Compressed Iron Block')
+    .displayName('双重压缩铁块')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
@@ -371,7 +371,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('triple_compressed_iron_block')
-    .displayName('Triple Compressed Iron Block')
+    .displayName('三重压缩铁块')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
@@ -379,7 +379,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('pink_slime_block')
-    .displayName('Pink Slime Block')
+    .displayName('粉色粘液块')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
@@ -387,7 +387,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('chaotic_essence_block')
-    .displayName('§5Chaotic Essence Block')
+    .displayName('§5混沌精华块')
     .soundType('metal')
     .hardness(1.5)
     .resistance(3.0)
@@ -396,7 +396,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('starmetal_block')
-    .displayName('§1Starmetal Block')
+    .displayName('§1星辰金属块')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
@@ -405,7 +405,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('empowered_super_block')
-    .displayName('§dEmpowered Super Block')
+    .displayName('§d强化超级方块')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
@@ -413,7 +413,7 @@ StartupEvents.registry('block', (event) => {
     .tag('kubejs:empowered_super_block');
   event
     .create('auto_mechanical_sieve')
-    .displayName('Auto Mechanical Sieve')
+    .displayName('自动机械筛')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
@@ -554,7 +554,7 @@ StartupEvents.registry('item', (e) => {
 
 StartupEvents.registry('item', (e) => {
   // Microminer Components
-  e.create('components/basic_mining_laser').displayName('§eBasic Mining Laser');
+  e.create('components/basic_mining_laser').displayName('§e基础采矿激光器');
   e.create('components/reinforced_mining_laser').displayName(
     '§bReinforced Mining Laser'
   );
@@ -567,36 +567,36 @@ StartupEvents.registry('item', (e) => {
   e.create('components/advanced_micro_miner_guidance_system').displayName(
     '§eAdvanced Micro Miner Guidance System'
   );
-  e.create('components/gem_sensor').displayName('Gemstone Sensor');
-  e.create('components/warp_engine').displayName('§dWarp Engine');
+  e.create('components/gem_sensor').displayName('宝石传感器');
+  e.create('components/warp_engine').displayName('§d跃迁引擎');
   e.create('components/universal_navigator').displayName(
     '§dUniversal Navigator'
   );
   e.create('components/extradimensional_navigator')
-    .displayName('§dExtradimensional Navigator')
-    .displayName('§dQuantum Fluxed Eternium Heavy Plating')
+    .displayName('§d次元导航仪')
+    .displayName('§d量子通量永恒重型镀层')
     .texture('kubejs:item/microverse_components/eternium_heavy_plating');
   e.create('universe_resistant_neutronium_heavy_plating')
-    .displayName('§dUniverse Resistant Neutronium Heavy Plating')
+    .displayName('§d宇宙抗性中子重型镀层')
     .texture('kubejs:item/microverse_components/neutronium_heavy_plating');
   e.create('elementally_infused_matrix_heavy_plating')
-    .displayName('§dElementally Infused Matrix Heavy Plating')
+    .displayName('§d元素灌注矩阵重型镀层')
     .texture('kubejs:item/microverse_components/matrix_heavy_plating');
   e.create('dimensionally_stabilized_infinity_heavy_plating')
-    .displayName('§dDimensionally Stabilized Infinity Heavy Plating')
+    .displayName('§d维度稳定无限重型镀层')
     .texture('kubejs:item/microverse_components/infinity_heavy_plating');
   e.create('causality_lead_heavy_plating')
-    .displayName('§1Lead Heavy Plating')
+    .displayName('§1铅质重型镀层')
     .texture('kubejs:item/microverse_components/lead_heavy_plating');
-  e.create('components/quantum_flux').displayName('§dQuantum Flux');
+  e.create('components/quantum_flux').displayName('§d量子通量');
 
   //Data
   e.create('components/impossible_realm_data').displayName(
     '§bImpossible Realm Data'
   );
-  e.create('components/dragon_lair_data').displayName('§dDragon Lair Data');
-  e.create('components/wither_realm_data').displayName('§dWither Realm Data');
-  e.create('components/deep_dark_data').displayName('§dDeep Dark Data');
+  e.create('components/dragon_lair_data').displayName('§d龙巢数据');
+  e.create('components/wither_realm_data').displayName('§d凋灵领域数据');
+  e.create('components/deep_dark_data').displayName('§d深邃黑暗数据');
   e.create('components/lair_of_the_warden_data').displayName(
     '§dLair Of The Warden Data'
   );
@@ -618,22 +618,22 @@ StartupEvents.registry('item', (e) => {
 
   // End Game Data
   e.create('creative_tank_data')
-    .displayName('Creative Quantum Tank Data')
+    .displayName('创造模式量子储罐数据')
     .texture('kubejs:item/components/creative_tank_data');
   e.create('creative_storage_data')
-    .displayName('Creative Storage Data')
+    .displayName('创造模式存储数据')
     .texture('kubejs:item/components/creative_storage_data');
   e.create('creative_computation_data')
-    .displayName('Creative Computation Data')
+    .displayName('创造模式运算数据')
     .texture('kubejs:item/components/creative_computation_data');
   e.create('creative_energy_data')
-    .displayName('Creative Energy Data')
+    .displayName('创造模式能量数据')
     .texture('kubejs:item/components/creative_energy_data');
 });
 
 StartupEvents.registry('block', (e) => {
   e.create('warp_core')
-    .displayName('Warp Core')
+    .displayName('跃迁核心')
     .soundType('metal')
     .resistance(6)
     .hardness(5)
@@ -642,7 +642,7 @@ StartupEvents.registry('block', (e) => {
     .textureAll('kubejs:block/controller_core/warp_core');
 
   e.create('warp_controller')
-    .displayName('Warp Controller')
+    .displayName('跃迁控制器')
     .soundType('metal')
     .resistance(6)
     .hardness(5)
@@ -651,7 +651,7 @@ StartupEvents.registry('block', (e) => {
     .textureAll('kubejs:block/controller_core/warp_controller');
 
   e.create('universal_warp_core')
-    .displayName('Universal Warp Core')
+    .displayName('通用跃迁核心')
     .soundType('metal')
     .resistance(6)
     .hardness(5)
@@ -660,7 +660,7 @@ StartupEvents.registry('block', (e) => {
     .textureAll('kubejs:block/controller_core/universal_warp_core');
 
   e.create('universal_warp_controller')
-    .displayName('Universal Warp Controller')
+    .displayName('通用跃迁控制器')
     .soundType('metal')
     .resistance(6)
     .hardness(5)

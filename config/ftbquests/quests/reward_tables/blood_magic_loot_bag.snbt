@@ -4,15 +4,44 @@
 	loot_size: 1
 	order_index: 38
 	rewards: [
-		{ item: "bloodmagic:blankslate", random_bonus: 3, weight: 100.0f }
-		{ item: "bloodmagic:reinforcedslate", random_bonus: 1, weight: 50.0f }
-		{ item: "bloodmagic:infusedslate", weight: 10.0f }
-		{ item: "bloodmagic:demonslate" }
-		{ item: "bloodmagic:blankrune", random_bonus: 3, weight: 50.0f }
-		{ item: "bloodmagic:speedrune", weight: 50.0f }
-		{ item: "bloodmagic:sacrificerune", weight: 50.0f }
-		{ item: "bloodmagic:selfsacrificerune", weight: 50.0f }
-		{ item: "bloodmagic:altarcapacityrune", weight: 25.0f }
+		{
+			item: "bloodmagic:blankslate"
+			random_bonus: 3
+			weight: 100.0f
+		}
+		{
+			item: "bloodmagic:reinforcedslate"
+			random_bonus: 1
+			weight: 50.0f
+		}
+		{
+			item: "bloodmagic:infusedslate"
+			weight: 10.0f
+		}
+		{
+			item: "bloodmagic:demonslate"
+		}
+		{
+			item: "bloodmagic:blankrune"
+			random_bonus: 3
+			weight: 50.0f
+		}
+		{
+			item: "bloodmagic:speedrune"
+			weight: 50.0f
+		}
+		{
+			item: "bloodmagic:sacrificerune"
+			weight: 50.0f
+		}
+		{
+			item: "bloodmagic:selfsacrificerune"
+			weight: 50.0f
+		}
+		{
+			item: "bloodmagic:altarcapacityrune"
+			weight: 25.0f
+		}
 		{
 			item: {
 				Count: 1
@@ -55,10 +84,21 @@
 				}
 			}
 		}
-		{ item: "bloodmagic:simplekey", weight: 20.0f }
-		{ item: "bloodmagic:ritualstone", random_bonus: 3, weight: 25.0f }
-		{ item: "bloodmagic:soulsnare", random_bonus: 3, weight: 100.0f }
+		{
+			item: "bloodmagic:simplekey"
+			weight: 20.0f
+		}
+		{
+			item: "bloodmagic:ritualstone"
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			item: "bloodmagic:soulsnare"
+			random_bonus: 3
+			weight: 100.0f
+		}
 	]
-	title: "&cBlood Magic Loot Box"
+	title: "&c&d血魔法&f 战利品箱&7[Blood Magic Loot Box]&f"
 	use_title: true
 }
