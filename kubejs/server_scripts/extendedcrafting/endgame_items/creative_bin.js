@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'ABCCBCCBD',
+        'ABCCBCCBA',
         'BEFGEGFEB',
         'CFHIIIJFC',
         'KGLMNMOGK',
@@ -12,29 +12,26 @@ ServerEvents.recipes((event) => {
         'KGQMNMRGK',
         'CFSIIITFC',
         'BEFGEGFEB',
-        'UBCCBCCBV',
+        'ABCCBCCBA',
       ],
       key: {
         A: {
-          item: 'mekanism:basic_bin',
+          item: 'emextras:infinite_multiversal_control_circuit',
         },
         B: {
-          item: 'avaritia:infinity_ingot',
+          item: 'avaritia:infinity',
         },
         C: {
-          item: 'avaritia:infinity_catalyst',
-        },
-        D: {
-          item: 'mekanism:advanced_bin',
+          item: 'extendedcrafting:the_ultimate_block',
         },
         E: {
-          item: 'evolvedmekanism:block_better_gold',
+          item: 'botanicalextramachinery:crimson_dragonstone_block',
         },
         F: {
-          item: 'avaritia:neutron_ingot',
+          item: 'avaritia:neutron',
         },
         G: {
-          item: 'compressium:cobblestone_8',
+          item: 'compressium:cobblestone_9',
         },
         H: {
           item: 'evolvedmekanism:overclocked_bin',
@@ -46,28 +43,28 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:quantum_bin',
         },
         K: {
-          item: 'kubejs:infinity_11',
+          item: 'kubejs:infinity_12',
         },
         L: {
-          item: 'trashcans:energy_trash_can',
+          item: 'botanicalmachinery:mana_battery_creative',
         },
         M: {
           item: 'evolvedmekanism:alloy_creative',
         },
         N: {
-          item: 'evolvedmekanism:creative_control_circuit',
+          item: 'draconicevolution:creative_op_capacitor',
         },
         O: {
-          item: 'trashcans:item_trash_can',
+          item: 'mekanism:creative_chemical_tank',
         },
         P: {
           item: 'kubejs:infinity_12',
         },
         Q: {
-          item: 'trashcans:ultimate_trash_can',
+          item: 'mekanism:creative_fluid_tank',
         },
         R: {
-          item: 'trashcans:liquid_trash_can',
+          item: 'pneumaticcraft:creative_compressor',
         },
         S: {
           item: 'evolvedmekanism:multiversal_bin',
@@ -75,15 +72,9 @@ ServerEvents.recipes((event) => {
         T: {
           item: 'evolvedmekanism:dense_bin',
         },
-        U: {
-          item: 'mekanism:ultimate_bin',
-        },
-        V: {
-          item: 'mekanism:elite_bin',
-        },
       },
       result: {
-        item: 'mekanism:creative_bin',
+        item: '4x mekanism:creative_bin',
       },
     })
     .id('mekanism:creative_bin');

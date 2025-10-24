@@ -150,7 +150,7 @@ MMEvents.createProcesses((event) => {
       count: 2223,
     },
     iron: {
-      inputItem: 'compressium:iron_3',
+      inputItem: 'compressium:iron_2',
       count: 138,
     },
     ironwood_ingot: {

@@ -117,7 +117,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers."]
+			description: [
+				"Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers."
+				""
+				"The Solar panels generate a lot of energy."
+				""
+				"The Voidminers only work in the Overworld (garden of glass), nether and the end."
+				""
+				"The Solarpanels wont work in the Void dimension (javd mod)"
+			]
 			id: "10650AD3F8696D4C"
 			size: 2.0d
 			tasks: [{

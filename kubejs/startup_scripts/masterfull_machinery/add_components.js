@@ -1,6 +1,6 @@
 priority: 0;
 MMEvents.registerPorts((event) => {
-  function port(name, id, type, config) {
+  function port (name, id, type, config) {
     var portname;
     switch (type) {
       case 1:

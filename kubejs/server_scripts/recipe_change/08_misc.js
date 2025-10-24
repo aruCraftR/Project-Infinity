@@ -29,7 +29,14 @@ ServerEvents.recipes((event) => {
   ]);
 
   shapeless(event, '2x cyclic:gem_amber', [
-    '#forge:honey',
+    'tconstruct:honey_bucket',
+    'minecraft:fire_charge',
+    'minecraft:magma_block',
+    'minecraft:redstone',
+  ]);
+
+  shapeless(event, '2x cyclic:gem_amber', [
+    'cyclic:honey_bucket',
     'minecraft:fire_charge',
     'minecraft:magma_block',
     'minecraft:redstone',
@@ -274,6 +281,42 @@ ServerEvents.recipes((event) => {
     'minecraft:redstone',
     'ae2:charged_certus_quartz_crystal',
   ]);
+
+  event.custom({
+    type: 'advanced_ae:reaction',
+    energy: 250000,
+    fluid: {
+      fluidStack: {
+        Amount: 1000,
+        FluidName: 'minecraft:water',
+      },
+    },
+    input_items: [
+      {
+        amount: 4,
+        ingredient: {
+          item: 'ae2omnicells:singularity_block',
+        },
+      },
+      {
+        amount: 4,
+        ingredient: {
+          item: 'expatternprovider:silicon_block',
+        },
+      },
+      {
+        amount: 4,
+        ingredient: {
+          item: 'minecraft:redstone_block',
+        },
+      },
+    ],
+    output: {
+      '#': 36,
+      '#c': 'ae2:i',
+      id: 'ae2omnicells:multidimensional_expansion_processor',
+    },
+  });
 });
 
 // Category: hostilenetworks
@@ -327,6 +370,17 @@ ServerEvents.recipes((event) => {
       'minecraft:iron_ingot',
     ]
   );
+  event.shaped(Item.of('ae2:silicon', 20), ['EEE', ' E ', 'EEE'], {
+    E: 'mysticalagriculture:silicon_essence',
+  });
+
+  event.shaped(Item.of('projectexpansion:basic_collector'), ['ABA', 'ACA', 'ADA'], {
+    A: 'minecraft:glowstone',
+    B: 'minecraft:lime_stained_glass',
+    C: 'projecte:aeternalis_fuel_block',
+    D: 'projecte:transmutation_table',
+  }).keepIngredient('projecte:transmutation_table');
+
 
   create3x3(
     event,
@@ -633,23 +687,6 @@ ServerEvents.recipes((event) => {
       '{TitaniumAugment:{Processing:6.0f}}'
     ).weakNBT(),
   ]);
-
-  // Thread Addons
-  event.shapeless('kubejs:thread_addon_1', [
-    Item.of('ifeu:thread_addon_1', '{TitaniumAugment:{Thread:1.0f}}').weakNBT(),
-  ]);
-  event.shapeless('kubejs:thread_addon_2', [
-    Item.of('ifeu:thread_addon_2', '{TitaniumAugment:{Thread:2.0f}}').weakNBT(),
-  ]);
-  event.shapeless('kubejs:thread_addon_3', [
-    Item.of('ifeu:thread_addon_3', '{TitaniumAugment:{Thread:3.0f}}').weakNBT(),
-  ]);
-  event.shapeless('kubejs:thread_addon_4', [
-    Item.of('ifeu:thread_addon_4', '{TitaniumAugment:{Thread:4.0f}}').weakNBT(),
-  ]);
-  event.shapeless('kubejs:thread_addon_5', [
-    Item.of('ifeu:thread_addon_5', '{TitaniumAugment:{Thread:5.0f}}').weakNBT(),
-  ]);
 });
 
 // Category: Hostile Networks
@@ -659,6 +696,21 @@ ServerEvents.recipes((event) => {
       'hostilenetworks:prediction',
       '{data_model:{id:"hostilenetworks:draconicevolution/draconic_guardian"}}'
     ).weakNBT(),
+  ]);
+});
+
+// Category: Functional Storage
+ServerEvents.recipes((event) => {
+  create3x3(event, 'functionalstorage:max_storage_upgrade', [
+    'functionalstorage:netherite_upgrade',
+    'functionalstorage:netherite_upgrade',
+    'functionalstorage:netherite_upgrade',
+    'functionalstorage:netherite_upgrade',
+    'kubejs:infinity_1',
+    'functionalstorage:netherite_upgrade',
+    'functionalstorage:netherite_upgrade',
+    'functionalstorage:netherite_upgrade',
+    'functionalstorage:netherite_upgrade',
   ]);
 });
 

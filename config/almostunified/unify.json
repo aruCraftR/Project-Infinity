@@ -88,22 +88,11 @@
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
   "ignoredTags": [
-    "mm:auto_crusher_item_input",
-    "mm:auto_sieve_item_input",
-    "mm:auto_sieve_energy_input",
-    "mm:auto_sieve_item_output",
-    "mm:auto_crusher_item_output",
-    "mm:auto_crusher_energy_input",
-    "mm:all_energy_output",
-    "mm:fluid_port_input",
-    "mm:fluid_port_output",
-    "mm:auto_inscriber_item_input",
-    "mm:auto_inscriber_item_output",
-    "mm:auto_inscriber_energy_input"
   ],
   "ignoredItems": [
     ".*thallasium.*",
-    ".*cincinnasite.*"
+    ".*cincinnasite.*",
+    ".*titanium.*"
   ],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"

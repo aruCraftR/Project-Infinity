@@ -408,4 +408,130 @@ ServerEvents.recipes((event) => {
     'kubejs:tier6_super_essence',
     'mysticalagradditions:creative_essence',
   ]);
+
+  //Ultimate Infinty Essence Crafts
+  create3x3(event, 'kubejs:ultimate_gem', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'kubejs:ultimate_prediction', [
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'kubejs:infinity_essence', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'kubejs:ultimate_heart', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'avaritia:neutron', [
+    'minecraft:air',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'emextras:infinite_multiversal_control_circuit', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'evolvedmekanism:creative_control_circuit', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'botanicalextramachinery:crimson_dragonstone_block', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'voidminers:ultimate_block', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3(event, 'voidminers:solar_ultimate_block', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'extendedcrafting:the_ultimate_block', [
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'minecraft:air',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
+  create3x3same(event, 'extendedcrafting:ultimate_singularity', [
+    'mysticalagriculture:ultimate_infinity_essence',
+  ]);
 });

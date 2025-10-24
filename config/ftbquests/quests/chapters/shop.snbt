@@ -1772,14 +1772,14 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 64L
+				count: 16L
 				id: "55FC781711E2AAF4"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			title: "64x Black Iron Ingot"
-			x: 13.0d
-			y: 0.5d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -1790,6 +1790,7 @@
 				count: 64
 				id: "3F7D0BB816165099"
 				item: "armorplus:en_gold"
+				title: "Enhanced: Gold Ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -2023,6 +2024,7 @@
 			id: "1EBA26A2F36B0B80"
 			optional: true
 			rewards: [{
+				count: 64
 				id: "45D0D8DE22A51870"
 				item: "thermal:lumium_ingot"
 				type: "item"
@@ -2034,7 +2036,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x Lumium Ingot"
+			title: "64x Lumium Ingot"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -2044,6 +2046,7 @@
 			id: "45BCC26BB1949266"
 			optional: true
 			rewards: [{
+				count: 64
 				id: "3E083B2CD4E91ED1"
 				item: "thermal:enderium_ingot"
 				type: "item"
@@ -2055,7 +2058,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x Enderium Ingot"
+			title: "64x Enderium Ingot"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -2065,6 +2068,7 @@
 			id: "5C1660EE5619CD9C"
 			optional: true
 			rewards: [{
+				count: 64
 				id: "7E60F113A329B233"
 				item: "thermalendergy:prismalium_ingot"
 				type: "item"
@@ -2076,7 +2080,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x Prismalium Ingot"
+			title: "64x Prismalium Ingot"
 			x: 13.0d
 			y: 2.5d
 		}
@@ -2097,7 +2101,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x Stellarium Ingot"
+			title: "64x Stellarium Ingot"
 			x: 14.0d
 			y: 2.5d
 		}
@@ -2941,6 +2945,28 @@
 			title: "&2Essence Loot Crate"
 			x: 5.5d
 			y: 14.5d
+		}
+		{
+			can_repeat: true
+			icon: "armorplus:en_iron"
+			id: "123A8EE97797D35E"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "2753930696CFDA43"
+				item: "armorplus:en_iron"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3BD82E1DB9BDACB9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			title: "64x Enhanced: Iron Ingot"
+			x: 13.0d
+			y: 0.5d
 		}
 	]
 	title: "&dShop"

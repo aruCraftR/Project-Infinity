@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
    * @param {string[]} items
    * @param {number} weight
    */
-  function voidminerBatch(dimensionId, minTier, items, weight) {
+  function voidminerBatch (dimensionId, minTier, items, weight) {
     const dimension = dimensionMap[dimensionId];
     if (!dimension) return;
 
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
     });
   }
 
-  function voidminerBatch2(dimensionId, minTier, items, weight) {
+  function voidminerBatch2 (dimensionId, minTier, items, weight) {
     const dimension = dimensionMap[dimensionId];
     if (!dimension) return;
 
@@ -97,6 +97,9 @@ ServerEvents.recipes((event) => {
   }
   for (let tier = 3; tier <= 8; tier++) {
     voidminerBatch2(2, tier, ['mysticalagriculture:soulium_ore'], 10.0);
+  }
+  for (let tier = 3; tier <= 8; tier++) {
+    voidminerBatch2(1, tier, ['mekanism:uranium_ore'], 10.0);
   }
   for (let tier = 5; tier <= 8; tier++) {
     voidminerBatch2(2, tier, netherOres, 10.0);

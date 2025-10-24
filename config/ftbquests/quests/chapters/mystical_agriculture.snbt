@@ -2684,6 +2684,10 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
+			description: [
+				"You cant see this Item in JEI. "
+				"You can look at it while pressing U on a basalt block from enviromental materials"
+			]
 			id: "0E3B02CFA566ADDE"
 			rewards: [{
 				id: "639FB3B3DF43D43D"
@@ -2695,8 +2699,8 @@
 				item: "mysticalagriculture:basalt_seeds"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 3.0d
+			x: -16.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
@@ -2776,7 +2780,7 @@
 				type: "item"
 			}]
 			x: -17.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
@@ -2792,10 +2796,14 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
+			description: [
+				"You cant see this Item in JEI. "
+				"You can look at it while pressing U on a marble block from enviromental materials"
+			]
 			id: "3C67C766F4225C72"
 			rewards: [{
 				id: "0D15BEA9512A90CA"
@@ -2807,8 +2815,8 @@
 				item: "mysticalagriculture:marble_seeds"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 4.0d
+			x: -17.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
@@ -4745,6 +4753,22 @@
 			}]
 			x: -22.5d
 			y: 3.5d
+		}
+		{
+			id: "2B7ACC7B3F0C13E4"
+			rewards: [{
+				id: "53357703DB0A0890"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "690864AAB164565C"
+				item: "mysticalagriculture:ultimate_infinity_seeds"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
 		}
 	]
 	title: "Mystical Agriculture"

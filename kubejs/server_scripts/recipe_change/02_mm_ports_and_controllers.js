@@ -512,7 +512,7 @@ ServerEvents.recipes((event) => {
     'botania:elementium_ingot',
     'common_ore_library:cobalt_block',
     'thermal:rf_coil',
-    'mysticalexpansion:divinium_ingot_block',
+    'mysticalagriculture:inferium_farmland',
     'thermal:redstone_servo',
   ]);
 

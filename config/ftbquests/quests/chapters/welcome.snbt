@@ -402,6 +402,7 @@
 				}
 				{
 					command: "execute as @p run summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"Friend\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
+					elevate_perms: true
 					icon: "draconicevolution:dragon_heart"
 					id: "035BC1E95467477D"
 					title: "Your first friend :)"

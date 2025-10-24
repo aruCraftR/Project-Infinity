@@ -161,14 +161,8 @@
 			y: 10.0d
 		}
 		{
-			description: ["The &5Rending Gale&r in the ProjectE mod is a powerful item that grants creative-style flight and the ability to launch lightning bolts at mobs. It consumes EMC or fuel (like Glowstone) while active and must be toggled on to use its abilities."]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: { }
-				}
-				id: "projecte:swiftwolf_rending_gale"
-			}
+			description: ["You can change the ingots from one mod to another when you find a bad input."]
+			icon: "mekanism:oredictionificator"
 			id: "25E585C8AE7430DC"
 			rewards: [{
 				id: "0F1FEE53279D1DCB"
@@ -176,25 +170,11 @@
 				xp_levels: 3
 			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "1E0446C02381B91A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:swiftwolf_rending_gale"
-					}
-					type: "item"
-				}
-				{
-					id: "6E2C6FF70F097FA5"
-					item: "projecte:relay_mk1"
-					type: "item"
-				}
-			]
-			title: "Rending Gale"
+			tasks: [{
+				id: "5C37126846FB5B2D"
+				item: "mekanism:oredictionificator"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 0.0d
 		}

@@ -5,6 +5,15 @@
 	group: "5255C8D5C49409ED"
 	icon: "nuclearcraft:plutonium_rtg"
 	id: "11D9E62FD3D455FC"
+	images: [{
+		alpha: 120
+		height: 4.0d
+		image: "kubejs:block/screen/nuclear"
+		rotation: 0.0d
+		width: 3.9603960396039604d
+		x: -12.5d
+		y: -4.5d
+	}]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
@@ -17,14 +26,9 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "Outerrior"
 			tasks: [
-				{
-					count: 64L
-					id: "27E78F001E8EBEDF"
-					item: "nuclearcraft:fission_reactor_casing"
-					type: "item"
-				}
 				{
 					count: 2L
 					id: "522DEFB3FDBC8986"
@@ -36,9 +40,30 @@
 					item: "nuclearcraft:fission_reactor_controller"
 					type: "item"
 				}
+				{
+					count: 64L
+					id: "1F3BF8FC60F8A99C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "nuclearcraft:fission_reactor_casing"
+								}
+								{
+									Count: 1b
+									id: "nuclearcraft:fission_reactor_glass"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Fission Reactor"
-			x: -9.5d
+			x: -10.0d
 			y: -1.0d
 		}
 		{
@@ -191,7 +216,7 @@
 			}]
 			title: "Irradiation Chamber"
 			x: -8.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -263,28 +288,33 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					count: 64L
-					id: "7BB3E1F5AAB707DD"
-					item: "nuclearcraft:fuel_thorium_tbu"
-					type: "item"
+			tasks: [{
+				count: 64L
+				id: "112FB7B228DCE888"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:fuel_uranium_leu_235"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fuel_thorium_tbu"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fuel_uranium_heu_235"
+							}
+						]
+					}
 				}
-				{
-					count: 64L
-					id: "72DAEC060CD62D1E"
-					item: "nuclearcraft:fuel_uranium_leu_235"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4DE3DB1FA933D8C5"
-					item: "nuclearcraft:fuel_uranium_heu_235"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Fission Fuel"
-			x: -10.5d
+			x: -11.5d
 			y: -1.0d
 		}
 		{
@@ -302,7 +332,7 @@
 				item: "nuclearcraft:isotope_separator"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -1.0d
 		}
 		{
@@ -360,7 +390,7 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -13.0d
 			y: 0.0d
 		}
 		{
@@ -395,7 +425,7 @@
 				type: "item"
 			}]
 			title: "Fusion Reactor Chamber"
-			x: -6.5d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -403,19 +433,21 @@
 				"31DAC3957CC14D84"
 				"3C2C6CF2C5D901D1"
 			]
+			description: ["{image:kubejs:block/screen/nc_fusion_reactor width:100 height:80 align:center fit:true}"]
 			id: "285863F49493AF62"
 			rewards: [{
 				id: "74385523AD5B5609"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "Brain of the Fusion Reactor"
 			tasks: [{
 				id: "4F649B50ADE5DCCC"
 				item: "nuclearcraft:fusion_core"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -437,7 +469,7 @@
 				item: "nuclearcraft:fusion_reactor_connector"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 4.5d
 		}
 		{
@@ -466,7 +498,7 @@
 				type: "item"
 			}]
 			title: "Electromagnets"
-			x: -3.5d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -496,7 +528,7 @@
 				type: "item"
 			}]
 			title: "Radio Frequency Amplifiers"
-			x: -5.0d
+			x: -5.5d
 			y: 4.5d
 		}
 		{
@@ -521,7 +553,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7DEDA65F61652C9B"]
@@ -531,11 +563,11 @@
 				"Charge them and activate."
 				""
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_kugelblitz_chamber width:100 height:100 align:center fit:true}"
+				"{image:kubejs:block/screen/nuclearcraft_kugelblitz_chamber width:100 height:80 align:center fit:true}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_blackhole2 width:100 height:100 align:center fit:true}"
+				"{image:kubejs:block/screen/nuclearcraft_blackhole2 width:100 height:60 align:center fit:true}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_black_hole width:100 height:100 align:center fit:true}"
+				"{image:kubejs:block/screen/nuclearcraft_black_hole width:100 height:60 align:center fit:true}"
 			]
 			id: "42E07CC516A52519"
 			rewards: [
@@ -558,8 +590,8 @@
 				type: "item"
 			}]
 			title: "Producing a blackhole"
-			x: 1.0d
-			y: -5.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["25EC23AB0C991018"]
@@ -574,6 +606,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "Almost sphere"
 			tasks: [
 				{
@@ -594,8 +627,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: -5.5d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6B7D49391464B4AB"]
@@ -613,8 +646,8 @@
 				item: "nuclearcraft:quantum_transformer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.5d
+			x: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
@@ -635,8 +668,8 @@
 				item: "nuclearcraft:event_horizon_stabilizer"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["487B2E28017843E5"]
@@ -653,8 +686,8 @@
 				item: "nuclearcraft:quantum_flux_regulator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4B5458B5D29B8CA1"]
@@ -675,8 +708,8 @@
 				item: "nuclearcraft:photon_concentrator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			id: "6286A200E1CDB1EE"
@@ -700,7 +733,7 @@
 				}
 			]
 			title: "Deuterium"
-			x: -12.0d
+			x: -13.0d
 			y: 5.0d
 		}
 		{
@@ -725,7 +758,7 @@
 				}
 			]
 			title: "Tritium"
-			x: -12.0d
+			x: -13.0d
 			y: 4.0d
 		}
 		{
@@ -758,11 +791,14 @@
 				}
 			]
 			title: "Fusion Reactor Coolant"
-			x: -9.5d
+			x: -10.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["0A74B8AAA5A76C67"]
+			dependencies: [
+				"0A74B8AAA5A76C67"
+				"31C6C9EB8AD4F3BE"
+			]
 			id: "25EC23AB0C991018"
 			rewards: [{
 				id: "5C425815EE29C778"
@@ -783,8 +819,8 @@
 				type: "item"
 			}]
 			title: "Neutronium"
-			x: -8.0d
-			y: -5.5d
+			x: -8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["77C9259E0B0FE5BB"]
@@ -829,7 +865,7 @@
 				}
 			]
 			title: "Getting ready"
-			x: -2.0d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -854,7 +890,7 @@
 				type: "checkmark"
 			}]
 			title: "Fusion Fuel"
-			x: -11.0d
+			x: -11.5d
 			y: 4.5d
 		}
 		{
@@ -879,8 +915,8 @@
 				type: "item"
 			}]
 			title: "Moderators"
-			x: -9.5d
-			y: -2.0d
+			x: -10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["547037A1C1BBB81F"]
@@ -915,6 +951,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Blackhole made out of light"
 			tasks: [{
 				id: "1151D40DE60B1ED5"
@@ -922,8 +959,8 @@
 				type: "checkmark"
 			}]
 			title: "Kugelblitz"
-			x: -8.0d
-			y: -7.0d
+			x: -9.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["28BB27A54B194C8B"]
@@ -948,8 +985,8 @@
 				}
 			]
 			title: "Extreme isotopes"
-			x: -3.0d
-			y: -3.5d
+			x: -5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
@@ -978,83 +1015,18 @@
 				type: "checkmark"
 			}]
 			title: "Quantum Transformations"
-			x: -4.0d
-			y: -4.5d
+			x: -5.5d
+			y: -7.0d
 		}
 		{
-			id: "18550A96B03860FE"
-			rewards: [{
-				id: "29F002BBA07AC427"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [
-				{
-					id: "6D61669244445B31"
-					item: "mekanism:hazmat_mask"
-					type: "item"
-				}
-				{
-					id: "6D29D4A5DBC65BEF"
-					item: "mekanism:hazmat_gown"
-					type: "item"
-				}
-				{
-					id: "09947B464FB4B548"
-					item: "mekanism:hazmat_pants"
-					type: "item"
-				}
-				{
-					id: "45854F573E0D92DB"
-					item: "mekanism:hazmat_boots"
-					type: "item"
-				}
-			]
-			x: -16.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["18550A96B03860FE"]
-			id: "6FC34F7B2A86F02C"
-			rewards: [{
-				id: "1CE2A679AD7C18D4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3A48EBFB1F102F91"
-					item: "nuclearcraft:light"
-					type: "item"
-				}
-				{
-					id: "5BC24C9760D1CAA1"
-					item: "nuclearcraft:medium"
-					type: "item"
-				}
-				{
-					id: "63F3B6F3535E5D15"
-					item: "nuclearcraft:heavy"
-					type: "item"
-				}
-				{
-					id: "62D7C9B5A735CA6A"
-					item: "nuclearcraft:dps"
-					type: "item"
-				}
-			]
-			x: -16.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["18550A96B03860FE"]
 			id: "32759CFEBBA542EA"
 			rewards: [{
 				id: "2FB7D71D787E4C9E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 64L
@@ -1081,36 +1053,8 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
+			x: -14.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["18550A96B03860FE"]
-			id: "05E6B77DA9440C23"
-			rewards: [{
-				id: "42006CEEB51FEE19"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "48C3C3E531B353B6"
-					item: "nuclearcraft:radaway"
-					type: "item"
-				}
-				{
-					id: "23F2134175B548FC"
-					item: "nuclearcraft:radaway_slow"
-					type: "item"
-				}
-				{
-					id: "173C75120E6A5C73"
-					item: "nuclearcraft:rad_x"
-					type: "item"
-				}
-			]
-			x: -15.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["7A00CCB42934E627"]
@@ -1125,7 +1069,7 @@
 				item: "nuclearcraft:supercooler"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
@@ -1140,7 +1084,7 @@
 				item: "nuclearcraft:pump"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.0d
 			y: 1.5d
 		}
 		{
@@ -1168,7 +1112,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -11.5d
 			y: 1.5d
 		}
 		{
@@ -1184,8 +1128,8 @@
 				item: "nuclearcraft:subatomic_liquifier"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -6.5d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["60DCF5DE31DD7BC6"]
@@ -1202,8 +1146,8 @@
 				id: "16F38AD5A310A707"
 				type: "fluid"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7BF786E0EEE4860D"]
@@ -1293,6 +1237,548 @@
 			]
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["31C6C9EB8AD4F3BE"]
+			id: "76D5CB6F9A474639"
+			rewards: [{
+				id: "702D41F4FD9AA8D4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A8367EA5CFFDC64"
+				item: "nuclearcraft:silicon_n_doped"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76D5CB6F9A474639"]
+			id: "016D57F0F4EB1094"
+			rewards: [{
+				id: "5BB4B6ACC4D0B16D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF2032EE383ACBF"
+				item: "nuclearcraft:assembler"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["016D57F0F4EB1094"]
+			id: "1CC02FC59DDC8045"
+			rewards: [{
+				id: "3E20096BE707E081"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09B0725A47293399"
+				item: "nuclearcraft:basic_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CC02FC59DDC8045"]
+			description: [
+				"With Accelerators combined with Target Chambers you can produce new stuff by smashing particles into items/liquids."
+				"{image:kubejs:block/screen/accelerator_chamber width:100 height:50 align:center fit:true}"
+			]
+			id: "5AA72D06752A6DFE"
+			rewards: [{
+				id: "7E9ACA69E7A36EF5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "19B030DFE1C8A5C6"
+					item: "nuclearcraft:linear_accelerator_controller"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "132ABD31A26448CC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "nuclearcraft:accelerator_casing_glass"
+								}
+								{
+									Count: 1b
+									id: "nuclearcraft:accelerator_casing"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "42D9B30991DB92CC"
+					item: { Count: 4, id: "nuclearcraft:accelerator_port" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5AA72D06752A6DFE"]
+			description: ["Ion Source is the place where you insert particle source item or liquid."]
+			id: "411669CC4DF809D5"
+			rewards: [{
+				id: "510FFEF88845442A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B18676116A42572"
+				item: "nuclearcraft:accelerator_ion_source_port"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["411669CC4DF809D5"]
+			description: [
+				"Make a beam lines in the center of Accelerator and Target Chamber."
+				"It also used to connect accelerator with Target Chamber."
+				"Each beam block focus loss = 0.02"
+			]
+			id: "1368D3A68133F64D"
+			rewards: [{
+				id: "14C6CC38A0BD82AF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "173004038725F2AB"
+				item: "nuclearcraft:particle_beam"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1368D3A68133F64D"]
+			description: [
+				"Beam Port used to transfer particle outside or inside accelerator."
+				"Use Multitool to configure Beam Port modes."
+			]
+			id: "3449640180DA7A00"
+			rewards: [{
+				id: "10907A1F039C2DC1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E2C0E2B359D7BA9"
+					item: "nuclearcraft:accelerator_beam_port"
+					type: "item"
+				}
+				{
+					id: "2F271635C6B3A2AE"
+					item: {
+						Count: 1
+						id: "nuclearcraft:multitool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3449640180DA7A00"]
+			description: [
+				"Amplifiers need to be placed around beam block, forming \"O\" shape out of 8 blocks."
+				"Pay attention to Voltage. 200keV means 1 ring of amplifiers will give 200keV, not each amplifier block"
+			]
+			id: "28FE6F1865D3CA24"
+			rewards: [{
+				id: "395E917F8C399358"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Increasing particle energy"
+			tasks: [{
+				count: 8L
+				id: "481096CE9E7F1C23"
+				item: {
+					Count: 24
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:amplifiers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Amplifiers"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28FE6F1865D3CA24"]
+			description: ["To keep particles beam tight, you need to place electromagnes around beam block. Forming \"O\" shape made out of 4 blocks."]
+			id: "3C19702E2101B710"
+			rewards: [{
+				id: "67923F9E736F53CE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Electromagnetic field"
+			tasks: [{
+				count: 4L
+				id: "51951997597EBFB7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:electromagnets"
+					}
+				}
+				type: "item"
+			}]
+			title: "Beam Focus"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3C19702E2101B710"
+				"4A015506040E6C3D"
+			]
+			description: ["Like in fission reactor, accelerator need to be cooled. It has wide set of coolers with different placement requirements."]
+			id: "7139A8D15E99D767"
+			rewards: [{
+				id: "1242D83F21A3260A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40501C17786E5C9F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:manganese_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:silver_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fluorite_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:water_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:emerald_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:slime_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:arsenic_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:liquid_nitrogen_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lead_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:diamond_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:redstone_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:quartz_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:aluminum_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:end_stone_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:obsidian_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:magnesium_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:boron_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:glowstone_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:iron_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lapis_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:gold_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:tin_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:carobbiite_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:purpur_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:enderium_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:nether_brick_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:cryotheum_cooler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Accelerator cooling"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: ["In order to cooldown you need constant supply of coolant liquid"]
+			id: "4A015506040E6C3D"
+			tasks: [{
+				id: "1E8FBCE1B068A864"
+				title: "Liquid coolant"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7139A8D15E99D767"]
+			description: ["Diborane is the first particle source you will need. Pump it into accelerator with Ion Source Port or Accelerator Port"]
+			id: "536FDAC7EF3BE8E8"
+			rewards: [{
+				id: "370A0DF9FDB701A4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "nuclearcraft:diborane"
+				id: "677934E58EAEE58C"
+				type: "fluid"
+			}]
+			title: "Particle source"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536FDAC7EF3BE8E8"]
+			description: ["Target Chamber is the place where high energy particles smashes into stuff to produce new stuff."]
+			id: "3CCB79E81DC98BD0"
+			rewards: [{
+				id: "0759B46AC29429D5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1694328571B8F4E2"
+					item: "nuclearcraft:target_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F726C079F85D2CE"
+					item: { Count: 2, id: "nuclearcraft:target_chamber_port" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CCB79E81DC98BD0"]
+			description: [
+				"You need 4 beam ports for each wall."
+				"Some should be used as particles input, others as particles outputs."
+				"Multitool for configuration."
+			]
+			id: "052AB2E6CC4C6A93"
+			rewards: [{
+				id: "6F24B51E0A48F51B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5D886F588D86F440"
+				item: { Count: 4, id: "nuclearcraft:target_chamber_beam_port" }
+				type: "item"
+			}]
+			title: "In/Out particles"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["052AB2E6CC4C6A93"]
+			description: ["Need to be placed in the center of target chamber, and connected to all 4 beam ports with beam blocks"]
+			id: "7B1B6754652C8299"
+			rewards: [{
+				id: "6C6DAB38681E3D97"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Heart of Target Chamber"
+			tasks: [{
+				id: "70FA393D820854C4"
+				item: "nuclearcraft:target_chamber_camera"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B1B6754652C8299"]
+			description: [
+				"Detectors affects recipe progression speed. "
+				"And they have very simple placement rules."
+			]
+			id: "7E3209CB27E9AAB0"
+			rewards: [{
+				id: "0293A16160B9C799"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "406DA9D1880F3B46"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:em_calorimeter"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:bubble_chamber"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:wire_chamber"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:hadron_calorimeter"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:silicon_tracker"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Detectors"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E3209CB27E9AAB0"]
+			description: [
+				"Quick checklist:"
+				"1. Energy for Accelerator and Target chamber"
+				"2. Coolant for Accelerator"
+				"3. Ion Source "
+				"4. Beam ports in correct modes"
+				"5. Redstone to activate accelerator controller and target chamber controller"
+			]
+			id: "6F1FC9E4A28480C6"
+			tasks: [{
+				id: "2644F99795B4E082"
+				title: "Ready to go"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F1FC9E4A28480C6"]
+			description: ["In order to get this Boron ION must have exactly 600keV and minimal focus of 2."]
+			id: "28F7D3471591659B"
+			rewards: [{
+				id: "0B4DCCB496407076"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76C6F5DDA7FD11E2"
+				item: "nuclearcraft:silicon_p_doped"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
 		}
 	]
 	title: "Nuclear Energy"

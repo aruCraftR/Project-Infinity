@@ -192,7 +192,28 @@ const removeItemsbyOutput = [
   'avaritia_expand:endest_watch',
   'thermal:phytogro',
   'thermal:machine_insolator',
-  'apotheosis:potion_charm'
+  'apotheosis:potion_charm',
+  'thermal:earth_grenade',
+  'thermal:lightning_grenade',
+  'thermal:ice_grenade',
+  'thermal:fire_grenade',
+  'thermal:slime_grenade',
+  'thermal:redstone_grenade',
+  'thermal:glowstone_grenade',
+  'thermal:ender_grenade',
+  'thermal:explosive_grenade',
+  'thermal:ender_tnt',
+  'thermal:glowstone_tnt',
+  'thermal:redstone_tnt',
+  'thermal:slime_tnt',
+  'thermal:fire_tnt',
+  'thermal:ice_tnt',
+  'thermal:lightning_tnt',
+  'thermal:earth_tnt',
+  'industrialforegoing:hydroponic_bed',
+  'functionalstorage:max_storage_upgrade',
+  'evolvedmekanism:creative_personal_chest',
+  'evolvedmekanism:creative_personal_barrel',
 ];
 
 const removeItemsbyID = [
@@ -367,11 +388,6 @@ const removeItemsbyID = [
   'ifeu:dissolution_chamber/processing_addon_4',
   'ifeu:dissolution_chamber/processing_addon_5',
   'ifeu:dissolution_chamber/processing_addon_6',
-  'ifeu:dissolution_chamber/thread_addon_2',
-  'ifeu:dissolution_chamber/thread_addon_3',
-  'ifeu:dissolution_chamber/thread_addon_4',
-  'ifeu:dissolution_chamber/thread_addon_5',
-  'ifeu:dissolution_chamber/thread_addon_6',
   'alltheores:diamond_gear',
   'hammerlib:gears/diamond',
   'hammerlib:gears/gold',
@@ -380,6 +396,34 @@ const removeItemsbyID = [
   'hammerlib:gears/stone',
   'hammerlib:gears/wooden',
   'chancecubes:chance_cube_crafting',
+  'actuallyadditions:lens_of_disruption',
+  'draconicadditions:items/chaotic_harness',
+  'draconicadditions:items/draconic_harness',
+  'draconicadditions:items/wyvern_harness',
+  'ifeu:simulated_hydroponic_bed',
+  'projectexpansion:power_flower/final',
+  'projectexpansion:power_flower/fading',
+  'projectexpansion:power_flower/white',
+  'projectexpansion:power_flower/orange',
+  'projectexpansion:power_flower/yellow',
+  'projectexpansion:power_flower/green',
+  'projectexpansion:power_flower/cyan',
+  'projectexpansion:power_flower/blue',
+  'projectexpansion:power_flower/violet',
+  'projectexpansion:power_flower/purple',
+  'projectexpansion:power_flower/pink',
+  'projectexpansion:power_flower/magenta',
+  'projectexpansion:power_flower/red',
+  'projectexpansion:power_flower/dark',
+  'gardenofglass:end_portal_frame',
+  'cyclic:crystal_pickaxe',
+  'evolvedmekanism:thermalizer',
+  'evolvedmekanism:solidification_chamber',
+  'evolvedmekanism:jei.personal_upgrade.barrel.block.evolvedmekanism.creative_personal_chest',
+  'evolvedmekanism:jei.personal_upgrade.barrel.block.evolvedmekanism.creative_personal_barrel',
+  'evolvedmekanism:bin/creative',
+  'projectexpansion:collector/mk1_conversion',
+  'projectexpansion:collector/basic',
   '',
   '',
   '',
@@ -400,14 +444,6 @@ const removeItemsbyID = [
   '',
   '',
   '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  ''
 ];
 
 const removeItemsbyType = [
@@ -454,7 +490,23 @@ ServerEvents.recipes((event) => {
     type: 'avaritia:shaped_table',
     output: /dragon_egg/,
   });
-
+  event.remove({
+    type: 'packagedauto:fluid_package_contents',
+  });
+  event.remove({
+    type: 'packagedauto:fluid_package_filling',
+  });
+  event.remove({
+    type: 'evolvedmekanism:solidification_chamber',
+  });
+  event.remove({
+    type: 'evolvedmekanism:thermalizer',
+  });
+  event.remove([{ output: /mold/, mod: 'evolvedmekanism' }]);
+  event.remove([{ output: /molten/, mod: 'evolvedmekanism' }]);
+  event.remove([{ output: /evolvedmekanism\/molten/, type: 'ifeu:infuser' }]);
+  event.remove([{ output: /evolvedmekanism\/molten/, type: 'thermal:bottler' }]);
+  event.remove([{ output: /evolvedmekanism\/molten/, type: 'tconstruct:casting_table' }]);
   event.remove([{ output: /bucket/, type: 'thermal:bottler' }]);
   event.remove([{ output: /bottler_florb/, type: 'thermal:bottler' }]);
 

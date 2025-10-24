@@ -8,6 +8,7 @@ JEIEvents.hideItems((event) => {
     'chipped:alchemy_bench',
     'chipped:tinkering_table',
   ];
+  event.hide('tconstruct:potion');
 
   Ingredient.of(/^chipped:/).itemIds.forEach((id) => {
     if (!excludedItems.includes(id)) event.hide(id);
@@ -15,6 +16,7 @@ JEIEvents.hideItems((event) => {
 });
 
 JEIEvents.removeCategories((event) => {
+  // console.log(event.categoryIds)
   event.remove([
     'ali:block_loot',
     'ali:fishing_loot',
@@ -24,5 +26,10 @@ JEIEvents.removeCategories((event) => {
     'ali:gameplay_loot',
     'ali:trade_loot',
     'cyclic:packager',
+    'tconstruct:worktable',
+    'packagedauto:fluid_package_contents',
+    'packagedauto:fluid_package_filling',
+    'evolvedmekanism:solidification_chamber',
+    'evolvedmekanism:thermalizer',
   ]);
 });

@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:chaotic_crafting_injector',
         },
         J: {
-          item: 'draconicadditions:chaotic_harness',
+          item: 'draconicevolution:chaos_shard',
         },
         K: {
           item: 'draconicevolution:reactor_stabilizer',

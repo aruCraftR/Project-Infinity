@@ -172,6 +172,12 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
+          nbt: '{data_model:{id:\"hostilenetworks:draconicevolution/draconic_guardian\"}}',
+        },
+        {
+          type: 'forge:nbt',
+          item: 'hostilenetworks:prediction',
+          count: 1,
           nbt: '{data_model:{id:\"hostilenetworks:enderman\"}}',
         },
         {

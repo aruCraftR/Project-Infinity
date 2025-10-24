@@ -387,7 +387,7 @@
 			subtitle: "Cool, eh?"
 			tasks: [{
 				id: "4D8588BE28BFAE5C"
-				max_input: 1000L
+				max_input: 2147483647L
 				type: "forge_energy"
 				value: 1000000000L
 			}]
@@ -477,7 +477,7 @@
 			}]
 			title: "&5The Master of the Singularity"
 			x: -16.0d
-			y: -4.8d
+			y: -4.0d
 		}
 		{
 			id: "3DEA57E2758E6168"
@@ -803,7 +803,7 @@
 			}]
 			title: "&dCreative Essence Cloud"
 			x: -16.0d
-			y: -6.4d
+			y: -5.6d
 		}
 		{
 			id: "1713E867378539D3"
@@ -1215,6 +1215,46 @@
 			title: "&3DIE"
 			x: 3.2d
 			y: -6.4d
+		}
+		{
+			id: "2C2A2DE4F95B7433"
+			rewards: [
+				{
+					id: "02D3C660B9275C70"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A4D2BB79BF7F979"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.6d
+			subtitle: "4x Chaos Dragon"
+			tasks: [{
+				id: "460810D19E9E783A"
+				item: {
+					Count: 1
+					id: "extrahnn:extra_data_model"
+					tag: {
+						data_model: {
+							ids: [
+								"hostilenetworks:draconicevolution/draconic_guardian"
+								"hostilenetworks:draconicevolution/draconic_guardian"
+								"hostilenetworks:draconicevolution/draconic_guardian"
+								"hostilenetworks:draconicevolution/draconic_guardian"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&cChaos Dragon"
+			x: -16.0d
+			y: -7.2d
 		}
 	]
 	title: "Legendary Challenges"

@@ -50,7 +50,7 @@ MMEvents.createStructures((event) => {
           block: 'mob_grinding_utils:tank',
         })
         .key('5', {
-          block: 'compressium:cobblestone_4',
+          block: 'mysticalagriculture:supremium_gemstone_block',
         });
     });
 
