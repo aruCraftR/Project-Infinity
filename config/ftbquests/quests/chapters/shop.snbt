@@ -57,45 +57,37 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "7EAC1BF1F8F8A83F"
 			optional: true
-			rewards: [
-				{
-					id: "38410E7A20BF8C82"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:special/flight"
-								}
-							]
-						}
+			rewards: [{
+				id: "38410E7A20BF8C82"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/flight"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 2.0d
 			subtitle: "允许飞行.需要消耗大量经验等级&7[Allows you to fly. Needs a lot of levels]&f"
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "026A2E6DAD722840"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "026A2E6DAD722840"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "创造飞行&7[Creative Flight]&f"
 			x: -5.0d
 			y: -1.0d
@@ -112,44 +104,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "6B186BC00BFA1134"
 			optional: true
-			rewards: [
-				{
-					id: "32D786B07629B78A"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:special/step_assist"
-								}
-							]
-						}
+			rewards: [{
+				id: "32D786B07629B78A"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/step_assist"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "4C48FC12A284E025"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4C48FC12A284E025"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a自动跳跃&f&7[Step Assist]&f"
 			x: -7.0d
 			y: 3.5d
@@ -166,44 +150,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "41693C6D3F534969"
 			optional: true
-			rewards: [
-				{
-					id: "6DA5171A7590ADB2"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:special/power_stare"
-								}
-							]
-						}
+			rewards: [{
+				id: "6DA5171A7590ADB2"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/power_stare"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "2CF2BC377AC0B450"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2CF2BC377AC0B450"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a凝视&f&7[Power Stare]&f"
 			x: -3.0d
 			y: 3.5d
@@ -220,44 +196,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "7CA80608EB36C8CF"
 			optional: true
-			rewards: [
-				{
-					id: "4ACA0458DD0C0560"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:special/magnetize"
-								}
-							]
-						}
+			rewards: [{
+				id: "4ACA0458DD0C0560"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/magnetize"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "23EFB1AC1B12F62D"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "23EFB1AC1B12F62D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "磁力吸引&7[Magnetize]&f"
 			x: -5.5d
 			y: 2.5d
@@ -274,44 +242,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "40D08E513545B669"
 			optional: true
-			rewards: [
-				{
-					id: "00C655F7F5D87897"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:attribute_modifier/attack_steroids"
-								}
-							]
-						}
+			rewards: [{
+				id: "00C655F7F5D87897"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/attack_steroids"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "11DFEE9DBA323BAB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "11DFEE9DBA323BAB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a快速打击&f&7[Attack Steroids]&f"
 			x: -7.5d
 			y: 4.5d
@@ -328,44 +288,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "60D126B08EC1E332"
 			optional: true
-			rewards: [
-				{
-					id: "5880A100A45E1C2A"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:special/fertility"
-								}
-							]
-						}
+			rewards: [{
+				id: "5880A100A45E1C2A"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/fertility"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "1D91727A2758B0AA"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1D91727A2758B0AA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "繁殖增益&7[Fertility]&f"
 			x: -3.5d
 			y: 4.5d
@@ -382,44 +334,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "6EF86515D1C8DE6F"
 			optional: true
-			rewards: [
-				{
-					id: "29C45C5F5E11C345"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:attribute_modifier/heart_gainer"
-								}
-							]
-						}
+			rewards: [{
+				id: "29C45C5F5E11C345"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/heart_gainer"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "2C9B4AF177A25D46"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2C9B4AF177A25D46"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a心脏增益&f&7[Heart Gainer]&f"
 			x: -4.0d
 			y: 3.5d
@@ -436,43 +380,35 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "172AD8126AC4FCA1"
 			optional: true
-			rewards: [
-				{
-					id: "455198280B3966FA"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/absorption"
-								}
-							]
-						}
+			rewards: [{
+				id: "455198280B3966FA"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/absorption"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					id: "3328808D1B9AF927"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "3328808D1B9AF927"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "伤害吸收&7[Absorption]&f"
 			x: -5.5d
 			y: 0.5d
@@ -489,44 +425,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "7B5717A72E6781E0"
 			optional: true
-			rewards: [
-				{
-					id: "69279E07B17EAE9A"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:special/bonemealer"
-								}
-							]
-						}
+			rewards: [{
+				id: "69279E07B17EAE9A"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/bonemealer"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "15392C68473FDCA6"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "15392C68473FDCA6"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "骨粉机&7[Bonemealer]&f"
 			x: -6.5d
 			y: 2.5d
@@ -543,44 +471,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "5491C9ED1BB98D92"
 			optional: true
-			rewards: [
-				{
-					id: "391AABFF9D5474B6"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:attribute_modifier/knockback"
-								}
-							]
-						}
+			rewards: [{
+				id: "391AABFF9D5474B6"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/knockback"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "3E3D6AFB75E0F439"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "3E3D6AFB75E0F439"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "击退&7[Knockback]&f"
 			x: -3.5d
 			y: 2.5d
@@ -597,44 +517,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "0F5A12948668B5DF"
 			optional: true
-			rewards: [
-				{
-					id: "6344632D27ACB461"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:attribute_modifier/hidden_chestplate"
-								}
-							]
-						}
+			rewards: [{
+				id: "6344632D27ACB461"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/hidden_chestplate"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "4C6013D9E8F79692"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4C6013D9E8F79692"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a隐藏胸甲&f&7[Hidden Chestplate]&f"
 			x: -2.5d
 			y: 4.5d
@@ -651,43 +563,35 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "784D318025B240F1"
 			optional: true
-			rewards: [
-				{
-					id: "4F3DCF9AE7EA1927"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/fire_resistance"
-								}
-							]
-						}
+			rewards: [{
+				id: "4F3DCF9AE7EA1927"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/fire_resistance"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					id: "6CE246973BD838A4"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "6CE246973BD838A4"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&a火焰保护&f&7[Fire Resistance]&f"
 			x: -4.5d
 			y: 0.5d
@@ -704,44 +608,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "3DB8D01403E62E31"
 			optional: true
-			rewards: [
-				{
-					id: "06368A606673F50D"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/haste"
-								}
-							]
-						}
+			rewards: [{
+				id: "06368A606673F50D"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/haste"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "04BD1E185B8F1554"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "04BD1E185B8F1554"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "急迫&7[Haste]&f"
 			x: -5.0d
 			y: 1.5d
@@ -758,44 +654,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "29BE9180D30A3546"
 			optional: true
-			rewards: [
-				{
-					id: "5B458713ADAABF13"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/invisibility"
-								}
-							]
-						}
+			rewards: [{
+				id: "5B458713ADAABF13"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/invisibility"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "1A755F69D5D3F4C6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1A755F69D5D3F4C6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "隐身&7[Invisibility]&f"
 			x: -6.0d
 			y: 3.5d
@@ -812,44 +700,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "7069BFCF55EAD440"
 			optional: true
-			rewards: [
-				{
-					id: "1204B9E39D5B1DC3"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/jump_boost"
-								}
-							]
-						}
+			rewards: [{
+				id: "1204B9E39D5B1DC3"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/jump_boost"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "2C1049AEF177C15E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2C1049AEF177C15E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a跳跃提升&f&7[Jump Boost]&f"
 			x: -6.5d
 			y: 4.5d
@@ -866,44 +746,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "46AFFF5B8F214347"
 			optional: true
-			rewards: [
-				{
-					id: "7876BE4DBC47A2AC"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/luck"
-								}
-							]
-						}
+			rewards: [{
+				id: "7876BE4DBC47A2AC"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/luck"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "50752E4024620553"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "50752E4024620553"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "幸运&7[Luck]&f"
 			x: -5.0d
 			y: 3.5d
@@ -920,44 +792,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "422DD5D2B56EF4BB"
 			optional: true
-			rewards: [
-				{
-					id: "70265788F9B86593"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/night_vision"
-								}
-							]
-						}
+			rewards: [{
+				id: "70265788F9B86593"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/night_vision"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "6CC2620B99D6962B"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6CC2620B99D6962B"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&a夜视&f&7[Night Vision]&f"
 			x: -4.5d
 			y: 2.5d
@@ -974,44 +838,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "0253CDE8D3C1E28A"
 			optional: true
-			rewards: [
-				{
-					id: "41B2DD84A01912EF"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/regeneration"
-								}
-							]
-						}
+			rewards: [{
+				id: "41B2DD84A01912EF"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/regeneration"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 6L
-					id: "4265278BEACCBC0B"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "4265278BEACCBC0B"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "生命恢复&7[Regeneration]&f"
 			x: -5.0d
 			y: -2.5d
@@ -1028,44 +884,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "1709287D638CB87B"
 			optional: true
-			rewards: [
-				{
-					id: "3E22DBA02C5B26AA"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/resistance"
-								}
-							]
-						}
+			rewards: [{
+				id: "3E22DBA02C5B26AA"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/resistance"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 6L
-					id: "068E83EDAC1F3DEA"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "068E83EDAC1F3DEA"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "抗性提升&7[Restistance]&f"
 			x: -3.5d
 			y: -1.0d
@@ -1082,44 +930,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "37AB135269CA24C7"
 			optional: true
-			rewards: [
-				{
-					id: "3450203A49AC6C43"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/saturation"
-								}
-							]
-						}
+			rewards: [{
+				id: "3450203A49AC6C43"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/saturation"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "7471DF6A7FCF3ABA"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7471DF6A7FCF3ABA"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "饱和&7[Saturation]&f"
 			x: -6.0d
 			y: 1.5d
@@ -1136,44 +976,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "390F6C33C5A48825"
 			optional: true
-			rewards: [
-				{
-					id: "1F9F4E1BDA0204F1"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/speed"
-								}
-							]
-						}
+			rewards: [{
+				id: "1F9F4E1BDA0204F1"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/speed"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "33AB9C1C280F580A"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "33AB9C1C280F580A"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "速度&7[Speed]&f"
 			x: -4.0d
 			y: 1.5d
@@ -1190,44 +1022,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "4798F1FCFC70BF70"
 			optional: true
-			rewards: [
-				{
-					id: "6A3ACE910656EDE0"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/strength"
-								}
-							]
-						}
+			rewards: [{
+				id: "6A3ACE910656EDE0"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/strength"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 6L
-					id: "066541C7CB336DBE"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "066541C7CB336DBE"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "力量&7[Strength]&f"
 			x: -6.5d
 			y: -1.0d
@@ -1244,44 +1068,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "10961F25FAD6A171"
 			optional: true
-			rewards: [
-				{
-					id: "69005A31D53EAC58"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/water_breathing"
-								}
-							]
-						}
+			rewards: [{
+				id: "69005A31D53EAC58"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/water_breathing"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "703FE0874E47D6CC"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "703FE0874E47D6CC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a水下呼吸&f&7[Water Breathing]&f"
 			x: -5.5d
 			y: 4.5d
@@ -1298,44 +1114,36 @@
 				Count: 1
 				id: "everlastingabilities:ability_totem"
 				tag: {
-					"everlastingabilities:abilityStoreStack": [
-						{
-							level: 1
-							name: "everlastingabilities:attribute_modifier/attack_steroids"
-						}
-					]
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
 				}
 			}
 			id: "038199C568FADFF9"
 			optional: true
-			rewards: [
-				{
-					id: "71F7B26E537B6168"
-					item: {
-						Count: 1
-						id: "everlastingabilities:ability_totem"
-						tag: {
-							"everlastingabilities:abilityStoreStack": [
-								{
-									level: 1
-									name: "everlastingabilities:effect/slow_falling"
-								}
-							]
-						}
+			rewards: [{
+				id: "71F7B26E537B6168"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/slow_falling"
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "53AA0E1A2161B4B5"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "53AA0E1A2161B4B5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "&a缓降&f&7[Slow Falling]&f"
 			x: -4.5d
 			y: 4.5d
@@ -1345,23 +1153,19 @@
 			icon: "minecraft:iron_block"
 			id: "7FEC22E1F0AF3B84"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "0F3D423B54FAE43E"
-					item: "minecraft:iron_block"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "04D11E303FCCC4B8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "0F3D423B54FAE43E"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "04D11E303FCCC4B8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 铁块&7[64x Iron Block]&f"
 			x: 11.0d
 			y: -3.5d
@@ -1371,23 +1175,19 @@
 			icon: "rftoolsbase:infused_diamond"
 			id: "0063763BD09A1D17"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "1661687F7B6B20E8"
-					item: "rftoolsbase:infused_diamond"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "6D011DED088D7633"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "1661687F7B6B20E8"
+				item: "rftoolsbase:infused_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6D011DED088D7633"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "16x &a注能钻石&f&7[16x Infused Diamond]&f"
 			x: 3.0d
 			y: -0.5d
@@ -1397,23 +1197,19 @@
 			icon: "armorplus:en_diamond"
 			id: "35AF5CE2EA642D62"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "4FB826345671F090"
-					item: "armorplus:en_diamond"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "6999D55ECF68CEF1"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "4FB826345671F090"
+				item: "armorplus:en_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6999D55ECF68CEF1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "32x 强化:钻石&7[32x Enhanced: Diamond]&f"
 			x: 2.0d
 			y: -2.5d
@@ -1423,23 +1219,19 @@
 			icon: "botania:mana_diamond"
 			id: "308F7661DA0CA3A4"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "2BBDE9941195F96B"
-					item: "botania:mana_diamond"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "60368D7BD8D8D1CC"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "2BBDE9941195F96B"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "60368D7BD8D8D1CC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "16x &a魔力钻石&f&7[16x Mana Diamond]&f"
 			x: 2.0d
 			y: -0.5d
@@ -1449,23 +1241,19 @@
 			icon: "botania:dragonstone"
 			id: "3129D664B98CAA9F"
 			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "35F84245477273BB"
-					item: "botania:dragonstone"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "79180EED06CF16B7"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "35F84245477273BB"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "79180EED06CF16B7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "8x 龙石&7[8x Dragonstone]&f"
 			x: 2.0d
 			y: 0.5d
@@ -1475,23 +1263,19 @@
 			icon: "minecraft:emerald"
 			id: "63CD2FEA261F5A00"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "4E55FE640CCB9A18"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "1A6B556B7C404F43"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "4E55FE640CCB9A18"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1A6B556B7C404F43"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 绿宝石&7[64x Emerald]&f"
 			x: 3.0d
 			y: -3.5d
@@ -1501,23 +1285,19 @@
 			icon: "minecraft:lapis_lazuli"
 			id: "09184793B729D6D0"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "4B665B692CDBD615"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "176BE5314738931B"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "4B665B692CDBD615"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "176BE5314738931B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 青金石&7[64x Lapis]&f"
 			x: 4.0d
 			y: -3.5d
@@ -1527,23 +1307,19 @@
 			icon: "minecraft:diamond"
 			id: "3F0E0DCF60ACD3FC"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "379CC5A795A757ED"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "32F06BAC5944C0FF"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "379CC5A795A757ED"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "32F06BAC5944C0FF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 钻石&7[64x Diamond]&f"
 			x: 2.0d
 			y: -3.5d
@@ -1553,23 +1329,19 @@
 			icon: "thermal:cinnabar"
 			id: "37BC6CA26B4C4832"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "17B7D5C3E5D2E178"
-					item: "thermal:cinnabar"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "70157F14A7F9EAAB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "17B7D5C3E5D2E178"
+				item: "thermal:cinnabar"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "70157F14A7F9EAAB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 朱砂&7[64x Cinnabar]&f"
 			x: 5.0d
 			y: -3.5d
@@ -1579,23 +1351,19 @@
 			icon: "minecraft:quartz"
 			id: "225D5E8C64B8E950"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "3ACC423637FD13E1"
-					item: "minecraft:quartz"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "063574C71344A12D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "3ACC423637FD13E1"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "063574C71344A12D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x &a下界石英&f&7[64x Nether Quartz]&f"
 			x: 6.0d
 			y: -3.5d
@@ -1605,23 +1373,19 @@
 			icon: "thermal:niter"
 			id: "46BDE1F3F2A7A4FF"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "6B85930797CA8F0D"
-					item: "thermal:niter"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "4BDD3DE70AFEE875"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "6B85930797CA8F0D"
+				item: "thermal:niter"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4BDD3DE70AFEE875"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 硝石&7[64x Niter]&f"
 			x: 7.0d
 			y: -3.5d
@@ -1631,23 +1395,19 @@
 			icon: "thermal:sulfur"
 			id: "1D72B2E702563203"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "6495A8155CF7415B"
-					item: "thermal:sulfur"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "34A338095554DEF9"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "6495A8155CF7415B"
+				item: "thermal:sulfur"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "34A338095554DEF9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 硫磺&7[64x Sulfur]&f"
 			x: 8.0d
 			y: -3.5d
@@ -1657,23 +1417,19 @@
 			icon: "redstone_arsenal:flux_gem"
 			id: "5B16DF3D295D85C9"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "16BA0B1AB779D35A"
-					item: "redstone_arsenal:flux_gem"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "3E0F4B4E2C9E264F"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "16BA0B1AB779D35A"
+				item: "redstone_arsenal:flux_gem"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3E0F4B4E2C9E264F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "16x 通量灌注宝石&7[16x Flux-Infused Gem]&f"
 			x: 4.0d
 			y: -0.5d
@@ -1683,23 +1439,19 @@
 			icon: "minecraft:prismarine_crystals"
 			id: "284F3080D5EF35B6"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "5D4293A63D867FBE"
-					item: "minecraft:prismarine_crystals"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "2869AD84F7A556E5"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "5D4293A63D867FBE"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2869AD84F7A556E5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "32x 海晶晶体&7[32x Prismarine Crystals]&f"
 			x: 3.0d
 			y: -2.5d
@@ -1709,23 +1461,19 @@
 			icon: "mekanism:fluorite_gem"
 			id: "2D5B1AC38C0BBC54"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "6AC44FB946604DB9"
-					item: "mekanism:fluorite_gem"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "71FD9511176EE65A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "6AC44FB946604DB9"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "71FD9511176EE65A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 萤石&7[64x Fluorite]&f"
 			x: 9.0d
 			y: -3.5d
@@ -1735,23 +1483,19 @@
 			icon: "powah:crystal_blazing"
 			id: "00592E4B2DC0920B"
 			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "7A8F26A92BF72DDD"
-					item: "powah:crystal_blazing"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "3A8554E4F8715B1C"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "7A8F26A92BF72DDD"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3A8554E4F8715B1C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "8x &a烈焰水晶&f&7[8x Blazing Crystal]&f"
 			x: 11.0d
 			y: -2.5d
@@ -1762,23 +1506,19 @@
 			icon: "powah:crystal_niotic"
 			id: "59186A28B751D962"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "72B1E7CD18E5C9AC"
-					item: "powah:crystal_niotic"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "341CF426ABBCB4F8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "72B1E7CD18E5C9AC"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "341CF426ABBCB4F8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "4x &a钻石水晶&f&7[4x Niotic Crystal]&f"
 			x: 12.0d
 			y: -2.5d
@@ -1789,23 +1529,19 @@
 			icon: "powah:crystal_spirited"
 			id: "64A9FC3826ABAC05"
 			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "7270008DC890FCF4"
-					item: "powah:crystal_spirited"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "0C14798B9B5CC4B6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "7270008DC890FCF4"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0C14798B9B5CC4B6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "2x &a富生水晶&f&7[2x Spirited Crystal]&f"
 			x: 13.0d
 			y: -2.5d
@@ -1816,22 +1552,18 @@
 			icon: "powah:crystal_nitro"
 			id: "25C0599B471AB5BA"
 			optional: true
-			rewards: [
-				{
-					id: "2656D40D65E0794F"
-					item: "powah:crystal_nitro"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "5B330E164CE72D2F"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2656D40D65E0794F"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5B330E164CE72D2F"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "1x &a下界水晶&f&7[1x Nitro Crystal]&f"
 			x: 14.0d
 			y: -2.5d
@@ -1841,23 +1573,19 @@
 			icon: "thermal:ruby"
 			id: "6BD3D623FD9DFA36"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "205253C162B2843F"
-					item: "thermal:ruby"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "463DF204C9648E43"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "205253C162B2843F"
+				item: "thermal:ruby"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "463DF204C9648E43"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "32x 红宝石&7[32x Ruby]&f"
 			x: 2.0d
 			y: -1.5d
@@ -1867,26 +1595,19 @@
 			icon: "thermal:sapphire"
 			id: "4E3E62D8297B1521"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "62D3E71CDB88D0B1"
-					item: "thermal:sapphire"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "7CC49C782A9BAC9B"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "62D3E71CDB88D0B1"
+				item: "thermal:sapphire"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7CC49C782A9BAC9B"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "32x 蓝宝石&7[32x Sapphire]&f"
 			x: 3.0d
 			y: -1.5d
@@ -1896,23 +1617,19 @@
 			icon: "extendedcrafting:ender_star"
 			id: "11E986BEB64C262F"
 			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "5AD31B47620DFD44"
-					item: "extendedcrafting:ender_star"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "6ECB9518C107577C"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "5AD31B47620DFD44"
+				item: "extendedcrafting:ender_star"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6ECB9518C107577C"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "2x &a末影之星&f&7[2x Ender Star]&f"
 			x: 12.0d
 			y: -1.5d
@@ -1922,23 +1639,19 @@
 			icon: "extendedcrafting:flux_star"
 			id: "7C139527092C6A97"
 			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "3C5D341E3295740A"
-					item: "extendedcrafting:flux_star"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "3D0B94049B3934ED"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "3C5D341E3295740A"
+				item: "extendedcrafting:flux_star"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3D0B94049B3934ED"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "2x 通量之星&7[2x Flux Star]&f"
 			x: 11.0d
 			y: -1.5d
@@ -1948,26 +1661,19 @@
 			icon: "extendedcrafting:luminessence"
 			id: "607C063B05754966"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "60F9FF115FAB0F0B"
-					item: "extendedcrafting:luminessence"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "49D9557FFA1DBF27"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "60F9FF115FAB0F0B"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "49D9557FFA1DBF27"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "16x 发光体&7[16x Luminessence]&f"
 			x: 13.0d
 			y: -1.5d
@@ -1977,26 +1683,19 @@
 			icon: "dimensionalpocketsii:dimensional_gem"
 			id: "0B3DAD07B0FD318D"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "409B4D978B79B01E"
-					item: "dimensionalpocketsii:dimensional_gem"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "5C305A9C217217A7"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "409B4D978B79B01E"
+				item: "dimensionalpocketsii:dimensional_gem"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5C305A9C217217A7"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "32x 维度宝石&7[32x Dimensional Gem]&f"
 			x: 4.0d
 			y: -2.5d
@@ -2006,26 +1705,19 @@
 			icon: "ae2:certus_quartz_crystal"
 			id: "6A501E9C69796C0F"
 			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "018A76D5F53F668B"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "3B7D43B649550E56"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "018A76D5F53F668B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3B7D43B649550E56"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "32x &a赛特斯石英水晶&f&7[32x Certus Quartz Crystal]&f"
 			x: 6.0d
 			y: -1.5d
@@ -2035,26 +1727,19 @@
 			icon: "ae2:charged_certus_quartz_crystal"
 			id: "1B174D0822060003"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "142ACB6919372B0A"
-					item: "ae2:charged_certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "501AA5F55344FD92"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "142ACB6919372B0A"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "501AA5F55344FD92"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "16x 充能 &a赛特斯石英水晶&f&7[16x Charged Certus Quartz Crystal]&f"
 			x: 6.0d
 			y: -0.5d
@@ -2064,26 +1749,19 @@
 			icon: "ae2:fluix_crystal"
 			id: "2FEE8EB3978FBE2F"
 			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "4507B069891A1AC8"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "079CFC6CD304AFA3"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "4507B069891A1AC8"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "079CFC6CD304AFA3"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "8x &a福鲁伊克斯水晶&f&7[8x Fluix Crystal]&f"
 			x: 5.0d
 			y: 0.5d
@@ -2093,26 +1771,19 @@
 			icon: "minecraft:amethyst_shard"
 			id: "7C5DF231EB24BBF3"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "4D0CFBF6234C8BCC"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "56A4FB5679507337"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "4D0CFBF6234C8BCC"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "56A4FB5679507337"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "16x &a紫水晶碎片&f&7[16x Amethyst Shard]&f"
 			x: 5.0d
 			y: -0.5d
@@ -2122,22 +1793,18 @@
 			icon: "extendedcrafting:enhanced_redstone_ingot"
 			id: "231A005F7A2A77D5"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "3A919BE82E29A350"
-					item: "extendedcrafting:enhanced_redstone_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "0B0818CE4C221EBD"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "3A919BE82E29A350"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B0818CE4C221EBD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "4x 强化 &a红石锭&f&7[4x Enhanced Redstone Ingot]&f"
 			x: 11.0d
 			y: 1.5d
@@ -2147,22 +1814,18 @@
 			icon: "extendedcrafting:enhanced_ender_ingot"
 			id: "706E58BE448D8EE7"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "06A7F741B4FA2FCC"
-					item: "extendedcrafting:enhanced_ender_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "1C5163D9602248A1"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "06A7F741B4FA2FCC"
+				item: "extendedcrafting:enhanced_ender_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1C5163D9602248A1"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "4x &a增强末影锭&f&7[4x Enhanced Ender Ingot]&f"
 			x: 12.0d
 			y: 1.5d
@@ -2172,23 +1835,19 @@
 			icon: "extendedcrafting:redstone_ingot"
 			id: "7C3991C80C51C7F8"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "662D113AFF3A029F"
-					item: "extendedcrafting:redstone_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "680745F08B5A0A66"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "662D113AFF3A029F"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "680745F08B5A0A66"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x &a红石锭&f&7[64x Redstone Ingot]&f"
 			x: 11.0d
 			y: 0.5d
@@ -2198,23 +1857,19 @@
 			icon: "extendedcrafting:ender_ingot"
 			id: "0FCF20DCEE0E1E33"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "6F1C39716BD6FCB5"
-					item: "extendedcrafting:ender_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "1735496A1AF39403"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "6F1C39716BD6FCB5"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1735496A1AF39403"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x &a末影锭&f&7[64x Ender Ingot]&f"
 			x: 12.0d
 			y: 0.5d
@@ -2224,23 +1879,19 @@
 			icon: "extendedcrafting:black_iron_ingot"
 			id: "65D75FE53964AEA3"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "1DB7AEE661F91FA2"
-					item: "extendedcrafting:black_iron_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "55FC781711E2AAF4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "1DB7AEE661F91FA2"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "55FC781711E2AAF4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x &a黑铁锭&f&7[64x Black Iron Ingot]&f"
 			x: 13.0d
 			y: 0.5d
@@ -2250,23 +1901,19 @@
 			icon: "armorplus:en_gold"
 			id: "2FF90CE42B372DCB"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "3F7D0BB816165099"
-					item: "armorplus:en_gold"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "56FCAB3F7F21BFD6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "3F7D0BB816165099"
+				item: "armorplus:en_gold"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "56FCAB3F7F21BFD6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x 强化:&a金锭&f&7[64x Enhanced: Gold Ingot]&f"
 			x: 14.0d
 			y: 0.5d
@@ -2276,22 +1923,18 @@
 			icon: "armorplus:lava_crystal"
 			id: "7F86A593F837AED8"
 			optional: true
-			rewards: [
-				{
-					id: "6D2878A8026F40E5"
-					item: "armorplus:lava_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "26FA2D58E68118F2"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6D2878A8026F40E5"
+				item: "armorplus:lava_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "26FA2D58E68118F2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "1x &a熔岩水晶&f&7[1x Lava Crystal]&f"
 			x: 11.0d
 			y: -0.5d
@@ -2301,22 +1944,18 @@
 			icon: "armorplus:infused_lava_crystal"
 			id: "4991DCE43DB9A91F"
 			optional: true
-			rewards: [
-				{
-					id: "03CE5F1A2BFC6CF6"
-					item: "armorplus:infused_lava_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "1EB8086D1723A044"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "03CE5F1A2BFC6CF6"
+				item: "armorplus:infused_lava_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1EB8086D1723A044"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "1x &a灌注熔岩水晶&f&7[1x Infused Lava Crystal]&f"
 			x: 13.0d
 			y: -0.5d
@@ -2326,22 +1965,18 @@
 			icon: "armorplus:frost_crystal"
 			id: "224D766CC42BF9B5"
 			optional: true
-			rewards: [
-				{
-					id: "10330A71439581F7"
-					item: "armorplus:frost_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "525A1543A40E1362"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "10330A71439581F7"
+				item: "armorplus:frost_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "525A1543A40E1362"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "1x 寒冰水晶&7[1x Frost Crystal]&f"
 			x: 12.0d
 			y: -0.5d
@@ -2351,22 +1986,18 @@
 			icon: "armorplus:infused_frost_crystal"
 			id: "68F1492F61A3FDA8"
 			optional: true
-			rewards: [
-				{
-					id: "377027ADA6DA34CB"
-					item: "armorplus:infused_frost_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "1F319BB08BB8B2BA"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "377027ADA6DA34CB"
+				item: "armorplus:infused_frost_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1F319BB08BB8B2BA"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "1x 灌注寒冰水晶&7[1x Infused Frost Crystal]&f"
 			x: 14.0d
 			y: -0.5d
@@ -2376,26 +2007,19 @@
 			icon: "armorplus:guardian_scale"
 			id: "2494EE6C7C4625D3"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "66F0CEEBFFC6AF2E"
-					item: "armorplus:guardian_scale"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "2CF24C10E871D3B5"
-					item: {
-						Count: 64
-						id: "kubejs:apotheotic_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "66F0CEEBFFC6AF2E"
+				item: "armorplus:guardian_scale"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2CF24C10E871D3B5"
+				item: { Count: 64, id: "kubejs:apotheotic_coin" }
+				type: "item"
+			}]
 			title: "16x &a守卫者鳞片&f&7[16x Guardian Scale]&f"
 			x: 14.0d
 			y: -1.5d
@@ -2405,23 +2029,19 @@
 			icon: "minecraft:gold_block"
 			id: "2D50EF46A42436E8"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "2444CB057502C905"
-					item: "minecraft:gold_block"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "6E3C4E08E6CBAD92"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "2444CB057502C905"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6E3C4E08E6CBAD92"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x &a金块&f&7[64x Block of Gold]&f"
 			x: 12.0d
 			y: -3.5d
@@ -2431,23 +2051,19 @@
 			icon: "ae2:sky_stone_block"
 			id: "22EC5BB9BF281A73"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "5E2FAAAA01A39F20"
-					item: "ae2:sky_stone_block"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "3F6E5AB825842A7E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "5E2FAAAA01A39F20"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3F6E5AB825842A7E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			title: "64x &a陨石&f&7[64x Sky Stone]&f"
 			x: 13.0d
 			y: -3.5d
@@ -2457,23 +2073,19 @@
 			icon: "pneumaticcraft:plastic_brick_white"
 			id: "4F837253AEDCFD8C"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "1A7DDFB9176A8428"
-					item: "pneumaticcraft:plastic_brick_white"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "37017A9FB0CA8DD6"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "1A7DDFB9176A8428"
+				item: "pneumaticcraft:plastic_brick_white"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "37017A9FB0CA8DD6"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "4x &a白色塑料块&f&7[4x White Plastic Block]&f"
 			x: 14.0d
 			y: -3.5d
@@ -2483,22 +2095,18 @@
 			icon: "thermalendergy:melodium_ingot"
 			id: "0DE6DC0D3BF3ED95"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "4C78BBF4DE6B0542"
-					item: "thermalendergy:melodium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "21ED6E80DC2F8D63"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "4C78BBF4DE6B0542"
+				item: "thermalendergy:melodium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "21ED6E80DC2F8D63"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "4x &a旋律锭&f&7[4x Melodium Ingot]&f"
 			x: 13.0d
 			y: 1.5d
@@ -2508,22 +2116,18 @@
 			icon: "thermal:signalum_ingot"
 			id: "587E2BA5E1FF53E2"
 			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "2F954F60DF1DA585"
-					item: "thermal:signalum_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "5164FFCCC1C2F2B5"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "2F954F60DF1DA585"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5164FFCCC1C2F2B5"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "4x 信号锭&7[4x Signalium Ingot]&f"
 			x: 14.0d
 			y: 1.5d
@@ -2533,22 +2137,18 @@
 			icon: "thermal:lumium_ingot"
 			id: "1EBA26A2F36B0B80"
 			optional: true
-			rewards: [
-				{
-					id: "45D0D8DE22A51870"
-					item: "thermal:lumium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "4572BE0ED75049CE"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "45D0D8DE22A51870"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4572BE0ED75049CE"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "1x &a流明锭&f&7[1x Lumium Ingot]&f"
 			x: 11.0d
 			y: 2.5d
@@ -2558,22 +2158,18 @@
 			icon: "thermal:enderium_ingot"
 			id: "45BCC26BB1949266"
 			optional: true
-			rewards: [
-				{
-					id: "3E083B2CD4E91ED1"
-					item: "thermal:enderium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "46B48E0C87CEFC7A"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3E083B2CD4E91ED1"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "46B48E0C87CEFC7A"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "1x &a末影锭&f&7[1x Enderium Ingot]&f"
 			x: 12.0d
 			y: 2.5d
@@ -2583,22 +2179,18 @@
 			icon: "thermalendergy:prismalium_ingot"
 			id: "5C1660EE5619CD9C"
 			optional: true
-			rewards: [
-				{
-					id: "7E60F113A329B233"
-					item: "thermalendergy:prismalium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 4L
-					id: "3CEC73EB983BB1C1"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7E60F113A329B233"
+				item: "thermalendergy:prismalium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3CEC73EB983BB1C1"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "1x &a海晶锭&f&7[1x Prismalium Ingot]&f"
 			x: 13.0d
 			y: 2.5d
@@ -2608,22 +2200,18 @@
 			icon: "thermalendergy:stellarium_ingot"
 			id: "5F6D543621564FC0"
 			optional: true
-			rewards: [
-				{
-					id: "38159BFAF9314DE8"
-					item: "thermalendergy:stellarium_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "6B763E97D9F48758"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "38159BFAF9314DE8"
+				item: "thermalendergy:stellarium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6B763E97D9F48758"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "1x &a恒星锭&f&7[1x Stellarium Ingot]&f"
 			x: 14.0d
 			y: 2.5d
@@ -2641,26 +2229,22 @@
 			]
 			id: "7CCB21D64B9DD26C"
 			optional: true
-			rewards: [
-				{
-					auto: "enabled"
-					count: 10
-					id: "5B55A24FA744CC6D"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 100000L
-					id: "659D5E6CAD927714"
-					item: "enderio:octadic_capacitor"
-					match_nbt: false
-					only_from_crafting: false
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				count: 10
+				id: "5B55A24FA744CC6D"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100000L
+				id: "659D5E6CAD927714"
+				item: "enderio:octadic_capacitor"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
 			x: -8.5d
 			y: 13.0d
 		}
@@ -2677,23 +2261,19 @@
 			]
 			id: "432D9DC5978653F2"
 			optional: true
-			rewards: [
-				{
-					auto: "enabled"
-					count: 2
-					id: "33C6D71F405169F4"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "363766417B8C3516"
-					max_input: 2147483647L
-					type: "forge_energy"
-					value: 500000000000000L
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "33C6D71F405169F4"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "363766417B8C3516"
+				max_input: 2147483647L
+				type: "forge_energy"
+				value: 500000000000000L
+			}]
 			x: -7.5d
 			y: 13.0d
 		}
@@ -2701,48 +2281,42 @@
 			can_repeat: true
 			id: "55A7C859171B02BE"
 			optional: true
-			rewards: [
-				{
-					auto: "enabled"
-					count: 10
-					id: "654CD0682D571DB3"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					checkItem: false
-					entity: "minecraft:wither"
-					icon: {
-						Count: 1
-						id: "obtrophies:trophy"
-						tag: {
-							BlockEntityTag: {
-								VariantID: 0
-								entity: "minecraft:wither"
-							}
+			rewards: [{
+				auto: "enabled"
+				count: 10
+				id: "654CD0682D571DB3"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "minecraft:wither"
 						}
 					}
-					id: "561DC08E8EB72232"
-					nbt: { }
-					type: "questsadditions:killnbt"
-					value: 250L
 				}
-			]
+				id: "561DC08E8EB72232"
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 250L
+			}]
 			title: "击杀:250x 凋灵&7[Kill: 250x Wither]&f"
 			x: -6.5d
 			y: 13.0d
 		}
 		{
 			id: "6857EBCB5EE5161B"
-			tasks: [
-				{
-					id: "35EB51E72A0DEED8"
-					item: "ftbquests:screen_1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "35EB51E72A0DEED8"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 11.5d
 		}
@@ -2826,25 +2400,18 @@
 			icon: "chancecubes:chance_cube"
 			id: "7C342FC279D9DDCB"
 			optional: true
-			rewards: [
-				{
-					id: "26A99071BA179ECA"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "613B34DFA13E62A0"
-					item: {
-						Count: 8
-						id: "kubejs:infused_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "26A99071BA179ECA"
+				item: "chancecubes:chance_cube"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "613B34DFA13E62A0"
+				item: { Count: 8, id: "kubejs:infused_coin" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 5.5d
 		}
@@ -2859,27 +2426,23 @@
 			}
 			id: "33F8A72B292D596D"
 			optional: true
-			rewards: [
-				{
-					id: "71440A5035E66BFB"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_reward"
-						}
+			rewards: [{
+				id: "71440A5035E66BFB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "common_reward"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "6E844930631F3C4D"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6E844930631F3C4D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&a普通 &a战利品箱&f&7[Common Loot Crate]&f"
 			x: 4.5d
 			y: 8.5d
@@ -2895,28 +2458,24 @@
 			}
 			id: "533A00EE6E47DE0A"
 			optional: true
-			rewards: [
-				{
-					id: "36A697382197C725"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "uncommon_reward"
-						}
+			rewards: [{
+				id: "36A697382197C725"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "uncommon_reward"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "2DEA72B49F4B43D2"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2DEA72B49F4B43D2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&2罕见 &a战利品箱&f&7[Uncommon Loot Crate]&f"
 			x: 5.5d
 			y: 8.5d
@@ -2932,28 +2491,24 @@
 			}
 			id: "14DB4AF55D2324C1"
 			optional: true
-			rewards: [
-				{
-					id: "56F97591D758115A"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "rare_reward"
-						}
+			rewards: [{
+				id: "56F97591D758115A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "rare_reward"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "4DC2A786E17D953E"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4DC2A786E17D953E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&9稀有 &a战利品箱&f&7[Rare Loot Crate]&f"
 			x: 6.5d
 			y: 8.5d
@@ -2969,28 +2524,24 @@
 			}
 			id: "1214E6ADB3BED8A3"
 			optional: true
-			rewards: [
-				{
-					id: "42B0DEE235696948"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "epic_reward"
-						}
+			rewards: [{
+				id: "42B0DEE235696948"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "epic_reward"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "59DF0EBEE6A162FF"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "59DF0EBEE6A162FF"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&e史诗 &a战利品箱&f&7[Epic Loot Crate]&f"
 			x: 7.5d
 			y: 8.5d
@@ -3006,28 +2557,24 @@
 			}
 			id: "3951B07EA573593B"
 			optional: true
-			rewards: [
-				{
-					id: "28DCA7B5491D6E33"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "legendary_reward"
-						}
+			rewards: [{
+				id: "28DCA7B5491D6E33"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "legendary_reward"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 128L
-					id: "142EE8DEFCC4DBEE"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "142EE8DEFCC4DBEE"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&c传说 &a战利品箱&f&7[Legendary Loot Crate]&f"
 			x: 8.5d
 			y: 8.5d
@@ -3043,28 +2590,24 @@
 			}
 			id: "4CC79D2D833DB43A"
 			optional: true
-			rewards: [
-				{
-					id: "3E89908CEBDB9749"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "mythic_reward"
-						}
+			rewards: [{
+				id: "3E89908CEBDB9749"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "mythic_reward"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 256L
-					id: "13A949502DABB8ED"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "13A949502DABB8ED"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&5神话 &a战利品箱&f&7[Mythic Loot Crate]&f"
 			x: 9.5d
 			y: 8.5d
@@ -3080,27 +2623,23 @@
 			}
 			id: "387D824688AA51F6"
 			optional: true
-			rewards: [
-				{
-					id: "29DD2EF52D6DC4EE"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "tier_1_seed_bag"
-						}
+			rewards: [{
+				id: "29DD2EF52D6DC4EE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_1_seed_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "54722D68DC46E769"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54722D68DC46E769"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&a一级种子箱&7[Tier 1 Seed Crate]&f"
 			x: 4.5d
 			y: 10.0d
@@ -3116,28 +2655,24 @@
 			}
 			id: "2039DCD2D0B134B0"
 			optional: true
-			rewards: [
-				{
-					id: "15135DFCC991D365"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "tier_2_seed_bag"
-						}
+			rewards: [{
+				id: "15135DFCC991D365"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_2_seed_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "7A702DF243008BB5"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7A702DF243008BB5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&2二级种子箱&7[Tier 2 Seed Crate]&f"
 			x: 5.5d
 			y: 10.0d
@@ -3153,28 +2688,24 @@
 			}
 			id: "23D354D1B1816982"
 			optional: true
-			rewards: [
-				{
-					id: "3359395649967916"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "tier_3_seed_bag"
-						}
+			rewards: [{
+				id: "3359395649967916"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_3_seed_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "175CF227477D8AA6"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "175CF227477D8AA6"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&e三级种子箱&7[Tier 3 Seed Crate]&f"
 			x: 6.5d
 			y: 10.0d
@@ -3190,28 +2721,24 @@
 			}
 			id: "175892FD048EEF25"
 			optional: true
-			rewards: [
-				{
-					id: "77F29F547C966039"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "tier_4_seed_bag"
-						}
+			rewards: [{
+				id: "77F29F547C966039"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_4_seed_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "24B228A5C14318BD"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "24B228A5C14318BD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&9四级种子箱&7[Tier 4 Seed Crate]&f"
 			x: 7.5d
 			y: 10.0d
@@ -3227,28 +2754,24 @@
 			}
 			id: "70218208AA687752"
 			optional: true
-			rewards: [
-				{
-					id: "76841A8904C4A010"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "tier_5_seed_bag"
-						}
+			rewards: [{
+				id: "76841A8904C4A010"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_5_seed_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 128L
-					id: "0A2CCB9210FC6E6B"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "0A2CCB9210FC6E6B"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&c五级种子箱&7[Tier 5 Seed Crate]&f"
 			x: 8.5d
 			y: 10.0d
@@ -3264,28 +2787,24 @@
 			}
 			id: "131FE21036BACDA8"
 			optional: true
-			rewards: [
-				{
-					id: "22C18495BD8BE9A7"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "tier_6_seed_bag"
-						}
+			rewards: [{
+				id: "22C18495BD8BE9A7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "tier_6_seed_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 256L
-					id: "5864F0B11BF51CFD"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5864F0B11BF51CFD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&5六级种子箱&7[Tier 6 Seed Crate]&f"
 			x: 9.5d
 			y: 10.0d
@@ -3301,28 +2820,24 @@
 			}
 			id: "113D2767E823335D"
 			optional: true
-			rewards: [
-				{
-					id: "17B6641DC4A4DF05"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "de_chaotic"
-						}
+			rewards: [{
+				id: "17B6641DC4A4DF05"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_chaotic"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 256L
-					id: "5AF6B7267F29E96E"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5AF6B7267F29E96E"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&5混沌龙研 &a战利品箱&f&7[DE Chaotic Loot Crate]&f"
 			x: 9.5d
 			y: 11.5d
@@ -3338,28 +2853,24 @@
 			}
 			id: "3B8FD7AD472F7603"
 			optional: true
-			rewards: [
-				{
-					id: "138ADE5D7007E489"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "de_draconic"
-						}
+			rewards: [{
+				id: "138ADE5D7007E489"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_draconic"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 128L
-					id: "19A8748AE163D22F"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "19A8748AE163D22F"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&c龙之研究 &a战利品箱&f&7[DE Draconic Loot Crate]&f"
 			x: 8.5d
 			y: 11.5d
@@ -3375,28 +2886,24 @@
 			}
 			id: "48B11B61EE35E4B2"
 			optional: true
-			rewards: [
-				{
-					id: "632EB7F08A00B0C3"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "de_wyvern"
-						}
+			rewards: [{
+				id: "632EB7F08A00B0C3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_wyvern"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "40C902D650A4BDB9"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "40C902D650A4BDB9"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&2飞龙 &a战利品箱&f&7[DE Wyvern Loot Crate]&f"
 			x: 5.5d
 			y: 11.5d
@@ -3412,27 +2919,23 @@
 			}
 			id: "7765B1B15362D569"
 			optional: true
-			rewards: [
-				{
-					id: "318D186C22848A77"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "de_basic"
-						}
+			rewards: [{
+				id: "318D186C22848A77"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "de_basic"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "11BD1B80C24A8DB2"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11BD1B80C24A8DB2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&a基础龙研 &a战利品箱&f&7[DE Basic Loot Crate]&f"
 			x: 4.5d
 			y: 11.5d
@@ -3448,27 +2951,23 @@
 			}
 			id: "2389CB796C6B75EE"
 			optional: true
-			rewards: [
-				{
-					id: "6ECF2D3E6AAFBE21"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "common_mana_materials_loot_bag"
-						}
+			rewards: [{
+				id: "6ECF2D3E6AAFBE21"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "common_mana_materials_loot_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "747824998DEBC3F2"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "747824998DEBC3F2"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&a&d植物魔法&f 普通 &a战利品箱&f&7[Botania Common Loot Crate]&f"
 			x: 4.5d
 			y: 13.0d
@@ -3484,28 +2983,24 @@
 			}
 			id: "1660630621FA9AFD"
 			optional: true
-			rewards: [
-				{
-					id: "57314F94D66D4CBF"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "legendary_mana_loot_bag"
-						}
+			rewards: [{
+				id: "57314F94D66D4CBF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "legendary_mana_loot_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 128L
-					id: "55536FAA200D89F2"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "55536FAA200D89F2"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&c&d植物魔法&f 传说 &a战利品箱&f&7[Botania Legendary Loot Crate]&f"
 			x: 8.5d
 			y: 13.0d
@@ -3521,27 +3016,23 @@
 			}
 			id: "67AEC3F50909EA0C"
 			optional: true
-			rewards: [
-				{
-					id: "1056CC543027925C"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "mekanism_basic_rewards"
-						}
+			rewards: [{
+				id: "1056CC543027925C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "mekanism_basic_rewards"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "01CCF75335429EA7"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "01CCF75335429EA7"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			title: "&a&d通用机械&f 普通 &a战利品箱&f&7[Mekanism Common Loot Crate]&f"
 			x: 4.5d
 			y: 14.5d
@@ -3557,30 +3048,47 @@
 			}
 			id: "42A556F31120375C"
 			optional: true
-			rewards: [
-				{
-					id: "01A1B592F5DFB5B7"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "essence_bag"
-						}
+			rewards: [{
+				id: "01A1B592F5DFB5B7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "essence_bag"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "29FA3CE5B22C5E82"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "29FA3CE5B22C5E82"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			title: "&2精华 &a战利品箱&f&7[Essence Loot Crate]&f"
 			x: 5.5d
 			y: 14.5d
+		}
+		{
+			can_repeat: true
+			id: "4457E88B9F006823"
+			rewards: [{
+				auto: "disabled"
+				command: "/tp @s 2.5 70.00 2.5"
+				elevate_perms: true
+				id: "15FA5C671F52851B"
+				silent: true
+				title: "传送"
+				type: "command"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "3D400078060B27F1"
+				title: "世界出生点"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 11.5d
 		}
 	]
 	title: "&d商店&f&7[Shop]&f"

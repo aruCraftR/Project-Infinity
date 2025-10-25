@@ -16,6 +16,19 @@
 	#Range: 0 ~ 200
 	ReturnHome = 20
 
+["bosses Music"]
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	#Range: 1 ~ 1000000
+	BossMusicVolume = 1
+	#Enable separate music per boss phase
+	"IgnisSeparatePhaseMusic(on/off)" = true
+	#Enable separate music per boss phase
+	"EnderGuardianSeparatePhaseMusic(on/off)" = true
+	#Enable separate music per boss phase
+	"LeviathanSeparatePhaseMusic(on/off)" = true
+
 [Weapon]
 	#Armor Infinity Durability(on/off)
 	"Armor Infinity Durability(on/off)" = true
@@ -640,17 +653,4 @@
 	RemnantRespawner = true
 	#on/off
 	ScyllaRespawner = true
-
-["bosses Music"]
-	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
-	#BossMusicVolume(denominator)
-	#Range: 1 ~ 1000000
-	BossMusicVolume = 1
-	#Enable separate music per boss phase
-	"IgnisSeparatePhaseMusic(on/off)" = true
-	#Enable separate music per boss phase
-	"EnderGuardianSeparatePhaseMusic(on/off)" = true
-	#Enable separate music per boss phase
-	"LeviathanSeparatePhaseMusic(on/off)" = true
 

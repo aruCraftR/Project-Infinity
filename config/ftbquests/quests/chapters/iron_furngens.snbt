@@ -73,12 +73,10 @@
 			min_width: 300
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "10434650507FA384"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "10434650507FA384"
+				type: "checkmark"
+			}]
 			title: "欢迎使用&d高级熔炉&7[Welcome to Better Furnaces]&f"
 			x: 0.0d
 			y: -13.5d
@@ -86,20 +84,16 @@
 		{
 			dependencies: ["62748F0F87FA0CC9"]
 			id: "57789B18DAE61A50"
-			rewards: [
-				{
-					id: "5EE47C4AC23A83D6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4448D819B17B0DE1"
-					item: "mysticalagriculture:inferium_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5EE47C4AC23A83D6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4448D819B17B0DE1"
+				item: "mysticalagriculture:inferium_furnace"
+				type: "item"
+			}]
 			title: "&a铁熔炉&f&7[Iron Furnace]&f"
 			x: -2.0d
 			y: -13.5d
@@ -107,20 +101,16 @@
 		{
 			dependencies: ["57789B18DAE61A50"]
 			id: "56353263F23882CD"
-			rewards: [
-				{
-					id: "3317E4BF155E5E3E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3F1436354231F330"
-					item: "mysticalagriculture:prudentium_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3317E4BF155E5E3E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F1436354231F330"
+				item: "mysticalagriculture:prudentium_furnace"
+				type: "item"
+			}]
 			title: "&a铁熔炉&f&7[Iron Furnace]&f"
 			x: -2.0d
 			y: -15.5d
@@ -128,80 +118,64 @@
 		{
 			dependencies: ["56353263F23882CD"]
 			id: "6AEEF16FB9414700"
-			rewards: [
-				{
-					id: "10DA3991836BBB39"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "21C3C85DEFCE24D3"
-					item: "mysticalagriculture:tertium_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "10DA3991836BBB39"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21C3C85DEFCE24D3"
+				item: "mysticalagriculture:tertium_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -17.5d
 		}
 		{
 			dependencies: ["6AEEF16FB9414700"]
 			id: "756C9CFF33CC9C0A"
-			rewards: [
-				{
-					id: "55EE181DEBEB8817"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "475B8CA2C81EE4C9"
-					item: "mysticalagriculture:imperium_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "55EE181DEBEB8817"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "475B8CA2C81EE4C9"
+				item: "mysticalagriculture:imperium_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -19.5d
 		}
 		{
 			dependencies: ["756C9CFF33CC9C0A"]
 			id: "1E7A31278AB8127C"
-			rewards: [
-				{
-					id: "3A4EE00AF53DCEA5"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5C7F884975736235"
-					item: "mysticalagriculture:supremium_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3A4EE00AF53DCEA5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C7F884975736235"
+				item: "mysticalagriculture:supremium_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -21.5d
 		}
 		{
 			dependencies: ["1E7A31278AB8127C"]
 			id: "421E626572D56EB0"
-			rewards: [
-				{
-					id: "6093A9215CB5204E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2FBA90325478E8D5"
-					item: "mysticalagriculture:awakened_supremium_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6093A9215CB5204E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FBA90325478E8D5"
+				item: "mysticalagriculture:awakened_supremium_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -24.0d
 		}
@@ -231,13 +205,11 @@
 				}
 			]
 			size: 2.0d
-			tasks: [
-				{
-					id: "23B42EED3BCA8EF4"
-					item: "mysticaladaptations:insanium_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "23B42EED3BCA8EF4"
+				item: "mysticaladaptations:insanium_furnace"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -24.0d
 		}
@@ -256,13 +228,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "11E0644E657C6E85"
-					item: "ironfurnaces:iron_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "11E0644E657C6E85"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -13.5d
 		}
@@ -281,13 +251,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E8C99934451F644"
-					item: "ironfurnaces:gold_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E8C99934451F644"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -15.5d
 		}
@@ -306,13 +274,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1DE5B1D019A0D954"
-					item: "ironfurnaces:diamond_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1DE5B1D019A0D954"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -17.5d
 		}
@@ -331,13 +297,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4CE35D3BF7B71FC1"
-					item: "ironfurnaces:emerald_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4CE35D3BF7B71FC1"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -19.5d
 		}
@@ -364,13 +328,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "72644AF622DA160B"
-					item: "ironfurnaces:obsidian_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72644AF622DA160B"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -21.5d
 		}
@@ -389,13 +351,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5302005036339616"
-					item: "ironfurnaces:crystal_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5302005036339616"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -19.5d
 		}
@@ -414,13 +374,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5CEA5BF6464EBCCA"
-					item: "ironfurnaces:netherite_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5CEA5BF6464EBCCA"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -24.0d
 		}
@@ -439,13 +397,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "21B3010B65C6D7F8"
-					item: "ironfurnaces:allthemodium_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21B3010B65C6D7F8"
+				item: "ironfurnaces:allthemodium_furnace"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -24.0d
 		}
@@ -464,13 +420,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3BFC62D95829DD7F"
-					item: "ironfurnaces:vibranium_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3BFC62D95829DD7F"
+				item: "ironfurnaces:vibranium_furnace"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -24.0d
 		}
@@ -489,13 +443,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "07926468503270C3"
-					item: "ironfurnaces:unobtainium_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "07926468503270C3"
+				item: "ironfurnaces:unobtainium_furnace"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -21.0d
 		}

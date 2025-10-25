@@ -16,69 +16,57 @@
 				""
 			]
 			id: "63797CC6D4459760"
-			rewards: [
-				{
-					id: "238FA08A3C0DFDE1"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "238FA08A3C0DFDE1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					advancement: "minecraft:nether/find_fortress"
-					criterion: ""
-					id: "2E0D15CFA9367D96"
-					title: "找到一座&4堡垒"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "2E0D15CFA9367D96"
+				title: "找到一座&4堡垒"
+				type: "advancement"
+			}]
 			title: "寻找堡垒&7[Find a fortress]&f"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			id: "7C94371FDD9759B8"
-			rewards: [
-				{
-					id: "70091358D81E56D4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "70091358D81E56D4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					advancement: "minecraft:nether/find_bastion"
-					criterion: ""
-					id: "382F43C90FF509A4"
-					title: "发现一座堡垒遗迹"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "382F43C90FF509A4"
+				title: "发现一座堡垒遗迹"
+				type: "advancement"
+			}]
 			title: "发现一座&a堡垒遗迹&f&7[Discover a Bastion Remnant]&f"
 			x: -1.0d
 			y: -1.5d
 		}
 		{
 			id: "6128CB0FA162D322"
-			rewards: [
-				{
-					id: "12C9AC9C3D93DF58"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "12C9AC9C3D93DF58"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					icon: "cataclysm:flame_eye"
-					id: "5F013C4AEA9703B1"
-					structure: "cataclysm:burning_arena"
-					title: "&a找到烈焰竞技场&f"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				icon: "cataclysm:flame_eye"
+				id: "5F013C4AEA9703B1"
+				structure: "cataclysm:burning_arena"
+				title: "&a找到烈焰竞技场&f"
+				type: "structure"
+			}]
 			title: "找到燃烧竞技场&7[Find a Burning Arena]&f"
 			x: -1.5d
 			y: -4.0d
@@ -86,23 +74,19 @@
 		{
 			dependencies: ["6128CB0FA162D322"]
 			id: "351D597D786C4254"
-			rewards: [
-				{
-					id: "289348E18A740B6D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					entity: "cataclysm:ignited_revenant"
-					icon: "cataclysm:burning_ashes"
-					id: "648E867999AB2B3B"
-					title: "击败一个&a燃魂&f"
-					type: "kill"
-					value: 1L
-				}
-			]
+			rewards: [{
+				id: "289348E18A740B6D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "648E867999AB2B3B"
+				title: "击败一个&a燃魂&f"
+				type: "kill"
+				value: 1L
+			}]
 			title: "击败&a燃魂&f&7[Defeat the Ignited Revenants]&f"
 			x: -1.5d
 			y: -5.5d
@@ -118,50 +102,42 @@
 			}
 			icon_scale: 2.0d
 			id: "0055DFCB4A5DF78B"
-			rewards: [
-				{
-					id: "08732324D8E79085"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					entity: "cataclysm:ignis"
-					icon: {
-						Count: 1
-						id: "cataclysm:ignitium_helmet"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "08732324D8E79085"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
 					}
-					id: "53C35ACB199AA198"
-					title: "击败伊格尼斯"
-					type: "kill"
-					value: 1L
 				}
-			]
+				id: "53C35ACB199AA198"
+				title: "击败伊格尼斯"
+				type: "kill"
+				value: 1L
+			}]
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			id: "695888509D42926B"
-			rewards: [
-				{
-					id: "39376C576C848115"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "39376C576C848115"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					icon: "cataclysm:monstrous_eye"
-					id: "1CABC6BB5674F6D5"
-					structure: "cataclysm:soul_black_smith"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				icon: "cataclysm:monstrous_eye"
+				id: "1CABC6BB5674F6D5"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
 			title: "找到灵魂铁匠铺&7[Find a Soul Blacksmith]&f"
 			x: 3.0d
 			y: -6.5d
@@ -177,23 +153,19 @@
 			}
 			icon_scale: 2.0d
 			id: "1BFFBDE6FB0F5476"
-			rewards: [
-				{
-					id: "5885226C9F8777E5"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					entity: "cataclysm:netherite_monstrosity"
-					icon: "cataclysm:monstrous_horn"
-					id: "3A710965D6B471DB"
-					title: "Defeat a &a下界合金巨兽&f"
-					type: "kill"
-					value: 1L
-				}
-			]
+			rewards: [{
+				id: "5885226C9F8777E5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_horn"
+				id: "3A710965D6B471DB"
+				title: "Defeat a &a下界合金巨兽&f"
+				type: "kill"
+				value: 1L
+			}]
 			title: "击败&a下界合金巨兽&f&7[Defeat the Netherite Monstrosity]&f"
 			x: 3.0d
 			y: -8.0d
@@ -220,13 +192,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A08DC31C1316A3E"
-					item: "cataclysm:ignitium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A08DC31C1316A3E"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -8.0d
 		}
@@ -239,20 +209,16 @@
 				""
 			]
 			id: "5A70A9C0D6D77639"
-			rewards: [
-				{
-					id: "4E024E3E65E7C956"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "280DA3FA2D7A833C"
-					item: "cataclysm:the_incinerator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4E024E3E65E7C956"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "280DA3FA2D7A833C"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -8.0d
 		}
@@ -260,40 +226,32 @@
 			dependencies: ["0763A4489C0609C2"]
 			hide_dependent_lines: true
 			id: "37088FABE6742AF5"
-			rewards: [
-				{
-					id: "6074B5B1598FE2ED"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0DC6B4064FC25A64"
-					item: "cataclysm:bulwark_of_the_flame"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6074B5B1598FE2ED"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DC6B4064FC25A64"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0763A4489C0609C2"]
 			id: "1F941DB7CB934ECF"
-			rewards: [
-				{
-					id: "60E0E6EA0B0183CA"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7F64FB569F9A25FC"
-					item: "cataclysm:blazing_grips"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "60E0E6EA0B0183CA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F64FB569F9A25FC"
+				item: "cataclysm:blazing_grips"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -9.0d
 		}
@@ -303,20 +261,16 @@
 				"280AB37BC77F15BB"
 			]
 			id: "7E701479E264ABC3"
-			rewards: [
-				{
-					id: "5C931CA6976AE9EA"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4A348556E4B36D7C"
-					item: "cataclysm:the_immolator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C931CA6976AE9EA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A348556E4B36D7C"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -10.0d
 		}
@@ -326,20 +280,16 @@
 				"373592864A465D37"
 			]
 			id: "568883D42E7F5940"
-			rewards: [
-				{
-					id: "735F1B4E0B22E2E8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "39B38AAED907DDAC"
-					item: "cataclysm:gauntlet_of_bulwark"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "735F1B4E0B22E2E8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39B38AAED907DDAC"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -8.0d
 		}
@@ -352,164 +302,134 @@
 				""
 			]
 			id: "123995A28774EFE0"
-			rewards: [
-				{
-					id: "5DEDE66EBBD3A227"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6FD419151EEF28A5"
-					item: {
-						Count: 1
-						id: "cataclysm:infernal_forge"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "5DEDE66EBBD3A227"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD419151EEF28A5"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 4.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["1BFFBDE6FB0F5476"]
 			id: "4781C012DA1A3912"
-			rewards: [
-				{
-					id: "608C5E7B6CF708B8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4F13C4DB0B91420F"
-					item: {
-						Count: 1
-						id: "cataclysm:monstrous_helm"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "608C5E7B6CF708B8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F13C4DB0B91420F"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["1BFFBDE6FB0F5476"]
 			id: "07C5265110981B0A"
-			rewards: [
-				{
-					id: "36F1F35DB9FF3761"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "598533F67E0365A0"
-					item: "cataclysm:lava_power_cell"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "36F1F35DB9FF3761"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "598533F67E0365A0"
+				item: "cataclysm:lava_power_cell"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["07C5265110981B0A"]
 			id: "27B503365D1AB822"
-			rewards: [
-				{
-					id: "4AC01F9F25563B57"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2202FAA49A56CB54"
-					item: "cataclysm:netherite_effigy"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4AC01F9F25563B57"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2202FAA49A56CB54"
+				item: "cataclysm:netherite_effigy"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -8.0d
 		}
 		{
 			id: "309164AC689EC459"
-			rewards: [
-				{
-					id: "1871B3E7685FCE79"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0192AD5A9D538279"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1871B3E7685FCE79"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0192AD5A9D538279"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["309164AC689EC459"]
 			id: "1212FFB8CCF967AA"
-			rewards: [
-				{
-					id: "4659B880690DB4AA"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7BA7854C980EF3F6"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4659B880690DB4AA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BA7854C980EF3F6"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1212FFB8CCF967AA"]
 			id: "2BF25D9B261717FA"
-			rewards: [
-				{
-					id: "2C125D172A5CE7C4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "509F5CD77804F2C3"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C125D172A5CE7C4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "509F5CD77804F2C3"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2BF25D9B261717FA"]
 			id: "2940AB1526781B8C"
-			rewards: [
-				{
-					id: "59BEF521BBFD4AE6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "59BEF521BBFD4AE6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5278CD463A16501C"
@@ -562,13 +482,11 @@
 		{
 			dependencies: ["2940AB1526781B8C"]
 			id: "4EA674E9015731DA"
-			rewards: [
-				{
-					id: "7326D3AFC4838FA5"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7326D3AFC4838FA5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "395FB062B4676F26"
@@ -621,13 +539,11 @@
 		{
 			dependencies: ["4EA674E9015731DA"]
 			id: "7160F53BAB388F5B"
-			rewards: [
-				{
-					id: "2305FC951E82E151"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2305FC951E82E151"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "574FDAFB1FF5D1D5"
@@ -680,13 +596,11 @@
 		{
 			dependencies: ["7160F53BAB388F5B"]
 			id: "2B914D703EE1ED5A"
-			rewards: [
-				{
-					id: "251458F86C718EDD"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "251458F86C718EDD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7AD79B4DE24DDA79"
@@ -739,13 +653,11 @@
 		{
 			dependencies: ["2B914D703EE1ED5A"]
 			id: "74F779C5B205E2D6"
-			rewards: [
-				{
-					id: "57184A631245458B"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "57184A631245458B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5940AC518DDDD76E"
@@ -798,13 +710,11 @@
 		{
 			dependencies: ["2BF25D9B261717FA"]
 			id: "4090956585C69CE1"
-			rewards: [
-				{
-					id: "275FD51BFBADA61C"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "275FD51BFBADA61C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4C3B6225B585188B"
@@ -868,13 +778,11 @@
 		{
 			dependencies: ["4090956585C69CE1"]
 			id: "5F211F5E341C2F20"
-			rewards: [
-				{
-					id: "004EF719FB9177AC"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "004EF719FB9177AC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3D5DD0EA42BF91C5"
@@ -938,13 +846,11 @@
 		{
 			dependencies: ["5F211F5E341C2F20"]
 			id: "4D2BA2A8A3626247"
-			rewards: [
-				{
-					id: "08AEBBCB7A64723A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "08AEBBCB7A64723A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6E7F3DCC792F3EB6"
@@ -1008,13 +914,11 @@
 		{
 			dependencies: ["4D2BA2A8A3626247"]
 			id: "1C135820B3E30639"
-			rewards: [
-				{
-					id: "4277B45381BD487A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4277B45381BD487A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6DAF6F08C6132A4D"
@@ -1078,13 +982,11 @@
 		{
 			dependencies: ["1C135820B3E30639"]
 			id: "3D06D57C4374B796"
-			rewards: [
-				{
-					id: "172792326F8A07D8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "172792326F8A07D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "58660C9BE7AA7859"

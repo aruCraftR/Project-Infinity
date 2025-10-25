@@ -43,13 +43,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "02B777D641194D80"
-					item: "fluxnetworks:flux_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02B777D641194D80"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
 			title: "&f通量&7[Flux]&f"
 			x: -4.0d
 			y: -3.0d
@@ -58,20 +56,16 @@
 			dependencies: ["439C6C61A5263D31"]
 			id: "1651E315517369BD"
 			min_width: 300
-			rewards: [
-				{
-					id: "3E912FE6F9283B4D"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [
-				{
-					id: "7EBA08CBDBF4EEC5"
-					item: "fluxnetworks:flux_configurator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3E912FE6F9283B4D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7EBA08CBDBF4EEC5"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
 			title: "&f&a通量控制器&f&7[Flux Configurator]&f"
 			x: -4.0d
 			y: -1.5d
@@ -91,13 +85,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2A6AAD2D1CD9E259"
-					item: "fluxnetworks:flux_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2A6AAD2D1CD9E259"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
 			title: "&f通量方块&7[Flux Block]&f"
 			x: 0.0d
 			y: -3.0d
@@ -116,23 +108,19 @@
 			]
 			id: "1B60491EDE73447B"
 			min_width: 330
-			rewards: [
-				{
-					id: "72CB63173D302083"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "72CB63173D302083"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "等级 1&7[Tier 1]&f"
-			tasks: [
-				{
-					id: "000430BA08919240"
-					item: "fluxnetworks:basic_flux_storage"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "000430BA08919240"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
 			title: "&f通量存储器&7[Flux Storage]&f"
 			x: 1.5d
 			y: -3.0d
@@ -160,13 +148,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1F02234419CA3CD9"
-					item: "fluxnetworks:flux_plug"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F02234419CA3CD9"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
 			title: "&f&a通量接入点&f&7[Flux Plug]&f"
 			x: -2.5d
 			y: -4.0d
@@ -193,13 +179,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7F8B33C6790AE7CC"
-					item: "fluxnetworks:flux_point"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F8B33C6790AE7CC"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
 			title: "&f&a通量接出点&f&7[Flux Point]&f"
 			x: -1.5d
 			y: -4.0d
@@ -212,22 +196,18 @@
 			]
 			id: "1C214DD51C58BE4D"
 			min_width: 300
-			rewards: [
-				{
-					id: "189C3B794E9F6565"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "189C3B794E9F6565"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "0120A13DAF9C15AF"
-					item: "fluxnetworks:flux_controller"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0120A13DAF9C15AF"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
 			title: "&f&a通量控制器&f&7[Flux Controller]&f"
 			x: -2.0d
 			y: -1.5d
@@ -241,23 +221,19 @@
 				"&7[Energy Capacity: 16,000,000 FE]&f"
 			]
 			id: "4CC229C23E5AC155"
-			rewards: [
-				{
-					id: "04B53CCA9C85763E"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "04B53CCA9C85763E"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "等级 2&7[Tier 2]&f"
-			tasks: [
-				{
-					id: "28F65D4F11F6AA7B"
-					item: "fluxnetworks:herculean_flux_storage"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28F65D4F11F6AA7B"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -3.0d
 		}
@@ -270,23 +246,19 @@
 				"&7[Energy Capacity: 128,000,000 FE]&f"
 			]
 			id: "6886DFF567919753"
-			rewards: [
-				{
-					id: "62581571F3835125"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "62581571F3835125"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "等级 3&7[Tier 3]&f"
-			tasks: [
-				{
-					id: "0E8AC367918AD54F"
-					item: "fluxnetworks:gargantuan_flux_storage"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E8AC367918AD54F"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -3.0d
 		}
@@ -300,21 +272,17 @@
 			icon: "fluxnetworks:admin_configurator"
 			id: "7AD0A09E83F4D09C"
 			min_width: 300
-			rewards: [
-				{
-					id: "62DA61BE68FE7437"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "62DA61BE68FE7437"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "0A5DAF2F42E5BEB5"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0A5DAF2F42E5BEB5"
+				type: "checkmark"
+			}]
 			title: "欢迎来到&d通量网络&f&7[Welcome to Flux Networks]&f"
 			x: -4.0d
 			y: -6.0d
@@ -341,13 +309,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2E3C48AB30023865"
-					item: "fluxnetworks:flux_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E3C48AB30023865"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
 			title: "&f&a通量核心&f&7[Flux Core]&f"
 			x: -2.0d
 			y: -3.0d

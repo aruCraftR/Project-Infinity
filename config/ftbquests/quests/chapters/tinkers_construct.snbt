@@ -47,12 +47,10 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "25C27D7B63CFAA20"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "25C27D7B63CFAA20"
+				type: "checkmark"
+			}]
 			title: "欢迎来到&2匠魂模组&7[Welcome to Tinkers' Construct]&f"
 			x: -7.0d
 			y: -9.0d
@@ -167,13 +165,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4972C29DCDA9FDE3"
-					item: "tconstruct:seared_heater"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4972C29DCDA9FDE3"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -7.5d
 		}
@@ -367,13 +363,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "14AAAF63D637AA54"
-					item: "tconstruct:tinkers_chest"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "14AAAF63D637AA54"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
 			x: -8.5d
 			y: -4.0d
 		}
@@ -398,13 +392,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "25117E6B27EB5FE4"
-					item: "tconstruct:part_chest"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "25117E6B27EB5FE4"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
 			x: -8.0d
 			y: -3.0d
 		}
@@ -429,13 +421,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "046F297DEBCFCCD3"
-					item: "tconstruct:cast_chest"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "046F297DEBCFCCD3"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
 			x: -8.0d
 			y: -5.0d
 		}
@@ -482,13 +472,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3F00A059FF0E89E9"
-					item: "tconstruct:silky_cloth"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F00A059FF0E89E9"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -2.5d
 		}
@@ -585,22 +573,20 @@
 				}
 			]
 			subtitle: "你会需要很多这些&7[You'll need a lot of these]&f"
-			tasks: [
-				{
-					count: 6L
-					id: "3271C83621600A34"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				count: 6L
+				id: "3271C83621600A34"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:pattern"
 					}
-					type: "item"
+					id: "tconstruct:pattern"
 				}
-			]
+				type: "item"
+			}]
 			title: "模具&7[Patterns]&f"
 			x: -7.0d
 			y: -6.5d
@@ -1016,15 +1002,13 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "0C267E8C8B050DD1"
-					item: "tconstruct:scorched_anvil"
-					match_nbt: false
-					type: "item"
-					weak_nbt_match: true
-				}
-			]
+			tasks: [{
+				id: "0C267E8C8B050DD1"
+				item: "tconstruct:scorched_anvil"
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
 			title: "&a工匠砧&f&7[Tinker's Anvil]&f"
 			x: 3.5d
 			y: -4.0d
@@ -1065,22 +1049,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 32L
-					id: "77BE56D363DE5A46"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				count: 32L
+				id: "77BE56D363DE5A46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:grout"
 					}
-					type: "item"
+					id: "tconstruct:grout"
 				}
-			]
+				type: "item"
+			}]
 			title: "砂浆&7[Grout]&f"
 			x: -5.5d
 			y: -4.0d
@@ -1239,6 +1221,7 @@
 						id: "tconstruct:pickaxe"
 						tag: {
 							Damage: 0
+							etstlib_tool_uuid: "70d4d0d4-723f-46f4-8f92-34542df3d781"
 							tic_broken: 0b
 							tic_materials: [
 								"tconstruct:rock"
@@ -1287,6 +1270,7 @@
 						id: "tconstruct:hand_axe"
 						tag: {
 							Damage: 0
+							etstlib_tool_uuid: "5c136120-ac9c-4e7c-a8b4-e5a51572ab2a"
 							tic_broken: 0b
 							tic_materials: [
 								"tconstruct:rock"
@@ -1365,24 +1349,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2C0809323E2AB430"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:repair_kit"
-						tag: {
-							Material: "tconstruct:rock"
+			tasks: [{
+				id: "2C0809323E2AB430"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:rock"
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: -5.0d
 			y: -1.5d
 		}
@@ -1412,21 +1394,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "43F991E4190FD6FA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "43F991E4190FD6FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:seared_brick"
 					}
-					type: "item"
+					id: "tconstruct:seared_brick"
 				}
-			]
+				type: "item"
+			}]
 			x: -4.0d
 			y: -4.0d
 		}
@@ -1593,14 +1573,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "47A39FCC5093EBCF"
-					item: "tconstruct:ingot_sand_cast"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "47A39FCC5093EBCF"
+				item: "tconstruct:ingot_sand_cast"
+				type: "item"
+			}]
 			title: "一次性金属铸模&7[Single-Use Metal Casts]&f"
 			x: -3.0d
 			y: -6.5d
@@ -1996,62 +1974,61 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "51727838637E3922"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:sledge_hammer"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							tic_modifiers: [
-								{
-									level: 4
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 2
-									name: "tconstruct:smite"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.35f
-								"tconstruct:durability": 4.0f
-								"tconstruct:mining_speed": 0.4f
-							}
-							tic_persistent: { }
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 2
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 6.75f
-								"tconstruct:attack_speed": 0.75f
-								"tconstruct:durability": 1100.0f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 2.4f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+			tasks: [{
+				id: "51727838637E3922"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:sledge_hammer"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "b173f019-e749-48a0-a6ba-c9bd7f841b6a"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 2
+								name: "tconstruct:smite"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+							"tconstruct:mining_speed": 0.4f
+						}
+						tic_persistent: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 6.75f
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:durability": 1100.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 2.4f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 7.0d
 			y: -9.0d
 		}
@@ -2085,65 +2062,64 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6EBB6268CEDACE2A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:excavator"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							tic_modifiers: [
-								{
-									level: 4
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 2
-									name: "tconstruct:knockback"
-								}
-								{
-									level: 1
-									name: "tconstruct:pathing"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.2f
-								"tconstruct:durability": 3.75f
-								"tconstruct:mining_speed": 0.3f
-							}
-							tic_persistent: { }
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 2
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 4.2000003f
-								"tconstruct:durability": 1031.25f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 1.8000001f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+			tasks: [{
+				id: "6EBB6268CEDACE2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:excavator"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "5a42e8d0-8c8e-451a-8379-dcaa479cad9e"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 2
+								name: "tconstruct:knockback"
+							}
+							{
+								level: 1
+								name: "tconstruct:pathing"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:durability": 1031.25f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 1.8000001f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 6.0d
 			y: -9.0d
 		}
@@ -2177,62 +2153,61 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3A455BA71DC129B7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:vein_hammer"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							tic_modifiers: [
-								{
-									level: 4
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 2
-									name: "tconstruct:pierce"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.25f
-								"tconstruct:durability": 5.0f
-								"tconstruct:mining_speed": 0.3f
-							}
-							tic_persistent: { }
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 2
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 7.5f
-								"tconstruct:attack_speed": 0.85f
-								"tconstruct:durability": 1375.0f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 1.8000001f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+			tasks: [{
+				id: "3A455BA71DC129B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:vein_hammer"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "0e6ba55d-0bca-4c9c-9005-970b6634766d"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 2
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:durability": 1375.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 1.8000001f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 6.0d
 			y: -10.0d
 		}
@@ -2266,69 +2241,68 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3692518323B98F09"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:scythe"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							tic_modifiers: [
-								{
-									level: 4
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 1
-									name: "tconstruct:tilling"
-								}
-								{
-									level: 1
-									name: "tconstruct:silky_aoe_shears"
-								}
-								{
-									level: 1
-									name: "tconstruct:harvest"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:durability": 2.5f
-								"tconstruct:mining_speed": 0.45f
-							}
-							tic_persistent: { }
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 2
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 3.0f
-								"tconstruct:attack_speed": 0.7f
-								"tconstruct:durability": 687.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 2.6999998f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+			tasks: [{
+				id: "3692518323B98F09"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:scythe"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "580e92fa-3e58-472c-b5be-16580dc019cd"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.5f
+							"tconstruct:mining_speed": 0.45f
+						}
+						tic_persistent: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 0.7f
+							"tconstruct:durability": 687.5f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 2.6999998f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 5.0d
 			y: -10.0d
 		}
@@ -2362,65 +2336,64 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3D1DB69155F4CFE7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:cleaver"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							tic_modifiers: [
-								{
-									level: 4
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 2
-									name: "tconstruct:severing"
-								}
-								{
-									level: 1
-									name: "tconstruct:silky_aoe_shears"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.5f
-								"tconstruct:durability": 3.5f
-								"tconstruct:mining_speed": 0.25f
-							}
-							tic_persistent: { }
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 2
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 7.5f
-								"tconstruct:durability": 962.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 1.5f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+			tasks: [{
+				id: "3D1DB69155F4CFE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:cleaver"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "2e10d730-74e5-4454-9a4d-d7e889ea8afc"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 2
+								name: "tconstruct:severing"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+							"tconstruct:mining_speed": 0.25f
+						}
+						tic_persistent: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:durability": 962.5f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 1.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 5.0d
 			y: -9.0d
 		}
@@ -2461,64 +2434,63 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5C29DC5035C92F50"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-							"dungeons_libraries:ranged_abilities": {
-								crossbowChargeTime: 0
-								fuseShotCounter: 0
-								lastFiredTime: 0L
-							}
+			tasks: [{
+				id: "5C29DC5035C92F50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:longbow"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:string"
-							]
-							tic_modifiers: [
-								{
-									level: 3
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 1
-									name: "tconstruct:stringy"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:durability": 1.5f
-							}
-							tic_persistent: { }
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 2
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 2.0f
-								"tconstruct:draw_speed": 0.6f
-								"tconstruct:durability": 1023.0f
-								"tconstruct:velocity": 1.2f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+						"dungeons_libraries:ranged_abilities": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
 						}
 					}
-					type: "item"
+					id: "tconstruct:longbow"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "afc1eefe-81e6-4629-b13a-6ce6dfbd39ac"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:string"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:draw_speed": 0.6f
+							"tconstruct:durability": 1023.0f
+							"tconstruct:velocity": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 6.0d
 			y: -8.0d
 		}
@@ -2544,41 +2516,39 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "03519D844CF0F32B"
-					item: {
-						Count: 1
-						id: "tconstruct:plate_helmet"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:cobalt"
-								"tconstruct:cobalt"
-							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "tconstruct:melee_protection"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:armor": 2.0f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 330.0f
-								"tconstruct:knockback_resistance": 0.05f
-							}
-							tic_volatile_data: {
-								defense: 3
-								upgrades: 2
-							}
+			tasks: [{
+				id: "03519D844CF0F32B"
+				item: {
+					Count: 1
+					id: "tconstruct:plate_helmet"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "e2ae1d55-2fc5-473c-9c39-b5fc3bf05477"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:cobalt"
+							"tconstruct:cobalt"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:melee_protection"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 3.0f
+							"tconstruct:armor_toughness": 1.5f
+							"tconstruct:durability": 330.0f
+							"tconstruct:knockback_resistance": 0.05f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 2
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -0.25d
 			y: -0.5d
 		}
@@ -2604,41 +2574,39 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5F24217F1E527FF7"
-					item: {
-						Count: 1
-						id: "tconstruct:plate_leggings"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:cobalt"
-								"tconstruct:cobalt"
-							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "tconstruct:melee_protection"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:armor": 5.0f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 450.0f
-								"tconstruct:knockback_resistance": 0.05f
-							}
-							tic_volatile_data: {
-								defense: 3
-								upgrades: 2
-							}
+			tasks: [{
+				id: "5F24217F1E527FF7"
+				item: {
+					Count: 1
+					id: "tconstruct:plate_leggings"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "d7759bd5-f54c-4c34-a631-b014d07323ec"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:cobalt"
+							"tconstruct:cobalt"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:melee_protection"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 7.0f
+							"tconstruct:armor_toughness": 1.5f
+							"tconstruct:durability": 450.0f
+							"tconstruct:knockback_resistance": 0.05f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 2
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 1.75d
 			y: -0.5d
 		}
@@ -2664,41 +2632,39 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3C4688F62872E4EE"
-					item: {
-						Count: 1
-						id: "tconstruct:plate_boots"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:cobalt"
-								"tconstruct:cobalt"
-							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "tconstruct:melee_protection"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:armor": 2.0f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 390.0f
-								"tconstruct:knockback_resistance": 0.05f
-							}
-							tic_volatile_data: {
-								defense: 3
-								upgrades: 2
-							}
+			tasks: [{
+				id: "3C4688F62872E4EE"
+				item: {
+					Count: 1
+					id: "tconstruct:plate_boots"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "30bc066d-60d4-4605-aac9-e694c89649d0"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:cobalt"
+							"tconstruct:cobalt"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:melee_protection"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 3.0f
+							"tconstruct:armor_toughness": 1.5f
+							"tconstruct:durability": 390.0f
+							"tconstruct:knockback_resistance": 0.05f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 2
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 1.25d
 			y: -1.0d
 		}
@@ -2725,22 +2691,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					count: 3L
-					id: "2AD613A23CF3A8CA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				count: 3L
+				id: "2AD613A23CF3A8CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:copper_can"
 					}
-					type: "item"
+					id: "tconstruct:copper_can"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a铜罐&f&7[Copper Can]&f"
 			x: 1.0d
 			y: -8.5d
@@ -2778,24 +2742,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "29B3948A53F39DF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "tconstruct:modifier_worktable"
-						tag: {
-							texture: "minecraft:cobblestone"
+			tasks: [{
+				id: "29B3948A53F39DF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "tconstruct:modifier_worktable"
+					tag: {
+						texture: "minecraft:cobblestone"
+					}
 				}
-			]
+				type: "item"
+			}]
 			x: 3.5d
 			y: -3.0d
 		}
@@ -2841,12 +2803,10 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			tasks: [
-				{
-					id: "11230753F260973D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "11230753F260973D"
+				type: "checkmark"
+			}]
 			title: "修改器&7[Modifiers]&f"
 			x: 8.25d
 			y: -0.75d
@@ -2868,6 +2828,7 @@
 				id: "tconstruct:travelers_shield"
 				tag: {
 					Damage: 0
+					etstlib_tool_uuid: "e12fcea9-7910-4fda-91de-07f4c10c255a"
 					tic_broken: 0b
 					tic_modifiers: [
 						{
@@ -2912,12 +2873,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "473D40C84F243433"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "473D40C84F243433"
+				type: "checkmark"
+			}]
 			title: "&a防御强化&f&7[Defense Modifiers]&f"
 			x: 6.5d
 			y: -1.0d
@@ -2943,6 +2902,7 @@
 				id: "tconstruct:pickaxe"
 				tag: {
 					Damage: 0
+					etstlib_tool_uuid: "0bf111ed-2dab-4bfc-ac89-2632a3975f60"
 					tic_broken: 0b
 					tic_materials: [
 						"tcintegrations:livingrock"
@@ -2995,12 +2955,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "26B586C763AC501D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "26B586C763AC501D"
+				type: "checkmark"
+			}]
 			title: "工具能力&7[Tool Abilities]&f"
 			x: 7.0d
 			y: 0.0d
@@ -3032,12 +2990,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "58F88598CA8F3E97"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "58F88598CA8F3E97"
+				type: "checkmark"
+			}]
 			title: "无槽位修改器&7[Slotless Modifiers]&f"
 			x: 8.25d
 			y: 0.75d
@@ -3069,12 +3025,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "178B537D64E0BD7E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "178B537D64E0BD7E"
+				type: "checkmark"
+			}]
 			title: "工具升级槽&7[Tool Upgrade Slots]&f"
 			x: 9.5d
 			y: 0.0d
@@ -3116,12 +3070,10 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5D542CB6E878D778"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5D542CB6E878D778"
+				type: "checkmark"
+			}]
 			title: "特性&7[Traits]&f"
 			x: 10.0d
 			y: -1.0d
@@ -3162,22 +3114,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 32L
-					id: "675708DFC08C5ECE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				count: 32L
+				id: "675708DFC08C5ECE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:nether_grout"
 					}
-					type: "item"
+					id: "tconstruct:nether_grout"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a下界砖泥&f&7[Nether Grout]&f"
 			x: 5.5d
 			y: -4.0d
@@ -3218,22 +3168,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "3B49D0E7838AF7E9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				count: 16L
+				id: "3B49D0E7838AF7E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:scorched_brick"
 					}
-					type: "item"
+					id: "tconstruct:scorched_brick"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a高炉石砖&f&7[Scorched Bricks]&f"
 			x: 7.0d
 			y: -4.0d
@@ -3725,21 +3673,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "147F998E576350C8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "147F998E576350C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:blaze_head"
 					}
-					type: "item"
+					id: "tconstruct:blaze_head"
 				}
-			]
+				type: "item"
+			}]
 			title: "&e&a烈焰血&f&7[Blazing Blood]&f"
 			x: 8.5d
 			y: -7.0d
@@ -3774,21 +3720,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "4B5966702ED5BA82"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "4B5966702ED5BA82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:earth_cake"
 					}
-					type: "item"
+					id: "tconstruct:earth_cake"
 				}
-			]
+				type: "item"
+			}]
 			x: -9.8d
 			y: 0.0d
 		}
@@ -3820,21 +3764,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "6EA9AA1192F7615F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "6EA9AA1192F7615F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:sky_cake"
 					}
-					type: "item"
+					id: "tconstruct:sky_cake"
 				}
-			]
+				type: "item"
+			}]
 			x: -11.0d
 			y: -1.0d
 		}
@@ -3866,21 +3808,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "1CCC5DB9F5F704A2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "1CCC5DB9F5F704A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:blood_cake"
 					}
-					type: "item"
+					id: "tconstruct:blood_cake"
 				}
-			]
+				type: "item"
+			}]
 			x: -12.25d
 			y: 0.0d
 		}
@@ -3912,21 +3852,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "4BF23C0DBFC66129"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "4BF23C0DBFC66129"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:ender_cake"
 					}
-					type: "item"
+					id: "tconstruct:ender_cake"
 				}
-			]
+				type: "item"
+			}]
 			x: -10.0d
 			y: 1.5d
 		}
@@ -3958,21 +3896,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "1D511B4A6A68B2B2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "1D511B4A6A68B2B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:magma_cake"
 					}
-					type: "item"
+					id: "tconstruct:magma_cake"
 				}
-			]
+				type: "item"
+			}]
 			x: -12.0d
 			y: 1.5d
 		}
@@ -4012,22 +3948,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "52B83FFCCA922DCE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				count: 8L
+				id: "52B83FFCCA922DCE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:flint_shuriken"
 					}
-					type: "item"
+					id: "tconstruct:flint_shuriken"
 				}
-			]
+				type: "item"
+			}]
 			title: "手里剑&7[Shuriken]&f"
 			x: -6.5d
 			y: 0.0d
@@ -4066,21 +4000,19 @@
 				}
 			]
 			subtitle: "别忘了附魔金苹果!!!&7[Don't forget the Notch apple!!!]&f"
-			tasks: [
-				{
-					id: "65015BEEEA567CAB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "65015BEEEA567CAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:jeweled_apple"
 					}
-					type: "item"
+					id: "tconstruct:jeweled_apple"
 				}
-			]
+				type: "item"
+			}]
 			x: 10.0d
 			y: -7.0d
 		}
@@ -4115,21 +4047,19 @@
 			]
 			shape: "octagon"
 			subtitle: "基本上就是手榴弹&7[Pretty much a gernade ]&f"
-			tasks: [
-				{
-					id: "13E9B080CBD095B8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "13E9B080CBD095B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "tconstruct:efln_ball"
 					}
-					type: "item"
+					id: "tconstruct:efln_ball"
 				}
-			]
+				type: "item"
+			}]
 			x: -5.0d
 			y: 0.0d
 		}
@@ -4155,44 +4085,42 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0839828C707F1C00"
-					item: {
-						Count: 1
-						id: "tconstruct:plate_chestplate"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:cobalt"
-								"tconstruct:cobalt"
-							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "tconstruct:melee_protection"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 0.4f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:armor": 7.0f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 480.0f
-								"tconstruct:knockback_resistance": 0.05f
-							}
-							tic_volatile_data: {
-								defense: 3
-								upgrades: 2
-							}
+			tasks: [{
+				id: "0839828C707F1C00"
+				item: {
+					Count: 1
+					id: "tconstruct:plate_chestplate"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "c6ac9818-1710-4c66-afa0-7ba483990e23"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:cobalt"
+							"tconstruct:cobalt"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:melee_protection"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 8.0f
+							"tconstruct:armor_toughness": 1.5f
+							"tconstruct:durability": 480.0f
+							"tconstruct:knockback_resistance": 0.05f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 2
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 0.25d
 			y: -1.0d
 		}
@@ -4218,50 +4146,50 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "616F81ECE66D7888"
-					item: {
-						Count: 1
-						id: "tconstruct:plate_shield"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tcintegrations:livingrock"
-								"tconstruct:cobalt"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:stonebound"
-								}
-								{
-									level: 1
-									name: "tconstruct:melee_protection"
-								}
-								{
-									level: 1
-									name: "tconstruct:blocking"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:block_amount": 100.0f
-								"tconstruct:block_angle": 180.0f
-								"tconstruct:durability": 540.0f
-								"tconstruct:knockback_resistance": 0.05f
+			tasks: [{
+				id: "616F81ECE66D7888"
+				item: {
+					Count: 1
+					id: "tconstruct:plate_shield"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "925a1e58-d314-4a29-b1d5-81188b00818c"
+						tic_broken: 0b
+						tic_materials: [
+							"tcintegrations:livingrock"
+							"tconstruct:cobalt"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:stonebound"
 							}
-							tic_volatile_data: {
-								defense: 3
-								upgrades: 2
+							{
+								level: 1
+								name: "tconstruct:melee_protection"
 							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 1.5f
+							"tconstruct:block_amount": 100.0f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 540.0f
+							"tconstruct:knockback_resistance": 0.05f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 2
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 0.75d
 			y: -0.5d
 		}
@@ -4295,53 +4223,52 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "56F2961DB69348D4"
-					item: {
-						Count: 1
-						id: "tconstruct:broad_axe"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							tic_modifiers: [
-								{
-									level: 4
-									name: "tconstruct:magnetic"
-								}
-								{
-									level: 1
-									name: "tconstruct:stripping"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.65f
-								"tconstruct:durability": 4.25f
-								"tconstruct:mining_speed": 0.3f
+			tasks: [{
+				id: "56F2961DB69348D4"
+				item: {
+					Count: 1
+					id: "tconstruct:broad_axe"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "3c97a0c2-43cc-4c38-be06-752cc4130eb1"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:magnetic"
 							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 11.55f
-								"tconstruct:attack_speed": 0.6f
-								"tconstruct:durability": 1168.75f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 1.8000001f
+							{
+								level: 1
+								name: "tconstruct:stripping"
 							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 2
-							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.65f
+							"tconstruct:durability": 4.25f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 11.55f
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:durability": 1168.75f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 1.8000001f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 7.0d
 			y: -10.0d
 		}
@@ -4366,13 +4293,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2BC09F9E8E36D55D"
-					title: "更多蛋糕"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2BC09F9E8E36D55D"
+				title: "更多蛋糕"
+				type: "checkmark"
+			}]
 			x: -11.0d
 			y: 0.4d
 		}

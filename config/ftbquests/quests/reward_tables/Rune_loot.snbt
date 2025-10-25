@@ -3,21 +3,11 @@
 	loot_size: 1
 	order_index: 32
 	rewards: [
-		{
-			item: "botania:rune_water"
-		}
-		{
-			item: "botania:rune_fire"
-		}
-		{
-			item: "botania:rune_earth"
-		}
-		{
-			item: "botania:rune_air"
-		}
-		{
-			item: "botania:rune_mana"
-		}
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_air" }
+		{ item: "botania:rune_mana" }
 	]
 	title: "&9符文战利品箱&r&7[Rune Loot Chest]&f"
 	use_title: true

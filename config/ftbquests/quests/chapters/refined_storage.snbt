@@ -32,13 +32,11 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "入门指南&7[Getting Started]&f"
-			tasks: [
-				{
-					id: "196B8B6D59ABFC74"
-					item: "refinedstorage:controller"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "196B8B6D59ABFC74"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
 			title: "&d&d精致存储&f&7[Refined Storage]&f"
 			x: -6.0d
 			y: -2.5d
@@ -52,21 +50,17 @@
 				"&7[The 1k Storage Disk can store 1000 items.]&f"
 			]
 			id: "4101F8275B41C79B"
-			rewards: [
-				{
-					id: "0E75917E7E00D711"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "0E75917E7E00D711"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1121780C6403D660"
-					item: "refinedstorage:1k_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1121780C6403D660"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
 			title: "&e&a1k 存储元件&f&r&7[1k Storage Part]&f"
 			x: -0.5d
 			y: -0.5d
@@ -93,13 +87,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1420D2099CBB6833"
-					item: "refinedstorage:4k_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1420D2099CBB6833"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
 			title: "&e&a4k 存储元件&f&r&7[4k Storage Part]&f"
 			x: 0.0d
 			y: 0.0d
@@ -126,13 +118,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0346A00E2F8F7532"
-					item: "refinedstorage:16k_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0346A00E2F8F7532"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
 			title: "&a&a16k 存储元件&f&r&7[16k Storage Part]&f"
 			x: -0.5d
 			y: 0.5d
@@ -158,13 +148,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "02A8CBA1DAC84DAE"
-					item: "refinedstorage:64k_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02A8CBA1DAC84DAE"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
 			title: "&b&a64k 存储元件&f&r&7[64k Storage Part]&f"
 			x: -0.5d
 			y: 1.5d
@@ -195,13 +183,11 @@
 			]
 			size: 1.25d
 			subtitle: "自动化合成!&7[Automated crafting!]&f"
-			tasks: [
-				{
-					id: "202A7EA0318662C5"
-					item: "refinedstorage:crafter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "202A7EA0318662C5"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
 			title: "合成器&7[Crafter]&f"
 			x: 2.5d
 			y: -8.5d
@@ -229,13 +215,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "0ED2706B229F3AA7"
-					item: "extrastorage:iron_crafter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0ED2706B229F3AA7"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
 			title: "铁质合成器&7[Iron Crafter]&f"
 			x: 2.0d
 			y: -8.0d
@@ -263,13 +247,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1AA53ECBAE795C70"
-					item: "extrastorage:gold_crafter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1AA53ECBAE795C70"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
 			title: "&e黄金合成器&r&7[Gold Crafter]&f"
 			x: 2.0d
 			y: -9.0d
@@ -297,13 +279,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "461E78CF8E7FCD04"
-					item: "extrastorage:diamond_crafter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "461E78CF8E7FCD04"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
 			title: "&b钻石合成器&r&7[Diamond Crafter]&f"
 			x: 3.0d
 			y: -9.0d
@@ -331,13 +311,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4FEB0889EEBC1BDA"
-					item: "extrastorage:netherite_crafter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4FEB0889EEBC1BDA"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
 			title: "&5下界合金合成器&r&7[Netherite Crafter]&f"
 			x: 3.0d
 			y: -8.0d
@@ -351,13 +329,11 @@
 				"&7[To connect the Receiver to your main network, you'll need to use a Network Card. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system.]&f"
 			]
 			id: "3FAD086F7D9CCAE9"
-			rewards: [
-				{
-					id: "182081F231AA3B51"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "182081F231AA3B51"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			subtitle: "远程组网&7[Distant Networking]&f"
 			tasks: [
 				{
@@ -401,13 +377,11 @@
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "系统连接&7[Connecting The System]&f"
-			tasks: [
-				{
-					id: "1A2C2B95FDA9D2DA"
-					item: "refinedstorage:cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1A2C2B95FDA9D2DA"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
 			title: "线缆&7[Cables]&f"
 			x: -6.0d
 			y: -5.0d
@@ -422,22 +396,18 @@
 			]
 			hide_until_deps_visible: true
 			id: "532229D285CA4858"
-			rewards: [
-				{
-					id: "1DE253380778110D"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "1DE253380778110D"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "物品输入&7[Importing Items!]&f"
-			tasks: [
-				{
-					id: "0E57EE9B975D05C3"
-					item: "refinedstorage:importer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E57EE9B975D05C3"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
 			title: "输入器&7[Importer]&f"
 			x: -6.5d
 			y: -8.0d
@@ -452,22 +422,18 @@
 			]
 			hide_until_deps_visible: true
 			id: "6092490EC9008A05"
-			rewards: [
-				{
-					id: "706F07A4768DE9FA"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "706F07A4768DE9FA"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "方块破坏&7[Breaking Blocks!]&f"
-			tasks: [
-				{
-					id: "5762E9CE9A7D3FCA"
-					item: "refinedstorage:destructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5762E9CE9A7D3FCA"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
 			title: "破坏器&7[Destructor]&f"
 			x: -4.5d
 			y: -8.0d
@@ -482,22 +448,18 @@
 			]
 			hide_until_deps_visible: true
 			id: "2CFEE04BA574921E"
-			rewards: [
-				{
-					id: "3CDBEEDBD20A61DE"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "3CDBEEDBD20A61DE"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "方块放置&7[Placing Blocks!]&f"
-			tasks: [
-				{
-					id: "2BB33FEBA2B071DF"
-					item: "refinedstorage:constructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BB33FEBA2B071DF"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
 			title: "建造器&7[Constructor]&f"
 			x: -5.5d
 			y: -8.0d
@@ -512,22 +474,18 @@
 			]
 			hide_until_deps_visible: true
 			id: "4CD83943865018EA"
-			rewards: [
-				{
-					id: "40C3EDC23E165575"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "40C3EDC23E165575"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "物品输出&7[Exporting Items!]&f"
-			tasks: [
-				{
-					id: "528F054C15BB7191"
-					item: "refinedstorage:exporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "528F054C15BB7191"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
 			title: "输出器&7[Exporter]&f"
 			x: -7.5d
 			y: -8.0d
@@ -541,21 +499,17 @@
 				"&7[The 64k Fluid Storage Part is used to craft the 64k Fluid Storage Disk.]&f"
 			]
 			id: "4B81E84CAE814BA9"
-			rewards: [
-				{
-					id: "2DAA28CC2526657D"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2DAA28CC2526657D"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3F9B17A338B2EEFE"
-					item: "refinedstorage:64k_fluid_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F9B17A338B2EEFE"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
 			title: "&e64k流体部件&r&7[64k Fluid Part]&f"
 			x: -2.5d
 			y: -0.5d
@@ -569,21 +523,17 @@
 				"&7[The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk.]&f"
 			]
 			id: "39C8E1705EF1CD31"
-			rewards: [
-				{
-					id: "2F50B3D8AFF81B1E"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2F50B3D8AFF81B1E"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "440737C224526B0B"
-					item: "refinedstorage:256k_fluid_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "440737C224526B0B"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
 			title: "&e256k流体部件&r&7[256k Fluid Part]&f"
 			x: -3.0d
 			y: 0.0d
@@ -597,21 +547,17 @@
 				"&7[The 1024k Fluid Storage Part is used to craft the 1024k Fluid Storage Disk.]&f"
 			]
 			id: "60244F26B9ABED49"
-			rewards: [
-				{
-					id: "5A3901DB229F523B"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5A3901DB229F523B"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "40AEA1CE52FAFCAB"
-					item: "refinedstorage:1024k_fluid_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "40AEA1CE52FAFCAB"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
 			title: "&a1024k流体部件&r&7[1024k Fluid Part]&f"
 			x: -2.5d
 			y: 0.5d
@@ -625,21 +571,17 @@
 				"&7[The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk.]&f"
 			]
 			id: "3751015CD5C84134"
-			rewards: [
-				{
-					id: "1BF095899A5270F5"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "1BF095899A5270F5"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2B57DE504688FC8D"
-					item: "refinedstorage:4096k_fluid_storage_part"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B57DE504688FC8D"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
 			title: "&b4096k流体部件&r&7[4096k Fluid Part]&f"
 			x: -2.5d
 			y: 1.5d
@@ -655,21 +597,17 @@
 			hide_until_deps_visible: true
 			id: "253657BE5D9D9162"
 			min_width: 300
-			rewards: [
-				{
-					id: "33EE37E408A14D2A"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "33EE37E408A14D2A"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "4D9E7CCF420BDE8C"
-					item: "refinedstorage:external_storage"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D9E7CCF420BDE8C"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
 			title: "外部存储&7[External Storage]&f"
 			x: -7.0d
 			y: -4.0d
@@ -703,13 +641,11 @@
 				}
 			]
 			subtitle: "守护您的网络!&7[Secure your grid!]&f"
-			tasks: [
-				{
-					id: "20F3020C07C9D22B"
-					item: "refinedstorage:security_manager"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20F3020C07C9D22B"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
 			title: "&a权限管理器&f&7[Security Manager]&f"
 			x: -7.0d
 			y: -1.5d
@@ -737,13 +673,11 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			tasks: [
-				{
-					id: "68A80F00CAFF427D"
-					item: "refinedstorage:grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68A80F00CAFF427D"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
 			title: "访问网络存储&7[Accessing Our Network Storage]&f"
 			x: 2.5d
 			y: -2.5d
@@ -770,13 +704,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5B74E6CB7AB75F92"
-					item: "refinedstorage:crafting_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5B74E6CB7AB75F92"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
 			title: "合成终端&7[Crafting Grid]&f"
 			x: 2.0d
 			y: -1.5d
@@ -792,21 +724,17 @@
 			hide_until_deps_visible: true
 			id: "65C8A43FEDBA3835"
 			min_width: 300
-			rewards: [
-				{
-					id: "3FAE50501AEA16E9"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "3FAE50501AEA16E9"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "79E70744DBC24777"
-					item: "refinedstorage:pattern_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79E70744DBC24777"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
 			title: "&a样板终端&f&7[Pattern Grid]&f"
 			x: 2.5d
 			y: -6.5d
@@ -833,13 +761,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4EAE7D47133842B1"
-					item: "refinedstorage:fluid_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4EAE7D47133842B1"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
 			title: "&a流体终端&f&7[Fluid Grid]&f"
 			x: 3.0d
 			y: -1.5d
@@ -866,13 +792,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1488D961F51ED182"
-					item: "refinedstorage:wireless_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1488D961F51ED182"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
 			title: "无线终端&7[Wireless Grid]&f"
 			x: 8.0d
 			y: -3.5d
@@ -899,13 +823,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "77FE4FDC2F752084"
-					item: "refinedstorage:wireless_fluid_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77FE4FDC2F752084"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
 			title: "无线 &a流体终端&f&7[Wireless Fluid Grid]&f"
 			x: 9.0d
 			y: -3.5d
@@ -932,13 +854,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5C72FB6EFDAF0813"
-					item: "refinedstorageaddons:wireless_crafting_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5C72FB6EFDAF0813"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
 			title: "无线合成终端&7[Wireless Crafting Grid]&f"
 			x: 7.0d
 			y: -3.5d
@@ -955,26 +875,18 @@
 			hide_until_deps_visible: false
 			id: "66D85424EC74EDCC"
 			optional: true
-			rewards: [
-				{
-					id: "2977A7581BEC6C48"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2977A7581BEC6C48"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "diamond"
 			subtitle: "移动式终端&7[On-The-Go Grid]&f"
-			tasks: [
-				{
-					id: "301E0669A3CD84EF"
-					item: {
-						Count: 1
-						id: "refinedstorage:portable_grid"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "301E0669A3CD84EF"
+				item: "refinedstorage:portable_grid"
+				type: "item"
+			}]
 			title: "&a便携式终端&f&7[Portable Grid]&f"
 			x: 2.5d
 			y: -1.0d
@@ -1003,13 +915,11 @@
 			shape: "rsquare"
 			size: 1.25d
 			subtitle: "磁盘时代!&7[Floppy time!]&f"
-			tasks: [
-				{
-					id: "3724447C3E0F9942"
-					item: "refinedstorage:disk_drive"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3724447C3E0F9942"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
 			title: "创建虚拟存储&7[Creating Virtual Storage]&f"
 			x: -1.5d
 			y: -2.5d
@@ -1024,21 +934,17 @@
 			]
 			hide_until_deps_visible: true
 			id: "4844DEF57A2287B4"
-			rewards: [
-				{
-					id: "70D006DD94C36966"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "70D006DD94C36966"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "057EA89AE615DA6D"
-					item: "refinedstorage:disk_manipulator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "057EA89AE615DA6D"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
 			title: "&a磁盘操纵器&f&7[Disk Manipulator]&f"
 			x: -1.5d
 			y: -4.0d
@@ -1067,13 +973,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "45359CC3EC90B74B"
-					item: "refinedstorage:pattern"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45359CC3EC90B74B"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
 			title: "自动合成!&7[Autocrafting!]&f"
 			x: 2.5d
 			y: -4.449999999999999d
@@ -1102,13 +1006,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "59E1432B592B686C"
-					item: "refinedstorage:storage_monitor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "59E1432B592B686C"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
 			title: "&a存储监控器&f&7[Storage Monitor]&f"
 			x: -5.0d
 			y: -4.0d
@@ -1124,22 +1026,18 @@
 			]
 			hide_dependency_lines: false
 			id: "6B04FC81351CD1AB"
-			rewards: [
-				{
-					id: "5050A99AB9DA31EE"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5050A99AB9DA31EE"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "远程存储&7[Storage, at a distance]&f"
-			tasks: [
-				{
-					id: "48935A6041672A29"
-					item: "refinedstorage:wireless_transmitter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "48935A6041672A29"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
 			title: "&5无线访问&7[Wireless Access]&f"
 			x: 8.0d
 			y: -2.5d
@@ -1169,13 +1067,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "546B04909ABE8383"
-					item: "refinedstorage:storage_housing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "546B04909ABE8383"
+				item: "refinedstorage:storage_housing"
+				type: "item"
+			}]
 			title: "&a磁盘外壳&f&7[Storage Housing]&f"
 			x: -1.5d
 			y: -1.0d
@@ -1234,21 +1130,17 @@
 			]
 			id: "62625CAF6649AB53"
 			optional: true
-			rewards: [
-				{
-					id: "2757EAF400D978C1"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2757EAF400D978C1"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "4540AB0231FE3B1A"
-					item: "refinedstorage:1k_storage_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4540AB0231FE3B1A"
+				item: "refinedstorage:1k_storage_block"
+				type: "item"
+			}]
 			title: "1k存储方块&7[1k Storage Block]&f"
 			x: -1.5d
 			y: 0.0d
@@ -1265,13 +1157,11 @@
 			id: "787415570026FFAA"
 			min_width: 300
 			optional: true
-			rewards: [
-				{
-					id: "0EB941B66B8E55EB"
-					table_id: 3567941291661635734L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "0EB941B66B8E55EB"
+				table_id: 3567941291661635734L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1340,20 +1230,16 @@
 			hide_until_deps_visible: true
 			id: "35EC08D610382860"
 			optional: true
-			rewards: [
-				{
-					id: "1361E62DF27B02EE"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "5BFCB4F5C8CCA8C9"
-					item: "refinedstorage:filter"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1361E62DF27B02EE"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BFCB4F5C8CCA8C9"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
 			title: "过滤器&7[Filter]&f"
 			x: -4.5d
 			y: -5.0d
@@ -1382,13 +1268,11 @@
 			]
 			shape: "circle"
 			subtitle: "指传输范围&7[I mean Transmitting Range]&f"
-			tasks: [
-				{
-					id: "7AB53C2469B768E0"
-					item: "refinedstorage:range_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AB53C2469B768E0"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
 			title: "增强无线范围&7[Increasing Wifi Range]&f"
 			x: 8.0d
 			y: -1.5d
@@ -1460,13 +1344,11 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [
-				{
-					id: "79FEA8AA18E5ED45"
-					item: "refinedstorage:crafting_monitor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79FEA8AA18E5ED45"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
 			title: "合成队列监控&7[Monitoring the Crafting Queue]&f"
 			x: 1.5d
 			y: -6.5d
@@ -1480,21 +1362,17 @@
 				"&7['I need more RANGE!!!' \\n \\nWell, slap one of these bad boys in your Wireless Transmitter and you'll be able to access your network storage with infinite range. \\n \\nThis, however, does not extend to other dimensions.....]&f"
 			]
 			id: "6FE2D0B83A342E64"
-			rewards: [
-				{
-					id: "7264FDA2E5C580FA"
-					item: "rsinfinitybooster:infinity_card"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7264FDA2E5C580FA"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
 			shape: "circle"
-			tasks: [
-				{
-					id: "681EC80CB2ED7F51"
-					item: "rsinfinitybooster:infinity_card"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "681EC80CB2ED7F51"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
 			title: "无限范围增幅器&7[Infinite Range Booster]&f"
 			x: 8.0d
 			y: -0.5d
@@ -1508,22 +1386,18 @@
 				"&7[But this one does! \\n \\nThis allows your RS system to be accessed wirelessly from any dimension.]&f"
 			]
 			id: "4B77657055E0D36A"
-			rewards: [
-				{
-					count: 4
-					id: "3B4E1617EA62D067"
-					item: "minecraft:nether_star"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "3B4E1617EA62D067"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			shape: "circle"
-			tasks: [
-				{
-					id: "13098082ACDD0118"
-					item: "rsinfinitybooster:dimension_card"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13098082ACDD0118"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
 			title: "&a维度卡&f&7[Dimension Card]&f"
 			x: 8.0d
 			y: 0.5d
@@ -1535,13 +1409,11 @@
 				"744842B2AED28344"
 			]
 			id: "6960D45EF4B2E995"
-			tasks: [
-				{
-					id: "3D7D641BEE176F8C"
-					item: "universalgrid:wireless_universal_grid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3D7D641BEE176F8C"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -4.5d
 		}
@@ -1554,13 +1426,11 @@
 				"&7[Has 9 more filter slots and is 2x faster than the regular Exporter.]&f"
 			]
 			id: "4F9746A8EBB09C7B"
-			tasks: [
-				{
-					id: "09429379CDA638B8"
-					item: "cabletiers:elite_exporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "09429379CDA638B8"
+				item: "cabletiers:elite_exporter"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -9.0d
 		}
@@ -1573,13 +1443,11 @@
 				"&7[Has 27 more filter slots and is 5x faster than the regular Exporter. Also has the Stack Upgrade integrated.]&f"
 			]
 			id: "14DE16A40532206D"
-			tasks: [
-				{
-					id: "39D03DE01D6323B4"
-					item: "cabletiers:ultra_exporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "39D03DE01D6323B4"
+				item: "cabletiers:ultra_exporter"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -10.0d
 		}
@@ -1592,13 +1460,11 @@
 				"&7[Has 45 more filter slots and is 6.5x faster than the regular Exporter. Also has the Stack Upgrade integrated.]&f"
 			]
 			id: "5F6F319B4216744C"
-			tasks: [
-				{
-					id: "13BBFB9F16A154D9"
-					item: "cabletiers:mega_exporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13BBFB9F16A154D9"
+				item: "cabletiers:mega_exporter"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -11.0d
 		}
@@ -1611,13 +1477,11 @@
 				"&7[Has 9 more filter slots and is 2x faster than the regular Importer.]&f"
 			]
 			id: "5C63339483E6DE69"
-			tasks: [
-				{
-					id: "21F853DEA8C118FB"
-					item: "cabletiers:elite_importer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21F853DEA8C118FB"
+				item: "cabletiers:elite_importer"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -9.0d
 		}
@@ -1630,13 +1494,11 @@
 				"&7[Has 27 more filter slots and is 5x faster than the regular Importer. Also has the Stack Upgrade integrated.]&f"
 			]
 			id: "39ADBE9A60170296"
-			tasks: [
-				{
-					id: "46511E03DA441DDA"
-					item: "cabletiers:ultra_importer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "46511E03DA441DDA"
+				item: "cabletiers:ultra_importer"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -10.0d
 		}
@@ -1649,13 +1511,11 @@
 				"&7[Has 45 more filter slots and is 6.5x faster than the regular Importer. Also has the Stack Upgrade integrated.]&f"
 			]
 			id: "189C3AF8899FBFFE"
-			tasks: [
-				{
-					id: "060F281E4D19EDB1"
-					item: "cabletiers:mega_importer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "060F281E4D19EDB1"
+				item: "cabletiers:mega_importer"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -11.0d
 		}
@@ -1668,13 +1528,11 @@
 				"&7[Has 2 slots for Constructing.]&f"
 			]
 			id: "476816C0C7B4205A"
-			tasks: [
-				{
-					id: "42D3816196CE3F46"
-					item: "cabletiers:elite_constructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "42D3816196CE3F46"
+				item: "cabletiers:elite_constructor"
+				type: "item"
+			}]
 			x: -5.5d
 			y: -9.0d
 		}
@@ -1687,13 +1545,11 @@
 				"&7[Has 4 slots for Constructing.]&f"
 			]
 			id: "2CE2A196359A53AA"
-			tasks: [
-				{
-					id: "2D4E099496503A12"
-					item: "cabletiers:ultra_constructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D4E099496503A12"
+				item: "cabletiers:ultra_constructor"
+				type: "item"
+			}]
 			x: -5.5d
 			y: -10.0d
 		}
@@ -1706,13 +1562,11 @@
 				"&7[Has 6 slots for Constructing.]&f"
 			]
 			id: "0ED1670F8AEB8077"
-			tasks: [
-				{
-					id: "4A2ED083C4C8E1C3"
-					item: "cabletiers:mega_constructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A2ED083C4C8E1C3"
+				item: "cabletiers:mega_constructor"
+				type: "item"
+			}]
 			x: -5.5d
 			y: -11.0d
 		}
@@ -1725,13 +1579,11 @@
 				"&7[Has 18 filter slots and works 2x faster.]&f"
 			]
 			id: "124D0AB2864B4EE8"
-			tasks: [
-				{
-					id: "7F3B26393FFD6A5F"
-					item: "cabletiers:elite_destructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F3B26393FFD6A5F"
+				item: "cabletiers:elite_destructor"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -9.0d
 		}
@@ -1744,13 +1596,11 @@
 				"&7[Has 36 filter slots and works 5x faster.]&f"
 			]
 			id: "7F46E7106A620699"
-			tasks: [
-				{
-					id: "17BA15B202033006"
-					item: "cabletiers:ultra_destructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17BA15B202033006"
+				item: "cabletiers:ultra_destructor"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -10.0d
 		}
@@ -1763,156 +1613,132 @@
 				"&7[Has 45 filter slots and works 6.5x faster.]&f"
 			]
 			id: "05A3AA93A48E3C48"
-			tasks: [
-				{
-					id: "3CD1C8D1F561E393"
-					item: "cabletiers:mega_destructor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3CD1C8D1F561E393"
+				item: "cabletiers:mega_destructor"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["4844DEF57A2287B4"]
 			id: "17781D808C977907"
-			tasks: [
-				{
-					id: "4CA31F12D5121123"
-					item: "cabletiers:elite_disk_manipulator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4CA31F12D5121123"
+				item: "cabletiers:elite_disk_manipulator"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["17781D808C977907"]
 			id: "542C6FFA246C0790"
-			tasks: [
-				{
-					id: "4554991F0BA19982"
-					item: "cabletiers:ultra_disk_manipulator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4554991F0BA19982"
+				item: "cabletiers:ultra_disk_manipulator"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["542C6FFA246C0790"]
 			id: "42F2BCE880D591E3"
-			tasks: [
-				{
-					id: "0EF51DD0DFC129A7"
-					item: "cabletiers:mega_disk_manipulator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0EF51DD0DFC129A7"
+				item: "cabletiers:mega_disk_manipulator"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
 			id: "2F48B67391387817"
-			tasks: [
-				{
-					id: "6C331323C2725515"
-					item: "refinedstorage:interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C331323C2725515"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["43E8912CB307E421"]
 			id: "4B5D0D2F1AF42242"
-			tasks: [
-				{
-					id: "2C288B675261D497"
-					item: "rsrequestify:requester"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2C288B675261D497"
+				item: "rsrequestify:requester"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4B5D0D2F1AF42242"]
 			id: "2ED53E3079D0CE05"
-			tasks: [
-				{
-					id: "7A7E047EA90A0E63"
-					item: "cabletiers:elite_requester"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A7E047EA90A0E63"
+				item: "cabletiers:elite_requester"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2ED53E3079D0CE05"]
 			id: "7AE1DAE629623010"
-			tasks: [
-				{
-					id: "7B110286D819520D"
-					item: "cabletiers:ultra_requester"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B110286D819520D"
+				item: "cabletiers:ultra_requester"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7AE1DAE629623010"]
 			id: "324B47785159B65C"
-			tasks: [
-				{
-					id: "7AB6A90F71B641A7"
-					item: "cabletiers:mega_requester"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AB6A90F71B641A7"
+				item: "cabletiers:mega_requester"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2F48B67391387817"]
 			id: "4E422D58BCD69883"
-			tasks: [
-				{
-					id: "10ED3F00AA7FB4CD"
-					item: "cabletiers:elite_interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "10ED3F00AA7FB4CD"
+				item: "cabletiers:elite_interface"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4E422D58BCD69883"]
 			id: "1AEBC26E84E51F12"
-			tasks: [
-				{
-					id: "3AC9D1CC37108FF3"
-					item: "cabletiers:ultra_interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3AC9D1CC37108FF3"
+				item: "cabletiers:ultra_interface"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1AEBC26E84E51F12"]
 			id: "3C0DCB5FF6ED3576"
-			tasks: [
-				{
-					id: "460E63EDE0D28546"
-					item: "cabletiers:mega_interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "460E63EDE0D28546"
+				item: "cabletiers:mega_interface"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -6.5d
 		}
@@ -1925,13 +1751,11 @@
 				"&7[The 256k Storage Disk can store 256000 items.]&f"
 			]
 			id: "02FE307E10DEACA5"
-			tasks: [
-				{
-					id: "05379785A49D8201"
-					item: "extrastorage:storagepart_256k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05379785A49D8201"
+				item: "extrastorage:storagepart_256k"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 2.5d
 		}
@@ -1944,13 +1768,11 @@
 				"&7[The 1024k Storage Disk can store 1024000 items.]&f"
 			]
 			id: "69385BB35797D67A"
-			tasks: [
-				{
-					id: "2D834919EE177ECA"
-					item: "extrastorage:storagepart_1024k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D834919EE177ECA"
+				item: "extrastorage:storagepart_1024k"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 3.5d
 		}
@@ -1963,13 +1785,11 @@
 				"&7[The 4096k Storage Disk can store 4096000 items.]&f"
 			]
 			id: "6ED242739E16BFBF"
-			tasks: [
-				{
-					id: "2ED765D06ADA977A"
-					item: "extrastorage:storagepart_4096k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2ED765D06ADA977A"
+				item: "extrastorage:storagepart_4096k"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 4.5d
 		}
@@ -1983,13 +1803,11 @@
 			]
 			id: "0158F70E9E7F6ED7"
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "63EB18509B79527A"
-					item: "extrastorage:storagepart_16384k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "63EB18509B79527A"
+				item: "extrastorage:storagepart_16384k"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 5.5d
 		}
@@ -2002,13 +1820,11 @@
 				"&7[The 16384k Fluid Storage Part is used to craft the 16384k Fluid Storage Disk.]&f"
 			]
 			id: "43E216268701FCD6"
-			tasks: [
-				{
-					id: "17B449F57B1CF170"
-					item: "extrastorage:storagepart_16384k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17B449F57B1CF170"
+				item: "extrastorage:storagepart_16384k_fluid"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 2.5d
 		}
@@ -2021,13 +1837,11 @@
 				"&7[The 65536k Fluid Storage Part is used to craft the 65536k Fluid Storage Disk.]&f"
 			]
 			id: "7A831B4889E6A7F8"
-			tasks: [
-				{
-					id: "6463854901FC6C11"
-					item: "extrastorage:storagepart_65536k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6463854901FC6C11"
+				item: "extrastorage:storagepart_65536k_fluid"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 3.5d
 		}
@@ -2040,13 +1854,11 @@
 				"&7[The 262m Fluid Storage Part is used to craft the 262m Fluid Storage Disk.]&f"
 			]
 			id: "49492BE19F4A1021"
-			tasks: [
-				{
-					id: "7A02BC9BC0A9761A"
-					item: "extrastorage:storagepart_262144k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A02BC9BC0A9761A"
+				item: "extrastorage:storagepart_262144k_fluid"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 4.5d
 		}
@@ -2060,13 +1872,11 @@
 			]
 			id: "691A99122DCD9BC6"
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "07532098215A2AA5"
-					item: "extrastorage:storagepart_1048576k_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "07532098215A2AA5"
+				item: "extrastorage:storagepart_1048576k_fluid"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 5.5d
 		}

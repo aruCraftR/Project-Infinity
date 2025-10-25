@@ -5,16 +5,14 @@
 	group: "29543B666C58207C"
 	icon: "mekanism:steel_casing"
 	id: "23983F4DC524B14B"
-	images: [
-		{
-			height: 2.0d
-			image: "ftbquests:block/barrier_open"
-			rotation: 45.0d
-			width: 2.0d
-			x: 9.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 2.0d
+		image: "ftbquests:block/barrier_open"
+		rotation: 45.0d
+		width: 2.0d
+		x: 9.0d
+		y: -5.5d
+	}]
 	order_index: 9
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -58,13 +56,11 @@
 			shape: "gear"
 			size: 1.5d
 			subtitle: "入门机械&7[The Starting Machine]&f"
-			tasks: [
-				{
-					id: "28277BA9F319240D"
-					item: "mekanism:metallurgic_infuser"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28277BA9F319240D"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
 			x: -7.0d
 			y: -2.0d
 		}
@@ -99,13 +95,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "1AE233B4CCFE99F7"
-					item: "mekanism:enrichment_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1AE233B4CCFE99F7"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.0d
 		}
@@ -134,13 +128,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "6934C61AFEB0443D"
-					item: "mekanism:osmium_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6934C61AFEB0443D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
 			x: -8.0d
 			y: -0.5d
 		}
@@ -176,13 +168,11 @@
 				}
 			]
 			subtitle: "它的专长是粉碎.&7[It Crushes Things.]&f"
-			tasks: [
-				{
-					id: "431D7329CFCAF880"
-					item: "mekanism:crusher"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "431D7329CFCAF880"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -2.0d
 		}
@@ -209,13 +199,11 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					id: "36FE95268A543F7C"
-					item: "mekanism:digital_miner"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36FE95268A543F7C"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
 			x: -7.75d
 			y: 3.75d
 		}
@@ -248,13 +236,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "它具备桶模式!&7[It has a BUCKET MODE!]&f"
-			tasks: [
-				{
-					id: "54BEF9EA9F1D4374"
-					item: "mekanism:basic_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "54BEF9EA9F1D4374"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 10.0d
 		}
@@ -281,13 +267,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "陪伴你旅行的迷你机器人&7[A Mini-Robot To Accompany You On Your Travels]&f"
-			tasks: [
-				{
-					id: "171E6682D1578C63"
-					item: "mekanism:robit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "171E6682D1578C63"
+				item: "mekanism:robit"
+				type: "item"
+			}]
 			x: -7.75d
 			y: 2.5d
 		}
@@ -311,13 +295,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "需要氢气才能运作!&7[Requires Hydrogen to Work!]&f"
-			tasks: [
-				{
-					id: "71E922FC5BBF154C"
-					item: "mekanism:jetpack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71E922FC5BBF154C"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 3.75d
 		}
@@ -346,13 +328,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "升级至工厂级别&7[Upgrading to Factories]&f"
-			tasks: [
-				{
-					id: "28A769E7676E358F"
-					item: "mekanism:basic_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28A769E7676E358F"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 10.0d
 		}
@@ -373,13 +353,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "646785A06E01D173"
-					item: "mekanism:advanced_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "646785A06E01D173"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 10.5d
 		}
@@ -399,13 +377,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3AA211725EA97D18"
-					item: "mekanism:elite_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3AA211725EA97D18"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 11.0d
 		}
@@ -425,13 +401,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "56A8A51990C7F0A1"
-					item: "mekanism:ultimate_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56A8A51990C7F0A1"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 11.0d
 		}
@@ -470,13 +444,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "无线传输能源、气体、流体,无所不能&7[Wireless Power, Gases, Fluids, Everything.]&f"
-			tasks: [
-				{
-					id: "0526878F9506FB48"
-					item: "mekanism:quantum_entangloporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0526878F9506FB48"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
 			x: -7.75d
 			y: 5.0d
 		}
@@ -505,13 +477,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "能源存储&7[Storing Power]&f"
-			tasks: [
-				{
-					id: "19C3A9D5E656FAA5"
-					item: "mekanism:basic_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "19C3A9D5E656FAA5"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 10.0d
 		}
@@ -532,13 +502,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3939A98E3276095B"
-					item: "mekanism:advanced_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3939A98E3276095B"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 10.5d
 		}
@@ -558,13 +526,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0485F28A3916A974"
-					item: "mekanism:elite_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0485F28A3916A974"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 11.0d
 		}
@@ -584,13 +550,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "50A250703B09FA5A"
-					item: "mekanism:ultimate_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50A250703B09FA5A"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 11.0d
 		}
@@ -617,13 +581,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "72CE838EFDDE6479"
-					item: "mekanism:alloy_infused"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72CE838EFDDE6479"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -3.5d
 		}
@@ -643,13 +605,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "2FE06FDA0A3A66C7"
-					item: "mekanism:alloy_reinforced"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FE06FDA0A3A66C7"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -4.5d
 		}
@@ -669,13 +629,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "0DD9B2119BB50C80"
-					item: "mekanism:alloy_atomic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0DD9B2119BB50C80"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -5.5d
 		}
@@ -703,13 +661,11 @@
 			]
 			shape: "hexagon"
 			subtitle: "基础型&a电路板&f&7[Basic Control Circuit]&f"
-			tasks: [
-				{
-					id: "5E51F5B17F77573E"
-					item: "mekanism:basic_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5E51F5B17F77573E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -3.5d
 		}
@@ -732,13 +688,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "05F2EEE4DE21E2ED"
-					item: "mekanism:advanced_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05F2EEE4DE21E2ED"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -4.5d
 		}
@@ -761,13 +715,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "48AC2274973C4509"
-					item: "mekanism:elite_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "48AC2274973C4509"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -5.5d
 		}
@@ -790,13 +742,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "7E9FCA38BA758B41"
-					item: "mekanism:ultimate_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E9FCA38BA758B41"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -6.5d
 		}
@@ -832,21 +782,19 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [
-				{
-					icon: "thermal:steel_ingot"
-					id: "6B88F1F9DF50C1E4"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/steel"
-						}
+			tasks: [{
+				icon: "thermal:steel_ingot"
+				id: "6B88F1F9DF50C1E4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
 					}
-					title: "任意 #forge:ingots/steel"
-					type: "item"
 				}
-			]
+				title: "任意 #forge:ingots/steel"
+				type: "item"
+			}]
 			title: "钢&7[Steel]&f"
 			x: 3.0d
 			y: 2.0d
@@ -876,13 +824,11 @@
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "用于传输能源&7[For Transferring Power]&f"
-			tasks: [
-				{
-					id: "56F8A49135418FD8"
-					item: "mekanism:basic_universal_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56F8A49135418FD8"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 4.0d
 		}
@@ -903,13 +849,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "445F3D8AA18A518A"
-					item: "mekanism:advanced_universal_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "445F3D8AA18A518A"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 5.0d
 		}
@@ -929,13 +873,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6EC6D1463C65EBF2"
-					item: "mekanism:elite_universal_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6EC6D1463C65EBF2"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 5.5d
 		}
@@ -955,13 +897,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1ECDAF49CF1BC952"
-					item: "mekanism:ultimate_universal_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1ECDAF49CF1BC952"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 5.0d
 		}
@@ -984,13 +924,11 @@
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "用于传输流体&7[For Transferring Fluids]&f"
-			tasks: [
-				{
-					id: "45B151086147D98D"
-					item: "mekanism:basic_mechanical_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45B151086147D98D"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 4.0d
 		}
@@ -1011,13 +949,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "131392325AEB228E"
-					item: "mekanism:advanced_mechanical_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "131392325AEB228E"
+				item: "mekanism:advanced_mechanical_pipe"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 5.0d
 		}
@@ -1037,13 +973,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "78C482BF65B20673"
-					item: "mekanism:elite_mechanical_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78C482BF65B20673"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 5.5d
 		}
@@ -1063,13 +997,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "25D5626BBA7615F0"
-					item: "mekanism:ultimate_mechanical_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "25D5626BBA7615F0"
+				item: "mekanism:ultimate_mechanical_pipe"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 5.0d
 		}
@@ -1092,13 +1024,11 @@
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "用于传输气体&7[For Transferring Gasses]&f"
-			tasks: [
-				{
-					id: "685BFFC7BDA40FC3"
-					item: "mekanism:basic_pressurized_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "685BFFC7BDA40FC3"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 4.0d
 		}
@@ -1121,13 +1051,11 @@
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "用于传输物品&7[For Transferring Items]&f"
-			tasks: [
-				{
-					id: "3F972BE9DFCA1EB5"
-					item: "mekanism:basic_logistical_transporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F972BE9DFCA1EB5"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 4.0d
 		}
@@ -1150,13 +1078,11 @@
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "用于传输热能&7[For Transferring Heat]&f"
-			tasks: [
-				{
-					id: "5F4FEC0FD7C5CC33"
-					item: "mekanism:basic_thermodynamic_conductor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5F4FEC0FD7C5CC33"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 4.0d
 		}
@@ -1177,13 +1103,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2E82ABE762A77F41"
-					item: "mekanism:advanced_pressurized_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E82ABE762A77F41"
+				item: "mekanism:advanced_pressurized_tube"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -1203,13 +1127,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "460D2FF854258953"
-					item: "mekanism:elite_pressurized_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "460D2FF854258953"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 5.5d
 		}
@@ -1229,13 +1151,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1E066CC63A95B288"
-					item: "mekanism:ultimate_pressurized_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E066CC63A95B288"
+				item: "mekanism:ultimate_pressurized_tube"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 5.0d
 		}
@@ -1256,13 +1176,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "631FDADA57127F2E"
-					item: "mekanism:advanced_logistical_transporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "631FDADA57127F2E"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 5.0d
 		}
@@ -1282,13 +1200,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1F7689D1D5DB5E8C"
-					item: "mekanism:elite_logistical_transporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F7689D1D5DB5E8C"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 5.5d
 		}
@@ -1308,13 +1224,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "62A00D9DD3A8CA8E"
-					item: "mekanism:ultimate_logistical_transporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "62A00D9DD3A8CA8E"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 5.0d
 		}
@@ -1335,13 +1249,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7B1C318ACC88ED60"
-					item: "mekanism:advanced_thermodynamic_conductor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B1C318ACC88ED60"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				type: "item"
+			}]
 			x: 7.5d
 			y: 5.0d
 		}
@@ -1361,13 +1273,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "72F178B9B6C32B15"
-					item: "mekanism:elite_thermodynamic_conductor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72F178B9B6C32B15"
+				item: "mekanism:elite_thermodynamic_conductor"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 5.5d
 		}
@@ -1387,13 +1297,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "744EA1745278F562"
-					item: "mekanism:ultimate_thermodynamic_conductor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "744EA1745278F562"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 5.0d
 		}
@@ -1418,13 +1326,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "69CEEFADCFA28675"
-					item: "mekanism:ingot_refined_obsidian"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "69CEEFADCFA28675"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 0.5d
 		}
@@ -1445,13 +1351,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "532EE85D4748D50D"
-					item: "mekanism:ingot_refined_glowstone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "532EE85D4748D50D"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
 			x: -8.5d
 			y: 0.5d
 		}
@@ -1486,13 +1390,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "4983AE3B954BF2FE"
-					item: "mekanism:purification_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4983AE3B954BF2FE"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -2.0d
 		}
@@ -1528,13 +1430,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "5A081977DB9407EA"
-					item: "mekanism:energized_smelter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A081977DB9407EA"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -0.5d
 		}
@@ -1570,13 +1470,11 @@
 				}
 			]
 			subtitle: "开始分解作业&7[Time to Break It Down]&f"
-			tasks: [
-				{
-					id: "054CC6FB5173F8A3"
-					item: "mekanism:electrolytic_separator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "054CC6FB5173F8A3"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -3.0d
 		}
@@ -1618,13 +1516,11 @@
 				}
 			]
 			subtitle: "将气体转化为能源!&7[Burn Gases into Power!]&f"
-			tasks: [
-				{
-					id: "2C13E8B67BC61E34"
-					item: "mekanismgenerators:gas_burning_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2C13E8B67BC61E34"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -4.0d
 		}
@@ -1660,13 +1556,11 @@
 				}
 			]
 			subtitle: "将3个原矿转化为8个矿石碎片&7[Turns 3 Raw Ore into 8 Ore Shards]&f"
-			tasks: [
-				{
-					id: "443DCB7E2E45F3DD"
-					item: "mekanism:chemical_injection_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "443DCB7E2E45F3DD"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
 			x: 5.0d
 			y: -2.0d
 		}
@@ -1696,13 +1590,11 @@
 				}
 			]
 			subtitle: "&a化学化合机&f&7[The Chemical Combiner]&f"
-			tasks: [
-				{
-					id: "31D203EC92BEA66F"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31D203EC92BEA66F"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
 			x: 6.5d
 			y: -3.5d
 		}
@@ -1815,13 +1707,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "1FE5AA0FF1F9BB51"
-					item: "mekanism:chemical_dissolution_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1FE5AA0FF1F9BB51"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
 			title: "四级矿石工厂的起点&7[The Start of a Tier 4 Ore Factory]&f"
 			x: 9.0d
 			y: -2.0d
@@ -1851,13 +1741,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "50D9504BFFB97A27"
-					item: "mekanism:rotary_condensentrator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50D9504BFFB97A27"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
 			x: 8.5d
 			y: -3.5d
 		}
@@ -1955,29 +1843,27 @@
 				}
 			]
 			subtitle: "热盐水在此,快来取用热盐水!&7[Hot Brine here. Get Your Hot Brine here.]&f"
-			tasks: [
-				{
-					id: "6E75525A5D88EF23"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "mekanism:fuelwood_heater"
-								}
-								{
-									Count: 1b
-									id: "mekanism:resistive_heater"
-								}
-							]
-						}
+			tasks: [{
+				id: "6E75525A5D88EF23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:fuelwood_heater"
+							}
+							{
+								Count: 1b
+								id: "mekanism:resistive_heater"
+							}
+						]
 					}
-					title: "加热器"
-					type: "item"
 				}
-			]
+				title: "加热器"
+				type: "item"
+			}]
 			title: "提升盐水生产温度&7[Heating Up our Brine Production]&f"
 			x: 5.0d
 			y: -5.0d
@@ -2066,13 +1952,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "便携式&a电池组&f&7[Portable Battery Pack]&f"
-			tasks: [
-				{
-					id: "79EF9001D76FD91D"
-					item: "mekanism:energy_tablet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79EF9001D76FD91D"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
 			x: -9.0d
 			y: 2.5d
 		}
@@ -2093,13 +1977,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "46C5C0922839BDCA"
-					item: "mekanism:upgrade_speed"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "46C5C0922839BDCA"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 16.5d
 		}
@@ -2120,13 +2002,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1B5CF4B0B6D3F6F9"
-					item: "mekanism:upgrade_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B5CF4B0B6D3F6F9"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 17.0d
 		}
@@ -2147,13 +2027,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "43E4874F23459DB1"
-					item: "mekanism:upgrade_filter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "43E4874F23459DB1"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 16.5d
 		}
@@ -2175,13 +2053,11 @@
 			]
 			shape: "diamond"
 			subtitle: "嘘...太吵了....&7[shhhhh... too loud....]&f"
-			tasks: [
-				{
-					id: "126FB3CA8F2CCF11"
-					item: "mekanism:upgrade_muffling"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "126FB3CA8F2CCF11"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 17.0d
 		}
@@ -2202,13 +2078,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "70A4BDDF6392DC9D"
-					item: "mekanism:upgrade_gas"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70A4BDDF6392DC9D"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 17.5d
 		}
@@ -2229,13 +2103,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0872B5A950703C8A"
-					item: "mekanism:upgrade_stone_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0872B5A950703C8A"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 16.5d
 		}
@@ -2265,13 +2137,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "&d通用机械&f的扳手&7[Mekanism's Wrench]&f"
-			tasks: [
-				{
-					id: "2612CACBDDF9AD1A"
-					item: "mekanism:configurator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2612CACBDDF9AD1A"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
 			x: -9.0d
 			y: 5.0d
 		}
@@ -2290,13 +2160,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "16DAFC5C5846015A"
-					item: "nuclearcraft:water_collector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16DAFC5C5846015A"
+				item: "nuclearcraft:water_collector"
+				type: "item"
+			}]
 			title: "水源&7[Water Source]&f"
 			x: -2.0d
 			y: -2.0d
@@ -2318,13 +2186,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5FFEF5D6055A67B1"
-					item: "mekanism:advanced_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5FFEF5D6055A67B1"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 10.5d
 		}
@@ -2344,13 +2210,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "05059B48A8F56BC5"
-					item: "mekanism:elite_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05059B48A8F56BC5"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 11.0d
 		}
@@ -2370,13 +2234,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "33F9C615B944909A"
-					item: "mekanism:ultimate_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "33F9C615B944909A"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
 			x: 7.5d
 			y: 11.0d
 		}
@@ -2405,13 +2267,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "储存所有气体&7[Storing All That Gas]&f"
-			tasks: [
-				{
-					id: "665B9818855C0028"
-					item: "mekanism:basic_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "665B9818855C0028"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 10.0d
 		}
@@ -2432,13 +2292,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "78CFB8D559DA92AE"
-					item: "mekanism:advanced_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78CFB8D559DA92AE"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 10.5d
 		}
@@ -2458,13 +2316,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1D2AE44FA5391B71"
-					item: "mekanism:elite_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1D2AE44FA5391B71"
+				item: "mekanism:elite_chemical_tank"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 11.0d
 		}
@@ -2484,13 +2340,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5FD0078940E64A4C"
-					item: "mekanism:ultimate_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5FD0078940E64A4C"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 11.0d
 		}
@@ -2519,13 +2373,11 @@
 			shape: "octagon"
 			size: 1.25d
 			subtitle: "约产生17.6FE/t能量&7[Produces about 17.6FE/t]&f"
-			tasks: [
-				{
-					id: "22ACFEB806D68385"
-					item: "mekanismgenerators:solar_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22ACFEB806D68385"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.0d
 		}
@@ -2556,13 +2408,11 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			tasks: [
-				{
-					id: "7BA12BAB8271E170"
-					item: "mekanismgenerators:heat_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7BA12BAB8271E170"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
 			x: -8.875d
 			y: -1.975d
 		}
@@ -2590,13 +2440,11 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			tasks: [
-				{
-					id: "36B12984060A90FD"
-					item: "mekanismgenerators:bio_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36B12984060A90FD"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 2.0d
 		}
@@ -2627,13 +2475,11 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			tasks: [
-				{
-					id: "4F0B3CA66BE1AEE1"
-					item: "mekanismgenerators:advanced_solar_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F0B3CA66BE1AEE1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 2.0d
 		}
@@ -2666,13 +2512,11 @@
 			shape: "octagon"
 			size: 1.25d
 			subtitle: "利用风力发电&7[Generates Power from the Wind]&f"
-			tasks: [
-				{
-					id: "50624A39AD15A8A6"
-					item: "mekanismgenerators:wind_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50624A39AD15A8A6"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 1.0d
 		}
@@ -2700,12 +2544,10 @@
 				id: "mekanism:creative_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [
-							{
-								Container: 0b
-								stored: "18446744073709551615.9999"
-							}
-						]
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
 					}
 				}
 			}
@@ -2724,13 +2566,11 @@
 			]
 			shape: "square"
 			size: 2.0d
-			tasks: [
-				{
-					id: "10CE7D11B912F418"
-					item: "mekanism:ingot_osmium"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "10CE7D11B912F418"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
 			title: "&d通用机械&f&7[Mekanism]&f"
 			x: -11.0d
 			y: -2.0d
@@ -2754,13 +2594,11 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "第二阶段 - &a双倍矿物&f&7[Phase 2 - Ore Doubling]&f"
-			tasks: [
-				{
-					id: "46C4C1AD9FA5BEE2"
-					title: "我们目前的装置"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "46C4C1AD9FA5BEE2"
+				title: "我们目前的装置"
+				type: "checkmark"
+			}]
 			title: "第二阶段&7[Phase 2]&f"
 			x: 3.0d
 			y: -2.0d
@@ -2789,21 +2627,17 @@
 				"&7[Well buckle up. It's about to get wild.]&f"
 			]
 			id: "1112E4E2CCEB2467"
-			rewards: [
-				{
-					id: "0B129E30AA37E379"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "0B129E30AA37E379"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "三级矿物工厂&7[Tier 3 Ore Factory]&f"
-			tasks: [
-				{
-					id: "57F40CFA03BD36EF"
-					title: "&a困难&f 部分"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "57F40CFA03BD36EF"
+				title: "&a困难&f 部分"
+				type: "checkmark"
+			}]
 			x: 6.5d
 			y: -2.0d
 		}
@@ -2838,13 +2672,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "1C162E39F2ACA72F"
-					item: "mekanism:pressurized_reaction_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C162E39F2ACA72F"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -3.5d
 		}
@@ -2863,14 +2695,12 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					count: 2L
-					id: "05138E2E906020F3"
-					item: "mekanism:bio_fuel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "05138E2E906020F3"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
 			title: "&a生物燃料&f&7[Bio Fuel]&f"
 			x: 1.0d
 			y: -3.0d
@@ -2890,14 +2720,12 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					count: 3L
-					id: "1F6A5B58DF94730B"
-					item: "mekanism:substrate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "1F6A5B58DF94730B"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
 			title: "基底材料&7[Substrates]&f"
 			x: 1.0d
 			y: -4.0d
@@ -2918,14 +2746,12 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					count: 3L
-					id: "62E8F3CC847BBD3D"
-					item: "mekanism:hdpe_pellet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "62E8F3CC847BBD3D"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
 			title: "&a高密度聚乙烯丸&f&7[HDPE Pellets]&f"
 			x: 1.0d
 			y: -5.0d
@@ -2946,13 +2772,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "6EE6F07986BAFC3B"
-					item: "mekanism:hdpe_sheet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6EE6F07986BAFC3B"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -6.0d
 		}
@@ -2982,13 +2806,11 @@
 			shape: "hexagon"
 			size: 1.25d
 			subtitle: "&d通用机械&f全能工具&7[Mekanism's All In One Tool]&f"
-			tasks: [
-				{
-					id: "79F38A9428A0A23D"
-					item: "mekanism:atomic_disassembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79F38A9428A0A23D"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 5.0d
 		}
@@ -3022,13 +2844,11 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "4B60ACBCC3B46D1D"
-					item: "mekanism:enriched_carbon"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B60ACBCC3B46D1D"
+				item: "mekanism:enriched_carbon"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -0.5d
 		}
@@ -3058,13 +2878,11 @@
 				}
 			]
 			subtitle: "给矿石洗个澡&7[Giving Ores a Bath]&f"
-			tasks: [
-				{
-					id: "1DA159AA61B37545"
-					item: "mekanism:chemical_washer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1DA159AA61B37545"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
 			x: 8.5d
 			y: -0.5d
 		}
@@ -3094,13 +2912,11 @@
 				}
 			]
 			subtitle: "将矿浆转化为晶体&7[Turns Ore Slurry into Crystals]&f"
-			tasks: [
-				{
-					id: "6F2B3A4206C129B0"
-					item: "mekanism:chemical_crystallizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6F2B3A4206C129B0"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
 			x: 9.5d
 			y: -0.5d
 		}
@@ -3127,23 +2943,19 @@
 			]
 			id: "3C49F2EEDCCAF1DF"
 			min_width: 300
-			rewards: [
-				{
-					id: "3417F669ABC16584"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "3417F669ABC16584"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "我知道这很多,&7[This is a lot, I know.]&f"
-			tasks: [
-				{
-					id: "3B3B58C438FD4397"
-					title: "四级矿石 &a处理&f 工厂概要"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "3B3B58C438FD4397"
+				title: "四级矿石 &a处理&f 工厂概要"
+				type: "checkmark"
+			}]
 			x: 9.0d
 			y: 1.0d
 		}
@@ -3175,13 +2987,11 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					id: "6190BE8B67130AB5"
-					item: "mekanism:chargepad"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6190BE8B67130AB5"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 2.5d
 		}
@@ -3198,23 +3008,19 @@
 			]
 			icon: "mekanism:pellet_antimatter"
 			id: "7E4A95B6443F23BC"
-			rewards: [
-				{
-					id: "1E16D1CE01AD7052"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "1E16D1CE01AD7052"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "&a铺路石&f通往反应堆&7[The Path to Reactors]&f"
-			tasks: [
-				{
-					id: "60BF6E0420C91050"
-					title: "&d高级 &d通用机械&f&r"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "60BF6E0420C91050"
+				title: "&d高级 &d通用机械&f&r"
+				type: "checkmark"
+			}]
 			x: 9.0d
 			y: -5.5d
 		}
@@ -3234,13 +3040,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2C6E12298C8A8C23"
-					item: "evolvedmekanism:overclocked_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2C6E12298C8A8C23"
+				item: "evolvedmekanism:overclocked_tier_installer"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 10.5d
 		}
@@ -3260,13 +3064,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4B4B0DAC95900C74"
-					item: "evolvedmekanism:quantum_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B4B0DAC95900C74"
+				item: "evolvedmekanism:quantum_tier_installer"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 11.5d
 		}
@@ -3286,13 +3088,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "293ED61974981EB9"
-					item: "evolvedmekanism:dense_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "293ED61974981EB9"
+				item: "evolvedmekanism:dense_tier_installer"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 11.5d
 		}
@@ -3312,13 +3112,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "54E54911C6FA4814"
-					item: "evolvedmekanism:multiversal_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "54E54911C6FA4814"
+				item: "evolvedmekanism:multiversal_tier_installer"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 11.5d
 		}
@@ -3327,13 +3125,11 @@
 			id: "2C688CC8798ED8E1"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "668EBE30FEC7326D"
-					item: "evolvedmekanism:alloy_hypercharged"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "668EBE30FEC7326D"
+				item: "evolvedmekanism:alloy_hypercharged"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -6.5d
 		}
@@ -3345,13 +3141,11 @@
 			id: "6172D30357058EED"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "791E3F2136435A7C"
-					item: "evolvedmekanism:overclocked_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "791E3F2136435A7C"
+				item: "evolvedmekanism:overclocked_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -7.5d
 		}
@@ -3360,13 +3154,11 @@
 			id: "55AFA5721F4F4FFA"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "246849A952273759"
-					item: "evolvedmekanism:alloy_subatomic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "246849A952273759"
+				item: "evolvedmekanism:alloy_subatomic"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -7.5d
 		}
@@ -3378,13 +3170,11 @@
 			id: "2176C44AFEBCF718"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "3953A1A54D7F5177"
-					item: "evolvedmekanism:quantum_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3953A1A54D7F5177"
+				item: "evolvedmekanism:quantum_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -8.5d
 		}
@@ -3393,13 +3183,11 @@
 			id: "4D671F3258234C60"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "1AE5D014EB77F821"
-					item: "evolvedmekanism:alloy_singular"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1AE5D014EB77F821"
+				item: "evolvedmekanism:alloy_singular"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -8.5d
 		}
@@ -3408,13 +3196,11 @@
 			id: "141CBD6AB7DD27DE"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "71B89057390FC8C5"
-					item: "evolvedmekanism:alloy_exoversal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71B89057390FC8C5"
+				item: "evolvedmekanism:alloy_exoversal"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -9.5d
 		}
@@ -3426,13 +3212,11 @@
 			id: "40EC956E1E5394BF"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "3970F4E4440EC492"
-					item: "evolvedmekanism:dense_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3970F4E4440EC492"
+				item: "evolvedmekanism:dense_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -9.5d
 		}
@@ -3444,13 +3228,11 @@
 			id: "1DF297AD29537258"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "31A86F2F607829E6"
-					item: "evolvedmekanism:multiversal_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31A86F2F607829E6"
+				item: "evolvedmekanism:multiversal_control_circuit"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -10.5d
 		}
@@ -3458,13 +3240,11 @@
 			dependencies: ["7AF982B6D8FD6C03"]
 			id: "44CBBF85B675CB3D"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "02B1F32955579FC5"
-					item: "evolvedmekanism:overclocked_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02B1F32955579FC5"
+				item: "evolvedmekanism:overclocked_energy_cube"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 10.5d
 		}
@@ -3472,13 +3252,11 @@
 			dependencies: ["44CBBF85B675CB3D"]
 			id: "44D65E408ED53469"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1FE1970F7A82CF84"
-					item: "evolvedmekanism:quantum_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1FE1970F7A82CF84"
+				item: "evolvedmekanism:quantum_energy_cube"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 11.5d
 		}
@@ -3486,13 +3264,11 @@
 			dependencies: ["44D65E408ED53469"]
 			id: "5870807897E515AE"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7D183A69E967B3FE"
-					item: "evolvedmekanism:dense_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D183A69E967B3FE"
+				item: "evolvedmekanism:dense_energy_cube"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 11.5d
 		}
@@ -3500,13 +3276,11 @@
 			dependencies: ["5870807897E515AE"]
 			id: "019E3B5A50D7DAD1"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2AC445CC3326461C"
-					item: "evolvedmekanism:multiversal_energy_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2AC445CC3326461C"
+				item: "evolvedmekanism:multiversal_energy_cube"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 11.5d
 		}
@@ -3514,13 +3288,11 @@
 			dependencies: ["0C0D0B80B3FA26F2"]
 			id: "411691453B200324"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "63DB4910AD026414"
-					item: "evolvedmekanism:overclocked_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "63DB4910AD026414"
+				item: "evolvedmekanism:overclocked_chemical_tank"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 10.5d
 		}
@@ -3528,13 +3300,11 @@
 			dependencies: ["411691453B200324"]
 			id: "195DA6671551C3A9"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0EF90107EFCCDD18"
-					item: "evolvedmekanism:quantum_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0EF90107EFCCDD18"
+				item: "evolvedmekanism:quantum_chemical_tank"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 11.5d
 		}
@@ -3542,13 +3312,11 @@
 			dependencies: ["195DA6671551C3A9"]
 			id: "1EC178A120E7F5C6"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "30E2605073B781CD"
-					item: "evolvedmekanism:dense_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30E2605073B781CD"
+				item: "evolvedmekanism:dense_chemical_tank"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 11.5d
 		}
@@ -3556,13 +3324,11 @@
 			dependencies: ["1EC178A120E7F5C6"]
 			id: "776B3294C340B798"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4B8D79DF856A9E69"
-					item: "evolvedmekanism:multiversal_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B8D79DF856A9E69"
+				item: "evolvedmekanism:multiversal_chemical_tank"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 11.5d
 		}
@@ -3570,13 +3336,11 @@
 			dependencies: ["712CB147B5873121"]
 			id: "74EA29FA8A7BA560"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0B7ABCEE31A6BC28"
-					item: "evolvedmekanism:overclocked_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B7ABCEE31A6BC28"
+				item: "evolvedmekanism:overclocked_fluid_tank"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 10.5d
 		}
@@ -3584,13 +3348,11 @@
 			dependencies: ["74EA29FA8A7BA560"]
 			id: "531F78B44CA9AFCC"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1726C6F268BF2CE9"
-					item: "evolvedmekanism:quantum_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1726C6F268BF2CE9"
+				item: "evolvedmekanism:quantum_fluid_tank"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 11.5d
 		}
@@ -3598,13 +3360,11 @@
 			dependencies: ["531F78B44CA9AFCC"]
 			id: "7263CB3BB721A2B1"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "088741646CA321A9"
-					item: "evolvedmekanism:dense_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "088741646CA321A9"
+				item: "evolvedmekanism:dense_fluid_tank"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 11.5d
 		}
@@ -3612,13 +3372,11 @@
 			dependencies: ["7263CB3BB721A2B1"]
 			id: "1574C2CE1F555F84"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6C39054F5F7749A0"
-					item: "evolvedmekanism:multiversal_fluid_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C39054F5F7749A0"
+				item: "evolvedmekanism:multiversal_fluid_tank"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 11.5d
 		}
@@ -3641,13 +3399,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "存储物品&7[Storing Items]&f"
-			tasks: [
-				{
-					id: "5D3856C75B486E6B"
-					item: "mekanism:basic_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D3856C75B486E6B"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
 			x: -4.5d
 			y: 13.0d
 		}
@@ -3667,13 +3423,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "77AA4C91B0D57B17"
-					item: "mekanism:advanced_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77AA4C91B0D57B17"
+				item: "mekanism:advanced_bin"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 13.5d
 		}
@@ -3693,13 +3447,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "302C89EBDB2B7C4B"
-					item: "mekanism:elite_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "302C89EBDB2B7C4B"
+				item: "mekanism:elite_bin"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 14.0d
 		}
@@ -3719,13 +3471,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5972661539908B51"
-					item: "mekanism:ultimate_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5972661539908B51"
+				item: "mekanism:ultimate_bin"
+				type: "item"
+			}]
 			x: -5.0d
 			y: 14.0d
 		}
@@ -3733,13 +3483,11 @@
 			dependencies: ["429A341D1B217302"]
 			id: "5CC755FE354B8AFF"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "28FE0288FBC51F62"
-					item: "evolvedmekanism:overclocked_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28FE0288FBC51F62"
+				item: "evolvedmekanism:overclocked_bin"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 13.5d
 		}
@@ -3747,13 +3495,11 @@
 			dependencies: ["5CC755FE354B8AFF"]
 			id: "0A8C9E8347F6A282"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "410399218C52DB7E"
-					item: "evolvedmekanism:quantum_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "410399218C52DB7E"
+				item: "evolvedmekanism:quantum_bin"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 14.5d
 		}
@@ -3761,13 +3507,11 @@
 			dependencies: ["0A8C9E8347F6A282"]
 			id: "4938DCB669DB67D0"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6ED8033DDCA73883"
-					item: "evolvedmekanism:dense_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6ED8033DDCA73883"
+				item: "evolvedmekanism:dense_bin"
+				type: "item"
+			}]
 			x: -4.5d
 			y: 14.5d
 		}
@@ -3775,13 +3519,11 @@
 			dependencies: ["4938DCB669DB67D0"]
 			id: "6992A5ADE77E9419"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "23BC037F231F775D"
-					item: "evolvedmekanism:multiversal_bin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "23BC037F231F775D"
+				item: "evolvedmekanism:multiversal_bin"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 14.5d
 		}
@@ -3791,13 +3533,11 @@
 			id: "5649E841937492FC"
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2195EAE74803C031"
-					item: "mekanism:basic_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2195EAE74803C031"
+				item: "mekanism:basic_induction_provider"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 13.0d
 		}
@@ -3805,13 +3545,11 @@
 			dependencies: ["5649E841937492FC"]
 			id: "51DE27FECAA0AE05"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "71C1FD23E9D0C0F8"
-					item: "mekanism:advanced_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71C1FD23E9D0C0F8"
+				item: "mekanism:advanced_induction_provider"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 13.5d
 		}
@@ -3819,13 +3557,11 @@
 			dependencies: ["51DE27FECAA0AE05"]
 			id: "4C66F524A4A64BFE"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "330A55325924883A"
-					item: "mekanism:elite_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "330A55325924883A"
+				item: "mekanism:elite_induction_provider"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 14.0d
 		}
@@ -3833,13 +3569,11 @@
 			dependencies: ["4C66F524A4A64BFE"]
 			id: "5CD33F05F7886B23"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "203CF059944D7DD7"
-					item: "mekanism:ultimate_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "203CF059944D7DD7"
+				item: "mekanism:ultimate_induction_provider"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 14.0d
 		}
@@ -3847,13 +3581,11 @@
 			dependencies: ["5CD33F05F7886B23"]
 			id: "63D32B87F4CE8212"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "127F71BA21752D7E"
-					item: "evolvedmekanism:overclocked_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "127F71BA21752D7E"
+				item: "evolvedmekanism:overclocked_induction_provider"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 13.5d
 		}
@@ -3861,13 +3593,11 @@
 			dependencies: ["63D32B87F4CE8212"]
 			id: "131F558B9F07111E"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0D3A7971C590A961"
-					item: "evolvedmekanism:quantum_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0D3A7971C590A961"
+				item: "evolvedmekanism:quantum_induction_provider"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 14.5d
 		}
@@ -3875,13 +3605,11 @@
 			dependencies: ["131F558B9F07111E"]
 			id: "79CA51053FFBD357"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "73C4A47E9FAABE71"
-					item: "evolvedmekanism:dense_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73C4A47E9FAABE71"
+				item: "evolvedmekanism:dense_induction_provider"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 14.5d
 		}
@@ -3889,13 +3617,11 @@
 			dependencies: ["79CA51053FFBD357"]
 			id: "635EAFADB3BA0FF2"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3BBC5C54CEAB8998"
-					item: "evolvedmekanism:multiversal_induction_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3BBC5C54CEAB8998"
+				item: "evolvedmekanism:multiversal_induction_provider"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 14.5d
 		}
@@ -3905,13 +3631,11 @@
 			id: "4CF391ECA9564239"
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "15AFD588D261CE94"
-					item: "mekanism:basic_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15AFD588D261CE94"
+				item: "mekanism:basic_induction_cell"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 13.0d
 		}
@@ -3919,13 +3643,11 @@
 			dependencies: ["4CF391ECA9564239"]
 			id: "0D62AF246DFB647A"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "72E4B882960B72C9"
-					item: "mekanism:advanced_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72E4B882960B72C9"
+				item: "mekanism:advanced_induction_cell"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 13.5d
 		}
@@ -3933,13 +3655,11 @@
 			dependencies: ["0D62AF246DFB647A"]
 			id: "34528E3879A3B17F"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "33E644B94A112306"
-					item: "mekanism:elite_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "33E644B94A112306"
+				item: "mekanism:elite_induction_cell"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 14.0d
 		}
@@ -3947,13 +3667,11 @@
 			dependencies: ["34528E3879A3B17F"]
 			id: "2F804611048676F1"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0BA220B226943686"
-					item: "mekanism:ultimate_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BA220B226943686"
+				item: "mekanism:ultimate_induction_cell"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 14.0d
 		}
@@ -3961,13 +3679,11 @@
 			dependencies: ["2F804611048676F1"]
 			id: "6D6F5A754CFF5011"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "38631879F4614A72"
-					item: "evolvedmekanism:overclocked_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "38631879F4614A72"
+				item: "evolvedmekanism:overclocked_induction_cell"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 13.5d
 		}
@@ -3975,13 +3691,11 @@
 			dependencies: ["6D6F5A754CFF5011"]
 			id: "5BBD6BE6DA37255A"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0AB06F5A3094D3C6"
-					item: "evolvedmekanism:quantum_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0AB06F5A3094D3C6"
+				item: "evolvedmekanism:quantum_induction_cell"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 14.5d
 		}
@@ -3989,13 +3703,11 @@
 			dependencies: ["5BBD6BE6DA37255A"]
 			id: "6856662C008F3A3F"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "476E16EF4222064E"
-					item: "evolvedmekanism:dense_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "476E16EF4222064E"
+				item: "evolvedmekanism:dense_induction_cell"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 14.5d
 		}
@@ -4003,13 +3715,11 @@
 			dependencies: ["6856662C008F3A3F"]
 			id: "7494FDDA6B6606C4"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4FE888CEFB9057C1"
-					item: "evolvedmekanism:multiversal_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4FE888CEFB9057C1"
+				item: "evolvedmekanism:multiversal_induction_cell"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 14.5d
 		}
@@ -4027,13 +3737,11 @@
 			id: "1C34E018A026A187"
 			progression_mode: "linear"
 			subtitle: "无线能量、气体、流体,无所不能.&7[Wireless Power, Gases, Fluids, Everything.]&f"
-			tasks: [
-				{
-					id: "5A0D89EDFEE6B2D2"
-					item: "mekanism:quantum_entangloporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A0D89EDFEE6B2D2"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 7.5d
 		}
@@ -4042,13 +3750,11 @@
 			id: "0E7687A733602532"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "6F2DD6975754E025"
-					item: "evolvedmekanism:alloy_creative"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6F2DD6975754E025"
+				item: "evolvedmekanism:alloy_creative"
+				type: "item"
+			}]
 			title: "&c创造锭&7[Creative Ingot]&f"
 			x: -7.5d
 			y: -12.0d
@@ -4061,13 +3767,11 @@
 			id: "2E214494AA4B7A2E"
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "0353C85A842A2162"
-					item: "evolvedmekanism:creative_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0353C85A842A2162"
+				item: "evolvedmekanism:creative_control_circuit"
+				type: "item"
+			}]
 			title: "&c创造&a电路板&f&7[Creative Control Circuit]&f"
 			x: -6.5d
 			y: -13.0d

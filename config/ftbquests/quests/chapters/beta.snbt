@@ -54,10 +54,7 @@
 				{
 					count: 3L
 					id: "0A2F15F8DC2927FE"
-					item: {
-						Count: 3
-						id: "solarflux:mirror"
-					}
+					item: { Count: 3, id: "solarflux:mirror" }
 					type: "item"
 				}
 			]
@@ -84,10 +81,7 @@
 				{
 					count: 8L
 					id: "4685B2C469A3DAA6"
-					item: {
-						Count: 8
-						id: "solarflux:sp_1"
-					}
+					item: { Count: 8, id: "solarflux:sp_1" }
 					type: "item"
 				}
 				{
@@ -124,10 +118,7 @@
 				{
 					count: 3L
 					id: "4FDA5E946A802565"
-					item: {
-						Count: 3
-						id: "solarflux:photovoltaic_cell_1"
-					}
+					item: { Count: 3, id: "solarflux:photovoltaic_cell_1" }
 					type: "item"
 				}
 			]
@@ -159,10 +150,7 @@
 				{
 					count: 3L
 					id: "4E287BD0F3F4EF7C"
-					item: {
-						Count: 3
-						id: "solarflux:photovoltaic_cell_2"
-					}
+					item: { Count: 3, id: "solarflux:photovoltaic_cell_2" }
 					type: "item"
 				}
 			]
@@ -217,13 +205,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "6BCE28126D10F6F5"
-					item: "solarflux:sp_6"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6BCE28126D10F6F5"
+				item: "solarflux:sp_6"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -4.0d
 		}
@@ -243,13 +229,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "2B9E3DFFD296376B"
-					item: "solarflux:sp_7"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B9E3DFFD296376B"
+				item: "solarflux:sp_7"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -278,10 +262,7 @@
 				{
 					count: 3L
 					id: "64B40C13D7C50DA8"
-					item: {
-						Count: 3
-						id: "solarflux:photovoltaic_cell_6"
-					}
+					item: { Count: 3, id: "solarflux:photovoltaic_cell_6" }
 					type: "item"
 				}
 			]
@@ -318,10 +299,7 @@
 				{
 					count: 4L
 					id: "0924754C87CE5842"
-					item: {
-						Count: 4
-						id: "draconicevolution:wyvern_energy_core"
-					}
+					item: { Count: 4, id: "draconicevolution:wyvern_energy_core" }
 					type: "item"
 				}
 			]
@@ -352,19 +330,13 @@
 				}
 				{
 					id: "2F83FD77A26A2892"
-					item: {
-						Count: 4
-						id: "draconicevolution:awakened_core"
-					}
+					item: { Count: 4, id: "draconicevolution:awakened_core" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0D0E342CB106B7EB"
-					item: {
-						Count: 4
-						id: "draconicevolution:draconic_energy_core"
-					}
+					item: { Count: 4, id: "draconicevolution:draconic_energy_core" }
 					type: "item"
 				}
 			]
@@ -396,19 +368,13 @@
 				{
 					count: 3L
 					id: "3BAC6D2D41B0ED14"
-					item: {
-						Count: 3
-						id: "solarflux:sp_de.draconic"
-					}
+					item: { Count: 3, id: "solarflux:sp_de.draconic" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "26DC26A4198666AE"
-					item: {
-						Count: 4
-						id: "draconicevolution:awakened_core"
-					}
+					item: { Count: 4, id: "draconicevolution:awakened_core" }
 					type: "item"
 				}
 				{
@@ -452,13 +418,11 @@
 			]
 			shape: "octagon"
 			size: 5.0d
-			tasks: [
-				{
-					id: "52E5E1952D274EA8"
-					item: "solarflux:sp_avaritia.infinity"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "52E5E1952D274EA8"
+				item: "solarflux:sp_avaritia.infinity"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 7.5d
 		}
@@ -478,13 +442,11 @@
 				}
 			]
 			size: 3.0d
-			tasks: [
-				{
-					id: "64B2F9DE45E2E077"
-					item: "solarflux:sp_avaritia.neutronium"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "64B2F9DE45E2E077"
+				item: "solarflux:sp_avaritia.neutronium"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 1.5d
 		}
@@ -516,10 +478,7 @@
 				{
 					count: 3L
 					id: "1E2566DEDD784E6F"
-					item: {
-						Count: 3
-						id: "mekanismgenerators:solar_panel"
-					}
+					item: { Count: 3, id: "mekanismgenerators:solar_panel" }
 					type: "item"
 				}
 			]
@@ -551,10 +510,7 @@
 				{
 					count: 3L
 					id: "05F794DF5C209801"
-					item: {
-						Count: 3
-						id: "solarpanels:carbone_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:carbone_solar_element" }
 					type: "item"
 				}
 			]
@@ -617,10 +573,7 @@
 				{
 					count: 3L
 					id: "426D7E2EDC6E7677"
-					item: {
-						Count: 3
-						id: "solarpanels:improved_hybrid_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:improved_hybrid_solar_element" }
 					type: "item"
 				}
 			]
@@ -652,10 +605,7 @@
 				{
 					count: 3L
 					id: "386DFBF6B9B10F95"
-					item: {
-						Count: 3
-						id: "solarpanels:quantum_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:quantum_solar_element" }
 					type: "item"
 				}
 			]
@@ -687,10 +637,7 @@
 				{
 					count: 3L
 					id: "6C87F8BDBB878BB8"
-					item: {
-						Count: 3
-						id: "solarpanels:spectral_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:spectral_solar_element" }
 					type: "item"
 				}
 			]
@@ -722,10 +669,7 @@
 				{
 					count: 3L
 					id: "669FDC643F46241E"
-					item: {
-						Count: 3
-						id: "solarpanels:singular_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:singular_solar_element" }
 					type: "item"
 				}
 			]
@@ -757,10 +701,7 @@
 				{
 					count: 3L
 					id: "3A77B79EA8BE00A1"
-					item: {
-						Count: 3
-						id: "solarpanels:light_absorbing_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:light_absorbing_solar_element" }
 					type: "item"
 				}
 			]
@@ -793,10 +734,7 @@
 				{
 					count: 3L
 					id: "1D42A227E3BD2E0E"
-					item: {
-						Count: 3
-						id: "solarpanels:photonic_solar_element"
-					}
+					item: { Count: 3, id: "solarpanels:photonic_solar_element" }
 					type: "item"
 				}
 			]
@@ -855,193 +793,155 @@
 		{
 			id: "2B001C76CB519664"
 			size: 2.0d
-			tasks: [
-				{
-					id: "4B19D871A79C34DF"
-					title: "欢迎来到太阳能时代"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4B19D871A79C34DF"
+				title: "欢迎来到太阳能时代"
+				type: "checkmark"
+			}]
 			title: "太阳能&7[Solar]&f"
 			x: 4.5d
 			y: -11.0d
 		}
 		{
 			id: "2BF6F37D2B7D4696"
-			rewards: [
-				{
-					id: "3D2336CF490F9DFC"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2BB40797071C21D1"
-					item: "solarflux:blank_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3D2336CF490F9DFC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BB40797071C21D1"
+				item: "solarflux:blank_upgrade"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "3522556FE7799F72"
-			rewards: [
-				{
-					id: "612E7F2EA2FCC0B6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "38FF4150CBC7AABB"
-					item: "solarflux:efficiency_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "612E7F2EA2FCC0B6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38FF4150CBC7AABB"
+				item: "solarflux:efficiency_upgrade"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "00B54FF12F378126"
-			rewards: [
-				{
-					id: "42DC556CD7B16077"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2B02FF6BE8C462F9"
-					item: "solarflux:transfer_rate_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "42DC556CD7B16077"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B02FF6BE8C462F9"
+				item: "solarflux:transfer_rate_upgrade"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "16951E0587100EAD"
-			rewards: [
-				{
-					id: "7B23FFA9D3F4A016"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "65219CFC3C786C42"
-					item: "solarflux:capacity_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7B23FFA9D3F4A016"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65219CFC3C786C42"
+				item: "solarflux:capacity_upgrade"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "062E20DFC6D99592"
-			rewards: [
-				{
-					id: "771A72D1A2847266"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "245BB3EB116EA393"
-					item: "solarflux:traversal_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "771A72D1A2847266"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "245BB3EB116EA393"
+				item: "solarflux:traversal_upgrade"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "498AFA703A355FFC"
-			rewards: [
-				{
-					id: "44AAAE7073EDC8A9"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5CEA797C64D83855"
-					item: "solarflux:dispersive_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "44AAAE7073EDC8A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CEA797C64D83855"
+				item: "solarflux:dispersive_upgrade"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "55FCF7CB045EBBCE"
-			rewards: [
-				{
-					id: "5846B1A6234709A7"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "28B6BD1360E35A82"
-					item: "solarflux:block_charging_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5846B1A6234709A7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28B6BD1360E35A82"
+				item: "solarflux:block_charging_upgrade"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "676E96213D38DF78"
-			rewards: [
-				{
-					id: "768D6EE14EA77D14"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2FE770FF39D1B31C"
-					item: "solarflux:furnace_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "768D6EE14EA77D14"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FE770FF39D1B31C"
+				item: "solarflux:furnace_upgrade"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
 			id: "04D3F3EE95177731"
-			rewards: [
-				{
-					id: "79563D7E44901680"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3D2D75ECAA356404"
-					item: "solarflux:ae2/energy_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "79563D7E44901680"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D2D75ECAA356404"
+				item: "solarflux:ae2/energy_upgrade"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 12.0d
 		}

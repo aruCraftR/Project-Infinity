@@ -13,25 +13,10 @@
 	loot_size: 1
 	order_index: 42
 	rewards: [
-		{
-			count: 3
-			item: "draconicevolution:chaotic_core"
-			weight: 0.5f
-		}
-		{
-			count: 3
-			item: "draconicevolution:medium_chaos_frag"
-			weight: 0.05f
-		}
-		{
-			count: 2
-			item: "draconicevolution:awakened_draconium_block"
-			weight: 3.0f
-		}
-		{
-			count: 2
-			item: "draconicevolution:chaotic_energy_core"
-		}
+		{ count: 3, item: "draconicevolution:chaotic_core", weight: 0.5f }
+		{ count: 3, item: "draconicevolution:medium_chaos_frag", weight: 0.05f }
+		{ count: 2, item: "draconicevolution:awakened_draconium_block", weight: 3.0f }
+		{ count: 2, item: "draconicevolution:chaotic_energy_core" }
 	]
 	title: "DE混沌&7[DE Chaotic]&f"
 }

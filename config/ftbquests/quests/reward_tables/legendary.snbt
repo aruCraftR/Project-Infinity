@@ -12,22 +12,11 @@
 	loot_size: 1
 	order_index: 13
 	rewards: [
-		{
-			item: "apotheosis:library"
-		}
-		{
-			item: "powah:thermo_generator_nitro"
-		}
-		{
-			item: "extendedcrafting:nether_star_block"
-		}
-		{
-			item: "powah:solar_panel_nitro"
-		}
-		{
-			count: 36
-			item: "powah:reactor_niotic"
-		}
+		{ item: "apotheosis:library" }
+		{ item: "powah:thermo_generator_nitro" }
+		{ item: "extendedcrafting:nether_star_block" }
+		{ item: "powah:solar_panel_nitro" }
+		{ count: 36, item: "powah:reactor_niotic" }
 		{
 			type: "xp_levels"
 			xp_levels: 100
@@ -44,9 +33,7 @@
 				}
 			}
 		}
-		{
-			item: "apotheosis:draconic_endshelf"
-		}
+		{ item: "apotheosis:draconic_endshelf" }
 		{
 			item: {
 				Count: 1

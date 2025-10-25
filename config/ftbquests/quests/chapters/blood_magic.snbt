@@ -110,13 +110,11 @@
 			disable_toast: true
 			id: "5DAC7D2ABCD2E37A"
 			min_width: 350
-			rewards: [
-				{
-					id: "32D81637C391527D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "32D81637C391527D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [
@@ -174,21 +172,17 @@
 				"&7[(Place Sacrificial Knife in offhand for easier use!)]&f"
 			]
 			id: "73FAA926443C20D2"
-			rewards: [
-				{
-					id: "427AF2EB5CE9240D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "427AF2EB5CE9240D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "781BDE39C15F3648"
-					item: "bloodmagic:altar"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "781BDE39C15F3648"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
 			title: "&4&a血之祭坛&f (等级1)&r&7[Blood Altar (Tier 1)]&f"
 			x: -1.5d
 			y: 0.5d
@@ -226,20 +220,16 @@
 				"&7[\"Every master began with a single drop\"]&f"
 			]
 			id: "65404DD229B6D840"
-			rewards: [
-				{
-					id: "7D3697F091A512BF"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "475253D85E6BD0C9"
-					item: "bloodmagic:weakbloodorb"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7D3697F091A512BF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "475253D85E6BD0C9"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
 			title: "&e&a虚弱气血宝珠&f&r&7[Weak Blood Orb]&f"
 			x: -2.5d
 			y: 1.5d
@@ -281,24 +271,17 @@
 				"&7[\"Shape it with blood, empower it with will\"]&f"
 			]
 			id: "4E1776664123D7AF"
-			rewards: [
-				{
-					id: "7FD14E29670FEFAB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "38C7C1A3D84BB756"
-					item: {
-						Count: 2
-						id: "bloodmagic:blankslate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7FD14E29670FEFAB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "38C7C1A3D84BB756"
+				item: { Count: 2, id: "bloodmagic:blankslate" }
+				type: "item"
+			}]
 			title: "&7&a空白石板&f&r&7[Blank Slate]&f"
 			x: -1.5d
 			y: 3.0d
@@ -336,20 +319,16 @@
 				"&7[\"Where science and sacrifice collide\"]&f"
 			]
 			id: "64F092F84E2BF678"
-			rewards: [
-				{
-					id: "4A849C13A4C9246D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6B9714A811ACFE8E"
-					item: "bloodmagic:alchemytable"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4A849C13A4C9246D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B9714A811ACFE8E"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
 			title: "&5&a炼金术桌&f&r&7[Alchemy Table]&f"
 			x: -2.5d
 			y: 3.0d
@@ -391,27 +370,23 @@
 				"&7[(Drops from Sacrificial Rituals or Hellfire smelting.)]&f"
 			]
 			id: "41B86340D8D3F0B4"
-			rewards: [
-				{
-					id: "5A1E69E02404A3EF"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5A1E69E02404A3EF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4E1F89F9702C1A56"
-					item: {
-						Count: 1
-						id: "bloodmagic:arcaneashes"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4E1F89F9702C1A56"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&a奥术粉灰&f&r&7[Arcane Ashes]&f"
 			x: -5.0d
 			y: 3.0d
@@ -453,21 +428,17 @@
 				"&7[\"Molten power demands bloody payment\"]&f"
 			]
 			id: "59CB0AE1662FF899"
-			rewards: [
-				{
-					id: "21B29AFD71E33135"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "21B29AFD71E33135"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "185DCFB18AABD168"
-					item: "bloodmagic:lavasigil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "185DCFB18AABD168"
+				item: "bloodmagic:lavasigil"
+				type: "item"
+			}]
 			title: "&4&a熔岩印记&f&r&7[Lava Sigil]&f"
 			x: -6.0d
 			y: 3.0d
@@ -505,21 +476,17 @@
 				"&7[(Crafted with Blank Slate and Redstone.)]&f"
 			]
 			id: "5C06626C637113FB"
-			rewards: [
-				{
-					id: "1237C735AD49FD95"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1237C735AD49FD95"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "75CD95ABB7DC6DD7"
-					item: "bloodmagic:divinationsigil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75CD95ABB7DC6DD7"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
 			title: "&5&a占卜印记&f&r&7[Divination Sigil]&f"
 			x: -5.5d
 			y: 2.5d
@@ -569,21 +536,17 @@
 				"&7[\"Where blood meets the tide\"]&f"
 			]
 			id: "4A8F713E3BD34708"
-			rewards: [
-				{
-					id: "27F674C4EB0DE3D9"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "27F674C4EB0DE3D9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "448F6980BE528FE4"
-					item: "bloodmagic:watersigil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "448F6980BE528FE4"
+				item: "bloodmagic:watersigil"
+				type: "item"
+			}]
 			title: "&9&a水之印记&f&r&7[Water Sigil]&f"
 			x: -5.5d
 			y: 3.5d
@@ -622,25 +585,18 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "098739DBD39DD927"
-			rewards: [
-				{
-					id: "2E50D3656BCBF03F"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2E50D3656BCBF03F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
-			tasks: [
-				{
-					count: 8L
-					id: "3205827D6E0D8CA5"
-					item: {
-						Count: 8
-						id: "bloodmagic:blankrune"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "3205827D6E0D8CA5"
+				item: { Count: 8, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
 			title: "&4&a血之祭坛&f (二阶)&r&7[Blood Altar (Tier 2)]&f"
 			x: -1.5d
 			y: 5.5d
@@ -677,20 +633,16 @@
 				"&7[\"Where mortal steel meets infernal power\"]&f"
 			]
 			id: "6C76C01054FBFBC6"
-			rewards: [
-				{
-					id: "7B8CFB1AA7565644"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6F92CCC482965DB3"
-					item: "bloodmagic:soulforge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7B8CFB1AA7565644"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F92CCC482965DB3"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
 			title: "&4&a狱火锻炉&f&r&7[Hellfire Forge]&f"
 			x: 0.0d
 			y: 3.0d
@@ -748,13 +700,11 @@
 				"&7[\"The screams of demons power your ascent\"]&f"
 			]
 			id: "5EDA6D65B85934AF"
-			rewards: [
-				{
-					id: "5F8341CE28E58A7A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5F8341CE28E58A7A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6E708F7471658547"
@@ -770,10 +720,7 @@
 				{
 					count: 3L
 					id: "1DE08A93E9A9D102"
-					item: {
-						Count: 3
-						id: "bloodmagic:soulsnare"
-					}
+					item: { Count: 3, id: "bloodmagic:soulsnare" }
 					type: "item"
 				}
 			]
@@ -818,24 +765,16 @@
 				"&7[\"A fledgling vessel for demonic power\"]&f"
 			]
 			id: "51F0416194224BB8"
-			rewards: [
-				{
-					id: "31FDFFF649CF53F2"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "02B39E0354AFBB6A"
-					item: {
-						Count: 1
-						id: "bloodmagic:soulgempetty"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "31FDFFF649CF53F2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02B39E0354AFBB6A"
+				item: "bloodmagic:soulgempetty"
+				type: "item"
+			}]
 			title: "&5&a微尘地狱魂石&f&r&7[Petty Tartaric Gem]&f"
 			x: 3.5d
 			y: 3.0d
@@ -877,25 +816,17 @@
 				"&7[\"The first taste of demonic power\"]&f"
 			]
 			id: "05648E2D91442148"
-			rewards: [
-				{
-					id: "282AC9F7B068F9E0"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "282AC9F7B068F9E0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "252DAE8DBDFA0191"
-					item: {
-						Count: 1
-						id: "bloodmagic:soulgemlesser"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "252DAE8DBDFA0191"
+				item: "bloodmagic:soulgemlesser"
+				type: "item"
+			}]
 			title: "&5&a微尘地狱魂石&f&r&7[Lesser Tartaric Gem]&f"
 			x: 3.5d
 			y: 1.5d
@@ -937,25 +868,17 @@
 				"&7[\"Demonic energy condensed into crystalline form\"]&f"
 			]
 			id: "6DB85BA2177BC968"
-			rewards: [
-				{
-					id: "5473AF1A8377C86A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5473AF1A8377C86A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "45366E895A52BCD5"
-					item: {
-						Count: 1
-						id: "bloodmagic:soulgemcommon"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45366E895A52BCD5"
+				item: "bloodmagic:soulgemcommon"
+				type: "item"
+			}]
 			title: "&5&a普通地狱魂石&f&r&7[Common Tartaric Gem]&f"
 			x: 3.0d
 			y: 1.0d
@@ -997,25 +920,17 @@
 				"&7[\"A crucible of concentrated demonic might\"]&f"
 			]
 			id: "3FC369A567A12B72"
-			rewards: [
-				{
-					id: "2C0CBF1B021D8D13"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C0CBF1B021D8D13"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7CAA9303D156523B"
-					item: {
-						Count: 1
-						id: "bloodmagic:soulgemgreater"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7CAA9303D156523B"
+				item: "bloodmagic:soulgemgreater"
+				type: "item"
+			}]
 			title: "&5&a硕大地狱魂石&f&r&7[Greater Tartaric Gem]&f"
 			x: 3.5d
 			y: 0.5d
@@ -1037,27 +952,23 @@
 				"&7[\"The blade remembers every life it takes\"]&f"
 			]
 			id: "0D73A4AECC70634C"
-			rewards: [
-				{
-					id: "17C24BFB992D5BAD"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "17C24BFB992D5BAD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7B3524B10BD5C25D"
-					item: {
-						Count: 1
-						id: "bloodmagic:soulsword"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7B3524B10BD5C25D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&4&a感知利刃&f&r&7[Sentient Sword]&f"
 			x: 4.0d
 			y: 1.0d
@@ -1103,20 +1014,16 @@
 				"&7[\"Your victims' blood becomes your strength\"]&f"
 			]
 			id: "4C995C3674757962"
-			rewards: [
-				{
-					id: "2FA2F5342D7DA655"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2D158CC0CDF8DC3D"
-					item: "bloodmagic:daggerofsacrifice"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2FA2F5342D7DA655"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D158CC0CDF8DC3D"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
 			title: "&4&a献祭之刃&f&r&7[Dagger of Sacrifice]&f"
 			x: -3.5d
 			y: 5.0d
@@ -1150,20 +1057,16 @@
 				"&7[\"Time bends where blood flows fastest\"]&f"
 			]
 			id: "2AD12CE61EF32E7D"
-			rewards: [
-				{
-					id: "0CCA679A7DE00358"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "565566B5643AEA3B"
-					item: "bloodmagic:speedrune"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0CCA679A7DE00358"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "565566B5643AEA3B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
 			title: "&e&a迅捷符文&f&r&7[Speed Rune]&f"
 			x: 0.0d
 			y: 4.5d
@@ -1193,20 +1096,16 @@
 				"&7[\"Fortified through sacrificial rites\"]&f"
 			]
 			id: "3B1FD1ED7C69EFCE"
-			rewards: [
-				{
-					id: "49AB17BF6BBEE0A3"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0822AD2AF7D15838"
-					item: "bloodmagic:reinforcedslate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "49AB17BF6BBEE0A3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0822AD2AF7D15838"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 8.0d
 		}
@@ -1239,31 +1138,21 @@
 				"&7[Air Sigil: Allows the player to fly short distances when activated.]&f"
 			]
 			id: "495A6CA8D208A9C3"
-			rewards: [
-				{
-					id: "5F3705D7DC858568"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5F3705D7DC858568"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
 					id: "054EA7F271A8D7EB"
-					item: {
-						Count: 1
-						id: "bloodmagic:growthsigil"
-						tag: { }
-					}
+					item: "bloodmagic:growthsigil"
 					type: "item"
 				}
 				{
 					id: "498241F691613695"
-					item: {
-						Count: 1
-						id: "bloodmagic:miningsigil"
-						tag: { }
-					}
+					item: "bloodmagic:miningsigil"
 					type: "item"
 				}
 				{
@@ -1315,21 +1204,17 @@
 				"&7[\"More blood, more power\"]&f"
 			]
 			id: "08B32C58D27F5FCA"
-			rewards: [
-				{
-					id: "71F185AF7EDCF235"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "71F185AF7EDCF235"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6A09831198631680"
-					item: "bloodmagic:sacrificerune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6A09831198631680"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
 			title: "&4&a献祭符文&f&r&7[Rune of Sacrifice]&f"
 			x: 2.0d
 			y: 7.5d
@@ -1367,21 +1252,17 @@
 				"&7[\"The apprentice becomes the master\"]&f"
 			]
 			id: "77CDE03E47476C41"
-			rewards: [
-				{
-					id: "1D4737CA764E79B4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1D4737CA764E79B4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1530041C5C45E219"
-					item: "bloodmagic:apprenticebloodorb"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1530041C5C45E219"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
 			title: "&9&a学徒气血宝珠&f&r&7[Apprentice Blood Orb]&f"
 			x: 2.5d
 			y: 8.0d
@@ -1423,21 +1304,17 @@
 				"&7[\"The deepest cuts yield the greatest power\"]&f"
 			]
 			id: "7D920F47F140D412"
-			rewards: [
-				{
-					id: "67A9FDF2EEFF08CD"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "67A9FDF2EEFF08CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "5CFF3690B23E1DFD"
-					item: "bloodmagic:selfsacrificerune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5CFF3690B23E1DFD"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
 			title: "&4自献符文&r&7[Rune of Self-Sacrifice]&f"
 			x: 2.0d
 			y: 8.5d
@@ -1472,24 +1349,17 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "1EBA1473A9CB3A98"
-			rewards: [
-				{
-					id: "29EC669FA934DF27"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 28L
-					id: "1923E7041AE7D534"
-					item: {
-						Count: 28
-						id: "bloodmagic:blankrune"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "29EC669FA934DF27"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 28L
+				id: "1923E7041AE7D534"
+				item: { Count: 28, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
 			title: "&4&a血之祭坛&f(三级)&r&7[Blood Altar (Tier 3)]&f"
 			x: -1.5d
 			y: 10.5d
@@ -1507,20 +1377,16 @@
 				"&7[To create an Imbued Slate, place a Reinforced Slate into a Tier 3 Blood Altar with sufficient Life Essence. This item is essential for crafting higher-tier runes and advanced magical items.]&f"
 			]
 			id: "0017E7E624D7A187"
-			rewards: [
-				{
-					id: "1A791FF46C8A04DB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "616C59D465A0ADB3"
-					item: "bloodmagic:infusedslate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A791FF46C8A04DB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "616C59D465A0ADB3"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
 			title: "&5&a灌输石板&f&r&7[Imbued Slate]&f"
 			x: -1.5d
 			y: 13.0d
@@ -1556,21 +1422,17 @@
 				"&7[\"Blood flows swifter where the Displacement Rune lies\"]&f"
 			]
 			id: "186696602137991F"
-			rewards: [
-				{
-					id: "75D4E9EAD25DD63A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "75D4E9EAD25DD63A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4788444F7797041D"
-					item: "bloodmagic:dislocationrune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4788444F7797041D"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
 			title: "&5&a转位符文&f&r&7[Displacement Rune]&f"
 			x: -4.0d
 			y: 13.0d
@@ -1604,21 +1466,17 @@
 				"&7[\"The vessel grows as the rituals demand\"]&f"
 			]
 			id: "068CA5CEB6FADBA7"
-			rewards: [
-				{
-					id: "40BC8E65A29BEA97"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "40BC8E65A29BEA97"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "761EDF00837FC070"
-					item: "bloodmagic:altarcapacityrune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "761EDF00837FC070"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
 			title: "&5&a增容符文&f&r&7[Rune of Capacity]&f"
 			x: -4.5d
 			y: 13.5d
@@ -1668,21 +1526,17 @@
 				"&7[\"The pinnacle of blood mastery\"]&f"
 			]
 			id: "61038641FE8BBD17"
-			rewards: [
-				{
-					id: "32DB3CB0B795A18D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "32DB3CB0B795A18D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "703A96323430BDBB"
-					item: "bloodmagic:magicianbloodorb"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "703A96323430BDBB"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
 			title: "&5魔法师之&a血之宝珠&f&r&7[Magician's Blood Orb]&f"
 			x: -5.0d
 			y: 13.0d
@@ -1715,13 +1569,11 @@
 			]
 			id: "4B8C167136410668"
 			min_width: 275
-			rewards: [
-				{
-					id: "346218E65D0FD6FD"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "346218E65D0FD6FD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1797,22 +1649,16 @@
 				"&7[Sigil of the Blood Lamp: A blood-fueled light source that creates floating orbs of light.]&f"
 			]
 			id: "16B74ED1BBB3560A"
-			rewards: [
-				{
-					id: "1357E0D25531A715"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1357E0D25531A715"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
 					id: "6D8A06A38C5198B7"
-					item: {
-						Count: 1
-						id: "bloodmagic:sigilofmagnetism"
-						tag: { }
-					}
+					item: "bloodmagic:sigilofmagnetism"
 					type: "item"
 				}
 				{
@@ -1828,11 +1674,7 @@
 				}
 				{
 					id: "0DC78508E0DE5C5E"
-					item: {
-						Count: 1
-						id: "bloodmagic:bloodlightsigil"
-						tag: { }
-					}
+					item: "bloodmagic:bloodlightsigil"
 					type: "item"
 				}
 			]
@@ -1852,13 +1694,11 @@
 				"&7[To set up a Master Ritual, you need 8 Ritual Stones and 1 Master Ritual Stone. Arrange the 8 Ritual Stones in a specific pattern, and place the Master Ritual Stone in the center. This setup serves as the base for various rituals that can be performed using the Ritual Diviner and Weak Activation Crystal.]&f"
 			]
 			id: "51CEAB5690F70D37"
-			rewards: [
-				{
-					id: "0D6CF9F77ABCE68A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0D6CF9F77ABCE68A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7CDEC578072C3D55"
@@ -1868,10 +1708,7 @@
 				{
 					count: 8L
 					id: "24893D685EBD5562"
-					item: {
-						Count: 8
-						id: "bloodmagic:ritualstone"
-					}
+					item: { Count: 8, id: "bloodmagic:ritualstone" }
 					type: "item"
 				}
 			]
@@ -1896,13 +1733,11 @@
 				"&7[The Weak Activation Crystal is required to activate the rituals. To create it, place a Lava Crystal in a Tier 2 Blood Altar filled with Life Essence. Right-click the Master Ritual Stone with the activated crystal to start the ritual.]&f"
 			]
 			id: "4E30AA1DA9FFB571"
-			rewards: [
-				{
-					id: "27D8A5760F8FA4B1"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "27D8A5760F8FA4B1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6058D8FBB907F17D"
@@ -1931,21 +1766,17 @@
 				"&7[To use the Iron Key, right-click on locked doors found within dungeons. These dungeons contain various challenges and valuable rewards, including rare Blood Magic items and components.]&f"
 			]
 			id: "208066618DFE54A3"
-			rewards: [
-				{
-					id: "616561F83E39E15C"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "616561F83E39E15C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "&o通往我内心的钥匙!&7[The key to my heart!]&f"
-			tasks: [
-				{
-					id: "50F88EDFBC45B85B"
-					item: "bloodmagic:simplekey"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50F88EDFBC45B85B"
+				item: "bloodmagic:simplekey"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 10.5d
 		}
@@ -1962,20 +1793,16 @@
 				"&7[To use the Alchemical Reaction Chamber, place it in your world and supply it with Life Essence. Combine various ingredients in the chamber's GUI to perform reactions and create powerful items.]&f"
 			]
 			id: "75AD3E66F0A022BB"
-			rewards: [
-				{
-					id: "0D6E8EFFA32F1660"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "697782D86D189B1B"
-					item: "bloodmagic:alchemicalreactionchamber"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0D6E8EFFA32F1660"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "697782D86D189B1B"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 12.0d
 		}
@@ -1992,20 +1819,16 @@
 				"&7[To obtain Tau Fruit, you need to grow Tau Seeds, which can be found in Blood Magic dungeons or crafted using Life Essence. Plant the seeds on farmland and wait for the fruit to grow. Harvest the fruit once it has matured.]&f"
 			]
 			id: "4892927E047E4F4B"
-			rewards: [
-				{
-					id: "2DD03A1DBCD69367"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0D924263116ADDE1"
-					item: "bloodmagic:weak_tau"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2DD03A1DBCD69367"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D924263116ADDE1"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 11.5d
 		}
@@ -2033,13 +1856,11 @@
 				"&7[To create Large Bloodstone Bricks, combine Weak Blood Shards with Stone in a crafting table.]&f"
 			]
 			id: "25E66D104A076690"
-			rewards: [
-				{
-					id: "13A96C5C9EE5C730"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "13A96C5C9EE5C730"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "53FCAC0DE2202BEC"
@@ -2076,20 +1897,16 @@
 				""
 			]
 			id: "2A3D741FE4BA1BC1"
-			rewards: [
-				{
-					id: "2A19ED66AAA0FDCC"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0864BAEED58FB999"
-					item: "bloodmagic:strong_tau"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A19ED66AAA0FDCC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0864BAEED58FB999"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 13.5d
 		}
@@ -2110,25 +1927,18 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "44055C4F5CE1A5D7"
-			rewards: [
-				{
-					id: "5FB43671DF34F317"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5FB43671DF34F317"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "octagon"
-			tasks: [
-				{
-					count: 48L
-					id: "2F3C05DD71A8BB60"
-					item: {
-						Count: 48
-						id: "bloodmagic:blankrune"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 48L
+				id: "2F3C05DD71A8BB60"
+				item: { Count: 48, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
 			title: "四级祭坛升级&7[Tier 4 Altar Upgrade]&f"
 			x: -1.5d
 			y: 15.5d
@@ -2150,25 +1960,18 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "56CA047C3AE92A7E"
-			rewards: [
-				{
-					id: "121F2E3BFCAB3A2D"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "121F2E3BFCAB3A2D"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			shape: "circle"
-			tasks: [
-				{
-					count: 64L
-					id: "08094A0E8091570E"
-					item: {
-						Count: 64
-						id: "bloodmagic:blankrune"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 64L
+				id: "08094A0E8091570E"
+				item: { Count: 64, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
 			title: "五级祭坛升级&7[Tier 5 Altar Upgrade]&f"
 			x: -4.0d
 			y: 15.5d
@@ -2186,22 +1989,18 @@
 				"&7[To create an Ethereal Slate, place a Demonic Slate into a Tier 5 Blood Altar with sufficient Life Essence. This item is essential for crafting the most powerful runes and magical items.]&f"
 			]
 			id: "758D9BC1EC4E6DF7"
-			rewards: [
-				{
-					id: "0E934238ACB5C660"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0E934238ACB5C660"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.75d
-			tasks: [
-				{
-					id: "604625FBB57C51A8"
-					item: "bloodmagic:etherealslate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "604625FBB57C51A8"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
 			x: -6.375d
 			y: 15.375d
 		}
@@ -2218,20 +2017,16 @@
 				"&7[To create a Demonic Slate, place an Imbued Slate into a Tier 4 Blood Altar with sufficient Life Essence. This item is essential for crafting the highest-tier runes and advanced magical items.]&f"
 			]
 			id: "68E7BB2D7225DAC0"
-			rewards: [
-				{
-					id: "19F4184831BFFE25"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6FE626C2E4C7BB46"
-					item: "bloodmagic:demonslate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "19F4184831BFFE25"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE626C2E4C7BB46"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 18.0d
 		}
@@ -2244,13 +2039,11 @@
 				"&7[The Ritual Diviner (Dusk) is an upgraded version of the Ritual Diviner, allowing you to create more complex rituals that require Dusk runes.]&f"
 			]
 			id: "5646BE0B079F8B88"
-			rewards: [
-				{
-					id: "5981077EC6EC2B92"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5981077EC6EC2B92"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "17A97A90B62B210C"
@@ -2285,21 +2078,17 @@
 				"&7[To access the Demonic Realm, you must perform the Pathway to the Endless Realm Ritual using a Master Ritual Stone and specific ritual components. Once activated, the ritual will open a portal to the Demon Realm, where you can gather unique resources and face challenging foes.]&f"
 			]
 			id: "75A49040AD06B49E"
-			rewards: [
-				{
-					id: "481EBB45D9AF7C1B"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "481EBB45D9AF7C1B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "oooOooOoOoo 骇人&7[oooOooOoOoo scary]&f"
-			tasks: [
-				{
-					id: "07F92B45D00B3AD4"
-					item: "bloodmagic:rawdemonite"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "07F92B45D00B3AD4"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
 			title: "&4&a隐域之缘仪式&f&7[Edge of the Hidden Realm]&f"
 			x: -4.0d
 			y: 18.0d
@@ -2333,13 +2122,11 @@
 				"&7[The Reinforced Charging Rune increases the rate at which Life Essence is transferred into or out of your Blood Altar.]&f"
 			]
 			id: "20A19C760C502102"
-			rewards: [
-				{
-					id: "2EBDE7D0D5A4CCB0"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2EBDE7D0D5A4CCB0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [
@@ -2382,21 +2169,17 @@
 				"&7[The Teleposition Sigil allows you to teleport to a pre-set location at the cost of Life Essence.]&f"
 			]
 			id: "65DB99BFAB06AACE"
-			rewards: [
-				{
-					id: "26CB0ECA20E6F7AF"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "26CB0ECA20E6F7AF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4513682097AF65B6"
-					item: "bloodmagic:telepositionsigil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4513682097AF65B6"
+				item: "bloodmagic:telepositionsigil"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 17.5d
 		}
@@ -2409,21 +2192,17 @@
 				"&7[The Acceleration Rune speeds up the processing time for all operations performed by your Blood Altar.]&f"
 			]
 			id: "5529F8F3523DD4EA"
-			rewards: [
-				{
-					id: "7B34D2E774C9FCA4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7B34D2E774C9FCA4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "28444BE7B5E6FE7D"
-					item: "bloodmagic:accelerationrune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28444BE7B5E6FE7D"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 18.0d
 		}
@@ -2436,21 +2215,17 @@
 				"&7[The Rune of Augmented Capacity significantly increases the maximum amount of Life Essence your Blood Altar can hold.]&f"
 			]
 			id: "6F5C0E3996E5B522"
-			rewards: [
-				{
-					id: "6498E403287F71E6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6498E403287F71E6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "4719F5A1C475B70A"
-					item: "bloodmagic:bettercapacityrune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4719F5A1C475B70A"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 18.5d
 		}
@@ -2463,21 +2238,17 @@
 				"&7[The Charging Rune increases the rate at which Life Essence is transferred into or out of your Blood Altar.]&f"
 			]
 			id: "6DBB240E393F9A42"
-			rewards: [
-				{
-					id: "6C424DB42559E043"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6C424DB42559E043"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "13C318F7F3D177E1"
-					item: "bloodmagic:chargingrune"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13C318F7F3D177E1"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 18.0d
 		}
@@ -2494,20 +2265,16 @@
 				"&7[To create a Master Blood Orb, place a Weak Blood Shard in a Tier 4 Blood Altar with sufficient Life Essence. Right-click the orb to bind it to yourself, allowing you to store and use a massive amount of Life Essence.]&f"
 			]
 			id: "16BB7891E4666D6F"
-			rewards: [
-				{
-					id: "1BB15219BB171AF0"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "08A77C3725BF17B9"
-					item: "bloodmagic:masterbloodorb"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1BB15219BB171AF0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A77C3725BF17B9"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 16.5d
 		}
@@ -2548,24 +2315,16 @@
 				"&7[\"Your first cut is the deepest\"]&f"
 			]
 			id: "2B756E4217B687FA"
-			rewards: [
-				{
-					id: "05F1E5E65D5493EE"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "72D13B44DF1D345B"
-					item: {
-						Count: 1
-						id: "bloodmagic:sacrificialdagger"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "05F1E5E65D5493EE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D13B44DF1D345B"
+				item: "bloodmagic:sacrificialdagger"
+				type: "item"
+			}]
 			title: "&9&a牺牲匕首&f&r&7[Sacrificial Knife]&f"
 			x: 1.0d
 			y: 0.5d
@@ -2592,13 +2351,11 @@
 			]
 			icon: "sanguine_networks:virtual_sacrificer"
 			id: "6F406DD695352A5E"
-			rewards: [
-				{
-					id: "1484F66F167BCC9B"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1484F66F167BCC9B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2EB79108038EF56A"

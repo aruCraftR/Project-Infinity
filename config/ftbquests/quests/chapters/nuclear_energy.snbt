@@ -12,13 +12,11 @@
 			dependencies: ["0B204EBE35852FA7"]
 			icon: "nuclearcraft:fission_reactor_controller"
 			id: "547037A1C1BBB81F"
-			rewards: [
-				{
-					id: "54DE7282649D9F3E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "54DE7282649D9F3E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "外部结构&7[Outerrior]&f"
 			tasks: [
 				{
@@ -62,120 +60,116 @@
 				"&7[TIP: When you building your reactor, try to right click with empty hand on a heat sink block.]&f"
 			]
 			id: "081C50637C6FF2ED"
-			rewards: [
-				{
-					id: "3F7E7A3BD77143F5"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3F7E7A3BD77143F5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "为反应堆降温&7[Cooling down the reactor]&f"
-			tasks: [
-				{
-					id: "626E6DB260B9435F"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "nuclearcraft:water_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:copper_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:cryotheum_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:slime_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:netherite_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:enderium_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:end_stone_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:cobalt_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:fluorite_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:redstone_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:carobbiite_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:lithium_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:liquid_helium_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:platinum_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:arsenic_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:villiaumite_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:lead_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:gold_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:boron_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:silver_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:lapis_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:quartz_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:prismarine_heat_sink"
-								}
-							]
-						}
+			tasks: [{
+				id: "626E6DB260B9435F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:water_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:copper_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:cryotheum_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:slime_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:netherite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:enderium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:end_stone_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:cobalt_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fluorite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:redstone_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:carobbiite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lithium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:liquid_helium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:platinum_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:arsenic_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:villiaumite_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lead_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:gold_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:boron_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:silver_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lapis_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:quartz_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:prismarine_heat_sink"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a散热片&f&7[Heat Sinks]&f"
 			x: -7.0d
 			y: -1.0d
@@ -197,21 +191,17 @@
 			]
 			icon: "nuclearcraft:fission_reactor_irradiation_chamber"
 			id: "42BEC6A82910E9A7"
-			rewards: [
-				{
-					id: "58156948BF635348"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "58156948BF635348"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "辐照生产线&7[Irradiation Lines]&f"
-			tasks: [
-				{
-					id: "0B6262460130ADA6"
-					item: "nuclearcraft:fission_reactor_irradiation_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B6262460130ADA6"
+				item: "nuclearcraft:fission_reactor_irradiation_chamber"
+				type: "item"
+			}]
 			title: "辐照舱&7[Irradiation Chamber]&f"
 			x: -8.5d
 			y: -2.0d
@@ -232,56 +222,52 @@
 				"&7[Just pump needed liquids into reactor port.]&f"
 			]
 			id: "4E513F38CFF495CD"
-			rewards: [
-				{
-					id: "2A10F3B244484557"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A10F3B244484557"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "泵入冷却剂&7[Pump some coolants]&f"
-			tasks: [
-				{
-					id: "26D9C96ADDB5F86A"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "nuclearcraft:active_cryotheum_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:active_liquid_nitrogen_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:active_liquid_helium_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:empty_active_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:active_water_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:active_redstone_heat_sink"
-								}
-								{
-									Count: 1b
-									id: "nuclearcraft:active_enderium_heat_sink"
-								}
-							]
-						}
+			tasks: [{
+				id: "26D9C96ADDB5F86A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:active_cryotheum_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_liquid_nitrogen_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_liquid_helium_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:empty_active_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_water_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_redstone_heat_sink"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:active_enderium_heat_sink"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "主动式&a散热片&f&7[Active Heat Sinks]&f"
 			x: -7.0d
 			y: 1.5d
@@ -295,13 +281,11 @@
 				"&7[This is where you start. You can aquire basic materials like Uranium and Thorium in your world and craft your first fission fuel.]&f"
 			]
 			id: "0B204EBE35852FA7"
-			rewards: [
-				{
-					id: "1319B036EF38E1A7"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1319B036EF38E1A7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 64L
@@ -335,34 +319,28 @@
 				"&7[Separates some materials like uranium into isotopes]&f"
 			]
 			id: "59C9E81E917EEBFD"
-			rewards: [
-				{
-					id: "2A4190CED1DBAE1A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A4190CED1DBAE1A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "顾名思义&7[Name speaks for him self]&f"
-			tasks: [
-				{
-					id: "41FB30AB7E1E892B"
-					item: "nuclearcraft:isotope_separator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41FB30AB7E1E892B"
+				item: "nuclearcraft:isotope_separator"
+				type: "item"
+			}]
 			x: -12.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["081C50637C6FF2ED"]
 			id: "7BF786E0EEE4860D"
-			rewards: [
-				{
-					id: "332557F0EFE6146C"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "332557F0EFE6146C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "核废料并非废物&7[Nuclear wastes are not wastes]&f"
 			tasks: [
 				{
@@ -383,13 +361,11 @@
 			dependencies: ["59C9E81E917EEBFD"]
 			icon: "nuclearcraft:plutonium_rtg"
 			id: "602DAD563A1C131B"
-			rewards: [
-				{
-					id: "159601E89CE26228"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "159601E89CE26228"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1FEEB6506B7C575E"
@@ -438,28 +414,24 @@
 				"&7[Center blocks of the chamber has to be empty. This is the space for plasma.]&f"
 			]
 			id: "77CF3DCEA4A31EFD"
-			rewards: [
-				{
-					id: "7A0CC426B28C3932"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7A0CC426B28C3932"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "反应环&7[The ring]&f"
-			tasks: [
-				{
-					count: 64L
-					id: "11645C64AB595E4E"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "nuclearcraft:fusion_reactor_casing"
-						}
+			tasks: [{
+				count: 64L
+				id: "11645C64AB595E4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:fusion_reactor_casing"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "聚变&a核反应仓&f&7[Fusion Reactor Chamber]&f"
 			x: -6.5d
 			y: 4.5d
@@ -470,21 +442,17 @@
 				"3C2C6CF2C5D901D1"
 			]
 			id: "285863F49493AF62"
-			rewards: [
-				{
-					id: "74385523AD5B5609"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "74385523AD5B5609"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			subtitle: "&a湮灭反应堆&f的中枢&7[Brain of the Fusion Reactor]&f"
-			tasks: [
-				{
-					id: "4F649B50ADE5DCCC"
-					item: "nuclearcraft:fusion_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F649B50ADE5DCCC"
+				item: "nuclearcraft:fusion_core"
+				type: "item"
+			}]
 			x: -9.5d
 			y: 4.5d
 		}
@@ -499,22 +467,18 @@
 				"&7[Place 4 connector lines for each horizontal direction, starting from the middle of the Fusion Core. Bigger reactor rings are more efficient.]&f"
 			]
 			id: "015E2E9D8B678087"
-			rewards: [
-				{
-					id: "5A401E426CEED66F"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5A401E426CEED66F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "连接中枢与反应仓&7[Connecting brain with the chamber]&f"
-			tasks: [
-				{
-					count: 8L
-					id: "28FE0374088418BF"
-					item: "nuclearcraft:fusion_reactor_connector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "28FE0374088418BF"
+				item: "nuclearcraft:fusion_reactor_connector"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 4.5d
 		}
@@ -529,28 +493,24 @@
 				"&7[Placement rule is the same as for RF Amplifier: it has to touch at least 2 Fusion Casing/Glass blocks.]&f"
 			]
 			id: "77C9259E0B0FE5BB"
-			rewards: [
-				{
-					id: "3EB49CFD36EC45E8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3EB49CFD36EC45E8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "约束等离子体&7[Keeping the plasma]&f"
-			tasks: [
-				{
-					count: 64L
-					id: "5ABBF4E0CD24B02D"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "nuclearcraft:electromagnets"
-						}
+			tasks: [{
+				count: 64L
+				id: "5ABBF4E0CD24B02D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:electromagnets"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "电磁体&7[Electromagnets]&f"
 			x: -3.5d
 			y: 4.5d
@@ -570,27 +530,23 @@
 				"&7[The main rule - amplifier has to touch 2 blocks of Fusion Casing/Glass]&f"
 			]
 			id: "2F002C9A0092C10C"
-			rewards: [
-				{
-					id: "0B4A58B0482C0D06"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0B4A58B0482C0D06"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "&a加热&f等离子体&7[Heating up the plasma]&f"
-			tasks: [
-				{
-					id: "51B269FBE6FACD45"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "nuclearcraft:amplifiers"
-						}
+			tasks: [{
+				id: "51B269FBE6FACD45"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:amplifiers"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "射频放大器&7[Radio Frequency Amplifiers]&f"
 			x: -5.0d
 			y: 4.5d
@@ -612,21 +568,17 @@
 				"&7[And only works if reactor is running.]&f"
 			]
 			id: "31C6C9EB8AD4F3BE"
-			rewards: [
-				{
-					id: "46D607AAD3F7AC57"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "46D607AAD3F7AC57"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "利用核辐射进行合成&7[Crafting with Nuclear Radiation]&f"
-			tasks: [
-				{
-					id: "174ECFCD6BDC386F"
-					item: "nuclearcraft:irradiator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "174ECFCD6BDC386F"
+				item: "nuclearcraft:irradiator"
+				type: "item"
+			}]
 			x: -8.5d
 			y: -3.0d
 		}
@@ -658,14 +610,12 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					count: 6L
-					id: "2FB87588F39748C4"
-					item: "nuclearcraft:expl"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "2FB87588F39748C4"
+				item: "nuclearcraft:expl"
+				type: "item"
+			}]
 			title: "制造黑洞"
 			x: 1.0d
 			y: -5.5d
@@ -683,13 +633,11 @@
 				"&7[The main rule, chamber faces must be symmetric.]&f"
 			]
 			id: "6B7D49391464B4AB"
-			rewards: [
-				{
-					id: "46E37015CA8D321E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "46E37015CA8D321E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "近似球体&7[Almost sphere]&f"
 			tasks: [
 				{
@@ -722,22 +670,18 @@
 				"&7[These blocks affects the speed of quantum transformation recipes.]&f"
 			]
 			id: "1FA85991DDFCC1BE"
-			rewards: [
-				{
-					id: "3B2D97D99733088E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3B2D97D99733088E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "用于量子级合成&7[For quantum crafting]&f"
-			tasks: [
-				{
-					count: 48L
-					id: "25FC4F3E61946176"
-					item: "nuclearcraft:quantum_transformer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 48L
+				id: "25FC4F3E61946176"
+				item: "nuclearcraft:quantum_transformer"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -5.5d
 		}
@@ -752,44 +696,36 @@
 				"&7[This block helps to maintain stability.]&f"
 			]
 			id: "487B2E28017843E5"
-			rewards: [
-				{
-					id: "63FDEF5174947DBB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "63FDEF5174947DBB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "稳定黑洞&7[Stabilizing the blackhole]&f"
-			tasks: [
-				{
-					count: 72L
-					id: "4C30E4F2EE30F2FE"
-					item: "nuclearcraft:event_horizon_stabilizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 72L
+				id: "4C30E4F2EE30F2FE"
+				item: "nuclearcraft:event_horizon_stabilizer"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["487B2E28017843E5"]
 			id: "4B5458B5D29B8CA1"
-			rewards: [
-				{
-					id: "7E5FD0E1199E31E3"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7E5FD0E1199E31E3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "FE能量生成速率&7[FE generation rates]&f"
-			tasks: [
-				{
-					count: 26L
-					id: "715A933D599EF3AF"
-					item: "nuclearcraft:quantum_flux_regulator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 26L
+				id: "715A933D599EF3AF"
+				item: "nuclearcraft:quantum_flux_regulator"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -5.5d
 		}
@@ -804,34 +740,28 @@
 				"&7[Position of Photon Concentrator is strictly in the center of the wall.]&f"
 			]
 			id: "7DEDA65F61652C9B"
-			rewards: [
-				{
-					id: "5340C57AA13F85D6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5340C57AA13F85D6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "光之通道&7[In gate for the light]&f"
-			tasks: [
-				{
-					count: 6L
-					id: "352FB5293626946C"
-					item: "nuclearcraft:photon_concentrator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "352FB5293626946C"
+				item: "nuclearcraft:photon_concentrator"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -5.5d
 		}
 		{
 			id: "6286A200E1CDB1EE"
-			rewards: [
-				{
-					id: "053F793856EF4E8D"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "053F793856EF4E8D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					amount: 1000L
@@ -852,13 +782,11 @@
 		}
 		{
 			id: "5B7AFD8961BFC00F"
-			rewards: [
-				{
-					id: "3094A478A673F24F"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3094A478A673F24F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					amount: 1000L
@@ -886,13 +814,11 @@
 				"&7[Fusion Reactor is a very hot structure, you need to constantly cool it down, otherwise it will meltdown.]&f"
 			]
 			id: "31DAC3957CC14D84"
-			rewards: [
-				{
-					id: "1EE03D702AA0925B"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1EE03D702AA0925B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					amount: 1000L
@@ -920,28 +846,24 @@
 		{
 			dependencies: ["0A74B8AAA5A76C67"]
 			id: "25EC23AB0C991018"
-			rewards: [
-				{
-					id: "5C425815EE29C778"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C425815EE29C778"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "库格尔布莱兹腔体的基础组件&7[Base component of Kugelblitz chamber]&f"
-			tasks: [
-				{
-					count: 64L
-					id: "002442110A337938"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/neutronium"
-						}
+			tasks: [{
+				count: 64L
+				id: "002442110A337938"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/neutronium"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "中子物质&7[Neutronium]&f"
 			x: -8.0d
 			y: -5.5d
@@ -971,13 +893,11 @@
 				"&7[4. Amplification slider, you can adjust amplification rate in reactor GUI, but max rate is capped by redstone signal.]&f"
 			]
 			id: "0187684A795EFACD"
-			rewards: [
-				{
-					id: "00FB105B7159B42F"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "00FB105B7159B42F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "聚变检查清单&7[Fusion Checklist]&f"
 			tasks: [
 				{
@@ -1021,20 +941,16 @@
 				"&7[Deuterium+Tritium is the easiest way to start your fusion as it does not require large Hi-End fusion reactor.]&f"
 			]
 			id: "3C2C6CF2C5D901D1"
-			rewards: [
-				{
-					id: "1FF8ECB363CB2407"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6C16410649A4DA26"
-					title: "好的,我明白了"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "1FF8ECB363CB2407"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C16410649A4DA26"
+				title: "好的,我明白了"
+				type: "checkmark"
+			}]
 			title: "聚变燃料&7[Fusion Fuel]&f"
 			x: -11.0d
 			y: 4.5d
@@ -1048,27 +964,23 @@
 				"&7[Moderators attached to fission fuel cells increases energy generation by almost 17%, but also increases heat generation by 33% for each attachment.]&f"
 			]
 			id: "31F5766E63603754"
-			rewards: [
-				{
-					id: "2C9237A13FC7C508"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C9237A13FC7C508"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "提升效率&7[Rising efficiency]&f"
-			tasks: [
-				{
-					id: "2EE9E13000F05353"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "nuclearcraft:moderators"
-						}
+			tasks: [{
+				id: "2EE9E13000F05353"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:moderators"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "慢化剂&7[Moderators]&f"
 			x: -9.5d
 			y: -2.0d
@@ -1076,21 +988,17 @@
 		{
 			dependencies: ["547037A1C1BBB81F"]
 			id: "2F1993EABEC6CC19"
-			rewards: [
-				{
-					id: "5303315D3F0C35E0"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "517A25A07E9256EB"
-					item: "nuclearcraft:fission_reactor_solid_fuel_cell"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5303315D3F0C35E0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "517A25A07E9256EB"
+				item: "nuclearcraft:fission_reactor_solid_fuel_cell"
+				type: "item"
+			}]
 			x: -8.5d
 			y: -1.0d
 		}
@@ -1114,21 +1022,17 @@
 				"&7[2. Quantum transformation of items with blackhole quantum fields ]&f"
 			]
 			id: "0A74B8AAA5A76C67"
-			rewards: [
-				{
-					id: "001105015AFD29D8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "001105015AFD29D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "光铸黑洞&7[Blackhole made out of light]&f"
-			tasks: [
-				{
-					id: "1151D40DE60B1ED5"
-					title: "真有趣"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1151D40DE60B1ED5"
+				title: "真有趣"
+				type: "checkmark"
+			}]
 			title: "库格尔布莱兹&7[Kugelblitz]&f"
 			x: -8.0d
 			y: -7.0d
@@ -1142,13 +1046,11 @@
 				"&7[This is really great fuel for fusion and fission reactors]&f"
 			]
 			id: "3D3D5F0FC190FA04"
-			rewards: [
-				{
-					id: "7BBBD3E04608B236"
-					item: "kubejs:infused_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7BBBD3E04608B236"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			subtitle: "高效燃料&7[Very effective fuel]&f"
 			tasks: [
 				{
@@ -1195,33 +1097,27 @@
 				"&7[3. The frequency can be defined with redstone signal sent into the port. Signal strength is the frequency.]&f"
 			]
 			id: "28BB27A54B194C8B"
-			rewards: [
-				{
-					id: "2816B835C0063CAB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "39E570C65BEFC539"
-					title: "明白了"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "2816B835C0063CAB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39E570C65BEFC539"
+				title: "明白了"
+				type: "checkmark"
+			}]
 			title: "量子转化&7[Quantum Transformations]&f"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
 			id: "18550A96B03860FE"
-			rewards: [
-				{
-					id: "29F002BBA07AC427"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "29F002BBA07AC427"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -1251,13 +1147,11 @@
 		{
 			dependencies: ["18550A96B03860FE"]
 			id: "6FC34F7B2A86F02C"
-			rewards: [
-				{
-					id: "1CE2A679AD7C18D4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1CE2A679AD7C18D4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3A48EBFB1F102F91"
@@ -1286,13 +1180,11 @@
 		{
 			dependencies: ["18550A96B03860FE"]
 			id: "32759CFEBBA542EA"
-			rewards: [
-				{
-					id: "2FB7D71D787E4C9E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2FB7D71D787E4C9E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 64L
@@ -1325,13 +1217,11 @@
 		{
 			dependencies: ["18550A96B03860FE"]
 			id: "05E6B77DA9440C23"
-			rewards: [
-				{
-					id: "42006CEEB51FEE19"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "42006CEEB51FEE19"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "48C3C3E531B353B6"
@@ -1355,52 +1245,42 @@
 		{
 			dependencies: ["7A00CCB42934E627"]
 			id: "5E016F2B357B859F"
-			rewards: [
-				{
-					id: "07ED5F0B6A7FE7DB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "330DD8310968B134"
-					item: "nuclearcraft:supercooler"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "07ED5F0B6A7FE7DB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "330DD8310968B134"
+				item: "nuclearcraft:supercooler"
+				type: "item"
+			}]
 			x: -9.5d
 			y: 1.5d
 		}
 		{
 			id: "4F0DCA24E0F89454"
-			rewards: [
-				{
-					id: "205BA715923A1046"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "05F34551FC520624"
-					item: "nuclearcraft:pump"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "205BA715923A1046"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F34551FC520624"
+				item: "nuclearcraft:pump"
+				type: "item"
+			}]
 			x: -12.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4F0DCA24E0F89454"]
 			id: "7A00CCB42934E627"
-			rewards: [
-				{
-					id: "5C29B4956880C1CD"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C29B4956880C1CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1E7E558D3718BCF2"
@@ -1424,55 +1304,45 @@
 		{
 			dependencies: ["6B7D49391464B4AB"]
 			id: "60DCF5DE31DD7BC6"
-			rewards: [
-				{
-					id: "14295C55293B525E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "19FB1B89B9199204"
-					item: "nuclearcraft:subatomic_liquifier"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "14295C55293B525E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FB1B89B9199204"
+				item: "nuclearcraft:subatomic_liquifier"
+				type: "item"
+			}]
 			x: -5.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["60DCF5DE31DD7BC6"]
 			id: "620676DE8D9C27B7"
-			rewards: [
-				{
-					id: "3F2125DB284AA6DF"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3F2125DB284AA6DF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			subtitle: "黑洞能量供给&7[Feeding the Blackhole]&f"
-			tasks: [
-				{
-					amount: 1000L
-					fluid: "nuclearcraft:subliquid_matter"
-					id: "16F38AD5A310A707"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				fluid: "nuclearcraft:subliquid_matter"
+				id: "16F38AD5A310A707"
+				type: "fluid"
+			}]
 			x: -4.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["7BF786E0EEE4860D"]
 			id: "095BEBDD23161D9F"
-			rewards: [
-				{
-					id: "6E418EF02E0117E5"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6E418EF02E0117E5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5989BF7559DFBE76"
@@ -1501,13 +1371,11 @@
 		{
 			dependencies: ["095BEBDD23161D9F"]
 			id: "681FB7385BB89242"
-			rewards: [
-				{
-					id: "4861F38886838F36"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4861F38886838F36"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1B3DF4AB99E7C11A"
@@ -1536,13 +1404,11 @@
 		{
 			dependencies: ["681FB7385BB89242"]
 			id: "53B178B8D666A32F"
-			rewards: [
-				{
-					id: "10A7FBE8F77F8A18"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "10A7FBE8F77F8A18"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2C95119B82461B24"

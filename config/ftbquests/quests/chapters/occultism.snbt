@@ -230,22 +230,18 @@
 				}
 			}
 			id: "5316DF321B45D2CA"
-			rewards: [
-				{
-					id: "042DA96F1C15434A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "042DA96F1C15434A"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "4B0A4027FACE9108"
-					item: "occultism:datura_seeds"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B0A4027FACE9108"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
 			title: "&d梦魇&r &c恶魔&r&7[Dreaming of Demons]&f"
 			x: 0.0d
 			y: 0.0d
@@ -253,27 +249,23 @@
 		{
 			dependencies: ["5316DF321B45D2CA"]
 			id: "6C1BBA559963B3DF"
-			rewards: [
-				{
-					id: "3D748FF1571433F2"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3D748FF1571433F2"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "15CDE30E1F7EBAD5"
-					item: {
-						Count: 1
-						id: "occultism:dictionary_of_spirits"
-						tag: {
-							"modonomicon:book_id": "occultism:dictionary_of_spirits"
-						}
+			tasks: [{
+				id: "15CDE30E1F7EBAD5"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&c恶魔&r秘典&7[Little Book o' Demons]&f"
 			x: 2.0d
 			y: 0.0d
@@ -281,21 +273,17 @@
 		{
 			dependencies: ["6C1BBA559963B3DF"]
 			id: "47358ADC1470C82A"
-			rewards: [
-				{
-					id: "3BB86ECD39545201"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3BB86ECD39545201"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "准备好开始旅程&7[Get Ready for a Trip]&f"
-			tasks: [
-				{
-					id: "0008773503CCA262"
-					item: "occultism:datura"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0008773503CCA262"
+				item: "occultism:datura"
+				type: "item"
+			}]
 			title: "&c恶魔果实&r&7[Demon Fruit]&f"
 			x: 4.0d
 			y: 0.0d
@@ -319,23 +307,21 @@
 				}
 			]
 			shape: "square"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "occultism:block/spirit_fire_1"
-						}
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "occultism:block/spirit_fire_1"
 					}
-					id: "070E5E92D50F02D1"
-					observe_type: 0
-					timer: 0L
-					title: "{atm9.quest.occultism.observeSpiritfire}"
-					to_observe: "occultism:spirit_fire"
-					type: "observation"
 				}
-			]
+				id: "070E5E92D50F02D1"
+				observe_type: 0
+				timer: 0L
+				title: "{atm9.quest.occultism.observeSpiritfire}"
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
 			title: "&a异界&f&9之火&r&7[The Flames of The Otherworld]&f"
 			x: 6.0d
 			y: 0.0d
@@ -550,13 +536,11 @@
 			]
 			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
-			rewards: [
-				{
-					id: "536B2ACB55CC979E"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "536B2ACB55CC979E"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -590,13 +574,11 @@
 			}
 			id: "4F35D04721DFC9FF"
 			min_width: 300
-			rewards: [
-				{
-					id: "0BAC09BCF9644834"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "0BAC09BCF9644834"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -646,13 +628,11 @@
 				"&7[Now that we have a Foliot Crusher, we can use politely ask it to crush down some End Stone and Obsidian for us. We'll use these to make some new Chalk!]&f"
 			]
 			id: "1DE0F289821F55D1"
-			rewards: [
-				{
-					id: "1B9CD287CB41E0E8"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "1B9CD287CB41E0E8"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -701,33 +681,29 @@
 			}
 			id: "7174A0CEC5CCC53B"
 			progression_mode: "linear"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "79159F5C77200118"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79159F5C77200118"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			size: 1.25d
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "occultism:item/advancement/devil_icon"
-						}
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "occultism:item/advancement/devil_icon"
 					}
-					id: "034F6D98DA7900BD"
-					observe_type: 5
-					timer: 0L
-					title: "{atm9.quest.occultism.observeFoliot}"
-					to_observe: "occultism:foliot"
-					type: "observation"
 				}
-			]
+				id: "034F6D98DA7900BD"
+				observe_type: 5
+				timer: 0L
+				title: "{atm9.quest.occultism.observeFoliot}"
+				to_observe: "occultism:foliot"
+				type: "observation"
+			}]
 			title: "&a与新朋友对话!&r&7[Talking with our New Friend!]&f"
 			x: 12.5d
 			y: 4.0d
@@ -735,13 +711,11 @@
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			id: "08B1A64B01A8A604"
-			rewards: [
-				{
-					id: "31005015E3D07048"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "31005015E3D07048"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -852,17 +826,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "1E44A3F521ED5DFC"
-					item: {
-						Count: 1
-						id: "occultism:soul_gem"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E44A3F521ED5DFC"
+				item: "occultism:soul_gem"
+				type: "item"
+			}]
 			title: "&d空灵宝石&r&7[Empty Soul Gem]&f"
 			x: 7.0d
 			y: 5.5d
@@ -893,19 +861,17 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "1ED2F7B4B900BDD1"
-					item: {
-						Count: 1
-						id: "occultism:otherworld_goggles"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "1ED2F7B4B900BDD1"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "别再吃那个水果了!&7[Quit Eating That Fruit!]&f"
 			x: 11.0d
 			y: 8.0d
@@ -914,20 +880,16 @@
 			icon: "occultism:iesnium_ore"
 			id: "33106E24A3B5DDD8"
 			min_width: 450
-			rewards: [
-				{
-					id: "5D7A367FA795C5B3"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "2C341B16967645C9"
-					item: "occultism:iesnium_ore"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5D7A367FA795C5B3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2C341B16967645C9"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
 			title: "&c伊瑟尼姆:异界矿石&r&7[Iesnium: Ore of the Otherworld]&f"
 			x: 12.5d
 			y: 11.5d
@@ -958,19 +920,17 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "7FC0ED5732DFDCF2"
-					item: {
-						Count: 1
-						id: "occultism:iesnium_pickaxe"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7FC0ED5732DFDCF2"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a异界镐&r&7[The Otherworld Pickaxe]&f"
 			x: 12.5d
 			y: 9.5d
@@ -1223,36 +1183,34 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "51F520BF7DA37873"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "occultism:storage_stabilizer_tier1"
-								}
-								{
-									Count: 1b
-									id: "occultism:storage_stabilizer_tier2"
-								}
-								{
-									Count: 1b
-									id: "occultism:storage_stabilizer_tier3"
-								}
-								{
-									Count: 1b
-									id: "occultism:storage_stabilizer_tier4"
-								}
-							]
-						}
+			tasks: [{
+				id: "51F520BF7DA37873"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier1"
+							}
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier2"
+							}
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier3"
+							}
+							{
+								Count: 1b
+								id: "occultism:storage_stabilizer_tier4"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a升级我们的魔法存储&r&7[Upgrading Our Magical Storage]&f"
 			x: 18.0d
 			y: 5.5d
@@ -1260,17 +1218,11 @@
 		{
 			dependencies: ["3D41D0092D94636B"]
 			id: "78ECC28DD4BA9696"
-			tasks: [
-				{
-					id: "13EAA435B27EA29D"
-					item: {
-						Count: 1
-						id: "occultism:divination_rod"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13EAA435B27EA29D"
+				item: "occultism:divination_rod"
+				type: "item"
+			}]
 			title: "寻找&d异界&r材料&7[Hunting For Otherworld Materials]&f"
 			x: 6.0d
 			y: -1.5d
@@ -1308,21 +1260,13 @@
 			tasks: [
 				{
 					id: "792FA8ED0719803C"
-					item: {
-						Count: 1
-						id: "occultism:stable_wormhole"
-						tag: { }
-					}
+					item: "occultism:stable_wormhole"
 					match_nbt: false
 					type: "item"
 				}
 				{
 					id: "2ED65EBA5FFE2C2E"
-					item: {
-						Count: 1
-						id: "occultism:storage_remote"
-						tag: { }
-					}
+					item: "occultism:storage_remote"
 					match_nbt: false
 					type: "item"
 				}
@@ -1355,20 +1299,16 @@
 				}
 			}
 			id: "7F59941D62E672B0"
-			rewards: [
-				{
-					id: "1FEDC70622D3F66B"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [
-				{
-					id: "6C3887D42B6B2122"
-					title: "{atm9.quest.occultism.familiars.1}"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "1FEDC70622D3F66B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C3887D42B6B2122"
+				title: "{atm9.quest.occultism.familiars.1}"
+				type: "checkmark"
+			}]
 			title: "&d使魔&r&7[Familiars]&f"
 			x: 8.5d
 			y: 7.0d

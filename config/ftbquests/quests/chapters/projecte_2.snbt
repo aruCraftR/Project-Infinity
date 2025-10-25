@@ -103,13 +103,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "373B00FDF17053F0"
-					title: "欢迎!"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "373B00FDF17053F0"
+				title: "欢迎!"
+				type: "checkmark"
+			}]
 			x: -10.5d
 			y: 0.5d
 		}
@@ -134,13 +132,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7ED1EEF72CB48A56"
-					item: "projecte:alchemical_chest"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7ED1EEF72CB48A56"
+				item: "projecte:alchemical_chest"
+				type: "item"
+			}]
 			x: -8.5d
 			y: -1.0d
 		}
@@ -171,13 +167,11 @@
 				}
 			]
 			subtitle: "巧克力？&7[chocolate?]&f"
-			tasks: [
-				{
-					id: "41EA888884A73844"
-					item: "projecte:dark_matter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41EA888884A73844"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
 			x: -8.5d
 			y: 2.0d
 		}
@@ -211,20 +205,17 @@
 				}
 			]
 			subtitle: "我们可能稍微加强了合成配方...&7[We may have buffed the recipe... a little]&f"
-			tasks: [
-				{
-					id: "33B55955760760DF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:philosophers_stone"
-						tag: { }
+			tasks: [{
+				id: "33B55955760760DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
 					}
-					type: "item"
+					id: "projecte:philosophers_stone"
 				}
-			]
+				type: "item"
+			}]
 			x: -7.0d
 			y: 0.5d
 		}
@@ -249,13 +240,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2713AFC2320181C3"
-					item: "projecte:white_alchemical_bag"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2713AFC2320181C3"
+				item: "projecte:white_alchemical_bag"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -1.0d
 		}
@@ -295,7 +284,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_sword"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -307,7 +295,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_axe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -319,7 +306,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_pick"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -331,7 +317,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_shovel"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -343,7 +328,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_hoe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -355,7 +339,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_hammer"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -367,7 +350,6 @@
 							Parent: { }
 						}
 						id: "projecte:dm_shears"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -405,13 +387,11 @@
 				}
 			]
 			subtitle: "我们可能稍微加强了合成配方...&7[We may have buffed the recipe... a little]&f"
-			tasks: [
-				{
-					id: "797E3D756DFA0D8C"
-					item: "projecte:transmutation_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "797E3D756DFA0D8C"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
 			x: -4.5d
 			y: 0.5d
 		}
@@ -452,13 +432,11 @@
 				}
 			]
 			subtitle: "挖黑曜石太痛苦了,给点补偿&7[Obsidian is a pain to mine, have some compensation]&f"
-			tasks: [
-				{
-					id: "1773C26A22E2C8E7"
-					item: "projecte:condenser_mk1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1773C26A22E2C8E7"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -1.0d
 		}
@@ -545,13 +523,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4DFC6A91A13260BD"
-					item: "projecte:collector_mk1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4DFC6A91A13260BD"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -1.0d
 		}
@@ -576,13 +552,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A04E756FB0431AB"
-					item: "projecte:red_matter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A04E756FB0431AB"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 2.0d
 		}
@@ -614,19 +588,17 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0A3DDA2142B601B7"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "curios:klein_star"
-						}
+			tasks: [{
+				id: "0A3DDA2142B601B7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:klein_star"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&a克莱因之星&f&7[Klein Stars]&f"
 			x: -1.5d
 			y: 0.5d
@@ -656,13 +628,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77325FF61033C78E"
-					item: "projecte:relay_mk1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77325FF61033C78E"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -1.0d
 		}
@@ -756,20 +726,17 @@
 				}
 			]
 			subtitle: "祝你好运击败混沌龙以制作此物&7[Good luck killing the Chaos Dragon to make this]&f"
-			tasks: [
-				{
-					id: "0EFBB57DD46AB9D7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:rm_katar"
-						tag: { }
+			tasks: [{
+				id: "0EFBB57DD46AB9D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
 					}
-					type: "item"
+					id: "projecte:rm_katar"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.5d
 			y: 3.5d
 		}
@@ -790,20 +757,17 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "12F7A35EA8F85851"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:rm_morning_star"
-						tag: { }
+			tasks: [{
+				id: "12F7A35EA8F85851"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
 					}
-					type: "item"
+					id: "projecte:rm_morning_star"
 				}
-			]
+				type: "item"
+			}]
 			x: -1.5d
 			y: 3.5d
 		}
@@ -843,13 +807,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3D4FEF601F6F24F7"
-					item: "projecte:dm_pedestal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3D4FEF601F6F24F7"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 0.5d
 		}
@@ -902,13 +864,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4AABCAF6D28650F2"
-					title: "花"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4AABCAF6D28650F2"
+				title: "花"
+				type: "checkmark"
+			}]
 			x: 2.5d
 			y: -1.0d
 		}
@@ -967,7 +927,6 @@
 							Parent: { }
 						}
 						id: "projecte:destruction_catalyst"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -1012,19 +971,17 @@
 				}
 			]
 			subtitle: "你读完了吗？&7[Did you read that?]&f"
-			tasks: [
-				{
-					id: "7C2F81696BD961AE"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "projectexpansion:emc_link"
-						}
+			tasks: [{
+				id: "7C2F81696BD961AE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "projectexpansion:emc_link"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 5.0d
 			y: 2.0d
 		}
@@ -1080,7 +1037,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_axe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -1106,7 +1062,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_shovel"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -1118,7 +1073,6 @@
 							Parent: { }
 						}
 						id: "projecte:rm_hoe"
-						tag: { }
 					}
 					type: "item"
 				}
@@ -1180,19 +1134,17 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1DB81FDC35530F47"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "projectexpansion:power_flower"
-						}
+			tasks: [{
+				id: "1DB81FDC35530F47"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "projectexpansion:power_flower"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 5.0d
 			y: -1.0d
 		}

@@ -38,13 +38,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "3B857C698A419BC0"
-					item: "minecraft:enchanting_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B857C698A419BC0"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
 			title: "使用&d神化&f附魔&7[Enchanting with Apotheosis]&f"
 			x: -3.0d
 			y: 3.5d
@@ -59,29 +57,25 @@
 			]
 			icon: "minecraft:bookshelf"
 			id: "7F042DED357DEF3C"
-			rewards: [
-				{
-					count: 9
-					id: "02A49326EC0332F9"
-					item: "minecraft:book"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 9
+				id: "02A49326EC0332F9"
+				item: "minecraft:book"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "1CC9EA4FD2BF3DB0"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:bookshelves"
-						}
+			tasks: [{
+				id: "1CC9EA4FD2BF3DB0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bookshelves"
 					}
-					title: "任意#forge:bookshelves"
-					type: "item"
 				}
-			]
+				title: "任意#forge:bookshelves"
+				type: "item"
+			}]
 			title: "原版上限仅是起点&7[Vanilla Max is just the start]&f"
 			x: -1.0d
 			y: 3.5d
@@ -109,14 +103,12 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					count: 10L
-					id: "4511597A84EF2A40"
-					item: "apotheosis:hellshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 10L
+				id: "4511597A84EF2A40"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
 			title: "&4地狱书架&r&7[Hellshelves]&f"
 			x: 2.5d
 			y: 2.5d
@@ -144,14 +136,12 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					count: 10L
-					id: "01AAFC6ADF0C8844"
-					item: "apotheosis:seashelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 10L
+				id: "01AAFC6ADF0C8844"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
 			title: "&b海洋书架&r&7[Seashelves]&f"
 			x: 2.5d
 			y: 4.5d
@@ -178,13 +168,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "604BADA98AB8F19B"
-					item: "apotheosis:seashelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "604BADA98AB8F19B"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
 			title: "&5阿卡那&r&7[阿卡那]&f"
 			x: 1.0d
 			y: 7.5d
@@ -211,13 +199,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "1ADAC994F5D57FE1"
-					item: "apotheosis:dormant_deepshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1ADAC994F5D57FE1"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
 			title: "&a位阶&r&7[位阶]&f"
 			x: 1.0d
 			y: 5.5d
@@ -244,13 +230,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "533AE884035F8511"
-					item: "apotheosis:hellshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "533AE884035F8511"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
 			title: "&c量子化&r&7[量子化]&f"
 			x: 1.0d
 			y: 6.5d
@@ -278,14 +262,12 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					count: 5L
-					id: "6AA52E3ABC6B3EE1"
-					item: "apotheosis:infused_hellshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 5L
+				id: "6AA52E3ABC6B3EE1"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
 			title: "&4&a灌注地狱书架&f&r&7[Infused Hellshelf]&f"
 			x: 4.0d
 			y: 2.5d
@@ -313,14 +295,12 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					count: 5L
-					id: "44BA467C008ACDEB"
-					item: "apotheosis:infused_seashelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 5L
+				id: "44BA467C008ACDEB"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
 			title: "&b&a灌注海洋书架&f&r&7[Infused Seashelf]&f"
 			x: 4.0d
 			y: 4.5d
@@ -335,21 +315,17 @@
 			]
 			icon: "minecraft:enchanting_table"
 			id: "1D06097B6206BA60"
-			rewards: [
-				{
-					id: "62BEA9EB0C5B1D25"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "62BEA9EB0C5B1D25"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.5d
-			tasks: [
-				{
-					id: "0EE3A88719BB0221"
-					title: "灌注"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0EE3A88719BB0221"
+				title: "灌注"
+				type: "checkmark"
+			}]
 			title: "&a灌注附魔&f&7[Infusion Enchanting]&f"
 			x: 1.0d
 			y: 3.5d
@@ -363,13 +339,11 @@
 				"&7[Rectification is a quantity that works with 量子化, it determines if the enchantments will be good or bad. The more Rectification the better the Enchantments. Definitely necessary for those wanting good gear.]&f"
 			]
 			id: "001B11C3773022DE"
-			rewards: [
-				{
-					id: "39226132585B50DF"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "39226132585B50DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -401,13 +375,11 @@
 				"&7[You ever spend 3 months studying Galatic Code to finally understand Enchantment Table language just for it to be gibberish? No? Me either but Enchanting Clues are your actual translator for it. Each Enchanting Clue will tell you 1 Enchantment before you actually use it.]&f"
 			]
 			id: "12F4980CB3BFCE0D"
-			rewards: [
-				{
-					id: "0F9B9AC5B4AB3949"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "0F9B9AC5B4AB3949"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -452,19 +424,13 @@
 				{
 					count: 9L
 					id: "5FE3BF20BB4ABFFB"
-					item: {
-						Count: 9
-						id: "apotheosis:crystal_seashelf"
-					}
+					item: { Count: 9, id: "apotheosis:crystal_seashelf" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "398CE6B12CC89712"
-					item: {
-						Count: 2
-						id: "apotheosis:heart_seashelf"
-					}
+					item: { Count: 2, id: "apotheosis:heart_seashelf" }
 					type: "item"
 				}
 			]
@@ -481,21 +447,17 @@
 				"&7[The Blazing Hellshelf is an upgrade to the Infused Hellshelf. It increases max 位阶 to 30. The negative Enchanting Clue makes it a little worse for normal Enchanting, instead we can use it for better Infusion.]&f"
 			]
 			id: "6C76AB8A6110C0C7"
-			rewards: [
-				{
-					id: "46322209C889C939"
-					item: "apotheosis:blazing_hellshelf"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "46322209C889C939"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "4EE21647F4434CB5"
-					item: "apotheosis:blazing_hellshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4EE21647F4434CB5"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
 			title: "&4炽焰地狱书架&r&7[Blazing Hellshelf]&f"
 			x: 4.5d
 			y: 1.5d
@@ -522,14 +484,12 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					count: 10L
-					id: "0396FE7CF6AAF222"
-					item: "apotheosis:glowing_hellshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 10L
+				id: "0396FE7CF6AAF222"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
 			title: "&4辉光地狱书架&r&7[Glowing Hellshelf]&f"
 			x: 5.5d
 			y: 2.5d
@@ -561,13 +521,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "639976E0D4F898DD"
-					item: "apotheosis:deepshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "639976E0D4F898DD"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
 			title: "&9深渊书架&r&7[Deepshelf]&f"
 			x: 6.5d
 			y: 3.5d
@@ -594,13 +552,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "2AE7BBE870F24DCB"
-					item: "apotheosis:soul_touched_sculkshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2AE7BBE870F24DCB"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
 			title: "&9触魂幽匿书架&r&7[Soul-Touched Sculkshelf]&f"
 			x: 8.0d
 			y: 3.0d
@@ -627,13 +583,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "1C69BDCD5499805F"
-					item: "apotheosis:echoing_sculkshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1C69BDCD5499805F"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
 			title: "&9回响幽匿书架&r&7[Echoing Sculkshelf]&f"
 			x: 8.0d
 			y: 4.0d
@@ -661,13 +615,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "2E5979DF454E401A"
-					item: "apotheosis:soul_touched_deepshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E5979DF454E401A"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
 			title: "&9触魂深渊书架&r&7[Soul-Touched Deepshelf]&f"
 			x: 8.0d
 			y: 2.0d
@@ -695,13 +647,11 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "47499C2393356F89"
-					item: "apotheosis:echoing_deepshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "47499C2393356F89"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
 			title: "&9回响深渊书架&r&7[Echoing Deepshelf]&f"
 			x: 8.0d
 			y: 5.0d
@@ -719,13 +669,11 @@
 			]
 			icon: "apotheosis:infused_breath"
 			id: "21EE522DDBF0BF72"
-			rewards: [
-				{
-					id: "366AFCAB92AF9E96"
-					item: "minecraft:dragon_breath"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "366AFCAB92AF9E96"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -799,26 +747,19 @@
 				"&7[It's not just bookshelves that can be Infused!]&f"
 			]
 			id: "44D1B410550B6C28"
-			rewards: [
-				{
-					count: 9
-					id: "0E193F344F6CFC60"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 9
+				id: "0E193F344F6CFC60"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					count: 3L
-					id: "1ACDB5822E2F5713"
-					item: {
-						Count: 3
-						id: "minecraft:lapis_lazuli"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 3L
+				id: "1ACDB5822E2F5713"
+				item: { Count: 3, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
 			title: "其他注入物品&7[Other Infusion Items]&f"
 			x: 1.0d
 			y: 1.5d
@@ -832,21 +773,17 @@
 				"&7[The Pearlescent Endshelf is the best all-around shelf. It also gives a Max 位阶 of 45, but this isn't the shelf we're looking for to get perfect set up.]&f"
 			]
 			id: "4A59DF02128DA9F3"
-			rewards: [
-				{
-					id: "6DC65D64AFC9FB86"
-					item: "minecraft:dragon_head"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6DC65D64AFC9FB86"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "7AB6761EB41B1E07"
-					item: "apotheosis:pearl_endshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AB6761EB41B1E07"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
 			title: "&d珠光末地书架&r&7[Pearlescent Endshelf]&f"
 			x: 11.0d
 			y: 3.0d
@@ -860,21 +797,17 @@
 				"&7[The Draconic Shelf is the last Shelf we'll need for perfect set up. It might only give 位阶 but it has the Max Max 位阶 of 50.]&f"
 			]
 			id: "6244032FE2E5F1E1"
-			rewards: [
-				{
-					id: "361E51B63206BF0A"
-					item: "apotheosis:draconic_endshelf"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "361E51B63206BF0A"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "1F41FD294030AE04"
-					item: "apotheosis:draconic_endshelf"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F41FD294030AE04"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
 			title: "&d龙裔末地书架&r&7[Draconic Endshelf]&f"
 			x: 11.0d
 			y: 4.0d
@@ -889,13 +822,11 @@
 			]
 			icon: "apotheosis:treasure_shelf"
 			id: "4C446F22771E2B53"
-			rewards: [
-				{
-					id: "13E4A3BF1FB727B5"
-					type: "xp_levels"
-					xp_levels: 25
-				}
-			]
+			rewards: [{
+				id: "13E4A3BF1FB727B5"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -944,32 +875,26 @@
 				"&7[The Library of Alexandria is a better Enchantment Library. It can hold more, that's it. you need to Infuse a Enchantment Library. It needs exactly 50 位阶, between 45%-50% 量子化, and 100% 阿卡那. This can be done with 7 Echoing Skulkshelves and 2 Draconic Shelves.]&f"
 			]
 			id: "5FD4F40CEC37D9FD"
-			rewards: [
-				{
-					id: "2651F1CE1044AC2B"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 5s
-								}
-							]
-						}
+			rewards: [{
+				id: "2651F1CE1044AC2B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "21E8F3E04CA2BA93"
-					item: "apotheosis:ender_library"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21E8F3E04CA2BA93"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
 			title: "&a亚历山大图书馆&f&7[Library of Alexandria]&f"
 			x: 0.0d
 			y: 0.5d
@@ -983,32 +908,26 @@
 				"&7[Apotheosis knows how annoying Tridents can be to get so they made it easier... well kinda easier. You can now make an Inert Trident and Infuse it to get a normal Trident. The Trident requires between 20-30 位阶, 20%%-50%% 量子化, and atleast 35%% 阿卡那. You can get this with 4 Echoing Skulkshelves or 2 Crystalline Seashelves and 6 Heart-Forged Seashelves.]&f"
 			]
 			id: "24526FFBA093805A"
-			rewards: [
-				{
-					id: "60BFDFEDBA2E930C"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:impaling"
-									lvl: 5s
-								}
-							]
-						}
+			rewards: [{
+				id: "60BFDFEDBA2E930C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:impaling"
+							lvl: 5s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "2C0F85A4868C5C20"
-					item: "apotheosis:inert_trident"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2C0F85A4868C5C20"
+				item: "apotheosis:inert_trident"
+				type: "item"
+			}]
 			title: "制作真·三叉戟&7[Making a real Trident]&f"
 			x: 1.0d
 			y: 0.5d
@@ -1027,32 +946,26 @@
 			]
 			hide_dependency_lines: true
 			id: "314E41B84C8DD464"
-			rewards: [
-				{
-					id: "54020DF00D36132E"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:smite"
-									lvl: 5s
-								}
-							]
-						}
+			rewards: [{
+				id: "54020DF00D36132E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:smite"
+							lvl: 5s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "324CAB864D37604A"
-					item: "apotheosis:library"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "324CAB864D37604A"
+				item: "apotheosis:library"
+				type: "item"
+			}]
 			title: "&a附魔储备台&f&7[Enchantment Library]&f"
 			x: -1.0d
 			y: 0.5d
@@ -1067,22 +980,18 @@
 			]
 			icon: "apotheosis:heart_seashelf"
 			id: "5FD95ABA63C56BD5"
-			rewards: [
-				{
-					count: 2
-					id: "354026304732BC41"
-					item: "minecraft:heart_of_the_sea"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "354026304732BC41"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "01254EDBBAC8A7BE"
-					item: "minecraft:heart_of_the_sea"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "01254EDBBAC8A7BE"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
 			title: "&b铸心海书架&r&7[Heart-Forged Seashelf]&f"
 			x: 4.5d
 			y: 5.5d

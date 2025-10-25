@@ -51,13 +51,11 @@
 				"&7[The Building Gadgets 2 mod speeds up building by letting players quickly place or remove large areas of blocks.]&f"
 			]
 			id: "0F75D7B9F4FF2459"
-			rewards: [
-				{
-					id: "4F4959C6CA30683B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "4F4959C6CA30683B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -73,11 +71,7 @@
 				}
 				{
 					id: "4738B22DF26DB2D8"
-					item: {
-						Count: 1
-						id: "buildinggadgets2:gadget_copy_paste"
-						tag: { }
-					}
+					item: "buildinggadgets2:gadget_copy_paste"
 					type: "item"
 				}
 				{
@@ -104,13 +98,11 @@
 				"&7[The Pipes Connector mod allows players to place multiple pipes simultaneously. Hold a supported Pipe in your Off-Hand and shift right click a block. Then shift right click another block. You can change the depth with shift and mouse wheel. Shift right click into the air to open the GUI. Here you can change the settings or place the pipes.]&f"
 			]
 			id: "2A2E3D020B1F5126"
-			rewards: [
-				{
-					id: "73E17D3567E3D6BD"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "73E17D3567E3D6BD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -168,25 +160,17 @@
 				"&7[Additionally, the mod includes Demagnetization Coils, which create areas where magnets are ineffective, preventing unwanted attraction of items in specific zones.]&f"
 			]
 			id: "3FC002E5A6C08DCC"
-			rewards: [
-				{
-					id: "256A43FECEFF24DB"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "256A43FECEFF24DB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "4112D6272EC400DE"
-					item: {
-						Count: 1
-						id: "simplemagnets:basicmagnet"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4112D6272EC400DE"
+				item: "simplemagnets:basicmagnet"
+				type: "item"
+			}]
 			title: "磁铁&7[Magnet]&f"
 			x: -3.0d
 			y: 10.0d
@@ -206,13 +190,11 @@
 				id: "projecte:swiftwolf_rending_gale"
 			}
 			id: "25E585C8AE7430DC"
-			rewards: [
-				{
-					id: "0F1FEE53279D1DCB"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "0F1FEE53279D1DCB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -238,27 +220,23 @@
 		}
 		{
 			id: "0821032D8ACE7E82"
-			rewards: [
-				{
-					id: "06651311BB1B0C7F"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "06651311BB1B0C7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "1D6930C723F7BF7C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:repair_talisman"
+			tasks: [{
+				id: "1D6930C723F7BF7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
 					}
-					type: "item"
+					id: "projecte:repair_talisman"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: 9.0d
 		}
@@ -277,119 +255,115 @@
 				}
 			}
 			id: "70E66957E98D944D"
-			rewards: [
-				{
-					id: "3CAA8F1EE5F5D087"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "3CAA8F1EE5F5D087"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "260FFAB5EB3E1D3E"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:basic/blaze"
-									}
+			tasks: [{
+				id: "260FFAB5EB3E1D3E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/blaze"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:basic/enderman"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/enderman"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:basic/slime"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/slime"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:emerald_grove"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:emerald_grove"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:endless/blaze"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:endless/blaze"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:overworldian_nights"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:overworldian_nights"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:cataclysm_ender"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:cataclysm_ender"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:cataclysm_ignis"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:cataclysm_ignis"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:gateway_of_the_giants"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:gateway_of_the_giants"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:hellish_fortress"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:hellish_fortress"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:trials_of_ignis"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:trials_of_ignis"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:trials_of_the_ancient_remnant"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:trials_of_the_ancient_remnant"
 								}
-								{
-									Count: 1b
-									id: "gateways:gate_pearl"
-									tag: {
-										gateway: "gateways:trials_of_the_harbinger"
-									}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:trials_of_the_harbinger"
 								}
-							]
-						}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "永恒之门&7[Gateway]&f"
 			x: -1.0d
 			y: -4.0d
@@ -403,13 +377,11 @@
 			]
 			icon: "torchmaster:megatorch"
 			id: "2874646A910EA889"
-			rewards: [
-				{
-					id: "10D78D51349C01D1"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "10D78D51349C01D1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -446,21 +418,17 @@
 			]
 			icon: "angelblockrenewed:angel_block"
 			id: "0BD5C89908C16DDB"
-			rewards: [
-				{
-					id: "51F75B8830FE74FE"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "51F75B8830FE74FE"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "7FC432296FD02074"
-					item: "angelblockrenewed:angel_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FC432296FD02074"
+				item: "angelblockrenewed:angel_block"
+				type: "item"
+			}]
 			title: "天使方块&7[Angel Block]&f"
 			x: 0.0d
 			y: 9.0d
@@ -474,13 +442,11 @@
 			]
 			icon: "bhc:red_heart_canister"
 			id: "550D14F2C1CB91DF"
-			rewards: [
-				{
-					id: "6EA023F9B41C59BC"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "6EA023F9B41C59BC"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -512,21 +478,17 @@
 			]
 			icon: "cobblefordays:tier_1"
 			id: "68B70D3C33B1A218"
-			rewards: [
-				{
-					id: "50CA0D6FB125FBAF"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "50CA0D6FB125FBAF"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "748BFD9A190EFE3E"
-					item: "cobblefordays:tier_1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "748BFD9A190EFE3E"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
 			title: "&a造石机&f&7[Cobblestone Generator]&f"
 			x: -1.0d
 			y: 10.0d
@@ -539,21 +501,17 @@
 				"&7[The Digital Miner from Mekanism is a high-tech, customizable mining machine that can automatically scan and mine specific blocks from a large area, even through obstacles.]&f"
 			]
 			id: "39F0944503669D86"
-			rewards: [
-				{
-					id: "32B06B319FFB2BBE"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "32B06B319FFB2BBE"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "590033420D8AEEEB"
-					item: "mekanism:digital_miner"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "590033420D8AEEEB"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
 			title: "&a数字型采矿机&f&7[Digital Miner]&f"
 			x: 2.0d
 			y: 3.0d
@@ -567,22 +525,18 @@
 			]
 			icon: "compacter:compacter"
 			id: "3887F065A1B917DC"
-			rewards: [
-				{
-					id: "757C29EC980691C0"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "757C29EC980691C0"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			subtitle: "用于筛矿？&7[for the sieve?]&f"
-			tasks: [
-				{
-					id: "013061F4A17E61C8"
-					item: "compacter:compacter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "013061F4A17E61C8"
+				item: "compacter:compacter"
+				type: "item"
+			}]
 			title: "压缩器&7[Compactor]&f"
 			x: 3.0d
 			y: 4.0d
@@ -595,21 +549,17 @@
 				"&7[Find the settings in your Inventory in the top left corner]&f"
 			]
 			id: "72026F51769FE691"
-			rewards: [
-				{
-					id: "70E30476631BBF48"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "70E30476631BBF48"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "25ECB4BE7185468F"
-					title: "消音器"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "25ECB4BE7185468F"
+				title: "消音器"
+				type: "checkmark"
+			}]
 			title: "终极消音器&7[Extreme Muffler]&f"
 			x: 6.0d
 			y: 3.0d
@@ -622,21 +572,17 @@
 				"&7[Mine up to 128 of the same block for hunger. Change the hotkey in your keybinds. Search for \"FTB Ultimine\"]&f"
 			]
 			id: "5A2174711D9219BF"
-			rewards: [
-				{
-					id: "00B47659A517F31E"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "00B47659A517F31E"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "5F5B1B7F605C5997"
-					title: "FTB终极采矿"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5F5B1B7F605C5997"
+				title: "FTB终极采矿"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: 1.0d
 		}
@@ -649,13 +595,11 @@
 			]
 			icon: "laserio:laser_node"
 			id: "70CC7F36C90AFAD6"
-			rewards: [
-				{
-					id: "0A018BD611DF7B28"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "0A018BD611DF7B28"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -698,41 +642,35 @@
 			]
 			id: "3DC75B276FB694C9"
 			min_width: 400
-			rewards: [
-				{
-					id: "790C10BDAF99FB54"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "790C10BDAF99FB54"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "07D0DE040B869035"
-					item: {
-						Count: 1
-						id: "tiab:time_in_a_bottle"
-						tag: {
-							storedTime: 0
-							totalAccumulatedTime: 0
-						}
+			tasks: [{
+				id: "07D0DE040B869035"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: {
+						storedTime: 0
+						totalAccumulatedTime: 0
 					}
-					type: "item"
-					weak_nbt_match: true
 				}
-			]
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: 5.0d
 			y: 4.0d
 		}
 		{
 			id: "12D1983081A8D945"
-			rewards: [
-				{
-					id: "1B0290923787B282"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "1B0290923787B282"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			subtitle: "以下是一些采矿维度&7[Here are some mining dimensions]&f"
 			tasks: [
@@ -758,22 +696,18 @@
 		}
 		{
 			id: "44EB5188DD7FB011"
-			rewards: [
-				{
-					id: "1A9562CE703EA35B"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "1A9562CE703EA35B"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			subtitle: "无生物生成的虚空维度&7[A void dimension without mob spawn]&f"
-			tasks: [
-				{
-					id: "611D5361E401A76C"
-					item: "javd:portal_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "611D5361E401A76C"
+				item: "javd:portal_block"
+				type: "item"
+			}]
 			title: "虚空维度&7[Void Dimension]&f"
 			x: 0.0d
 			y: 7.0d
@@ -828,13 +762,11 @@
 			]
 			id: "4D3274AE190EEA88"
 			min_width: 420
-			rewards: [
-				{
-					id: "23FCA2ADD2F1B74E"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "23FCA2ADD2F1B74E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -953,37 +885,33 @@
 			]
 			id: "7F9F08CF09D81EB6"
 			min_width: 300
-			rewards: [
-				{
-					id: "30A125CD9F9F9697"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "30A125CD9F9F9697"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "3FFE0955892BD696"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "itemcollectors:basic_collector"
-								}
-								{
-									Count: 1b
-									id: "itemcollectors:advanced_collector"
-								}
-							]
-						}
+			tasks: [{
+				id: "3FFE0955892BD696"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemcollectors:basic_collector"
+							}
+							{
+								Count: 1b
+								id: "itemcollectors:advanced_collector"
+							}
+						]
 					}
-					title: "物品收集器"
-					type: "item"
 				}
-			]
+				title: "物品收集器"
+				type: "item"
+			}]
 			title: "物品收集器&7[Item Collectors]&f"
 			x: -8.0d
 			y: 1.0d
@@ -1001,45 +929,41 @@
 			]
 			id: "684F432B43D104A1"
 			min_width: 300
-			rewards: [
-				{
-					id: "0C1AA8435D50FE0F"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "0C1AA8435D50FE0F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "3A2DB05E8D97733D"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "trashcans:item_trash_can"
-								}
-								{
-									Count: 1b
-									id: "trashcans:liquid_trash_can"
-								}
-								{
-									Count: 1b
-									id: "trashcans:energy_trash_can"
-								}
-								{
-									Count: 1b
-									id: "trashcans:ultimate_trash_can"
-								}
-							]
-						}
+			tasks: [{
+				id: "3A2DB05E8D97733D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trashcans:item_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:liquid_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:energy_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:ultimate_trash_can"
+							}
+						]
 					}
-					title: "&a垃圾桶&f"
-					type: "item"
 				}
-			]
+				title: "&a垃圾桶&f"
+				type: "item"
+			}]
 			title: "&a垃圾桶&f&7[The Trash Cans]&f"
 			x: -7.0d
 			y: 4.0d
@@ -1061,29 +985,25 @@
 			]
 			id: "2E20069AE6C51ADF"
 			min_width: 400
-			rewards: [
-				{
-					id: "3EE1C4EA25D16895"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "3EE1C4EA25D16895"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "26996718B3CEDAF4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "26996718B3CEDAF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "mekanism:cardboard_box"
 					}
-					type: "item"
+					id: "mekanism:cardboard_box"
 				}
-			]
+				type: "item"
+			}]
 			x: -4.0d
 			y: 3.0d
 		}
@@ -1108,13 +1028,11 @@
 			]
 			id: "7D557A396FB12D0A"
 			min_width: 300
-			rewards: [
-				{
-					id: "09C7F309462D0D18"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "09C7F309462D0D18"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1140,11 +1058,7 @@
 				}
 				{
 					id: "68DF577F55DA9B70"
-					item: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
+					item: "explorerscompass:explorerscompass"
 					type: "item"
 				}
 			]
@@ -1161,13 +1075,11 @@
 			]
 			icon: "telepastries:overworld_cake"
 			id: "721FC1AE7D78A0D8"
-			rewards: [
-				{
-					id: "7F9A2EF5FAC05451"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "7F9A2EF5FAC05451"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1213,25 +1125,17 @@
 				"&7[The Tempad mod introduces a device inspired by the \"Loki\" series, allowing players to save specific locations and teleport to them from anywhere in the game world. Users can customize the color of the portals and the interface, with 30 available options.]&f"
 			]
 			id: "20F4CBC52CD12260"
-			rewards: [
-				{
-					id: "2195836678E272FB"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "2195836678E272FB"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "21B1A6D1E4DECF01"
-					item: {
-						Count: 1
-						id: "tempad:tempad"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21B1A6D1E4DECF01"
+				item: "tempad:tempad"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 8.0d
 		}
@@ -1243,13 +1147,11 @@
 				"&7[The Flux Networks mod enables wireless energy networks, allowing customizable, cross-dimensional power transfer without the need for extensive cabling.]&f"
 			]
 			id: "6A7F7835B4FFED38"
-			rewards: [
-				{
-					id: "196071A366681DEC"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "196071A366681DEC"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1286,13 +1188,11 @@
 				"&7[Both are great for automation and long-distance resource transfer.]&f"
 			]
 			id: "5BAFDEC1D5F8FDFF"
-			rewards: [
-				{
-					id: "4308ED2968106A05"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "4308ED2968106A05"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1312,13 +1212,11 @@
 		{
 			icon: "nuclearcraft:water_collector"
 			id: "209438A4F154203C"
-			rewards: [
-				{
-					id: "2CF337E7A9C257A1"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "2CF337E7A9C257A1"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			subtitle: "获取无限水的简便方法&7[A easy way to get infinite water]&f"
 			tasks: [
@@ -1370,13 +1268,11 @@
 			]
 			icon: "ae2:calculation_processor_press"
 			id: "04A7299079141D52"
-			rewards: [
-				{
-					id: "2D37D3A6A26C1E41"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "2D37D3A6A26C1E41"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1417,13 +1313,11 @@
 			]
 			icon: "modularrouters:modular_router"
 			id: "5A2AF10773FA8B2D"
-			rewards: [
-				{
-					id: "7301118E018DCD5F"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "7301118E018DCD5F"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1452,28 +1346,18 @@
 				""
 				"&7[The Entangled mod lets you link two blocks so that interacting with one affects the other, even from a distance.]&f"
 			]
-			icon: {
-				Count: 1
-				id: "entangled:block"
-				tag: { }
-			}
+			icon: "entangled:block"
 			id: "5DE6CDBDD36EC3CC"
-			rewards: [
-				{
-					id: "49430260EC7436A3"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "49430260EC7436A3"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
 					id: "24B2B1A5FBAE2794"
-					item: {
-						Count: 1
-						id: "entangled:block"
-						tag: { }
-					}
+					item: "entangled:block"
 					type: "item"
 				}
 				{
@@ -1494,13 +1378,11 @@
 			]
 			icon: "compactmachines:personal_shrinking_device"
 			id: "6D0D293C2771D49C"
-			rewards: [
-				{
-					id: "742743B538EB05A1"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "742743B538EB05A1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1541,10 +1423,7 @@
 				{
 					count: 8L
 					id: "4A28D0DC1AB298F7"
-					item: {
-						Count: 8
-						id: "compactmachines:wall"
-					}
+					item: { Count: 8, id: "compactmachines:wall" }
 					type: "item"
 				}
 				{
@@ -1607,25 +1486,17 @@
 				"&7[left click the entity again to change height back to default]&f"
 			]
 			id: "059EC5CDA14D238F"
-			rewards: [
-				{
-					id: "2F20DF06B9E414F7"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "2F20DF06B9E414F7"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "4759E6C27FE3BC01"
-					item: {
-						Count: 1
-						id: "shrink:shrinking_device"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4759E6C27FE3BC01"
+				item: "shrink:shrinking_device"
+				type: "item"
+			}]
 			title: "压缩装置&7[Shrinking Device]&f"
 			x: 0.0d
 			y: -3.0d
@@ -1652,13 +1523,11 @@
 			icon: "torcherino:double_compressed_torcherino"
 			id: "54D3F98DB1BC6BB2"
 			min_width: 350
-			rewards: [
-				{
-					id: "63B5DDBC20EC6F39"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "63B5DDBC20EC6F39"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -1689,13 +1558,11 @@
 				}
 			}
 			id: "518405876B7FEB5A"
-			rewards: [
-				{
-					id: "7549D05030692286"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "7549D05030692286"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.5d
 			tasks: [
 				{
@@ -1711,11 +1578,7 @@
 				}
 				{
 					id: "498F2380030A0E4A"
-					item: {
-						Count: 1
-						id: "mbtool:mbtool"
-						tag: { }
-					}
+					item: "mbtool:mbtool"
 					type: "item"
 				}
 			]
@@ -1725,22 +1588,18 @@
 		{
 			icon: "waystones:waystone"
 			id: "74BA767367F2722B"
-			rewards: [
-				{
-					id: "1FB52465B1763ED2"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "1FB52465B1763ED2"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
 			subtitle: "跨维度传送方式&7[A way to teleport between dimensions]&f"
-			tasks: [
-				{
-					id: "1637D01C6CB844C6"
-					item: "waystones:waystone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1637D01C6CB844C6"
+				item: "waystones:waystone"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 6.0d
 		}
@@ -1756,21 +1615,17 @@
 				"&7[Traveling Merchant]&f"
 			]
 			id: "06CA3E88417FE311"
-			rewards: [
-				{
-					id: "653B351B18802681"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "653B351B18802681"
+				type: "xp"
+				xp: 3
+			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "03A5B9F5C215C2A6"
-					title: "存在部分禁用内容"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "03A5B9F5C215C2A6"
+				title: "存在部分禁用内容"
+				type: "checkmark"
+			}]
 			title: "已禁用内容&7[Things that are disabled]&f"
 			x: 6.0d
 			y: 5.0d

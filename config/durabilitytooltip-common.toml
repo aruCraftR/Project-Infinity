@@ -1,5 +1,5 @@
 [Client]
-    # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [??????????]'
+    # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [███▒▒▒▒▒▒▒]'
     # Allowed values: BAR, NUMBERS, TEXT - Default: NUMBERS
     tooltipStyle = "NUMBERS"
 
@@ -12,7 +12,7 @@
     tooltipColorStyle = "VARYING"
 
     # What should be the base text color of the tooltip?
-    # Allowed values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET - Default: GRAY
+    # Allowed values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET, ST_ORIGIN, ST_COSMIC, ST_DP - Default: GRAY
     baseTooltipColor = "GRAY"
 
     # Should the durability tooltip only be shown on vanilla tools?
