@@ -5,6 +5,15 @@
 	group: "5255C8D5C49409ED"
 	icon: "nuclearcraft:plutonium_rtg"
 	id: "11D9E62FD3D455FC"
+	images: [{
+		alpha: 120
+		height: 4.0d
+		image: "kubejs:block/screen/nuclear"
+		rotation: 0.0d
+		width: 3.9603960396039604d
+		x: -12.5d
+		y: -4.5d
+	}]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
@@ -17,14 +26,9 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "外部结构&7[Outerrior]&f"
+			shape: "square"
+			subtitle: "Outerrior"
 			tasks: [
-				{
-					count: 64L
-					id: "27E78F001E8EBEDF"
-					item: "nuclearcraft:fission_reactor_casing"
-					type: "item"
-				}
 				{
 					count: 2L
 					id: "522DEFB3FDBC8986"
@@ -36,28 +40,41 @@
 					item: "nuclearcraft:fission_reactor_controller"
 					type: "item"
 				}
+				{
+					count: 64L
+					id: "1F3BF8FC60F8A99C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "nuclearcraft:fission_reactor_casing"
+								}
+								{
+									Count: 1b
+									id: "nuclearcraft:fission_reactor_glass"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "&a裂变反应堆&f&7[Fission Reactor]&f"
-			x: -9.5d
+			title: "Fission Reactor"
+			x: -10.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2F1993EABEC6CC19"]
 			description: [
-				"裂变燃料会产生热量,若反应堆过热将导致熔毁."
-				"为防止这种情况,需要在反应堆内部安装散热片."
-				"每种散热片有特定放置规则,您可自由组合搭配."
-				"反应堆设计更像迷你游戏,需满足所有条件才能建造高效反应堆."
+				"Fission fuel generates heat, if reactor overheats, it will meltdown."
+				"To prevent this we need to place heat sinks inside the reactor."
+				"Each heat sink has placement rules, you decide how to combine them together."
+				"Reactor design is more like a minigame, where you need to solve all conditions to build very effective reactor."
 				""
-				"提示:建造时尝试用&a空手右击&f散热片方块."
-				""
-				""
-				"&7[Fission fuel generates heat, if reactor overheats, it will meltdown.]&f"
-				"&7[To prevent this we need to place heat sinks inside the reactor.]&f"
-				"&7[Each heat sink has placement rules, you decide how to combine them together.]&f"
-				"&7[Reactor design is more like a minigame, where you need to solve all conditions to build very effective reactor.]&f"
-				""
-				"&7[TIP: When you building your reactor, try to right click with empty hand on a heat sink block.]&f"
+				"TIP: When you building your reactor, try to right click with empty hand on a heat sink block."
 			]
 			id: "081C50637C6FF2ED"
 			rewards: [{
@@ -65,7 +82,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "为反应堆降温&7[Cooling down the reactor]&f"
+			subtitle: "Cooling down the reactor"
 			tasks: [{
 				id: "626E6DB260B9435F"
 				item: {
@@ -170,7 +187,7 @@
 				}
 				type: "item"
 			}]
-			title: "&a散热片&f&7[Heat Sinks]&f"
+			title: "Heat Sinks"
 			x: -7.0d
 			y: -1.0d
 		}
@@ -180,14 +197,9 @@
 				"2F1993EABEC6CC19"
 			]
 			description: [
-				"辐照生产线由三个直线排列的方块构成:裂变&a燃料单元&f→慢化剂→辐照舱"
+				"Irradiation line is made of set of 3 blocks in one line: Fission Fuel Cell -> Moderator -> Irradiation Chamber"
 				""
-				"由于&a燃料单元&f有6个面,单个燃料单元最多可构建6条辐照生产线."
-				""
-				""
-				"&7[Irradiation line is made of set of 3 blocks in one line: Fission Fuel Cell -> Moderator -> Irradiation Chamber]&f"
-				""
-				"&7[As Fuel Cell has 6 faces, you can make up to 6 irradiation lines with one Fuel Cell.]&f"
+				"As Fuel Cell has 6 faces, you can make up to 6 irradiation lines with one Fuel Cell."
 			]
 			icon: "nuclearcraft:fission_reactor_irradiation_chamber"
 			id: "42BEC6A82910E9A7"
@@ -196,15 +208,15 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "辐照生产线&7[Irradiation Lines]&f"
+			subtitle: "Irradiation Lines"
 			tasks: [{
 				id: "0B6262460130ADA6"
 				item: "nuclearcraft:fission_reactor_irradiation_chamber"
 				type: "item"
 			}]
-			title: "辐照舱&7[Irradiation Chamber]&f"
+			title: "Irradiation Chamber"
 			x: -8.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -212,14 +224,9 @@
 				"5E016F2B357B859F"
 			]
 			description: [
-				"与常规散热片功能相同,但效率更高."
-				"需要注入对应液体才能运作."
-				"直接将所需液体泵入反应堆端口即可."
-				""
-				""
-				"&7[Same as regular heat sinks, but much more effective.]&f"
-				"&7[Requires correspondent liquids in order to operate.]&f"
-				"&7[Just pump needed liquids into reactor port.]&f"
+				"Same as regular heat sinks, but much more effective."
+				"Requires correspondent liquids in order to operate."
+				"Just pump needed liquids into reactor port."
 			]
 			id: "4E513F38CFF495CD"
 			rewards: [{
@@ -227,7 +234,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "泵入冷却剂&7[Pump some coolants]&f"
+			subtitle: "Pump some coolants"
 			tasks: [{
 				id: "26D9C96ADDB5F86A"
 				item: {
@@ -268,69 +275,64 @@
 				}
 				type: "item"
 			}]
-			title: "主动式&a散热片&f&7[Active Heat Sinks]&f"
+			title: "Active Heat Sinks"
 			x: -7.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["59C9E81E917EEBFD"]
-			description: [
-				"这是起步阶段.可在世界中获取铀、钍等基础材料,合成您的第一份裂变燃料."
-				""
-				""
-				"&7[This is where you start. You can aquire basic materials like Uranium and Thorium in your world and craft your first fission fuel.]&f"
-			]
+			description: ["This is where you start. You can aquire basic materials like Uranium and Thorium in your world and craft your first fission fuel."]
 			id: "0B204EBE35852FA7"
 			rewards: [{
 				id: "1319B036EF38E1A7"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					count: 64L
-					id: "7BB3E1F5AAB707DD"
-					item: "nuclearcraft:fuel_thorium_tbu"
-					type: "item"
+			tasks: [{
+				count: 64L
+				id: "112FB7B228DCE888"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:fuel_uranium_leu_235"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fuel_thorium_tbu"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fuel_uranium_heu_235"
+							}
+						]
+					}
 				}
-				{
-					count: 64L
-					id: "72DAEC060CD62D1E"
-					item: "nuclearcraft:fuel_uranium_leu_235"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4DE3DB1FA933D8C5"
-					item: "nuclearcraft:fuel_uranium_heu_235"
-					type: "item"
-				}
-			]
-			title: "裂变燃料&7[Fission Fuel]&f"
-			x: -10.5d
+				type: "item"
+			}]
+			title: "Fission Fuel"
+			x: -11.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["32759CFEBBA542EA"]
-			description: [
-				"将铀等材料分离成同位素"
-				""
-				""
-				"&7[Separates some materials like uranium into isotopes]&f"
-			]
+			description: ["Separates some materials like uranium into isotopes"]
 			id: "59C9E81E917EEBFD"
 			rewards: [{
 				id: "2A4190CED1DBAE1A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "顾名思义&7[Name speaks for him self]&f"
+			subtitle: "Name speaks for him self"
 			tasks: [{
 				id: "41FB30AB7E1E892B"
 				item: "nuclearcraft:isotope_separator"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -1.0d
 		}
 		{
@@ -341,7 +343,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "核废料并非废物&7[Nuclear wastes are not wastes]&f"
+			subtitle: "Nuclear wastes are not wastes"
 			tasks: [
 				{
 					id: "5CE3E65D85A5CC15"
@@ -388,30 +390,20 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -13.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["015E2E9D8B678087"]
 			description: [
-				"这并非真正的圆环,而是围绕&a聚变仓核心&f的立方体环状结构."
-				"环状切面必须呈“O“形状,由4个外壳方块构成."
-				"具体形态如下:"
-				"§8§l   #"
-				"§8§l  # #"
-				"§8§l   #§r"
-				"可自由组合使用外壳方块或玻璃外壳."
-				"反应仓中心必须留空,作为等离子体容纳空间."
-				""
-				""
-				"&7[Well, this is not actually a round ring, a cubic ring surrounding Fusion Core.]&f"
-				"&7[Slice of the ring must be in the \"O\" shape made out of 4 casing blocks. ]&f"
-				"&7[Meaning it would be look like this:]&f"
-				"&7[l   #]&f"
-				"&7[l  # #]&f"
-				"&7[l   #]&f"
-				"&7[You can combine casing or casing glass as you like.]&f"
-				"&7[Center blocks of the chamber has to be empty. This is the space for plasma.]&f"
+				"Well, this is not actually a round ring, a cubic ring surrounding Fusion Core."
+				"Slice of the ring must be in the \"O\" shape made out of 4 casing blocks. "
+				"Meaning it would be look like this:"
+				"&8&l   #"
+				"&8&l  # #"
+				"&8&l   #&r"
+				"You can combine casing or casing glass as you like."
+				"Center blocks of the chamber has to be empty. This is the space for plasma."
 			]
 			id: "77CF3DCEA4A31EFD"
 			rewards: [{
@@ -419,7 +411,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "反应环&7[The ring]&f"
+			subtitle: "The ring"
 			tasks: [{
 				count: 64L
 				id: "11645C64AB595E4E"
@@ -432,8 +424,8 @@
 				}
 				type: "item"
 			}]
-			title: "聚变&a核反应仓&f&7[Fusion Reactor Chamber]&f"
-			x: -6.5d
+			title: "Fusion Reactor Chamber"
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -441,30 +433,28 @@
 				"31DAC3957CC14D84"
 				"3C2C6CF2C5D901D1"
 			]
+			description: ["{image:kubejs:block/screen/nc_fusion_reactor width:100 height:80 align:center fit:true}"]
 			id: "285863F49493AF62"
 			rewards: [{
 				id: "74385523AD5B5609"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "&a湮灭反应堆&f的中枢&7[Brain of the Fusion Reactor]&f"
+			shape: "square"
+			subtitle: "Brain of the Fusion Reactor"
 			tasks: [{
 				id: "4F649B50ADE5DCCC"
 				item: "nuclearcraft:fusion_core"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["285863F49493AF62"]
 			description: [
-				"这些方块用于连接&a聚变仓核心&f与环绕核心的反应仓环."
-				"从&a聚变仓核心&f中部出发,为每个水平方向铺设4条连接线.更大的反应环效率更高."
-				""
-				""
-				"&7[These blocks are connecting Fusion Core with reactor chamber ring around the Core.]&f"
-				"&7[Place 4 connector lines for each horizontal direction, starting from the middle of the Fusion Core. Bigger reactor rings are more efficient.]&f"
+				"These blocks are connecting Fusion Core with reactor chamber ring around the Core."
+				"Place 4 connector lines for each horizontal direction, starting from the middle of the Fusion Core. Bigger reactor rings are more efficient."
 			]
 			id: "015E2E9D8B678087"
 			rewards: [{
@@ -472,25 +462,21 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "连接中枢与反应仓&7[Connecting brain with the chamber]&f"
+			subtitle: "Connecting brain with the chamber"
 			tasks: [{
 				count: 8L
 				id: "28FE0374088418BF"
 				item: "nuclearcraft:fusion_reactor_connector"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2F002C9A0092C10C"]
 			description: [
-				"强电磁场将等离子体约束在反应仓内."
-				"放置规则与射频放大器相同:必须至少接触2个&a聚变仓壁&f/玻璃方块."
-				""
-				""
-				"&7[Strong electromagnetic field keeps plasma inside the chamber.]&f"
-				"&7[Placement rule is the same as for RF Amplifier: it has to touch at least 2 Fusion Casing/Glass blocks.]&f"
+				"Strong electromagnetic field keeps plasma inside the chamber."
+				"Placement rule is the same as for RF Amplifier: it has to touch at least 2 Fusion Casing/Glass blocks."
 			]
 			id: "77C9259E0B0FE5BB"
 			rewards: [{
@@ -498,7 +484,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "约束等离子体&7[Keeping the plasma]&f"
+			subtitle: "Keeping the plasma"
 			tasks: [{
 				count: 64L
 				id: "5ABBF4E0CD24B02D"
@@ -511,23 +497,17 @@
 				}
 				type: "item"
 			}]
-			title: "电磁体&7[Electromagnets]&f"
-			x: -3.5d
+			title: "Electromagnets"
+			x: -4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["77CF3DCEA4A31EFD"]
 			description: [
-				"通过射频微波增强等离子体能量,实质是对等离子体加热."
-				"不同类型等离子体具有不同反应温度,可从铜质放大器起步."
-				"放大器可任意数量布置在反应环周围,位置随心选择."
-				"核心规则:每个放大器必须接触2个&a聚变仓壁&f/玻璃方块."
-				""
-				""
-				"&7[RF Amplifiers are increasing plasma energy with RF Microwaves. Otherwords they just heating the plasma.]&f"
-				"&7[Different types of plasma has different reaction temperatures. You can start with copper ones.]&f"
-				"&7[Amplifiers must be placed around the ring. As many as you need, anywhere you like.]&f"
-				"&7[The main rule - amplifier has to touch 2 blocks of Fusion Casing/Glass]&f"
+				"RF Amplifiers are increasing plasma energy with RF Microwaves. Otherwords they just heating the plasma."
+				"Different types of plasma has different reaction temperatures. You can start with copper ones."
+				"Amplifiers must be placed around the ring. As many as you need, anywhere you like."
+				"The main rule - amplifier has to touch 2 blocks of Fusion Casing/Glass"
 			]
 			id: "2F002C9A0092C10C"
 			rewards: [{
@@ -535,7 +515,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "&a加热&f等离子体&7[Heating up the plasma]&f"
+			subtitle: "Heating up the plasma"
 			tasks: [{
 				id: "51B269FBE6FACD45"
 				item: {
@@ -547,25 +527,18 @@
 				}
 				type: "item"
 			}]
-			title: "射频放大器&7[Radio Frequency Amplifiers]&f"
-			x: -5.0d
+			title: "Radio Frequency Amplifiers"
+			x: -5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42BEC6A82910E9A7"]
 			description: [
-				"此方块是反应堆壁的一部分,因此可放置于任意位置:角落或墙壁中."
-				"辐照器利用反应堆的辐照线对物品和液体进行辐照处理."
-				"辐照线数量越多,处理进度越快."
-				"效率同时取决于燃料的放射性强度."
-				"且仅当反应堆运行时才生效."
-				""
-				""
-				"&7[This block is the part of reactor walls. So it can be placed anywhere: in the corner or in the wall.]&f"
-				"&7[Irradiator uses irradiation lines of your reactor to irradiate items and liquids.]&f"
-				"&7[More irradiation lines - faster the progress.]&f"
-				"&7[It also depends on fuel radioactivity.]&f"
-				"&7[And only works if reactor is running.]&f"
+				"This block is the part of reactor walls. So it can be placed anywhere: in the corner or in the wall."
+				"Irradiator uses irradiation lines of your reactor to irradiate items and liquids."
+				"More irradiation lines - faster the progress."
+				"It also depends on fuel radioactivity."
+				"And only works if reactor is running."
 			]
 			id: "31C6C9EB8AD4F3BE"
 			rewards: [{
@@ -573,28 +546,28 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "利用核辐射进行合成&7[Crafting with Nuclear Radiation]&f"
+			subtitle: "Crafting with Nuclear Radiation"
 			tasks: [{
 				id: "174ECFCD6BDC386F"
 				item: "nuclearcraft:irradiator"
 				type: "item"
 			}]
 			x: -8.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7DEDA65F61652C9B"]
 			description: [
-				"需将所有光束聚焦至腔室结构的中心点."
-				"在结构各表面布置EXPL装置,确保其指向中心."
-				"充能后启动装置."
+				"We need to concentrate all light beams into one spot in the center of chamber structure."
+				"Place EXPLs around structure faces pointing into center."
+				"Charge them and activate."
 				""
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_kugelblitz_chamber width:100 height:100 align:center fit:true}"
+				"{image:kubejs:block/screen/nuclearcraft_kugelblitz_chamber width:100 height:80 align:center fit:true}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_blackhole2 width:100 height:100 align:center fit:true}"
+				"{image:kubejs:block/screen/nuclearcraft_blackhole2 width:100 height:60 align:center fit:true}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_black_hole width:100 height:100 align:center fit:true}"
+				"{image:kubejs:block/screen/nuclearcraft_black_hole width:100 height:60 align:center fit:true}"
 			]
 			id: "42E07CC516A52519"
 			rewards: [
@@ -616,21 +589,16 @@
 				item: "nuclearcraft:expl"
 				type: "item"
 			}]
-			title: "制造黑洞"
-			x: 1.0d
-			y: -5.5d
+			title: "Producing a blackhole"
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["25EC23AB0C991018"]
 			description: [
-				"该结构具有固定形态,请查阅JEI/REI或帕秋莉手册了解具体构型."
-				"但外层方块组合可灵活调整,根据需求侧重量子转化或FE能量生成等功能."
-				"核心原则是:反应室表面必须保持对称."
-				""
-				""
-				"&7[This structure has fixed shape. Checkout JEI/REI or patchouli guide for shape.]&f"
-				"&7[But outerrior blocks combinations may vary. Depending on what you need more: quantum transformation, FE generation...]&f"
-				"&7[The main rule, chamber faces must be symmetric.]&f"
+				"This structure has fixed shape. Checkout JEI/REI or patchouli guide for shape."
+				"But outerrior blocks combinations may vary. Depending on what you need more: quantum transformation, FE generation..."
+				"The main rule, chamber faces must be symmetric."
 			]
 			id: "6B7D49391464B4AB"
 			rewards: [{
@@ -638,7 +606,8 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "近似球体&7[Almost sphere]&f"
+			shape: "square"
+			subtitle: "Almost sphere"
 			tasks: [
 				{
 					id: "2FAA08E04CE82A15"
@@ -658,42 +627,33 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: -5.5d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6B7D49391464B4AB"]
-			description: [
-				"这些方块可影响量子转化配方的处理速度."
-				""
-				""
-				"&7[These blocks affects the speed of quantum transformation recipes.]&f"
-			]
+			description: ["These blocks affects the speed of quantum transformation recipes."]
 			id: "1FA85991DDFCC1BE"
 			rewards: [{
 				id: "3B2D97D99733088E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "用于量子级合成&7[For quantum crafting]&f"
+			subtitle: "For quantum crafting"
 			tasks: [{
 				count: 48L
 				id: "25FC4F3E61946176"
 				item: "nuclearcraft:quantum_transformer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.5d
+			x: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
 			description: [
-				"黑洞可能不稳定——这倒不足为奇."
-				"此方块有助于维持稳定性."
-				""
-				""
-				"&7[Blackhole can be unstable, what a surprize.]&f"
-				"&7[This block helps to maintain stability.]&f"
+				"Blackhole can be unstable, what a surprize."
+				"This block helps to maintain stability."
 			]
 			id: "487B2E28017843E5"
 			rewards: [{
@@ -701,15 +661,15 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "稳定黑洞&7[Stabilizing the blackhole]&f"
+			subtitle: "Stabilizing the blackhole"
 			tasks: [{
 				count: 72L
 				id: "4C30E4F2EE30F2FE"
 				item: "nuclearcraft:event_horizon_stabilizer"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["487B2E28017843E5"]
@@ -719,25 +679,21 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "FE能量生成速率&7[FE generation rates]&f"
+			subtitle: "FE generation rates"
 			tasks: [{
 				count: 26L
 				id: "715A933D599EF3AF"
 				item: "nuclearcraft:quantum_flux_regulator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4B5458B5D29B8CA1"]
 			description: [
-				"6个方块,6个结构面."
-				"光子浓缩器必须严格位于墙壁中心位置."
-				""
-				""
-				"&7[6 blocks, 6 structure faces.]&f"
-				"&7[Position of Photon Concentrator is strictly in the center of the wall.]&f"
+				"6 blocks, 6 structure faces."
+				"Position of Photon Concentrator is strictly in the center of the wall."
 			]
 			id: "7DEDA65F61652C9B"
 			rewards: [{
@@ -745,15 +701,15 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "光之通道&7[In gate for the light]&f"
+			subtitle: "In gate for the light"
 			tasks: [{
 				count: 6L
 				id: "352FB5293626946C"
 				item: "nuclearcraft:photon_concentrator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			id: "6286A200E1CDB1EE"
@@ -776,8 +732,8 @@
 					type: "fluid"
 				}
 			]
-			title: "氘&7[Deuterium]&f"
-			x: -12.0d
+			title: "Deuterium"
+			x: -13.0d
 			y: 5.0d
 		}
 		{
@@ -801,18 +757,13 @@
 					type: "fluid"
 				}
 			]
-			title: "氚&7[Tritium]&f"
-			x: -12.0d
+			title: "Tritium"
+			x: -13.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5E016F2B357B859F"]
-			description: [
-				"&a湮灭反应堆&f是极高热的结构,需要持续冷却否则会发生熔毁."
-				""
-				""
-				"&7[Fusion Reactor is a very hot structure, you need to constantly cool it down, otherwise it will meltdown.]&f"
-			]
+			description: ["Fusion Reactor is a very hot structure, you need to constantly cool it down, otherwise it will meltdown."]
 			id: "31DAC3957CC14D84"
 			rewards: [{
 				id: "1EE03D702AA0925B"
@@ -839,19 +790,22 @@
 					type: "fluid"
 				}
 			]
-			title: "&a湮灭反应堆&f冷却剂&7[Fusion Reactor Coolant]&f"
-			x: -9.5d
+			title: "Fusion Reactor Coolant"
+			x: -10.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["0A74B8AAA5A76C67"]
+			dependencies: [
+				"0A74B8AAA5A76C67"
+				"31C6C9EB8AD4F3BE"
+			]
 			id: "25EC23AB0C991018"
 			rewards: [{
 				id: "5C425815EE29C778"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "库格尔布莱兹腔体的基础组件&7[Base component of Kugelblitz chamber]&f"
+			subtitle: "Base component of Kugelblitz chamber"
 			tasks: [{
 				count: 64L
 				id: "002442110A337938"
@@ -864,33 +818,22 @@
 				}
 				type: "item"
 			}]
-			title: "中子物质&7[Neutronium]&f"
-			x: -8.0d
-			y: -5.5d
+			title: "Neutronium"
+			x: -8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["77C9259E0B0FE5BB"]
 			description: [
-				"反应堆GUI内有检查清单,但我们再重申一遍:"
+				"Reactor GUI has sort of checklist, but let's repeat:"
 				""
-				"1. 确保燃料和冷却剂持续供应(管道需连接在&a聚变仓核心&f的顶部/底部)"
+				"1. Make sure you have constant supply of fuel and coolant (pipes are connecting on the top/bottom of Fusion Core)"
 				""
-				"2. 别忘了为反应堆充电,电磁体和放大器需要能量驱动"
+				"2. Do not forget to charge the reactor, as it needs energy for electromagnets and amplifiers"
 				""
-				"3. 需要红石信号启动.注意放大速率取决于&a红石信号强度&f."
+				"3. Redstone signal to start. Consider the amplification rate depends on redstone signal strength."
 				""
-				"4. 放大滑块可在反应堆GUI内调节放大速率,但最大速率受红石信号限制."
-				""
-				""
-				"&7[Reactor GUI has sort of checklist, but let's repeat:]&f"
-				""
-				"&7[1. Make sure you have constant supply of fuel and coolant (pipes are connecting on the top/bottom of Fusion Core)]&f"
-				""
-				"&7[2. Do not forget to charge the reactor, as it needs energy for electromagnets and amplifiers]&f"
-				""
-				"&7[3. Redstone signal to start. Consider the amplification rate depends on redstone signal strength.]&f"
-				""
-				"&7[4. Amplification slider, you can adjust amplification rate in reactor GUI, but max rate is capped by redstone signal.]&f"
+				"4. Amplification slider, you can adjust amplification rate in reactor GUI, but max rate is capped by redstone signal."
 			]
 			id: "0187684A795EFACD"
 			rewards: [{
@@ -898,31 +841,31 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "聚变检查清单&7[Fusion Checklist]&f"
+			subtitle: "Fusion Checklist"
 			tasks: [
 				{
 					id: "039915D140DA7F85"
-					title: "燃料与冷却剂供应"
+					title: "Fuel and coolant supply"
 					type: "checkmark"
 				}
 				{
 					id: "031804C8DF48AD16"
-					title: "初始启动能量"
+					title: "Initial startup energy"
 					type: "checkmark"
 				}
 				{
 					id: "163073AE066C6C97"
-					title: "红石信号"
+					title: "Redstone signal"
 					type: "checkmark"
 				}
 				{
 					id: "22EDAECA5C842888"
-					title: "放大滑块"
+					title: "Amplification slider"
 					type: "checkmark"
 				}
 			]
-			title: "启动准备&7[Getting ready]&f"
-			x: -2.0d
+			title: "Getting ready"
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -931,14 +874,9 @@
 				"5B7AFD8961BFC00F"
 			]
 			description: [
-				"存在多种聚变燃料组合."
-				"最关键的是聚变反应所需的温度条件."
-				"氘+氚组合是启动聚变的最简易方式,无需大型高端聚变反应堆."
-				""
-				""
-				"&7[There are different pairs of fusion fuel available.]&f"
-				"&7[The most important is what temperature is required for fusion reaction.]&f"
-				"&7[Deuterium+Tritium is the easiest way to start your fusion as it does not require large Hi-End fusion reactor.]&f"
+				"There are different pairs of fusion fuel available."
+				"The most important is what temperature is required for fusion reaction."
+				"Deuterium+Tritium is the easiest way to start your fusion as it does not require large Hi-End fusion reactor."
 			]
 			id: "3C2C6CF2C5D901D1"
 			rewards: [{
@@ -948,28 +886,23 @@
 			}]
 			tasks: [{
 				id: "6C16410649A4DA26"
-				title: "好的,我明白了"
+				title: "Ok. I understand"
 				type: "checkmark"
 			}]
-			title: "聚变燃料&7[Fusion Fuel]&f"
-			x: -11.0d
+			title: "Fusion Fuel"
+			x: -11.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["547037A1C1BBB81F"]
-			description: [
-				"加载到裂变燃料单元上的慢化剂可使能量产出提升约17%,但每个慢化剂会同时增加33%的热量产出."
-				""
-				""
-				"&7[Moderators attached to fission fuel cells increases energy generation by almost 17%, but also increases heat generation by 33% for each attachment.]&f"
-			]
+			description: ["Moderators attached to fission fuel cells increases energy generation by almost 17%, but also increases heat generation by 33% for each attachment."]
 			id: "31F5766E63603754"
 			rewards: [{
 				id: "2C9237A13FC7C508"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "提升效率&7[Rising efficiency]&f"
+			subtitle: "Rising efficiency"
 			tasks: [{
 				id: "2EE9E13000F05353"
 				item: {
@@ -981,9 +914,9 @@
 				}
 				type: "item"
 			}]
-			title: "慢化剂&7[Moderators]&f"
-			x: -9.5d
-			y: -2.0d
+			title: "Moderators"
+			x: -10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["547037A1C1BBB81F"]
@@ -1004,22 +937,13 @@
 		}
 		{
 			description: [
-				"正如我们所知:质量即能量,能量即质量.我们可以将巨量光线聚焦于一点创造库格尔布莱兹——由光构成的黑洞."
+				"As we know: mass is energy and energy is mass, we can concentrate insane amount of light in one spot to create a Kugelblitz - Blackhole made out of light."
 				""
-				"其应用领域包括:"
+				"What's the application?"
 				""
-				"1. 将霍金辐射转化为能量"
+				"1. Converting Hawking radiation into energy"
 				""
-				"2. 利用黑洞量子场进行物品量子转化"
-				""
-				""
-				"&7[As we know: mass is energy and energy is mass, we can concentrate insane amount of light in one spot to create a Kugelblitz - Blackhole made out of light.]&f"
-				""
-				"&7[What's the application?]&f"
-				""
-				"&7[1. Converting Hawking radiation into energy]&f"
-				""
-				"&7[2. Quantum transformation of items with blackhole quantum fields ]&f"
+				"2. Quantum transformation of items with blackhole quantum fields "
 			]
 			id: "0A74B8AAA5A76C67"
 			rewards: [{
@@ -1027,31 +951,27 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "光铸黑洞&7[Blackhole made out of light]&f"
+			shape: "gear"
+			subtitle: "Blackhole made out of light"
 			tasks: [{
 				id: "1151D40DE60B1ED5"
-				title: "真有趣"
+				title: "How interesting"
 				type: "checkmark"
 			}]
-			title: "库格尔布莱兹&7[Kugelblitz]&f"
-			x: -8.0d
-			y: -7.0d
+			title: "Kugelblitz"
+			x: -9.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["28BB27A54B194C8B"]
-			description: [
-				"这是用于聚变与裂变反应堆的极佳燃料"
-				""
-				""
-				"&7[This is really great fuel for fusion and fission reactors]&f"
-			]
+			description: ["This is really great fuel for fusion and fission reactors"]
 			id: "3D3D5F0FC190FA04"
 			rewards: [{
 				id: "7BBBD3E04608B236"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "高效燃料&7[Very effective fuel]&f"
+			subtitle: "Very effective fuel"
 			tasks: [
 				{
 					id: "165AE5120612A35D"
@@ -1064,37 +984,24 @@
 					type: "item"
 				}
 			]
-			title: "极端同位素&7[Extreme isotopes]&f"
-			x: -3.0d
-			y: -3.5d
+			title: "Extreme isotopes"
+			x: -5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
 			description: [
-				"黑洞量子场允许你使用能量室将一个物品量子转化为另一个物品."
-				"但有个诀窍:配方并非固定,而是与世界种子绑定."
-				"这意味着每开始新游戏或服务器,你都需要重新研究."
+				"Blackhole quantum fields allows you to use chamber for quantum transformations of one item into another."
+				"But there's a trick, recipes are not determined. And bond to world seed."
+				"Meaning every new game or server, you have to research."
 				""
-				"操作原理很简单:"
+				"Algorithm is simple:"
 				""
-				"1. 将物品放入槽位,滑动频率滑块直至转化启动."
+				"1. Put an item into slot, and scroll the frequency slider to find when transformation starts."
 				""
-				"2. 转化速度取决于上方的能量转换比率滑块(FE生成/转化效率)."
+				"2. Transformation speed depends on the ratio slider (FE gen / Transformation) above."
 				""
-				"3. 可通过红石信号输入端口定义频率,信号强度即频率值."
-				""
-				""
-				"&7[Blackhole quantum fields allows you to use chamber for quantum transformations of one item into another.]&f"
-				"&7[But there's a trick, recipes are not determined. And bond to world seed.]&f"
-				"&7[Meaning every new game or server, you have to research.]&f"
-				""
-				"&7[Algorithm is simple:]&f"
-				""
-				"&7[1. Put an item into slot, and scroll the frequency slider to find when transformation starts.]&f"
-				""
-				"&7[2. Transformation speed depends on the ratio slider (FE gen / Transformation) above.]&f"
-				""
-				"&7[3. The frequency can be defined with redstone signal sent into the port. Signal strength is the frequency.]&f"
+				"3. The frequency can be defined with redstone signal sent into the port. Signal strength is the frequency."
 			]
 			id: "28BB27A54B194C8B"
 			rewards: [{
@@ -1104,87 +1011,22 @@
 			}]
 			tasks: [{
 				id: "39E570C65BEFC539"
-				title: "明白了"
+				title: "Understood"
 				type: "checkmark"
 			}]
-			title: "量子转化&7[Quantum Transformations]&f"
-			x: -4.0d
-			y: -4.5d
+			title: "Quantum Transformations"
+			x: -5.5d
+			y: -7.0d
 		}
 		{
-			id: "18550A96B03860FE"
-			rewards: [{
-				id: "29F002BBA07AC427"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [
-				{
-					id: "6D61669244445B31"
-					item: "mekanism:hazmat_mask"
-					type: "item"
-				}
-				{
-					id: "6D29D4A5DBC65BEF"
-					item: "mekanism:hazmat_gown"
-					type: "item"
-				}
-				{
-					id: "09947B464FB4B548"
-					item: "mekanism:hazmat_pants"
-					type: "item"
-				}
-				{
-					id: "45854F573E0D92DB"
-					item: "mekanism:hazmat_boots"
-					type: "item"
-				}
-			]
-			x: -16.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["18550A96B03860FE"]
-			id: "6FC34F7B2A86F02C"
-			rewards: [{
-				id: "1CE2A679AD7C18D4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3A48EBFB1F102F91"
-					item: "nuclearcraft:light"
-					type: "item"
-				}
-				{
-					id: "5BC24C9760D1CAA1"
-					item: "nuclearcraft:medium"
-					type: "item"
-				}
-				{
-					id: "63F3B6F3535E5D15"
-					item: "nuclearcraft:heavy"
-					type: "item"
-				}
-				{
-					id: "62D7C9B5A735CA6A"
-					item: "nuclearcraft:dps"
-					type: "item"
-				}
-			]
-			x: -16.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["18550A96B03860FE"]
 			id: "32759CFEBBA542EA"
 			rewards: [{
 				id: "2FB7D71D787E4C9E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 64L
@@ -1211,36 +1053,8 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
+			x: -14.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["18550A96B03860FE"]
-			id: "05E6B77DA9440C23"
-			rewards: [{
-				id: "42006CEEB51FEE19"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "48C3C3E531B353B6"
-					item: "nuclearcraft:radaway"
-					type: "item"
-				}
-				{
-					id: "23F2134175B548FC"
-					item: "nuclearcraft:radaway_slow"
-					type: "item"
-				}
-				{
-					id: "173C75120E6A5C73"
-					item: "nuclearcraft:rad_x"
-					type: "item"
-				}
-			]
-			x: -15.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["7A00CCB42934E627"]
@@ -1255,7 +1069,7 @@
 				item: "nuclearcraft:supercooler"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
@@ -1270,7 +1084,7 @@
 				item: "nuclearcraft:pump"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.0d
 			y: 1.5d
 		}
 		{
@@ -1298,7 +1112,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -11.5d
 			y: 1.5d
 		}
 		{
@@ -1314,8 +1128,8 @@
 				item: "nuclearcraft:subatomic_liquifier"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -6.5d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["60DCF5DE31DD7BC6"]
@@ -1325,15 +1139,15 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "黑洞能量供给&7[Feeding the Blackhole]&f"
+			subtitle: "Feeding the Blackhole"
 			tasks: [{
 				amount: 1000L
 				fluid: "nuclearcraft:subliquid_matter"
 				id: "16F38AD5A310A707"
 				type: "fluid"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7BF786E0EEE4860D"]
@@ -1424,6 +1238,548 @@
 			x: -1.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["31C6C9EB8AD4F3BE"]
+			id: "76D5CB6F9A474639"
+			rewards: [{
+				id: "702D41F4FD9AA8D4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A8367EA5CFFDC64"
+				item: "nuclearcraft:silicon_n_doped"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76D5CB6F9A474639"]
+			id: "016D57F0F4EB1094"
+			rewards: [{
+				id: "5BB4B6ACC4D0B16D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF2032EE383ACBF"
+				item: "nuclearcraft:assembler"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["016D57F0F4EB1094"]
+			id: "1CC02FC59DDC8045"
+			rewards: [{
+				id: "3E20096BE707E081"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09B0725A47293399"
+				item: "nuclearcraft:basic_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CC02FC59DDC8045"]
+			description: [
+				"With Accelerators combined with Target Chambers you can produce new stuff by smashing particles into items/liquids."
+				"{image:kubejs:block/screen/accelerator_chamber width:100 height:50 align:center fit:true}"
+			]
+			id: "5AA72D06752A6DFE"
+			rewards: [{
+				id: "7E9ACA69E7A36EF5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "19B030DFE1C8A5C6"
+					item: "nuclearcraft:linear_accelerator_controller"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "132ABD31A26448CC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "nuclearcraft:accelerator_casing_glass"
+								}
+								{
+									Count: 1b
+									id: "nuclearcraft:accelerator_casing"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "42D9B30991DB92CC"
+					item: { Count: 4, id: "nuclearcraft:accelerator_port" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5AA72D06752A6DFE"]
+			description: ["Ion Source is the place where you insert particle source item or liquid."]
+			id: "411669CC4DF809D5"
+			rewards: [{
+				id: "510FFEF88845442A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B18676116A42572"
+				item: "nuclearcraft:accelerator_ion_source_port"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["411669CC4DF809D5"]
+			description: [
+				"Make a beam lines in the center of Accelerator and Target Chamber."
+				"It also used to connect accelerator with Target Chamber."
+				"Each beam block focus loss = 0.02"
+			]
+			id: "1368D3A68133F64D"
+			rewards: [{
+				id: "14C6CC38A0BD82AF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "173004038725F2AB"
+				item: "nuclearcraft:particle_beam"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1368D3A68133F64D"]
+			description: [
+				"Beam Port used to transfer particle outside or inside accelerator."
+				"Use Multitool to configure Beam Port modes."
+			]
+			id: "3449640180DA7A00"
+			rewards: [{
+				id: "10907A1F039C2DC1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E2C0E2B359D7BA9"
+					item: "nuclearcraft:accelerator_beam_port"
+					type: "item"
+				}
+				{
+					id: "2F271635C6B3A2AE"
+					item: {
+						Count: 1
+						id: "nuclearcraft:multitool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3449640180DA7A00"]
+			description: [
+				"Amplifiers need to be placed around beam block, forming \"O\" shape out of 8 blocks."
+				"Pay attention to Voltage. 200keV means 1 ring of amplifiers will give 200keV, not each amplifier block"
+			]
+			id: "28FE6F1865D3CA24"
+			rewards: [{
+				id: "395E917F8C399358"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Increasing particle energy"
+			tasks: [{
+				count: 8L
+				id: "481096CE9E7F1C23"
+				item: {
+					Count: 24
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:amplifiers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Amplifiers"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28FE6F1865D3CA24"]
+			description: ["To keep particles beam tight, you need to place electromagnes around beam block. Forming \"O\" shape made out of 4 blocks."]
+			id: "3C19702E2101B710"
+			rewards: [{
+				id: "67923F9E736F53CE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Electromagnetic field"
+			tasks: [{
+				count: 4L
+				id: "51951997597EBFB7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nuclearcraft:electromagnets"
+					}
+				}
+				type: "item"
+			}]
+			title: "Beam Focus"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3C19702E2101B710"
+				"4A015506040E6C3D"
+			]
+			description: ["Like in fission reactor, accelerator need to be cooled. It has wide set of coolers with different placement requirements."]
+			id: "7139A8D15E99D767"
+			rewards: [{
+				id: "1242D83F21A3260A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40501C17786E5C9F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:manganese_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:silver_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:fluorite_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:water_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:emerald_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:slime_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:arsenic_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:liquid_nitrogen_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lead_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:diamond_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:redstone_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:quartz_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:aluminum_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:end_stone_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:obsidian_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:magnesium_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:boron_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:glowstone_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:iron_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:lapis_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:gold_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:tin_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:carobbiite_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:purpur_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:enderium_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:nether_brick_cooler"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:cryotheum_cooler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Accelerator cooling"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: ["In order to cooldown you need constant supply of coolant liquid"]
+			id: "4A015506040E6C3D"
+			tasks: [{
+				id: "1E8FBCE1B068A864"
+				title: "Liquid coolant"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7139A8D15E99D767"]
+			description: ["Diborane is the first particle source you will need. Pump it into accelerator with Ion Source Port or Accelerator Port"]
+			id: "536FDAC7EF3BE8E8"
+			rewards: [{
+				id: "370A0DF9FDB701A4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "nuclearcraft:diborane"
+				id: "677934E58EAEE58C"
+				type: "fluid"
+			}]
+			title: "Particle source"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["536FDAC7EF3BE8E8"]
+			description: ["Target Chamber is the place where high energy particles smashes into stuff to produce new stuff."]
+			id: "3CCB79E81DC98BD0"
+			rewards: [{
+				id: "0759B46AC29429D5"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1694328571B8F4E2"
+					item: "nuclearcraft:target_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F726C079F85D2CE"
+					item: { Count: 2, id: "nuclearcraft:target_chamber_port" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CCB79E81DC98BD0"]
+			description: [
+				"You need 4 beam ports for each wall."
+				"Some should be used as particles input, others as particles outputs."
+				"Multitool for configuration."
+			]
+			id: "052AB2E6CC4C6A93"
+			rewards: [{
+				id: "6F24B51E0A48F51B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5D886F588D86F440"
+				item: { Count: 4, id: "nuclearcraft:target_chamber_beam_port" }
+				type: "item"
+			}]
+			title: "In/Out particles"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["052AB2E6CC4C6A93"]
+			description: ["Need to be placed in the center of target chamber, and connected to all 4 beam ports with beam blocks"]
+			id: "7B1B6754652C8299"
+			rewards: [{
+				id: "6C6DAB38681E3D97"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Heart of Target Chamber"
+			tasks: [{
+				id: "70FA393D820854C4"
+				item: "nuclearcraft:target_chamber_camera"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B1B6754652C8299"]
+			description: [
+				"Detectors affects recipe progression speed. "
+				"And they have very simple placement rules."
+			]
+			id: "7E3209CB27E9AAB0"
+			rewards: [{
+				id: "0293A16160B9C799"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "406DA9D1880F3B46"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:em_calorimeter"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:bubble_chamber"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:wire_chamber"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:hadron_calorimeter"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:silicon_tracker"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Detectors"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E3209CB27E9AAB0"]
+			description: [
+				"Quick checklist:"
+				"1. Energy for Accelerator and Target chamber"
+				"2. Coolant for Accelerator"
+				"3. Ion Source "
+				"4. Beam ports in correct modes"
+				"5. Redstone to activate accelerator controller and target chamber controller"
+			]
+			id: "6F1FC9E4A28480C6"
+			tasks: [{
+				id: "2644F99795B4E082"
+				title: "Ready to go"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F1FC9E4A28480C6"]
+			description: ["In order to get this Boron ION must have exactly 600keV and minimal focus of 2."]
+			id: "28F7D3471591659B"
+			rewards: [{
+				id: "0B4DCCB496407076"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76C6F5DDA7FD11E2"
+				item: "nuclearcraft:silicon_p_doped"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
 	]
-	title: "核能&7[Nuclear Energy]&f"
+	title: "Nuclear Energy"
 }

@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          item: 'mekanism:personal_chest',
+          item: 'evolvedmekanism:multiversal_personal_chest',
         },
         B: {
           item: 'evolvedmekanism:alloy_exoversal',

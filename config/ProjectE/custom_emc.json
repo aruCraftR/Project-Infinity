@@ -19,6 +19,158 @@
     {
       "item": "kubejs:infinity_7",
       "emc": 555555555
+    },
+    {
+      "item": "kubejs:infinity_11",
+      "emc": 9223372036854775806
+    },
+    {
+      "item": "kubejs:infinity_12",
+      "emc": 9223372036854775807
+    },
+    {
+      "item": "projectexpansion:basic_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:dark_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:red_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:magenta_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:pink_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:purple_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:violet_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:blue_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:cyan_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:green_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:lime_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:yellow_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:orange_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:white_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:fading_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:final_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:yellow_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:white_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:lime_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:pink_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:basic_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:violet_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:blue_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:cyan_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:orange_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:dark_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:magenta_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:red_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:fading_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:purple_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:final_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:green_collector",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_pile",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_nugget",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_ingot",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron",
+      "emc": 0
     }
   ]
 }

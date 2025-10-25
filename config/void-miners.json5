@@ -1,11 +1,25 @@
 {
   "ALLOW_NO_ENERGY_MINERS": false,
   "ALLOW_NO_ENERGY_SOLAR_PANELS": false,
+  "MINER_DIMENSION_SETTINGS": {
+    "enabled": true,
+    "defaultAllow": false,
+    "globalAllow": ["minecraft:overworld","minecraft:nether","minecraft:end"],
+    "globalBlock": [],
+    "tierRules": {}
+  },
+  "SOLAR_DIMENSION_SETTINGS": {
+    "enabled": false,
+    "defaultAllow": true,
+    "globalAllow": [],
+    "globalBlock": [],
+    "tierRules": {}
+  },
   "MINER_CONFIGS": {
     "caerium": {
       "energyStorage": 500000000,
       "duration": 500,
-      "energyTick": 550,
+      "energyTick": 5500,
       "modifiers": {
         "speed": {
           "energy": 1.2,
@@ -37,15 +51,14 @@
       },
       "tooltip": [
         "\u00a76CAERIUM MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76500.00 MFE",
         "\u00a79Capacity: \u00a7f500.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f550 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f5,500 FE/t"
       ]
     },
     "aurantium": {
       "energyStorage": 25000000,
       "duration": 900,
-      "energyTick": 350,
+      "energyTick": 3500,
       "modifiers": {
         "speed": {
           "energy": 1.12,
@@ -77,15 +90,14 @@
       },
       "tooltip": [
         "\u00a76AURANTIUM MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a7625.00 MFE",
         "\u00a79Capacity: \u00a7f25.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f350 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f3,500 FE/t"
       ]
     },
     "amethystine": {
       "energyStorage": 750000000,
       "duration": 400,
-      "energyTick": 600,
+      "energyTick": 6000,
       "modifiers": {
         "speed": {
           "energy": 1.22,
@@ -117,15 +129,14 @@
       },
       "tooltip": [
         "\u00a76AMETHYSTINE MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76750.00 MFE",
         "\u00a79Capacity: \u00a7f750.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f600 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f6,000 FE/t"
       ]
     },
     "azurine": {
       "energyStorage": 250000000,
       "duration": 600,
-      "energyTick": 500,
+      "energyTick": 5000,
       "modifiers": {
         "speed": {
           "energy": 1.18,
@@ -157,15 +168,14 @@
       },
       "tooltip": [
         "\u00a76AZURINE MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76250.00 MFE",
         "\u00a79Capacity: \u00a7f250.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f500 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f5,000 FE/t"
       ]
     },
     "ultimate": {
       "energyStorage": 2147483647,
       "duration": 200,
-      "energyTick": 700,
+      "energyTick": 7000,
       "modifiers": {
         "speed": {
           "energy": 1.3,
@@ -197,15 +207,14 @@
       },
       "tooltip": [
         "\u00a76ULTIMATE MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a762.15 GFE",
         "\u00a79Capacity: \u00a7f2.15 GFE",
-        "\u00a7cEnergy per tick: \u00a7f700 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f7,000 FE/t"
       ]
     },
     "citrinetine": {
       "energyStorage": 50000000,
       "duration": 800,
-      "energyTick": 400,
+      "energyTick": 4000,
       "modifiers": {
         "speed": {
           "energy": 1.14,
@@ -237,15 +246,14 @@
       },
       "tooltip": [
         "\u00a76CITRINETINE MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a7650.00 MFE",
         "\u00a79Capacity: \u00a7f50.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f400 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f4,000 FE/t"
       ]
     },
     "verdium": {
       "energyStorage": 100000000,
       "duration": 700,
-      "energyTick": 450,
+      "energyTick": 4500,
       "modifiers": {
         "speed": {
           "energy": 1.16,
@@ -277,15 +285,14 @@
       },
       "tooltip": [
         "\u00a76VERDIUM MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76100.00 MFE",
         "\u00a79Capacity: \u00a7f100.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f450 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f4,500 FE/t"
       ]
     },
     "rosarium": {
       "energyStorage": 1000000000,
       "duration": 300,
-      "energyTick": 650,
+      "energyTick": 6500,
       "modifiers": {
         "speed": {
           "energy": 1.24,
@@ -317,15 +324,14 @@
       },
       "tooltip": [
         "\u00a76ROSARIUM MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a761.00 GFE",
         "\u00a79Capacity: \u00a7f1.00 GFE",
-        "\u00a7cEnergy per tick: \u00a7f650 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f6,500 FE/t"
       ]
     },
     "rubetine": {
       "energyStorage": 10000000,
       "duration": 1000,
-      "energyTick": 300,
+      "energyTick": 3000,
       "modifiers": {
         "speed": {
           "energy": 1.1,
@@ -357,9 +363,8 @@
       },
       "tooltip": [
         "\u00a76RUBETINE MINER",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a7610.00 MFE",
         "\u00a79Capacity: \u00a7f10.00 MFE",
-        "\u00a7cEnergy per tick: \u00a7f300 FE/t"
+        "\u00a7cEnergy per tick: \u00a7f3,000 FE/t"
       ]
     }
   },
@@ -388,9 +393,8 @@
       },
       "tooltip": [
         "\u00a76CAERIUM SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76512.00 MFE",
         "\u00a79Capacity: \u00a7f512.00 MFE",
-        "\u00a7aGeneration: \u00a7f262144 FE/t"
+        "\u00a7aGeneration: \u00a7f262,144 FE/t"
       ]
     },
     "aurantium": {
@@ -417,9 +421,8 @@
       },
       "tooltip": [
         "\u00a76AURANTIUM SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a7632.00 MFE",
         "\u00a79Capacity: \u00a7f32.00 MFE",
-        "\u00a7aGeneration: \u00a7f2048 FE/t"
+        "\u00a7aGeneration: \u00a7f2,048 FE/t"
       ]
     },
     "amethystine": {
@@ -446,9 +449,8 @@
       },
       "tooltip": [
         "\u00a76AMETHYSTINE SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a762.04 GFE",
         "\u00a79Capacity: \u00a7f2.04 GFE",
-        "\u00a7aGeneration: \u00a7f524288 FE/t"
+        "\u00a7aGeneration: \u00a7f524,288 FE/t"
       ]
     },
     "azurine": {
@@ -475,9 +477,8 @@
       },
       "tooltip": [
         "\u00a76AZURINE SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76256.00 MFE",
         "\u00a79Capacity: \u00a7f256.00 MFE",
-        "\u00a7aGeneration: \u00a7f65536 FE/t"
+        "\u00a7aGeneration: \u00a7f65,536 FE/t"
       ]
     },
     "ultimate": {
@@ -504,9 +505,8 @@
       },
       "tooltip": [
         "\u00a76ULTIMATE SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76461.00 TFE",
         "\u00a79Capacity: \u00a7f461.00 TFE",
-        "\u00a7aGeneration: \u00a7f203685477 FE/t"
+        "\u00a7aGeneration: \u00a7f203,685,477 FE/t"
       ]
     },
     "citrinetine": {
@@ -533,9 +533,8 @@
       },
       "tooltip": [
         "\u00a76CITRINETINE SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a7664.00 MFE",
         "\u00a79Capacity: \u00a7f64.00 MFE",
-        "\u00a7aGeneration: \u00a7f8192 FE/t"
+        "\u00a7aGeneration: \u00a7f8,192 FE/t"
       ]
     },
     "verdium": {
@@ -562,9 +561,8 @@
       },
       "tooltip": [
         "\u00a76VERDIUM SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76128.00 MFE",
         "\u00a79Capacity: \u00a7f128.00 MFE",
-        "\u00a7aGeneration: \u00a7f32768 FE/t"
+        "\u00a7aGeneration: \u00a7f32,768 FE/t"
       ]
     },
     "rosarium": {
@@ -591,9 +589,8 @@
       },
       "tooltip": [
         "\u00a76ROSARIUM SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a76131.00 GFE",
         "\u00a79Capacity: \u00a7f131.00 GFE",
-        "\u00a7aGeneration: \u00a7f8388608 FE/t"
+        "\u00a7aGeneration: \u00a7f8,388,608 FE/t"
       ]
     },
     "rubetine": {
@@ -620,7 +617,6 @@
       },
       "tooltip": [
         "\u00a76RUBETINE SOLAR PANEL",
-        "\u00a7eStored energy: \u00a7f0 FE/\u00a768.00 MFE",
         "\u00a79Capacity: \u00a7f8.00 MFE",
         "\u00a7aGeneration: \u00a7f512 FE/t"
       ]

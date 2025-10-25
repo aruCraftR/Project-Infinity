@@ -19,10 +19,10 @@ ServerEvents.recipes((event) => {
           item: 'cobblefordays:tier_1',
         },
         B: {
-          item: 'kubejs:infinity_12',
+          item: 'kubejs:infinity_1',
         },
         C: {
-          item: 'botanicalextramachinery:crimson_ingot_block',
+          item: 'botanicalextramachinery:malachite_ingot_block',
         },
         D: {
           item: 'cobblefordays:tier_5',
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'cobblefordays:tier_4',
         },
         L: {
-          item: 'botanicalextramachinery:crimson_spark',
+          item: 'botanicalextramachinery:malachite_spark',
         },
         M: {
           item: 'mysticalexpansion:divinium_gemstone',
@@ -67,19 +67,19 @@ ServerEvents.recipes((event) => {
           item: 'minecraft:pointed_dripstone',
         },
         R: {
-          item: 'compressium:cobblestone_9',
+          item: 'compressium:cobblestone_6',
         },
         S: {
           item: 'minecraft:polished_blackstone_button',
         },
         T: {
-          item: 'compressium:cobblestone_8',
+          item: 'compressium:cobblestone_5',
         },
         U: {
           item: 'botania:cobble_rod',
         },
         V: {
-          item: 'compressium:cobblestone_7',
+          item: 'compressium:cobblestone_4',
         },
         W: {
           item: 'twilightforest:giant_cobblestone',
@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
           item: 'extendedcrafting:ultimate_singularity',
         },
         Y: {
-          item: 'compressium:cobblestone_6',
+          item: 'compressium:cobblestone_3',
         },
       },
       result: {

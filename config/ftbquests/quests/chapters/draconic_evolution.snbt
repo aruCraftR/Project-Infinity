@@ -10,12 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"&a&a龙尘&f&r 是一种基础材料,用于多种合成配方."
-				""
-				""
-				"&7[The Draconium Dust is an essential, used for various crafting recipes.]&f"
-			]
+			description: ["The &aDraconium Dust&r is an essential, used for various crafting recipes."]
 			id: "76E6C8B3F124B3B2"
 			rewards: [{
 				id: "09910E283F4647D0"
@@ -34,12 +29,7 @@
 		}
 		{
 			dependencies: ["76E6C8B3F124B3B2"]
-			description: [
-				"&a&a龙锭&f&r 是重要物品,广泛用于合成和升级各种装备."
-				""
-				""
-				"&7[The Draconium Ingot is a vital item used extensively in crafting and upgrading various items.]&f"
-			]
+			description: ["The &aDraconium Ingot&r is a vital item used extensively in crafting and upgrading various items."]
 			id: "36118FAB0964F805"
 			rewards: [{
 				id: "1C79C68F3A38C11D"
@@ -57,14 +47,9 @@
 		{
 			dependencies: ["76E6C8B3F124B3B2"]
 			description: [
-				"&a传送器&r 可用于进行传送."
+				"The &aDislocator&r is used to teleport you."
 				""
-				"&bShift+&a右击&f&r 设置传送位置,之后只需 &b&a右击&f&r 即可传送到该地点(&d适用于所有维度&r),或将其放置在 &d&a传送符咒基座&f&r 上以避免消耗耐久度."
-				""
-				""
-				"&7[The Dislocator is used to teleport you.]&f"
-				""
-				"&7[Shift+Right Click to set the teleportation position, then you can just Right Click it to teleport you to the location (works in any dimension) or you can put it on a Dislocator Pedestal to not use the durability.]&f"
+				"&bShift+Right Click&r to set the teleportation position, then you can just &bRight Click&r it to teleport you to the location (&dworks in any dimension&r) or you can put it on a &dDislocator Pedestal&r to not use the durability."
 			]
 			id: "607D5F077D4B0715"
 			rewards: [{
@@ -88,12 +73,7 @@
 		}
 		{
 			dependencies: ["607D5F077D4B0715"]
-			description: [
-				"&a物品吸引器&r 是一个磁铁,作用范围为 &d8 格&r."
-				""
-				""
-				"&7[The Item Dislocator is a magnet with a range of 8 blocks.]&f"
-			]
+			description: ["The &aItem Dislocator&r is a magnet with a range of &d8 blocks&r."]
 			id: "54FD2EA4EAB18FA9"
 			rewards: [{
 				id: "56551AFC4A85DF6B"
@@ -110,12 +90,7 @@
 		}
 		{
 			dependencies: ["54FD2EA4EAB18FA9"]
-			description: [
-				"&a觉醒物品吸引器&r 是一个磁铁,作用范围为 &d32 格&r."
-				""
-				""
-				"&7[The Awakened Item Dislocator is a magnet with a range of 32 blocks.]&f"
-			]
+			description: ["The &aAwakened Item Dislocator&r is a magnet with a range of &d32 blocks&r."]
 			id: "1B855E9478095343"
 			rewards: [{
 				id: "2FB97AC2BFD8E6BC"
@@ -136,14 +111,9 @@
 				"451517C833D25E1A"
 			]
 			description: [
-				"&a高级传送器&r 是一种可以存储多个 &d传送点&r 的设备."
+				"The &aAdvanced Dislocator&r is a device that can store a lot of &dTP points&r. "
 				""
-				"&bShift+&a右击&f&r 注册传送点,可重命名并锁定.使用 &c&a末影珍珠&f&r 作为燃料."
-				""
-				""
-				"&7[The Advanced Dislocator is a device that can store a lot of TP points. ]&f"
-				""
-				"&7[Shift+Right Click to register your teleportation point in it, you can rename it and lock. It uses Ender Pearls for fuel.]&f"
+				"&bShift+Right Click&r to register your teleportation point in it, you can rename it and lock. It uses &cEnder Pearls&r for fuel."
 			]
 			id: "1F7265FE8C269446"
 			rewards: [{
@@ -153,7 +123,11 @@
 			}]
 			tasks: [{
 				id: "2A3887671D6A19D0"
-				item: "draconicevolution:advanced_dislocator"
+				item: {
+					Count: 1
+					id: "draconicevolution:advanced_dislocator"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -161,12 +135,7 @@
 		}
 		{
 			dependencies: ["36118FAB0964F805"]
-			description: [
-				"&a&a龙核心&f&r 是一种重要的合成材料,用于多种配方,也可用于将生物生成器稳定为 &b&a稳定刷怪箱&f&r."
-				""
-				""
-				"&7[The Draconium Core is an important crafting ingredient. It's used in many recipes and it is also used to stabilize a mob spawner into a Stabilized Mob Spawner.]&f"
-			]
+			description: ["The &aDraconium Core&r is an important crafting ingredient. It's used in many recipes and it is also used to stabilize a mob spawner into a &bStabilized Mob Spawner&r."]
 			id: "1F9411E20E806B1E"
 			rewards: [{
 				id: "62931E97BA2CCF08"
@@ -183,12 +152,7 @@
 		}
 		{
 			dependencies: ["1F9411E20E806B1E"]
-			description: [
-				"&a&a双足飞龙核心&f&r 是 &a龙核心&f 的进阶版本,用于高级合成配方,如所有 &b飞龙工具&r 和 &b胸甲部件&r."
-				""
-				""
-				"&7[The Wyvern Core is the advanced version of a Draconic Core. It is used in higher crafting recipes like all the Wyvern Tools and Chest Piece.]&f"
-			]
+			description: ["The &aWyvern Core&r is the advanced version of a Draconic Core. It is used in higher crafting recipes like all the &bWyvern Tools&r and &bChest Piece&r."]
 			id: "01FB8D69E655FED3"
 			rewards: [{
 				id: "159F9CA1723BBA24"
@@ -208,12 +172,7 @@
 				"01FB8D69E655FED3"
 				"59821984FDC731C9"
 			]
-			description: [
-				"&a&a觉醒核心&f&r 是第三阶核心,主要用于合成 &b&a神龙之力权杖&f&r."
-				""
-				""
-				"&7[The Awakened Core is the third tier of cores. It's mainly used for crafting the Draconic Staff of Power.]&f"
-			]
+			description: ["The &aAwakened Core&r is the third tier of cores. It's mainly used for crafting the &bDraconic Staff of Power&r."]
 			id: "02C61505B5649304"
 			rewards: [{
 				id: "79A1FFED5C7A605F"
@@ -233,12 +192,7 @@
 				"02C61505B5649304"
 				"517A4A2D4EDD6359"
 			]
-			description: [
-				"&a&a混沌核心&f&r 是最终阶核心,用于合成 &b混沌物品&r 以及 &b&a反应堆稳定器&f&r."
-				""
-				""
-				"&7[The Chaotic Core is the final core. It's used to craft Chaotic items and also the Reactor Stabilizer.]&f"
-			]
+			description: ["The &aChaotic Core&r is the final core. It's used to craft &bChaotic items&r and also the &bReactor Stabilizer&r."]
 			id: "5F893D12A98FB378"
 			rewards: [{
 				id: "59DF7B9E28D6F25C"
@@ -254,12 +208,7 @@
 			y: 12.5d
 		}
 		{
-			description: [
-				"通过击杀 &c&a末影龙&f&r 可获得 &a&a龙之心&f&r."
-				""
-				""
-				"&7[You can get a Dragon Heart by killing the Ender Dragon.]&f"
-			]
+			description: ["You can get a &aDragon Heart&r by killing the &cEnder Dragon&r."]
 			id: "7559B2C7BB3440A8"
 			rewards: [{
 				id: "25485D1405A233E7"
@@ -276,12 +225,7 @@
 		}
 		{
 			dependencies: ["7559B2C7BB3440A8"]
-			description: [
-				"使用&a&a聚合核心&f&r将&a&a龙之心&f&r、若干&a&a龙芯&f&r和&a&a龙块&f&r结合,获得&b&a觉醒龙块&f&r."
-				""
-				""
-				"&7[Use the Fusion Crafting Core to combine a Dragon Heart, some Draconic Cores, and Draconium Blocks to get the Awakened Draconium Blocks.]&f"
-			]
+			description: ["Use the &aFusion Crafting Core&r to combine a &aDragon Heart&r, some &aDraconic Cores&r, and &aDraconium Blocks&r to get the &bAwakened Draconium Blocks&r."]
 			id: "24B3F8554E46922F"
 			rewards: [{
 				id: "64C002C97A41E1C2"
@@ -330,12 +274,7 @@
 		}
 		{
 			dependencies: ["1F9411E20E806B1E"]
-			description: [
-				"&a水晶绑定器&r是用于将&d能量输入/输出水晶&r连接到各种设备的工具."
-				""
-				""
-				"&7[The Crystal Binder is a tool used to link Energy I/O Crystals to various devices.]&f"
-			]
+			description: ["The &aCrystal Binder&r is a tool used to link &dEnergy I/O Crystals&r to various devices."]
 			id: "7F4DCEA4209DEDC3"
 			rewards: [{
 				id: "4D87F5D8D41D1C3E"
@@ -353,14 +292,9 @@
 		{
 			dependencies: ["1F9411E20E806B1E"]
 			description: [
-				"&a&a龙之聚合注入器&f&r 是 &a聚合装置&f 注入器的初始等级,用于聚变合成过程."
+				"The &aDraconium Fusion Crafting Injector&r is the initial tier of Fusion Crafting Injectors for the Fusion crafting process."
 				""
-				"需将其放置在距离 &d&a聚变仓核心&f&r 至少 &b2 格&r 的位置,最大配置为任意方向的 &b3x3&r 范围."
-				""
-				""
-				"&7[The Draconium Fusion Crafting Injector is the initial tier of Fusion Crafting Injectors for the Fusion crafting process.]&f"
-				""
-				"&7[Place it at least 2 blocks away from the Fusion Core, with a maximum configuration of 3x3 on any side.]&f"
+				"Place it at least &b2 blocks&r away from the &dFusion Core&r, with a maximum configuration of &b3x3&r on any side."
 				""
 			]
 			id: "45FEB8DE88CE4920"
@@ -379,12 +313,7 @@
 		}
 		{
 			dependencies: ["45FEB8DE88CE4920"]
-			description: [
-				"&a&a能量注入器&f&r 用于快速为龙之装备充能,内部最多可为 &b4 件物品&r 或 &b方块&r 充能."
-				""
-				""
-				"&7[The Energy Transfuser is used to rapidly recharge your draconic items. You can charge up to 4 items or blocks inside.]&f"
-			]
+			description: ["The &aEnergy Transfuser&r is used to rapidly recharge your draconic items. You can charge up to &b4 items&r or &bblocks&r inside."]
 			id: "36D74C310EBF1C95"
 			rewards: [{
 				id: "3BD41AC47260214F"
@@ -402,22 +331,13 @@
 		{
 			dependencies: ["1F9411E20E806B1E"]
 			description: [
-				"&a&a能量核心&f&r 是能量球的核心.&b&a能量塔&f&r 用于输入或提取能量,需在塔顶或塔底放置 &c玻璃块&r 以激活.&d&a能量核心稳定器&f&r 用于稳定能量球."
+				"The &aEnergy Core&r is the center of your energy ball. The &bEnergy Pylons&r are used to insert or extract energy, you need to place a &cglass block&r on top or below the pylon to activate it. The &dEnergy Core Stabilizers&r are used to stabilize your energy ball."
 				""
-				"可创建从 &b小型球(1阶)&r 到 &b巨型球(8阶)&r 的能量球,阶数越高,球体越大,存储能量越多."
+				"You can create energy balls ranging from a &bsmall ball (Tier 1)&r to a &bgiant ball (Tier 8)&r. Higher tiers are larger and store more energy."
 				""
-				"将 &d&a能量核心稳定器&f&r 放置在距离能量球 &b1 格&r 到 &b8 格&r 的位置."
+				"Place the &dEnergy Core Stabilizers&r between &b1 block&r and &b8 blocks&r away from your energy ball."
 				""
-				"可在稳定器的 &d图形用户界面&r 中自定义能量球轮廓的颜色."
-				""
-				""
-				"&7[The Energy Core is the center of your energy ball. The Energy Pylons are used to insert or extract energy, you need to place a glass block on top or below the pylon to activate it. The Energy Core Stabilizers are used to stabilize your energy ball.]&f"
-				""
-				"&7[You can create energy balls ranging from a small ball (Tier 1) to a giant ball (Tier 8). Higher tiers are larger and store more energy.]&f"
-				""
-				"&7[Place the Energy Core Stabilizers between 1 block and 8 blocks away from your energy ball.]&f"
-				""
-				"&7[You can customize the color of the ball's outline in the GUI of your stabilizers.]&f"
+				"You can customize the color of the ball's outline in the &dGUI&r of your stabilizers."
 			]
 			id: "46315A83942FFE6E"
 			rewards: [{
@@ -449,12 +369,7 @@
 		}
 		{
 			dependencies: ["02C61505B5649304"]
-			description: [
-				"&a龙之&a聚合装置&f注入器&r代表第三&b阶&r的&a聚合装置&f注入器.其卓越的能量吸收速率可加速&d&a聚合核心&f&r内的合成进程."
-				""
-				""
-				"&7[The Draconic Fusion Crafting Injector represents the third tier of Fusion Crafting Injectors. Its superior energy absorption rate accelerates the crafting process within the Fusion Crafting Core.]&f"
-			]
+			description: ["The &aDraconic Fusion Crafting Injector&r represents the third &btier&r of Fusion Crafting Injectors. Its superior energy absorption rate accelerates the crafting process within the &dFusion Crafting Core&r."]
 			id: "4C09EB1987587A3E"
 			rewards: [{
 				id: "130268EFBEB5AC66"
@@ -471,12 +386,7 @@
 		}
 		{
 			dependencies: ["5F893D12A98FB378"]
-			description: [
-				"&a混沌&a聚合装置&f注入器&r是最高&b阶&r的注入器,提供无与伦比的能量输入速度.与&d&a聚合核心&f&r配合使用时,可实现最快的合成速度."
-				""
-				""
-				"&7[The Chaotic Fusion Crafting Injector is the highest tier available, offering unmatched energy intake speed. This results in the quickest crafting times when used with the Fusion Crafting Core.]&f"
-			]
+			description: ["The &aChaotic Fusion Crafting Injector&r is the highest &btier&r available, offering unmatched energy intake speed. This results in the quickest crafting times when used with the &dFusion Crafting Core&r."]
 			id: "398F2CE7DBE4A31B"
 			rewards: [{
 				id: "1A7FF602EC484B48"
@@ -493,12 +403,7 @@
 		}
 		{
 			dependencies: ["01FB8D69E655FED3"]
-			description: [
-				"&a飞龙&a聚合装置&f注入器&r是&a聚合装置&f工艺中的第二&b阶&r设备.其快速汲取能量的能力使得&d&a聚合核心&f&r中的合成操作更加高效."
-				""
-				""
-				"&7[The Wyvern Fusion Crafting Injector is the second tier in the Fusion Crafting process. Its ability to draw energy quickly makes crafting operations in the Fusion Crafting Core more efficient.]&f"
-			]
+			description: ["The &aWyvern Fusion Crafting Injector&r is the second &btier&r in the Fusion Crafting process. Its ability to draw energy quickly makes crafting operations in the &dFusion Crafting Core&r more efficient."]
 			id: "155AD7F62D76E812"
 			rewards: [{
 				id: "3B8FA55CE5D0AE8E"
@@ -516,14 +421,9 @@
 		{
 			dependencies: ["398F2CE7DBE4A31B"]
 			description: [
-				"&a&a混沌通量容器&f&r拥有&b8x6&r的模块网格."
+				"The &aChaotic Capacitor&r has a grid of &b8x6&r for modules."
 				""
-				"可为您的&d手持物品&r、&d护甲&r、&d快捷栏&r、&d主物品栏&r及&d饰品槽位&r充能."
-				""
-				""
-				"&7[The Chaotic Capacitor has a grid of 8x6 for modules.]&f"
-				""
-				"&7[It can charge your held item, armor, hotbar, main inventory, and your curios slots.]&f"
+				"It can charge your &dheld item&r, &darmor&r, &dhotbar&r, &dmain inventory&r, and your &dcurios slots&r."
 			]
 			id: "1E62FF75E939AD80"
 			rewards: [{
@@ -578,14 +478,9 @@
 		{
 			dependencies: ["4C09EB1987587A3E"]
 			description: [
-				"&a&a神龙通量容器&f&r拥有&b6x5&r的模块网格."
+				"The &aDraconic Capacitor&r has a grid of &b6x5&r for modules."
 				""
-				"可为您的&d手持物品&r、&d护甲&r、&d快捷栏&r、&d主物品栏&r及&d饰品槽位&r充能."
-				""
-				""
-				"&7[The Draconic Capacitor has a grid of 6x5 for modules.]&f"
-				""
-				"&7[It can charge your held item, armor, hotbar, main inventory, and your curios slots.]&f"
+				"It can charge your &dheld item&r, &darmor&r, &dhotbar&r, &dmain inventory&r, and your &dcurios slots&r."
 			]
 			id: "3081877A09CE2A60"
 			rewards: [{
@@ -640,14 +535,9 @@
 		{
 			dependencies: ["155AD7F62D76E812"]
 			description: [
-				"&a&a飞龙通量容器&f&r拥有&b4x4&r的模块网格."
+				"The &aWyvern Capacitor&r has a grid of &b4x4&r for modules."
 				""
-				"可为您的&d手持物品&r、&d护甲&r、&d快捷栏&r、&d主物品栏&r及&d饰品槽位&r充能."
-				""
-				""
-				"&7[The Wyvern Capacitor has a grid of 4x4 for modules.]&f"
-				""
-				"&7[It can charge your held item, armor, hotbar, main inventory, and your curios slots.]&f"
+				"It can charge your &dheld item&r, &darmor&r, &dhotbar&r, &dmain inventory&r, and your &dcurios slots&r."
 			]
 			id: "63FD630E1F808365"
 			rewards: [{
@@ -702,18 +592,11 @@
 		{
 			dependencies: ["678D7249F308ED28"]
 			description: [
-				"&a&a怪物磨床&f&r是配备可定制过滤器的强力刷怪工具,可指定攻击目标类型,如&d敌对生物&r、&d已驯服&r、&d成年体&r等."
+				"The &aMob Grinder&r is a powerful tool for killing mobs with customizable filters, allowing you to target specific types such as &dHostile&r, &dTamed&r, &dAdults&r, and more."
 				""
-				"可装备任意剑类武器(&c包括附魔剑&r),将消耗剑的耐久度."
+				"You can equip it with any sword (&cincluding enchanted ones&r), and it will use the sword's durability."
 				""
-				"能够秒杀&c凋灵BOSS&r."
-				""
-				""
-				"&7[The Mob Grinder is a powerful tool for killing mobs with customizable filters, allowing you to target specific types such as Hostile, Tamed, Adults, and more.]&f"
-				""
-				"&7[You can equip it with any sword (including enchanted ones), and it will use the sword's durability.]&f"
-				""
-				"&7[It is capable of one-shotting a Wither Boss.]&f"
+				"It is capable of one-shotting a &cWither Boss&r."
 			]
 			id: "618CDE6D1DAFBA8A"
 			rewards: [{
@@ -732,14 +615,9 @@
 		{
 			dependencies: ["1F9411E20E806B1E"]
 			description: [
-				"&a&a聚合核心&f&r是多方块&a聚合装置&f结构的核心,用于容纳待转换物品."
+				"The &aFusion Crafting Core&r is the center of the multi-block Fusion Crafting setup, its purpose is to hold the item to be transformed."
 				""
-				"通过点击&d图形界面&r按钮或接收&c红石信号&r启动合成."
-				""
-				""
-				"&7[The Fusion Crafting Core is the center of the multi-block Fusion Crafting setup, its purpose is to hold the item to be transformed.]&f"
-				""
-				"&7[It crafts by pressing the button on the GUI or by a Redstone signal.]&f"
+				"It crafts by pressing the button on the &dGUI&r or by a &cRedstone signal&r."
 			]
 			id: "451517C833D25E1A"
 			rewards: [{
@@ -758,18 +636,11 @@
 		{
 			dependencies: ["7F4DCEA4209DEDC3"]
 			description: [
-				"&a基础&a能量中继水晶&f&r用于在I/O水晶与能量水晶间建立中继.可存储&b4M RF&r能量,拥有&c8个连接点&r,作用范围&d32格&r."
+				"The &aBasic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b4M RF&r and has &c8 links&r, with a range of &d32 blocks&r."
 				""
-				"&a基础能量I/O水晶&f可存储&b4M RF&r能量,拥有&c2个连接点&r,作用范围&d32格&r."
+				"The &aBasic Energy I/O Crystal&r can store &b4M RF&r and has &c2 links&r, with a range of &d32 blocks&r."
 				""
-				"&a基础无线能量水晶&f用于无线供能.可存储&b4M RF&r能量,拥有&c4个连接点&r,在&e128格&r范围内为&d16台设备&r提供无线RF能量."
-				""
-				""
-				"&7[The Basic Energy Relay Crystal is used to make a relay between I/O Crystal and Energy Crystal. It can store 4M RF and has 8 links, with a range of 32 blocks.]&f"
-				""
-				"&7[The Basic Energy I/O Crystal can store 4M RF and has 2 links, with a range of 32 blocks.]&f"
-				""
-				"&7[The Basic Wireless Energy Crystal is used to power machines wirelessly. It can store 4M RF and has 4 links, providing wireless RF to 16 machines within a range of 128 blocks.]&f"
+				"The &aBasic Wireless Energy Crystal&r is used to power machines wirelessly. It can store &b4M RF&r and has &c4 links&r, providing wireless RF to &d16 machines&r within a range of &e128 blocks&r."
 			]
 			id: "052DDFB3F5EF8504"
 			rewards: [{
@@ -800,18 +671,11 @@
 		{
 			dependencies: ["4D059A8B3F97649A"]
 			description: [
-				"&a&a神龙能量中继水晶&f&r用于在I/O水晶与能量水晶间建立中继.可存储&b64M RF&r能量,拥有&c32个连接点&r,作用范围&d128格&r."
+				"The &aDraconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b64M RF&r and has &c32 links&r, with a range of &d128 blocks&r."
 				""
-				"&a&a神龙能量端口水晶&f&r可存储&b64M RF&r能量,拥有&c4个连接点&r,作用范围&d128格&r."
+				"The &aDraconic Energy I/O Crystal&r can store &b64M RF&r and has &c4 links&r, with a range of &d128 blocks&r."
 				""
-				"&a龙之无线能量水晶&f用于无线供能.可存储&b64M RF&r能量,拥有&c16个连接点&r,在&e128格&r范围内为&d64台设备&r提供无线RF能量."
-				""
-				""
-				"&7[The Draconic Energy Relay Crystal is used to make a relay between I/O Crystal and Energy Crystal. It can store 64M RF and has 32 links, with a range of 128 blocks.]&f"
-				""
-				"&7[The Draconic Energy I/O Crystal can store 64M RF and has 4 links, with a range of 128 blocks.]&f"
-				""
-				"&7[The Draconic Wireless Energy Crystal is used to power machines wirelessly. It can store 64M RF and has 16 links, providing wireless RF to 64 machines within a range of 128 blocks.]&f"
+				"The &aDraconic Wireless Energy Crystal&r is used to power machines wirelessly. It can store &b64M RF&r and has &c16 links&r, providing wireless RF to &d64 machines&r within a range of &e128 blocks&r."
 			]
 			id: "61FFBF4622E15859"
 			rewards: [{
@@ -842,18 +706,11 @@
 		{
 			dependencies: ["052DDFB3F5EF8504"]
 			description: [
-				"&a&a飞龙能量中继水晶&f&r用于在I/O水晶与能量水晶间建立中继.可存储&b16M RF&r能量,拥有&c16个连接点&r,作用范围&d64格&r."
+				"The &aWyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal. It can store &b16M RF&r and has &c16 links&r, with a range of &d64 blocks&r."
 				""
-				"&a&a飞龙能量端口水晶&f&r可存储&b16M RF&r能量,拥有&c3个连接点&r,作用范围&d64格&r."
+				"The &aWyvern Energy I/O Crystal&r can store &b16M RF&r and has &c3 links&r, with a range of &d64 blocks&r."
 				""
-				"&a飞龙无线能量水晶&f用于无线供能.可存储&b16M RF&r能量,拥有&c8个连接点&r,在&e128格&r范围内为&d32台设备&r提供无线RF能量."
-				""
-				""
-				"&7[The Wyvern Energy Relay Crystal is used to make a relay between I/O Crystal and Energy Crystal. It can store 16M RF and has 16 links, with a range of 64 blocks.]&f"
-				""
-				"&7[The Wyvern Energy I/O Crystal can store 16M RF and has 3 links, with a range of 64 blocks.]&f"
-				""
-				"&7[The Wyvern Wireless Energy Crystal is used to power machines wirelessly. It can store 16M RF and has 8 links, providing wireless RF to 32 machines within a range of 128 blocks.]&f"
+				"The &aWyvern Wireless Energy Crystal&r is used to power machines wirelessly. It can store &b16M RF&r and has &c8 links&r, providing wireless RF to &d32 machines&r within a range of &e128 blocks&r."
 			]
 			id: "4D059A8B3F97649A"
 			rewards: [{
@@ -883,12 +740,7 @@
 		}
 		{
 			dependencies: ["155AD7F62D76E812"]
-			description: [
-				"&a飞龙工具/武器&r拥有一个&b4x4&r的模块网格."
-				""
-				""
-				"&7[The Wyvern Tools/Weapons have a grid of 4x4 for modules.]&f"
-			]
+			description: ["The &aWyvern Tools/Weapons&r have a grid of &b4x4&r for modules."]
 			id: "1D2ED78CD7DEA8E2"
 			rewards: [{
 				id: "03168316DC000EE1"
@@ -1062,18 +914,13 @@
 					type: "item"
 				}
 			]
-			title: "飞龙工具 \\ 武器&7[Wyvern Tools \\ Weapons]&f"
+			title: "Wyvern Tools \\& Weapons"
 			x: -3.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4C09EB1987587A3E"]
-			description: [
-				"&a神龙工具/武器&r拥有一个&b6x5&r的模块网格."
-				""
-				""
-				"&7[The Draconic Tools/Weapons have a grid of 6x5 for modules.]&f"
-			]
+			description: ["The &aDraconic Tools/Weapons&r have a grid of &b6x5&r for modules."]
 			id: "538E40453CED445E"
 			rewards: [{
 				id: "06031C62CC45C686"
@@ -1247,18 +1094,13 @@
 					type: "item"
 				}
 			]
-			title: "神龙工具 \\ 武器&7[Draconic Tools \\ Weapons]&f"
+			title: "Draconic Tools \\& Weapons"
 			x: -4.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["398F2CE7DBE4A31B"]
-			description: [
-				"&a混沌工具/武器&r拥有一个&b8x6&r的模块网格."
-				""
-				""
-				"&7[The Chaotic Tools/Weapons have a grid of 8x6 for modules.]&f"
-			]
+			description: ["The &aChaotic Tools/Weapons&r have a grid of &b8x6&r for modules."]
 			id: "61696434C1A9A76C"
 			rewards: [{
 				id: "25E600157D3F78B2"
@@ -1432,21 +1274,16 @@
 					type: "item"
 				}
 			]
-			title: "混沌工具 \\ 武器&7[Chaotic Tools \\ Weapons]&f"
+			title: "Chaotic Tools \\& Weapons"
 			x: -3.75d
 			y: 11.0d
 		}
 		{
 			dependencies: ["63FD630E1F808365"]
 			description: [
-				"&a胸甲&r用于在您已穿戴的盔甲之上提供额外保护.单独使用时无效果；需通过模块进行升级."
+				"The &aChestpiece&r is used to protect you on top of your already worn armor. On its own, it does nothing; you have to upgrade it with modules."
 				""
-				"&a&a飞龙胸甲&f&r拥有一个&b6x5&r的模块网格."
-				""
-				""
-				"&7[The Chestpiece is used to protect you on top of your already worn armor. On its own, it does nothing; you have to upgrade it with modules.]&f"
-				""
-				"&7[The Wyvern Chest Piece has a grid of 6x5 for modules.]&f"
+				"The &aWyvern Chest Piece&r has a grid of &b6x5&r for modules."
 			]
 			id: "0DDC8C4F4BE5788D"
 			rewards: [{
@@ -1479,6 +1316,7 @@
 						}
 					}
 					id: "draconicevolution:wyvern_chestpiece"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -1487,12 +1325,7 @@
 		}
 		{
 			dependencies: ["3081877A09CE2A60"]
-			description: [
-				"&a&a神龙胸甲&f&r拥有一个&b8x6&r的模块网格."
-				""
-				""
-				"&7[The Draconic Chest Piece has a grid of 8x6 for modules.]&f"
-			]
+			description: ["The &aDraconic Chest Piece&r has a grid of &b8x6&r for modules."]
 			id: "7ECFA5751222D0EB"
 			rewards: [{
 				id: "7E59CC00CAD190E9"
@@ -1524,6 +1357,7 @@
 						}
 					}
 					id: "draconicevolution:draconic_chestpiece"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -1532,12 +1366,7 @@
 		}
 		{
 			dependencies: ["1E62FF75E939AD80"]
-			description: [
-				"&a&a混沌胸甲&f&r拥有一个&b10x8&r的模块网格."
-				""
-				""
-				"&7[The Chaotic Chest Piece has a grid of 10x8 for modules.]&f"
-			]
+			description: ["The &aChaotic Chest Piece&r has a grid of &b10x8&r for modules."]
 			id: "39959176F27817A1"
 			rewards: [{
 				id: "0ECFB333F47ED1A1"
@@ -1569,6 +1398,7 @@
 						}
 					}
 					id: "draconicevolution:chaotic_chestpiece"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -1580,12 +1410,7 @@
 				"398F2CE7DBE4A31B"
 				"61696434C1A9A76C"
 			]
-			description: [
-				"&a&a混沌力量权杖&f&r拥有一个&b10x8&r的模块网格."
-				""
-				""
-				"&7[The Chaotic Staff of Power has a grid of 10x8 for modules.]&f"
-			]
+			description: ["The &aChaotic Staff of Power&r has a grid of &b10x8&r for modules."]
 			id: "6D4361D7A8890651"
 			rewards: [{
 				id: "09F72BF48F056521"
@@ -1630,12 +1455,7 @@
 				"4C09EB1987587A3E"
 				"538E40453CED445E"
 			]
-			description: [
-				"&a&a神龙之力权杖&f&r拥有一个&b8x6&r的模块网格."
-				""
-				""
-				"&7[The Draconic Staff of Power has a grid of 8x6 for modules.]&f"
-			]
+			description: ["The &aDraconic Staff of Power&r has a grid of &b8x6&r for modules."]
 			id: "708421C2339616F3"
 			rewards: [{
 				id: "701EA4630222AA4B"
@@ -1678,14 +1498,9 @@
 		{
 			dependencies: ["36118FAB0964F805"]
 			description: [
-				"&a&a模块核心&f&r是您&d龙之进化/龙之研究&f物品中每个模块的基础."
+				"The &aModule Core&r is the base of every module for your Draconic Evolution items."
 				""
-				"按下快捷键&e&a工具模块&f&r可打开&2图形用户界面&r,在此处添加&a模块&r."
-				""
-				""
-				"&7[The Module Core is the base of every module for your Draconic Evolution items.]&f"
-				""
-				"&7[You can press the Keybind Tool Modules to open the GUI, there you can add the Modules.]&f"
+				"You can press the Keybind &6Tool Modules&r to open the &2GUI&r, there you can add the &aModules&r."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1754,12 +1569,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a范围模块&f&r增加工具和武器的效果范围(&d作用区域&r)."
-				""
-				""
-				"&7[The AOE Module increases the AOE (area of effect) of your tools and weapons.]&f"
-			]
+			description: ["The &aAOE Module&r increases the AOE (&darea of effect&r) of your tools and weapons."]
 			id: "38C3598203D0E017"
 			rewards: [{
 				id: "269CDB1BA1930B0B"
@@ -1808,12 +1618,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a飞行模块&f&r为您的胸甲添加鞘翅功能."
-				""
-				""
-				"&7[The Flight Module gives you an Elytra on your Chest Piece.]&f"
-			]
+			description: ["The &aFlight Module&r gives you an Elytra on your Chest Piece."]
 			id: "0F11F9D74E9F54E3"
 			rewards: [{
 				id: "2ED47F3669E11B74"
@@ -1830,12 +1635,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a弹射准度&f模块&r提升您使用弓时的精准度."
-				""
-				""
-				"&7[The Projectile Accuracy Module improves your accuracy with the bow.]&f"
-			]
+			description: ["The &aProjectile Accuracy Module&r improves your accuracy with the bow."]
 			id: "2CD754C4B15B480F"
 			rewards: [{
 				id: "08CAB5C26B726A9F"
@@ -1884,12 +1684,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a护盾恢复&f模块&r加快胸甲上护盾的充能速度."
-				""
-				""
-				"&7[The Shield Recovery Module increases your shield recharge on your Chest Piece.]&f"
-			]
+			description: ["The &aShield Recovery Module&r increases your shield recharge on your Chest Piece."]
 			id: "13CCF5BDF2BD03CE"
 			rewards: [{
 				id: "1D034F5B12DBA061"
@@ -1938,12 +1733,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a能量模块&f&r提升物品的能量容量."
-				""
-				""
-				"&7[The Energy Module increases the energy of your items.]&f"
-			]
+			description: ["The &aEnergy Module&r increases the energy of your items."]
 			id: "54653619B53EA07F"
 			rewards: [{
 				id: "6F22576C6DB9B713"
@@ -2008,12 +1798,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a不死模块&r本质上是一个可安装在胸甲上的不死图腾."
-				""
-				""
-				"&7[The Undying Module is essentially a totem of undying installable on your Chest Piece.]&f"
-			]
+			description: ["The &aUndying Module&r is essentially a totem of undying installable on your Chest Piece."]
 			id: "1A63583AA53ABD33"
 			rewards: [{
 				id: "790243BB3CA7495A"
@@ -2062,12 +1847,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a盾容&f模块&r增加您的&a能量护盾&f容量."
-				""
-				""
-				"&7[The Shield Capacity Module increases your Energy Shield.]&f"
-			]
+			description: ["The &aShield Capacity Module&r increases your Energy Shield."]
 			id: "027B95599926AC64"
 			rewards: [{
 				id: "3F1DC8ACC92D5B26"
@@ -2116,12 +1896,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a弹射物速度模块&r提高射箭时箭矢的飞行速度."
-				""
-				""
-				"&7[The Projectile Velocity Module increases the velocity of your arrows when you shoot.]&f"
-			]
+			description: ["The &aProjectile Velocity Module&r increases the velocity of your arrows when you shoot."]
 			id: "54D0A4F6DCE5872C"
 			rewards: [{
 				id: "03048B4312CD43D2"
@@ -2170,12 +1945,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a护盾控制模块&r减少护盾的冷却时间."
-				""
-				""
-				"&7[The Shield Control Module decreases the Shield Cooldown.]&f"
-			]
+			description: ["The &aShield Control Module&r decreases the Shield Cooldown."]
 			id: "7BA5575CE84466DF"
 			rewards: [{
 				id: "74EB020CA1166337"
@@ -2224,12 +1994,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a速度模块&f&r为您提供更快的移动速度."
-				""
-				""
-				"&7[The Speed Module gives you more speed.]&f"
-			]
+			description: ["The &aSpeed Module&r gives you more speed."]
 			id: "3BB133018966E4FF"
 			rewards: [{
 				id: "5A8E6FC90C63F59F"
@@ -2294,12 +2059,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a攀爬模块&f&r赋予您台阶辅助能力."
-				""
-				""
-				"&7[The Hill Step Module gives you the ability to have step assist.]&f"
-			]
+			description: ["The &aHill Step Module&r gives you the ability to have step assist."]
 			id: "5290B54829343B91"
 			rewards: [{
 				id: "35B5E824B50D8853"
@@ -2316,12 +2076,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a弹射物重力补偿模块&r使您的箭道更平直,射程更远."
-				""
-				""
-				"&7[The Projectile Gravity Compensation Module makes your archery straighter, allowing you to shoot farther.]&f"
-			]
+			description: ["The &aProjectile Gravity Compensation Module&r makes your archery straighter, allowing you to shoot farther."]
 			id: "6EBB60D3CF01C03D"
 			rewards: [{
 				id: "1AFE73473412559C"
@@ -2370,12 +2125,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a弹射物穿透模块&r让您的箭矢能够穿透盔甲,有时可穿过目标击中额外敌人."
-				""
-				""
-				"&7[The Projectile Penetration Module allows your arrows to penetrate armor, sometimes passing through a target to potentially hit additional targets.]&f"
-			]
+			description: ["The &aProjectile Penetration Module&r allows your arrows to penetrate armor, sometimes passing through a target to potentially hit additional targets."]
 			id: "09335D2AE7F0E044"
 			rewards: [{
 				id: "6486A59EEC2473FD"
@@ -2424,12 +2174,7 @@
 		}
 		{
 			dependencies: ["027B95599926AC64"]
-			description: [
-				"&a大型&a盾容&f模块&r在增加&a能量护盾&f容量的同时,占用更少的模块网格空间."
-				""
-				""
-				"&7[The Large Shield Capacity Module increases your Energy Shield but takes up less space in your grid of modules.]&f"
-			]
+			description: ["The &aLarge Shield Capacity Module&r increases your Energy Shield but takes up less space in your grid of modules."]
 			id: "411C46F666CE2E79"
 			rewards: [{
 				id: "420917D67C36EBCC"
@@ -2478,12 +2223,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a神龙反箭矢免疫模块&f&r可在射击末影人时取消其传送能力."
-				""
-				""
-				"&7[The Projectile Immunity Cancellation Module cancels enderman teleportation when you shoot them.]&f"
-			]
+			description: ["The &aProjectile Immunity Cancellation Module&r cancels enderman teleportation when you shoot them."]
 			id: "4561FE8367CD8216"
 			rewards: [{
 				id: "1475ED98341F261E"
@@ -2500,12 +2240,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a弹射物伤害&f模块&r提升箭矢造成的伤害."
-				""
-				""
-				"&7[The Projectile Damage Module increases the damage done by your arrows.]&f"
-			]
+			description: ["The &aProjectile Damage Module&r increases the damage done by your arrows."]
 			id: "0E2A7FD65EF7EFFE"
 			rewards: [{
 				id: "458D26084D44A7C0"
@@ -2570,12 +2305,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a伤害模块&f&r提升武器造成的伤害."
-				""
-				""
-				"&7[The Damage Module increases the damage done by your weapons.]&f"
-			]
+			description: ["The &aDamage Module&r increases the damage done by your weapons."]
 			id: "3DB4DABA9BB774C8"
 			rewards: [{
 				id: "590944AE03184EB3"
@@ -2624,12 +2354,7 @@
 		}
 		{
 			dependencies: ["633751761E035DFB"]
-			description: [
-				"&a&a自动射击模块&f&r启用弓的自动连射功能."
-				""
-				""
-				"&7[The Auto Fire Module enables auto fire with your bow.]&f"
-			]
+			description: ["The &aAuto Fire Module&r enables auto fire with your bow."]
 			id: "10B3C9982C378951"
 			rewards: [{
 				id: "7194B3020FC0B8BD"
@@ -2646,20 +2371,12 @@
 		}
 		{
 			description: [
-				"&a&a混沌碎片&f&r是一种极其稀有且珍贵的物品."
+				"The &aChaos Shard&r is an extremely rare and valuable item."
 				""
-				"获取&a&a混沌碎片&f&r的方法:"
-				"&e- &r击败&c&a混沌守卫&f&r,它们生成于末地(&a结束&f)中每间隔&b10k方块&r出现的混沌岛屿上."
+				"To obtain a &aChaos Shard&r:"
+				"&6- &rDefeat the &cChaos Guardian&r, which can be found on Chaos Islands in The End, located every &b10k blocks&r."
 				""
-				"&e- &r击败&c&a混沌守卫&f&r后,开采位于混沌岛屿中心的&e&a混沌水晶&f&r."
-				""
-				""
-				"&7[The Chaos Shard is an extremely rare and valuable item.]&f"
-				""
-				"&7[To obtain a Chaos Shard:]&f"
-				"&7[- Defeat the Chaos Guardian, which can be found on Chaos Islands in The End, located every 10k blocks.]&f"
-				""
-				"&7[- Mine the Chaos Crystal at the center of the Chaos Island after defeating the Chaos Guardian.]&f"
+				"&6- &rMine the &6Chaos Crystal&r at the center of the Chaos Island after defeating the &cChaos Guardian&r."
 			]
 			id: "517A4A2D4EDD6359"
 			rewards: [{
@@ -2678,32 +2395,18 @@
 		{
 			dependencies: ["4A538D3FEC4D94D3"]
 			description: [
-				"&a&a混沌纠缠量子能量隧道模块&f&r是一种先进设备,可实现远距离&b能量无损传输&r."
+				"The &aChaos-Entangled Quantum Energy Tunnel&r is an advanced device for &benergy transfer&r across vast distances without any loss. "
 				""
-				"&a&a混沌纠缠量子能量隧道模块&f&r的特性:"
-				"&e-&r 利用&b量子纠缠&r连接两个端点,实现&d瞬时能量传输&r"
-				"&e-&r 能够处理&c大规模能量&r传输,适用于高端配置"
-				"&e-&r 需要&c&a混沌碎片&f&r建立纠缠链接"
-				"&e-&r 可通过&d图形用户界面&r进行精确的能量管理与路径配置"
+				"Features of the &aChaos-Entangled Quantum Energy Tunnel&r:"
+				"&6-&r It utilizes &bquantum entanglement&r to link two points, allowing &dinstant energy transfer&r."
+				"&6-&r Capable of handling &cmassive amounts of energy&r transfer, suitable for high-end setups."
+				"&6-&r Requires &cChaos Shards&r to create the entanglement link."
+				"&6-&r Can be configured through its &dGUI&r for precise energy management and routing."
 				""
-				"使用方法:"
-				"&e-&r 在需要连接的每个&e位置&r放置一个&a&a量子能量隧道模块&f&r"
-				"&e-&r 使用&c&a混沌碎片&f&r在两个隧道间建立链接"
-				"&e-&r 链接建立后,&b能量传输&r将瞬时无损耗完成,确保能量网络的高效分配"
-				""
-				""
-				"&7[The Chaos-Entangled Quantum Energy Tunnel is an advanced device for energy transfer across vast distances without any loss. ]&f"
-				""
-				"&7[Features of the Chaos-Entangled Quantum Energy Tunnel:]&f"
-				"&7[- It utilizes quantum entanglement to link two points, allowing instant energy transfer.]&f"
-				"&7[- Capable of handling massive amounts of energy transfer, suitable for high-end setups.]&f"
-				"&7[- Requires Chaos Shards to create the entanglement link.]&f"
-				"&7[- Can be configured through its GUI for precise energy management and routing.]&f"
-				""
-				"&7[Usage:]&f"
-				"&7[- Place one Quantum Energy Tunnel at each location you wish to connect.]&f"
-				"&7[- Use the Chaos Shards to establish a link between the two tunnels.]&f"
-				"&7[- Once linked, the energy transfer is instantaneous and lossless, ensuring efficient energy distribution across your network.]&f"
+				"Usage:"
+				"&6-&r Place one &aQuantum Energy Tunnel&r at each &elocation&r you wish to connect."
+				"&6-&r Use the &cChaos Shards&r to establish a link between the two tunnels."
+				"&6-&r Once linked, the &benergy transfer&r is instantaneous and lossless, ensuring efficient energy distribution across your network."
 			]
 			id: "31B396E100E83098"
 			rewards: [{
@@ -2722,28 +2425,16 @@
 		{
 			dependencies: ["73A95AF90890098C"]
 			description: [
-				"&a&a量子能量隧道模块&f&r是一种用于长距离能量传输的强大设备."
+				"The &aQuantum Energy Tunnel&r is a powerful device for transferring energy over long distances."
 				""
-				"&a&a量子能量隧道模块&f&r的特性:"
-				"&e-&r 运用&b量子纠缠&r技术实现两点间瞬时能量传输"
-				"&e-&r 可高效处理&c大容量能量&r,适合大型装置使用"
-				"&e-&r 需通过&d图形用户界面&r进行精确配置以获得最佳性能"
+				"Features of the &aQuantum Energy Tunnel&r:"
+				"&6-&r Uses &bquantum entanglement&r for instant energy transfer between two points."
+				"&6-&r Handles &cmassive volumes of energy&r efficiently, making it ideal for large setups."
+				"&6-&r Requires precise configuration through its &dGUI&r for optimal performance."
 				""
-				"使用方法:"
-				"&e-&r 在需要连接的每个位置放置&a&a量子能量隧道模块&f&r"
-				"&e-&r 使用&c&a混沌碎片&f&r建立隧道间链接,实现无缝能量传输"
-				""
-				""
-				"&7[The Quantum Energy Tunnel is a powerful device for transferring energy over long distances.]&f"
-				""
-				"&7[Features of the Quantum Energy Tunnel:]&f"
-				"&7[- Uses quantum entanglement for instant energy transfer between two points.]&f"
-				"&7[- Handles massive volumes of energy efficiently, making it ideal for large setups.]&f"
-				"&7[- Requires precise configuration through its GUI for optimal performance.]&f"
-				""
-				"&7[Usage:]&f"
-				"&7[- Place a Quantum Energy Tunnel at each location you want to connect.]&f"
-				"&7[- Establish a link between the tunnels using Chaos Shards for seamless energy transfer.]&f"
+				"Usage:"
+				"&6-&r Place a &aQuantum Energy Tunnel&r at each location you want to connect."
+				"&6-&r Establish a link between the tunnels using &cChaos Shards&r for seamless energy transfer."
 			]
 			id: "4A538D3FEC4D94D3"
 			rewards: [{
@@ -2762,28 +2453,16 @@
 		{
 			dependencies: ["633751761E035DFB"]
 			description: [
-				"&a无线&a能量链接&f&r是一种多用途的无线能量传输工具."
+				"The &aWireless Energy Link&r is a versatile tool for wireless energy transmission."
 				""
-				"&a无线&a能量链接&f&r的特性:"
-				"&e-&r 无需物理连接即可实现&b能量传输&r"
-				"&e-&r 支持&d多重连接&r,构建灵活动态的能量网络"
-				"&e-&r 可通过&d图形用户界面&r配置定向能量分配"
+				"Features of the &aWireless Energy Link&r:"
+				"&6-&r Allows for &benergy transfer&r without the need for physical connections."
+				"&6-&r Supports &dmultiple connections&r, enabling a flexible and dynamic energy network."
+				"&6-&r Can be configured via its &dGUI&r for targeted energy distribution."
 				""
-				"使用方法:"
-				"&e-&r 在每个需要供电的&e设备&r或&e位置&r放置&a无线&a能量链接&f&r"
-				"&e-&r 将链接连接至&b主能源&r,实现高效的无线能量输送"
-				""
-				""
-				"&7[The Wireless Energy Link is a versatile tool for wireless energy transmission.]&f"
-				""
-				"&7[Features of the Wireless Energy Link:]&f"
-				"&7[- Allows for energy transfer without the need for physical connections.]&f"
-				"&7[- Supports multiple connections, enabling a flexible and dynamic energy network.]&f"
-				"&7[- Can be configured via its GUI for targeted energy distribution.]&f"
-				""
-				"&7[Usage:]&f"
-				"&7[- Place a Wireless Energy Link at each device or location you want to power.]&f"
-				"&7[- Connect the links to your main energy source for efficient, wireless energy delivery.]&f"
+				"Usage:"
+				"&6-&r Place a &aWireless Energy Link&r at each &edevice&r or &elocation&r you want to power."
+				"&6-&r Connect the links to your &bmain energy source&r for efficient, wireless energy delivery."
 			]
 			id: "73A95AF90890098C"
 			rewards: [{
@@ -2898,36 +2577,20 @@
 		{
 			dependencies: ["1F9411E20E806B1E"]
 			description: [
-				"&a&a龙箱&f&r是一种具有独特功能的多功能存储解决方案."
+				"The &aDraconium Chest&r is a versatile storage solution with unique features."
 				""
-				"&a&a龙箱&f&r的特性:"
-				"&e-&r &e超大存储容量&r,远超标准箱子"
-				"&e-&r 内置&b物品搜索功能&r,快速定位存储物品"
-				"&e-&r 集成&d工作台&r,可直接在箱内合成物品"
-				"&e-&r 放入指定槽位的物品可自动&c熔炼&r,无需单独使用熔炉"
-				"&e-&r &b能量存储&r能力,为高级功能供能"
+				"Features of the &aDraconium Chest&r:"
+				"&6-&r &eMassive storage capacity&r, significantly larger than standard chests."
+				"&6-&r Built-in &bitem search functionality&r to quickly locate stored items."
+				"&6-&r Integrated &dcrafting table&r, allowing you to craft items directly within the chest."
+				"&6-&r Automatic &csmelting&r of items placed in designated slots, eliminating the need for a separate furnace."
+				"&6-&r &bEnergy storage&r capability, powering the chest’s advanced functions."
 				""
-				"使用方法:"
-				"&e-&r 将&a&a龙箱&f&r放置于基地或存储区域"
-				"&e-&r 按需使用&d工作台&r和&b物品搜索&r功能"
-				"&e-&r 将物品放入&c熔炼槽&r进行自动处理"
-				"&e-&r 确保为箱子供应&b能量&r以启用所有高级功能"
-				""
-				""
-				"&7[The Draconium Chest is a versatile storage solution with unique features.]&f"
-				""
-				"&7[Features of the Draconium Chest:]&f"
-				"&7[- Massive storage capacity, significantly larger than standard chests.]&f"
-				"&7[- Built-in item search functionality to quickly locate stored items.]&f"
-				"&7[- Integrated crafting table, allowing you to craft items directly within the chest.]&f"
-				"&7[- Automatic smelting of items placed in designated slots, eliminating the need for a separate furnace.]&f"
-				"&7[- Energy storage capability, powering the chest's advanced functions.]&f"
-				""
-				"&7[Usage:]&f"
-				"&7[- Simply place the Draconium Chest in your base or storage area.]&f"
-				"&7[- Utilize the crafting table and item search functions as needed.]&f"
-				"&7[- Load items into the smelting slots for automatic processing.]&f"
-				"&7[- Ensure the chest is supplied with energy to enable all advanced features.]&f"
+				"Usage:"
+				"&6-&r Simply place the &aDraconium Chest&r in your base or storage area."
+				"&6-&r Utilize the &dcrafting table&r and &bitem search&r functions as needed."
+				"&6-&r Load items into the &csmelting slots&r for automatic processing."
+				"&6-&r Ensure the chest is supplied with &benergy&r to enable all advanced features."
 			]
 			id: "46BCDA0F17AE2073"
 			rewards: [{
@@ -2945,20 +2608,12 @@
 		}
 		{
 			description: [
-				"&a发电机&r是为您的机械和系统产生能量的设备."
+				"The &aGenerator&r is a device that produces energy for your machinery and systems."
 				""
-				"&a发电机&r的特点:"
-				"&e-&r 将各种燃料源转化为&b能量&r."
-				"&e-&r 可连接到能量存储设备和机器."
-				"&e-&r 为您的基地和自动化系统供电至关重要."
-				""
-				""
-				"&7[The Generator is a device that produces energy for your machinery and systems.]&f"
-				""
-				"&7[Features of the Generator:]&f"
-				"&7[- Converts various fuel sources into energy.]&f"
-				"&7[- Can be connected to energy storage devices and machines.]&f"
-				"&7[- Essential for powering your base and automated systems.]&f"
+				"Features of the &aGenerator&r:"
+				"&6-&r Converts various fuel sources into &benergy&r."
+				"&6-&r Can be connected to energy storage devices and machines."
+				"&6-&r Essential for powering your base and automated systems."
 			]
 			id: "40392CF41E5B333F"
 			rewards: [{
@@ -2976,20 +2631,12 @@
 		}
 		{
 			description: [
-				"&a&a流体阀门&f&r用于控制系统中的流体流动."
+				"The &aFluid Gate&r is used to control the flow of fluids in your system."
 				""
-				"&a&a流体阀门&f&r的特点:"
-				"&e-&r 调节储罐与机器之间的流体&c输入&r和&c输出&r."
-				"&e-&r 可配置为允许或限制流体流动."
-				"&e-&r 确保高效的流体管理,防止溢出或短缺."
-				""
-				""
-				"&7[The Fluid Gate is used to control the flow of fluids in your system.]&f"
-				""
-				"&7[Features of the Fluid Gate:]&f"
-				"&7[- Regulates the input and output of fluids between tanks and machines.]&f"
-				"&7[- Can be configured to allow or restrict fluid flow.]&f"
-				"&7[- Ensures efficient fluid management and prevents overflow or shortages.]&f"
+				"Features of the &aFluid Gate&r:"
+				"&6-&r Regulates the &cinput&r and &coutput&r of fluids between tanks and machines."
+				"&6-&r Can be configured to allow or restrict fluid flow."
+				"&6-&r Ensures efficient fluid management and prevents overflow or shortages."
 			]
 			id: "3B30F2220336DC8B"
 			rewards: [{
@@ -3007,20 +2654,12 @@
 		}
 		{
 			description: [
-				"&a&a能量阀门&f&r是用于管理能量传输的设备."
+				"The &aFlux Gate&r is a device for managing the transfer of energy."
 				""
-				"&a&a能量阀门&f&r的特点:"
-				"&e-&r 控制不同组件之间的&b能量流动&r."
-				"&e-&r 允许精确调节能量的输入和输出."
-				"&e-&r 防止能量损失,确保最佳电力分配."
-				""
-				""
-				"&7[The Flux Gate is a device for managing the transfer of energy.]&f"
-				""
-				"&7[Features of the Flux Gate:]&f"
-				"&7[- Controls the flow of energy between different components.]&f"
-				"&7[- Allows precise regulation of energy input and output.]&f"
-				"&7[- Prevents energy loss and ensures optimal power distribution.]&f"
+				"Features of the &aFlux Gate&r:"
+				"&6-&r Controls the &bflow of energy&r between different components."
+				"&6-&r Allows precise regulation of energy input and output."
+				"&6-&r Prevents energy loss and ensures optimal power distribution."
 			]
 			id: "644D7DA00757C2ED"
 			rewards: [{
@@ -3042,20 +2681,12 @@
 				"36118FAB0964F805"
 			]
 			description: [
-				"&a&a实体探测器&f&r用于检测指定区域内的实体."
+				"The &aEntity Detector&r is used to detect entities in a specified area."
 				""
-				"&a&a实体探测器&f&r的特点:"
-				"&e-&r 感知其范围内&d实体&r的存在."
-				"&e-&r 可配置为检测特定类型的实体."
-				"&e-&r 对于自动化任务和基于实体存在触发事件非常有用."
-				""
-				""
-				"&7[The Entity Detector is used to detect entities in a specified area.]&f"
-				""
-				"&7[Features of the Entity Detector:]&f"
-				"&7[- Senses the presence of entities within its range.]&f"
-				"&7[- Can be configured to detect specific types of entities.]&f"
-				"&7[- Useful for automation tasks and triggering events based on entity presence.]&f"
+				"Features of the &aEntity Detector&r:"
+				"&6-&r Senses the presence of &dentities&r within its range."
+				"&6-&r Can be configured to detect specific types of entities."
+				"&6-&r Useful for automation tasks and triggering events based on entity presence."
 			]
 			hide_dependency_lines: true
 			id: "4932FAE86B6262BE"
@@ -3095,20 +2726,12 @@
 				"59821984FDC731C9"
 			]
 			description: [
-				"&a&a反应堆稳定器&f&r是维持反应堆稳定性的关键设备."
+				"The &aReactor Stabilizer&r is a critical device for maintaining reactor stability."
 				""
-				"&a&a反应堆稳定器&f&r的特点:"
-				"&e-&r 在运行期间帮助稳定反应堆."
-				"&e-&r 防止危险的波动和潜在的反应堆熔毁."
-				"&e-&r 必须放置在反应堆核心周围的特定位置."
-				""
-				""
-				"&7[The Reactor Stabilizer is a critical device for maintaining reactor stability.]&f"
-				""
-				"&7[Features of the Reactor Stabilizer:]&f"
-				"&7[- Helps to stabilize the reactor during operation.]&f"
-				"&7[- Prevents dangerous fluctuations and potential reactor meltdowns.]&f"
-				"&7[- Must be placed at specific points around the reactor core.]&f"
+				"Features of the &aReactor Stabilizer&r:"
+				"&6-&r Helps to stabilize the reactor during operation."
+				"&6-&r Prevents dangerous fluctuations and potential reactor meltdowns."
+				"&6-&r Must be placed at specific points around the reactor core."
 			]
 			hide_dependency_lines: true
 			id: "746DE7FD1C2B8DBF"
@@ -3131,20 +2754,12 @@
 				"36118FAB0964F805"
 			]
 			description: [
-				"&a&a反应堆能量注入器&f&r用于向反应堆提供能量."
+				"The &aReactor Energy Injector&r is used to supply energy to the reactor."
 				""
-				"&a&a反应堆能量注入器&f&r的特点:"
-				"&e-&r 向反应堆注入能量以驱动其过程."
-				"&e-&r 确保高效的能量传输到反应堆核心."
-				"&e-&r 对于启动和维持反应堆操作至关重要."
-				""
-				""
-				"&7[The Reactor Energy Injector is used to supply energy to the reactor.]&f"
-				""
-				"&7[Features of the Reactor Energy Injector:]&f"
-				"&7[- Injects energy into the reactor to power its processes.]&f"
-				"&7[- Ensures efficient energy transfer to the reactor core.]&f"
-				"&7[- Essential for initiating and maintaining reactor operations.]&f"
+				"Features of the &aReactor Energy Injector&r:"
+				"&6-&r Injects energy into the reactor to power its processes."
+				"&6-&r Ensures efficient energy transfer to the reactor core."
+				"&6-&r Essential for initiating and maintaining reactor operations."
 			]
 			hide_dependency_lines: true
 			id: "2E44DE5AB631D67A"
@@ -3332,177 +2947,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["7BA5575CE84466DF"]
-			id: "0832DD0937AF312C"
-			rewards: [{
-				id: "7E7377AE6C0B0CD5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CC81B3C7091BFAE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: {
-									charge_armor: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_main: {
-										hud: 1b
-									}
-									receive_energy_from_machine: {
-										hud: 1b
-									}
-								}
-								provider_id: [I;
-									691595308
-									-1008189417
-									-1165152359
-									-193240453
-								]
-							}
-						}
-					}
-					id: "draconicadditions:wyvern_harness"
-				}
-				type: "item"
-			}]
-			x: 14.5d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"0832DD0937AF312C"
-				"7EB01C2A70BFF65C"
-			]
-			id: "1955FD279254FA3E"
-			rewards: [{
-				id: "565D2D79AB4FACE6"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2D4ACE38FAF55772"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: {
-									charge_armor: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_main: {
-										hud: 1b
-									}
-									receive_energy_from_machine: {
-										hud: 1b
-									}
-								}
-								provider_id: [I;
-									-1850826674
-									388513954
-									-1092335097
-									-1006790392
-								]
-							}
-						}
-					}
-					id: "draconicadditions:draconic_harness"
-				}
-				type: "item"
-			}]
-			x: 14.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"1955FD279254FA3E"
-				"38412DA5F11E2F38"
-			]
-			id: "08A29531A232BE4F"
-			rewards: [{
-				id: "75832B967BF53B56"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "76D15A3D125300E1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: {
-									charge_armor: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_main: {
-										hud: 1b
-									}
-									receive_energy_from_machine: {
-										hud: 1b
-									}
-								}
-								provider_id: [I;
-									1698047482
-									725241828
-									-1919787390
-									-1380826385
-								]
-							}
-						}
-					}
-					id: "draconicadditions:chaotic_harness"
-				}
-				type: "item"
-			}]
-			x: 14.5d
-			y: 9.0d
-		}
-		{
 			dependencies: ["1F9411E20E806B1E"]
 			hide_dependency_lines: true
 			id: "676F8CF82037DE99"
@@ -3533,6 +2977,7 @@
 						}
 					}
 					id: "draconicadditions:wyvern_necklace"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3569,6 +3014,7 @@
 						}
 					}
 					id: "draconicadditions:draconic_necklace"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3605,6 +3051,7 @@
 						}
 					}
 					id: "draconicadditions:chaotic_necklace"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3721,6 +3168,7 @@
 						}
 					}
 					id: "draconicadditions:infused_potato_helm"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3791,6 +3239,7 @@
 						}
 					}
 					id: "draconicadditions:infused_potato_chest"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3831,6 +3280,7 @@
 						}
 					}
 					id: "draconicadditions:infused_potato_legs"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3871,6 +3321,7 @@
 						}
 					}
 					id: "draconicadditions:infused_potato_boots"
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -3931,10 +3382,10 @@
 		{
 			dependencies: ["1F9411E20E806B1E"]
 			description: [
-				"将&d位移器&r绑定至指定位置(Shift+&a右键点击&f)."
-				"用&6龙息注入黑曜石&r搭建框架后,&a右键点击&f&1位移器接收器&r"
-				"&6龙息注入黑曜石&r"
-				"框架尺寸可自由扩展"
+				"Bound the &ddislocator&r to a position (shift + right click)."
+				"Right click the &1Disclocator Receptacle&r after building a frame out of"
+				"&6Draconium Infused Obsidian&r"
+				"It can be as big as you want"
 				"{@pagebreak}"
 				"{image:kubejs:block/screen/de_dislocator_small width:100 height:100 align:center fit:true}"
 				"{@pagebreak}"
@@ -3954,7 +3405,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "完美的生物农场？"
+			subtitle: "The perfect mob farm?"
 			tasks: [
 				{
 					id: "140B5893079DD4C3"
@@ -3984,5 +3435,5 @@
 			y: 5.5d
 		}
 	]
-	title: "&d龙之进化/龙之研究&f&7[Draconic Evolution]&f"
+	title: "Draconic Evolution"
 }

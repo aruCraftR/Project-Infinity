@@ -16,6 +16,7 @@ ServerEvents.recipes((event) => {
     'occultism:datura': 0.25,
     'exdeorum:mycelium_spores': 0.25,
     'exdeorum:grass_seeds': 0.25,
+    'integrateddynamics:menril_sapling': 0.10,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {

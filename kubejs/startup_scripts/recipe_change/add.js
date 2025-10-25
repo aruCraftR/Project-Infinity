@@ -294,7 +294,7 @@ StartupEvents.registry('item', (e) => {
     .glow(true)
     .tag('kubejs:chaotic_essence');
 
-      //Chaotic Essence
+  //Chaotic Essence
   e.create('chaos_guardian_prediction')
     .maxStackSize(64)
     .displayName('§5混沌守卫者预言')
@@ -310,8 +310,10 @@ StartupEvents.registry('item', (e) => {
       .displayName(
         input
           .replace(/_/g, ' ')
-          .replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase())
-        + ' Dummy Item'
+          .replace(
+            /\w\S*/g,
+            (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+          ) + ' Dummy Item'
       );
   }
   createAddon(e, 'efficiency_addon_1');
@@ -329,11 +331,6 @@ StartupEvents.registry('item', (e) => {
   createAddon(e, 'speed_addon_3');
   createAddon(e, 'speed_addon_4');
   createAddon(e, 'speed_addon_5');
-  createAddon(e, 'thread_addon_1');
-  createAddon(e, 'thread_addon_2');
-  createAddon(e, 'thread_addon_3');
-  createAddon(e, 'thread_addon_4');
-  createAddon(e, 'thread_addon_5');
 });
 
 StartupEvents.registry('block', (event) => {
@@ -476,6 +473,12 @@ ItemEvents.modification((event) => {
     item.maxStackSize = 64;
   });
   event.modify('cataclysm:void_core', (item) => {
+    item.maxStackSize = 64;
+  });
+  event.modify('minecraft:ender_pearl', (item) => {
+    item.maxStackSize = 64;
+  });
+  event.modify('exdeorum:sculk_core', (item) => {
     item.maxStackSize = 64;
   });
   event.modify(

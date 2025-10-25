@@ -57,7 +57,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["商店"]
+			hover: ["Shop"]
 			image: "kubejs:item/ascended_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -67,7 +67,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["商店"]
+			hover: ["Shop"]
 			image: "kubejs:item/apotheotic_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -77,7 +77,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["商店"]
+			hover: ["Shop"]
 			image: "kubejs:item/infused_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -107,12 +107,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"欢迎!"
-				""
-				""
-				"&7[Welcome!]&f"
-			]
+			description: ["Welcome!"]
 			id: "23BDBBD3001F9774"
 			rewards: [
 				{
@@ -138,10 +133,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "6CB3ED756B23BE88"
-				title: "准备好了吗？"
+				title: "Ready?"
 				type: "checkmark"
 			}]
-			title: "欢迎&7[Welcome]&f"
+			title: "Welcome"
 			x: -3.0d
 			y: -11.0d
 		}
@@ -161,7 +156,7 @@
 				id: "29CD23D3C0D3DA7E"
 				type: "checkmark"
 			}]
-			title: "启程&7[Start]&f"
+			title: "Start"
 			x: -3.0d
 			y: -8.0d
 		}
@@ -183,16 +178,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "种下树苗获取原木.连续按Shift键使用骨粉催熟&7[Plant the sapling and get some logs. Spam shift to bonemeal]&f"
+			subtitle: "Plant the sapling and get some logs. Spam shift to bonemeal"
 			tasks: [{
 				count: 3L
 				icon: "minecraft:oak_log"
 				id: "1BB08F6BC4167067"
 				item: "minecraft:oak_log"
-				title: "任意#minecraft:原木"
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "万物伊始&7[Where it all began]&f"
+			title: "Where it all began"
 			x: 0.5d
 			y: -8.5d
 		}
@@ -218,7 +213,7 @@
 				item: "solarflux:sp_1"
 				type: "item"
 			}]
-			title: "初始能源&7[First Energy]&f"
+			title: "First Energy"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -239,13 +234,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "2x2鹅卵石=1圆石&7[2x2 pebble = 1 Cobblestone]&f"
+			subtitle: "2x2 pebble = 1 Cobblestone"
 			tasks: [{
 				id: "4AE51A3A3D9B6E3A"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "石头&7[Stone]&f"
+			title: "Stone"
 			x: 0.5d
 			y: -7.0d
 		}
@@ -281,7 +276,7 @@
 				}
 				type: "item"
 			}]
-			title: "钩杖&7[Crook]&f"
+			title: "Crook"
 			x: 3.0d
 			y: -8.5d
 		}
@@ -306,7 +301,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "放置圆石并用锤子敲击&7[Place the cobble and hammer it down]&f"
+			subtitle: "Place the cobble and hammer it down"
 			tasks: [{
 				id: "596CB9CDB4192339"
 				item: {
@@ -318,7 +313,7 @@
 				}
 				type: "item"
 			}]
-			title: "锤击时刻&7[Hammer time]&f"
+			title: "Hammer time"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -343,7 +338,7 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			title: "线&7[String]&f"
+			title: "String"
 			x: 4.5d
 			y: -8.5d
 		}
@@ -385,7 +380,7 @@
 					type: "item"
 				}
 			]
-			title: "筛网&7[Mesh]&f"
+			title: "Mesh"
 			x: 6.5d
 			y: -8.5d
 		}
@@ -406,10 +401,11 @@
 					type: "item"
 				}
 				{
-					command: "execute as @p run summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"朋友\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
+					command: "execute as @p run summon axolotl ~5 ~ ~5 {FromBucket:1,Variant:4,Glowing:1b,PersistenceRequired:1b,Passengers:[{id:zombie,CustomName:'[{\"text\":\"Friend\"}]',Glowing:1b,NoAI:1b,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:dragon_head,Count:1}]}]}"
+					elevate_perms: true
 					icon: "draconicevolution:dragon_heart"
 					id: "035BC1E95467477D"
-					title: "你的第一个朋友:)"
+					title: "Your first friend :)"
 					type: "command"
 				}
 			]
@@ -419,7 +415,7 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			title: "获取沙砾之时&7[Time to get some gravel]&f"
+			title: "Time to get some gravel"
 			x: 3.0d
 			y: -6.0d
 		}
@@ -453,7 +449,7 @@
 					type: "item"
 				}
 			]
-			title: "&a燧石筛网&f&7[Flint Mesh]&f"
+			title: "Flint Mesh"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -479,7 +475,7 @@
 				item: "exdeorum:iron_mesh"
 				type: "item"
 			}]
-			title: "&a铁筛网&f&7[Iron Mesh]&f"
+			title: "Iron Mesh"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -504,7 +500,7 @@
 				item: "exdeorum:golden_mesh"
 				type: "item"
 			}]
-			title: "&a金筛网&f&7[Gold Mesh]&f"
+			title: "Gold Mesh"
 			x: 8.0d
 			y: -4.0d
 		}
@@ -553,7 +549,7 @@
 					type: "item"
 				}
 			]
-			title: "熔炉&7[Furnace]&f"
+			title: "Furnace"
 			x: 9.5d
 			y: -5.0d
 		}
@@ -580,7 +576,7 @@
 				item: "exdeorum:oak_barrel"
 				type: "item"
 			}]
-			title: "木桶&7[Barrel]&f"
+			title: "Barrel"
 			x: 3.0d
 			y: -10.0d
 		}
@@ -613,7 +609,7 @@
 					type: "item"
 				}
 			]
-			title: "粘土&7[Clay]&f"
+			title: "Clay"
 			x: 5.5d
 			y: -10.0d
 		}
@@ -655,7 +651,7 @@
 					type: "item"
 				}
 			]
-			title: "熔炼釜&7[Crucible]&f"
+			title: "Crucible"
 			x: 7.5d
 			y: -13.0d
 		}
@@ -696,7 +692,7 @@
 				id: "1C50BB96A8128D96"
 				type: "checkmark"
 			}]
-			title: "领先优势&7[Headstart]&f"
+			title: "Headstart"
 			x: -4.5d
 			y: -9.0d
 		}
@@ -717,13 +713,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "查看热源类型&7[Check heat sources]&f"
+			subtitle: "Check heat sources"
 			tasks: [{
 				id: "7F1EEFBE68C82523"
-				title: "熔炉热源!"
+				title: "Crucible heat sources!"
 				type: "checkmark"
 			}]
-			title: "热源&7[Heat]&f"
+			title: "Heat"
 			x: 7.5d
 			y: -16.0d
 		}
@@ -742,18 +738,13 @@
 				title: "{atm9.quest.start1.emergency}"
 				type: "checkmark"
 			}]
-			title: "应急措施&7[Emergency]&f"
+			title: "Emergency"
 			x: -4.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
-			description: [
-				"木桶内牛奶+水=粘液块"
-				""
-				""
-				"&7[Milk + Water inside a barrel = Smile Block]&f"
-			]
+			description: ["Milk + Water inside a barrel = Smile Block"]
 			icon: "minecraft:slime_ball"
 			id: "40A3726417C13F83"
 			rewards: [
@@ -774,7 +765,7 @@
 				item: "minecraft:slime_block"
 				type: "item"
 			}]
-			title: "粘液&7[Slime]&f"
+			title: "Slime"
 			x: 4.5d
 			y: -11.0d
 		}
@@ -800,7 +791,7 @@
 				item: "exdeorum:diamond_mesh"
 				type: "item"
 			}]
-			title: "&a钻石筛网&f&7[Diamond Mesh]&f"
+			title: "Diamond Mesh"
 			x: 8.0d
 			y: -3.0d
 		}
@@ -813,13 +804,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "将树叶放入木质熔炼釜获取水&7[Put the leaves in the Wodden Crucible and get some water]&f"
+			subtitle: "Put the leaves in the Wodden Crucible and get some water"
 			tasks: [{
 				id: "17626A5DBEBE5CB5"
 				item: "exdeorum:oak_crucible"
 				type: "item"
 			}]
-			title: "熔炼釜&7[Crucible]&f"
+			title: "Crucible"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -849,7 +840,7 @@
 				}
 				type: "item"
 			}]
-			title: "剪刀&7[Shears]&f"
+			title: "Shears"
 			x: 4.5d
 			y: -5.0d
 		}
@@ -874,7 +865,7 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			title: "&a骨粉&f&7[Bone Meal]&f"
+			title: "Bone Meal"
 			x: 6.0d
 			y: -13.0d
 		}
@@ -893,7 +884,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "修剪一些树叶&7[Shear some leaves]&f"
+			subtitle: "Shear some leaves"
 			tasks: [{
 				id: "5674B09AC991D7EB"
 				item: {
@@ -903,10 +894,10 @@
 						value: "minecraft:leaves"
 					}
 				}
-				title: "任意#minecraft:树叶"
+				title: "Any #minecraft:leaves"
 				type: "item"
 			}]
-			title: "树叶,树叶,树叶&7[Leaves, Leaves, Leaves]&f"
+			title: "Leaves, Leaves, Leaves"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -933,7 +924,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			title: "熔岩&7[Lava]&f"
+			title: "Lava"
 			x: 8.5d
 			y: -14.5d
 		}
@@ -960,7 +951,7 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "你的第一份地狱精华&7[Your first Inferium Essence]&f"
+			title: "Your first Inferium Essence"
 			x: 3.0d
 			y: -17.0d
 		}
@@ -1006,12 +997,7 @@
 		}
 		{
 			dependencies: ["0DE706CEFF3D04DC"]
-			description: [
-				"将石桶放置在菌丝块上方并注入水."
-				""
-				""
-				"&7[place a stone barrel on top of a block of mycelium and input water.]&f"
-			]
+			description: ["place a stone barrel on top of a block of mycelium and input water."]
 			id: "3B2C5513A8781DD3"
 			rewards: [{
 				id: "27D46D2646731D70"
@@ -1059,19 +1045,15 @@
 				}
 				type: "item"
 			}]
-			title: "巫水&7[Witchwater]&f"
+			title: "Witchwater"
 			x: 3.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["768F0E715B05D9E4"]
 			description: [
-				"你可以&a右键点击&f泥土将其变为草方块或菌丝块"
-				"这是生成被动生物或获取巫水的简单方法"
-				""
-				""
-				"&7[you can right click dirt to turn it into a grass or mycelium block]&f"
-				"&7[thats a easy way to spawn passive mobs or to get witch water]&f"
+				"you can right click dirt to turn it into a grass or mycelium block"
+				"thats a easy way to spawn passive mobs or to get witch water"
 			]
 			id: "30A5C7F6D624883F"
 			rewards: [{
@@ -1136,7 +1118,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "按住Shift键并右键点击草方块&7[hold shift and rightclick the grass]&f"
+			subtitle: "hold shift and rightclick the grass"
 			tasks: [{
 				count: 64L
 				id: "2B0618FC9B055FEE"
@@ -1163,18 +1145,13 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			title: "水即生命&7[Water is life]&f"
+			title: "Water is life"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01FEB5D4F5ADD557"]
-			description: [
-				"用于大量筛沙砾/沙子/尘埃的多方块结构."
-				""
-				""
-				"&7[Multiblock for sieving a lot of gravel/ sand/ dust.]&f"
-			]
+			description: ["Multiblock for sieving a lot of gravel/ sand/ dust."]
 			icon: "mm:auto_sieve_controller"
 			id: "0F714BB148F47C46"
 			rewards: [
@@ -1400,18 +1377,13 @@
 				item: "jamd:portal_block"
 				type: "item"
 			}]
-			title: "新挚友&7[New best friend]&f"
+			title: "New best friend"
 			x: 8.5d
 			y: -17.5d
 		}
 		{
 			dependencies: ["53F7B1EE005A696C"]
-			description: [
-				"你可以将&a植物盆&f升级为自动将物品输入箱子.&a植物盆&f + 漏斗"
-				""
-				""
-				"&7[You can upgrade the Botany Pots to auto insert the Items inside a chest. Botany Pot + Hopper]&f"
-			]
+			description: ["You can upgrade the Botany Pots to auto insert the Items inside a chest. Botany Pot + Hopper"]
 			id: "09B818DD9EDA7FFC"
 			rewards: [{
 				id: "511E5D109F2B4179"
@@ -1498,7 +1470,7 @@
 					type: "item"
 				}
 			]
-			title: "&a怪物农场&f？&7[Mob Farm?]&f"
+			title: "Mob Farm?"
 			x: 4.5d
 			y: -7.0d
 		}
@@ -1530,7 +1502,7 @@
 					type: "item"
 				}
 			]
-			title: "&a狩猎维度&f&7[Hunting Dimension]&f"
+			title: "Hunting Dimension"
 			x: 1.0d
 			y: -18.0d
 		}
@@ -1682,32 +1654,18 @@
 		{
 			dependencies: ["0E519EB534A90450"]
 			description: [
-				"&4你不必使用蛋糕.&a下界传送门&f并未禁用.&r"
+				"&4You dont have to use the Cakes. The Nether Portal is not disabled.&r"
 				""
-				"将&a下界蛋糕&f放在你的岛屿上并用空手&a右键点击&f它.你应该将主世界蛋糕放在&a下界&f."
+				"Place the Nether Cake on your island and right click it with a empty hand. You should place the Overworld Cake in the Nether."
 				""
-				"你可以用一些物品补充蛋糕."
+				"You can refill the Cakes with some items."
 				""
-				"主世界蛋糕:树苗"
-				"&a下界蛋糕&f:黑曜石"
-				"&a末地蛋糕&f:&a末影之眼&f"
-				"&a狩猎维度蛋糕&f:箭"
-				"失落城市蛋糕:床"
-				"暮色维度蛋糕:钻石"
-				""
-				""
-				"&7[You dont have to use the Cakes. The Nether Portal is not disabled.]&f"
-				""
-				"&7[Place the Nether Cake on your island and right click it with a empty hand. You should place the Overworld Cake in the Nether.]&f"
-				""
-				"&7[You can refill the Cakes with some items.]&f"
-				""
-				"&7[Overworld Cake: Sapling]&f"
-				"&7[Nether Cake: Obsidian]&f"
-				"&7[End Cake: Ender Eye]&f"
-				"&7[Hunting Dimension Cake: Arrow]&f"
-				"&7[Lost Cities Cake: Beds]&f"
-				"&7[Twillight Dimension Cake: Diamonds]&f"
+				"Overworld Cake: Sapling"
+				"Nether Cake: Obsidian"
+				"End Cake: Ender Eye"
+				"Hunting Dimension Cake: Arrow"
+				"Lost Cities Cake: Beds"
+				"Twillight Dimension Cake: Diamonds"
 			]
 			icon: "telepastries:nether_cake"
 			id: "698080C232C3E5FC"
@@ -1811,12 +1769,12 @@
 						}
 					}
 					id: "6D8469EFAF4121D1"
-					title: "击杀凋灵"
+					title: "Kill the Wither"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "击杀凋灵&7[Kill the Wither]&f"
+			title: "Kill the Wither"
 			x: 11.5d
 			y: 0.5d
 		}
@@ -1841,10 +1799,10 @@
 					type: "item"
 				}
 			]
-			title: "地牢通行证&7[Dungeon Pass]&f"
+			title: "Dungeon Pass"
 			x: 15.5d
 			y: -1.0d
 		}
 	]
-	title: "前期发展&7[Early Game]&f"
+	title: "Early Game"
 }

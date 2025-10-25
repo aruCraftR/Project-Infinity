@@ -82,13 +82,13 @@ ItemEvents.tooltip((event) => {
       (text.add(
         1,
         Text.green(
-          'Trow me on the ground and use "Engraved Thunder", "Lightning Knife" (1 time use) or a "Lightning Charge" to get Infused Frost Crystal'
+          'Trow me on the ground and use "Engraved Thunder" or "Lightning Knife" (1 time use) to get Infused Frost Crystal'
         )
       ),
         text.add(
           2,
           Text.white(
-            'Or trow a Trident at a mob with channeling while a thunderstorm is occurring.'
+            'Or trow a Trident at a mob with channeling while a thunderstorm is occurring. Or use the Mechanical Empowerer'
           )
         ));
       text.remove(3);
@@ -191,5 +191,14 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(['kubejs:ultimate_prediction'], (item, advanced, text) => {
     text.add(1, Text.red('配方与物品由realspinelle添加.'));
     text.add(2, Text.red('非常感谢!别恨我,恨他:)'));
+  });
+
+    event.addAdvanced(['mekanism:creative_bin'], (item, advanced, text) => {
+    text.add(1, Text.red('Recipe added by RxDnz.'));
+    text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
+  });
+
+    event.addAdvanced(['ae2omnicells:multidimensional_expansion_processor'], (item, advanced, text) => {
+    text.add(1, Text.red('Recipe added by Anti.'));
   });
 });

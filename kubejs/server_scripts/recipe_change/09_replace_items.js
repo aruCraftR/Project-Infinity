@@ -35,4 +35,64 @@ ServerEvents.recipes((event) => {
     '#bookshelf:strings',
     'botanicalextramachinery:shadow_dragonstone'
   );
+  event.replaceInput(
+    { output: 'voidminers:ultimate_frame' },
+    'minecraft:nether_star',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:ultimate_energy_modifier' },
+    'minecraft:redstone',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:ultimate_speed_modifier' },
+    'minecraft:sugar',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:ultimate_item_modifier' },
+    'minecraft:diamond',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_frame' },
+    'minecraft:nether_star',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_efficiency_modifier' },
+    'minecraft:nether_star',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_weather_modifier' },
+    'minecraft:nether_star',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_frame' },
+    'minecraft:gold_ingot',
+    'voidminers:solar_ultimate_block'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_efficiency_modifier' },
+    'minecraft:redstone_block',
+    'voidminers:solar_ultimate_block'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_weather_modifier' },
+    'minecraft:phantom_membrane',
+    'voidminers:solar_ultimate_block'
+  );
+  event.replaceInput(
+    { output: 'voidminers:ultimate_block' },
+    'minecraft:nether_star',
+    'voidminers:ultimate_stellar_core'
+  );
+  event.replaceInput(
+    { output: 'voidminers:solar_ultimate_block' },
+    'minecraft:nether_star',
+    'voidminers:ultimate_stellar_core'
+  );
 });

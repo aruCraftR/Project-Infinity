@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "允许飞行.需要消耗大量经验等级&7[Allows you to fly. Needs a lot of levels]&f"
+			subtitle: "Allows you to fly. Needs a lot of levels"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -88,18 +88,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "创造飞行&7[Creative Flight]&f"
+			title: "Creative Flight"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: [
-				"根据技能等级自动攀爬指定数量的方块"
-				""
-				""
-				"&7[Automatically step up a certain number of blocks depending on the level]&f"
-			]
+			description: ["Automatically step up a certain number of blocks depending on the level"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -134,18 +129,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a自动跳跃&f&7[Step Assist]&f"
+			title: "Step Assist"
 			x: -7.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"推开你注视的实体"
-				""
-				""
-				"&7[Push away entities you're looking at]&f"
-			]
+			description: ["Push away entities you're looking at"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -180,18 +170,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a凝视&f&7[Power Stare]&f"
+			title: "Power Stare"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"吸附附近的物品"
-				""
-				""
-				"&7[Attract nearby items]&f"
-			]
+			description: ["Attract nearby items"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -226,18 +211,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "磁力吸引&7[Magnetize]&f"
+			title: "Magnetize"
 			x: -5.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"减少攻击冷却时间"
-				""
-				""
-				"&7[Reduce the cooldown rate when attacking]&f"
-			]
+			description: ["Reduce the cooldown rate when attacking"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -272,18 +252,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a快速打击&f&7[Attack Steroids]&f"
+			title: "Attack Steroids"
 			x: -7.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"使区域内动物进入繁殖状态"
-				""
-				""
-				"&7[Animals in the area become fertile]&f"
-			]
+			description: ["Animals in the area become fertile"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -318,18 +293,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "繁殖增益&7[Fertility]&f"
+			title: "Fertility"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"提升最大生命值"
-				""
-				""
-				"&7[Increase max health]&f"
-			]
+			description: ["Increase max health"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -364,18 +334,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a心脏增益&f&7[Heart Gainer]&f"
+			title: "Heart Gainer"
 			x: -4.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"增加吸收伤害的心形护盾"
-				""
-				""
-				"&7[Adds absorption hearts]&f"
-			]
+			description: ["Adds absorption hearts"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -409,18 +374,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "伤害吸收&7[Absorption]&f"
+			title: "Absorption"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a催熟周围作物&f"
-				""
-				""
-				"&7[Bonemeal the area]&f"
-			]
+			description: ["Bonemeal the area"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -455,18 +415,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "骨粉机&7[Bonemealer]&f"
+			title: "Bonemealer"
 			x: -6.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"被击中的实体会被击退更远"
-				""
-				""
-				"&7[Hit entities are knocked back further]&f"
-			]
+			description: ["Hit entities are knocked back further"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -501,18 +456,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "击退&7[Knockback]&f"
+			title: "Knockback"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a增加护甲值&f"
-				""
-				""
-				"&7[Increase armor points]&f"
-			]
+			description: ["Increase armor points"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -547,18 +497,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a隐藏胸甲&f&7[Hidden Chestplate]&f"
+			title: "Hidden Chestplate"
 			x: -2.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"减少火焰伤害"
-				""
-				""
-				"&7[Take less damage from fire]&f"
-			]
+			description: ["Take less damage from fire"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -592,18 +537,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&a火焰保护&f&7[Fire Resistance]&f"
+			title: "Fire Resistance"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a提高挖掘速度&f"
-				""
-				""
-				"&7[Mine faster]&f"
-			]
+			description: ["Mine faster"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -638,18 +578,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "急迫&7[Haste]&f"
+			title: "Haste"
 			x: -5.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"变得隐形"
-				""
-				""
-				"&7[Become invisible]&f"
-			]
+			description: ["Become invisible"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -684,18 +619,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "隐身&7[Invisibility]&f"
+			title: "Invisibility"
 			x: -6.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a提高跳跃高度&f"
-				""
-				""
-				"&7[Jump Higher]&f"
-			]
+			description: ["Jump Higher"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -730,18 +660,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a跳跃提升&f&7[Jump Boost]&f"
+			title: "Jump Boost"
 			x: -6.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a提高掉落物掉率&f"
-				""
-				""
-				"&7[Have a higher chance on better loot]&f"
-			]
+			description: ["Have a higher chance on better loot"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -776,18 +701,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "幸运&7[Luck]&f"
+			title: "Luck"
 			x: -5.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a夜视能力&f"
-				""
-				""
-				"&7[See in the dark]&f"
-			]
+			description: ["See in the dark"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -822,18 +742,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&a夜视&f&7[Night Vision]&f"
+			title: "Night Vision"
 			x: -4.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a提高生命恢复速度&f"
-				""
-				""
-				"&7[Regenerate health faster]&f"
-			]
+			description: ["Regenerate health faster"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -868,18 +783,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "生命恢复&7[Regeneration]&f"
+			title: "Regeneration"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"减少受到的攻击伤害"
-				""
-				""
-				"&7[Take less damage from attacks]&f"
-			]
+			description: ["Take less damage from attacks"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -914,18 +824,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "抗性提升&7[Restistance]&f"
+			title: "Restistance"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: [
-				"减少饥饿值消耗"
-				""
-				""
-				"&7[Reduce hunger]&f"
-			]
+			description: ["Reduce hunger"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -960,18 +865,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "饱和&7[Saturation]&f"
+			title: "Saturation"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a提高移动速度&f"
-				""
-				""
-				"&7[Walk faster]&f"
-			]
+			description: ["Walk faster"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1006,18 +906,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "速度&7[Speed]&f"
+			title: "Speed"
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"&a提高攻击伤害&f"
-				""
-				""
-				"&7[Inflict more damage when attacking]&f"
-			]
+			description: ["Inflict more damage when attacking"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1052,18 +947,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "力量&7[Strength]&f"
+			title: "Strength"
 			x: -6.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: [
-				"可在水下呼吸"
-				""
-				""
-				"&7[Breathe underwater]&f"
-			]
+			description: ["Breathe underwater"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1098,18 +988,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a水下呼吸&f&7[Water Breathing]&f"
+			title: "Water Breathing"
 			x: -5.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: [
-				"缓慢下落且不受跌落伤害"
-				""
-				""
-				"&7[Fall down slowly and take no fall damage]&f"
-			]
+			description: ["Fall down slowly and take no fall damage"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1144,7 +1029,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "&a缓降&f&7[Slow Falling]&f"
+			title: "Slow Falling"
 			x: -4.5d
 			y: 4.5d
 		}
@@ -1166,7 +1051,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 铁块&7[64x Iron Block]&f"
+			title: "64x Iron Block"
 			x: 11.0d
 			y: -3.5d
 		}
@@ -1188,7 +1073,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "16x &a注能钻石&f&7[16x Infused Diamond]&f"
+			title: "16x Infused Diamond"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -1210,7 +1095,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "32x 强化:钻石&7[32x Enhanced: Diamond]&f"
+			title: "32x Enhanced: Diamond"
 			x: 2.0d
 			y: -2.5d
 		}
@@ -1232,7 +1117,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "16x &a魔力钻石&f&7[16x Mana Diamond]&f"
+			title: "16x Mana Diamond"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -1254,7 +1139,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "8x 龙石&7[8x Dragonstone]&f"
+			title: "8x Dragonstone"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -1276,7 +1161,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 绿宝石&7[64x Emerald]&f"
+			title: "64x Emerald"
 			x: 3.0d
 			y: -3.5d
 		}
@@ -1298,7 +1183,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 青金石&7[64x Lapis]&f"
+			title: "64x Lapis"
 			x: 4.0d
 			y: -3.5d
 		}
@@ -1320,7 +1205,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 钻石&7[64x Diamond]&f"
+			title: "64x Diamond"
 			x: 2.0d
 			y: -3.5d
 		}
@@ -1342,7 +1227,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 朱砂&7[64x Cinnabar]&f"
+			title: "64x Cinnabar"
 			x: 5.0d
 			y: -3.5d
 		}
@@ -1364,7 +1249,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x &a下界石英&f&7[64x Nether Quartz]&f"
+			title: "64x Nether Quartz"
 			x: 6.0d
 			y: -3.5d
 		}
@@ -1386,7 +1271,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 硝石&7[64x Niter]&f"
+			title: "64x Niter"
 			x: 7.0d
 			y: -3.5d
 		}
@@ -1408,7 +1293,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 硫磺&7[64x Sulfur]&f"
+			title: "64x Sulfur"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -1430,7 +1315,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "16x 通量灌注宝石&7[16x Flux-Infused Gem]&f"
+			title: "16x Flux-Infused Gem"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -1452,7 +1337,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "32x 海晶晶体&7[32x Prismarine Crystals]&f"
+			title: "32x Prismarine Crystals"
 			x: 3.0d
 			y: -2.5d
 		}
@@ -1474,7 +1359,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 萤石&7[64x Fluorite]&f"
+			title: "64x Fluorite"
 			x: 9.0d
 			y: -3.5d
 		}
@@ -1496,7 +1381,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "8x &a烈焰水晶&f&7[8x Blazing Crystal]&f"
+			title: "8x Blazing Crystal"
 			x: 11.0d
 			y: -2.5d
 		}
@@ -1519,7 +1404,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "4x &a钻石水晶&f&7[4x Niotic Crystal]&f"
+			title: "4x Niotic Crystal"
 			x: 12.0d
 			y: -2.5d
 		}
@@ -1542,7 +1427,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "2x &a富生水晶&f&7[2x Spirited Crystal]&f"
+			title: "2x Spirited Crystal"
 			x: 13.0d
 			y: -2.5d
 		}
@@ -1564,7 +1449,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x &a下界水晶&f&7[1x Nitro Crystal]&f"
+			title: "1x Nitro Crystal"
 			x: 14.0d
 			y: -2.5d
 		}
@@ -1586,7 +1471,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "32x 红宝石&7[32x Ruby]&f"
+			title: "32x Ruby"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -1608,7 +1493,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "32x 蓝宝石&7[32x Sapphire]&f"
+			title: "32x Sapphire"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -1630,7 +1515,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "2x &a末影之星&f&7[2x Ender Star]&f"
+			title: "2x Ender Star"
 			x: 12.0d
 			y: -1.5d
 		}
@@ -1652,7 +1537,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "2x 通量之星&7[2x Flux Star]&f"
+			title: "2x Flux Star"
 			x: 11.0d
 			y: -1.5d
 		}
@@ -1674,7 +1559,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x 发光体&7[16x Luminessence]&f"
+			title: "16x Luminessence"
 			x: 13.0d
 			y: -1.5d
 		}
@@ -1696,7 +1581,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "32x 维度宝石&7[32x Dimensional Gem]&f"
+			title: "32x Dimensional Gem"
 			x: 4.0d
 			y: -2.5d
 		}
@@ -1718,7 +1603,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "32x &a赛特斯石英水晶&f&7[32x Certus Quartz Crystal]&f"
+			title: "32x Certus Quartz Crystal"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -1740,7 +1625,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x 充能 &a赛特斯石英水晶&f&7[16x Charged Certus Quartz Crystal]&f"
+			title: "16x Charged Certus Quartz Crystal"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -1762,7 +1647,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "8x &a福鲁伊克斯水晶&f&7[8x Fluix Crystal]&f"
+			title: "8x Fluix Crystal"
 			x: 5.0d
 			y: 0.5d
 		}
@@ -1784,7 +1669,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x &a紫水晶碎片&f&7[16x Amethyst Shard]&f"
+			title: "16x Amethyst Shard"
 			x: 5.0d
 			y: -0.5d
 		}
@@ -1805,7 +1690,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x 强化 &a红石锭&f&7[4x Enhanced Redstone Ingot]&f"
+			title: "4x Enhanced Redstone Ingot"
 			x: 11.0d
 			y: 1.5d
 		}
@@ -1826,7 +1711,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x &a增强末影锭&f&7[4x Enhanced Ender Ingot]&f"
+			title: "4x Enhanced Ender Ingot"
 			x: 12.0d
 			y: 1.5d
 		}
@@ -1848,7 +1733,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x &a红石锭&f&7[64x Redstone Ingot]&f"
+			title: "64x Redstone Ingot"
 			x: 11.0d
 			y: 0.5d
 		}
@@ -1870,7 +1755,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x &a末影锭&f&7[64x Ender Ingot]&f"
+			title: "64x Ender Ingot"
 			x: 12.0d
 			y: 0.5d
 		}
@@ -1887,14 +1772,14 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 64L
+				count: 16L
 				id: "55FC781711E2AAF4"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "64x &a黑铁锭&f&7[64x Black Iron Ingot]&f"
-			x: 13.0d
-			y: 0.5d
+			title: "64x Black Iron Ingot"
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -1905,6 +1790,7 @@
 				count: 64
 				id: "3F7D0BB816165099"
 				item: "armorplus:en_gold"
+				title: "Enhanced: Gold Ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -1914,7 +1800,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x 强化:&a金锭&f&7[64x Enhanced: Gold Ingot]&f"
+			title: "64x Enhanced: Gold Ingot"
 			x: 14.0d
 			y: 0.5d
 		}
@@ -1935,7 +1821,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x &a熔岩水晶&f&7[1x Lava Crystal]&f"
+			title: "1x Lava Crystal"
 			x: 11.0d
 			y: -0.5d
 		}
@@ -1956,7 +1842,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x &a灌注熔岩水晶&f&7[1x Infused Lava Crystal]&f"
+			title: "1x Infused Lava Crystal"
 			x: 13.0d
 			y: -0.5d
 		}
@@ -1977,7 +1863,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x 寒冰水晶&7[1x Frost Crystal]&f"
+			title: "1x Frost Crystal"
 			x: 12.0d
 			y: -0.5d
 		}
@@ -1998,7 +1884,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x 灌注寒冰水晶&7[1x Infused Frost Crystal]&f"
+			title: "1x Infused Frost Crystal"
 			x: 14.0d
 			y: -0.5d
 		}
@@ -2020,7 +1906,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x &a守卫者鳞片&f&7[16x Guardian Scale]&f"
+			title: "16x Guardian Scale"
 			x: 14.0d
 			y: -1.5d
 		}
@@ -2042,7 +1928,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x &a金块&f&7[64x Block of Gold]&f"
+			title: "64x Block of Gold"
 			x: 12.0d
 			y: -3.5d
 		}
@@ -2064,7 +1950,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x &a陨石&f&7[64x Sky Stone]&f"
+			title: "64x Sky Stone"
 			x: 13.0d
 			y: -3.5d
 		}
@@ -2086,7 +1972,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "4x &a白色塑料块&f&7[4x White Plastic Block]&f"
+			title: "4x White Plastic Block"
 			x: 14.0d
 			y: -3.5d
 		}
@@ -2107,7 +1993,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x &a旋律锭&f&7[4x Melodium Ingot]&f"
+			title: "4x Melodium Ingot"
 			x: 13.0d
 			y: 1.5d
 		}
@@ -2128,7 +2014,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x 信号锭&7[4x Signalium Ingot]&f"
+			title: "4x Signalium Ingot"
 			x: 14.0d
 			y: 1.5d
 		}
@@ -2138,6 +2024,7 @@
 			id: "1EBA26A2F36B0B80"
 			optional: true
 			rewards: [{
+				count: 64
 				id: "45D0D8DE22A51870"
 				item: "thermal:lumium_ingot"
 				type: "item"
@@ -2149,7 +2036,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x &a流明锭&f&7[1x Lumium Ingot]&f"
+			title: "64x Lumium Ingot"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -2159,6 +2046,7 @@
 			id: "45BCC26BB1949266"
 			optional: true
 			rewards: [{
+				count: 64
 				id: "3E083B2CD4E91ED1"
 				item: "thermal:enderium_ingot"
 				type: "item"
@@ -2170,7 +2058,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x &a末影锭&f&7[1x Enderium Ingot]&f"
+			title: "64x Enderium Ingot"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -2180,6 +2068,7 @@
 			id: "5C1660EE5619CD9C"
 			optional: true
 			rewards: [{
+				count: 64
 				id: "7E60F113A329B233"
 				item: "thermalendergy:prismalium_ingot"
 				type: "item"
@@ -2191,7 +2080,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x &a海晶锭&f&7[1x Prismalium Ingot]&f"
+			title: "64x Prismalium Ingot"
 			x: 13.0d
 			y: 2.5d
 		}
@@ -2212,7 +2101,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "1x &a恒星锭&f&7[1x Stellarium Ingot]&f"
+			title: "64x Stellarium Ingot"
 			x: 14.0d
 			y: 2.5d
 		}
@@ -2220,12 +2109,8 @@
 			can_repeat: true
 			dependencies: ["6857EBCB5EE5161B"]
 			description: [
-				"使用 &a目标显示器&f 输入电容"
-				"&a右击&f &a目标显示器&f 并选择正确的任务"
-				""
-				""
-				"&7[Use the Task Screen to input the Capacitor.]&f"
-				"&7[Right Click the Task Screen and choose the correct Quest]&f"
+				"Use the Task Screen to input the Capacitor."
+				"Right Click the Task Screen and choose the correct Quest"
 			]
 			id: "7CCB21D64B9DD26C"
 			optional: true
@@ -2252,12 +2137,8 @@
 			can_repeat: true
 			dependencies: ["6857EBCB5EE5161B"]
 			description: [
-				"使用 &a目标显示器&f 输入能量"
-				"&a右击&f &a目标显示器&f 并选择正确的任务"
-				""
-				""
-				"&7[Use the Task Screen to input the Energy.]&f"
-				"&7[Right Click the Task Screen and choose the correct Quest]&f"
+				"Use the Task Screen to input the Energy."
+				"Right Click the Task Screen and choose the correct Quest"
 			]
 			id: "432D9DC5978653F2"
 			optional: true
@@ -2306,7 +2187,7 @@
 				type: "questsadditions:killnbt"
 				value: 250L
 			}]
-			title: "击杀:250x 凋灵&7[Kill: 250x Wither]&f"
+			title: "Kill: 250x Wither"
 			x: -6.5d
 			y: 13.0d
 		}
@@ -2323,12 +2204,8 @@
 		{
 			can_repeat: true
 			description: [
-				"在服务器上可使用此交易"
-				"单人模式下请前往&a狩猎&f维度或失落之城寻找陨石"
-				""
-				""
-				"&7[When you are on a server you can use this trade. ]&f"
-				"&7[If on singleplayer then go search the meteors in hunting dimension or lost cities.]&f"
+				"When you are on a server you can use this trade. "
+				"If on singleplayer then go search the meteors in hunting dimension or lost cities."
 			]
 			id: "3D2DB9C3D7B39D17"
 			optional: true
@@ -2391,7 +2268,7 @@
 					type: "item"
 				}
 			]
-			title: "压印模板&7[Inscriber Presses]&f"
+			title: "Inscriber Presses"
 			x: 5.5d
 			y: 5.5d
 		}
@@ -2443,7 +2320,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&a普通 &a战利品箱&f&7[Common Loot Crate]&f"
+			title: "&aCommon Loot Crate"
 			x: 4.5d
 			y: 8.5d
 		}
@@ -2476,7 +2353,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&2罕见 &a战利品箱&f&7[Uncommon Loot Crate]&f"
+			title: "&2Uncommon Loot Crate"
 			x: 5.5d
 			y: 8.5d
 		}
@@ -2509,7 +2386,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&9稀有 &a战利品箱&f&7[Rare Loot Crate]&f"
+			title: "&9Rare Loot Crate"
 			x: 6.5d
 			y: 8.5d
 		}
@@ -2542,7 +2419,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&e史诗 &a战利品箱&f&7[Epic Loot Crate]&f"
+			title: "&eEpic Loot Crate"
 			x: 7.5d
 			y: 8.5d
 		}
@@ -2575,7 +2452,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&c传说 &a战利品箱&f&7[Legendary Loot Crate]&f"
+			title: "&cLegendary Loot Crate"
 			x: 8.5d
 			y: 8.5d
 		}
@@ -2608,7 +2485,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&5神话 &a战利品箱&f&7[Mythic Loot Crate]&f"
+			title: "&5Mythic Loot Crate"
 			x: 9.5d
 			y: 8.5d
 		}
@@ -2640,7 +2517,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&a一级种子箱&7[Tier 1 Seed Crate]&f"
+			title: "&aTier 1 Seed Crate"
 			x: 4.5d
 			y: 10.0d
 		}
@@ -2673,7 +2550,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&2二级种子箱&7[Tier 2 Seed Crate]&f"
+			title: "&2Tier 2 Seed Crate"
 			x: 5.5d
 			y: 10.0d
 		}
@@ -2706,7 +2583,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&e三级种子箱&7[Tier 3 Seed Crate]&f"
+			title: "&6Tier 3 Seed Crate"
 			x: 6.5d
 			y: 10.0d
 		}
@@ -2739,7 +2616,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&9四级种子箱&7[Tier 4 Seed Crate]&f"
+			title: "&9Tier 4 Seed Crate"
 			x: 7.5d
 			y: 10.0d
 		}
@@ -2772,7 +2649,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&c五级种子箱&7[Tier 5 Seed Crate]&f"
+			title: "&cTier 5 Seed Crate"
 			x: 8.5d
 			y: 10.0d
 		}
@@ -2805,7 +2682,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&5六级种子箱&7[Tier 6 Seed Crate]&f"
+			title: "&5Tier 6 Seed Crate"
 			x: 9.5d
 			y: 10.0d
 		}
@@ -2838,7 +2715,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&5混沌龙研 &a战利品箱&f&7[DE Chaotic Loot Crate]&f"
+			title: "&5DE Chaotic Loot Crate"
 			x: 9.5d
 			y: 11.5d
 		}
@@ -2871,7 +2748,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&c龙之研究 &a战利品箱&f&7[DE Draconic Loot Crate]&f"
+			title: "&cDE Draconic Loot Crate"
 			x: 8.5d
 			y: 11.5d
 		}
@@ -2904,7 +2781,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&2飞龙 &a战利品箱&f&7[DE Wyvern Loot Crate]&f"
+			title: "&2DE Wyvern Loot Crate"
 			x: 5.5d
 			y: 11.5d
 		}
@@ -2936,7 +2813,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&a基础龙研 &a战利品箱&f&7[DE Basic Loot Crate]&f"
+			title: "&aDE Basic Loot Crate"
 			x: 4.5d
 			y: 11.5d
 		}
@@ -2968,7 +2845,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&a&d植物魔法&f 普通 &a战利品箱&f&7[Botania Common Loot Crate]&f"
+			title: "&aBotania Common Loot Crate"
 			x: 4.5d
 			y: 13.0d
 		}
@@ -3001,7 +2878,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&c&d植物魔法&f 传说 &a战利品箱&f&7[Botania Legendary Loot Crate]&f"
+			title: "&cBotania Legendary Loot Crate"
 			x: 8.5d
 			y: 13.0d
 		}
@@ -3033,7 +2910,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&a&d通用机械&f 普通 &a战利品箱&f&7[Mekanism Common Loot Crate]&f"
+			title: "&aMekanism Common Loot Crate"
 			x: 4.5d
 			y: 14.5d
 		}
@@ -3065,31 +2942,32 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&2精华 &a战利品箱&f&7[Essence Loot Crate]&f"
+			title: "&2Essence Loot Crate"
 			x: 5.5d
 			y: 14.5d
 		}
 		{
 			can_repeat: true
-			id: "4457E88B9F006823"
+			icon: "armorplus:en_iron"
+			id: "123A8EE97797D35E"
+			optional: true
 			rewards: [{
-				auto: "disabled"
-				command: "/tp @s 2.5 70.00 2.5"
-				elevate_perms: true
-				id: "15FA5C671F52851B"
-				silent: true
-				title: "传送"
-				type: "command"
+				count: 64
+				id: "2753930696CFDA43"
+				item: "armorplus:en_iron"
+				type: "item"
 			}]
-			size: 3.0d
 			tasks: [{
-				id: "3D400078060B27F1"
-				title: "世界出生点"
-				type: "checkmark"
+				consume_items: true
+				count: 64L
+				id: "3BD82E1DB9BDACB9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
 			}]
-			x: -1.0d
-			y: 11.5d
+			title: "64x Enhanced: Iron Ingot"
+			x: 13.0d
+			y: 0.5d
 		}
 	]
-	title: "&d商店&f&7[Shop]&f"
+	title: "&dShop"
 }

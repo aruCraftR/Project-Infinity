@@ -88,13 +88,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "extendedae_plus": {
-    "wt_locked": true,
-    "wt_frequency": true,
-    "wt_network_usable": true,
-    "wt_master_mode": true,
-    "wt_master_location": true
-  },
   "extendedcrafting": {
     "elite_auto_table": true,
     "ender_crafter": true,
@@ -139,6 +132,9 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true
   },
   "mm": {
     "controller_progress": true

@@ -15,10 +15,10 @@
 	HeatedcoolanttankCapacity = 18000000000
 	#Max fuel cosume per tick of Compact Fission Reactor
 	#Range: 1 ~ 9223372036854775807
-	burnrate = 1920
+	burnrate = 192000
 	#Energy Capacity of Compact Fission Reactor
 	#Range: 1 ~ 9223372036854775807
-	energycapacity = 2500000000
+	energycapacity = 25000000
 	#The heat capacity of Compact Fission Reactor
 	#Range: 1.0 ~ 1.7976931348623157E308
 	HeatCapacity = 1000000.0

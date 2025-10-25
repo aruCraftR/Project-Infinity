@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
           item: 'nuclearcraft:dense_water_collector',
         },
         B: {
-          item: 'botanicalextramachinery:crimson_ingot_block',
+          item: 'botanicalextramachinery:malachite_ingot_block',
         },
         C: {
           item: 'kubejs:empowered_super_block',
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:water_essence',
         },
         H: {
-          item: 'kubejs:infinity_6',
+          item: 'kubejs:infinity_1',
         },
         I: {
           item: 'minecraft:water_bucket',
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_watering_can',
         },
         L: {
-          item: 'botanicalextramachinery:crimson_spark',
+          item: 'botanicalextramachinery:malachite_spark',
         },
         M: {
           item: 'mysticalagriculture:imperium_watering_can',
@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
           item: 'rftoolsutility:waterbreathing_module',
         },
         O: {
-          item: 'projecte:evertide_amulet',
+          item: 'cyclic:charm_water',
         },
         P: {
           item: 'botanicalextramachinery:catalyst_water_infinity',
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
           item: 'botania:water_ring',
         },
         X: {
-          item: 'watersources:water_source_tier_5',
+          item: 'industrialforegoing:water_condensator',
         },
       },
       result: {

@@ -44,12 +44,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"&r&d建筑小帮手&f 2模组通过让玩家快速放置或移除大面积的方块来加速建造."
-				""
-				""
-				"&7[The Building Gadgets 2 mod speeds up building by letting players quickly place or remove large areas of blocks.]&f"
-			]
+			description: ["&rThe Building Gadgets 2 mod speeds up building by letting players quickly place or remove large areas of blocks."]
 			id: "0F75D7B9F4FF2459"
 			rewards: [{
 				id: "4F4959C6CA30683B"
@@ -71,7 +66,11 @@
 				}
 				{
 					id: "4738B22DF26DB2D8"
-					item: "buildinggadgets2:gadget_copy_paste"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -80,22 +79,16 @@
 					type: "item"
 				}
 			]
-			title: "&a建筑小帮手&f&7[Building Gadget]&f"
+			title: "Building Gadget"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&4&a建筑&f 魔杖&r mod允许玩家同时放置多个方块,实现更快速高效的建造.根据魔杖材质不同,最多可一次性放置1,024个方块."
+				"&4The Construction Wand&r mod allows players to place multiple blocks simultaneously, facilitating faster and more efficient building. Depending on the wand's material, up to 1,024 blocks can be placed at once."
 				""
 				""
-				"&1&a管道&f 连接器&r mod允许玩家同时铺设多条管道.将支持的管道持于副手,按住Shift键&a右击&f一个方块,再按住Shift键&a右击&f另一个方块.可通过Shift键配合鼠标滚轮调整深度.Shift键&a右击&f空气可打开GUI界面,在此可修改设置或铺设管道."
-				""
-				""
-				"&7[The Construction Wand mod allows players to place multiple blocks simultaneously, facilitating faster and more efficient building. Depending on the wand's material, up to 1,024 blocks can be placed at once.]&f"
-				""
-				""
-				"&7[The Pipes Connector mod allows players to place multiple pipes simultaneously. Hold a supported Pipe in your Off-Hand and shift right click a block. Then shift right click another block. You can change the depth with shift and mouse wheel. Shift right click into the air to open the GUI. Here you can change the settings or place the pipes.]&f"
+				"&1The Pipes Connector&r mod allows players to place multiple pipes simultaneously. Hold a supported Pipe in your Off-Hand and shift right click a block. Then shift right click another block. You can change the depth with shift and mouse wheel. Shift right click into the air to open the GUI. Here you can change the settings or place the pipes."
 			]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
@@ -130,34 +123,22 @@
 					type: "item"
 				}
 			]
-			title: "魔杖与管道连接器&7[Wand and Pipe Connector]&f"
+			title: "Wand and Pipe Connector"
 			x: -5.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"&a简易磁铁&f 模组新增可自动吸附附近物品与经验球的道具."
+				"The Simple Magnets mod introduces items that automatically attract nearby items and experience orbs to the player. "
 				""
-				"包含两种主要磁铁:"
+				"It features two main magnets:"
 				""
-				"&4基础磁铁&f:吸引5格范围内的物品与经验."
+				"&4Basic Magnet&f: Attracts items and experience within a 5-block radius."
 				""
-				"&2高级磁铁&f:提供可配置范围与过滤选项,精准控制吸附对象."
-				""
-				""
-				"另新增&d消磁线圈&f,可创建磁铁失效区域,防止特定范围内的物品被吸附."
+				"&2Advanced Magnet&f: Offers a configurable range and filtering options, allowing for more precise control over which items are attracted."
 				""
 				""
-				"&7[The Simple Magnets mod introduces items that automatically attract nearby items and experience orbs to the player. ]&f"
-				""
-				"&7[It features two main magnets:]&f"
-				""
-				"&7[Basic Magnet: Attracts items and experience within a 5-block radius.]&f"
-				""
-				"&7[Advanced Magnet: Offers a configurable range and filtering options, allowing for more precise control over which items are attracted.]&f"
-				""
-				""
-				"&7[Additionally, the mod includes Demagnetization Coils, which create areas where magnets are ineffective, preventing unwanted attraction of items in specific zones.]&f"
+				"Additionally, the mod includes &dDemagnetization Coils&f, which create areas where magnets are ineffective, preventing unwanted attraction of items in specific zones."
 			]
 			id: "3FC002E5A6C08DCC"
 			rewards: [{
@@ -168,27 +149,20 @@
 			size: 2.0d
 			tasks: [{
 				id: "4112D6272EC400DE"
-				item: "simplemagnets:basicmagnet"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "磁铁&7[Magnet]&f"
+			title: "Magnet"
 			x: -3.0d
 			y: 10.0d
 		}
 		{
-			description: [
-				"&d等价交换重制版&f 模组中的&5&a裂风者&f&r是具有创造模式飞行能力的神器,可向生物发射闪电.启动时会消耗EMC或燃料(如荧石),需激活才能使用能力."
-				""
-				""
-				"&7[The Rending Gale in the ProjectE mod is a powerful item that grants creative-style flight and the ability to launch lightning bolts at mobs. It consumes EMC or fuel (like Glowstone) while active and must be toggled on to use its abilities.]&f"
-			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: { }
-				}
-				id: "projecte:swiftwolf_rending_gale"
-			}
+			description: ["You can change the ingots from one mod to another when you find a bad input."]
+			icon: "mekanism:oredictionificator"
 			id: "25E585C8AE7430DC"
 			rewards: [{
 				id: "0F1FEE53279D1DCB"
@@ -196,25 +170,11 @@
 				xp_levels: 3
 			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "1E0446C02381B91A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:swiftwolf_rending_gale"
-					}
-					type: "item"
-				}
-				{
-					id: "6E2C6FF70F097FA5"
-					item: "projecte:relay_mk1"
-					type: "item"
-				}
-			]
-			title: "&a裂风者&f&7[Rending Gale]&f"
+			tasks: [{
+				id: "5C37126846FB5B2D"
+				item: "mekanism:oredictionificator"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 0.0d
 		}
@@ -241,12 +201,7 @@
 			y: 9.0d
 		}
 		{
-			description: [
-				"永恒之门模组新增波次制战斗事件:通过召唤传送门击退敌人波次以获得奖励."
-				""
-				""
-				"&7[Gateways to Eternity adds wave-based combat events where you summon portals and fight through enemy waves for rewards.]&f"
-			]
+			description: ["Gateways to Eternity adds wave-based combat events where you summon portals and fight through enemy waves for rewards."]
 			icon: {
 				Count: 1
 				id: "gateways:gate_pearl"
@@ -364,17 +319,12 @@
 				}
 				type: "item"
 			}]
-			title: "永恒之门&7[Gateway]&f"
+			title: "Gateway"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
-			description: [
-				"&r&a火把大师&f 模组新增特殊光源(如&a巨型火把&f),可阻止特定半径内生成敌对生物."
-				""
-				""
-				"&7[The Torchmaster mod adds special light sources like the Mega Torch that prevent hostile mobs from spawning within a certain radius.]&f"
-			]
+			description: ["&rThe Torchmaster mod adds special light sources like the Mega Torch that prevent hostile mobs from spawning within a certain radius."]
 			icon: "torchmaster:megatorch"
 			id: "2874646A910EA889"
 			rewards: [{
@@ -405,17 +355,12 @@
 					type: "item"
 				}
 			]
-			title: "火把大师&7[Torchmaster]&f"
+			title: "Torchmaster"
 			x: -2.0d
 			y: -1.0d
 		}
 		{
-			description: [
-				"&a天使&f 方块模组新增可悬空放置的特殊方块,无需支撑物,非常适合建造浮空建筑或空岛类工程."
-				""
-				""
-				"&7[The Angel Block mod adds a special block that can be placed in mid-air without needing support, making it perfect for building floating structures or starting sky-based builds.]&f"
-			]
+			description: ["The Angel Block mod adds a special block that can be placed in mid-air without needing support, making it perfect for building floating structures or starting sky-based builds."]
 			icon: "angelblockrenewed:angel_block"
 			id: "0BD5C89908C16DDB"
 			rewards: [{
@@ -429,17 +374,12 @@
 				item: "angelblockrenewed:angel_block"
 				type: "item"
 			}]
-			title: "天使方块&7[Angel Block]&f"
+			title: "Angel Block"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
-			description: [
-				"&r&a心之容器&f 模组新增可提升生命上限的心之罐.通过饰品槽装备,不同等级罐子对应不同强度,强力心脏由高阶生物掉落."
-				""
-				""
-				"&7[The Baubley Heart Canisters mod adds heart canisters that increase your max health. They're equipped via Curios slots and come in different tiers, with stronger hearts dropped from tougher mobs.]&f"
-			]
+			description: ["&rThe Baubley Heart Canisters mod adds heart canisters that increase your max health. They’re equipped via Curios slots and come in different tiers, with stronger hearts dropped from tougher mobs."]
 			icon: "bhc:red_heart_canister"
 			id: "550D14F2C1CB91DF"
 			rewards: [{
@@ -465,17 +405,12 @@
 					type: "item"
 				}
 			]
-			title: "&a生命值罐&f&7[Heart Canister]&f"
+			title: "Heart Canister"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
-			description: [
-				"&a麦秸泥块&f 无限供应模组新增简易圆石生成器,无需水熔岩配置即可自动生产圆石.高阶生成器生产效率更高."
-				""
-				""
-				"&7[The Cobble for Days mod adds simple cobblestone generators that produce cobble automatically without needing water or lava setups. Higher-tier generators produce cobblestone faster.]&f"
-			]
+			description: ["The Cobble for Days mod adds simple cobblestone generators that produce cobble automatically without needing water or lava setups. Higher-tier generators produce cobblestone faster."]
 			icon: "cobblefordays:tier_1"
 			id: "68B70D3C33B1A218"
 			rewards: [{
@@ -489,17 +424,12 @@
 				item: "cobblefordays:tier_1"
 				type: "item"
 			}]
-			title: "&a造石机&f&7[Cobblestone Generator]&f"
+			title: "Cobblestone Generator"
 			x: -1.0d
 			y: 10.0d
 		}
 		{
-			description: [
-				"&d通用机械&f 模组中的&a数字型采矿机&f是高可定制化采矿设备,可自动扫描并大面积开采特定方块,甚至能穿透障碍物作业."
-				""
-				""
-				"&7[The Digital Miner from Mekanism is a high-tech, customizable mining machine that can automatically scan and mine specific blocks from a large area, even through obstacles.]&f"
-			]
+			description: ["The Digital Miner from Mekanism is a high-tech, customizable mining machine that can automatically scan and mine specific blocks from a large area, even through obstacles."]
 			id: "39F0944503669D86"
 			rewards: [{
 				id: "32B06B319FFB2BBE"
@@ -512,17 +442,12 @@
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
-			title: "&a数字型采矿机&f&7[Digital Miner]&f"
+			title: "Digital Miner"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: [
-				"&a打包机&f 模组新增自动将物品压缩为2x2或3x3形态的机器(如粒铸锭、锭压块),支持递归压缩,使用RF或EU能源驱动."
-				""
-				""
-				"&7[The Compacter mod adds a simple machine that automatically crafts items into 2x2 or 3x3 compressed forms, like turning nuggets into ingots or ingots into blocks. It supports recursive compacting and runs on RF or EU power.]&f"
-			]
+			description: ["The Compacter mod adds a simple machine that automatically crafts items into 2x2 or 3x3 compressed forms, like turning nuggets into ingots or ingots into blocks. It supports recursive compacting and runs on RF or EU power."]
 			icon: "compacter:compacter"
 			id: "3887F065A1B917DC"
 			rewards: [{
@@ -531,23 +456,18 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "用于筛矿？&7[for the sieve?]&f"
+			subtitle: "for the sieve?"
 			tasks: [{
 				id: "013061F4A17E61C8"
 				item: "compacter:compacter"
 				type: "item"
 			}]
-			title: "压缩器&7[Compactor]&f"
+			title: "Compactor"
 			x: 3.0d
 			y: 4.0d
 		}
 		{
-			description: [
-				"在物品栏左上角查找设置选项"
-				""
-				""
-				"&7[Find the settings in your Inventory in the top left corner]&f"
-			]
+			description: ["Find the settings in your Inventory in the top left corner"]
 			id: "72026F51769FE691"
 			rewards: [{
 				id: "70E30476631BBF48"
@@ -557,20 +477,15 @@
 			size: 2.0d
 			tasks: [{
 				id: "25ECB4BE7185468F"
-				title: "消音器"
+				title: "muffler"
 				type: "checkmark"
 			}]
-			title: "终极消音器&7[Extreme Muffler]&f"
+			title: "Extreme Muffler"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
-			description: [
-				"采集128个相同方块可补充饥饿值.快捷键修改请查阅键位设置,搜索“FTB Ultimine“"
-				""
-				""
-				"&7[Mine up to 128 of the same block for hunger. Change the hotkey in your keybinds. Search for \"FTB Ultimine\"]&f"
-			]
+			description: ["Mine up to 128 of the same block for hunger. Change the hotkey in your keybinds. Search for \"FTB Ultimine\""]
 			id: "5A2174711D9219BF"
 			rewards: [{
 				id: "00B47659A517F31E"
@@ -580,19 +495,14 @@
 			size: 2.0d
 			tasks: [{
 				id: "5F5B1B7F605C5997"
-				title: "FTB终极采矿"
+				title: "FTB Ultimine"
 				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			description: [
-				"&r&a激光接口&f 模组允许玩家通过单个方块面管理物品、流体、能量和红石信号,提供灵活高效的资源传输方案."
-				""
-				""
-				"&7[The LaserIO mod allows players to manage items, fluids, energy, and redstone signals using a single block face, offering flexible and efficient resource transportation.]&f"
-			]
+			description: ["&rThe LaserIO mod allows players to manage items, fluids, energy, and redstone signals using a single block face, offering flexible and efficient resource transportation."]
 			icon: "laserio:laser_node"
 			id: "70CC7F36C90AFAD6"
 			rewards: [{
@@ -623,22 +533,13 @@
 		}
 		{
 			description: [
-				"瓶中时光模组新增一种会在物品栏中自动积累时间的道具."
+				"The Time in a Bottle mod introduces an item that passively accumulates time while in your inventory."
 				""
-				"储存的时间可用于加速方块进程,例如提高熔炉工作效率或促进作物生长."
+				"You can use this stored time to accelerate block processes, such as speeding up furnaces or crop growth."
 				""
-				"对方块右键使用瓶子可提升其运算速率,每次点击会使速度翻倍但消耗更多储存时间."
+				"Right-clicking a block with the bottle increases its tick rate, with each successive click doubling the speed but requiring more stored time."
 				""
-				"加速效果持续30秒."
-				""
-				""
-				"&7[The Time in a Bottle mod introduces an item that passively accumulates time while in your inventory.]&f"
-				""
-				"&7[You can use this stored time to accelerate block processes, such as speeding up furnaces or crop growth.]&f"
-				""
-				"&7[Right-clicking a block with the bottle increases its tick rate, with each successive click doubling the speed but requiring more stored time.]&f"
-				""
-				"&7[The acceleration effect lasts for 30 seconds.]&f"
+				"The acceleration effect lasts for 30 seconds."
 			]
 			id: "3DC75B276FB694C9"
 			min_width: 400
@@ -672,7 +573,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "以下是一些采矿维度&7[Here are some mining dimensions]&f"
+			subtitle: "Here are some mining dimensions"
 			tasks: [
 				{
 					id: "740AD0132B3CFCDD"
@@ -690,7 +591,7 @@
 					type: "item"
 				}
 			]
-			title: "传送门&7[Portal]&f"
+			title: "Portal"
 			x: -2.0d
 			y: 7.0d
 		}
@@ -702,63 +603,40 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "无生物生成的虚空维度&7[A void dimension without mob spawn]&f"
+			subtitle: "A void dimension without mob spawn"
 			tasks: [{
 				id: "611D5361E401A76C"
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			title: "虚空维度&7[Void Dimension]&f"
+			title: "Void Dimension"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependency_requirement: "all_started"
 			description: [
-				"&e管道系统&r 模组添加了&o&b简约&r且&o&b高度可配置&r的管道,其设计目标是"
-				"&n尽可能减少卡顿&r."
+				"&6Pipez&r mod adds &o&bsimple&r and &o&bhighly configurable&r pipes that are designed to create"
+				"&nas little lag as possible&r."
 				""
-				"管道类型:"
-				"• &e物品&r 管道"
-				"• &9流体&r 管道"
-				"• &c能量&r 管道"
-				"• &3气体&r 管道 (&d通用机械&f)"
-				"• &8通用&r 管道(集&o&b四种&r功能于一体!)"
+				"Pipe Types:"
+				"• &eItem&r Pipes"
+				"• &9Fluid&r Pipes"
+				"• &cEnergy&r Pipes"
+				"• &3Gas&r Pipes (Mekanism)"
+				"• &8Universal&r Pipes (All &o&b4&r Pipes in one!)"
 				""
-				"若未设置为&n抽取&r模式,管道将&o&b不会传输任何内容&r."
-				"手持&2扳手&r潜行点击连接管道的末端可将其设置为&o&b抽取&r模式."
+				"Pipes &o&bdon't transfer anything&r if they are not set to &nextract&r."
+				"You can &eSneak-click&r onto the end of a connected pipe with a &2Wrench&r to set it to &o&bextract&r."
 				""
-				"点击管道的&n抽取端&r可&o&b切换模式&r、添加&3过滤器&r或安装&a升级组件&r."
+				"Click the &nextracting&r part of the pipe to &o&bchange modes&r, add &3filters&r or add &aupgrades&r."
 				""
-				"手持&2扳手&r潜行点击可&c断开&r/&9重连&r管道."
+				"Pipes can be &cdisconnected&r/&9reconnected&r by &eSneak-clicking&r with a &2Wrench&r."
 				""
-				"默认情况下管道&o&b传输速度较慢&r,只能通过&o&b添加升级组件&r提升速率."
-				"升级层级越高,传输速率越快."
+				"By default pipes are &o&brelatively slow&r. The speed can &nonly&r be increased by &o&badding an upgrade&r."
+				"Higher tiers of upgrades mean a higher transfer rate."
 				""
-				"&3过滤器&r适用于&a物品&r管道、&9流体&r管道和&7气体&r管道.添加特定物品只需在过滤器&o&b图形界面&r的槽位中&e点击&r物品,也可在文本框中输入物品&o&bID&r."
-				""
-				""
-				"&7[Pipez mod adds simple and highly configurable pipes that are designed to create]&f"
-				"&7[as little lag as possible.]&f"
-				""
-				"&7[Pipe Types:]&f"
-				"&7[• Item Pipes]&f"
-				"&7[• Fluid Pipes]&f"
-				"&7[• Energy Pipes]&f"
-				"&7[• Gas Pipes (Mekanism)]&f"
-				"&7[• Universal Pipes (All 4 Pipes in one!)]&f"
-				""
-				"&7[Pipes don't transfer anything if they are not set to extract.]&f"
-				"&7[You can Sneak-click onto the end of a connected pipe with a Wrench to set it to extract.]&f"
-				""
-				"&7[Click the extracting part of the pipe to change modes, add filters or add upgrades.]&f"
-				""
-				"&7[Pipes can be disconnected/reconnected by Sneak-clicking with a Wrench.]&f"
-				""
-				"&7[By default pipes are relatively slow. The speed can only be increased by adding an upgrade.]&f"
-				"&7[Higher tiers of upgrades mean a higher transfer rate.]&f"
-				""
-				"&7[Filters can be used with item pipes, fluid pipes and gas pipes. To add a specific item, just Click it on the slot in the filter GUI. Alternatively you can type the item ID in the text field next to it.]&f"
+				"&3Filters&r can be used with &aitem&r pipes, &9fluid&r pipes and &7gas&r pipes. To add a specific item, just &eClick&r it on the slot in the filter &o&bGUI&r. Alternatively you can type the item &o&bID&r in the text field next to it."
 			]
 			id: "4D3274AE190EEA88"
 			min_width: 420
@@ -799,7 +677,7 @@
 							]
 						}
 					}
-					title: "管道"
+					title: "Pipes"
 					type: "item"
 				}
 				{
@@ -832,7 +710,7 @@
 							]
 						}
 					}
-					title: "管道升级"
+					title: "Pipe Upgrades"
 					type: "item"
 				}
 				{
@@ -854,34 +732,22 @@
 					type: "item"
 				}
 			]
-			title: "管道系统&7[Pipez]&f"
+			title: "Pipez"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"&e物品收集器&r 模组添加可收集指定范围内物品的收集器!支持&b白名单&r和&8黑名单&r模式!"
+				"&6Item Collectors&r adds collectors which collect items in a specified range! Item Collectors can be &bwhitelisted&r or &8blacklisted&r!"
 				""
-				"&a基础物品收集器"
-				"• &o&b基础物品收集器&r的收集范围最远达&o&b5&r格!"
-				"• 对&o&b基础物品收集器&r&e右键点击&r可打开其&o&b图形界面&r."
+				"&aBasic Item Collector"
+				"• The &o&bBasic Item Collector&r has a range of up to &o&b5&r blocks!"
+				"• &eRight-Click&r a &o&bBasic Item Collector&r to open its &o&bGUI&r."
 				""
-				"&d高级物品收集器"
-				"• &o&b高级物品收集器&r的收集范围最远达&o&b7&r格!"
-				"• 对&o&b高级物品收集器&r&e右键点击&r可打开其&o&b图形界面&r."
-				"• &o&b高级物品收集器&r支持物品&3过滤&r功能."
-				""
-				""
-				"&7[Item Collectors adds collectors which collect items in a specified range! Item Collectors can be whitelisted or blacklisted!]&f"
-				""
-				"&7[Basic Item Collector]&f"
-				"&7[• The Basic Item Collector has a range of up to 5 blocks!]&f"
-				"&7[• Right-Click a Basic Item Collector to open its GUI.]&f"
-				""
-				"&7[Advanced Item Collector]&f"
-				"&7[• The Advanced Item Collector has a range of up to 7 blocks!]&f"
-				"&7[• Right-Click an Advanced Item Collector to open its GUI.]&f"
-				"&7[• The Advanced Item Collector can filter items.]&f"
+				"&dAdvanced Item Collector"
+				"• The &o&bAdvanced Item Collector&r has a range of up to &o&b7&r blocks!"
+				"• &eRight-Click&r an &o&bAdvanced Item Collector&r to open its &o&bGUI&r."
+				"• The &o&bAdvanced Item Collector&r can &3filter&r items."
 			]
 			id: "7F9F08CF09D81EB6"
 			min_width: 300
@@ -909,23 +775,18 @@
 						]
 					}
 				}
-				title: "物品收集器"
+				title: "Item Collectors"
 				type: "item"
 			}]
-			title: "物品收集器&7[Item Collectors]&f"
+			title: "Item Collectors"
 			x: -8.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"本模组新增可&o&b销毁&r&e物品&r、&9流体&r和&c能量&r的&e&a垃圾桶&f&r!"
+				"This mod adds &6Trash Cans&r which can be used to &o&bvoid&r &eitems&r, &9fluids&r and &cenergy&r!"
 				""
-				"支持对&e物品&r和&9流体&r设置&b白名单&r或&8黑名单&r,并可设定&c能量&r&n传输上限&r!"
-				""
-				""
-				"&7[This mod adds Trash Cans which can be used to void items, fluids and energy!]&f"
-				""
-				"&7[Items and Fluids can be whitelisted or blacklisted and an energy transfer limit can be set!]&f"
+				"&eItems&r and &9Fluids&r can be &bwhitelisted&r or &8blacklisted&r and an &cenergy&r &ntransfer limit&r can be set!"
 			]
 			id: "684F432B43D104A1"
 			min_width: 300
@@ -961,27 +822,20 @@
 						]
 					}
 				}
-				title: "&a垃圾桶&f"
+				title: "Trash Cans"
 				type: "item"
 			}]
-			title: "&a垃圾桶&f&7[The Trash Cans]&f"
+			title: "The Trash Cans"
 			x: -7.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"&e&a纸板箱&f&r 用于将其他方块&o&b打包&r以便移动,在&o&b搬运&r过程中保留其内部存储内容."
+				"&6Cardboard Box&r is used for &o&bboxing up&r other blocks to move them, preserving the inventory while being &o&bmoved&r."
 				""
-				"通过在任何&o&b方块&r、&o&b储罐&r、&o&b箱子&r或&o&b机器&r上&e右键点击&r,您可以用这个保护性箱子将其&n包裹&r起来,打破箱子时仍能保留该&o&b方块&r、&o&b储罐&r、&o&b箱子&r或&o&b机器&r的所有属性.这包括其&o&b库存&r、&o&b朝向&r、&o&b已安装的升级&r以及&o&b更多&r内容.之后您可以安全地将其放置回世界中.&e潜行+右键点击&r以&n拆开&r箱子,使&e&a纸板箱&f&r作为物品掉落."
+				"By &eRight-Clicking&r it on any &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r, you &nwrap&r it in this protective box that you can break while still preserving everything about that &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r. This includes its &o&binventory&r, &o&borientation&r, &o&binstalled upgrades&r, and &o&bmore&r. You can later place it safely into the world. &eSneak+Right-Click&r to &nunwrap&r a box, causing the &6Cardboard Box&r to drop as an item."
 				""
-				"使用&e&a纸板箱&fes&r,您还可以拾取&n刷怪笼&r."
-				""
-				""
-				"&7[Cardboard Box is used for boxing up other blocks to move them, preserving the inventory while being moved.]&f"
-				""
-				"&7[By Right-Clicking it on any block, tank, chest or machine, you wrap it in this protective box that you can break while still preserving everything about that block, tank, chest or machine. This includes its inventory, orientation, installed upgrades, and more. You can later place it safely into the world. Sneak+Right-Click to unwrap a box, causing the Cardboard Box to drop as an item.]&f"
-				""
-				"&7[With Cardboard Boxes you can pick up spawners too.]&f"
+				"With &6Cardboard Boxes&r you can pick up &nspawners&r too."
 			]
 			id: "2E20069AE6C51ADF"
 			min_width: 400
@@ -1009,22 +863,13 @@
 		}
 		{
 			description: [
-				"&2&a自然指南针&f&r 是一种实用物品,允许您在世界任何地方搜索生物群系的位置并查看其信息."
+				"&2Nature's Compass&r is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
 				""
-				"&3探索者指南针&r 是一种物品,允许您定位世界任何地方的结构."
+				"&3Explorers Compass&r is an item that allows you to locate structures anywhere in the world."
 				""
-				"手持&o&b指南针&r时&e右键点击&r将打开选择&o&b图形用户界面&r,从中您可以搜索生物群系/结构或查看其信息."
+				"&eRight-Clicking&r with &o&bCompass&r in hand will open the selection &o&bGUI&r, from which you can search for a biome/structure or view information about it."
 				""
-				"&eShift+右键点击&r将&n重置&r指南针的状态."
-				""
-				""
-				"&7[Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it.]&f"
-				""
-				"&7[Explorers Compass is an item that allows you to locate structures anywhere in the world.]&f"
-				""
-				"&7[Right-Clicking with Compass in hand will open the selection GUI, from which you can search for a biome/structure or view information about it.]&f"
-				""
-				"&7[Shift+Right-Clicking will reset the compass's state.]&f"
+				"&eShift+Right-Clicking&r will &nreset&r the compass's state."
 			]
 			id: "7D557A396FB12D0A"
 			min_width: 300
@@ -1053,26 +898,25 @@
 							]
 						}
 					}
-					title: "指南针"
+					title: "Compasses"
 					type: "item"
 				}
 				{
 					id: "68DF577F55DA9B70"
-					item: "explorerscompass:explorerscompass"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
-			title: "&a指南针&fes&7[The Compasses]&f"
+			title: "The Compasses"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
-			description: [
-				"&d传送糕点&r 模组引入了特定维度的蛋糕,食用后可将玩家传送至相应维度.该模组在空岛风格游戏中尤为实用,提供了传统传送门的替代方案."
-				""
-				""
-				"&7[The TelePastries mod introduces dimension-specific cakes that, when consumed, teleport players to corresponding dimensions. This mod is particularly useful in Skyblock-style gameplay, offering an alternative to traditional portals.]&f"
-			]
+			description: ["The &dTelePastries&r mod introduces dimension-specific cakes that, when consumed, teleport players to corresponding dimensions. This mod is particularly useful in Skyblock-style gameplay, offering an alternative to traditional portals."]
 			icon: "telepastries:overworld_cake"
 			id: "721FC1AE7D78A0D8"
 			rewards: [{
@@ -1113,17 +957,12 @@
 					type: "item"
 				}
 			]
-			title: "蛋糕&7[Cakes]&f"
+			title: "Cakes"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
-			description: [
-				"&e时间平板&r 模组引入了一种受 “洛基“ 系列启发的设备,允许玩家保存特定位置并从游戏世界中的任何地方传送至该处.用户可自定义传送门和界面的颜色,共有30种可选选项."
-				""
-				""
-				"&7[The Tempad mod introduces a device inspired by the \"Loki\" series, allowing players to save specific locations and teleport to them from anywhere in the game world. Users can customize the color of the portals and the interface, with 30 available options.]&f"
-			]
+			description: ["The &6Tempad&r mod introduces a device inspired by the \"Loki\" series, allowing players to save specific locations and teleport to them from anywhere in the game world. Users can customize the color of the portals and the interface, with 30 available options."]
 			id: "20F4CBC52CD12260"
 			rewards: [{
 				id: "2195836678E272FB"
@@ -1133,19 +972,18 @@
 			size: 2.0d
 			tasks: [{
 				id: "21B1A6D1E4DECF01"
-				item: "tempad:tempad"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
 			y: 8.0d
 		}
 		{
-			description: [
-				"&r&d通量网络&f 模组实现了无线能量网络,允许可定制的跨维度能量传输,无需大量布线."
-				""
-				""
-				"&7[The Flux Networks mod enables wireless energy networks, allowing customizable, cross-dimensional power transfer without the need for extensive cabling.]&f"
-			]
+			description: ["&rThe Flux Networks mod enables wireless energy networks, allowing customizable, cross-dimensional power transfer without the need for extensive cabling."]
 			id: "6A7F7835B4FFED38"
 			rewards: [{
 				id: "196071A366681DEC"
@@ -1170,22 +1008,13 @@
 		}
 		{
 			description: [
-				"&2维度存储&r 模组增加了跨维度的物品与流体存储:"
+				"The &2DimStorage&r mod adds cross-dimensional storage for items and fluids:"
 				""
-				"- &9维度存储箱&r:使用颜色编码频率远距离共享物品存储."
+				"- &9DimStorage Tank&r: Share item storage across distances using color-coded frequencies."
 				""
-				"- &2维度存储罐&r:对流体实现相同功能,轻松在维度间传输熔岩或水等液体."
+				"- &2DimStorage Tank&r: Do the same for fluids, making it easy to transport liquids like lava or water between dimensions."
 				""
-				"两者都非常适合自动化及长距离资源传输."
-				""
-				""
-				"&7[The DimStorage mod adds cross-dimensional storage for items and fluids:]&f"
-				""
-				"&7[- DimStorage Tank: Share item storage across distances using color-coded frequencies.]&f"
-				""
-				"&7[- DimStorage Tank: Do the same for fluids, making it easy to transport liquids like lava or water between dimensions.]&f"
-				""
-				"&7[Both are great for automation and long-distance resource transfer.]&f"
+				"Both are great for automation and long-distance resource transfer."
 			]
 			id: "5BAFDEC1D5F8FDFF"
 			rewards: [{
@@ -1218,7 +1047,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "获取无限水的简便方法&7[A easy way to get infinite water]&f"
+			subtitle: "A easy way to get infinite water"
 			tasks: [
 				{
 					id: "6DDB2A796B000ABC"
@@ -1241,30 +1070,20 @@
 					type: "item"
 				}
 			]
-			title: "无限水&7[Infinite Water]&f"
+			title: "Infinite Water"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"在&d应用能源2&f中,压印器与铭刻机配合使用,为ME系统制造核心组件.共有四种类型:"
+				"In Applied Energistics 2, presses are used with the Inscriber to create key components for the ME system. There are four types:"
 				""
-				"- &e逻辑压印模板&r – 用于制造逻辑处理器(金质)"
-				"-&f 运算压印模板&r – 用于制造运算处理器(纯净&a赛特斯石英&f)"
-				"- &b工程压印模板&r – 用于制造工程处理器(钻石)"
-				"- &8&a硅压印模板&f&r – 用于制造印刷硅"
+				"- &eLogic Press&r – for logic processors (gold)"
+				"- &fCalculation Press&r – for calculation processors (pure Certus Quartz)"
+				"- &bEngineering Press&r – for engineering processors (diamond)"
+				"- &8Silicon Press&r – for printed silicon"
 				""
-				"这些压印模板通常可在世界各处散落的陨石(&2失落城市&r)中找到."
-				""
-				""
-				"&7[In Applied Energistics 2, presses are used with the Inscriber to create key components for the ME system. There are four types:]&f"
-				""
-				"&7[- Logic Press – for logic processors (gold)]&f"
-				"&7[- Calculation Press – for calculation processors (pure Certus Quartz)]&f"
-				"&7[- Engineering Press – for engineering processors (diamond)]&f"
-				"&7[- Silicon Press – for printed silicon]&f"
-				""
-				"&7[These presses are typically found in meteorites scattered around the world (Lost Cities).]&f"
+				"These presses are typically found in meteorites scattered around the world (&2Lost Cities&r)."
 			]
 			icon: "ae2:calculation_processor_press"
 			id: "04A7299079141D52"
@@ -1305,12 +1124,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"&1模块化路由&r 模组添加了一种方块,可通过可升级模块移动物品、放置或破坏方块、发射抛射物等.它具有高度可定制性,在紧凑布局的自动化中非常实用."
-				""
-				""
-				"&7[The modular routers mod adds a block that can move items, place or break blocks, shoot projectiles, and more using upgradeable modules. It's highly customizable and useful for automation in compact setups.]&f"
-			]
+			description: ["The &1modular routers&r mod adds a block that can move items, place or break blocks, shoot projectiles, and more using upgradeable modules. It’s highly customizable and useful for automation in compact setups."]
 			icon: "modularrouters:modular_router"
 			id: "5A2AF10773FA8B2D"
 			rewards: [{
@@ -1340,13 +1154,12 @@
 			y: 2.0d
 		}
 		{
-			description: [
-				"&r&a缠绕&f 模组允许您链接两个方块,使得与一个方块的互动会影响另一个,即使相隔遥远也能生效."
-				""
-				""
-				"&7[The Entangled mod lets you link two blocks so that interacting with one affects the other, even from a distance.]&f"
-			]
-			icon: "entangled:block"
+			description: ["&rThe Entangled mod lets you link two blocks so that interacting with one affects the other, even from a distance."]
+			icon: {
+				Count: 1
+				id: "entangled:block"
+				tag: { }
+			}
 			id: "5DE6CDBDD36EC3CC"
 			rewards: [{
 				id: "49430260EC7436A3"
@@ -1357,7 +1170,11 @@
 			tasks: [
 				{
 					id: "24B2B1A5FBAE2794"
-					item: "entangled:block"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -1370,12 +1187,7 @@
 			y: -1.0d
 		}
 		{
-			description: [
-				"该&d更多空间/压缩空间&f模组通过在特殊方块内创建微型个人维度,让玩家能在狭小空间内构建复杂系统.非常适合自动化装置、红石电路以及保持主基地整洁."
-				""
-				""
-				"&7[The Compact Machines mod adds tiny personal dimensions inside special blocks, allowing players to build complex systems in a small space. It's great for automation, redstone, and keeping your main base tidy.]&f"
-			]
+			description: ["The Compact Machines mod adds tiny personal dimensions inside special blocks, allowing players to build complex systems in a small space. It’s great for automation, redstone, and keeping your main base tidy."]
 			icon: "compactmachines:personal_shrinking_device"
 			id: "6D0D293C2771D49C"
 			rewards: [{
@@ -1466,24 +1278,17 @@
 					type: "item"
 				}
 			]
-			title: "&d更多空间/压缩空间&f&7[Compact Machines]&f"
+			title: "Compact Machines"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&a右击&f配置高度"
-				"按住shift&a右击&f改变高度"
-				"按住shift&a右击&f恢复默认高度"
-				"左击实体改变其高度"
-				"再次左击实体恢复其默认高度"
-				""
-				""
-				"&7[Right click and config your height]&f"
-				"&7[shift right click to change your height]&f"
-				"&7[shift right click to change your height back to default]&f"
-				"&7[left click a entity to chage the height]&f"
-				"&7[left click the entity again to change height back to default]&f"
+				"Right click and config your height"
+				"shift right click to change your height"
+				"shift right click to change your height back to default"
+				"left click a entity to chage the height"
+				"left click the entity again to change height back to default"
 			]
 			id: "059EC5CDA14D238F"
 			rewards: [{
@@ -1494,31 +1299,26 @@
 			size: 2.0d
 			tasks: [{
 				id: "4759E6C27FE3BC01"
-				item: "shrink:shrinking_device"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "压缩装置&7[Shrinking Device]&f"
+			title: "Shrinking Device"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"&a强化&f &1火把加速器&r(名称融合了“火把“和“犀牛“,致敬“涡轮加速“概念)允许玩家加速游戏中的特定方块和进程."
+				"The mod &1Torcherino&r (from \"Torch\" and \"Rino\" as a nod to \"Turbo\") allows players to speed up certain blocks and processes in the game."
 				""
-				"通过放置特殊火把,可提高范围内机器运作速度、作物生长速度或其他方块活动频率."
+				"By placing special torches, you can increase the tick rate of machines, crop growth, or other block-based activities in their vicinity."
 				""
-				"本模组能极大提升农场效率或加速缓慢进程,并提供可自定义设置来调整体验."
+				"This mod is perfect for making farms more efficient or speeding up slow processes, with customizable settings to tailor the experience."
 				""
-				"&4注意!不要放置过多!会导致游戏/服务器崩溃!&r"
-				""
-				""
-				"&7[The mod Torcherino (from \"Torch\" and \"Rino\" as a nod to \"Turbo\") allows players to speed up certain blocks and processes in the game.]&f"
-				""
-				"&7[By placing special torches, you can increase the tick rate of machines, crop growth, or other block-based activities in their vicinity.]&f"
-				""
-				"&7[This mod is perfect for making farms more efficient or speeding up slow processes, with customizable settings to tailor the experience.]&f"
-				""
-				"&7[BE CAREFUL TO NOT PLACE TO MANY! IT WILL CRASH YOUR GAME/ SERVER]&f"
+				"&4BE CAREFUL TO NOT PLACE TO MANY! IT WILL CRASH YOUR GAME/ SERVER&r"
 			]
 			icon: "torcherino:double_compressed_torcherino"
 			id: "54D3F98DB1BC6BB2"
@@ -1578,7 +1378,11 @@
 				}
 				{
 					id: "498F2380030A0E4A"
-					item: "mbtool:mbtool"
+					item: {
+						Count: 1
+						id: "mbtool:mbtool"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -1594,7 +1398,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "跨维度传送方式&7[A way to teleport between dimensions]&f"
+			subtitle: "A way to teleport between dimensions"
 			tasks: [{
 				id: "1637D01C6CB844C6"
 				item: "waystones:waystone"
@@ -1605,14 +1409,9 @@
 		}
 		{
 			description: [
-				"已禁用:"
-				"&a村民交易&f"
-				"&a流浪商人&f"
-				""
-				""
-				"&7[Disabled:]&f"
-				"&7[Villager Trades]&f"
-				"&7[Traveling Merchant]&f"
+				"Disabled:"
+				"Villager Trades"
+				"Traveling Merchant"
 			]
 			id: "06CA3E88417FE311"
 			rewards: [{
@@ -1623,13 +1422,13 @@
 			size: 2.0d
 			tasks: [{
 				id: "03A5B9F5C215C2A6"
-				title: "存在部分禁用内容"
+				title: "There are some disabled things"
 				type: "checkmark"
 			}]
-			title: "已禁用内容&7[Things that are disabled]&f"
+			title: "Things that are disabled"
 			x: 6.0d
 			y: 5.0d
 		}
 	]
-	title: "&3实用模组与物品&f&7[Useful mods and Items]&f"
+	title: "&3Useful mods and Items"
 }

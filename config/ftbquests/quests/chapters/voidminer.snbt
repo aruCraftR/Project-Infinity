@@ -118,16 +118,19 @@
 	quests: [
 		{
 			description: [
-				"&a虚空矿工&f 是一款M科技模组,添加了多层级多方块机器,可通过能源与可升级修改器从虚空中生成资源."
+				"Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers."
 				""
+				"The Solar panels generate a lot of energy."
 				""
-				"&7[Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers.]&f"
+				"The Voidminers only work in the Overworld (garden of glass), nether and the end."
+				""
+				"The Solarpanels wont work in the Void dimension (javd mod)"
 			]
 			id: "10650AD3F8696D4C"
 			size: 2.0d
 			tasks: [{
 				id: "25FADFE2900B9911"
-				title: "欢迎来到虚空矿工"
+				title: "Welcome to Voidminers"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -156,7 +159,7 @@
 					type: "item"
 				}
 			]
-			title: "一级红宝石矿工&7[Rubetine Miner Tier 1]&f"
+			title: "Rubetine Miner Tier 1"
 			x: -7.0d
 			y: 0.5d
 		}
@@ -441,24 +444,14 @@
 		{
 			dependencies: ["4447B5220839E9E6"]
 			description: [
-				"您可用以下修改器替换任意NULL修改器:"
-				"&4-&a能量模式&f"
-				"&2-持续时间修改器"
-				"&1-物品修改器&f"
+				"You can replace any of the NULL Modifiers with:"
+				"&4-Energy Modifiers"
+				"&2-Duration Modifiers"
+				"&1-Item Modifiers&f"
 				""
-				"无需同级矿工与同级修改器匹配"
+				"You dont need the same tier miner and same tier modifiers. "
 				""
-				"最多放置6个物品修改器!"
-				""
-				""
-				"&7[You can replace any of the NULL Modifiers with:]&f"
-				"&7[-Energy Modifiers]&f"
-				"&7[-Duration Modifiers]&f"
-				"&7[-Item Modifiers]&f"
-				""
-				"&7[You dont need the same tier miner and same tier modifiers. ]&f"
-				""
-				"&7[place maximum 6 item modifiers!]&f"
+				"place maximum 6 item modifiers!"
 			]
 			id: "7A53D218AE346717"
 			tasks: [
@@ -719,5 +712,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&d虚空矿工&f&7[Voidminer]&f"
+	title: "&dVoidminer"
 }
