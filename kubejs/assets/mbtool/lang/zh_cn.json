@@ -50,6 +50,9 @@
     "mbtool.structure.woot_tier_3_gold": "三级金制Woot设备",
     "mbtool.structure.woot_tier_4_diamond": "四级钻石Woot设备",
     "mbtool.structure.woot_tier_5_netherite": "五级下界合金Woot设备",
-    "mbtool.structure.essenceforge_singlemode": "精华熔炉单模式",
-    "mbtool.structure.essenceforge_multimode": "精华熔炉多模式"
+    "mbtool.structure.antimatter_protomolecular_transmutator_mekanism_tier1": "反物质质子分子转换机(Mekanism)一级",
+    "mbtool.structure.antimatter_protomolecular_transmutator_mekanism_tier2": "反物质质子分子转换机(Mekanism)二级",
+    "mbtool.structure.essenceforge_tier_1": "本源熔炉 一级",
+    "mbtool.structure.essenceforge_tier_2": "本源熔炉 二级",
+    "mbtool.structure.essenceforge_tier_3": "本源熔炉 三级"
 }

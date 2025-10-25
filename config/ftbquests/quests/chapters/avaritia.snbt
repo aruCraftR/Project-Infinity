@@ -17,17 +17,21 @@
 				"&7[This can be used as a normal crafting table, or crafted for crafting table storage, similar to blocks of Diamond and gold.]&f"
 			]
 			id: "128C850EFE438E33"
-			rewards: [{
-				count: 9
-				id: "6BF0A4331E3CCD38"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			tasks: [{
-				id: "460A4A35FC8CBD3F"
-				item: "avaritia:compressed_crafting_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "6BF0A4331E3CCD38"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "460A4A35FC8CBD3F"
+					item: "avaritia:compressed_crafting_table"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -15.5d
 		}
@@ -40,17 +44,21 @@
 				"&7[Used to craft the Skulk Crafting Table. These are made with compressed crafting tables.]&f"
 			]
 			id: "63A46DD9090FABCD"
-			rewards: [{
-				count: 18
-				id: "527D681173D6F6BF"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5ADD90CC6A7B9F27"
-				item: "avaritia:double_compressed_crafting_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 18
+					id: "527D681173D6F6BF"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5ADD90CC6A7B9F27"
+					item: "avaritia:double_compressed_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -15.5d
 		}
@@ -77,11 +85,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "34EB8A4E4AEF04C8"
-				item: "avaritia:sculk_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34EB8A4E4AEF04C8"
+					item: "avaritia:sculk_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -13.5d
 		}
@@ -93,17 +103,21 @@
 				"&7[Avaritia returns, reforged and deadlier. This isn't just endgame anymore. It's beyond endgame. Brace yourself.]&f"
 			]
 			id: "3DB4820E671C641B"
-			rewards: [{
-				id: "32E5C292004F9AB8"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "32E5C292004F9AB8"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "5082089445C519BF"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5082089445C519BF"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: -15.5d
 		}
@@ -132,11 +146,13 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				id: "2213B9C0045FABBC"
-				item: "avaritia:nether_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2213B9C0045FABBC"
+					item: "avaritia:nether_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -11.5d
 		}
@@ -163,11 +179,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7FD36B27D301DDAE"
-				item: "avaritia:diamond_lattice"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FD36B27D301DDAE"
+					item: "avaritia:diamond_lattice"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -13.5d
 		}
@@ -192,11 +210,13 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [{
-				id: "5B13D7F131A58028"
-				item: "avaritia:crystal_matrix_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B13D7F131A58028"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -13.5d
 		}
@@ -221,11 +241,13 @@
 					xp_levels: 10
 				}
 			]
-			tasks: [{
-				id: "5754D5FA84A5C988"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5754D5FA84A5C988"
+					item: "avaritia:crystal_matrix"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -13.5d
 		}
@@ -258,11 +280,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "592379786B328524"
-				item: "avaritia:end_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "592379786B328524"
+					item: "avaritia:end_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -9.5d
 		}
@@ -275,17 +299,21 @@
 				"&7[Made at the Nether table these can be used to craft a block which provides 位阶 to Enchanting tables.]&f"
 			]
 			id: "0847FA3F33F03338"
-			rewards: [{
-				count: 12
-				id: "48BFD476941E552A"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09E68A933DA270F9"
-				item: "avaritia:blaze_cube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "48BFD476941E552A"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09E68A933DA270F9"
+					item: "avaritia:blaze_cube"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -11.5d
 		}
@@ -298,16 +326,20 @@
 				"&7[Same old netherite, though it can be obtained in new ways.]&f"
 			]
 			id: "182525B7EDF23BB5"
-			rewards: [{
-				id: "43E5619CA2F7F856"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6D3D9511AC2C60C3"
-				item: "minecraft:ancient_debris"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "43E5619CA2F7F856"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D3D9511AC2C60C3"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -12.5d
 		}
@@ -321,24 +353,28 @@
 			]
 			hide_dependency_lines: true
 			id: "253B13051E4540FB"
-			rewards: [{
-				count: 8
-				id: "170C43F75C3EC37F"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "533DDF8CAF7C9404"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "170C43F75C3EC37F"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "533DDF8CAF7C9404"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -11.5d
 		}
@@ -352,24 +388,28 @@
 			]
 			hide_dependency_lines: true
 			id: "07C6A708506A6522"
-			rewards: [{
-				count: 8
-				id: "1379505E90F8C8A9"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "29E59BAB046F34E5"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_pickaxe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "1379505E90F8C8A9"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "29E59BAB046F34E5"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -12.0d
 		}
@@ -383,24 +423,28 @@
 			]
 			hide_dependency_lines: true
 			id: "626B196AC0108F30"
-			rewards: [{
-				count: 8
-				id: "7CB3A2A4B4A4C31C"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0F87376511A9EBAB"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_axe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "7CB3A2A4B4A4C31C"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0F87376511A9EBAB"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -12.0d
 		}
@@ -414,24 +458,28 @@
 			]
 			hide_dependency_lines: true
 			id: "3F28748E2A3794ED"
-			rewards: [{
-				count: 8
-				id: "7296DC4692CD6724"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "50231CAE084549BC"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_shovel"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "7296DC4692CD6724"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "50231CAE084549BC"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -11.5d
 		}
@@ -445,24 +493,28 @@
 			]
 			hide_dependency_lines: true
 			id: "604B4CECA4FD44CB"
-			rewards: [{
-				count: 8
-				id: "7244B7302B698D44"
-				item: "botania:blaze_block"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "2726810544BB7316"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_hoe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "7244B7302B698D44"
+					item: "botania:blaze_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2726810544BB7316"
+					item: {
+						Count: 1
+						id: "avaritia:blaze_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -11.5d
 		}
@@ -490,11 +542,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "44821D30ED458E58"
-				item: "avaritia:extreme_crafting_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "44821D30ED458E58"
+					item: "avaritia:extreme_crafting_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -7.0d
 		}
@@ -508,24 +562,28 @@
 			]
 			hide_dependency_lines: true
 			id: "73B6E398931525BA"
-			rewards: [{
-				count: 8
-				id: "4198370CEA6ACEE5"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "3077C7D7ABC5A1E3"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "4198370CEA6ACEE5"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3077C7D7ABC5A1E3"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -9.5d
 		}
@@ -539,24 +597,28 @@
 			]
 			hide_dependency_lines: true
 			id: "64953DD2811A1713"
-			rewards: [{
-				count: 8
-				id: "75058A2FF1AFD22A"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "4D9EF2D8CE93BE9A"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_pickaxe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "75058A2FF1AFD22A"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4D9EF2D8CE93BE9A"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -10.0d
 		}
@@ -570,24 +632,28 @@
 			]
 			hide_dependency_lines: true
 			id: "48F4D5E88C907E51"
-			rewards: [{
-				count: 8
-				id: "4BF609E089AFE9C0"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "1B9D1F88AB583A6E"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_axe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "4BF609E089AFE9C0"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B9D1F88AB583A6E"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -10.0d
 		}
@@ -601,24 +667,28 @@
 			]
 			hide_dependency_lines: true
 			id: "4C7455970DDABF24"
-			rewards: [{
-				count: 8
-				id: "53B20FB1F85C504F"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "03719D1AB0CFF2DB"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_shovel"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "53B20FB1F85C504F"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "03719D1AB0CFF2DB"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -9.5d
 		}
@@ -632,35 +702,41 @@
 			]
 			hide_dependency_lines: true
 			id: "74092BDC7DA9BAD9"
-			rewards: [{
-				count: 8
-				id: "0CD70847BD75EC97"
-				item: "avaritia:crystal_matrix"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6F6973E1223B316C"
-				item: {
-					Count: 1
-					id: "avaritia:crystal_hoe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 8
+					id: "0CD70847BD75EC97"
+					item: "avaritia:crystal_matrix"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6F6973E1223B316C"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
 			id: "104A0314ABBC6BCA"
-			tasks: [{
-				id: "5D8050A759D61BF3"
-				item: "avaritia:record_fragment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D8050A759D61BF3"
+					item: "avaritia:record_fragment"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -9.5d
 		}
@@ -673,18 +749,22 @@
 				"&7[It condenses pure neutron energy from the void, one particle at a time. Higher tiers mean faster generation and more madness. This will passively generate Neutrons over a long period of time.]&f"
 			]
 			id: "42DF944251E8538F"
-			rewards: [{
-				count: 6
-				id: "3ADDB3E8CB1BE793"
-				item: "avaritia:crystal_matrix_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "3ADDB3E8CB1BE793"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
 			size: 1.0d
-			tasks: [{
-				id: "742214855C4420A6"
-				item: "avaritia:neutron_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "742214855C4420A6"
+					item: "avaritia:neutron_collector"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -7.0d
 		}
@@ -697,16 +777,20 @@
 				"&7[A single unit of pure neutron matter. Useless alone, but terrifying in numbers.]&f"
 			]
 			id: "7E164982974B7C55"
-			rewards: [{
-				id: "75904785CA912A47"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			tasks: [{
-				id: "099760566EFC9789"
-				item: "avaritia:neutron_pile"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "75904785CA912A47"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "099760566EFC9789"
+					item: "avaritia:neutron_pile"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -8.5d
 		}
@@ -719,16 +803,20 @@
 				"&7[Useful in more powerful crafts.]&f"
 			]
 			id: "61B5E14CC5647919"
-			rewards: [{
-				id: "37320F02FC16256A"
-				type: "xp_levels"
-				xp_levels: 12
-			}]
-			tasks: [{
-				id: "5B929227E9D8B0A5"
-				item: "avaritia:neutron_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "37320F02FC16256A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			tasks: [
+				{
+					id: "5B929227E9D8B0A5"
+					item: "avaritia:neutron_nugget"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -8.5d
 		}
@@ -741,16 +829,20 @@
 				"&7[Used in crafting and for a block that provides 位阶 to Enchanting tables.]&f"
 			]
 			id: "11B42EB302FA9DDF"
-			rewards: [{
-				id: "69CD7F12F64751E1"
-				type: "xp_levels"
-				xp_levels: 14
-			}]
-			tasks: [{
-				id: "013D01398BEE3C0A"
-				item: "avaritia:neutron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "69CD7F12F64751E1"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+			]
+			tasks: [
+				{
+					id: "013D01398BEE3C0A"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -8.5d
 		}
@@ -776,11 +868,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2209013204E1A0CB"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2209013204E1A0CB"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -8.5d
 		}
@@ -793,11 +887,13 @@
 				"&7[Generates Neutrons faster.]&f"
 			]
 			id: "5DD4B5780494D422"
-			tasks: [{
-				id: "60EBF03A28F6FDC3"
-				item: "avaritia:dense_neutron_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "60EBF03A28F6FDC3"
+					item: "avaritia:dense_neutron_collector"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -7.0d
 		}
@@ -810,11 +906,13 @@
 				"&7[Generates Neutron Ingots faster.]&f"
 			]
 			id: "2DD3DE061E0BD676"
-			tasks: [{
-				id: "3B7213EB1C2B3422"
-				item: "avaritia:denser_neutron_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B7213EB1C2B3422"
+					item: "avaritia:denser_neutron_collector"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -7.0d
 		}
@@ -827,17 +925,21 @@
 				"&7[Generates Neutron Ingots faster.]&f"
 			]
 			id: "13931F57613DCC60"
-			rewards: [{
-				count: 2
-				id: "0BA14D3A4EE3CC88"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3FCCED5435F3B675"
-				item: "avaritia:densest_neutron_collector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0BA14D3A4EE3CC88"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3FCCED5435F3B675"
+					item: "avaritia:densest_neutron_collector"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -7.0d
 		}
@@ -863,11 +965,13 @@
 					xp_levels: 20
 				}
 			]
-			tasks: [{
-				id: "0AC6C67AE31A65E6"
-				item: "avaritia:endest_pearl"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AC6C67AE31A65E6"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -5.0d
 		}
@@ -884,16 +988,20 @@
 				"&7[A spark of divine potential. Everything impossible begins here. You have come far, use this to craft the best of the best.]&f"
 			]
 			id: "348E851939EFF3EB"
-			rewards: [{
-				id: "7CF6B6CE1EF7FFE6"
-				type: "xp_levels"
-				xp_levels: 100
-			}]
-			tasks: [{
-				id: "2CF0820CB8B7EE0A"
-				item: "avaritia:infinity_catalyst"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CF6B6CE1EF7FFE6"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2CF0820CB8B7EE0A"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -3.0d
 		}
@@ -906,18 +1014,22 @@
 				"&7[Forged from everything. Infused with infinity. This is the metal of gods.]&f"
 			]
 			id: "2C53C8A3322CAB88"
-			rewards: [{
-				id: "1954BBB17319DE38"
-				type: "xp_levels"
-				xp_levels: 200
-			}]
+			rewards: [
+				{
+					id: "1954BBB17319DE38"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "03427BB2D4A55C27"
-				item: "avaritia:infinity_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "03427BB2D4A55C27"
+					item: "avaritia:infinity_ingot"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -3.0d
 		}
@@ -930,19 +1042,23 @@
 				"&7[Useful for crafting giant recipes from a few mods.]&f"
 			]
 			id: "3353D17D82959D0C"
-			rewards: [{
-				id: "2427616CF7ED18DD"
-				item: "extendedcrafting:elite_auto_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2427616CF7ED18DD"
+					item: "extendedcrafting:elite_auto_table"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "嘿,这不是来自Avaritia!&7[Hey this is not from Avaritia!]&f"
-			tasks: [{
-				id: "75AE8D903B1972C1"
-				item: "extendedcrafting:ultimate_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "75AE8D903B1972C1"
+					item: "extendedcrafting:ultimate_table"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -3.0d
 		}
@@ -969,11 +1085,13 @@
 				}
 			]
 			subtitle: "看透现实.现在没有任何幻象能欺骗你.&7[See beyond reality. No illusion can deceive you now.]&f"
-			tasks: [{
-				id: "7693959B8E016C97"
-				item: "avaritia:infinity_helmet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7693959B8E016C97"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -4.5d
 		}
@@ -1000,11 +1118,13 @@
 				}
 			]
 			subtitle: "奇点之心.抵御时间、空间和逻辑.&7[A heart of singularity. Protects against time, space, and logic.]&f"
-			tasks: [{
-				id: "14744B4644031618"
-				item: "avaritia:infinity_chestplate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14744B4644031618"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -3.5d
 		}
@@ -1013,7 +1133,7 @@
 			description: [
 				"&d最好&r中的&d最好&r,&e无人能与你匹敌&r."
 				""
-				"&e&o速&ed&r&r"
+				"&e&o速度&r&r"
 				""
 				""
 				"&7[The best of the best, no one can match you.]&f"
@@ -1035,11 +1155,13 @@
 				}
 			]
 			subtitle: "以中子星的重量和星光的速度移动.&7[Move with the weight of neutronium and the speed of starlight.]&f"
-			tasks: [{
-				id: "4DB1EE3CF1DEA987"
-				item: "avaritia:infinity_pants"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4DB1EE3CF1DEA987"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -2.5d
 		}
@@ -1066,11 +1188,13 @@
 				}
 			]
 			subtitle: "重力是可选的.坠落也是.&7[Gravity is optional. So is falling.]&f"
-			tasks: [{
-				id: "5D5CAE9D3C33F415"
-				item: "avaritia:infinity_boots"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D5CAE9D3C33F415"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -1.5d
 		}
@@ -1097,11 +1221,13 @@
 				}
 			]
 			subtitle: "一击必杀.仅需如此,绝无例外.&7[One hit. That's all it takes. No exceptions.]&f"
-			tasks: [{
-				id: "1AD615AAB6B4E1F5"
-				item: "avaritia:infinity_sword"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1AD615AAB6B4E1F5"
+					item: "avaritia:infinity_sword"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -5.5d
 		}
@@ -1128,11 +1254,17 @@
 				}
 			]
 			subtitle: "挖掘万物,破坏一切.或许过于强大.&7[Mines everything. Breaks everything. Probably too much.]&f"
-			tasks: [{
-				id: "67636438AD4249BD"
-				item: "avaritia:infinity_pickaxe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67636438AD4249BD"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -4.5d
 		}
@@ -1159,11 +1291,13 @@
 				}
 			]
 			subtitle: "化树木为尘埃,变敌手为回忆.&7[Turns trees into dust. Turns enemies into memories.]&f"
-			tasks: [{
-				id: "5DF2AF19F4614AD1"
-				item: "avaritia:infinity_axe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5DF2AF19F4614AD1"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -3.5d
 		}
@@ -1190,11 +1324,17 @@
 				}
 			]
 			subtitle: "此铲不掘地,只吞噬一切.&7[A shovel that doesn't dig it devours.]&f"
-			tasks: [{
-				id: "3502D5596AFECA84"
-				item: "avaritia:infinity_shovel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3502D5596AFECA84"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_shovel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -2.5d
 		}
@@ -1221,11 +1361,13 @@
 				}
 			]
 			subtitle: "若你允许,星球将由此生长.&7[Planets would grow from this, if you let them.]&f"
-			tasks: [{
-				id: "7C59ACB2216AB4D6"
-				item: "avaritia:infinity_hoe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C59ACB2216AB4D6"
+					item: "avaritia:infinity_hoe"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -1.5d
 		}
@@ -1252,11 +1394,13 @@
 				}
 			]
 			subtitle: "瞄准射击,敌人必亡&7[aim and shoot, your foe will die]&f"
-			tasks: [{
-				id: "01BC9F5A5BEC81C7"
-				item: "avaritia:infinity_bow"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "01BC9F5A5BEC81C7"
+					item: "avaritia:infinity_bow"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -0.5d
 		}
@@ -1282,11 +1426,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "082003395B0CD91E"
-				item: "avaritia:upgrade_smithing_template"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "082003395B0CD91E"
+					item: "avaritia:upgrade_smithing_template"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -5.5d
 		}
@@ -1312,11 +1458,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "379684CE22BC9BAF"
-				item: "avaritia:enhancement_core"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "379684CE22BC9BAF"
+					item: "avaritia:enhancement_core"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -0.5d
 		}
@@ -1329,16 +1477,20 @@
 			]
 			hide_dependency_lines: true
 			id: "623B6948CC6BEE3B"
-			rewards: [{
-				id: "15CC4E67F03094C1"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4882EE196750DC9A"
-				item: "avaritia:ultimate_stew"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "15CC4E67F03094C1"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4882EE196750DC9A"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -4.5d
 		}
@@ -1351,16 +1503,20 @@
 			]
 			hide_dependency_lines: true
 			id: "2F6E8A0DFB555ED6"
-			rewards: [{
-				id: "6334755C42F979D4"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "29CE94F7C72391D9"
-				item: "avaritia:cosmic_meatballs"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6334755C42F979D4"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29CE94F7C72391D9"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -4.5d
 		}
@@ -1393,11 +1549,13 @@
 			]
 			shape: "square"
 			size: 1.0d
-			tasks: [{
-				id: "0B7B601F59A88974"
-				item: "avaritia:extreme_smithing_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B7B601F59A88974"
+					item: "avaritia:extreme_smithing_table"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -0.5d
 		}
@@ -1423,11 +1581,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "546FE9F5811F181C"
-				item: "avaritia:infinity_chest"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "546FE9F5811F181C"
+					item: "avaritia:infinity_chest"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -5.5d
 		}
@@ -1453,17 +1613,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6F08F0612A0A4345"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_totem"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6F08F0612A0A4345"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_totem"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.5d
 			y: -5.5d
 		}
@@ -1490,11 +1652,13 @@
 				}
 			]
 			subtitle: "感谢&7[Thank you]&f"
-			tasks: [{
-				id: "55E0B5EA98D05E3C"
-				item: "avaritia:neutron_horse_armor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55E0B5EA98D05E3C"
+					item: "avaritia:neutron_horse_armor"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -5.5d
 		}
@@ -1521,11 +1685,13 @@
 				}
 			]
 			subtitle: "解决世界饥饿问题的方案&7[The solution to world hunger]&f"
-			tasks: [{
-				id: "30F966ED6B1DFB6F"
-				item: "avaritia:endless_cake"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "30F966ED6B1DFB6F"
+					item: "avaritia:endless_cake"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -5.5d
 		}
@@ -1552,11 +1718,13 @@
 				}
 			]
 			subtitle: "切勿在铁砧上点击U&7[DO NOT CLICK U ON THE ANVIL]&f"
-			tasks: [{
-				id: "63DE348D262D87C3"
-				item: "avaritia:extreme_anvil"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63DE348D262D87C3"
+					item: "avaritia:extreme_anvil"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: -5.5d
 		}
@@ -1582,11 +1750,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "532DB50F1D35890D"
-				item: "avaritia:infinity_elytra"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "532DB50F1D35890D"
+					item: "avaritia:infinity_elytra"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -5.5d
 		}
@@ -1612,11 +1782,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0A9F31D9DAA86C9C"
-				item: "avaritia:infinity_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A9F31D9DAA86C9C"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -5.5d
 		}
@@ -1629,16 +1801,20 @@
 				"&7[Provides Nigh Infinite 位阶, and Used for a few crafting recipes.]&f"
 			]
 			id: "04E552E69695756D"
-			rewards: [{
-				id: "312E24468F558983"
-				type: "xp_levels"
-				xp_levels: 200
-			}]
-			tasks: [{
-				id: "1B3D2676CB8A5F68"
-				item: "avaritia:infinity"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "312E24468F558983"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+			]
+			tasks: [
+				{
+					id: "1B3D2676CB8A5F68"
+					item: "avaritia:infinity"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -1.5d
 		}
@@ -1651,16 +1827,20 @@
 				"&7[Gathered from the Infinity Ingot, you will use this to craft the Extreme Smithing Table and Template.]&f"
 			]
 			id: "521E73E59FE17D9B"
-			rewards: [{
-				id: "1FD328961900EEAE"
-				type: "xp_levels"
-				xp_levels: 200
-			}]
-			tasks: [{
-				id: "082A4E35782BFF21"
-				item: "avaritia:infinity_nugget"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1FD328961900EEAE"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+			]
+			tasks: [
+				{
+					id: "082A4E35782BFF21"
+					item: "avaritia:infinity_nugget"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -4.5d
 		}
@@ -1674,14 +1854,16 @@
 			]
 			id: "571F902C6B1A5DC7"
 			subtitle: "阿斯加德-现在如何&7[Asgarda- what now]&f"
-			tasks: [{
-				id: "5BA72A53FBEF045A"
-				item: "botaniaasgard:asgardandelion"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5BA72A53FBEF045A"
+					item: "botaniaasgard:asgardandelion"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -1.5d
 		}
 	]
-	title: "&5贪婪&f&7[ Avaritia]&f"
+	title: "&5无尽贪婪&7[ Avaritia]&f"
 }

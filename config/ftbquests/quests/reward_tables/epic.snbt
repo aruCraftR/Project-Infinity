@@ -13,34 +13,53 @@
 	loot_size: 1
 	order_index: 12
 	rewards: [
-		{ item: "powah:thermo_generator_spirited" }
-		{ item: "tempad:he_who_remains_tempad" }
+		{
+			item: "powah:thermo_generator_spirited"
+		}
+		{
+			item: "tempad:he_who_remains_tempad"
+		}
 		{
 			item: {
 				Count: 1
 				id: "mekanism:elite_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [{
-							Container: 0b
-							stored: "64000000"
-						}]
+						EnergyContainers: [
+							{
+								Container: 0b
+								stored: "64000000"
+							}
+						]
 					}
 				}
 			}
 		}
-		{ count: 6, icon: "mekanism:dirty_netherite_scrap", item: "mekanism:dirty_netherite_scrap", weight: 3.5f }
-		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
-		{ item: "mekanism:ultimate_tier_installer" }
+		{
+			count: 6
+			icon: "mekanism:dirty_netherite_scrap"
+			item: "mekanism:dirty_netherite_scrap"
+			weight: 3.5f
+		}
+		{
+			item: "pipez:ultimate_upgrade"
+			random_bonus: 2
+			weight: 2.0f
+		}
+		{
+			item: "mekanism:ultimate_tier_installer"
+		}
 		{
 			item: {
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:fortune"
-						lvl: 3s
-					}]
+					StoredEnchantments: [
+						{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}
+					]
 				}
 			}
 		}
@@ -49,10 +68,12 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 3s
-					}]
+					StoredEnchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 3s
+						}
+					]
 				}
 			}
 		}
@@ -61,10 +82,12 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:protection"
-						lvl: 3s
-					}]
+					StoredEnchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 3s
+						}
+					]
 				}
 			}
 		}
@@ -73,19 +96,25 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:sharpness"
-						lvl: 3s
-					}]
+					StoredEnchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 3s
+						}
+					]
 				}
 			}
 		}
-		{ item: "mekanism:quantum_entangloporter" }
+		{
+			item: "mekanism:quantum_entangloporter"
+		}
 		{
 			type: "xp_levels"
 			xp_levels: 50
 		}
-		{ item: "ironfurnaces:netherite_furnace" }
+		{
+			item: "ironfurnaces:netherite_furnace"
+		}
 	]
 	title: "史诗奖励&7[Epic Reward]&f"
 	use_title: true

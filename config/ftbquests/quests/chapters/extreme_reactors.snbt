@@ -25,25 +25,29 @@
 			}
 			id: "7C4E4793DA887DE4"
 			min_width: 300
-			rewards: [{
-				id: "41D1BBD468AEAE45"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "41D1BBD468AEAE45"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "7ECE44526077F3C9"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "c:ingots/uranium"
+			tasks: [
+				{
+					id: "7ECE44526077F3C9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:ingots/uranium"
+						}
 					}
+					title: "任意 #c:ingots/uranium"
+					type: "item"
 				}
-				title: "任意 #c:ingots/uranium"
-				type: "item"
-			}]
+			]
 			title: "欢迎来到 &2&d极限反应堆&f&7[Welcome to Extreme Reactors]&f"
 			x: -9.5d
 			y: -9.0d
@@ -51,23 +55,27 @@
 		{
 			dependencies: ["7C4E4793DA887DE4"]
 			id: "4FA6BEA4E646B742"
-			rewards: [{
-				id: "0ED97FDD789AAF80"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B83A0D1C2C3C226"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/graphite"
-					}
+			rewards: [
+				{
+					id: "0ED97FDD789AAF80"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "任意 #forge:ingots/graphite"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "4B83A0D1C2C3C226"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/graphite"
+						}
+					}
+					title: "任意 #forge:ingots/graphite"
+					type: "item"
+				}
+			]
 			title: "&a石墨棒&f&7[Graphite Bars]&f"
 			x: -9.5d
 			y: -7.5d
@@ -111,11 +119,13 @@
 			icon: "bigreactors:wrench"
 			id: "4AD8363D7359A072"
 			min_width: 320
-			rewards: [{
-				id: "66AD1F441D5382A2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "66AD1F441D5382A2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -167,11 +177,13 @@
 			]
 			id: "4B9E9497E44D0096"
 			min_width: 320
-			rewards: [{
-				id: "575A1DA29CF9BA96"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "575A1DA29CF9BA96"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -200,11 +212,13 @@
 			]
 			id: "2A20000FAEC2E16A"
 			min_width: 300
-			rewards: [{
-				id: "2AF2F238712C2E26"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2AF2F238712C2E26"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "565CF24C6904CC2A"
@@ -247,16 +261,20 @@
 			]
 			id: "75AD0CEBC1335915"
 			min_width: 300
-			rewards: [{
-				id: "03933756F149B3F8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "62A0FE4CFAB9621B"
-				item: "bigreactors:basic_reactorcontroller"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "03933756F149B3F8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "62A0FE4CFAB9621B"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+			]
 			x: -9.5d
 			y: -5.0d
 		}
@@ -278,11 +296,13 @@
 			]
 			id: "7B4AAC741F0A6073"
 			min_width: 290
-			rewards: [{
-				id: "713074FCA264C184"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "713074FCA264C184"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1FC2120A22A7BAEC"
@@ -313,23 +333,27 @@
 			]
 			id: "4745152F6FF242B3"
 			min_width: 250
-			rewards: [{
-				id: "14971E76279AC372"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "77F79D09A76CFF15"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/cyanite"
-					}
+			rewards: [
+				{
+					id: "14971E76279AC372"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "任意 #forge:ingots/cyanite"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "77F79D09A76CFF15"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/cyanite"
+						}
+					}
+					title: "任意 #forge:ingots/cyanite"
+					type: "item"
+				}
+			]
 			title: "&a消耗&f&7[The Waste]&f"
 			x: -6.0d
 			y: -3.0d
@@ -348,16 +372,20 @@
 			]
 			id: "354086C858E10154"
 			min_width: 250
-			rewards: [{
-				id: "1F0A30B43736CD17"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0577F2FA32B65E00"
-				item: "bigreactors:reprocessorcasing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F0A30B43736CD17"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0577F2FA32B65E00"
+					item: "bigreactors:reprocessorcasing"
+					type: "item"
+				}
+			]
 			title: "废物再处理&7[Reprocessing the Waste]&f"
 			x: -3.0d
 			y: -3.0d
@@ -381,11 +409,13 @@
 			icon: "bigreactors:reinforced_turbinecontroller"
 			id: "4415C9F8DA2D7E68"
 			min_width: 300
-			rewards: [{
-				id: "26DFA8B9CC71B9F9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "26DFA8B9CC71B9F9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 4L
@@ -422,16 +452,20 @@
 			id: "73362EDC984B8A0F"
 			min_width: 300
 			progression_mode: "linear"
-			rewards: [{
-				id: "6011690595E7F842"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "370BBB1B3C83FF50"
-				item: "bigreactors:graphite_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6011690595E7F842"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "370BBB1B3C83FF50"
+					item: "bigreactors:graphite_block"
+					type: "item"
+				}
+			]
 			title: "反应堆慢化剂&7[Reactor Moderators]&f"
 			x: -11.0d
 			y: -3.0d
@@ -458,11 +492,13 @@
 			]
 			id: "476755275B948A5F"
 			min_width: 300
-			rewards: [{
-				id: "47EAE30A71B94DA1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "47EAE30A71B94DA1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "122E3BB7DB314F68"
@@ -493,11 +529,13 @@
 			]
 			id: "186731580B14F9D2"
 			min_width: 250
-			rewards: [{
-				id: "7D97937B5A23F10C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7D97937B5A23F10C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -525,11 +563,13 @@
 			]
 			id: "67AFCBCE7AAC3089"
 			min_width: 300
-			rewards: [{
-				id: "5AF5C24B2D1654FD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5AF5C24B2D1654FD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "69497C419271A8F2"
@@ -563,17 +603,21 @@
 			]
 			id: "2D592669F4D41793"
 			min_width: 250
-			rewards: [{
-				id: "247B271FE33E51C2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "2FC2A5929C2E0EA9"
-				item: "bigreactors:basic_turbineglass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "247B271FE33E51C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2FC2A5929C2E0EA9"
+					item: "bigreactors:basic_turbineglass"
+					type: "item"
+				}
+			]
 			title: "涡轮机构件&7[Turbine Construction Parts]&f"
 			x: -4.5d
 			y: -6.5d
@@ -592,17 +636,21 @@
 			]
 			id: "2AF31F1769085641"
 			min_width: 250
-			rewards: [{
-				id: "56737C8E0EC28CD9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56737C8E0EC28CD9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
-			tasks: [{
-				id: "2DBC9E20BFE7F058"
-				item: "bigreactors:reprocessorcontroller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2DBC9E20BFE7F058"
+					item: "bigreactors:reprocessorcontroller"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -3.0d
 		}
@@ -616,17 +664,21 @@
 			]
 			id: "69642A3618E86DED"
 			min_width: 300
-			rewards: [{
-				id: "3138C864F5476FA9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				count: 52L
-				id: "5DF9AA03A22C4F77"
-				item: "bigreactors:reprocessorcasing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3138C864F5476FA9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 52L
+					id: "5DF9AA03A22C4F77"
+					item: "bigreactors:reprocessorcasing"
+					type: "item"
+				}
+			]
 			title: "&a框架&f&7[The Frame]&f"
 			x: -0.5d
 			y: -1.5d
@@ -649,11 +701,13 @@
 			]
 			id: "2598273041353196"
 			min_width: 300
-			rewards: [{
-				id: "08A4C544FB330D54"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "08A4C544FB330D54"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "72B74F6051CD53A1"
@@ -692,11 +746,13 @@
 			]
 			id: "3C3FE45CEF5E242B"
 			min_width: 300
-			rewards: [{
-				id: "763F97007425A07D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "763F97007425A07D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "475BD29336FB98E8"
@@ -731,23 +787,27 @@
 			]
 			id: "7E07C5A6FA6B6B1F"
 			min_width: 270
-			rewards: [{
-				id: "42838A51E5874F47"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "37BB2B7853E319A3"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/blutonium"
-					}
+			rewards: [
+				{
+					id: "42838A51E5874F47"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "任意 #forge:ingots/blutonium"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "37BB2B7853E319A3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/blutonium"
+						}
+					}
+					title: "任意 #forge:ingots/blutonium"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -1.5d
 		}
@@ -765,16 +825,20 @@
 			]
 			id: "25D4406CB86C8CBB"
 			min_width: 300
-			rewards: [{
-				id: "6C14C5775F4F0E32"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4A123A454CDD7120"
-				item: "bigreactors:fluidizercontroller"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C14C5775F4F0E32"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A123A454CDD7120"
+					item: "bigreactors:fluidizercontroller"
+					type: "item"
+				}
+			]
 			title: "&a流体化器&f&7[The Fluidizer]&f"
 			x: -9.5d
 			y: 2.25d
@@ -789,11 +853,13 @@
 			]
 			id: "501C6B7580453410"
 			min_width: 250
-			rewards: [{
-				id: "220CCEA762AC952A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "220CCEA762AC952A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 4L
@@ -831,11 +897,13 @@
 			]
 			id: "5914D015D8543875"
 			min_width: 400
-			rewards: [{
-				id: "51C12868F4C37546"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51C12868F4C37546"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "730D5AE0E7A04CFB"
@@ -862,11 +930,13 @@
 			]
 			id: "55DCA040C84DCEF3"
 			min_width: 250
-			rewards: [{
-				id: "1DFF44796E737946"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1DFF44796E737946"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "52C86777BD3D8867"
@@ -897,11 +967,13 @@
 			]
 			id: "5A615BB74A5CD332"
 			min_width: 230
-			rewards: [{
-				id: "46671F8C6473E8E5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "46671F8C6473E8E5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "184BDD80596398A0"
@@ -939,17 +1011,21 @@
 			]
 			id: "7C4D8AA107780795"
 			min_width: 350
-			rewards: [{
-				id: "736ED9529A23DB1F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "736ED9529A23DB1F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
-			tasks: [{
-				id: "52B5D97C5675BBA7"
-				item: "bigreactors:reinforced_reactorfluidaccessport"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "52B5D97C5675BBA7"
+					item: "bigreactors:reinforced_reactorfluidaccessport"
+					type: "item"
+				}
+			]
 			title: "制造罗森矿&7[Making Rossinite]&f"
 			x: -6.0d
 			y: 2.25d
@@ -966,23 +1042,27 @@
 				"&7[Combining Ridiculite Ingots with Rossinite will create Inanite Ingots.]&f"
 			]
 			id: "6ADDFD55AD0DF7D4"
-			rewards: [{
-				id: "3B264D836CA83698"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "544C4964F5B857B1"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/inanite"
-					}
+			rewards: [
+				{
+					id: "3B264D836CA83698"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "任意 #forge:ingots/inanite"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "544C4964F5B857B1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/inanite"
+						}
+					}
+					title: "任意 #forge:ingots/inanite"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 1.5d
 		}
@@ -1000,25 +1080,29 @@
 			icon: "bigreactors:insanite_block"
 			id: "5AD80D3242DD3F60"
 			min_width: 220
-			rewards: [{
-				id: "078840EFB5F9511D"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "078840EFB5F9511D"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "53B5B370425018EC"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:storage_blocks/insanite"
+			tasks: [
+				{
+					id: "53B5B370425018EC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/insanite"
+						}
 					}
+					title: "任意 #forge:storage_blocks/insanite"
+					type: "item"
 				}
-				title: "任意 #forge:storage_blocks/insanite"
-				type: "item"
-			}]
+			]
 			x: 0.5d
 			y: 2.3d
 		}
@@ -1035,23 +1119,27 @@
 				"&7[Benitoite Ore can be found in the Nether.]&f"
 			]
 			id: "0B1DF8A040826D87"
-			rewards: [{
-				id: "0BDDC8309A2C490B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "22922E479FED9E43"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/insanite"
-					}
+			rewards: [
+				{
+					id: "0BDDC8309A2C490B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "任意 #forge:ingots/insanite"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "22922E479FED9E43"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/insanite"
+						}
+					}
+					title: "任意 #forge:ingots/insanite"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 3.0d
 		}

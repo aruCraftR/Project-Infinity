@@ -3,8 +3,14 @@
 	loot_size: 1
 	order_index: 33
 	rewards: [
-		{ count: 4, item: "botania:livingrock" }
-		{ count: 4, item: "botania:livingwood_log" }
+		{
+			count: 4
+			item: "botania:livingrock"
+		}
+		{
+			count: 4
+			item: "botania:livingwood_log"
+		}
 	]
 	title: "&9活体战利品箱&r&7[Living Loot Chest]&f"
 	use_title: true

@@ -13,16 +13,49 @@
 	loot_size: 1
 	order_index: 14
 	rewards: [
-		{ item: "mekanism:pellet_antimatter", weight: 2.0f }
-		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1, weight: 1.5f }
-		{ item: "mysticalagriculture:allthemodium_seeds", weight: 0.05f }
-		{ item: "mysticalagriculture:vibranium_seeds", weight: 0.05f }
-		{ item: "mysticalagriculture:unobtainium_seeds", weight: 0.05f }
-		{ item: "allthemodium:unobtainium_allthemodium_alloy_block", random_bonus: 1, weight: 3.0f }
-		{ item: "mekanism:ultimate_induction_cell", weight: 2.0f }
-		{ item: "mekanism:ultimate_induction_provider", weight: 2.0f }
-		{ item: "botania:dice", weight: 2.0f }
-		{ count: 36, item: "powah:reactor_nitro", weight: 5.0f }
+		{
+			item: "mekanism:pellet_antimatter"
+			weight: 2.0f
+		}
+		{
+			item: "mysticalagriculture:awakened_supremium_block"
+			random_bonus: 1
+			weight: 1.5f
+		}
+		{
+			item: "mysticalagriculture:allthemodium_seeds"
+			weight: 0.05f
+		}
+		{
+			item: "mysticalagriculture:vibranium_seeds"
+			weight: 0.05f
+		}
+		{
+			item: "mysticalagriculture:unobtainium_seeds"
+			weight: 0.05f
+		}
+		{
+			item: "allthemodium:unobtainium_allthemodium_alloy_block"
+			random_bonus: 1
+			weight: 3.0f
+		}
+		{
+			item: "mekanism:ultimate_induction_cell"
+			weight: 2.0f
+		}
+		{
+			item: "mekanism:ultimate_induction_provider"
+			weight: 2.0f
+		}
+		{
+			item: "botania:dice"
+			weight: 2.0f
+		}
+		{
+			count: 36
+			item: "powah:reactor_nitro"
+			weight: 5.0f
+		}
 		{
 			item: {
 				Count: 1
@@ -44,12 +77,14 @@
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/intricate\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/glacial.suffix\"}]}"
 						rarity: "ancient"
-						uuids: [[I;
-							-2031333617
-							480725750
-							-1840465454
-							888090631
-						]]
+						uuids: [
+							[I;
+								-2031333617
+								480725750
+								-1840465454
+								888090631
+							]
+						]
 					}
 				}
 			}
@@ -76,12 +111,14 @@
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/mob_effect/elusive\"},\"\",{\"translate\":\"affix.apotheosis:sword/mob_effect/weakening.suffix\"}]}"
 						rarity: "ancient"
-						uuids: [[I;
-							-121922779
-							252989166
-							-2142870923
-							-758475871
-						]]
+						uuids: [
+							[I;
+								-121922779
+								252989166
+								-2142870923
+								-758475871
+							]
+						]
 					}
 				}
 			}
@@ -106,12 +143,14 @@
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/dmg_reduction/feathery\"},\"\",{\"translate\":\"affix.apotheosis:armor/mob_effect/nimble.suffix\"}]}"
 						rarity: "ancient"
-						uuids: [[I;
-							1819268669
-							781468608
-							-1097470744
-							1967161402
-						]]
+						uuids: [
+							[I;
+								1819268669
+								781468608
+								-1097470744
+								1967161402
+							]
+						]
 					}
 				}
 			}
@@ -138,12 +177,14 @@
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/fortunate\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/stalwart.suffix\"}]}"
 						rarity: "ancient"
-						uuids: [[I;
-							757261460
-							2142519499
-							-1792455440
-							-61737911
-						]]
+						uuids: [
+							[I;
+								757261460
+								2142519499
+								-1792455440
+								-61737911
+							]
+						]
 					}
 				}
 			}
@@ -170,12 +211,14 @@
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/stalwart\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/blessed.suffix\"}]}"
 						rarity: "ancient"
-						uuids: [[I;
-							1370735257
-							220416342
-							-1312451949
-							1292699076
-						]]
+						uuids: [
+							[I;
+								1370735257
+								220416342
+								-1312451949
+								1292699076
+							]
+						]
 					}
 				}
 			}
@@ -200,12 +243,14 @@
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/blessed\"},\"\",{\"translate\":\"affix.apotheosis:armor/dmg_reduction/runed.suffix\"}]}"
 						rarity: "ancient"
-						uuids: [[I;
-							-370265463
-							703221486
-							-1585586250
-							-1427299350
-						]]
+						uuids: [
+							[I;
+								-370265463
+								703221486
+								-1585586250
+								-1427299350
+							]
+						]
 					}
 				}
 			}

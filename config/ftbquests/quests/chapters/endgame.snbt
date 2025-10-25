@@ -37,31 +37,42 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "665DF175D49DC071"
-				item: "extendedcrafting:the_ultimate_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "665DF175D49DC071"
+					item: "extendedcrafting:the_ultimate_ingot"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.0d
 		}
 		{
-			description: ["Good Luck :)"]
+			description: [
+				"祝你好运 :)"
+				""
+				""
+				"&7[Good Luck :)]&f"
+			]
 			id: "13C237C092587F6A"
-			rewards: [{
-				id: "07E7E1DF6CC4BAF2"
-				table_id: 9128196905553497212L
-				team_reward: true
-				type: "random"
-			}]
-			tasks: [{
-				id: "4377DD430E8B9982"
-				item: "mekanism:creative_bin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "07E7E1DF6CC4BAF2"
+					table_id: 9128196905553497212L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4377DD430E8B9982"
+					item: "mekanism:creative_bin"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.0d
 		}
 	]
-	title: "&cEndGame"
+	title: "&c终局&7[EndGame]&f"
 }

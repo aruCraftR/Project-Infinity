@@ -16,9 +16,9 @@
 	quests: [
 		{
 			description: [
-				"&a匠魂模组&r的核心是&b改造&r武器和工具.它引入了应用于工具的&e模具&r系统,实现&d独特效果&r,每种组合都有&a优势&r和&c缺陷&r,可创造&e无数组合&r."
+				"&a匠魂&r模组围绕&b改造&r武器和工具展开.它引入了应用于工具的&e图案&r以产生&d独特效果&r,每种组合都有&a优势&r和&c劣势&r,可实现&e无数种组合&r."
 				""
-				"制作工具和武器后,可通过添加材料进行&a升级&r,以增强&r其能力&r或&d复刻原版附魔效果&r."
+				"制作工具和武器后,可以用额外材料&a升级&r以增强&r其能力&r或&d复刻原版附魔效果&r."
 				""
 				""
 				"&7[The Tinkers' Construct mod centers around modifying weapons and tools. It introduces patterns applied to tools for unique effects, each with strengths and weaknesses for countless combinations.]&f"
@@ -47,18 +47,20 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "25C27D7B63CFAA20"
-				type: "checkmark"
-			}]
-			title: "欢迎来到&2匠魂模组&7[Welcome to Tinkers' Construct]&f"
+			tasks: [
+				{
+					id: "25C27D7B63CFAA20"
+					type: "checkmark"
+				}
+			]
+			title: "欢迎来到&2匠魂&f&7[Welcome to Tinkers' Construct]&f"
 			x: -7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2F7D55EE5BE52446"]
 			description: [
-				"制作&a&a冶炼炉控制器&f&r需在&c熔炉&r中熔炼4块&e铜锭&r.随后将&0&a焦黑砖&f&r放入&e&a铸造盆&f&r,并将&e熔融铜液&r浇注其上."
+				"要制作&a&a冶炼炉控制器&f&r,需在&c熔炉&r中熔炼4个&e铜锭&r.然后将&0&a焦黑砖&f&r放入&e&a铸造盆&f&r中,并将&e熔融铜&r浇注其上."
 				""
 				""
 				"&7[To make Smeltery Controller, smelt 4 ingots of Copper in the Melter. Then place a Seared Brick in the Casting Basin and pour the molten copper over it.]&f"
@@ -141,7 +143,7 @@
 		{
 			dependencies: ["2F7D55EE5BE52446"]
 			description: [
-				"使用&0煤炭&r或其他&c可燃物&r作为燃料,替代&e岩浆&r为&e冶炼炉&r供能."
+				"使用&0煤炭&r和其他&c可燃物&r作为燃料,而非&e岩浆&r,为&e冶炼炉&r供能."
 				""
 				""
 				"&7[Uses coal and some other burnable for fuel instead of lava for the smeltery.]&f"
@@ -165,32 +167,34 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "4972C29DCDA9FDE3"
-				item: "tconstruct:seared_heater"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4972C29DCDA9FDE3"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3061B917B5DC581C"]
 			description: [
-				"现在是建造真正&c冶炼炉&r的时候了."
+				"是时候建造真正的&c冶炼炉&r了."
 				""
-				"尺寸可自由设计,最大&n16x16x64&r,但必须为矩形结构."
+				"它可以任意大小,最大&n16x16x64&r,但必须是矩形."
 				""
-				"基础版&c标准冶炼炉&r以&n3x3底座&r开始,通常建于地面."
+				"基本的&c标准冶炼炉&r从&n3x3底座&r开始,通常建于地下."
 				""
-				"且角落无需填充!"
+				"而且不需要填满角落!"
 				""
-				"{@pagebreak}符"
-				"建造&e冶炼炉&r时,需在&0焦黑砖墙&r内放置&e冶炼控制器&r和&c燃料罐&r或&c加热器&r,并确保铺设&a焦黑砖地板&r.还需在墙内安装&c焦黑排液口&r,其外部连接&a龙头&r,使&b液体&r能流出至下方&e铸造台&r或&e铸造盆&r,点击即可操作."
+				"{@pagebreak}"
+				"要建造&e冶炼炉&r,需在&0焦黑砖墙&r内放置&e冶炼炉控制器&r和&c燃料罐&r或&c加热器&r,确保还有&a砖地板&r.然后需要在&n墙内&r设置&c焦黑排出孔&r,并在&n外部&r连接&a龙头&r,让&b液体&r流到下方&e桌子&r或&e盆&r上,最后点击龙头."
 				""
-				"{@pagebreak}符"
-				"&e冶炼炉&r用于制作&e铸型&r、&b金属工具&r,并储存&e熔融金属&r.菜单最左侧&r放置&a待熔炼矿石&r,&n中间&r显示&b当前内容物&r,&n右侧&r填入&c燃料&r."
+				"{@pagebreak}"
+				"&e冶炼炉&r用于制作&e铸模&r、&b金属工具&r,并储存&e熔融金属&r.菜单&n最左侧&r放置&a要熔炼的矿石&r,&n中间&r显示当前&b内部内容&r,&n右侧&r放置&c燃料&r."
 				""
-				"若内部存在&e多种不同金属&r且需要&b特定金属&r时,&l点击&r将其移至&a底部&r,该机器按&e从底至上&r顺序浇注金属.但若同时将&e两种金属&r放入&c冶炼炉&r,可能意外生成&a合金或混合物&r."
+				"如果内部有&e多种不同金属&r且需要&b特定一种&r,只需&l点击&r将其移至&a底部&r,该机器&c从下到上&r倾倒金属.但有时若&c冶炼炉&r内同时存在&e两种金属&r,可能会意外制成&a合金或混合物&r."
 				""
 				""
 				"&7[It's time to build the real Smeltery.]&f"
@@ -269,24 +273,24 @@
 		{
 			dependencies: ["5F3D0594173B14B7"]
 			description: [
-				"&l&e合成站&r&r:"
+				"&l&e合成工作站&r&r:"
 				"   "
-				"   一个&a升级版工作台&r,你可以在其中&e保留物品&r于合成格中,即使&c退出&r界面也不会消失."
+				"   这是&a升级版工作台&r,你可以在合成界面&e保留物品&r,即使&c退出&r界面也不会消失."
 				""
 				"{@pagebreak}"
 				"&9&l&a工匠站&f:&r&r"
 				""
-				"   这里用于制作&e自定义工具&r,从&e左侧&r菜单点击你想合成的&b物品类型&r,&l界面&r的&e中间&r会显示&a部件&r槽位,用于放置从&a部件加工台&r制作的零件.你还可以在顶部栏中&d为物品命名&r!"
+				"   这里是制作&e定制工具&r的地方,点击&e左侧&r菜单中的&b物品类型&r,&a部件&r槽位会出现在&e界面中央&r,用于放置你在&a部件加工台&r制作的组件.还可以在顶部栏&d为物品命名&r!"
 				""
-				"如果你选择点击左侧的&b铁砧&r而非工具,可以给工具&d添加修饰符&r,&e只需&r放入&a待修改的物品&r和用于&d修改&r的&b材料&r,然后&o瞧&r,一个&9经过修改的物品&r就完成了!"
+				"如果点击左侧的&b铁砧&r而非工具,你可以为工具&d添加修饰&r,&e只需&r放入&a待修改物品&r和用于&d改造&r的&b材料&r,就能得到&9强化物品&r!"
 				""
 				"{@pagebreak}"
 				"&a&l&a部件加工台&f&r&r"
 				""
-				"   这里制作&e自定义工具&r所需的&a部件&r!只需放入一个&e模具&r和&a材料&r,然后选择想要制作的部件.每种&a材料&r都有&b不同的效果&r."
+				"   这里制作&e定制工具&r所需的&a部件&r!放入&e模具&r和&a材料&r后选择要制作的部件.每种&a材料&r都有&b不同效果&r."
 				""
 				"{@pagebreak}"
-				"&o&e提示&r:&r&o 将&e自定义工作台&r彼此相邻放置,可以通过点击顶部的&e相应符号&r,在&a一个界面&r中&b访问所有工作台&r.&r"
+				"&o&e提示&r:&r&o 将&e定制工作台&r相邻摆放时,点击顶部&e对应图标&r即可在&a同一界面&r中&b访问所有功能&r.&r"
 				""
 				""
 				"&7[lCrafting Station:]&f"
@@ -345,7 +349,7 @@
 		{
 			dependencies: ["27B61D861AA4513B"]
 			description: [
-				"一个拥有&e更多存储空间&r的箱子,还具有&n与相邻工作台连接&r的功能."
+				"拥有&e更大容量&r的箱子,并能&n与相邻工作台连接&r."
 				""
 				""
 				"&7[A chest with more storage, and also has the functionality of connecting to tables next to it.]&f"
@@ -363,18 +367,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "14AAAF63D637AA54"
-				item: "tconstruct:tinkers_chest"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14AAAF63D637AA54"
+					item: "tconstruct:tinkers_chest"
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
 			description: [
-				"简单地为你存储&a部件&r,并且具备&n与相邻工作台连接&r的功能."
+				"专门存放&a部件&r,并能&n与相邻工作台连接&r."
 				""
 				""
 				"&7[Simply stores parts for you, and also has the functionality off connecting to tables next to it.]&f"
@@ -392,18 +398,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "25117E6B27EB5FE4"
-				item: "tconstruct:part_chest"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25117E6B27EB5FE4"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
 			description: [
-				"简单地为你存储&e铸模&r,并且具备&n与相邻工作台连接&r的功能."
+				"专门存放&e铸型&r,并能&n与相邻工作台连接&r."
 				""
 				""
 				"&7[Simply stores casts for you, and also has the functionality of connecting to tables next to it.]&f"
@@ -421,18 +429,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "046F297DEBCFCCD3"
-				item: "tconstruct:cast_chest"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "046F297DEBCFCCD3"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3637B30CBF8F7231"]
 			description: [
-				"在&a修饰工作台&r中为物品使用&d特殊修饰符&r."
+				"在&a修饰工作台&r中对物品使用&d特殊修饰&r."
 				""
 				""
 				"&7[Used special modifiers to items in the Modifier worktable.]&f"
@@ -472,18 +482,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3F00A059FF0E89E9"
-				item: "tconstruct:silky_cloth"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3F00A059FF0E89E9"
+					item: "tconstruct:silky_cloth"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3637B30CBF8F7231"]
 			description: [
-				"有多种用途,包括用&9盔甲镶边&r进行&a装饰&r,或用作修饰&d符.&r"
+				"用途广泛,包括用&9盔甲纹饰&r进行&a装饰&r,或作为改&d造材料&r使用."
 				""
 				""
 				"&7[Has many uses including decorating with armor trims or being used as modifiers.]&f"
@@ -539,7 +551,7 @@
 		{
 			dependencies: ["247794E3ED9E0D65"]
 			description: [
-				"本模组的&a基础合成材料&r,用于&b不同工作站&r以产生&d独特效果&r."
+				"本模组的&a基础合成材料&r,在&b不同工作站&r中可产生&d独特效果&r."
 				""
 				""
 				"&7[The basic crafting ingredient for this mod, used in different workstations for unique effects.]&f"
@@ -572,21 +584,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "你会需要很多这些&7[You'll need a lot of these]&f"
-			tasks: [{
-				count: 6L
-				id: "3271C83621600A34"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			subtitle: "你会需要大量这些材料&7[You'll need a lot of these]&f"
+			tasks: [
+				{
+					count: 6L
+					id: "3271C83621600A34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:pattern"
 					}
-					id: "tconstruct:pattern"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "模具&7[Patterns]&f"
 			x: -7.0d
 			y: -6.5d
@@ -594,7 +608,7 @@
 		{
 			dependencies: ["3637B30CBF8F7231"]
 			description: [
-				"在&a修饰工作台&r中为物品使用&d特殊修饰符&r."
+				"在&a修饰工作台&r中对物品使用&d特殊修饰&r."
 				""
 				""
 				"&7[Used special modifiers to items in the Modifier worktable.]&f"
@@ -702,7 +716,7 @@
 		{
 			dependencies: ["3637B30CBF8F7231"]
 			description: [
-				"在&a修饰工作台&r中为物品使用&d特殊修饰符&r."
+				"在&a修饰工作台&r中对物品使用&d特殊修饰&r."
 				""
 				""
 				"&7[Used special modifiers to items in the Modifier worktable.]&f"
@@ -782,13 +796,13 @@
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"使用来自&c下界&r的&b钴&r,你可以制作一套可自定义的&9&a熔魂钢护甲板&f&r."
+				"使用下界&b钴矿&r,可以制作可定制的&9&a熔魂钢护甲板&f&r套装."
 				""
-				"每件&9&a熔魂钢护甲板&f&r都具有高耐久度和护甲值,并且都带有:"
+				"每件&9&a熔魂钢护甲板&f&r都具有高耐久和护甲值,并自带:"
 				""
 				"&l- 1个升级槽"
-				"&l- 4个防御槽&r"
-				"&l- 1个能力槽&r&r"
+				"&l- 4个防御槽"
+				"&l- 1个技能槽&r&r"
 				""
 				""
 				"&7[Using Cobalt from the Nether, you can create yourself a customizable set of Plate Armor.]&f"
@@ -849,7 +863,7 @@
 		{
 			dependencies: ["2F7D55EE5BE52446"]
 			description: [
-				"这些&e铸模&r可以&b多次使用&r,是更划算的&e投资&r."
+				"这些&e铸型&r可以&b重复使用&r,是更划算的&e投资&r."
 				""
 				""
 				"&7[These casts can be used multiple times, a better investment.]&f"
@@ -962,14 +976,14 @@
 					type: "item"
 				}
 			]
-			title: "更有用的铸模&7[More Useful Casts]&f"
+			title: "多用铸型&7[More Useful Casts]&f"
 			x: -2.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2CF1FFFDCF5A891E"]
 			description: [
-				"允许制作&e更高级&r的&a工具&r和&c武器&r,拥有惊人的&e能力&r.这些&9铁砧&r可以用&a不同材料&r制作,以&e自定义&r成你喜欢的样子."
+				"用于制作&e更高级&r的&a工具&r和&c武器&r,赋予惊人&e能力&r.这些&9铁砧&r可用&a不同材料&r制作,按喜好&e定制&r."
 				""
 				""
 				"&7[Allows for the creation of more advanced tools and weapons with amazing abilities.. These anvils can be crafted from different materials to customize it to your liking.]&f"
@@ -1002,13 +1016,15 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "0C267E8C8B050DD1"
-				item: "tconstruct:scorched_anvil"
-				match_nbt: false
-				type: "item"
-				weak_nbt_match: true
-			}]
+			tasks: [
+				{
+					id: "0C267E8C8B050DD1"
+					item: "tconstruct:scorched_anvil"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
 			title: "&a工匠砧&f&7[Tinker's Anvil]&f"
 			x: 3.5d
 			y: -4.0d
@@ -1016,7 +1032,7 @@
 		{
 			dependencies: ["27B61D861AA4513B"]
 			description: [
-				"由&b沙砾&r、&e沙子&r和&e粘土&r混合而成,可以熔炼成&c烧结砖&r!"
+				"由&b沙砾&r、&e沙子&r和&e粘土&r混合而成,烧制可得&c烧结砖&r!"
 				""
 				""
 				"&7[A mixture of gravel, sand, and clay, you can smelt this for Seared bricks!]&f"
@@ -1049,28 +1065,30 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 32L
-				id: "77BE56D363DE5A46"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					count: 32L
+					id: "77BE56D363DE5A46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:grout"
 					}
-					id: "tconstruct:grout"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "砂浆&7[Grout]&f"
+			]
+			title: "泥浆&7[Grout]&f"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
 			description: [
-				"在&a部件加工台&r制作,你将用这些来合成&d独特工具&r."
+				"在&a部件加工台&r制作,用于合成&d独特工具&r."
 				""
 				""
 				"&7[Made at the Part builder, you will use these to craft unique tools.]&f"
@@ -1175,7 +1193,7 @@
 		{
 			dependencies: ["5F5BE36E289B1B19"]
 			description: [
-				"做得好,你制作了&0岩石工具&r,尝试用其他材料实验,比如&e铜&r、&b线&r和&d紫颂果&r."
+				"干得好,你制作了&0岩石工具&r,试试用其他材料如&e铜&r、&b线&r和&d紫颂果&r来实验吧."
 				""
 				""
 				"&7[Good job, you made rock tools, try experimenting with other materials like copper, string, and chorus.]&f"
@@ -1221,7 +1239,6 @@
 						id: "tconstruct:pickaxe"
 						tag: {
 							Damage: 0
-							etstlib_tool_uuid: "70d4d0d4-723f-46f4-8f92-34542df3d781"
 							tic_broken: 0b
 							tic_materials: [
 								"tconstruct:rock"
@@ -1270,7 +1287,6 @@
 						id: "tconstruct:hand_axe"
 						tag: {
 							Damage: 0
-							etstlib_tool_uuid: "5c136120-ac9c-4e7c-a8b4-e5a51572ab2a"
 							tic_broken: 0b
 							tic_materials: [
 								"tconstruct:rock"
@@ -1315,7 +1331,7 @@
 		{
 			dependencies: ["6D02F65F8994ECA0"]
 			description: [
-				"一个&a简单的方法&r来进行轻松的&b修复&r.只需在&e物品栏&r中持有&a工具包&r时,点击你想要&b修复&r的&d定制工具&r."
+				"一个&a简单方法&r来进行&b修复&r.只需在持有&a工具包&r时点击你想&b修复&r的&d定制工具&r."
 				""
 				""
 				"&7[A simple way to get easy repairs in. Simply click on the custom tool you want repair while holding the kit in your inventory.]&f"
@@ -1349,29 +1365,31 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2C0809323E2AB430"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "2C0809323E2AB430"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:repair_kit"
+						tag: {
+							Material: "tconstruct:rock"
 						}
 					}
-					id: "tconstruct:repair_kit"
-					tag: {
-						Material: "tconstruct:rock"
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B01E8C22DC85F57"]
 			description: [
-				"通过熔炼&b砂砾&r制成,用于制作&0冶炼炉部件&r."
+				"由熔炼&b砂砾&r制成,用于制作&0冶炼炉部件&r."
 				""
 				""
 				"&7[Made from smelting Grout, and used to craft the smeltery parts.]&f"
@@ -1394,33 +1412,35 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "43F991E4190FD6FA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "43F991E4190FD6FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:seared_brick"
 					}
-					id: "tconstruct:seared_brick"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5FD52011D5A2B1F2"]
 			description: [
-				"要组装&c熔化炉&r,将&e&a焦黑加热器&f&r或&e&a燃料箱&f&r放在&a地面上&r,然后将&c&a焦黑熔化炉&f&r放在其&e上方&r.将&e&a焦黑铸造盆&f&r放在&c加热器&r旁边,并在&c熔化炉&r上安装一个&e龙头&r,使其位于&e&a铸造盆&f&r的&b上方&r."
+				"组装&c熔炉&r时,将&e&a焦黑加热器&f&r或&e&a燃料箱&f&r放在&a地面&r上,然后将&c&a焦黑熔化炉&f&r&e放在顶部&r.将&e&a焦黑铸造盆&f&r放在&c加热器&r旁边,并在&c熔炉&r上安装一个&e龙头&r,使其&b位于&r&e&a铸造盆&f&r上方."
 				""
-				"&l右键点击&r龙头打开它,让&b液体&r流入下方的&e盆&r或&e桌子&r."
+				"&l右键点击&r龙头打开它,让&b液体&r流入下方的&e盆&r或&e台&r."
 				""
 				"{@pagebreak}"
-				"你将使用&c熔化炉&r将&a固体材料&r转化为&b液体&r形式,用于一些制作."
+				"你将使用&c熔炉&r将&a固体材料&r转化为&b液体&r形式进行一些制作."
 				""
-				"&e&o虽然这是一个非常小且弱的版本,&a比较&fd于真正的冶炼炉&r&r"
+				"&e&o虽然这是一个非常小的弱化版本&a相比&f于真正的冶炼炉&r&r"
 				""
 				""
 				"&7[To assemble the Melter, place a Seared Heater or Fuel Tank on the ground, then place the Seared Melter on top of it. Position the Seared Casting Basin next to the Heater, and attach a Faucet to the Melter so it's above the Casting Basin.]&f"
@@ -1549,7 +1569,7 @@
 		{
 			dependencies: ["2F7D55EE5BE52446"]
 			description: [
-				"如果你没有&b金属&r,可以使用&e沙铸模&r,它们在&a第一次&r使用后会&c烧毁&r."
+				"如果你没有&b金属&r,可以使用&e砂模&r,它们会在&a第一次&r使用后&c烧毁&r."
 				""
 				""
 				"&7[If you don't have access to metals you can use sand casts which burn up after first use.]&f"
@@ -1573,12 +1593,14 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 4L
-				id: "47A39FCC5093EBCF"
-				item: "tconstruct:ingot_sand_cast"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "47A39FCC5093EBCF"
+					item: "tconstruct:ingot_sand_cast"
+					type: "item"
+				}
+			]
 			title: "一次性金属铸模&7[Single-Use Metal Casts]&f"
 			x: -3.0d
 			y: -6.5d
@@ -1586,9 +1608,9 @@
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"除了&a焦黑排液口&f,还有更多方法可以将流体和物品泵入或泵出你的冶炼炉."
+				"除了&a焦黑排液口&f,还有更多方法将流体和物品输入或输出你的冶炼炉."
 				""
-				"&9&a焦黑输导孔&f&r允许你从&c冶炼炉&r输出&b特定流体&r.要做到这一点,将一个装有你想&e过滤&r的&b流体&r的&e&a铜罐&f&r或&b桶&r放入&1导管&r中作为&e过滤器&r.这将在导管的&e中间&r显示."
+				"&9&a焦黑输导孔&f&r允许你从&c冶炼炉&r输出&b特定流体&r.为此,将一个装有你想&e过滤&r的&b流体&r的&e&a铜罐&f&r或&b桶&r放入&1导管&r中作为&e过滤器&r.这将在导管的&e中间&r显示."
 				""
 				"&e&a焦黑滑槽&f&r允许你将物品输入和输出到&c冶炼炉&r."
 				""
@@ -1661,7 +1683,7 @@
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"这些方块可以作为&0&a焦黑石砖&f&r的&e替代品&r,同时仍然使&c冶炼炉功能正常&r!"
+				"这些方块可以作为&e替代品&r替换&0&a焦黑石砖&f&r,同时仍保持&c冶炼炉功能&r!"
 				""
 				""
 				"&7[These blocks can be used as a replacement for Seared Bricks, while still making the Smeltery functional!]&f"
@@ -1742,7 +1764,7 @@
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"这些是&e合金&r,通过在&c冶炼炉&r中同时存在&b不同类型&r的&e金属&r来制作,尽管有些合金有&a其他方式&r可以获得."
+				"这些是&e合金&r,通过在&c冶炼炉&r中同时存在&b不同类型&r的&e金属&r制作而成,尽管有些合金有&a其他方法&r可以获得."
 				""
 				""
 				"&7[These are alloys, they are crafted through having different types of metal within your smeltery at the same time, though some have other means you can obtain them.]&f"
@@ -1766,7 +1788,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "你已经探索了这个模组的许多内容&7[You have explored much of this mod]&f"
+			subtitle: "你已经探索了这个模组的大部分内容&7[You have explored much of this mod]&f"
 			tasks: [
 				{
 					id: "3B146FC381EF2132"
@@ -1836,7 +1858,7 @@
 		{
 			dependencies: ["2CF1FFFDCF5A891E"]
 			description: [
-				"这些是更&e高级的合金&r,用于制作&c强大的工具&r."
+				"这些是更&e高级的合金&r,用于制作&c强力工具&r."
 				""
 				""
 				"&7[These are more advanced alloys used for powerful tools.]&f"
@@ -1947,7 +1969,7 @@
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
+				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9匠魂工作站&r组装,你最终可以获得&d纯铁工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -1974,68 +1996,69 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "51727838637E3922"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "51727838637E3922"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:sledge_hammer"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:smite"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.35f
+								"tconstruct:durability": 4.0f
+								"tconstruct:mining_speed": 0.4f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 6.75f
+								"tconstruct:attack_speed": 0.75f
+								"tconstruct:durability": 1100.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 2.4f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
-					id: "tconstruct:sledge_hammer"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "b173f019-e749-48a0-a6ba-c9bd7f841b6a"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-						]
-						tic_modifiers: [
-							{
-								level: 4
-								name: "tconstruct:magnetic"
-							}
-							{
-								level: 2
-								name: "tconstruct:smite"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.35f
-							"tconstruct:durability": 4.0f
-							"tconstruct:mining_speed": 0.4f
-						}
-						tic_persistent: { }
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 2
-						}
-						tic_stats: {
-							"tconstruct:attack_damage": 6.75f
-							"tconstruct:attack_speed": 0.75f
-							"tconstruct:durability": 1100.0f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 2.4f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
+				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9匠魂工作站&r组装,你最终可以获得&d纯铁工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -2062,71 +2085,72 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "6EBB6268CEDACE2A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "6EBB6268CEDACE2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:excavator"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:knockback"
+								}
+								{
+									level: 1
+									name: "tconstruct:pathing"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.2f
+								"tconstruct:durability": 3.75f
+								"tconstruct:mining_speed": 0.3f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 4.2000003f
+								"tconstruct:durability": 1031.25f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
-					id: "tconstruct:excavator"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "5a42e8d0-8c8e-451a-8379-dcaa479cad9e"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-						]
-						tic_modifiers: [
-							{
-								level: 4
-								name: "tconstruct:magnetic"
-							}
-							{
-								level: 2
-								name: "tconstruct:knockback"
-							}
-							{
-								level: 1
-								name: "tconstruct:pathing"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.2f
-							"tconstruct:durability": 3.75f
-							"tconstruct:mining_speed": 0.3f
-						}
-						tic_persistent: { }
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 2
-						}
-						tic_stats: {
-							"tconstruct:attack_damage": 4.2000003f
-							"tconstruct:durability": 1031.25f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 1.8000001f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
+				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9匠魂工作站&r组装,你最终可以获得&d纯铁工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -2153,68 +2177,69 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3A455BA71DC129B7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "3A455BA71DC129B7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:vein_hammer"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:pierce"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 5.0f
+								"tconstruct:mining_speed": 0.3f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 7.5f
+								"tconstruct:attack_speed": 0.85f
+								"tconstruct:durability": 1375.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
-					id: "tconstruct:vein_hammer"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "0e6ba55d-0bca-4c9c-9005-970b6634766d"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-						]
-						tic_modifiers: [
-							{
-								level: 4
-								name: "tconstruct:magnetic"
-							}
-							{
-								level: 2
-								name: "tconstruct:pierce"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.25f
-							"tconstruct:durability": 5.0f
-							"tconstruct:mining_speed": 0.3f
-						}
-						tic_persistent: { }
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 2
-						}
-						tic_stats: {
-							"tconstruct:attack_damage": 7.5f
-							"tconstruct:attack_speed": 0.85f
-							"tconstruct:durability": 1375.0f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 1.8000001f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
+				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9匠魂工作站&r组装,你最终可以获得&d纯铁工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -2241,75 +2266,76 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3692518323B98F09"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "3692518323B98F09"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:scythe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
+									name: "tconstruct:tilling"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_aoe_shears"
+								}
+								{
+									level: 1
+									name: "tconstruct:harvest"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 2.5f
+								"tconstruct:mining_speed": 0.45f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:attack_speed": 0.7f
+								"tconstruct:durability": 687.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 2.6999998f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
-					id: "tconstruct:scythe"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "580e92fa-3e58-472c-b5be-16580dc019cd"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-						]
-						tic_modifiers: [
-							{
-								level: 4
-								name: "tconstruct:magnetic"
-							}
-							{
-								level: 1
-								name: "tconstruct:tilling"
-							}
-							{
-								level: 1
-								name: "tconstruct:silky_aoe_shears"
-							}
-							{
-								level: 1
-								name: "tconstruct:harvest"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:durability": 2.5f
-							"tconstruct:mining_speed": 0.45f
-						}
-						tic_persistent: { }
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 2
-						}
-						tic_stats: {
-							"tconstruct:attack_damage": 3.0f
-							"tconstruct:attack_speed": 0.7f
-							"tconstruct:durability": 687.5f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 2.6999998f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
+				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9匠魂工作站&r组装,你最终可以获得&d纯铁工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -2336,71 +2362,72 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3D1DB69155F4CFE7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "3D1DB69155F4CFE7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:cleaver"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:severing"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_aoe_shears"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+								"tconstruct:mining_speed": 0.25f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 7.5f
+								"tconstruct:durability": 962.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.5f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
-					id: "tconstruct:cleaver"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "2e10d730-74e5-4454-9a4d-d7e889ea8afc"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-						]
-						tic_modifiers: [
-							{
-								level: 4
-								name: "tconstruct:magnetic"
-							}
-							{
-								level: 2
-								name: "tconstruct:severing"
-							}
-							{
-								level: 1
-								name: "tconstruct:silky_aoe_shears"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.5f
-							"tconstruct:durability": 3.5f
-							"tconstruct:mining_speed": 0.25f
-						}
-						tic_persistent: { }
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 2
-						}
-						tic_stats: {
-							"tconstruct:attack_damage": 7.5f
-							"tconstruct:durability": 962.5f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 1.5f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
+				"通过在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9匠魂工作站&r组装,你终于可以获得&d纯净铁质工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -2434,63 +2461,64 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5C29DC5035C92F50"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "5C29DC5035C92F50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"dungeons_libraries:ranged_abilities": {
+								crossbowChargeTime: 0
+								fuseShotCounter: 0
+								lastFiredTime: 0L
+							}
 						}
-						"dungeons_libraries:ranged_abilities": {
-							crossbowChargeTime: 0
-							fuseShotCounter: 0
-							lastFiredTime: 0L
+						id: "tconstruct:longbow"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:string"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
+									name: "tconstruct:stringy"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 2.0f
+								"tconstruct:draw_speed": 0.6f
+								"tconstruct:durability": 1023.0f
+								"tconstruct:velocity": 1.2f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
-					id: "tconstruct:longbow"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "afc1eefe-81e6-4629-b13a-6ce6dfbd39ac"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:string"
-						]
-						tic_modifiers: [
-							{
-								level: 3
-								name: "tconstruct:magnetic"
-							}
-							{
-								level: 1
-								name: "tconstruct:stringy"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:durability": 1.5f
-						}
-						tic_persistent: { }
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 2
-						}
-						tic_stats: {
-							"tconstruct:attack_damage": 2.0f
-							"tconstruct:draw_speed": 0.6f
-							"tconstruct:durability": 1023.0f
-							"tconstruct:velocity": 1.2f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.0d
 			y: -8.0d
 		}
@@ -2516,39 +2544,41 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "03519D844CF0F32B"
-				item: {
-					Count: 1
-					id: "tconstruct:plate_helmet"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "e2ae1d55-2fc5-473c-9c39-b5fc3bf05477"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:cobalt"
-							"tconstruct:cobalt"
-						]
-						tic_modifiers: [{
-							level: 2
-							name: "tconstruct:melee_protection"
-						}]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 3.0f
-							"tconstruct:armor_toughness": 1.5f
-							"tconstruct:durability": 330.0f
-							"tconstruct:knockback_resistance": 0.05f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 3
-							upgrades: 2
+			tasks: [
+				{
+					id: "03519D844CF0F32B"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:cobalt"
+								"tconstruct:cobalt"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 330.0f
+								"tconstruct:knockback_resistance": 0.05f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -0.25d
 			y: -0.5d
 		}
@@ -2574,39 +2604,41 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5F24217F1E527FF7"
-				item: {
-					Count: 1
-					id: "tconstruct:plate_leggings"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "d7759bd5-f54c-4c34-a631-b014d07323ec"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:cobalt"
-							"tconstruct:cobalt"
-						]
-						tic_modifiers: [{
-							level: 2
-							name: "tconstruct:melee_protection"
-						}]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 7.0f
-							"tconstruct:armor_toughness": 1.5f
-							"tconstruct:durability": 450.0f
-							"tconstruct:knockback_resistance": 0.05f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 3
-							upgrades: 2
+			tasks: [
+				{
+					id: "5F24217F1E527FF7"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:cobalt"
+								"tconstruct:cobalt"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 450.0f
+								"tconstruct:knockback_resistance": 0.05f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 1.75d
 			y: -0.5d
 		}
@@ -2632,46 +2664,48 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3C4688F62872E4EE"
-				item: {
-					Count: 1
-					id: "tconstruct:plate_boots"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "30bc066d-60d4-4605-aac9-e694c89649d0"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:cobalt"
-							"tconstruct:cobalt"
-						]
-						tic_modifiers: [{
-							level: 2
-							name: "tconstruct:melee_protection"
-						}]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 3.0f
-							"tconstruct:armor_toughness": 1.5f
-							"tconstruct:durability": 390.0f
-							"tconstruct:knockback_resistance": 0.05f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 3
-							upgrades: 2
+			tasks: [
+				{
+					id: "3C4688F62872E4EE"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:cobalt"
+								"tconstruct:cobalt"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 390.0f
+								"tconstruct:knockback_resistance": 0.05f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 1.25d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1F9E5228D533A097"]
 			description: [
-				"作为&b桶&r的更便宜&e替代品&r,可用于盛装&e熔融液体&r."
+				"作为&b铁桶&r更便宜的&e替代品&r,可用于盛装&e熔融液体&r."
 				""
 				""
 				"&7[A cheaper alternative for buckets, these can be used to hold molten liquids.]&f"
@@ -2691,20 +2725,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				count: 3L
-				id: "2AD613A23CF3A8CA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					count: 3L
+					id: "2AD613A23CF3A8CA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:copper_can"
 					}
-					id: "tconstruct:copper_can"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "&a铜罐&f&7[Copper Can]&f"
 			x: 1.0d
 			y: -8.5d
@@ -2712,7 +2748,7 @@
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"&9工匠站&r的升级版,具有更高&b可定制性&r.请注意工具&a升级&r次数存在&e上限&r,请谨慎选择!"
+				"&9匠魂工作站&r的升级版,具有更高的&b可定制性&r.请注意工具只能进行&e有限次数&r的&a升级&r,请谨慎选择!"
 				""
 				""
 				"&7[A better version of the Tinker station with more customizability. Do note that tools can only be upgraded a limited amount of times, choose wisely!]&f"
@@ -2742,31 +2778,33 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "29B3948A53F39DF2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "29B3948A53F39DF2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "tconstruct:modifier_worktable"
+						tag: {
+							texture: "minecraft:cobblestone"
 						}
 					}
-					id: "tconstruct:modifier_worktable"
-					tag: {
-						texture: "minecraft:cobblestone"
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6D02F65F8994ECA0"]
 			description: [
-				"使用&9&a工匠站&f&r或&c修改器工作台&r可对工具进行&d修改&r."
+				"使用&9&a工匠站&f&r或&c强化工作台&r可以&d修改&r你的工具."
 				""
-				"&d修改器&r会根据&e修改器类型&r为工具添加&e特殊属性&r和&5能力&r."
+				"&d强化属性&r会根据&e属性类型&r为工具添加&e特殊属性&r和&5能力&r."
 				""
 				""
 				"&7[Using the Tinker Station or Modifire Wortable you can modify your tools.]&f"
@@ -2803,20 +2841,22 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			tasks: [{
-				id: "11230753F260973D"
-				type: "checkmark"
-			}]
-			title: "修改器&7[Modifiers]&f"
+			tasks: [
+				{
+					id: "11230753F260973D"
+					type: "checkmark"
+				}
+			]
+			title: "强化属性&7[Modifiers]&f"
 			x: 8.25d
 			y: -0.75d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"这些&b修改器&r应用于&e盔甲&r,可赋予特定&2防御能力&r."
+				"这些&b强化属性&r适用于&e盔甲&r,可赋予特定&2防御能力&r."
 				""
-				"若要查看所有可用的&2&a防御强化&f&r,请查阅&a&a大师熔炼术&f&r一书."
+				"如需查看所有可用的&2&a防御强化&f&r,请查阅&a&a大师熔炼术&f&r手册."
 				""
 				""
 				"&7[These modifiers are applied to Armor, which gives certain defense abilities.]&f"
@@ -2828,7 +2868,6 @@
 				id: "tconstruct:travelers_shield"
 				tag: {
 					Damage: 0
-					etstlib_tool_uuid: "e12fcea9-7910-4fda-91de-07f4c10c255a"
 					tic_broken: 0b
 					tic_modifiers: [
 						{
@@ -2873,10 +2912,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "473D40C84F243433"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "473D40C84F243433"
+					type: "checkmark"
+				}
+			]
 			title: "&a防御强化&f&7[Defense Modifiers]&f"
 			x: 6.5d
 			y: -1.0d
@@ -2884,11 +2925,11 @@
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"&5能力&r属于&c强力修改器&r,例如&b&a精准采集&f&r."
+				"&5能力&r是&c强力强化属性&r,例如&b&a精准采集&f&r."
 				""
-				"&5能力&r需要占用工具的&d能力槽位&r,大多数工具&e初始至少有一个槽位&r.每件工具最多只能&b额外增加1个能力槽位&r!"
+				"&5能力&r需要工具上的&d能力槽位&r,大多数工具&e至少有一个初始槽位&r.每件工具只能额外添加&b1个能力槽位&r!"
 				""
-				"&a&a大师熔炼术&f&r一书中列出了所有可附加到工具上的能力."
+				"&a&a大师熔炼术&f&r手册列出了所有可赋予工具的能力."
 				""
 				""
 				"&7[Abilities are powerful modifiers, like Silk Touch.]&f"
@@ -2902,7 +2943,6 @@
 				id: "tconstruct:pickaxe"
 				tag: {
 					Damage: 0
-					etstlib_tool_uuid: "0bf111ed-2dab-4bfc-ac89-2632a3975f60"
 					tic_broken: 0b
 					tic_materials: [
 						"tcintegrations:livingrock"
@@ -2955,10 +2995,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "26B586C763AC501D"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "26B586C763AC501D"
+					type: "checkmark"
+				}
+			]
 			title: "工具能力&7[Tool Abilities]&f"
 			x: 7.0d
 			y: 0.0d
@@ -2966,9 +3008,9 @@
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"&b无槽位修改器&r无需占用槽位即可添加,可&e无限量添加&r."
+				"&b无槽位强化&r无需占用槽位即可添加,可以&e无限叠加&r."
 				""
-				"查看可用&b无槽位修改器&r列表请查阅&a&a入门熔炼术&f&r一书."
+				"查看可用&b无槽位强化&r列表,请查阅&a&a入门熔炼术&f&r手册."
 				""
 				""
 				"&7[Slotless Modifiers do not require a slot to add. You can add as many as you'd like.]&f"
@@ -2990,20 +3032,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "58F88598CA8F3E97"
-				type: "checkmark"
-			}]
-			title: "无槽位修改器&7[Slotless Modifiers]&f"
+			tasks: [
+				{
+					id: "58F88598CA8F3E97"
+					type: "checkmark"
+				}
+			]
+			title: "无槽位强化&7[Slotless Modifiers]&f"
 			x: 8.25d
 			y: 0.75d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"每件工具初始拥有&e3至4个升级槽位&r,这些槽位可通过&a材料&r对工具进行&d强化&r."
+				"每件工具初始拥有&e3至4个升级槽位&r,这些槽位可用于通过&a材料&r&d增强&r工具."
 				""
-				"请查阅&a&a入门熔炼术&f&r一书查看所有可用升级选项!"
+				"请查阅&a&a入门熔炼术&f&r手册查看所有可用升级选项!"
 				""
 				""
 				"&7[Each tool starts with 3 to 4 upgrade slots. These slots can be used to enhance the tool with materials.]&f"
@@ -3025,22 +3069,24 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "178B537D64E0BD7E"
-				type: "checkmark"
-			}]
-			title: "工具升级槽&7[Tool Upgrade Slots]&f"
+			tasks: [
+				{
+					id: "178B537D64E0BD7E"
+					type: "checkmark"
+				}
+			]
+			title: "工具升级槽位&7[Tool Upgrade Slots]&f"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"&c特性&r是工具制作过程中与生俱来的&e固有能力&r."
+				"&c特性&r是工具制造过程中&e与生俱来的能力&r."
 				""
-				"&c特性&r分为两种基本类型:源于工具各部件&a材料&r的&a材料特性&r,以及由&b工具类型&r本身决定的&b工具特性&r."
+				"&c特性&r分为两种基本类型:&a材料特性&r(来自工具各部件选用的&a材料&r)和&b工具特性&r(由&b工具类型&r本身决定)."
 				""
-				"查看所有特性类型请查阅《材料与你》、&a&a大师熔炼术&f&r和&a&a奇异熔铸术&f&r三本书籍."
+				"查看所有特性类型,请查阅&a材料与你&r、&a&a大师熔炼术&f&r和&a&a奇异熔铸术&f&r手册."
 				""
 				""
 				"&7[Traits are inborne abilities related to the creation of the tool.]&f"
@@ -3070,10 +3116,12 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5D542CB6E878D778"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5D542CB6E878D778"
+					type: "checkmark"
+				}
+			]
 			title: "特性&7[Traits]&f"
 			x: 10.0d
 			y: -1.0d
@@ -3081,7 +3129,7 @@
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"用于烧制&4熔铸厂&r所需的&e砖块&r."
+				"用于&e烧制砖块&r来建造&4熔铸炉&r."
 				""
 				""
 				"&7[You will be using this to smelt bricks for a foundry.]&f"
@@ -3114,20 +3162,22 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 32L
-				id: "675708DFC08C5ECE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					count: 32L
+					id: "675708DFC08C5ECE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:nether_grout"
 					}
-					id: "tconstruct:nether_grout"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "&a下界砖泥&f&7[Nether Grout]&f"
 			x: 5.5d
 			y: -4.0d
@@ -3135,7 +3185,7 @@
 		{
 			dependencies: ["57140FE6A1EF90DC"]
 			description: [
-				"&c烧制灰浆&r可获得此类&e砖块&r,用于制作建造&4熔铸厂&r的&a方块&r"
+				"&c烧制砖泥&r可获得这些&e砖块&r,用于制作建造&4熔铸炉&r的&a方块&r"
 				""
 				""
 				"&7[Smelting down grout while give these bricks which are used to craft the blocks for use in building a Foundry]&f"
@@ -3168,20 +3218,22 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 16L
-				id: "3B49D0E7838AF7E9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					count: 16L
+					id: "3B49D0E7838AF7E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:scorched_brick"
 					}
-					id: "tconstruct:scorched_brick"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "&a高炉石砖&f&7[Scorched Bricks]&f"
 			x: 7.0d
 			y: -4.0d
@@ -3189,7 +3241,7 @@
 		{
 			dependencies: ["65C243B23A77419D"]
 			description: [
-				"制作&9&a熔铸炉控制器&f&r需将&e&a高炉砖&f&r放入&a铸造盆&f,然后浇注至少1方块量的&d黑曜石&r."
+				"制作&9&a熔铸炉控制器&f&r时,在&a铸造盆&f中放置&e&a高炉砖&f&r,然后浇注至少1个方块的&d黑曜石&r."
 				""
 				""
 				"&7[To make Foundry Controller, place a Scorched Brick in a Casting Basin, then pour at least 1 block's worth of Obsidian over it.]&f"
@@ -3273,11 +3325,11 @@
 		{
 			dependencies: ["39823A640390E81E"]
 			description: [
-				"&4铸造厂&r与&c熔炼炉&r相似,但不会生成&e合金&r."
+				"&4铸造厂&r与&c冶炼炉&r相似,但不会生成&e合金&r."
 				""
-				"&4铸造厂&r在熔炼物品时还会产生&b副产品&r.例如,铜可能产生黄金作为副产品."
+				"&4铸造厂&r还能从熔炼物品中产生&b副产品&r.例如,铜可能产出黄金作为副产品."
 				""
-				"&4铸造厂&r的建造方式与&c熔炼炉&r类似,但你需要同时建造&e角落&r."
+				"&4铸造厂&r的建造方式与&c冶炼炉&r类似,但你需要同时建造&e角落&r."
 				""
 				""
 				"&7[The Foundry is just like the smeltery, but doesn't create alloys.]&f"
@@ -3321,7 +3373,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "你已经走得很远&7[Youve come far]&f"
+			subtitle: "你已走得很远&7[Youve come far]&f"
 			tasks: [
 				{
 					count: 16L
@@ -3407,14 +3459,14 @@
 					type: "item"
 				}
 			]
-			title: "三级:&5&o&a铸造厂&f&7[Tier 3: The Foundry]&f"
+			title: "三级:&5&o&a铸造器&f&7[Tier 3: The Foundry]&f"
 			x: 8.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2B4E9DB9EF3ABB83"]
 			description: [
-				"与&c熔炼炉&r一样,有许多&a方块&r在构建&4铸造厂&r时可用作&4铸造厂方块&r.用它们来进行&b装饰&r!"
+				"与&c冶炼炉&r一样,有许多&a方块&r在建造&4铸造厂&r时可作为&4铸造厂方块&r使用.用它们来进行&b装饰&r!"
 				""
 				""
 				"&7[Just like the Smeltery, there are many blocks you can use that function as Foundry blocks when creating your Foundry. use them for deoration!]&f"
@@ -3561,7 +3613,7 @@
 		{
 			dependencies: ["2B4E9DB9EF3ABB83"]
 			description: [
-				"将&e熔融锭&r放入每个&c锭槽&r中,&b合金炉&r将生成合金."
+				"将&e熔融金属锭&r放入每个&c金属锭储罐&r中,&b合金炉&r便会生成合金."
 				""
 				""
 				"&7[Insert the molten ingots into each of the Ingot Tanks, and the Alloyer will create the alloy.]&f"
@@ -3641,7 +3693,7 @@
 		{
 			dependencies: ["2B4E9DB9EF3ABB83"]
 			description: [
-				"&e熔岩&r无法熔炼像&b下界钴&r这样的矿石.为此,你需要更热的东西.你需要&c烈焰血&r,你可以在&4铸造厂&r中熔炼&c&a烈焰人头颅&f&r,或者直接熔炼&e烈焰人&r."
+				"&e岩浆&r无法熔炼像&b下界钴&r这样的矿石.为此,你需要更热的东西.你需要&c烈焰血&r,可以在&4铸造厂&r中熔炼&c&a烈焰人头颅&f&r,或直接熔炼&e烈焰人&r."
 				""
 				""
 				"&7[Lava will not cut it for smelting down ores like Nether cobalt. For this you'll need something hotter. You need blaze blood, You can smelt Blaze Heads in the Foundry or smelt the Blazes directly.]&f"
@@ -3673,19 +3725,21 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "147F998E576350C8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "147F998E576350C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:blaze_head"
 					}
-					id: "tconstruct:blaze_head"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "&e&a烈焰血&f&7[Blazing Blood]&f"
 			x: 8.5d
 			y: -7.0d
@@ -3693,7 +3747,7 @@
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"这是该模组中的五种&e蛋糕&r之一,食用后会获得&a弹跳&r效果,可以在下落时将你弹向空中而不受&c伤害&r."
+				"本模组中五种&e蛋糕&r之一,食用后获得&a弹性&r效果,坠落时会将你弹向空中且不受&c伤害&r."
 				""
 				""
 				"&7[One of the five cakes in this mod, this one gives you bouncy which will boost you in the air when you fall without taking damage.]&f"
@@ -3720,26 +3774,28 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				id: "4B5966702ED5BA82"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "4B5966702ED5BA82"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:earth_cake"
 					}
-					id: "tconstruct:earth_cake"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -9.8d
 			y: 0.0d
 		}
 		{
 			dependencies: ["619AC188BEE13DEA"]
 			description: [
-				"这是该模组中的五种&e蛋糕&r之一,食用后可以让你在空中&b跳跃&r,&d效果越强&r,获得的&b跳跃&r次数&b越多&r."
+				"本模组中五种&e蛋糕&r之一,食用后允许你在空中&b跳跃&r,&d效果越强&r,获得的&b跳跃&r次数&b越多&r."
 				""
 				""
 				"&7[One of the five cakes in this mod, this one gives lets you jump in the air, the stronger the effect the more jumps you get.]&f"
@@ -3764,26 +3820,28 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				id: "6EA9AA1192F7615F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "6EA9AA1192F7615F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:sky_cake"
 					}
-					id: "tconstruct:sky_cake"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -11.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7239CFEB58D42A32"]
 			description: [
-				"这是该模组中的五种&e蛋糕&r之一,食用后会获得&c生命恢复&r效果,可以治疗你."
+				"本模组中五种&e蛋糕&r之一,食用后获得&c生命恢复&r效果,可治疗生命值."
 				""
 				""
 				"&7[One of the five cakes in this mod, this one gives you regeneration, it heals you.]&f"
@@ -3808,26 +3866,28 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				id: "1CCC5DB9F5F704A2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "1CCC5DB9F5F704A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:blood_cake"
 					}
-					id: "tconstruct:blood_cake"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -12.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E746849EB9360D7"]
 			description: [
-				"这是该模组中的五种&e蛋糕&r之一,食用后会获得&d返回&r效果,此&b效果&r允许你&e移动&r,当效果结束时,会将你&9传送&r回&e最初获得&r该&b效果&r的位置."
+				"本模组中五种&e蛋糕&r之一,食用后获得&d回归&r效果,此&b效果&r允许你&e移动&r,当效果结束时,会将你&9传送&r回&e首次获得&r该&b效果&r的位置."
 				""
 				""
 				"&7[One of the five cakes in this mod, this one gives you returning, this effect allows you to move around then when the affect ends, it teleports you back to where you first got the effect.]&f"
@@ -3852,26 +3912,28 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				id: "4BF23C0DBFC66129"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "4BF23C0DBFC66129"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:ender_cake"
 					}
-					id: "tconstruct:ender_cake"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -10.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6D2BA4C128D7DBA9"]
 			description: [
-				"这是该模组中的五种&e蛋糕&r之一,食用后会获得&e火焰抗性&r效果."
+				"本模组中五种&e蛋糕&r之一,食用后获得&e火焰抗性&r效果."
 				""
 				""
 				"&7[One of the five cakes in this mod, this one gives you fire resistance.]&f"
@@ -3896,26 +3958,28 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				id: "1D511B4A6A68B2B2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "1D511B4A6A68B2B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:magma_cake"
 					}
-					id: "tconstruct:magma_cake"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -12.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6D02F65F8994ECA0"]
 			description: [
-				"简单的&a投掷物&r,由&0燧石&r制成可造成&9击退&r效果,或由&b石英&r制成可造成&c伤害&r."
+				"简单的&a投掷物&r,由&0燧石&r制成可产生&9击退&r效果,或由&b石英&r制成造成&c伤害&r."
 				""
 				""
 				"&7[Simple throwables made from either flint for knockback or quartz for damage.]&f"
@@ -3948,20 +4012,22 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 8L
-				id: "52B83FFCCA922DCE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					count: 8L
+					id: "52B83FFCCA922DCE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:flint_shuriken"
 					}
-					id: "tconstruct:flint_shuriken"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "手里剑&7[Shuriken]&f"
 			x: -6.5d
 			y: 0.0d
@@ -3969,7 +4035,7 @@
 		{
 			dependencies: ["36D18517BF55CE74"]
 			description: [
-				"&e金苹果&r已经成为过去,你需要&9宝石苹果&r!这些苹果是在铸造台&r中用&b熔融钻石&r包裹而成.&e金苹果&r在&e常规战斗&r中可能因其&d治疗效果&r而更胜一筹,但你会想要&9宝石苹果&r用于常规用途和采矿,因为它们提供&e急迫&r效果."
+				"&e金苹果&r已成过去,现在你需要&9宝石苹果&r!这是在铸造台&r中用&b熔融钻石&r包裹的苹果.&e金苹果&r可能因其&d治疗效果&r在&e常规战斗&r中更胜一筹,但你会想要&9宝石苹果&r用于常规用途和采矿,因为它们提供&e急迫&r效果."
 				""
 				""
 				"&7[Golden apples are a thing of the past, you want Jeweled apples! These are apples coated with molten diamond in a casting table. Golden apples may by superior in general combat due to its healing effects, but you will want Jeweled apples for general purpose and mining as they give haste.]&f"
@@ -4000,26 +4066,28 @@
 				}
 			]
 			subtitle: "别忘了附魔金苹果!!!&7[Don't forget the Notch apple!!!]&f"
-			tasks: [{
-				id: "65015BEEEA567CAB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "65015BEEEA567CAB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:jeweled_apple"
 					}
-					id: "tconstruct:jeweled_apple"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 10.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6D02F65F8994ECA0"]
 			description: [
-				"这是一种&c可投掷炸弹&r,由燧石和&0火药&r制成,非常适合&c摧毁&r&a方块&r和&e玩家&r."
+				"这是一种由燧石和&0火药&r制成的&c可投掷炸弹&r,非常适合&c摧毁&r&a方块&r和&e玩家&r."
 				""
 				""
 				"&7[This is a throwable bomb made from flint and gunpowder, great for destroying blocks and players.]&f"
@@ -4047,26 +4115,28 @@
 			]
 			shape: "octagon"
 			subtitle: "基本上就是手榴弹&7[Pretty much a gernade ]&f"
-			tasks: [{
-				id: "13E9B080CBD095B8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "13E9B080CBD095B8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "tconstruct:efln_ball"
 					}
-					id: "tconstruct:efln_ball"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
 			description: [
-				"本质上是&9钻石盔甲&r,但拥有更多&a升级槽&r和一些&e击退抗性&r."
+				"本质上是&9钻石盔甲&r,但拥有更多&a升级槽位&r和一些&e击退抗性&r."
 				""
 				""
 				"&7[Essentially Diamond armor with more upgrade slots and some knockback resistance.]&f"
@@ -4085,49 +4155,51 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0839828C707F1C00"
-				item: {
-					Count: 1
-					id: "tconstruct:plate_chestplate"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "c6ac9818-1710-4c66-afa0-7ba483990e23"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:cobalt"
-							"tconstruct:cobalt"
-						]
-						tic_modifiers: [{
-							level: 2
-							name: "tconstruct:melee_protection"
-						}]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 0.4f
-						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor": 8.0f
-							"tconstruct:armor_toughness": 1.5f
-							"tconstruct:durability": 480.0f
-							"tconstruct:knockback_resistance": 0.05f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 3
-							upgrades: 2
+			tasks: [
+				{
+					id: "0839828C707F1C00"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:cobalt"
+								"tconstruct:cobalt"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 7.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 480.0f
+								"tconstruct:knockback_resistance": 0.05f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.25d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
 			description: [
-				"通过在&e板盾&r上浇注&9钴&r制作而成,这是一面&b出色的盾牌&r,拥有更多&a升级槽&r."
+				"通过在&e板盾&r上浇注&9钴&r制成,这是一面&b出色的盾牌&r,拥有更多&a升级槽位&r."
 				""
 				""
 				"&7[Crafted by pouring cobalt onto a plate shield, this is an amazing shield with more upgrade slots.]&f"
@@ -4146,57 +4218,57 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "616F81ECE66D7888"
-				item: {
-					Count: 1
-					id: "tconstruct:plate_shield"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "925a1e58-d314-4a29-b1d5-81188b00818c"
-						tic_broken: 0b
-						tic_materials: [
-							"tcintegrations:livingrock"
-							"tconstruct:cobalt"
-						]
-						tic_modifiers: [
-							{
-								level: 1
-								name: "tconstruct:stonebound"
+			tasks: [
+				{
+					id: "616F81ECE66D7888"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_shield"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tcintegrations:livingrock"
+								"tconstruct:cobalt"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:stonebound"
+								}
+								{
+									level: 1
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:blocking"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:block_amount": 100.0f
+								"tconstruct:block_angle": 180.0f
+								"tconstruct:durability": 540.0f
+								"tconstruct:knockback_resistance": 0.05f
 							}
-							{
-								level: 1
-								name: "tconstruct:melee_protection"
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
 							}
-							{
-								level: 1
-								name: "tconstruct:blocking"
-							}
-						]
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:armor_toughness": 1.5f
-							"tconstruct:block_amount": 100.0f
-							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 540.0f
-							"tconstruct:knockback_resistance": 0.05f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							defense: 3
-							upgrades: 2
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.75d
 			y: -0.5d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
 			description: [
-				"通过在&c熔炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你终于可以拥有&d纯铁工具&r."
+				"在&c冶炼炉&r中用&b铁&r&e填充铸模&r,然后在&9工匠站&r组装,你最终可以获得&d纯铁工具&r."
 				""
 				""
 				"&7[Crafted by filling casts with iron at the smeltery then assembled at a tinker station, you can finally have pure iron tools.]&f"
@@ -4223,52 +4295,53 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "56F2961DB69348D4"
-				item: {
-					Count: 1
-					id: "tconstruct:broad_axe"
-					tag: {
-						Damage: 0
-						etstlib_tool_uuid: "3c97a0c2-43cc-4c38-be06-752cc4130eb1"
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-							"tconstruct:iron"
-						]
-						tic_modifiers: [
-							{
-								level: 4
-								name: "tconstruct:magnetic"
+			tasks: [
+				{
+					id: "56F2961DB69348D4"
+					item: {
+						Count: 1
+						id: "tconstruct:broad_axe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
+									name: "tconstruct:stripping"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.65f
+								"tconstruct:durability": 4.25f
+								"tconstruct:mining_speed": 0.3f
 							}
-							{
-								level: 1
-								name: "tconstruct:stripping"
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 11.55f
+								"tconstruct:attack_speed": 0.6f
+								"tconstruct:durability": 1168.75f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
 							}
-						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 1.65f
-							"tconstruct:durability": 4.25f
-							"tconstruct:mining_speed": 0.3f
-						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_damage": 11.55f
-							"tconstruct:attack_speed": 0.6f
-							"tconstruct:durability": 1168.75f
-							"tconstruct:harvest_tier": "minecraft:iron"
-							"tconstruct:mining_speed": 1.8000001f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 7.0d
 			y: -10.0d
 		}
@@ -4293,11 +4366,13 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2BC09F9E8E36D55D"
-				title: "更多蛋糕"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2BC09F9E8E36D55D"
+					title: "更多蛋糕"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 0.4d
 		}

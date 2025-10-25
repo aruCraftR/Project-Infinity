@@ -1,7 +1,7 @@
 ItemEvents.tooltip((event) => {
   event.add(
     'occultism:spirit_attuned_gem',
-    'If you want to automate it, build the Fire Attuned Multiblock'
+    '如果你想自动化它,建造火调谐多方块结构'
   );
   event.add(
     ['avaritia:infinity_pickaxe', 'avaritia:infinity_shovel'],
@@ -10,27 +10,27 @@ ItemEvents.tooltip((event) => {
 
   event.add(
     'nuclearcraft:water_collector',
-    '200 mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.'
+    '每2秒200毫桶.将此物品放入泵(核工艺)中.你可以升级速度和能量.'
   );
   event.add(
     'nuclearcraft:compact_water_collector',
-    '2000 mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.'
+    '每2秒2000毫桶.将此物品放入泵(核工艺)中.你可以升级速度和能量.'
   );
   event.add(
     'nuclearcraft:dense_water_collector',
-    '10000 mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.'
+    '每2秒10000毫桶.将此物品放入泵(核工艺)中.你可以升级速度和能量.'
   );
 
   event.add(
     'allthemodium:allthemodium_upgrade_smithing_template',
-    'Find me inside ancient city chests. 2.5% Chance'
+    '在古城宝箱中找到我.2.5%几率'
   );
 
   event.addAdvanced(
     ['mm:multi_compactor_controller'],
     (item, advanced, text) => {
-      text.add(1, Text.white('你将获得贤者之石与'));
-      text.add(2, Text.white('主灌注水晶的返还.'));
+      text.add(1, Text.white('你将获得贤者之石和'));
+      text.add(2, Text.white('回收主灌注水晶.'));
       text.add(3, Text.white('它们不会被消耗.'));
     }
   );
@@ -65,7 +65,7 @@ ItemEvents.tooltip((event) => {
         Text.of('查看更多信息.').gold(),
       ]);
     } else {
-      text.add(1, Text.green('将我投入岩浆以获得灌注熔岩水晶'));
+      text.add(1, Text.green('将我扔进岩浆以获得灌注熔岩水晶'));
     }
     text.remove(2);
   });
@@ -81,15 +81,11 @@ ItemEvents.tooltip((event) => {
     } else {
       (text.add(
         1,
-        Text.green(
-          'Trow me on the ground and use "Engraved Thunder" or "Lightning Knife" (1 time use) to get Infused Frost Crystal'
-        )
+        Text.green('将我扔在地上并使用\"铭刻雷霆\"或\"闪电刀\"(一次性使用)以获得灌注霜晶')
       ),
         text.add(
           2,
-          Text.white(
-            'Or trow a Trident at a mob with channeling while a thunderstorm is occurring. Or use the Mechanical Empowerer'
-          )
+          Text.white('或在雷雨天气时,向带有引雷附魔的三叉戟投掷生物.或使用机械赋能器')
         ));
       text.remove(3);
     }
@@ -127,9 +123,7 @@ ItemEvents.tooltip((event) => {
       } else {
         text.add(
           1,
-          Text.green(
-            'Brewing/ Potion Station --> 1 Seed of Chaos and 3 Water Bottle + a blaze powder'
-          )
+          Text.green('酿造/药水站 --> 1颗混沌种子和3瓶水 + 烈焰粉')
         );
       }
     }
@@ -181,24 +175,22 @@ ItemEvents.tooltip((event) => {
     (item, advanced, text) => {
       text.add(
         1,
-        Text.green(
-          'Search a Infernal Evil Pumpkin and right click it with a Transmutaion Elixir to spawn Lord Pumkinhead'
-        )
+        Text.green('寻找一个地狱邪恶南瓜并用转化灵药右键点击它以生成南瓜头领主')
       );
     }
   );
 
   event.addAdvanced(['kubejs:ultimate_prediction'], (item, advanced, text) => {
-    text.add(1, Text.red('配方与物品由realspinelle添加.'));
+    text.add(1, Text.red('配方和物品由realspinelle添加.'));
     text.add(2, Text.red('非常感谢!别恨我,恨他:)'));
   });
 
     event.addAdvanced(['mekanism:creative_bin'], (item, advanced, text) => {
-    text.add(1, Text.red('Recipe added by RxDnz.'));
-    text.add(2, Text.red('Thanks a lot! Dont hate me, hate him :)'));
+    text.add(1, Text.red('配方由RxDnz添加.'));
+    text.add(2, Text.red('非常感谢!别恨我,恨他:)'));
   });
 
     event.addAdvanced(['ae2omnicells:multidimensional_expansion_processor'], (item, advanced, text) => {
-    text.add(1, Text.red('Recipe added by Anti.'));
+    text.add(1, Text.red('配方由Anti添加.'));
   });
 });

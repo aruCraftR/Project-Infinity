@@ -12,21 +12,25 @@
 			dependency_requirement: "all_started"
 			icon: "minecraft:dragon_head"
 			id: "38A28A6BCA401D6F"
-			rewards: [{
-				id: "0F299D1CF5438162"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0F299D1CF5438162"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_head"
-				id: "74278AF6C738017C"
-				title: "击杀&a末影龙&f"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "74278AF6C738017C"
+					title: "击杀&a末影龙&f"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "击败&8&l&a末影龙&f&7[Defeat the lEnder Dragon]&f"
 			x: 0.0d
 			y: -6.5d
@@ -34,41 +38,49 @@
 		{
 			dependencies: ["38A28A6BCA401D6F"]
 			id: "534103944AABD09A"
-			rewards: [{
-				id: "1CECE7BF3340CDC3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1CECE7BF3340CDC3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "square"
-			tasks: [{
-				advancement: "minecraft:end/find_end_city"
-				criterion: ""
-				id: "5FE31259434B7318"
-				title: "发现一座&e&a末地城&f"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "5FE31259434B7318"
+					title: "发现&e&a末地城&f"
+					type: "advancement"
+				}
+			]
 			x: 0.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["534103944AABD09A"]
 			id: "738F637AE5C1ECB6"
-			rewards: [{
-				id: "60F168F1FBCE35F2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57D6837DF1356913"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "60F168F1FBCE35F2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "57D6837DF1356913"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "获得一个&b鞘翅&r&7[Obtain an Elytra]&f"
 			x: 0.0d
 			y: -10.0d
@@ -76,17 +88,19 @@
 		{
 			dependencies: ["534103944AABD09A"]
 			description: [
-				"箱子可以通过使用2个壳&a右击&f它们来转化为潜影盒."
+				"箱子可以通过使用2个壳&a右击&f它们来转换为潜影盒."
 				""
 				""
 				"&7[Chests can be converter into shulker by right clicking them using 2 shells]&f"
 			]
 			id: "020781DCBCE5AA49"
-			rewards: [{
-				id: "34CE13324A90AAB8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34CE13324A90AAB8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -99,6 +113,7 @@
 							}
 						}
 						id: "minecraft:shulker_shell"
+						tag: { }
 					}
 					type: "item"
 				}
@@ -121,19 +136,23 @@
 				}
 			}
 			id: "273B2D8529BAFC0C"
-			rewards: [{
-				id: "09F2BAE750D2C919"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:ender_golem"
-				icon: "cataclysm:void_core"
-				id: "1FAFB11B8DEB2D1D"
-				title: "击败一个&a末影傀儡&f"
-				type: "kill"
-				value: 1L
-			}]
+			rewards: [
+				{
+					id: "09F2BAE750D2C919"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:void_core"
+					id: "1FAFB11B8DEB2D1D"
+					title: "击败&a末影傀儡&f"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "击败&a末影傀儡&f&7[Defeat the Ender Golem]&f"
 			x: 3.5d
 			y: -6.5d
@@ -149,37 +168,45 @@
 			}
 			icon_scale: 2.0d
 			id: "11A41BD76410F5E2"
-			rewards: [{
-				id: "026BC73DAC884E91"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:altar_of_void"
-				id: "3C7FFAC89C33E199"
-				title: "&a击败末影守卫&f"
-				type: "kill"
-				value: 1L
-			}]
+			rewards: [
+				{
+					id: "026BC73DAC884E91"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:altar_of_void"
+					id: "3C7FFAC89C33E199"
+					title: "&a击败末影守卫&f"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 5.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["38A28A6BCA401D6F"]
 			id: "57884954544DD970"
-			rewards: [{
-				id: "1D37C42CFCF92CD6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "cataclysm:void_eye"
-				id: "04E95A4D04586D22"
-				structure: "cataclysm:ruined_citadel"
-				title: "&a找到废弃堡垒&f"
-				type: "structure"
-			}]
+			rewards: [
+				{
+					id: "1D37C42CFCF92CD6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "cataclysm:void_eye"
+					id: "04E95A4D04586D22"
+					structure: "cataclysm:ruined_citadel"
+					title: "&a找到废弃堡垒&f"
+					type: "structure"
+				}
+			]
 			x: 2.0d
 			y: -6.5d
 		}
@@ -193,16 +220,20 @@
 			]
 			hide_dependent_lines: true
 			id: "373592864A465D37"
-			rewards: [{
-				id: "2EC5DB6042A22986"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4FE9442DF3437EDA"
-				item: "cataclysm:gauntlet_of_guard"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EC5DB6042A22986"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FE9442DF3437EDA"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -6.5d
 		}
@@ -212,22 +243,26 @@
 				"123995A28774EFE0"
 			]
 			id: "036C235F2ABDB595"
-			rewards: [{
-				id: "575A509B11DD4E3A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "30045AC22CA75882"
-				item: {
-					Count: 1
-					id: "cataclysm:void_forge"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "575A509B11DD4E3A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "30045AC22CA75882"
+					item: {
+						Count: 1
+						id: "cataclysm:void_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -8.0d
 		}
@@ -237,40 +272,48 @@
 				"61FF844439FCBE0E"
 			]
 			id: "6E9D143684867DB0"
-			rewards: [{
-				id: "47D0F08CAE5AAF29"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7EEF75B7D0F56967"
-				item: "cataclysm:void_assault_shoulder_weapon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "47D0F08CAE5AAF29"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7EEF75B7D0F56967"
+					item: "cataclysm:void_assault_shoulder_weapon"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -8.0d
 		}
 		{
 			description: [
-				"用空瓶子&a右击&f空气."
+				"用空瓶子&a右键点击&f空气."
 				""
 				""
 				"&7[Right click the air with a empty bottle.]&f"
 			]
 			id: "4E190E6E1268D208"
-			rewards: [{
-				id: "635DC8F0F1589F07"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "181E861B88E14D40"
-				item: "botania:ender_air_bottle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "635DC8F0F1589F07"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "181E861B88E14D40"
+					item: "botania:ender_air_bottle"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -6.5d
 		}
 	]
-	title: "&e末地&f&7[End]&f"
+	title: "&e末地&7[End]&f"
 }

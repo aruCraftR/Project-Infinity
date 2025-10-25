@@ -3,15 +3,45 @@
 	loot_size: 1
 	order_index: 31
 	rewards: [
-		{ item: "powah:capacitor_nitro", random_bonus: 1, weight: 10.0f }
-		{ item: "powah:crystal_nitro", random_bonus: 3, weight: 25.0f }
-		{ item: "powah:crystal_spirited", random_bonus: 2, weight: 25.0f }
-		{ item: "powah:spirited_crystal_block", weight: 2.0f }
-		{ item: "powah:energizing_rod_nitro", weight: 5.0f }
-		{ item: "powah:energizing_rod_spirited", weight: 5.0f }
-		{ count: 2, item: "powah:energy_cable_nitro", random_bonus: 2, weight: 10.0f }
-		{ item: "powah:nitro_crystal_block" }
-		{ item: "powah:solar_panel_nitro" }
+		{
+			item: "powah:capacitor_nitro"
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			item: "powah:crystal_nitro"
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			item: "powah:crystal_spirited"
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			item: "powah:spirited_crystal_block"
+			weight: 2.0f
+		}
+		{
+			item: "powah:energizing_rod_nitro"
+			weight: 5.0f
+		}
+		{
+			item: "powah:energizing_rod_spirited"
+			weight: 5.0f
+		}
+		{
+			count: 2
+			item: "powah:energy_cable_nitro"
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			item: "powah:nitro_crystal_block"
+		}
+		{
+			item: "powah:solar_panel_nitro"
+		}
 	]
 	title: "Powah:硝基战利品奖励&7[Powah: Nitro Loot Reward]&f"
 	use_title: true

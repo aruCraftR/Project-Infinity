@@ -11,15 +11,15 @@
 	quests: [
 		{
 			description: [
-				"&b&d热力系列&f&r 是一个综合性 &e科技模组&r,提供 &d自动化工具&r 和 &a发电选项&r,通过 &9先进机械&r 和 能源系统&r 增强您的 &c我的世界&r 游戏体验"
+				"&b&d热力系列&f&r是一个综合性&e科技模组&r,提供&d自动化工具&r和&a发电选项&r,通过&9先进机械&r和能源系统&r增强你的&c我的世界&r游戏体验"
 				""
-				"&b&d热力系列&f&r 中的 &3机器&r 和 &5设备&r 可处理 &a矿石&r、自动化 合成&r 并管理 &d能源&r.&a强化&f 提供 &9发电&r 方式,包括利用 &e煤炭&r、&4熔岩&r 和 &b可再生资源&r 的 &e发电机系统&r"
+				"&b&d热力系列&f&r中的&3机器&r和&5设备&r可处理&a矿石&r、自动化合成&r并管理&d能源&r.&a强化&f提供&9发电&r方式,包括利用&e煤炭&r、&4岩浆&r和&b可再生资源&r的&e发电机系统&r"
 				""
-				"该系列包含 先进处理机器&r,如 &e&a红石熔炉&f&r、&9粉碎机&r 和 &e&a感应炉&f&r,可通过 &b增强模块&r 升级以提高效率和功能"
+				"&b&d热力系列&f&r包含先进加工机器&r,如&e&a红石熔炉&f&r、&9粉碎机&r和&e&a感应炉&f&r,可通过&b增强配件&r升级以提高效率和功能"
 				""
-				"&b能量&r 可存储于 &c&a能量单元&f&r 并通过 &d能量导管&r 传输,构建 &a无缝能源网络&r.所有设备均配备 &n简易图形界面&r,便于 &b精确管理&r 并 &9轻松兼容&r 其他模组"
+				"&b能源&r可存储在&c&a能量单元&f&r中,并通过&d能量导管&r分配,形成&a无缝能源网络&r.所有设备均采用&n简易图形界面&r,便于&b精确管理&r并&9轻松集成&r其他模组"
 				""
-				"无论您想实现资源处理自动化、发电还是建造复杂的 &a科技装置&r,&b&d热力系列&f&r 都能提供工具和灵活性来提升您的 &d我的世界&r 体验"
+				"无论你想自动化资源处理、发电还是建造复杂的&a科技装置&r,&b&d热力系列&f&r都能提供工具和灵活性来提升你的&d我的世界&r体验"
 				""
 				""
 				"&7[Thermal Series is a comprehensive technology mod that provides automation tools and power generation options, enhancing your Minecraft gameplay with advanced machinery and energy systems.]&f"
@@ -36,32 +36,36 @@
 			id: "2CEA5EEE6FD8B7D2"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "6E89929D78BA0ADE"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6E89929D78BA0ADE"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			id: "50A008AE036FE16E"
-			tasks: [{
-				id: "04F9EA1D6382D250"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04F9EA1D6382D250"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b锯木机&r 将 &e原木&r 加工成 &3木板&r 和其他木制品"
+				"&b锯木厂&r将&e木材方块&r加工成&3木板&r和其他木制品"
 				""
-				"通过高效转换 &9原木&r 为多个木板来最大化资源产出,并可产生 &d锯屑&r 作为副产品"
+				"通过高效转换&9原木&r为多个木板来最大化资源产出,并可产生&d锯屑&r作为副产品"
 				""
-				"该机器对于需要大量木质材料的装置至关重要"
+				"该机器对于需要大量木质材料的任何装置都至关重要"
 				""
 				""
 				"&7[The Sawmill processes wood blocks into planks and other wood products.]&f"
@@ -73,20 +77,22 @@
 			hide_dependency_lines: true
 			id: "49E64538A503E75C"
 			shape: "diamond"
-			tasks: [{
-				id: "1868E91412D1BC90"
-				item: "thermal:machine_sawmill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1868E91412D1BC90"
+					item: "thermal:machine_sawmill"
+					type: "item"
+				}
+			]
 			x: -4.75d
 			y: -2.0d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a熔岩炉&f&r 将物品熔化成 &e液体&r,例如将 &3圆石&r 转化为 &d熔岩&r"
+				"&b&a熔岩炉&f&r将物品熔化成&e液体&r,例如将&3圆石&r转化为&d岩浆&r"
 				""
-				"利用高温液化材料,对于需要 &a熔融物质&r 的工艺(包括铸造和冶炼)至关重要"
+				"利用高温液化材料,使其成为需要&a熔融物质&r的工艺(包括铸造和冶炼)的关键设备"
 				""
 				""
 				"&7[The Magma Crucible melts items into liquids, such as turning cobblestone into lava.]&f"
@@ -96,20 +102,22 @@
 			hide_dependency_lines: true
 			id: "144C6A64D2E21EAD"
 			shape: "diamond"
-			tasks: [{
-				id: "056F6AAC7A1E3FB9"
-				item: "thermal:machine_crucible"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "056F6AAC7A1E3FB9"
+					item: "thermal:machine_crucible"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a流体灌装机&f&r可将液体灌入容器中,例如瓶子或储罐."
+				"&b&a流体灌装机&f&r可将瓶子或储罐等容器填充&e液体&r."
 				""
-				"它能自动化地将流体打包成&a便携形式&r,便于高效存储和运输液体."
+				"它能自动将流体封装成&a便携形式&r,便于高效存储和运输液体."
 				""
 				""
 				"&7[The Fluid Encapsulator fills containers with liquids, such as bottles or tanks.]&f"
@@ -119,20 +127,22 @@
 			hide_dependency_lines: true
 			id: "00F906BF59443E0D"
 			shape: "diamond"
-			tasks: [{
-				id: "61CBF3F5C644BB7A"
-				item: "thermal:machine_bottler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61CBF3F5C644BB7A"
+					item: "thermal:machine_bottler"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b植物促生仪&r利用特殊的&d生长介质&r和&e光照&r加速植物生长."
+				"&b植物促生仪&r利用专用&d生长培养基&r和&e光照&r加速植物生长."
 				""
-				"可实现&9作物&r和&a植物&r的快速培育,是农业自动化与高效种植不可或缺的设备."
+				"可快速培育&9作物&r与&a植物&r,是农业自动化高效种植的核心设备."
 				""
 				""
 				"&7[The Phytogenic Insolator accelerates plant growth using specialized growth mediums and lighting.]&f"
@@ -142,22 +152,24 @@
 			hide_dependency_lines: true
 			id: "26BB6736B36FF884"
 			shape: "diamond"
-			tasks: [{
-				id: "2801CA4485415A08"
-				item: "thermal:machine_insolator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2801CA4485415A08"
+					item: "thermal:machine_insolator"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a流体精炼机&f&r是专门用于将液体&e分离&r为&d独立成分&r的机器."
+				"&b&a流体精炼机&f&r是能将液体&e分离&r为&d独立成分&r的专业设备."
 				""
 				"特别适用于将&9复杂流体&r分解为更简单实用的物质."
 				""
-				"通过&9加热&r使液体&c蒸发&r后&5冷凝&r为不同产物,实现高效的资源提取与处理."
+				"通过&9加热&r使液体&c蒸发&r后&5冷凝&r为不同产物,实现高效资源提取与加工."
 				""
 				""
 				"&7[The Fractionating Still is a specialized machine that separates liquids into their individual components.]&f"
@@ -169,20 +181,22 @@
 			hide_dependency_lines: true
 			id: "2727606F4C386C4E"
 			shape: "diamond"
-			tasks: [{
-				id: "24B66FEB6360EF02"
-				item: "thermal:machine_refinery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24B66FEB6360EF02"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a多驱冲压机&f&r是多功能机器,可进行&5压制成型&r、&d打包压缩&r和&e物品塑形&r."
+				"&b&a多驱冲压机&f&r是能进行&5压铸&r、&d封装&r和&e塑形&r的多功能机器."
 				""
-				"使用不同&9模具&r将材料加工成&3板件&r、&e齿轮&r等组件,是制造机械零件与工艺品的核心设备."
+				"使用不同&9模具&r将材料加工成&3金属板&r、&e齿轮&r等部件,是制造机械零件与工艺品的必备设备."
 				""
 				""
 				"&7[The Multiservo Press is a versatile machine capable of pressing, packing, and shaping items.]&f"
@@ -192,22 +206,24 @@
 			hide_dependency_lines: true
 			id: "5CC866C17EED14C1"
 			shape: "diamond"
-			tasks: [{
-				id: "5B07790F33517649"
-				item: "thermal:machine_press"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B07790F33517649"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: -2.0d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a循环装配台&f&r能自动化执行&e复杂合成配方&r."
+				"&b&a循环装配台&f&r可自动化执行&e复杂合成配方&r."
 				""
-				"可存储多步骤合成流程并按&9顺序&r执行,完美适配需要多阶段组装的物品制作."
+				"能存储多道工序并按&9顺序&r执行,特别适合制作需要分步组装的物品."
 				""
-				"该机器显著简化合成流程,减少人工干预需求."
+				"该设备能简化合成流程,减少人工干预."
 				""
 				""
 				"&7[The Sequential Fabricator automates complex crafting recipes.]&f"
@@ -219,22 +235,24 @@
 			hide_dependency_lines: true
 			id: "30F6FB2A279B72F1"
 			shape: "diamond"
-			tasks: [{
-				id: "7A8B594D13D32BBF"
-				item: "thermal:machine_crafter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A8B594D13D32BBF"
+					item: "thermal:machine_crafter"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: -2.0d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a药水酿造机&f&r能为物品注入&a魔法&r或化学特性&r."
+				"&b&a药水酿造机&f&r能为物品灌注&a魔法&r或化学特性&r."
 				""
 				"通过混合原料制作&9药水&r、&d附魔物品&r及其他炼金产物."
 				""
-				"该机器通过神秘手段在材料增强与转化方面起关键作用."
+				"该设备在通过神秘手段增强与转化材料方面起关键作用."
 				""
 				""
 				"&7[The Alchemical Imbuer infuses items with magical or hemical properties.]&f"
@@ -246,11 +264,13 @@
 			hide_dependency_lines: true
 			id: "7D1EA923E6654BE1"
 			shape: "diamond"
-			tasks: [{
-				id: "564F9B4D04A3BA3F"
-				item: "thermal:machine_brewer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "564F9B4D04A3BA3F"
+					item: "thermal:machine_brewer"
+					type: "item"
+				}
+			]
 			x: -1.75d
 			y: -2.0d
 		}
@@ -259,9 +279,9 @@
 			description: [
 				"&b&a急速冷冻机&f&r能快速冷却液体&r和&5气体&r,使其凝固成&e方块&r或物品."
 				""
-				"可将熔融金属固化为&3锭&r或将水制成&a冰&r."
+				"可将熔融金属固化为&3锭&r或将水制成&a冰&r,是快速凝固工艺的核心设备."
 				""
-				"采用先进&d冷却机制&r实现急速降温,在快速凝固过程中展现极高效率."
+				"采用先进&d冷却机制&r实现急速降温,凝固效率极高."
 				""
 				""
 				"&7[The Blast Chiller rapidly cools liquids and gases, solidifying them into blocks or items.]&f"
@@ -273,22 +293,24 @@
 			hide_dependency_lines: true
 			id: "22FB4DBDA7EB454B"
 			shape: "diamond"
-			tasks: [{
-				id: "2A3A67E6E3568EFC"
-				item: "thermal:machine_chiller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A3A67E6E3568EFC"
+					item: "thermal:machine_chiller"
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: -2.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b热解炉&r通过加热&e有机材料&r生产&3木炭&r、&d焦油&r等副产品."
+				"&b热解炉&r通过加热&e有机材料&r生成&3木炭&r、&d焦油&r等副产品."
 				""
 				"采用&c热解&r工艺(在无氧环境下高温分解材料)运作."
 				""
-				"该机器可生成替代燃料及适用于各种合成配方的副产品,具有重要价值."
+				"该设备能生产替代燃料及适用于各种合成配方的副产品."
 				""
 				""
 				"&7[The Pyrolyzer heats organic materials to produce charcoal, tar, and other byproducts.]&f"
@@ -300,20 +322,22 @@
 			hide_dependency_lines: true
 			id: "76D788CF66EF0427"
 			shape: "diamond"
-			tasks: [{
-				id: "00CCCDA81E01663E"
-				item: "thermal:machine_pyrolyzer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00CCCDA81E01663E"
+					item: "thermal:machine_pyrolyzer"
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a离心机&f&r通过高速旋转液体,根据密度差异&r实现&e成分分离&r."
+				"&b&a离心机&f&r通过高速旋转液体,根据密度&r进行&e分离&r."
 				""
-				"可将复杂混合物提纯为&9纯净物质&r,例如从矿石中提取金属或实现液固分离."
+				"适合将复杂混合物精炼成&9纯净物质&r,例如从矿石中提取金属或实现液固分离."
 				""
 				""
 				"&7[The Centrifugal Separator spins fluids at high speeds to separate them into different components based on density.]&f"
@@ -323,20 +347,22 @@
 			hide_dependency_lines: true
 			id: "2BF87A097A82D803"
 			shape: "diamond"
-			tasks: [{
-				id: "4103687C6C899322"
-				item: "thermal:machine_centrifuge"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4103687C6C899322"
+					item: "thermal:machine_centrifuge"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: -2.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b晶体培养机&r能将&e液体&r转化为&3晶体固体&r."
+				"&b结晶器&r能将&e液体&r转化为&3晶体固体&r."
 				""
-				"用于从流体中生产&9晶体&r和&a宝石&r,适用于合成及其他应用领域."
+				"用于从流体中生产&9晶体&r和&a宝石&r,适用于合成及其他领域."
 				""
 				"结晶过程精确可控,确保产出高品质产物."
 				""
@@ -350,20 +376,22 @@
 			hide_dependency_lines: true
 			id: "470A26A62DF7D115"
 			shape: "diamond"
-			tasks: [{
-				id: "20C1B25448EEEC4F"
-				item: "thermal:machine_crystallizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20C1B25448EEEC4F"
+					item: "thermal:machine_crystallizer"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: -2.5d
 		}
 		{
 			dependencies: ["50A008AE036FE16E"]
 			description: [
-				"&b&a红石熔炉&f&r是一种使用&9RF能量&r而非传统燃料来&4熔炼物品&r的机器."
+				"&b&a红石熔炉&f&r 是一种使用&9RF能量&r而非传统燃料来&4熔炼物品&r的机器."
 				""
-				"它为您的工作系统提供了一种高效自动化的&a熔炼流程&r处理方案."
+				"它为你的设备提供了一种高效自动化的&a熔炼流程&r处理方式."
 				""
 				""
 				"&7[The Redstone Furnace is a machine used to smelt items using RF energy instead of traditional fuels. ]&f"
@@ -371,18 +399,20 @@
 				"&7[It provides an efficient and automated way to handle smelting processes in your setup.]&f"
 			]
 			id: "41C813E4611DF18B"
-			tasks: [{
-				id: "15AFEDBB54C001B0"
-				item: "thermal:machine_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "15AFEDBB54C001B0"
+					item: "thermal:machine_furnace"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["41C813E4611DF18B"]
 			description: [
-				"&b粉碎机&r是一种将物品&c粉碎&r成其&e基础成分&r的机器,通常还能产出额外材料."
+				"&b粉碎机&r 是一种将物品&c粉碎&r成其&e基础成分&r的机器,通常能产出额外材料."
 				""
 				"它非常适用于&a矿石处理&r以及提高&9原材料&r的资源产出."
 				""
@@ -392,20 +422,22 @@
 				"&7[It's ideal for ore processing and increasing resource output from raw materials.]&f"
 			]
 			id: "2384CB6577ECF2F0"
-			tasks: [{
-				id: "3D5A4DB7C3C6BC6B"
-				item: "thermal:machine_pulverizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D5A4DB7C3C6BC6B"
+					item: "thermal:machine_pulverizer"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2384CB6577ECF2F0"]
 			description: [
-				"&b&a感应炉&f&r是一种用于&e结合&r和&4熔炼矿石&r与其他物品的机器,常可生产出&9合金&r."
+				"&b&a感应炉&f&r 是一种用于&e结合&r和&4熔炼矿石&r及其他物品的机器,通常能生产出&9合金&r."
 				""
-				"这对于制造&a高级材料&r和&d复杂配方&r至关重要."
+				"这对于制造&a高阶材料&r和&d复杂配方&r至关重要."
 				""
 				""
 				"&7[The Induction Smelter is a machine used to combine and smelt ores and other items, often producing alloys. ]&f"
@@ -413,33 +445,39 @@
 				"&7[This is essential for creating high-tier materials and complex recipes.]&f"
 			]
 			id: "588BC9913696D793"
-			tasks: [{
-				id: "42233C8F8E2A5EB1"
-				item: "thermal:machine_smelter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42233C8F8E2A5EB1"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			id: "0C0C062295841485"
-			tasks: [{
-				id: "7274CBAD8429C304"
-				item: "redstone_arsenal:flux_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7274CBAD8429C304"
+					item: "redstone_arsenal:flux_gem"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C0C062295841485"]
 			id: "2267335044A96097"
-			tasks: [{
-				id: "64317E058562B993"
-				item: "redstone_arsenal:flux_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "64317E058562B993"
+					item: "redstone_arsenal:flux_ingot"
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: 0.0d
 		}
@@ -447,11 +485,13 @@
 			dependencies: ["2267335044A96097"]
 			hide_dependent_lines: true
 			id: "6CB986BCA2D705C7"
-			tasks: [{
-				id: "0552870097DD3B8C"
-				item: "redstone_arsenal:flux_obsidian_rod"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0552870097DD3B8C"
+					item: "redstone_arsenal:flux_obsidian_rod"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 0.0d
 		}
@@ -463,12 +503,20 @@
 			tasks: [
 				{
 					id: "7DA8076C85A45ABB"
-					item: "redstone_arsenal:flux_elytra"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_elytra"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "1340580C48FECEA5"
-					item: "redstone_arsenal:flux_controller"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_controller"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -479,11 +527,17 @@
 			dependencies: ["6CB986BCA2D705C7"]
 			id: "4B224070BE46EDFE"
 			shape: "diamond"
-			tasks: [{
-				id: "718C18605BE3EC81"
-				item: "redstone_arsenal:flux_sword"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "718C18605BE3EC81"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_sword"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -8.25d
 			y: -1.0d
 		}
@@ -491,11 +545,17 @@
 			dependencies: ["6CB986BCA2D705C7"]
 			id: "454677E7EAF88816"
 			shape: "diamond"
-			tasks: [{
-				id: "68C4EF8ACCD6ED56"
-				item: "redstone_arsenal:flux_shield"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68C4EF8ACCD6ED56"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_shield"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: -0.5d
 		}
@@ -506,12 +566,20 @@
 			tasks: [
 				{
 					id: "38479439CF944023"
-					item: "redstone_arsenal:flux_bow"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_bow"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "7473C5ED78CC01E6"
-					item: "redstone_arsenal:flux_quiver"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_quiver"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -522,11 +590,17 @@
 			dependencies: ["6CB986BCA2D705C7"]
 			id: "5BEA4304949A3AD7"
 			shape: "diamond"
-			tasks: [{
-				id: "00FDEE8669C7702F"
-				item: "redstone_arsenal:flux_trident"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00FDEE8669C7702F"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_trident"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: 0.5d
 		}
@@ -534,11 +608,17 @@
 			dependencies: ["6CB986BCA2D705C7"]
 			id: "74F8002C6AF94928"
 			shape: "diamond"
-			tasks: [{
-				id: "34F0859677285413"
-				item: "redstone_arsenal:flux_fishing_rod"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34F0859677285413"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_fishing_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -8.25d
 			y: 1.0d
 		}
@@ -546,11 +626,17 @@
 			dependencies: ["6CB986BCA2D705C7"]
 			id: "4AB8A31D6BA89B8A"
 			shape: "diamond"
-			tasks: [{
-				id: "2B3C503DDB2FEE8B"
-				item: "redstone_arsenal:flux_wrench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2B3C503DDB2FEE8B"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -8.75d
 			y: 0.5d
 		}
@@ -561,22 +647,38 @@
 			tasks: [
 				{
 					id: "368906C12AEBDCDF"
-					item: "redstone_arsenal:flux_helmet"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_helmet"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "334528B36301E8DB"
-					item: "redstone_arsenal:flux_chestplate"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_chestplate"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "13BBFAE2C32EF32B"
-					item: "redstone_arsenal:flux_leggings"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_leggings"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "109C2B73342A3C48"
-					item: "redstone_arsenal:flux_boots"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_boots"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -587,22 +689,28 @@
 			dependencies: ["6CB986BCA2D705C7"]
 			id: "4A5362360178EE15"
 			shape: "diamond"
-			tasks: [{
-				id: "7BAEF6B6A1FC8F14"
-				item: "redstone_arsenal:flux_crossbow"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BAEF6B6A1FC8F14"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_crossbow"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -8.75d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a蓄水器&f&r能够被动生成&9水&r,为各种机器提供可靠的水源."
+				"&b&a蓄水器&f&r 能够被动生成&9水&r,为各种机器提供可靠的水源."
 				""
 				"使用方法:"
-				"1. 将蓄水器放置在水源附近或用水方块环绕它."
-				"2. 它会被动生成&9水&r,可通过管道输送到其他机器."
+				"1. 将蓄水器放置在水源附近或用水方块包围它."
+				"2. 它将被动生成&9水&r,这些水可以通过管道输送到其他机器."
 				""
 				""
 				"&7[The Aqueous Accumulator passively generates water, making it a reliable water source for various machines.]&f"
@@ -614,23 +722,25 @@
 			hide_dependency_lines: true
 			id: "15B3042522BF324E"
 			shape: "diamond"
-			tasks: [{
-				id: "43A6E9C1AE38D2EC"
-				item: "thermal:device_water_gen"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43A6E9C1AE38D2EC"
+					item: "thermal:device_water_gen"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a经验液化器&f&r是一种专用机器,可将&3经验值&r转化为&a经验瓶&r或其他宝贵资源."
+				"&b&a经验液化器&f&r 是一种专用机器,可将&3经验值&r转化为&a经验瓶&r或其他宝贵资源."
 				""
 				"使用方法:"
 				"1. 将&3经验球&r放入输入槽."
-				"2. 机器处理经验球,在输出槽产出&a经验瓶&r或配置好的物品."
-				"此机器非常适合将多余经验转化为可用或可存储的形式."
+				"2. 机器会处理这些经验球,并在输出槽中产出&a经验瓶&r或配置好的物品."
+				"这台机器非常适合将多余的经验转化为可用或可存储的形式."
 				""
 				""
 				"&7[The Insightful Condenser is a specialized machine that converts experience points into experience bottles or other valuable resources.]&f"
@@ -643,24 +753,26 @@
 			hide_dependency_lines: true
 			id: "2C14516AEA3974C4"
 			shape: "diamond"
-			tasks: [{
-				id: "780C5082B3DD8D2E"
-				item: "thermal:device_xp_condenser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "780C5082B3DD8D2E"
+					item: "thermal:device_xp_condenser"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a造石机&f&r是一种生产&e圆石&r、&9石头&r或&a熔岩类方块&r的机器,且不消耗熔岩或水源."
+				"&b&a造石机&f&r 是一种生产&e圆石&r、&9石头&r或&a熔岩类方块&r的机器,且不消耗熔岩或水源."
 				""
 				"使用方法:"
 				"1. 按下&n&b“U“&r查看配方."
-				"2. 在两侧分别配置&c熔岩&r和&b水&r,或&d冰&r和&c熔岩&r."
-				"3. 若需要第三方块,将其置于&n挤出器下方&r."
-				"该机器可持续生成指定方块,非常适合自动化生产&3石头&r或&c圆石&r等..."
+				"2. 在造石机两侧分别配置&c熔岩&r和&b水&r,或&d冰&r和&c熔岩&r."
+				"3. 若需要第三个方块,将其放置在&n挤出器下方&r."
+				"该机器将持续生成指定的方块,非常适合自动生产&3石头&r或&c圆石&r等."
 				""
 				""
 				"&7[The Igneous Extruder is a machine that produces cobblestone, stone, or lava-based blocks without consuming lava or water sources.]&f"
@@ -674,22 +786,24 @@
 			hide_dependency_lines: true
 			id: "2348474B92A9A0A6"
 			shape: "diamond"
-			tasks: [{
-				id: "6540D49BA0BF1892"
-				item: "thermal:device_rock_gen"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6540D49BA0BF1892"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 3.25d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a蜂箱漏斗&f&r是一种从蜂箱收集蜂蜜及其他产品的装置."
+				"&b&a蜂箱漏斗&f&r 是一种从蜂箱收集蜂蜜及其他产品的装置."
 				""
 				"使用方法:"
 				"1. 将漏斗放置在蜂箱或蜂巢下方."
-				"2. 它会自动收集&b蜂蜜&r和&d蜂巢&r,稳定供应蜜蜂产品."
+				"2. 它将自动收集&b蜂蜜&r和&d蜂巢&r,提供稳定的蜂产品供应."
 				""
 				""
 				"&7[The Hive Hopper is a device that collects honey and other products from beehives.]&f"
@@ -701,22 +815,24 @@
 			hide_dependency_lines: true
 			id: "55FF77F5B5417E5C"
 			shape: "diamond"
-			tasks: [{
-				id: "1CA02DA77E3406C8"
-				item: "thermal:device_hive_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1CA02DA77E3406C8"
+					item: "thermal:device_hive_extractor"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b物品收集器&r是一种自动收集附近掉落物的装置."
+				"&b真空收集器&r 是一种自动收集附近物品的装置."
 				""
 				"使用方法:"
-				"1. 将收集器放置在物品频繁掉落的区域."
-				"2. 它会吸入附近物品并存入自身库存,非常适合用于怪物农场或自动化采矿系统."
+				"1. 将真空收集器放置在物品频繁掉落区域."
+				"2. 它会吸入附近物品并存入自身库存,非常适合生物农场或自动化采矿设备."
 				""
 				""
 				"&7[The Vacuumulator is a device that automatically collects nearby items.]&f"
@@ -728,22 +844,24 @@
 			hide_dependency_lines: true
 			id: "660946E7F3014224"
 			shape: "diamond"
-			tasks: [{
-				id: "7398DD09F4D054FE"
-				item: "thermal:device_collector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7398DD09F4D054FE"
+					item: "thermal:device_collector"
+					type: "item"
+				}
+			]
 			x: -1.75d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b虚空销毁器&r是一种能瞬间销毁物品与流体的装置."
+				"&b虚空消除器&r 是一种能立即销毁物品和流体的装置."
 				""
 				"使用方法:"
 				"1. 将不需要的物品或流体放入输入槽."
-				"2. 销毁器会立即将其消除,避免杂乱并管理多余资源."
+				"2. 消除器会立即销毁它们,避免杂乱并管理多余资源."
 				""
 				""
 				"&7[The Nullifier is a device that destroys items and fluids instantly.]&f"
@@ -755,23 +873,25 @@
 			hide_dependency_lines: true
 			id: "372007909857EFDC"
 			shape: "diamond"
-			tasks: [{
-				id: "0DC809E1B2DB0B61"
-				item: "thermal:device_nullifier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DC809E1B2DB0B61"
+					item: "thermal:device_nullifier"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a植育土注能机&f&r可为&d土壤方块&r注入养分,显著提升&3作物&a生长速度&f&r."
+				"&b&a植育土注能机&f&r 能为&d土壤方块&r注入营养,显著提升&3作物&a生长速度&f&r."
 				""
 				"使用方法:"
 				"1. 将&a营养物&r或&d骨粉&r放入输入槽."
-				"2. 将土壤方块置于输出槽进行灌注."
-				"灌注后的土壤会加速其上作物的生长速度并提高产量."
+				"2. 将土壤方块放入输出槽进行灌注."
+				"灌注后的土壤将提升种植作物的生长速度和产量."
 				""
 				""
 				"&7[The Phyto-Soil Infuser enriches soil blocks with nutrients, significantly boosting crop growth rates.]&f"
@@ -784,22 +904,24 @@
 			hide_dependency_lines: true
 			id: "29FA1DC94BBA57E0"
 			shape: "diamond"
-			tasks: [{
-				id: "41A81872F417005C"
-				item: "thermal:device_soil_infuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41A81872F417005C"
+					item: "thermal:device_soil_infuser"
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b装饰扩散器&r是一种用于在区域内散布&e美学效果&r的设备,例如&a彩色粒子&r或&9环境音效&r."
+				"&b装饰扩散器&r是一种用于在区域内扩散&e美学效果&r的设备,例如&a彩色粒子&r或&9环境音效&r."
 				""
 				"使用方法:"
 				"1. 放入&d装饰物品&r(如用于粒子的染料、用于音效的唱片)."
-				"2. 在&e图形界面&r中配置效果的作用范围与强度."
+				"2. 在&e图形界面&r中配置效果的范围和强度."
 				"该机器能提升您基地的视觉与听觉吸引力."
 				""
 				""
@@ -813,11 +935,13 @@
 			hide_dependency_lines: true
 			id: "226F5CE61852CD69"
 			shape: "diamond"
-			tasks: [{
-				id: "1C41D072972420D8"
-				item: "thermal:device_potion_diffuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C41D072972420D8"
+					item: "thermal:device_potion_diffuser"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: 2.0d
 		}
@@ -827,8 +951,8 @@
 				"&b&a树汁提取器&f&r是一种从树木中提取树液和树脂的机器."
 				""
 				"使用方法:"
-				"1. 将提取器紧贴树木放置."
-				"2. 它将提取&a树液&r和&d树脂&r,这些产物可用于多种合成配方加工程序."
+				"1. 将提取器放置在树木旁."
+				"2. 它会提取&a树液&r和&d树脂&r,这些可用于各种合成配方和加工过程."
 				""
 				""
 				"&7[The Arboreal Extractor is a machine that extracts sap and resin from trees.]&f"
@@ -840,22 +964,24 @@
 			hide_dependency_lines: true
 			id: "1B7F2826C17CA676"
 			shape: "diamond"
-			tasks: [{
-				id: "0E33083D8968459E"
-				item: "thermal:device_tree_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E33083D8968459E"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a水产捕捞器&f&r是一种自动捕获鱼类及其他水生物品的机器."
+				"&b&a水产捕捞器&f&r是一种自动捕获鱼类和其他水生物品的机器."
 				""
 				"使用方法:"
-				"1. 将捕捞器放置于水源中."
-				"2. 它会被动捕获&a鱼类&r和&d其他水生物品&r,为海洋资源提供稳定供应."
+				"1. 将捕捞器放置在水源中."
+				"2. 它会被动捕获&a鱼类&r和&d其他水生物品&r,提供稳定的海洋资源供应."
 				""
 				""
 				"&7[The Aquatic Entangler is a machine that automatically catches fish and other aquatic items.]&f"
@@ -867,23 +993,25 @@
 			hide_dependency_lines: true
 			id: "25E2DF12B85FEAB6"
 			shape: "diamond"
-			tasks: [{
-				id: "659C24AB75FE1A1E"
-				item: "thermal:device_fisher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "659C24AB75FE1A1E"
+					item: "thermal:device_fisher"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b批量堆肥机&r可高效大量地将有机物品转化为&3堆肥&r."
+				"&b批量堆肥机&r能高效大量地将有机物品加工成&3堆肥&r."
 				""
 				"使用方法:"
 				"1. 将有机物品(如树苗、树叶、作物)放入输入槽."
-				"2. 机器将这些物品转化为&a堆肥&r,适用于&d作物施肥&r."
-				"这款设备非常适合需要稳定堆肥供应的大规模农业运作."
+				"2. 机器将这些物品转化为&a堆肥&r,可用于&d作物施肥&r."
+				"这是需要稳定堆肥供应的大规模农业操作的理想选择."
 				""
 				""
 				"&7[The Batch Composter processes organic items into compost efficiently and in large quantities.]&f"
@@ -896,11 +1024,13 @@
 			hide_dependency_lines: true
 			id: "5F8131AF26228E9E"
 			shape: "diamond"
-			tasks: [{
-				id: "337CF068B6E2A6FB"
-				item: "thermal:device_composter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "337CF068B6E2A6FB"
+					item: "thermal:device_composter"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 3.75d
 		}
@@ -909,11 +1039,13 @@
 			id: "32C652222171FDB2"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "4C8A4DECCD02EB27"
-				item: "thermal:potion_duration_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C8A4DECCD02EB27"
+					item: "thermal:potion_duration_augment"
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: 3.75d
 		}
@@ -922,37 +1054,41 @@
 			id: "0202137975C372C3"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "2AF8F7224DDBBF3B"
-				item: "thermal:potion_amplifier_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AF8F7224DDBBF3B"
+					item: "thermal:potion_amplifier_augment"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a工匠工作台&f&r是一种多功能&e合成站&r,可与您的&a机器&r及&d升级组件&r协同工作."
+				"&b&a工匠工作台&f&r是一个多功能的&e合成站&r,可与您的&a机器&r和&d升级组件&r集成."
 				""
 				""
 				"&7[The Tinker's Workbench is a versatile crafting station that integrates with your machines and upgrades.]&f"
 			]
 			id: "7F5135913AE7E8DE"
-			tasks: [{
-				id: "3A4D4F1F62B4EA23"
-				item: "thermal:tinker_bench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A4D4F1F62B4EA23"
+					item: "thermal:tinker_bench"
+					type: "item"
+				}
+			]
 			x: -1.25d
 			y: -1.25d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b强化集成元件&r是一种通过提升&9处理速度&r和&a能源效率&r来增强&e机器&r性能的升级组件."
+				"&b硬化集成组件&r是一种升级部件,通过提高&9处理速度&r和&a能量效率&r来增强&e机器&r的性能."
 				""
-				"每台机器仅能安装&c一个&b集成元件&r,且机器始终使用已安装的&e最高等级元件&r."
+				"每台机器只能安装&c一个&b集成组件&r,且机器始终使用已安装的&e最高等级组件&r."
 				""
 				""
 				"&7[The Hardened Integral Component is an upgrade that enhances the performance of machines by increasing their processing speed and energy efficiency.]&f"
@@ -961,11 +1097,13 @@
 			]
 			id: "16580247FF7D0BC7"
 			subtitle: "&e速度系数:&2倍&7[Speed Factor: 2x]&f"
-			tasks: [{
-				id: "316B7519E98DFB94"
-				item: "thermal:upgrade_augment_1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "316B7519E98DFB94"
+					item: "thermal:upgrade_augment_1"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -1.25d
 		}
@@ -973,11 +1111,13 @@
 			dependencies: ["16580247FF7D0BC7"]
 			id: "088C95CF780C67DB"
 			subtitle: "&e速度系数:&23倍&7[Speed Factor: 3x]&f"
-			tasks: [{
-				id: "0C13B3F085ADF49C"
-				item: "thermal:upgrade_augment_2"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0C13B3F085ADF49C"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -1.25d
 		}
@@ -985,11 +1125,13 @@
 			dependencies: ["088C95CF780C67DB"]
 			id: "396EBF3B334964C5"
 			subtitle: "&e速度系数:&24倍&7[Speed Factor: 4x]&f"
-			tasks: [{
-				id: "61DA43184A40B6ED"
-				item: "thermal:upgrade_augment_3"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61DA43184A40B6ED"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -1.25d
 		}
@@ -997,11 +1139,13 @@
 			dependencies: ["396EBF3B334964C5"]
 			id: "3D2612ECDF126B21"
 			subtitle: "&e速度系数:&26倍&7[Speed Factor: 6x]&f"
-			tasks: [{
-				id: "1270B3CD57D0D4B4"
-				item: "thermalendergy:endergy_upgrade_1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1270B3CD57D0D4B4"
+					item: "thermalendergy:endergy_upgrade_1"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -1.25d
 		}
@@ -1009,11 +1153,13 @@
 			dependencies: ["3D2612ECDF126B21"]
 			id: "26958310127717ED"
 			subtitle: "&e速度系数:&28.5倍&7[Speed Factor: 8.5x]&f"
-			tasks: [{
-				id: "4554E8A443DCFF74"
-				item: "thermalendergy:endergy_upgrade_2"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4554E8A443DCFF74"
+					item: "thermalendergy:endergy_upgrade_2"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -1.25d
 		}
@@ -1021,11 +1167,13 @@
 			dependencies: ["26958310127717ED"]
 			id: "6396CEDF1270A183"
 			subtitle: "&e速度系数:&212倍&7[Speed Factor: 12x]&f"
-			tasks: [{
-				id: "5B46F817FAF11F15"
-				item: "thermalendergy:endergy_upgrade_3"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B46F817FAF11F15"
+					item: "thermalendergy:endergy_upgrade_3"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -1.25d
 		}
@@ -1034,41 +1182,43 @@
 			hide_dependency_lines: true
 			id: "0D59D95E56F5453F"
 			shape: "diamond"
-			tasks: [{
-				id: "7C20069744B2D922"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"通量联动放大器\"}"
+			tasks: [
+				{
+					id: "7C20069744B2D922"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"通量联动放大器\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal:machine_speed_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal:machine_speed_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.75d
 			y: 1.0d
 		}
@@ -1077,45 +1227,47 @@
 			hide_dependency_lines: true
 			id: "2FE23945AE87BF8D"
 			shape: "diamond"
-			tasks: [{
-				id: "2764E908687C2408"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"扩展RF线圈\"}"
+			tasks: [
+				{
+					id: "2764E908687C2408"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"扩展RF线圈\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_5"
+								}
+								{
+									Count: 1b
+									id: "thermal:rf_coil_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_5"
-							}
-							{
-								Count: 1b
-								id: "thermal:rf_coil_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.25d
 			y: 1.5d
 		}
@@ -1124,49 +1276,51 @@
 			hide_dependency_lines: true
 			id: "653A3356B2554A73"
 			shape: "diamond"
-			tasks: [{
-				id: "3732E2BEE57CDB9D"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"扩展储罐构造\"}"
+			tasks: [
+				{
+					id: "3732E2BEE57CDB9D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"扩展储罐构造\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal:fluid_tank_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_5"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_6"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal:fluid_tank_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_5"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_6"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.75d
 			y: 2.0d
 		}
@@ -1175,45 +1329,47 @@
 			hide_dependency_lines: true
 			id: "3C9163EFE4AF9F76"
 			shape: "diamond"
-			tasks: [{
-				id: "1E917229BBE66978"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"稳定RF线圈\"}"
+			tasks: [
+				{
+					id: "1E917229BBE66978"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"稳定RF线圈\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_5"
+								}
+								{
+									Count: 1b
+									id: "thermal:rf_coil_storage_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_5"
-							}
-							{
-								Count: 1b
-								id: "thermal:rf_coil_storage_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.25d
 			y: 2.5d
 		}
@@ -1222,45 +1378,47 @@
 			hide_dependency_lines: true
 			id: "1DD1F0F90E2EC1E7"
 			shape: "diamond"
-			tasks: [{
-				id: "4ADEDD2083D59646"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"高通量RF线圈\"}"
+			tasks: [
+				{
+					id: "4ADEDD2083D59646"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"高通量RF线圈\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_5"
+								}
+								{
+									Count: 1b
+									id: "thermal:rf_coil_xfer_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_5"
-							}
-							{
-								Count: 1b
-								id: "thermal:rf_coil_xfer_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.75d
 			y: 1.0d
 		}
@@ -1269,41 +1427,43 @@
 			hide_dependency_lines: true
 			id: "17C4BFE9270D962D"
 			shape: "diamond"
-			tasks: [{
-				id: "1324B31B421EED41"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"通量效率\"}"
+			tasks: [
+				{
+					id: "1324B31B421EED41"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"通量效率\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal:machine_efficiency_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal:machine_efficiency_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.25d
 			y: 0.5d
 		}
@@ -1312,37 +1472,39 @@
 			hide_dependency_lines: true
 			id: "7010C0FFAE3285EA"
 			shape: "diamond"
-			tasks: [{
-				id: "77A1FF10F8F0779A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"辅助处理筛\"}"
+			tasks: [
+				{
+					id: "77A1FF10F8F0779A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"辅助处理筛\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:machine_output_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_output_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_output_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal:machine_output_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:machine_output_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_output_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_output_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal:machine_output_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.25d
 			y: 1.5d
 		}
@@ -1351,37 +1513,39 @@
 			hide_dependency_lines: true
 			id: "75C5D662F28F0649"
 			shape: "diamond"
-			tasks: [{
-				id: "21E5FBCDF8131257"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"催化回收室\"}"
+			tasks: [
+				{
+					id: "21E5FBCDF8131257"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"催化回收室\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:machine_catalyst_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_catalyst_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_catalyst_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal:machine_catalyst_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:machine_catalyst_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_catalyst_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_catalyst_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal:machine_catalyst_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.25d
 			y: 1.5d
 		}
@@ -1390,11 +1554,13 @@
 			hide_dependency_lines: true
 			id: "7ADBCFDF60EA3D93"
 			shape: "diamond"
-			tasks: [{
-				id: "1031E772DD9D8283"
-				item: "thermal:xp_storage_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1031E772DD9D8283"
+					item: "thermal:xp_storage_augment"
+					type: "item"
+				}
+			]
 			x: 6.75d
 			y: 2.0d
 		}
@@ -1403,41 +1569,43 @@
 			hide_dependency_lines: true
 			id: "7C2EEA5CCC341364"
 			shape: "diamond"
-			tasks: [{
-				id: "7486AB985EB1F783"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"径向增强\"}"
+			tasks: [
+				{
+					id: "7486AB985EB1F783"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"径向增强\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal:area_radius_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal:area_radius_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.75d
 			y: 2.0d
 		}
@@ -1446,11 +1614,13 @@
 			hide_dependency_lines: true
 			id: "45262C5170DB0C40"
 			shape: "diamond"
-			tasks: [{
-				id: "126DCCAB051253C7"
-				item: "thermal:item_filter_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "126DCCAB051253C7"
+					item: "thermal:item_filter_augment"
+					type: "item"
+				}
+			]
 			x: 5.25d
 			y: 3.5d
 		}
@@ -1459,11 +1629,13 @@
 			hide_dependency_lines: true
 			id: "41AEEFFADF29AB9E"
 			shape: "diamond"
-			tasks: [{
-				id: "144B443EA8467F8F"
-				item: "thermal:machine_null_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "144B443EA8467F8F"
+					item: "thermal:machine_null_augment"
+					type: "item"
+				}
+			]
 			x: 3.75d
 			y: 2.0d
 		}
@@ -1472,41 +1644,43 @@
 			hide_dependency_lines: true
 			id: "4EC9489A2FF07269"
 			shape: "diamond"
-			tasks: [{
-				id: "7B034E3489038580"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"多循环注入器\"}"
+			tasks: [
+				{
+					id: "7B034E3489038580"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"多循环注入器\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal:dynamo_fuel_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal:dynamo_fuel_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.25d
 			y: 2.5d
 		}
@@ -1515,41 +1689,43 @@
 			hide_dependency_lines: true
 			id: "678C129B438497FB"
 			shape: "diamond"
-			tasks: [{
-				id: "516F75F9433371CF"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						display: {
-							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"辅助 &a反应仓&f\"}"
+			tasks: [
+				{
+					id: "516F75F9433371CF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"辅助 &a反应仓&f\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal:dynamo_output_augment"
+								}
+							]
 						}
-						items: [
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal:dynamo_output_augment"
-							}
-						]
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.25d
 			y: 2.5d
 		}
@@ -1558,11 +1734,13 @@
 			hide_dependency_lines: true
 			id: "46C6AA67C6851A3C"
 			shape: "diamond"
-			tasks: [{
-				id: "5166B04859A89B5F"
-				item: "thermal_extra:dynamo_frost"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5166B04859A89B5F"
+					item: "thermal_extra:dynamo_frost"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 1.5d
 		}
@@ -1571,11 +1749,13 @@
 			hide_dependency_lines: true
 			id: "44AACAF4A8F66BBE"
 			shape: "diamond"
-			tasks: [{
-				id: "69DE8CE7AF18384A"
-				item: "thermal:dynamo_stirling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69DE8CE7AF18384A"
+					item: "thermal:dynamo_stirling"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 1.0d
 		}
@@ -1584,11 +1764,13 @@
 			hide_dependency_lines: true
 			id: "3B29C2015853964D"
 			shape: "diamond"
-			tasks: [{
-				id: "631E26732B4BBFC0"
-				item: "thermal:dynamo_compression"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "631E26732B4BBFC0"
+					item: "thermal:dynamo_compression"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 1.0d
 		}
@@ -1597,11 +1779,13 @@
 			hide_dependency_lines: true
 			id: "03F4C6C147AF6C01"
 			shape: "diamond"
-			tasks: [{
-				id: "47D33D1AE376F25A"
-				item: "thermal:dynamo_magmatic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "47D33D1AE376F25A"
+					item: "thermal:dynamo_magmatic"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 0.5d
 		}
@@ -1610,11 +1794,13 @@
 			hide_dependency_lines: true
 			id: "7F6B64876BDC5FAB"
 			shape: "diamond"
-			tasks: [{
-				id: "69465228628CDA58"
-				item: "thermal:dynamo_lapidary"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69465228628CDA58"
+					item: "thermal:dynamo_lapidary"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 2.0d
 		}
@@ -1623,11 +1809,13 @@
 			hide_dependency_lines: true
 			id: "63CC352DB220E864"
 			shape: "diamond"
-			tasks: [{
-				id: "54D5E09F8810E7FE"
-				item: "thermal:dynamo_disenchantment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "54D5E09F8810E7FE"
+					item: "thermal:dynamo_disenchantment"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 2.0d
 		}
@@ -1636,11 +1824,13 @@
 			hide_dependency_lines: true
 			id: "7BE9D3F717F8901C"
 			shape: "diamond"
-			tasks: [{
-				id: "69033534F80034AF"
-				item: "thermal:dynamo_gourmand"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69033534F80034AF"
+					item: "thermal:dynamo_gourmand"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 3.5d
 		}
@@ -1649,31 +1839,33 @@
 			hide_dependency_lines: true
 			id: "62EDE020D7E2790F"
 			shape: "diamond"
-			tasks: [{
-				id: "5151B77B3C936738"
-				item: {
-					Count: 1
-					id: "thermal:energy_cell"
-					tag: {
-						BlockEntityTag: {
-							Energy: 0
-							EnergyMax: 1000000
-							EnergyRecv: 1000
-							EnergySend: 1000
+			tasks: [
+				{
+					id: "5151B77B3C936738"
+					item: {
+						Count: 1
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 9.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b便携储罐&r是一种可储存大量流体的移动式容器."
+				"&b储液罐&r是一种可储存大量流体的便携式容器."
 				""
-				"它能承载并运输液体,为不同场景的流体资源管理提供移动解决方案."
+				"它能容纳并运输液体,为在不同地点管理流体资源提供移动解决方案."
 				""
 				""
 				"&7[The Reservoir is a portable tank that stores large amounts of fluid.]&f"
@@ -1682,20 +1874,26 @@
 			]
 			id: "5EE344430AC966D5"
 			shape: "diamond"
-			tasks: [{
-				id: "6E6C48D9319B27B8"
-				item: "thermal:fluid_reservoir"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6E6C48D9319B27B8"
+					item: {
+						Count: 1
+						id: "thermal:fluid_reservoir"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5EE344430AC966D5"]
 			description: [
-				"&b&a药水注射器&f&r通过混合药水来创造更强力或更复杂的效果."
+				"&b&a药水注射器&f&r可将药水组合以创造更强力或更复杂的效果."
 				""
-				"它支持自定义药水属性,增强药效并将不同效果融合至单一药剂中."
+				"它允许自定义药水属性,增强药水效力,并将不同效果融合到单一药剂中."
 				""
 				""
 				"&7[The Potion Infuser combines potions to create more powerful or complex effects.]&f"
@@ -1704,20 +1902,26 @@
 			]
 			id: "66121DADB5A49139"
 			shape: "diamond"
-			tasks: [{
-				id: "72B35FB57E9DC95A"
-				item: "thermal:potion_infuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72B35FB57E9DC95A"
+					item: {
+						Count: 1
+						id: "thermal:potion_infuser"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5EE344430AC966D5"]
 			description: [
-				"&b&a药水箭袋&f&r可存储并自动供应具有特殊属性的箭矢."
+				"&b&a药水箭袋&f&r可储存并自动供应具有特殊属性的箭矢."
 				""
-				"它能容纳多种箭矢类型并施加炼金强化效果,是使用各类箭矢作战的弓箭手们的多功能工具."
+				"它能容纳不同类型的箭矢并对其施加炼金强化,是战斗中需要使用多种箭矢的弓箭手的多功能工具."
 				""
 				""
 				"&7[The Alchemical Quiver stores and automatically supplies arrows with special properties.]&f"
@@ -1726,20 +1930,26 @@
 			]
 			id: "6FEA022AAA5D9C9D"
 			shape: "diamond"
-			tasks: [{
-				id: "0EDDE0CE1453B96D"
-				item: "thermal:potion_quiver"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0EDDE0CE1453B96D"
+					item: {
+						Count: 1
+						id: "thermal:potion_quiver"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5EE344430AC966D5"]
 			description: [
-				"&b&a流体单元&f&r是一种流体存储装置,专为在网络内保存和运输液体而设计."
+				"&b&a流体单元&f&r是一种流体存储设备,用于在网络内保存和运输液体."
 				""
-				"它可与其他机器及管道协同工作,为大量流体资源管理提供可扩展的解决方案."
+				"它可与其他机器和管道集成,为管理大量流体资源提供可扩展的解决方案."
 				""
 				""
 				"&7[The Fluid Cell is a storage device for fluids, designed to hold and transport liquids within a network.]&f"
@@ -1748,33 +1958,37 @@
 			]
 			id: "282F23B464C67899"
 			shape: "diamond"
-			tasks: [{
-				id: "67FCAAFB09C81E4A"
-				item: {
-					Count: 1
-					id: "thermal:fluid_cell"
-					tag: {
-						BlockEntityTag: {
-							TankInv: [{
-								Amount: 0
-								Capacity: 32000
-								FluidName: "minecraft:empty"
-								Tank: 0b
-							}]
+			tasks: [
+				{
+					id: "67FCAAFB09C81E4A"
+					item: {
+						Count: 1
+						id: "thermal:fluid_cell"
+						tag: {
+							BlockEntityTag: {
+								TankInv: [
+									{
+										Amount: 0
+										Capacity: 32000
+										FluidName: "minecraft:empty"
+										Tank: 0b
+									}
+								]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2CEA5EEE6FD8B7D2"]
 			description: [
-				"&b&a能量灌注机&f&r是一种使用&9RF能源&r为物品&3充能&r以恢复其能量水平的机器."
+				"&b&a能量灌注机&f&r是一种使用&9RF能量&r为物品&3充电&r以恢复其能量水平的机器."
 				""
-				"对于维持您&a装备&r与&d工具&r的&c功能性&r至关重要."
+				"对于维持您的&a装备&r和&d工具&r的&c功能性&r至关重要."
 				""
 				""
 				"&7[The Energetic Infuser is a machine that recharges items using RF energy, restoring their power levels. ]&f"
@@ -1782,31 +1996,39 @@
 				"&7[It's crucial for maintaining the functionality of your equipment and tools.]&f"
 			]
 			id: "0CA9429D2B4425A0"
-			tasks: [{
-				id: "7E6A67F74A1C062D"
-				item: "thermal:charge_bench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E6A67F74A1C062D"
+					item: "thermal:charge_bench"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["0CA9429D2B4425A0"]
 			id: "5BD6E692981BA87F"
-			tasks: [{
-				id: "46BBE210214FD82A"
-				item: "thermal:flux_capacitor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46BBE210214FD82A"
+					item: {
+						Count: 1
+						id: "thermal:flux_capacitor"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 1.75d
 		}
 		{
 			dependencies: ["5BD6E692981BA87F"]
 			description: [
-				"&b通量锯&r是一种能量驱动的锯子,能轻松切割木材及其他材料."
+				"&b通量锯&r是一把能量驱动的锯子,能轻松切割木材和其他材料."
 				""
-				"它非常适合伐木和建筑作业,与手动工具相比具有&a更高&f的速度和效率."
+				"它非常适合伐木和建筑任务,与手动工具相比具有高速和高效的&a优势&f."
 				""
 				""
 				"&7[The Fluxsaw is an energy-powered saw that cuts through wood and other materials with ease.]&f"
@@ -1815,11 +2037,17 @@
 			]
 			id: "7A91B627B60BEF78"
 			shape: "diamond"
-			tasks: [{
-				id: "0082323206CB6F1D"
-				item: "thermal:flux_saw"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0082323206CB6F1D"
+					item: {
+						Count: 1
+						id: "thermal:flux_saw"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 2.75d
 		}
@@ -1828,7 +2056,7 @@
 			description: [
 				"&b通量磁铁&r是一种利用磁能吸引附近物品的装置."
 				""
-				"它能快速高效地收集散落的资源,减少手动收集所需的时间."
+				"它能快速高效地收集散落的资源,减少手动收集所花费的时间."
 				""
 				""
 				"&7[The Fluxomagnet is a device that attracts nearby items using magnetic energy.]&f"
@@ -1837,18 +2065,24 @@
 			]
 			id: "66656FC3BF5D2298"
 			shape: "diamond"
-			tasks: [{
-				id: "6DF0D5BCD3C8A214"
-				item: "thermal:flux_magnet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6DF0D5BCD3C8A214"
+					item: {
+						Count: 1
+						id: "thermal:flux_magnet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 3.25d
 		}
 		{
 			dependencies: ["5BD6E692981BA87F"]
 			description: [
-				"&b通量钻头&r是一种高性能钻具,能快速高效地挖掘方块."
+				"&b通量钻&r是一种高功率钻头,能快速高效地挖掘方块."
 				""
 				"它利用储存的能量突破坚硬材料,是&9采矿作业&r和&3资源收集&r的绝佳工具."
 				""
@@ -1859,11 +2093,17 @@
 			]
 			id: "070B6729296B4263"
 			shape: "diamond"
-			tasks: [{
-				id: "2AE93396CBC1585C"
-				item: "thermal:flux_drill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AE93396CBC1585C"
+					item: {
+						Count: 1
+						id: "thermal:flux_drill"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.75d
 		}
@@ -1871,11 +2111,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "2D4364122C9F8358"
 			shape: "diamond"
-			tasks: [{
-				id: "34D9BBD023DEE9EE"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34D9BBD023DEE9EE"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
 			x: -6.75d
 			y: 1.5d
 		}
@@ -1883,11 +2125,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "52B63181B23CC963"
 			shape: "diamond"
-			tasks: [{
-				id: "7CF2D9E440F2F6BB"
-				item: "thermal:fire_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7CF2D9E440F2F6BB"
+					item: "thermal:fire_tnt"
+					type: "item"
+				}
+			]
 			x: -5.75d
 			y: 2.5d
 		}
@@ -1895,11 +2139,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "74E965E3A0C5E98B"
 			shape: "diamond"
-			tasks: [{
-				id: "7C39D800DC81E513"
-				item: "thermal:ice_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C39D800DC81E513"
+					item: "thermal:ice_tnt"
+					type: "item"
+				}
+			]
 			x: -6.25d
 			y: 2.0d
 		}
@@ -1907,11 +2153,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "66D4EF2FC5D5501B"
 			shape: "diamond"
-			tasks: [{
-				id: "3C663E12BB643104"
-				item: "thermal:lightning_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C663E12BB643104"
+					item: "thermal:lightning_tnt"
+					type: "item"
+				}
+			]
 			x: -7.25d
 			y: 2.0d
 		}
@@ -1919,11 +2167,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "2700FF2958340494"
 			shape: "diamond"
-			tasks: [{
-				id: "06A44F825923B3BD"
-				item: "thermal:earth_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06A44F825923B3BD"
+					item: "thermal:earth_tnt"
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: 2.5d
 		}
@@ -1931,22 +2181,26 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "3DA202B0255846D2"
 			shape: "diamond"
-			tasks: [{
-				id: "097A67CBB4C9F693"
-				item: "thermal:ender_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "097A67CBB4C9F693"
+					item: "thermal:ender_tnt"
+					type: "item"
+				}
+			]
 			x: -7.25d
 			y: 3.0d
 		}
 		{
 			id: "4319D60A451159FB"
 			shape: "diamond"
-			tasks: [{
-				id: "70036866E1D3E423"
-				item: "thermal:glowstone_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70036866E1D3E423"
+					item: "thermal:glowstone_tnt"
+					type: "item"
+				}
+			]
 			x: -6.75d
 			y: 3.5d
 		}
@@ -1954,11 +2208,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "20235A5D62540A2F"
 			shape: "diamond"
-			tasks: [{
-				id: "0724668524D3D0A4"
-				item: "thermal:redstone_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0724668524D3D0A4"
+					item: "thermal:redstone_tnt"
+					type: "item"
+				}
+			]
 			x: -6.25d
 			y: 3.0d
 		}
@@ -1966,11 +2222,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "733AD32F6285595B"
 			shape: "diamond"
-			tasks: [{
-				id: "4561EA50D9C195BB"
-				item: "thermal:slime_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4561EA50D9C195BB"
+					item: "thermal:slime_tnt"
+					type: "item"
+				}
+			]
 			x: -7.25d
 			y: 4.0d
 		}
@@ -1978,11 +2236,13 @@
 			dependencies: ["3E5DC41B05B7F732"]
 			id: "2BE2F10099AAB49E"
 			shape: "diamond"
-			tasks: [{
-				id: "0E2BFEFFC6DAC1CB"
-				item: "thermal:nuke_tnt"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E2BFEFFC6DAC1CB"
+					item: "thermal:nuke_tnt"
+					type: "item"
+				}
+			]
 			x: -6.25d
 			y: 4.0d
 		}
@@ -1991,11 +2251,17 @@
 			hide_dependent_lines: true
 			id: "3E5DC41B05B7F732"
 			shape: "diamond"
-			tasks: [{
-				id: "1D52E2C458E416F6"
-				item: "thermal:detonator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D52E2C458E416F6"
+					item: {
+						Count: 1
+						id: "thermal:detonator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -6.75d
 			y: 2.5d
 		}

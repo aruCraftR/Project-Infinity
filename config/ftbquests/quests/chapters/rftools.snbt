@@ -6,26 +6,28 @@
 	group: "5255C8D5C49409ED"
 	icon: "rftoolsbuilder:builder"
 	id: "39B827D6A1170163"
-	images: [{
-		height: 2.5d
-		image: "refinedstorage:block/network_transmitter/cutouts/pink"
-		rotation: 45.0d
-		width: 2.5d
-		x: -7.25d
-		y: 2.25d
-	}]
+	images: [
+		{
+			height: 2.5d
+			image: "refinedstorage:block/network_transmitter/cutouts/pink"
+			rotation: 45.0d
+			width: 2.5d
+			x: -7.25d
+			y: 2.25d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&b&dRF工具箱&f&r是一个全面的&e科技类模组&r,旨在为玩家提供多种&a技术性工具&r和&d高级机器&r.这些工具可实现高效的&3资源管理&r、&9自动化&r和&e跨维度运输&r."
+				"&b&dRF工具箱&f&r是一个综合性&e科技模组&r,旨在为玩家提供多种&a技术工具&r和&d高级机器&r.这些工具可实现高效的&3资源管理&r、&9自动化&r和&e跨维度运输&r."
 				""
-				"&dRF工具箱&f包含&n&b强力机械&r和&e自动化工具&r,可用于管理能量、资源和维度.&a强化功能&f包括诸如&a建造者&r、&e&a存储探测器&f&r和&e&a维度构建器&f&r等设备,每件都能提供独特功能来增强游戏体验."
+				"&dRF工具箱&f包含&n&b强力机械&r和&e自动化工具&r,可用于管理能源、资源和维度.&a强化功能&f包括诸如&a建造者&r、&e&a存储监视器&f&r和&e&a维度构建器&f&r等设备,每种都能提供独特功能来增强游戏体验."
 				""
-				"&bXNet&r是一个先进的&e网络模组&r,通过提供&9灵活&r且&c可扩展&r的解决方案来补充&dRF工具箱&f,用于管理基地中的物品、流体和能量传输.XNet允许玩家使用&n&b管道&r、&n&b线缆&r和&n&b连接器&r创建&d复杂网络&r,在机器与存储系统之间高效输送资源."
+				"&bXNet&r是一个高级&e网络模组&r,通过提供&9灵活&r且&c可扩展&r的解决方案来管理物品、流体和能源传输,完美补充&dRF工具箱&f.XNet允许玩家使用&n&b管道&r、&n&b线缆&r和&n&b连接器&r创建&d复杂网络&r,在机器和存储系统之间高效传输资源."
 				""
-				"借助XNet,你可以建立&n&b高度可配置&r的网络,实现&9资源分配&r、&e能量传输&r和&3机器交互&r的自动化,所有操作都通过直观的&d控制器界面&r进行管理.&dRF工具箱&f与XNet的结合使玩家能够构建既&e高效&r又&b强大&r的&d自动化系统&r,轻松管理最复杂的装置."
+				"借助XNet,您可以建立&n&b高度可配置&r的网络,自动化&9资源分配&r、&e能量传输&r和&3机器交互&r,所有操作都通过直观的&d控制器界面&r进行控制.&dRF工具箱&f与XNet的组合能让玩家构建既&e高效&r又&b强大&r的&d自动化系统&r,轻松管理最复杂的装置."
 				""
 				""
 				"&7[RFTools is a comprehensive technology mod designed to provide players with a variety of technical utilities and advanced machines. These tools allow for efficient resource management, automation, and interdimensional transport.]&f"
@@ -40,10 +42,12 @@
 			id: "5DAC6A9AFDDCAA33"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "60582166CF3DDACB"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "60582166CF3DDACB"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -51,24 +55,26 @@
 			dependencies: ["5DAC6A9AFDDCAA33"]
 			id: "0456F5B3B59A71ED"
 			shape: "diamond"
-			tasks: [{
-				id: "6C3B2515180A5AFC"
-				item: "rftoolsbase:machine_base"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6C3B2515180A5AFC"
+					item: "rftoolsbase:machine_base"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0456F5B3B59A71ED"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b屏幕&r是一种多功能显示设备,用于&a展示网络信息&f,例如能量等级、物品数量甚至自定义文本."
+				"&b屏幕&r是&5&dRF工具箱&f&r中的多功能显示设备,用于&a展示信息&f,例如能量等级、物品数量或自定义文本."
 				""
 				"使用&b屏幕&r的方法:"
 				"1. &n&b右键点击&r屏幕打开其&e图形界面&r"
-				"2. 插入&d模块&r(如&a&a能量模块&f&r、&b文本模块&r)以显示不同类型的信息"
-				"3. 在&e图形界面&r中配置每个模块来展示网络中所需的信息"
-				"4. 屏幕将实时显示配置好的数据,提供网络状态的全局概览."
+				"2.插入&d模块&r(如&a&a能量模块&f&r、&b文本模块&r)以显示不同类型的信息"
+				"3.在&e图形界面&r中配置每个模块来展示网络中所需的信息"
+				"4.屏幕将实时显示配置好的数据,提供网络状态的概览"
 				""
 				""
 				"&7[The Screen in RFTools is a versatile display device used to show information from your network, such as energy levels, item counts, or even custom text.]&f"
@@ -80,69 +86,79 @@
 				"&7[4. The screen will now display the configured data, providing a real-time overview of your network's status.]&f"
 			]
 			id: "24E50A3AF87B2283"
-			tasks: [{
-				id: "4284900636674F5B"
-				item: "rftoolsutility:screen"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4284900636674F5B"
+					item: "rftoolsutility:screen"
+					type: "item"
+				}
+			]
 			x: 6.6875d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5DAC6A9AFDDCAA33"]
 			id: "55A4460B3C563E36"
-			tasks: [{
-				id: "61AA0C5721CD8F40"
-				item: "rftoolscontrol:card_base"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61AA0C5721CD8F40"
+					item: "rftoolscontrol:card_base"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["55A4460B3C563E36"]
 			id: "4881BED108E3314C"
-			tasks: [{
-				id: "4E4B26CCDCBEA423"
-				item: "rftoolscontrol:cpu_core_500"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4E4B26CCDCBEA423"
+					item: "rftoolscontrol:cpu_core_500"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4881BED108E3314C"]
 			id: "39A47B0D68C91ADA"
-			tasks: [{
-				id: "74DCDF3DC734E87C"
-				item: "rftoolscontrol:cpu_core_1000"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "74DCDF3DC734E87C"
+					item: "rftoolscontrol:cpu_core_1000"
+					type: "item"
+				}
+			]
 			x: 3.25d
 			y: 2.5d
 		}
 		{
 			dependencies: ["39A47B0D68C91ADA"]
 			id: "1A2CF0AC961EF092"
-			tasks: [{
-				id: "4F79AB72F8894434"
-				item: "rftoolscontrol:cpu_core_2000"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F79AB72F8894434"
+					item: "rftoolscontrol:cpu_core_2000"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1A2CF0AC961EF092"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b处理器&r是高级自动化组件,可执行存储在&b&a程序卡&f&r上的指令,实现复杂的机器交互和工作流程."
+				"&b处理器&r是&5&dRF工具箱&f&r中的高级自动化组件,用于执行存储在&b&a程序卡&f&r上的指令,实现复杂的机器交互和工作流程."
 				""
 				"使用&b处理器&r的方法:"
-				"1. 合成并放置&b处理器&r"
-				"2. &n&b右键点击&r处理器打开其&e图形界面&r"
-				"3. 将载有指令的&b&a程序卡&f&r插入处理器"
-				"4. 使用&9能量线缆&r将处理器接入能源网络"
-				"5. &b处理器&r将执行&b&a程序卡&f&r上的指令,控制连接的机器设备完成复杂的&e自动化任务&r."
+				"1.合成并放置&b处理器&r"
+				"2.&n&b右键点击&r处理器打开其&e图形界面&r"
+				"3.将载有指令的&b&a程序卡&f&r插入处理器"
+				"4.用&9能量线缆&r将处理器接入能源网络"
+				"5.&b处理器&r将执行&b&a程序卡&f&r上的指令,控制连接的机器设备完成复杂的&e自动化任务&r"
 				""
 				""
 				"&7[The Processor in RFTools is a high-level automation component that executes instructions stored on Program Cards, enabling complex machine interactions and workflows.]&f"
@@ -155,92 +171,104 @@
 				"&7[5. The Processor will execute the instructions on the Program Card, controlling connected machines and devices to perform complex automation tasks.]&f"
 			]
 			id: "622FE2829A7106A2"
-			tasks: [{
-				id: "5A3AD758958B4E6A"
-				item: "rftoolscontrol:processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A3AD758958B4E6A"
+					item: "rftoolscontrol:processor"
+					type: "item"
+				}
+			]
 			x: 5.25d
 			y: 3.5d
 		}
 		{
 			dependencies: ["622FE2829A7106A2"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a网络标识&f&r是用于管理和区分不同网络的独特物品,确保&9自动化装置&r的条理性和高效性."
+				"&b&a网络标识&f&r是&5&dRF工具箱&f&r中的独特物品,用于管理和区分不同网络,确保&9自动化装置&r的有序高效运行."
 				""
 				""
 				"&7[The Network Identifier in RFTools is a unique item used to manage and distinguish between different networks, ensuring organized and efficient automation setups.]&f"
 			]
 			id: "6F2EC83ECE75E4D3"
-			tasks: [{
-				id: "725F3F38D4F6F9AD"
-				item: {
-					Count: 1
-					id: "rftoolscontrol:network_identifier"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "725F3F38D4F6F9AD"
+					item: {
+						Count: 1
+						id: "rftoolscontrol:network_identifier"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["55A4460B3C563E36"]
 			id: "5A76809C913B678D"
-			tasks: [{
-				id: "609AC5F53F84EFA8"
-				item: "rftoolscontrol:graphics_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "609AC5F53F84EFA8"
+					item: "rftoolscontrol:graphics_card"
+					type: "item"
+				}
+			]
 			x: -0.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["55A4460B3C563E36"]
 			id: "7315D3DD81722CB9"
-			tasks: [{
-				id: "6308A9CEE5C63BDA"
-				item: "rftoolscontrol:network_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6308A9CEE5C63BDA"
+					item: "rftoolscontrol:network_card"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["7315D3DD81722CB9"]
 			id: "715E8254013ADB07"
-			tasks: [{
-				id: "6305CC74B53D0B7F"
-				item: "rftoolscontrol:advanced_network_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6305CC74B53D0B7F"
+					item: "rftoolscontrol:advanced_network_card"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 4.75d
 		}
 		{
 			dependencies: ["55A4460B3C563E36"]
 			id: "7AEEC68AE29EB8E2"
-			tasks: [{
-				id: "778D593B1F1FF87B"
-				item: "rftoolscontrol:ram_chip"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "778D593B1F1FF87B"
+					item: "rftoolscontrol:ram_chip"
+					type: "item"
+				}
+			]
 			x: 0.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["7AEEC68AE29EB8E2"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b编程器&r是用于创建和编辑&d&a程序卡&f&r的设备,这些卡片对于编程高级机器和&9自动化装置&r至关重要."
+				"&5&dRF工具箱&f&r中的&b编程器&r是用于创建和编辑&d&a程序卡&f&r的设备,这些卡片对于编写高级机器和&9自动化装置&r的程序至关重要."
 				""
 				"使用&b编程器&r的方法:"
-				"1. 合成并将&b编程器&r放置在你的世界中"
-				"2. &n&b右键点击&r编程器打开其&e图形界面&r"
-				"3. 将&b&a程序卡&f&r放入编程器的卡槽中"
-				"4. 使用编程界面创建或编辑&b&a程序卡&f&r上的指令,设置复杂的&e自动化序列&r或机器行为"
-				"5. 编程完成后取出卡片,将其插入目标机器或设备以执行编程指令"
+				"1. 合成并放置&b编程器&r"
+				"2. &n&b右键点击&r打开其&e图形界面&r"
+				"3. 将&b&a程序卡&f&r插入编程器插槽"
+				"4. 通过编程界面创建或编辑&b&a程序卡&f&r上的指令,设置复杂的&e自动化序列&r或机器行为"
+				"5. 编程完成后取出卡片,插入目标机器即可执行编程指令"
 				""
 				""
 				"&7[The Programmer in RFTools is a device used to create and edit Program Cards, which are essential for programming advanced machines and automation setups.]&f"
@@ -253,11 +281,13 @@
 				"&7[5. Once programmed, remove the card and insert it into the appropriate machine or device to execute the programmed instructions.]&f"
 			]
 			id: "39622AE3E59A2DFD"
-			tasks: [{
-				id: "40CFE9533A42C123"
-				item: "rftoolscontrol:programmer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "40CFE9533A42C123"
+					item: "rftoolscontrol:programmer"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: 4.5d
 		}
@@ -267,9 +297,9 @@
 				"&5&dRF工具箱&f&r中的&b&a程序卡&f&r是用于存储和执行高级自动化任务编程指令的多功能物品."
 				""
 				"使用&b&a程序卡&f&r的方法:"
-				"1. 将&b&a程序卡&f&r插入&b编程器&r来创建或编辑指令"
-				"2. 编程完成后,将&b&a程序卡&f&r插入目标机器或设备(如&d处理器&r)以执行指定任务"
-				"3. &b&a程序卡&f&r可重复使用和重新编程,为各种&9自动化场景&r提供灵活性"
+				"1. 将卡片插入&b编程器&r创建或编辑指令"
+				"2. 编程完成后插入目标机器(如&d处理器&r)执行任务"
+				"3. 卡片可重复编程,适应各种&9自动化场景&r的需求"
 				""
 				""
 				"&7[The Program Card in RFTools is a versatile item used to store and execute programming instructions for advanced automation tasks.]&f"
@@ -280,11 +310,13 @@
 				"&7[3. The Program Card can be reused and reprogrammed as needed, providing flexibility for various automation scenarios.]&f"
 			]
 			id: "3888AF273A88AFB0"
-			tasks: [{
-				id: "2A53C868179DC6C3"
-				item: "rftoolscontrol:program_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A53C868179DC6C3"
+					item: "rftoolscontrol:program_card"
+					type: "item"
+				}
+			]
 			x: 3.75d
 			y: 4.5d
 		}
@@ -294,13 +326,13 @@
 				"22DE4BC6F49FA16D"
 			]
 			description: [
-				"&5&dRF工具箱&f&r中的&b合成站&r是专用工作台,可与相邻容器无缝集成,实现高效&a合成操作&r."
+				"&5&dRF工具箱&f&r中的&b合成站&r是可与相邻容器无缝衔接的专业工作站,能高效执行&a合成操作&r."
 				""
 				"使用&b合成站&r的方法:"
-				"1. 合成并将&b合成站&r放置在你的世界中"
-				"2. &n&b右键点击&r合成站打开其&e图形界面&r"
-				"3. &b合成站&r会自动检测并集成相邻的&e容器&r(如箱子、木桶),允许你直接使用这些容器中的材料"
-				"4. 使用&b合成站&r中的&a合成网格&r进行物品合成,就像使用普通工作台一样,但增加了从相邻容器获取材料的便利性"
+				"1. 合成并放置&b合成站&r"
+				"2. &n&b右键点击&r打开其&e图形界面&r"
+				"3. 自动检测相邻&e容器&r(如箱子、木桶)并整合其中材料"
+				"4. 像普通工作台一样使用合成网格,但可直接调用相邻容器中的材料"
 				""
 				""
 				"&7[The Crafting Station in RFTools is a specialized workstation that integrates seamlessly with adjacent inventories, allowing for efficient crafting operations.]&f"
@@ -312,22 +344,24 @@
 				"&7[4. Use the crafting grid in the Crafting Station to craft items as you would in a regular crafting table, but with the added convenience of pulling materials from adjacent inventories.]&f"
 			]
 			id: "674C5DE6DDF7D485"
-			tasks: [{
-				id: "125D38C64E05C7BA"
-				item: "rftoolscontrol:craftingstation"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "125D38C64E05C7BA"
+					item: "rftoolscontrol:craftingstation"
+					type: "item"
+				}
+			]
 			x: -1.75d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5DAC6A9AFDDCAA33"]
 			description: [
-				"&b智能扳手&r是&5&dRF工具箱&f&r中用于配置和操作各种&e机器&r与&d设备&r的多功能工具."
+				"&b智能扳手&r是&5&dRF工具箱&f&r中用于配置各类&e机器&r和&d设备&r的多功能工具."
 				""
-				"&b智能扳手&r允许玩家&a旋转&r、配置和&n&l连接&r&5&dRF工具箱&f&r的机器.使用时只需&n右键点击&r机器即可打开其配置&e图形界面&r或&a旋转&r至所需方向."
+				"可执行&a旋转&r、配置&r及&n&l连接&r操作.&n右键点击&r机器可打开配置&e界面&r或调整朝向,&nshift+右键点击&r可&4断开&r线缆连接."
 				""
-				"你也可以&n&b按住Shift右键点击&r来&4断开&r线缆或移除设备间的连接.这个工具对于轻松设置和管理你的&d&dRF工具箱&f&r装置至关重要."
+				"该工具能让你&a轻松&r搭建和管理&d&dRF工具箱&f&r装置"
 				""
 				""
 				"&7[The Smart Wrench is a versatile tool in RFTools used for configuring and interacting with various machines and devices.]&f"
@@ -337,22 +371,26 @@
 				"&7[You can also shift-right-click to disconnect cables or remove connections between devices. This tool is essential for setting up and managing your RFTools setups with ease.]&f"
 			]
 			id: "54FF196F91374747"
-			tasks: [{
-				id: "590B54F3AD78FA31"
-				item: "rftoolsbase:smartwrench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "590B54F3AD78FA31"
+					item: "rftoolsbase:smartwrench"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["54FF196F91374747"]
 			id: "22DE4BC6F49FA16D"
-			tasks: [{
-				id: "20F06E4F41CFDF2C"
-				item: "rftoolsbase:machine_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20F06E4F41CFDF2C"
+					item: "rftoolsbase:machine_frame"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 0.0d
 		}
@@ -361,11 +399,13 @@
 			id: "128F7AABC4244D68"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "20AB7ABDEA16A644"
-				item: "rftoolsutility:analog"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20AB7ABDEA16A644"
+					item: "rftoolsutility:analog"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -0.25d
 		}
@@ -374,11 +414,13 @@
 			id: "0CA52BC10BB5F4BE"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "367881D19D270795"
-				item: "rftoolsutility:counter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "367881D19D270795"
+					item: "rftoolsutility:counter"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.75d
 		}
@@ -387,11 +429,13 @@
 			id: "63B7AD70FCDBF63E"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "427423077D9365B6"
-				item: "rftoolsutility:digit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "427423077D9365B6"
+					item: "rftoolsutility:digit"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -0.75d
 		}
@@ -400,11 +444,13 @@
 			id: "65E6B4B383AB1F52"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "475C305756346A22"
-				item: "rftoolsutility:invchecker"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "475C305756346A22"
+					item: "rftoolsutility:invchecker"
+					type: "item"
+				}
+			]
 			x: 2.75d
 			y: -0.5d
 		}
@@ -413,11 +459,13 @@
 			id: "143C9254C6C7DA4E"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "496AC1850892A93A"
-				item: "rftoolsutility:sensor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "496AC1850892A93A"
+					item: "rftoolsutility:sensor"
+					type: "item"
+				}
+			]
 			x: 2.75d
 			y: 0.5d
 		}
@@ -426,11 +474,13 @@
 			id: "472ADB09F7C71BA1"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "3B5F7CE0DB08644C"
-				item: "rftoolsutility:sequencer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B5F7CE0DB08644C"
+					item: "rftoolsutility:sequencer"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 0.25d
 		}
@@ -439,11 +489,13 @@
 			id: "20E7DB106C3E4A3F"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "18CF916B55E73925"
-				item: "rftoolsutility:logic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18CF916B55E73925"
+					item: "rftoolsutility:logic"
+					type: "item"
+				}
+			]
 			x: 3.25d
 			y: 0.5d
 		}
@@ -452,11 +504,13 @@
 			id: "2E4A2D0F67EB2CE9"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "16D00C129507BAA8"
-				item: "rftoolsutility:timer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "16D00C129507BAA8"
+					item: "rftoolsutility:timer"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.25d
 		}
@@ -465,11 +519,13 @@
 			id: "30060D24E35AF322"
 			shape: "diamond"
 			size: 0.5d
-			tasks: [{
-				id: "2E44FA9A8A5D70F2"
-				item: "rftoolsutility:wire"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E44FA9A8A5D70F2"
+					item: "rftoolsutility:wire"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -0.25d
 		}
@@ -497,12 +553,12 @@
 		{
 			dependencies: ["24E50A3AF87B2283"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a屏幕控制器&f&r用于管理和为网络中的多个屏幕供电,确保它们高效运行."
+				"&5&dRF工具箱&f&r中的&b&a屏幕控制器&f&r用于管理和供电网络中的多个屏幕."
 				""
-				"使用&b&a屏幕控制器&f&r的方法:"
-				"1. &n&b右键点击&r屏幕控制器打开其&e图形界面&r"
-				"2. 配置控制器以识别和管理附近的屏幕"
-				"3. 屏幕控制器将为连接的屏幕分配电力,确保它们&b持续高效地&r显示信息"
+				"使用方法:"
+				"1. &n&b右键点击&r打开&e控制界面&r"
+				"2. 配置控制器识别管理周边屏幕"
+				"3. 自动为连接屏幕分配电力,确保&b持续高效&r显示信息"
 				""
 				""
 				"&7[The Screen Controller in RFTools is used to manage and power multiple screens in your network, ensuring they operate efficiently.]&f"
@@ -513,11 +569,13 @@
 				"&7[3. The screen controller will distribute power to the connected screens, ensuring they display information continuously and efficiently.]&f"
 			]
 			id: "032867F83089732B"
-			tasks: [{
-				id: "15CFE426B61CC4F4"
-				item: "rftoolsutility:screen_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "15CFE426B61CC4F4"
+					item: "rftoolsutility:screen_controller"
+					type: "item"
+				}
+			]
 			x: 6.1875d
 			y: -0.75d
 		}
@@ -526,17 +584,19 @@
 			id: "4FBFDA2C5C77C3DA"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "53C5AC6DC9DD039B"
-				item: {
-					Count: 1
-					id: "rftoolsutility:counter_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "53C5AC6DC9DD039B"
+					item: {
+						Count: 1
+						id: "rftoolsutility:counter_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.1875d
 			y: 0.9375d
 		}
@@ -545,17 +605,19 @@
 			id: "4D9D531FDE739F08"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "209D1D49D2506B28"
-				item: {
-					Count: 1
-					id: "rftoolsutility:redstone_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "209D1D49D2506B28"
+					item: {
+						Count: 1
+						id: "rftoolsutility:redstone_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.5625d
 			y: 1.3125d
 		}
@@ -564,17 +626,19 @@
 			id: "1B37C31E801742B5"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "6B5C8A44006F7D81"
-				item: {
-					Count: 1
-					id: "rftoolsutility:button_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6B5C8A44006F7D81"
+					item: {
+						Count: 1
+						id: "rftoolsutility:button_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.9375d
 			y: 0.9375d
 		}
@@ -583,17 +647,19 @@
 			id: "1F3639DDA141A3DA"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "05801A965EEC7115"
-				item: {
-					Count: 1
-					id: "rftoolsutility:computer_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "05801A965EEC7115"
+					item: {
+						Count: 1
+						id: "rftoolsutility:computer_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 7.3125d
 			y: 1.3125d
 		}
@@ -602,17 +668,19 @@
 			id: "02DC54E152E334DD"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "3D916B1900ADD416"
-				item: {
-					Count: 1
-					id: "rftoolsutility:machineinformation_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3D916B1900ADD416"
+					item: {
+						Count: 1
+						id: "rftoolsutility:machineinformation_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.8125d
 			y: 2.0625d
 		}
@@ -621,17 +689,19 @@
 			id: "243CFE7B7992F713"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "1DADE65FDECCE8BD"
-				item: {
-					Count: 1
-					id: "rftoolsutility:fluid_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1DADE65FDECCE8BD"
+					item: {
+						Count: 1
+						id: "rftoolsutility:fluid_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.1875d
 			y: 1.6875d
 		}
@@ -640,17 +710,19 @@
 			id: "7BF733C7D57EFFD0"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "1ACF66A5E7DA6555"
-				item: {
-					Count: 1
-					id: "rftoolsutility:clock_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1ACF66A5E7DA6555"
+					item: {
+						Count: 1
+						id: "rftoolsutility:clock_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.9375d
 			y: 1.6875d
 		}
@@ -659,17 +731,19 @@
 			id: "3A4A70A661B4EB4B"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "0CBEB26595E1AAA6"
-				item: {
-					Count: 1
-					id: "rftoolsutility:inventory_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0CBEB26595E1AAA6"
+					item: {
+						Count: 1
+						id: "rftoolsutility:inventory_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.8125d
 			y: 1.3125d
 		}
@@ -678,17 +752,19 @@
 			id: "329CCDFBBFE24696"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "6FC459465B9E8ADB"
-				item: {
-					Count: 1
-					id: "rftoolsutility:energy_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6FC459465B9E8ADB"
+					item: {
+						Count: 1
+						id: "rftoolsutility:energy_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.5625d
 			y: 2.0625d
 		}
@@ -697,17 +773,19 @@
 			id: "35CBE35310E3152F"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "7F302B75571EF4DD"
-				item: {
-					Count: 1
-					id: "rftoolsutility:text_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7F302B75571EF4DD"
+					item: {
+						Count: 1
+						id: "rftoolsutility:text_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 7.3125d
 			y: 2.0625d
 		}
@@ -716,17 +794,19 @@
 			id: "10ABAFE5223B5CE7"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "32873300AB6507E5"
-				item: {
-					Count: 1
-					id: "rftoolsstorage:dump_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "32873300AB6507E5"
+					item: {
+						Count: 1
+						id: "rftoolsstorage:dump_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.1875d
 			y: 2.4375d
 		}
@@ -735,17 +815,19 @@
 			id: "26F197E058CD9602"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "591F97F2EC3F94DC"
-				item: {
-					Count: 1
-					id: "rftoolsutility:inventoryplus_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "591F97F2EC3F94DC"
+					item: {
+						Count: 1
+						id: "rftoolsutility:inventoryplus_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.875d
 			y: 2.5d
 		}
@@ -754,17 +836,19 @@
 			id: "28AC5680ADD0DBB4"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "276C6D86FC288309"
-				item: {
-					Count: 1
-					id: "rftoolsutility:fluidplus_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "276C6D86FC288309"
+					item: {
+						Count: 1
+						id: "rftoolsutility:fluidplus_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 7.6875d
 			y: 1.6875d
 		}
@@ -773,30 +857,32 @@
 			id: "5A141F1D709F26EF"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "1DCF109BEFB916F6"
-				item: {
-					Count: 1
-					id: "rftoolsutility:energyplus_module"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1DCF109BEFB916F6"
+					item: {
+						Count: 1
+						id: "rftoolsutility:energyplus_module"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.4375d
 			y: 1.6875d
 		}
 		{
 			dependencies: ["24E50A3AF87B2283"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b平板电脑&r是一款便携设备,可让你随时随地监控和操作能源网络."
+				"&5&dRF工具箱&f&r中的&b平板终端&r是一款便携设备,可让你随时随地监控和操作能源网络."
 				""
-				"使用&b平板电脑&r的方法:"
-				"1. &n&b右键点击&r平板打开其&e图形界面&r"
-				"2. 插入&d功能模块&r以启用不同功能(例如&a存储模块&f&r、&b文本模块&r)"
+				"使用&b平板终端&r的方法:"
+				"1. &n&b右键点击&r终端打开其&e图形界面&r"
+				"2. 插入&d功能模块&r以启用不同功能(例如&a&a存储模块&f&r、&b文本模块&r)"
 				"3. 在&e图形界面&r中配置每个模块以连接网络"
-				"4. 平板将显示配置数据,实现&b移动端&r网络监控与控制"
+				"4. 终端将显示配置数据,实现&b移动端&r网络监控与控制"
 				""
 				""
 				"&7[The Tablet in RFTools is a portable device that allows you to monitor and interact with your network from anywhere.]&f"
@@ -808,24 +894,26 @@
 				"&7[4. The tablet will display the configured data, allowing you to monitor and control your network on the go.]&f"
 			]
 			id: "3F7A85FF551781EA"
-			tasks: [{
-				id: "3BEC28F3B26F39DA"
-				item: "rftoolsbase:tablet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3BEC28F3B26F39DA"
+					item: "rftoolsbase:tablet"
+					type: "item"
+				}
+			]
 			x: 8.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3F7A85FF551781EA"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a屏幕链接&f&r用于将多个显示屏互联,实现&b数据同步显示&r"
+				"&5&dRF工具箱&f&r中的&b&a屏幕链接模块&f&r用于将多个显示屏互联,实现&b数据同步显示&r"
 				""
-				"使用&b&a屏幕链接&f&r的方法:"
+				"使用&b&a屏幕链接模块&f&r的方法:"
 				"1. &n&b右键点击&r需要链接的屏幕打开&e图形界面&r"
-				"2. 将&b&a屏幕链接&f&r模块插入屏幕插槽"
-				"3. 配置需要同步连接的其他屏幕"
-				"4. 互联屏幕将实时显示&b同步信息&r,构建统一监控系统"
+				"2. 将&b&a屏幕链接模块&f&r插入屏幕的模块插槽"
+				"3. 配置需要同步的其他屏幕链接"
+				"4. 互联屏幕将显示&b同步化信息&r,形成统一显示系统"
 				""
 				""
 				"&7[The Screen Link in RFTools is used to link multiple screens together, allowing them to share information and display synchronized data.]&f"
@@ -837,17 +925,19 @@
 				"&7[4. The linked screens will now display synchronized information, providing a cohesive display setup.]&f"
 			]
 			id: "124958C6D93E97CC"
-			tasks: [{
-				id: "248E9E15CF4E6DC7"
-				item: {
-					Count: 1
-					id: "rftoolsutility:screen_link"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "248E9E15CF4E6DC7"
+					item: {
+						Count: 1
+						id: "rftoolsutility:screen_link"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 8.75d
 			y: -0.75d
 		}
@@ -857,7 +947,7 @@
 				"&5&dRF工具箱&f&r中的&b&a红石模块&f&r能根据网络状态控制&9红石信号&r,实现高级自动化"
 				""
 				"使用&b&a红石模块&f&r的方法:"
-				"1. &n&b右键点击&r目标设备(如&b显示屏&r、&d&a环境控制器&f&r)打开&e图形界面&r"
+				"1. &n&b右键点击&r目标设备(如&b屏幕&r、&d&a环境控制器&f&r)打开&e图形界面&r"
 				"2. 将&b&a红石模块&f&r插入模块插槽"
 				"3. 配置触发&9红石信号&r的条件(如&d能量阈值&r、&a物品数量&r)"
 				"4. 连接红石元件实现条件自动化"
@@ -872,17 +962,19 @@
 				"&7[4. Connect the device to redstone components to automate actions based on the configured conditions.]&f"
 			]
 			id: "4F86E16DE747E9FE"
-			tasks: [{
-				id: "02AFDF0ABA7BECC1"
-				item: {
-					Count: 1
-					id: "rftoolsutility:redstone_information"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "02AFDF0ABA7BECC1"
+					item: {
+						Count: 1
+						id: "rftoolsutility:redstone_information"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 8.75d
 			y: 0.75d
 		}
@@ -891,15 +983,15 @@
 			description: [
 				"&b&a次元碎片&f&r是&5&dRF工具箱&f&r中用于合成和升级设备的珍稀资源"
 				""
-				"该碎片可用于制造高阶机器、强化设备及强力升级.获取方式包括:"
-				"- 世界采矿获取"
-				"- 探索&a维度碎片&r结构获得"
+				"该碎片可用于制造高阶机器、强化设备性能及强力升级.获取方式包括:"
+				"- 在&e主世界&r采矿获得"
+				"- 从特定&a维度碎片结构&r中获取"
 				""
-				"核心用途包括:"
-				"- 制作&n&d&a机器注能机&f&r提升设备效能"
-				"- 合成&n&e维度电池&r和&n&b传送装置&r"
+				"典型应用场景:"
+				"- 合成&n&d&a机器注能机&f&r提升RF设备效能"
+				"- 制作&n&e维度电池&r和&n&b传送装置&r的核心材料"
 				""
-				"注意:高级配方常需大量碎片,建议在采矿或探索时重点收集"
+				"注意:高级配方通常需要大量碎片,建议在采矿或探索&n维度结构&r时重点收集"
 				""
 				""
 				"&7[The Dimensional Shard is a rare and valuable resource used in RFTools for crafting and upgrading various machines and items.]&f"
@@ -911,57 +1003,63 @@
 				"&7[To fully utilize Dimensional Shards, you will need to gather a substantial amount, as many advanced recipes and upgrades require multiple shards. Keep an eye out for them during your mining expeditions or when exploring Dimlet structures.]&f"
 			]
 			id: "6200BF000C6AF1D7"
-			tasks: [{
-				id: "19334FBEBA7AD529"
-				item: "rftoolsbase:dimensionalshard"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19334FBEBA7AD529"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6200BF000C6AF1D7"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a注能钻石&f&r是通过&a次元碎片&f&r强化的合成材料,用于高阶配方和机器升级"
+				"&5&dRF工具箱&f&r中的&b&a注能钻石&f&r是通过钻石与&a&a次元碎片&f&r融合而成的高阶合成材料,用于顶级配方和机器升级"
 				""
 				""
 				"&7[The Infused Diamond in RFTools is a powerful crafting component created by infusing a diamond with Dimensional Shards, used in high-tier recipes and machine upgrades.]&f"
 			]
 			id: "7B0774E5D09D01A2"
-			tasks: [{
-				id: "2EE18C4DD63C1A89"
-				item: "rftoolsbase:infused_diamond"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2EE18C4DD63C1A89"
+					item: "rftoolsbase:infused_diamond"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -3.25d
 		}
 		{
 			dependencies: ["6200BF000C6AF1D7"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a注能末影珍珠&f&r是通过&a次元碎片&f&r强化的传送装置核心材料"
+				"&5&dRF工具箱&f&r中的&b&a注能末影珍珠&f&r由末影珍珠与&a&a次元碎片&f&r合成,是高级传送装置的关键材料"
 				""
 				""
 				"&7[The Infused Enderpearl in RFTools is a valuable crafting component created by infusing an ender pearl with Dimensional Shards, essential for advanced teleportation devices and upgrades.]&f"
 			]
 			id: "07AC24DAEAB45D23"
-			tasks: [{
-				id: "3CA1B0BAF6DCAC02"
-				item: "rftoolsbase:infused_enderpearl"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3CA1B0BAF6DCAC02"
+					item: "rftoolsbase:infused_enderpearl"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -3.25d
 		}
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a动力电池&f&r用于存储传输&9RF能量&r,分为三级:"
+				"&5&dRF工具箱&f&r中的&b&a动力电池&f&r用于存储和传输&9RF能量&r,分为三个等级:"
 				"- &a基础级&a动力电池&f&r"
 				"- &e进阶级&a动力电池&f&r"
-				"- &c高级&a动力电池&f&r"
+				"- &c精英级&a动力电池&f&r"
 				""
-				"各级电池的储能容量和传输速率逐级提升,是能源管理系统的核心组件"
+				"各级电池在储能容量和传输速率上逐级提升,是维持RF设备稳定供能的核心组件"
 				""
 				""
 				"&7[Power Cells in RFTools are used to store and transfer RF energy between machines and devices. They come in three tiers: Low Power Cell, Medium Power Cell, and High Power Cell, each offering increasing energy storage capacity and transfer rates.]&f"
@@ -969,56 +1067,62 @@
 				"&7[These cells are essential for managing energy in your RFTools setups, ensuring a steady supply of power for all your machines and devices.]&f"
 			]
 			id: "62919950155A022A"
-			tasks: [{
-				id: "442FEF94C73F3100"
-				item: "rftoolspower:cell1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "442FEF94C73F3100"
+					item: "rftoolspower:cell1"
+					type: "item"
+				}
+			]
 			x: -5.25d
 			y: -0.75d
 		}
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b&a燃煤发电机&f&r是&5&dRF工具箱&f&r中的基础能源设备,通过燃烧煤炭等固体燃料产生&cRF能量&r."
+				"&5&dRF工具箱&f&r中的&b&a燃煤发电机&f&r是基础能源设备,通过燃烧煤炭等固体燃料产生&cRF能量&r."
 				""
 				""
 				"&7[The Coal Generator in RFTools is a basic energy-producing machine that generates RF energy by burning coal and other solid fuels.]&f"
 			]
 			id: "32958EB1EFD3FD4C"
-			tasks: [{
-				id: "5D77142E2D8F7825"
-				item: "rftoolspower:coalgenerator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D77142E2D8F7825"
+					item: "rftoolspower:coalgenerator"
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: -1.75d
 		}
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b&a烈焰发电机&f&r是&5&dRF工具箱&f&r中的高级能源设备,通过燃烧&d烈焰棒&r等高能燃料产生&cRF能量&r."
+				"&5&dRF工具箱&f&r中的&b&a烈焰发电机&f&r是高级能源设备,通过燃烧&d烈焰棒&r等高能燃料产生&cRF能量&r."
 				""
 				""
 				"&7[The Blazing Generator in RFTools is an advanced energy-producing machine that generates RF energy by burning blaze rods and other high-energy fuels.]&f"
 			]
 			id: "0921CCD3C66B3750"
-			tasks: [{
-				id: "2A002DFE089DD4EA"
-				item: "rftoolspower:blazing_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A002DFE089DD4EA"
+					item: "rftoolspower:blazing_generator"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: -1.75d
 		}
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b维度储能单元&r是&5&dRF工具箱&f&r中的能量存储装置,可存储并传输大量&cRF&r(&d红石通量&r)能量."
+				"&b维度能源单元&r是&5&dRF工具箱&f&r中的能量存储装置,可存储并传输大量&cRF&r(&d红石通量&r)能量."
 				""
-				"维度储能单元分为三个等级:&a基础维度储能单元&r、&b维度储能单元&r和&e高级维度储能单元&r,每级都提供更高的&e存储容量&r和&c传输速率&r.这些单元可以跨&e维度&r互联共享能量,非常适合复杂系统搭建."
+				"该单元分为三级:&a基础维度单元&r、&b维度单元&r和&e高级维度单元&r,每级都提供更高的&e存储容量&r和&c传输速率&r.这些单元可跨&e维度&r互联共享能量,非常适合复杂系统搭建."
 				""
-				"使用&b维度储能单元&r时,将其放置在世界中并通过&9能量导管&r连接至&e能源网络&r.&n&b右键点击&r打开配置&e图形界面&r,可设置输入输出模式、链接单元以及监控能量等级."
+				"使用时将单元放置在世界中,用&9能源导管&r连接至&e能源网络&r.&n&b右键点击&r打开配置&e图形界面&r,可设置输入输出模式、链接单元及监控能量等级."
 				""
 				""
 				"&7[Dimensional Cells are energy storage devices in RFTools that provide a means to store and transfer large amounts of RF (Redstone Flux) energy.]&f"
@@ -1048,13 +1152,13 @@
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b初级合成机&r、&e中级合成机&r和&c高级合成机&r是&5&dRF工具箱&f&r中多功能的&d自动合成设备&r,各等级在效率和容量上逐级提升."
+				"&b初级合成机&r、&e中级合成机&r和&c高级合成机&r是&5&dRF工具箱&f&r中多功能的&d自动合成设备&r,各级别提供递增的效率和容量."
 				""
-				"&b初级合成机&r最多可存储&a2个配方&r,&e中级合成机&r可存&d4个配方&r,&c高级合成机&r则能处理&b8个配方&r.这些合成机可自动执行物品合成,无需人工干预即可建立复杂合成链."
+				"&b初级合成机&r最多存储&a2组配方&r,&e中级合成机&r可存&d4组&r,&c高级合成机&r则能处理&b8组配方&r.这些设备能自动合成物品,无需人工干预即可建立复杂合成链."
 				""
-				"使用合成机时,将其放置后通过&9能量导管&r连接能源网络.&n&b右键点击&r打开&e图形界面&r,放入原料并设置所需配方.配置完成后,合成机将在收到材料时自动按配方合成物品."
+				"使用时放置设备并用&9能源导管&r连接能源网络.&n&b右键点击&r打开&e图形界面&r配置原料和配方.设置完成后,当材料充足时合成机会自动按配方生产物品."
 				""
-				"&a等级越高&f,合成机可同时处理的配方越多,使&c高级合成机&r成为大规模自动化系统的理想选择."
+				"&a级别越高&f,合成机同时处理的配方数量越多,&c高级合成机&r特别适合大型自动化生产."
 				""
 				""
 				"&7[Crafter Tier 1, Tier 2, and Tier 3 are versatile crafting machines in RFTools that automate crafting processes with increasing efficiency and capacity at each tier.]&f"
@@ -1066,24 +1170,26 @@
 				"&7[The higher the tier, the more recipes the crafter can handle simultaneously, making the Crafter Tier 3 ideal for large-scale automation setups.]&f"
 			]
 			id: "1E0AE46BB87E6C09"
-			tasks: [{
-				id: "3D4829632AB1D91F"
-				item: "rftoolsutility:crafter1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D4829632AB1D91F"
+					item: "rftoolsutility:crafter1"
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: 1.75d
 		}
 		{
 			dependencies: ["1E0AE46BB87E6C09"]
 			description: [
-				"&b&a存储过滤模块&f&r是&5&dRF工具箱&f&r中控制自动化网络物品/流体流动的核心组件."
+				"&b&a存储过滤模块&f&r是&5&dRF工具箱&f&r中的关键组件,用于控制自动化网络中的物品与流体流动."
 				""
-				"使用时将其插入支持过滤的&e机器&r或&e容器&r(如&b合成机&r或&e&a存储模块&f&r).&n&b右键点击&r打开&e图形界面&r,通过指定允许/禁止的物品或流体来配置过滤器."
+				"将该模块插入支持过滤的&e机器&r或&e容器&r(如&b合成机&r或&e&a存储模块&f&r)中.&n&b右键点击&r打开&e图形界面&r,通过指定物品/流体来配置过滤规则."
 				""
-				"可设置为&4白名单&r模式仅允许特定物品通过,或&8黑名单&r模式禁止特定物品.该模块还支持&nNBT数据&r和&b耐久度敏感&r设置,能精确控制自动化流程."
+				"可设置为&4白名单&r模式(仅允许特定物品通过)或&8黑名单&r模式(阻止特定物品).该模块还支持&nNBT数据&r和&b耐久度敏感&r过滤,能精细调控自动化流程."
 				""
-				"该模块对维持&5&dRF工具箱&f&r系统中物品/流体的高效管理至关重要."
+				"此模块对维持&5&dRF工具箱&f&r系统中物品流体的高效管理至关重要."
 				""
 				""
 				"&7[The Filter Module is a crucial component in RFTools used to control the flow of items and fluids in your automation networks.]&f"
@@ -1095,34 +1201,40 @@
 				"&7[This module is essential for maintaining organized and efficient item and fluid management in your RFTools setups.]&f"
 			]
 			id: "1B4B29415499CE8E"
-			tasks: [{
-				id: "03F5D4AE2FCABE85"
-				item: "rftoolsbase:filter_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "03F5D4AE2FCABE85"
+					item: {
+						Count: 1
+						id: "rftoolsbase:filter_module"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -4.25d
 			y: 2.75d
 		}
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b&a物质传输器&f&r是&5&dRF工具箱&f&r中的一种&n&c传送装置&r,能让玩家在不同&4地点&r和&9维度&r之间进行&d瞬间移动&r."
+				"&b&a物质传输器&f&r是&5&dRF工具箱&f&r中的&n&c传送装置&r,能让玩家在不同&4地点&r和&9维度&r之间实现瞬间&d穿梭&r."
 				""
-				"使用&b&a物质传输器&f&r时,先将其放置在世界中,然后用&b智能扳手&r&n&b右键点击&r&e&a物质接收器&r进行链接.&n&b右键点击&r传输器可打开其&e操作界面&r,从中选择&9目标接收器&r."
+				"使用&b&a物质传输器&f&r时,将其放置在世界中并用&b智能扳手&r&n&b右击&r&e&a物质接收器&f&r进行链接.&n&b右击&r传输器可打开其&e操作界面&r,从中选择&9目标接收器&r."
 				""
-				"配置完成后,站在&b传输平台上&r激活即可&4传送&r至已链接的&e接收器&r.该设备对&n快速移动&r和高效&a基地管理&r至关重要,特别适用于大型或&d跨维度设施&r."
+				"配置完成后,站在&b传输平台上&r激活即可&4传送&r至链接的&e接收器&r.该装置对&n快速移动&r和高效&a基地管理&r至关重要,特别适合大型或&d跨维度设施&r."
 				"{@pagebreak}"
-				"&e&a物质接收器&f&r是&5&dRF工具箱&f&r中的&n&d传送终端&r,需与&b&a物质传输器&f&r配合使用以实现跨&9地点&r和&c维度&r的&a即时传送&r."
+				"&e&a物质接收器&f&r是&5&dRF工具箱&f&r中的&n&d传送终端&r,需配合&b&a物质传输器&f&r实现跨&9地点&r和&c维度&r的&a瞬时传送&r."
 				""
-				"使用&e&a物质接收器&f&r时,先将其放置在世界中,用&b智能扳手&r&n&b右键点击&r与传输器建立链接.还可为接收器设置独特名称以便识别."
+				"使用&e&a物质接收器&f&r时,将其放置后通过&b智能扳手&r&n&b右击&r与传输器链接.可为接收器设置独特名称便于识别."
 				""
-				"当&b&a物质传输器&f&r发送玩家时,他们将抵达配置好的&e&a物质接收器&f&r.此装置非常适合构建&d传送网络&r,实现世界各地点间的&n快速高效移动&r."
+				"当&b&a物质传输器&f&r发送玩家时,将抵达配置好的&e&a物质接收器&f&r.此组合能建立&d传送网络&r,实现世界各点间的&n高效快速移动&r."
 				"{@pagebreak}"
-				"&e&a传送控制器&f&r是&5&dRF工具箱&f&r中用于管理&b&a物质传输器&f&r与&e&a物质接收器&f&r连接的&n控制单元&r."
+				"&e&a传送控制器&f&r是&5&dRF工具箱&f&r中管理&b&a物质传输器&f&r与&e&a物质接收器&f&r连接的&n控制单元&r."
 				""
-				"使用&e&a传送控制器&f&r时,先将其放置在世界中,用&9能量导管&r连接至传输器和接收器.&n&b右键点击&r控制器打开&e操作界面&r,可查看所有可用&e&a物质接收器&r及其对应&9坐标&r."
+				"使用时通过&9能量导管&r连接传输器和接收器.&n&b右击&r可打开&e操作界面&r查看所有可用&e&a物质接收器&r及其&9坐标&r."
 				""
-				"从列表中选择目标&e&a物质接收器&r,点击&n&b拨号&r按钮建立连接.该控制器可&d动态调控&r传送网络,轻松实现目的地&a切换&r和多接收器管理."
+				"从列表选择目标接收器后点击&n&b拨号&r按钮建立连接.该控制器支持&d动态调控&r传送网络,便于&a切换目的地&r和管理多个接收器."
 				""
 				""
 				"&7[The Matter Transmitter is a teleportation device in RFTools that allows players to instantly travel between different locations and dimensions.]&f"
@@ -1167,11 +1279,11 @@
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b护盾投射器&r是&5&dRF工具箱&f&r中可创建&9防护屏障&r和自定义护盾&r的装置."
+				"&b护盾投射器&r是&5&dRF工具箱&f&r中能围绕基地创建&9防护屏障&r和可定制护盾&r的装置."
 				""
-				"护盾投射器能生成阻挡实体&r、&a物品&r甚至特定&4玩家&r的&3力场&r.放置投射器后&n&b右键点击&r打开配置&e界面&r,可定义护盾的&n&l形状&r、&4尺寸&r及&b属性&r(如&9透明度&r和&c伤害效果&r)."
+				"可生成阻挡实体&r、&a物品&r甚至特定&4玩家&r的&3力场&r.放置后&n&b右击&r打开配置&e界面&r,可定义护盾的&n&l形状&r、&4尺寸&r及&b属性&r(如&9透明度&r和&c伤害效果&r)."
 				""
-				"结合&e&a护盾支架&f&r可进一步&3定制&r护盾外观与功能,是&d保护基地&r和控制&e出入权限&r的强大工具."
+				"配合&e&a护盾支架&f&r可进一步&3定制&r护盾外观与功能,是&d保护基地&r和控制&e出入权限&r的强大工具."
 				""
 				""
 				"&7[Shield Projectors in RFTools allow players to create protective barriers and customizable shields around their bases.]&f"
@@ -1251,13 +1363,13 @@
 		{
 			dependencies: ["22DE4BC6F49FA16D"]
 			description: [
-				"&b建造者&r是&5&dRF工具箱&f&r中一款极其多功能的&9建筑工具&r,可用于&d自动化建造和采矿&r任务."
+				"&b建造者&r是&5&dRF工具箱&f&r中一款极其多功能的&9建筑工具&r,用于&d自动化建造和采矿&r任务."
 				""
 				"使用&b建造者&r时,将其放置在世界中并通过&9能量线缆&r连接至能源网络.&n&b右键点击&r打开&e图形界面&r,可选择操作模式如&e采石场&r、&a&a塑形卡片&f&r或&e模板&r模式."
 				""
 				"在&e&a采石场模式&f&r下,&b建造者&r可开采大片区域,将资源收集至连接的&d存储&r容器.在&a&a塑形卡片&f模式&r中,可指定形状(如立方体、球体),&b建造者&r将在该形状内建造或移除方块.在&e模板模式&r下,&b建造者&r能根据保存的模板复制建筑结构."
 				""
-				"将相应&e卡片&r或&9模板&r插入&b建造者&r,并在&e图形界面&r中配置参数.设置完成后,&b建造者&r将以精准高效的方式执行指定任务,实现大型建造和采矿项目的自动化."
+				"将对应的&e卡片&r或&9模板&r放入&b建造者&r,并在&e图形界面&r中配置参数.设置完成后,&b建造者&r将以精确高效的方式执行指定任务,实现大型建造和采矿项目的自动化."
 				""
 				""
 				"&7[The Builder is an incredibly versatile construction tool in RFTools used for automating building and mining tasks.]&f"
@@ -1269,11 +1381,13 @@
 				"&7[Insert the appropriate card or template into the Builder and configure the desired parameters in the GUI. Once set, the Builder will perform the specified task, automating large-scale construction and mining projects with precision and efficiency.]&f"
 			]
 			id: "3A87F281627E29DA"
-			tasks: [{
-				id: "64BC677EFEA6F241"
-				item: "rftoolsbuilder:builder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "64BC677EFEA6F241"
+					item: "rftoolsbuilder:builder"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 0.0d
 		}
@@ -1282,9 +1396,9 @@
 			description: [
 				"&b&a烈焰注能器&f&r是&5&dRF工具箱&f&r中强大的&9灌注机器&r,用于强化升级各类物品和方块."
 				""
-				"使用&b&a烈焰注能器&f&r时,将其放置在世界中并通过&9能量线缆&r连接能源网络.&n&b右键点击&r打开&e图形界面&r,放入待灌注物品及所需&a&a次元碎片&f&r."
+				"使用&b&a烈焰注能器&f&r时,将其放置在世界中并通过&9能量线缆&r连接至能源网络.&n&b右键点击&r打开&e图形界面&r,放入待灌注物品及所需的&a&a次元碎片&f&r."
 				""
-				"该设备将消耗能量与&c&a次元碎片&f&r为物品施加强力升级,提升性能或添加新功能.此过程对制造高阶装备和提升&5&dRF工具箱&f&r机器效率至关重要."
+				"该机器将消耗能量和&c&a次元碎片&f&r为物品施加强力升级,增强其性能或添加新功能.此过程对制造高阶装备和提升&5&dRF工具箱&f&r机器效率至关重要."
 				""
 				""
 				"&7[The Blazing Infuser is a powerful infusion machine in RFTools used to enhance and upgrade various items and blocks.]&f"
@@ -1294,11 +1408,13 @@
 				"&7[The Blazing Infuser will consume energy and Dimensional Shards to apply powerful upgrades to the item, enhancing its capabilities or adding new functionalities. This process is essential for creating high-tier equipment and improving the efficiency of your RFTools machines.]&f"
 			]
 			id: "1B9851CDDC2EC912"
-			tasks: [{
-				id: "096BBF20A5FD4A47"
-				item: "rftoolspower:blazing_infuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "096BBF20A5FD4A47"
+					item: "rftoolspower:blazing_infuser"
+					type: "item"
+				}
+			]
 			x: -5.25d
 			y: 0.75d
 		}
@@ -1308,33 +1424,35 @@
 				"6200BF000C6AF1D7"
 			]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a机器注能机&f&r通过灌注&a&a次元碎片&f&r来增强升级各类机器,提升其效率与功能."
+				"&5&dRF工具箱&f&r中的&b&a机器注能机&f&r通过灌注&a&a次元碎片&f&r来增强升级各类机器,提升其效率和功能."
 				""
 				""
 				"&7[The Machine Infuser in RFTools is used to enhance and upgrade various machines, improving their efficiency and capabilities by infusing them with Dimensional Shards.]&f"
 			]
 			id: "0CB1D02EA360398E"
-			tasks: [{
-				id: "48523C125C90A8C2"
-				item: "rftoolsbase:machine_infuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48523C125C90A8C2"
+					item: "rftoolsbase:machine_infuser"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3A87F281627E29DA"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b&a塑形卡片&f&r是多功能工具,可定义特定形状供&b建造者&r执行建造采矿任务."
+				"&5&dRF工具箱&f&r中的&b&a塑形卡片&f&r是多功能工具,可定义特定形状供&b建造者&r用于建造和采矿任务."
 				""
-				"使用步骤:"
+				"使用方法:"
 				"&41.&r 合成&b&a塑形卡片&f&r"
 				"&42.&r 右键点击卡片打开配置&e图形界面&r"
-				"&43.&r 在界面中选择形状(如立方体、球体、圆柱体)并设置尺寸"
+				"&43.&r 在界面中选择形状(如立方体/球体/圆柱体)并设置尺寸"
 				"&4.&r 将配置好的&b&a塑形卡片&f&r插入&b建造者&r"
 				"&45.&r 放置&b建造者&r并用&9能量线缆&r供能"
-				"&46.&r 确保&b建造者&r有建造所需材料,或为采矿任务配备存储箱"
-				"&47.&r 启动后,&b建造者&r将按&b&a塑形卡片&f&r定义的形状尺寸执行任务"
+				"&46.&r 确保&b建造者&r有建造所需材料,或用于采矿时连接箱子存放物品"
+				"&47.&r 启动后,&b建造者&r将按&b&a塑形卡片&f&r定义的形状和尺寸执行任务"
 				""
 				"该卡片能精准高效地自动化建造采矿,大幅节省时间精力."
 				""
@@ -1354,11 +1472,13 @@
 			]
 			hide_dependent_lines: true
 			id: "5B84B8A165140BFA"
-			tasks: [{
-				id: "363DA9BB711B770B"
-				item: "rftoolsbuilder:shape_card_def"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "363DA9BB711B770B"
+					item: "rftoolsbuilder:shape_card_def"
+					type: "item"
+				}
+			]
 			x: -7.25d
 			y: 0.0d
 		}
@@ -1367,7 +1487,7 @@
 			description: [
 				"&b&a塑形卡片&f(采石场)&r是&5&dRF工具箱&f&r中&b&a塑形卡片&f&r的强化版,可使&b建造者&r开采大片区域收集资源."
 				""
-				"此卡片专为大型采矿工程设计,能自动化采集海量资源."
+				"此卡片适合大型采矿工程,能自动化收集海量资源."
 				""
 				""
 				"&7[The Shape Card (Quarry) is a powerful version of the Shape Card in RFTools that enables the Builder to mine large areas, collecting resources.]&f"
@@ -1376,18 +1496,20 @@
 			]
 			id: "4AF83801E0F700E8"
 			shape: "diamond"
-			tasks: [{
-				id: "27745776F6456EC1"
-				item: "rftoolsbuilder:shape_card_quarry"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "27745776F6456EC1"
+					item: "rftoolsbuilder:shape_card_quarry"
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["5B84B8A165140BFA"]
 			description: [
-				"&b&a塑形卡片&f(液体放置)&r是&5&dRF工具箱&f&r中专为按指定形状放置液体设计的特殊卡片."
+				"&b&a塑形卡片&f(液体放置)&r是&5&dRF工具箱&f&r中专用的液体塑形版本,可按定义形状放置液体."
 				""
 				"此卡片适合创建定制湖泊、护城河等液体结构."
 				""
@@ -1398,20 +1520,22 @@
 			]
 			id: "77572C546A50BE0C"
 			shape: "diamond"
-			tasks: [{
-				id: "61BF7A6CACAD34CA"
-				item: "rftoolsbuilder:shape_card_liquid"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61BF7A6CACAD34CA"
+					item: "rftoolsbuilder:shape_card_liquid"
+					type: "item"
+				}
+			]
 			x: -7.25d
 			y: 1.75d
 		}
 		{
 			dependencies: ["5B84B8A165140BFA"]
 			description: [
-				"&b&a塑形卡片&f(抽吸泵)&r是&5&dRF工具箱&f&r中&b&a塑形卡片&f&r的变体,允许&b建造者&r从指定区域抽取液体."
+				"&b&a塑形卡片&f(抽液泵)&r是&5&dRF工具箱&f&r中&b&a塑形卡片&f&r的变体,允许&b建造者&r从指定区域抽取液体."
 				""
-				"此卡片适用于&a干涸&f湖泊、排空水池或收集大量液体进行储存."
+				"该卡片适用于&a干涸&f湖泊、排空水池或收集大量液体进行存储."
 				""
 				""
 				"&7[The Shape Card (Pump) is a variant of the Shape Card in RFTools that allows the Builder to pump liquids from a defined area.]&f"
@@ -1420,11 +1544,13 @@
 			]
 			id: "3E9C362382A9B36A"
 			shape: "diamond"
-			tasks: [{
-				id: "4998F0A9ED95E993"
-				item: "rftoolsbuilder:shape_card_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4998F0A9ED95E993"
+					item: "rftoolsbuilder:shape_card_pump"
+					type: "item"
+				}
+			]
 			x: -6.75d
 			y: 2.25d
 		}
@@ -1433,7 +1559,7 @@
 			description: [
 				"&b&a塑形卡片&f(虚空)&r是&5&dRF工具箱&f&r中&b&a塑形卡片&f&r的变体,设计用于&a移除&f指定区域内的方块或液体且不会掉落物品."
 				""
-				"此卡片特别适合快速清理大面积区域,无需担心物品掉落问题."
+				"该卡片特别适合快速清理大片区域,无需担心物品掉落问题."
 				""
 				""
 				"&7[The Shape Card (Void) is a variant of the Shape Card in RFTools designed to remove blocks or liquids within a specified area without dropping items.]&f"
@@ -1442,11 +1568,13 @@
 			]
 			id: "21CCBEBD84A4C4A5"
 			shape: "diamond"
-			tasks: [{
-				id: "09579F35F1C93294"
-				item: "rftoolsbuilder:shape_card_void"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "09579F35F1C93294"
+					item: "rftoolsbuilder:shape_card_void"
+					type: "item"
+				}
+			]
 			x: -7.25d
 			y: 2.75d
 		}
@@ -1454,11 +1582,11 @@
 			description: [
 				"&5&dRF工具箱&f&r中的&b&a环境控制器&f&r是能创造并维持特定&a环境效果&r的强大设备,例如&c生命恢复&r或&9速度提升&r."
 				""
-				"使用方法:"
+				"使用&b&a环境控制器&f&r的方法:"
 				"1. &n&b右键点击&r环境控制器打开其&e图形界面&r"
 				"2. 插入&d功能模块&r(如&a恢复模块&r、&b&a速度模块&f&r)来定义所需环境效果"
 				"3. 在&e图形界面&r中配置每种效果的&b作用范围&r和&e强度&r"
-				"4. 环境控制器将在指定区域内应用配置效果,为玩家优化环境"
+				"4. 环境控制器将在指定区域内应用配置好的效果,为玩家优化环境"
 				""
 				""
 				"&7[The Environmental Controller in RFTools is a powerful device that creates and maintains specific environmental effects within a defined area, such as health regeneration or speed boosts.]&f"
@@ -1471,11 +1599,13 @@
 			]
 			id: "22E15D3CC2162F60"
 			shape: "rsquare"
-			tasks: [{
-				id: "515B4780DFF493B7"
-				item: "rftoolsutility:environmental_controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "515B4780DFF493B7"
+					item: "rftoolsutility:environmental_controller"
+					type: "item"
+				}
+			]
 			x: 4.1875d
 			y: -1.5625d
 		}
@@ -1483,11 +1613,13 @@
 			dependencies: ["22E15D3CC2162F60"]
 			hide_dependent_lines: true
 			id: "062FDE5FB1E58256"
-			tasks: [{
-				id: "7A12BD413FFA53D4"
-				item: "rftoolsutility:module_template"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A12BD413FFA53D4"
+					item: "rftoolsutility:module_template"
+					type: "item"
+				}
+			]
 			x: 5.1875d
 			y: -2.5625d
 		}
@@ -1495,22 +1627,26 @@
 			dependencies: ["22E15D3CC2162F60"]
 			hide_dependent_lines: true
 			id: "6AD199EF49770B65"
-			tasks: [{
-				id: "3B48E763B23BADAF"
-				item: "rftoolsutility:moduleplus_template"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B48E763B23BADAF"
+					item: "rftoolsutility:moduleplus_template"
+					type: "item"
+				}
+			]
 			x: 3.1875d
 			y: -2.5625d
 		}
 		{
 			dependencies: ["062FDE5FB1E58256"]
 			id: "1EC575603C51EFC8"
-			tasks: [{
-				id: "1D6A25A36D714F2F"
-				item: "rftoolsutility:glowing_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D6A25A36D714F2F"
+					item: "rftoolsutility:glowing_module"
+					type: "item"
+				}
+			]
 			x: 4.1875d
 			y: -3.3125d
 		}
@@ -1519,11 +1655,13 @@
 			id: "7157F65A74ADD3DD"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "6273409A5C784F48"
-				item: "rftoolsutility:haste_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6273409A5C784F48"
+					item: "rftoolsutility:haste_module"
+					type: "item"
+				}
+			]
 			x: 5.625d
 			y: -3.1875d
 		}
@@ -1532,11 +1670,13 @@
 			id: "46DEDDAE74220311"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "68A96BB8088C0B64"
-				item: "rftoolsutility:hasteplus_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68A96BB8088C0B64"
+					item: "rftoolsutility:hasteplus_module"
+					type: "item"
+				}
+			]
 			x: 2.625d
 			y: -3.1875d
 		}
@@ -1545,11 +1685,13 @@
 			id: "725FB2688CB88785"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "62FC26A47D6DEC6B"
-				item: "rftoolsutility:featherfalling_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "62FC26A47D6DEC6B"
+					item: "rftoolsutility:featherfalling_module"
+					type: "item"
+				}
+			]
 			x: 5.25d
 			y: -3.5625d
 		}
@@ -1558,11 +1700,13 @@
 			id: "4913607330F5F4EC"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "5EB57043B450585C"
-				item: "rftoolsutility:featherfallingplus_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EB57043B450585C"
+					item: "rftoolsutility:featherfallingplus_module"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: -3.5625d
 		}
@@ -1571,11 +1715,13 @@
 			id: "6A9610C1416F1645"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "27ACD7F7F3EE8E96"
-				item: "rftoolsutility:blindness_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "27ACD7F7F3EE8E96"
+					item: "rftoolsutility:blindness_module"
+					type: "item"
+				}
+			]
 			x: 1.875d
 			y: -3.9375d
 		}
@@ -1584,11 +1730,13 @@
 			id: "3A513C2B34AB3BB3"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "28D82432193BEFA3"
-				item: "rftoolsutility:flight_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "28D82432193BEFA3"
+					item: "rftoolsutility:flight_module"
+					type: "item"
+				}
+			]
 			x: 2.625d
 			y: -4.6875d
 		}
@@ -1597,11 +1745,13 @@
 			id: "1EBB32E46391E666"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "2FC7849F30514A6D"
-				item: "rftoolsutility:luck_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FC7849F30514A6D"
+					item: "rftoolsutility:luck_module"
+					type: "item"
+				}
+			]
 			x: 4.875d
 			y: -3.9375d
 		}
@@ -1610,11 +1760,13 @@
 			id: "00FAD9B286CB5732"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "53F371F2D4BEF610"
-				item: "rftoolsutility:nightvision_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53F371F2D4BEF610"
+					item: "rftoolsutility:nightvision_module"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -3.5625d
 		}
@@ -1623,11 +1775,13 @@
 			id: "5223FB948583F913"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "3995C6B6C2360E65"
-				item: "rftoolsutility:noteleport_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3995C6B6C2360E65"
+					item: "rftoolsutility:noteleport_module"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: -4.3125d
 		}
@@ -1636,11 +1790,13 @@
 			id: "5D8944D58A1A2FD7"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "4AC31B6DF2F7442C"
-				item: "rftoolsutility:peaceful_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4AC31B6DF2F7442C"
+					item: "rftoolsutility:peaceful_module"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -3.5625d
 		}
@@ -1649,11 +1805,13 @@
 			id: "2982D4A3C5E45A5E"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "4ADE22CF544681C4"
-				item: "rftoolsutility:poison_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4ADE22CF544681C4"
+					item: "rftoolsutility:poison_module"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -4.3125d
 		}
@@ -1662,11 +1820,13 @@
 			id: "3D960BEB6B11EC3A"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "4B615EF80A20B5D0"
-				item: "rftoolsutility:regeneration_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4B615EF80A20B5D0"
+					item: "rftoolsutility:regeneration_module"
+					type: "item"
+				}
+			]
 			x: 5.625d
 			y: -3.9375d
 		}
@@ -1675,11 +1835,13 @@
 			id: "4ED306C175B9C6C1"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "25A61EE079017BF6"
-				item: "rftoolsutility:regenerationplus_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25A61EE079017BF6"
+					item: "rftoolsutility:regenerationplus_module"
+					type: "item"
+				}
+			]
 			x: 3.375d
 			y: -3.9375d
 		}
@@ -1688,11 +1850,13 @@
 			id: "249E6178A31A81D1"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "25D7A22B4FE5483C"
-				item: "rftoolsutility:saturation_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25D7A22B4FE5483C"
+					item: "rftoolsutility:saturation_module"
+					type: "item"
+				}
+			]
 			x: 5.25d
 			y: -4.3125d
 		}
@@ -1701,11 +1865,13 @@
 			id: "0AE888462A5B1B69"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "298797CBC0CDE666"
-				item: "rftoolsutility:saturationplus_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "298797CBC0CDE666"
+					item: "rftoolsutility:saturationplus_module"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -4.3125d
 		}
@@ -1714,11 +1880,13 @@
 			id: "18E56E5088EFC892"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "11F10841E9300C7F"
-				item: "rftoolsutility:slowness_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "11F10841E9300C7F"
+					item: "rftoolsutility:slowness_module"
+					type: "item"
+				}
+			]
 			x: 5.625d
 			y: -4.6875d
 		}
@@ -1727,11 +1895,13 @@
 			id: "157E5C14FF23FBA0"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "146C3E8C12054223"
-				item: "rftoolsutility:speed_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "146C3E8C12054223"
+					item: "rftoolsutility:speed_module"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -4.3125d
 		}
@@ -1740,11 +1910,13 @@
 			id: "1872AC8099251EAB"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "687C4A576322D894"
-				item: "rftoolsutility:speedplus_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "687C4A576322D894"
+					item: "rftoolsutility:speedplus_module"
+					type: "item"
+				}
+			]
 			x: 3.75d
 			y: -4.3125d
 		}
@@ -1753,11 +1925,13 @@
 			id: "0B627AA930E671B7"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "07477E483B738D9F"
-				item: "rftoolsutility:waterbreathing_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "07477E483B738D9F"
+					item: "rftoolsutility:waterbreathing_module"
+					type: "item"
+				}
+			]
 			x: 2.625d
 			y: -3.9375d
 		}
@@ -1766,20 +1940,22 @@
 			id: "7A74DD22397E9BBE"
 			shape: "diamond"
 			size: 0.75d
-			tasks: [{
-				id: "7C6B048C8E37E300"
-				item: "rftoolsutility:weakness_module"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C6B048C8E37E300"
+					item: "rftoolsutility:weakness_module"
+					type: "item"
+				}
+			]
 			x: 6.375d
 			y: -3.9375d
 		}
 		{
 			dependencies: ["22E15D3CC2162F60"]
 			description: [
-				"&5&dRF工具箱&f&r中的&b注射器&r是用于收集储存&9生物精华&r的工具,可用于制作&d刷怪蛋&r或生物相关模块."
+				"&5&dRF工具箱&f&r中的&b注射器&r是用于收集存储&9生物精华&r的工具,可用于制作&d刷怪蛋&r或生物相关模块."
 				""
-				"&n&b左键点击&r生物即可收集其精华.你"
+				"&n&b左键点击&r生物即可收集其精华"
 				""
 				""
 				"&7[The Syringe in RFTools is a tool used to collect and store mob essence, which can be used for various purposes such as creating spawn eggs or mob-based modules.]&f"
@@ -1787,46 +1963,52 @@
 				"&7[Left-click a mob with the syringe to collect its essence. You]&f"
 			]
 			id: "564E82070F5FFFB4"
-			tasks: [{
-				id: "77DACD314FAE856D"
-				item: "rftoolsutility:syringe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77DACD314FAE856D"
+					item: "rftoolsutility:syringe"
+					type: "item"
+				}
+			]
 			x: 5.1875d
 			y: -1.5625d
 		}
 		{
 			description: [
-				"&5XNet&r中的&bXNet控制器&r是网络管理核心单元,可精准灵活地控制物品、流体和能量的传输."
+				"&5XNet&r中的&bXNet控制器&r是管理配置XNet网络的核心单元,可精确灵活地控制物品、流体和能量的流动."
 				""
 				""
 				"&7[The XNet Controller in XNet is the central unit for managing and configuring your XNet network, allowing you to control the flow of items, fluids, and energy with precision and flexibility.]&f"
 			]
 			id: "0565F76E9C66AAA9"
-			tasks: [{
-				id: "17D4005D76E67749"
-				item: "xnet:controller"
-				type: "item"
-			}]
-			title: "xNet网络系统&7[xNet]&f"
+			tasks: [
+				{
+					id: "17D4005D76E67749"
+					item: "xnet:controller"
+					type: "item"
+				}
+			]
+			title: "xNet&7[xNet]&f"
 			x: -6.75d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0565F76E9C66AAA9"]
 			id: "5DD57CB33E11B8B9"
-			tasks: [{
-				id: "12BD48F2CF3DBD01"
-				item: "xnet:facade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "12BD48F2CF3DBD01"
+					item: "xnet:facade"
+					type: "item"
+				}
+			]
 			x: -5.75d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0565F76E9C66AAA9"]
 			description: [
-				"&5XNet&r中的&b有线路由器&r用于管理不同网段间的数据传输,&b无线路由器&r则支持XNet设备间的远距离无线通信."
+				"&5XNet&r中的&bXNet路由器&r用于管理不同网段间的流量导向,而&b无线路由器&r则支持XNet设备间的远距离无线通信."
 				""
 				""
 				"&7[The XNet Router in XNet is used to manage and direct traffic between different network segments, while the Wireless Router enables wireless communication between XNet devices over a distance.]&f"
@@ -1851,7 +2033,7 @@
 		{
 			dependencies: ["0565F76E9C66AAA9"]
 			description: [
-				"&5XNet&r中的&b&a红石代理器&f&r可实现网络内红石信号的远程控制,&b&a红石代理器升级版&f&r则增强了其功能与作用范围."
+				"&5XNet&r中的&bXNet &a红石代理器&f&r可实现XNet网络内红石信号的远程控制,&b&a红石代理器&f升级版&r则增强了其功能与作用范围."
 				""
 				""
 				"&7[The XNet Redstone Proxy in XNet allows for remote control of redstone signals within your XNet network, and the Redstone Proxy Update enhances its functionality and range.]&f"
@@ -1876,11 +2058,11 @@
 		{
 			dependencies: ["556F880BBB1729C1"]
 			description: [
-				"&5XNet&r中的&b天线&r、&b天线基座&r和&b天线碟&r是建立远距离无线通信网络的组件."
+				"&5XNet&r中的&bXNet天线&r、&b天线基座&r和&b天线碟&r是建立XNet网络长距离无线通信的组件."
 				""
-				"安装步骤:"
-				"1. 放置&b天线基座&r"
-				"2. 将&b天线碟&r安装至基座"
+				"安装方法:"
+				"1. 在世界中放置&b天线基座&r"
+				"2. 将&b天线碟&r安装到基座上"
 				"3. 配置&bXNet控制器&r与天线连接以扩展无线通信范围"
 				""
 				""

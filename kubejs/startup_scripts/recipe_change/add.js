@@ -18,14 +18,14 @@ StartupEvents.registry('item', (e) => {
 
   e.create('allthemodium_mesh')
     .tag('exdeorum:sieve_meshes')
-    .displayName('§6全钍筛网')
+    .displayName('§6全金属网')
     .maxStackSize(64)
     .texture('kubejs:item/allthemodium_mesh')
     .glow(true);
 
   e.create('vibranium_mesh')
     .tag('exdeorum:sieve_meshes')
-    .displayName('§a振金筛网')
+    .displayName('§a振金网')
     .maxStackSize(64)
     .texture('kubejs:item/vibranium_mesh')
     .glow(true);
@@ -72,7 +72,7 @@ StartupEvents.registry('item', (e) => {
 
   e.create('blaze_heart')
     .tag('kubejs:blaze_heart')
-    .displayName('§6烈焰人心')
+    .displayName('§6烈焰之心')
     .maxStackSize(64)
     .texture('kubejs:item/blaze_heart');
 
@@ -297,7 +297,7 @@ StartupEvents.registry('item', (e) => {
   //Chaotic Essence
   e.create('chaos_guardian_prediction')
     .maxStackSize(64)
-    .displayName('§5混沌守卫者预言')
+    .displayName('§5混沌守卫预言')
     .texture('kubejs:item/chaos_guardian_prediction')
     .glow(true)
     .tag('kubejs:chaos_guardian_prediction');
@@ -393,7 +393,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('starmetal_block')
-    .displayName('§1星辰金属块')
+    .displayName('§1星金属块')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
@@ -402,7 +402,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('empowered_super_block')
-    .displayName('§d强化超级方块')
+    .displayName('§d强化超级块')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
@@ -558,85 +558,61 @@ StartupEvents.registry('item', (e) => {
 StartupEvents.registry('item', (e) => {
   // Microminer Components
   e.create('components/basic_mining_laser').displayName('§e基础采矿激光器');
-  e.create('components/reinforced_mining_laser').displayName(
-    '§bReinforced Mining Laser'
-  );
-  e.create('components/supercharged_laser_array').displayName(
-    '§eSupercharged Laser Array'
-  );
-  e.create('components/basic_micro_miner_guidance_system').displayName(
-    '§eBasic Micro Miner Guidance System'
-  );
-  e.create('components/advanced_micro_miner_guidance_system').displayName(
-    '§eAdvanced Micro Miner Guidance System'
-  );
+  e.create('components/reinforced_mining_laser').displayName('§b强化采矿激光器');
+  e.create('components/supercharged_laser_array').displayName('§e超载激光阵列');
+  e.create('components/basic_micro_miner_guidance_system').displayName('§e基础微型矿工导航系统');
+  e.create('components/advanced_micro_miner_guidance_system').displayName('§e高级微型矿工导航系统');
   e.create('components/gem_sensor').displayName('宝石传感器');
   e.create('components/warp_engine').displayName('§d跃迁引擎');
-  e.create('components/universal_navigator').displayName(
-    '§dUniversal Navigator'
-  );
+  e.create('components/universal_navigator').displayName('§d通用导航仪');
   e.create('components/extradimensional_navigator')
     .displayName('§d次元导航仪')
-    .displayName('§d量子通量永恒重型镀层')
+    .displayName('§d量子通量永恒重型装甲板')
     .texture('kubejs:item/microverse_components/eternium_heavy_plating');
   e.create('universe_resistant_neutronium_heavy_plating')
-    .displayName('§d宇宙抗性中子重型镀层')
+    .displayName('§d宇宙抗性中子重型装甲板')
     .texture('kubejs:item/microverse_components/neutronium_heavy_plating');
   e.create('elementally_infused_matrix_heavy_plating')
-    .displayName('§d元素灌注矩阵重型镀层')
+    .displayName('§d元素灌注矩阵重型装甲板')
     .texture('kubejs:item/microverse_components/matrix_heavy_plating');
   e.create('dimensionally_stabilized_infinity_heavy_plating')
-    .displayName('§d维度稳定无限重型镀层')
+    .displayName('§d维度稳定无限重型装甲板')
     .texture('kubejs:item/microverse_components/infinity_heavy_plating');
   e.create('causality_lead_heavy_plating')
-    .displayName('§1铅质重型镀层')
+    .displayName('§1铅重型装甲板')
     .texture('kubejs:item/microverse_components/lead_heavy_plating');
   e.create('components/quantum_flux').displayName('§d量子通量');
 
   //Data
-  e.create('components/impossible_realm_data').displayName(
-    '§bImpossible Realm Data'
-  );
+  e.create('components/impossible_realm_data').displayName('§b不可能领域数据');
   e.create('components/dragon_lair_data').displayName('§d龙巢数据');
   e.create('components/wither_realm_data').displayName('§d凋灵领域数据');
   e.create('components/deep_dark_data').displayName('§d深邃黑暗数据');
-  e.create('components/lair_of_the_warden_data').displayName(
-    '§dLair Of The Warden Data'
-  );
-  e.create('components/stellar_creation_data').displayName(
-    '§bStellar Creation Data'
-  );
-  e.create('components/universe_creation_data').displayName(
-    '§dUniverse Creation Data'
-  );
-  e.create('components/shattered_star_data').displayName(
-    '§dShattered Star Data'
-  );
-  e.create('components/shattered_universe_data').displayName(
-    '§dShattered Universe Data'
-  );
-  e.create('components/corrupted_universe_data').displayName(
-    '§dCorrupted Universe Data'
-  );
+  e.create('components/lair_of_the_warden_data').displayName('§d监守者巢穴数据');
+  e.create('components/stellar_creation_data').displayName('§b恒星创造数据');
+  e.create('components/universe_creation_data').displayName('§d宇宙创生数据');
+  e.create('components/shattered_star_data').displayName('§d破碎星辰数据');
+  e.create('components/shattered_universe_data').displayName('§d破碎宇宙数据');
+  e.create('components/corrupted_universe_data').displayName('§d腐化宇宙数据');
 
   // End Game Data
   e.create('creative_tank_data')
-    .displayName('创造模式量子储罐数据')
+    .displayName('创造量子容器数据')
     .texture('kubejs:item/components/creative_tank_data');
   e.create('creative_storage_data')
-    .displayName('创造模式存储数据')
+    .displayName('创造存储数据')
     .texture('kubejs:item/components/creative_storage_data');
   e.create('creative_computation_data')
-    .displayName('创造模式运算数据')
+    .displayName('创造计算数据')
     .texture('kubejs:item/components/creative_computation_data');
   e.create('creative_energy_data')
-    .displayName('创造模式能量数据')
+    .displayName('创造能量数据')
     .texture('kubejs:item/components/creative_energy_data');
 });
 
 StartupEvents.registry('block', (e) => {
   e.create('warp_core')
-    .displayName('跃迁核心')
+    .displayName('曲速核心')
     .soundType('metal')
     .resistance(6)
     .hardness(5)
@@ -645,7 +621,7 @@ StartupEvents.registry('block', (e) => {
     .textureAll('kubejs:block/controller_core/warp_core');
 
   e.create('warp_controller')
-    .displayName('跃迁控制器')
+    .displayName('曲速控制器')
     .soundType('metal')
     .resistance(6)
     .hardness(5)
@@ -654,7 +630,7 @@ StartupEvents.registry('block', (e) => {
     .textureAll('kubejs:block/controller_core/warp_controller');
 
   e.create('universal_warp_core')
-    .displayName('通用跃迁核心')
+    .displayName('通用曲速核心')
     .soundType('metal')
     .resistance(6)
     .hardness(5)
@@ -663,7 +639,7 @@ StartupEvents.registry('block', (e) => {
     .textureAll('kubejs:block/controller_core/universal_warp_core');
 
   e.create('universal_warp_controller')
-    .displayName('通用跃迁控制器')
+    .displayName('通用曲速控制器')
     .soundType('metal')
     .resistance(6)
     .hardness(5)

@@ -230,18 +230,22 @@
 				}
 			}
 			id: "5316DF321B45D2CA"
-			rewards: [{
-				id: "042DA96F1C15434A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "042DA96F1C15434A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "4B0A4027FACE9108"
-				item: "occultism:datura_seeds"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4B0A4027FACE9108"
+					item: "occultism:datura_seeds"
+					type: "item"
+				}
+			]
 			title: "&d梦魇&r &c恶魔&r&7[Dreaming of Demons]&f"
 			x: 0.0d
 			y: 0.0d
@@ -249,41 +253,49 @@
 		{
 			dependencies: ["5316DF321B45D2CA"]
 			id: "6C1BBA559963B3DF"
-			rewards: [{
-				id: "3D748FF1571433F2"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "15CDE30E1F7EBAD5"
-				item: {
-					Count: 1
-					id: "occultism:dictionary_of_spirits"
-					tag: {
-						"modonomicon:book_id": "occultism:dictionary_of_spirits"
-					}
+			rewards: [
+				{
+					id: "3D748FF1571433F2"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
-			title: "&c恶魔&r秘典&7[Little Book o' Demons]&f"
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "15CDE30E1F7EBAD5"
+					item: {
+						Count: 1
+						id: "occultism:dictionary_of_spirits"
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&c恶魔&r小手册&7[Little Book o' Demons]&f"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C1BBA559963B3DF"]
 			id: "47358ADC1470C82A"
-			rewards: [{
-				id: "3BB86ECD39545201"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "准备好开始旅程&7[Get Ready for a Trip]&f"
-			tasks: [{
-				id: "0008773503CCA262"
-				item: "occultism:datura"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3BB86ECD39545201"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "准备踏上迷幻之旅&7[Get Ready for a Trip]&f"
+			tasks: [
+				{
+					id: "0008773503CCA262"
+					item: "occultism:datura"
+					type: "item"
+				}
+			]
 			title: "&c恶魔果实&r&7[Demon Fruit]&f"
 			x: 4.0d
 			y: 0.0d
@@ -307,22 +319,24 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "occultism:block/spirit_fire_1"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "occultism:block/spirit_fire_1"
+						}
 					}
+					id: "070E5E92D50F02D1"
+					observe_type: 0
+					timer: 0L
+					title: "{atm9.quest.occultism.observeSpiritfire}"
+					to_observe: "occultism:spirit_fire"
+					type: "observation"
 				}
-				id: "070E5E92D50F02D1"
-				observe_type: 0
-				timer: 0L
-				title: "{atm9.quest.occultism.observeSpiritfire}"
-				to_observe: "occultism:spirit_fire"
-				type: "observation"
-			}]
-			title: "&a异界&f&9之火&r&7[The Flames of The Otherworld]&f"
+			]
+			title: "&a异界&f的&9火焰&r&7[The Flames of The Otherworld]&f"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -369,20 +383,20 @@
 					type: "item"
 				}
 			]
-			title: "&d灵火&r转化&7[Spiritfire Conversions]&f"
+			title: "&d灵火&r转化术&7[Spiritfire Conversions]&f"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"恶魔喜欢蜡烛——至少我这么认为."
+				"恶魔喜欢蜡烛——我猜的."
 				""
-				"几乎每个召唤伙伴的&a魔法仪式&f都需要蜡烛.你可以制作&a&a屠刀&f&r宰杀猪、牛、羊、马甚至商贩羊驼来获取&a动物油脂&r制作蜡烛.说实话,你绝对该找商贩羊驼——听说它们产的蜡烛质量上乘.&m我才没有瞎编呢&r."
+				"几乎每个召唤伙伴的&a魔法仪式&f都需要蜡烛.你可以制作&a&a屠刀&f&r宰杀猪、牛、羊、马甚至商旅羊驼获取&a动物油脂&r制作蜡烛.说真的,你绝对该找商旅羊驼——听说它们产的蜡烛品质上佳.&m我才没有瞎编呢&r"
 				""
-				"当然,原版蜡烛也能用!"
+				"原版蜡烛也能用!"
 				""
-				"&9&a魔灵同调水晶&f&r也会用于多种仪式,不妨现在就准备些!"
+				"&9&a魔灵同调水晶&f&r在多个仪式中都会用到,不妨现在就准备些!"
 				""
 				""
 				"&7[Demons like Candles. I think.]&f"
@@ -433,13 +447,13 @@
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"在召唤恶魔伙伴前,我们需要制作仪式核心物品:&a粉笔&r."
+				"在请求恶魔相助前,我们需要制作仪式最重要的道具:&a粉笔&r"
 				""
-				"仪式需要多种颜色粉笔,高级仪式更需多种粉笔激活.入门级的&b&a白色粉笔&f&r最易获取."
+				"仪式需要多种颜色粉笔,高级仪式更需多种粉笔激活.首先最容易获取的是&b&a白色粉笔&f&r"
 				""
-				"先将异界石熔炼,再将异界木投入&d灵火&r.用获得的材料即可制作&a粗制白粉笔&f."
+				"将异界石放入熔炉烧制,异界木投入&d灵火&r燃烧,用获得的材料即可制作&a粗制白垩笔&f"
 				""
-				"净化粉笔只需将其投入&d灵火&r.使用&a纯净粉笔&f在地面绘制&m恶魔&r符文——这些图案极难&a清除&f,除非制作&a&a粉笔擦&f&r.动手吧,物超所值."
+				"净化粉笔只需将其投入&d灵火&r.使用&a纯化&f后的粉笔可在地面绘制&m恶魔&r符文——这些印记&a难以清除&f,除非制作&a&a粉笔擦&f&r.赶紧做一个,绝对值"
 				""
 				""
 				"&7[Before we start enlisting the help of our Demon friends, we will need to create the most important item needed for Rituals: Chalk.]&f"
@@ -487,11 +501,11 @@
 			description: [
 				"没有&c祭品&r的恶魔&a魔法仪式&f算什么！:D"
 				""
-				"多数时候恶魔只要物品,不必过于担心.但如果你有爱宠奶牛,可能得做好心理准备——抱歉了贝琪."
+				"多数时候恶魔只要物品就行,不必太害怕.但如果你有珍爱的牛……抱歉了贝琪"
 				""
-				"&a祭坛碗&r用于盛放仪式所需物品,可放置于仪式区域内任意位置,只要不覆盖粉笔图案."
+				"&a祭坛碗&r用于盛放仪式所需物品,可放置在仪式区域内任意位置,只要不覆盖粉笔符文"
 				""
-				"&e&a黄金祭坛碗&f&r需置于&a魔法仪式&f中心激活仪式,通常还需放入灵魂契约之书."
+				"&e&a黄金祭坛碗&f&r置于&a魔法仪式&f中心用于激活仪式,通常还需放入一本束缚之书"
 				""
 				""
 				"&7[What is a Demonic Ritual without a Sacrifice! :D]&f"
@@ -525,9 +539,9 @@
 		{
 			dependencies: ["4C873491F6F0FFAF"]
 			description: [
-				"为指定召唤某位&c&m恶魔&r&9伙伴&r,需制作特定的&b灵魂契约书&r."
+				"为召唤特定&c&m恶魔&r &9伙伴&r,我们需要制作对应的&b束缚之书&r"
 				""
-				"制作需将&a黑色染料&f投入&d灵火&r净化为&a纯净墨水&f,由此可制作首本契约书召唤&a弗利奥特&r恶魔."
+				"制作需将&a黑色染料&f投入&d灵火&r净化为&a纯净墨液&f,由此制作的首本束缚之书可召唤&a佛里奥特&r恶魔"
 				""
 				""
 				"&7[For us to specify which Demon Friend we want to summon, we'll need to make a specific Book of Binding.]&f"
@@ -536,11 +550,13 @@
 			]
 			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
-			rewards: [{
-				id: "536B2ACB55CC979E"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					id: "536B2ACB55CC979E"
+					type: "xp"
+					xp: 20
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -554,7 +570,7 @@
 					type: "item"
 				}
 			]
-			title: "&b灵魂契约&r&d之书&r&7[Books of Binding]&f"
+			title: "&b束缚之书&r&7[Books of Binding]&f"
 			x: 11.5d
 			y: -1.0d
 		}
@@ -574,11 +590,13 @@
 			}
 			id: "4F35D04721DFC9FF"
 			min_width: 300
-			rewards: [{
-				id: "0BAC09BCF9644834"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0BAC09BCF9644834"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -615,24 +633,26 @@
 					type: "item"
 				}
 			]
-			title: "&b首次&r&d仪式&r&7[Our First Ritual]&f"
+			title: "&b首次&r &d仪式&r&7[Our First Ritual]&f"
 			x: 12.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7174A0CEC5CCC53B"]
 			description: [
-				"现在我们已经有了弗洛特粉碎者,可以礼貌地请求&r它为我们粉碎一些&e末地石&r和&9黑曜石&r.我们将用这些材料制作新型粉笔!"
+				"现在有了佛里奥特粉碎者,我们可以&m使唤&r它礼貌地帮忙粉碎&e末地石&r和&9黑曜石&r,用以制作新型粉笔"
 				""
 				""
 				"&7[Now that we have a Foliot Crusher, we can use politely ask it to crush down some End Stone and Obsidian for us. We'll use these to make some new Chalk!]&f"
 			]
 			id: "1DE0F289821F55D1"
-			rewards: [{
-				id: "1B9CD287CB41E0E8"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "1B9CD287CB41E0E8"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -647,20 +667,20 @@
 					type: "item"
 				}
 			]
-			title: "&a粉笔制作入门&r&7[Chalking It Up]&f"
+			title: "&a粉笔进阶&r&7[Chalking It Up]&f"
 			x: 12.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4F35D04721DFC9FF"]
 			description: [
-				"看,它们并不全是坏的!"
+				"看吧,它们并不全是坏的!"
 				""
-				"如果你正确完成了&a魔法仪式&f,现在就会拥有专属的&c弗洛特粉碎恶魔&r.这些恶魔非常擅长为你粉碎物品!"
+				"如果你正确完成了&a魔法仪式&f,现在就会拥有专属的&c弗利奥特粉碎恶魔&r.这些恶魔擅长为你粉碎物品!"
 				""
-				"只需将需要粉碎的物品扔到它附近,它就会拾起并粉碎.你也可以潜行&a右击&f恶魔打开物品栏界面."
+				"要让它粉碎物品,只需将物品扔到附近,它会拾起并粉碎.你也可以潜行&a右击&f恶魔打开物品栏."
 				""
-				"这是初级恶魔,所以持续时间不长.这个恶魔还能使你的矿石产出翻倍!"
+				"这是入门级恶魔,持续时间不长,但它还能使你的矿石产出翻倍!"
 				""
 				""
 				"&7[See, they aren't all bad!]&f"
@@ -681,29 +701,33 @@
 			}
 			id: "7174A0CEC5CCC53B"
 			progression_mode: "linear"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79159F5C77200118"
-				table_id: 487623848494439020L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79159F5C77200118"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 1.25d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "occultism:item/advancement/devil_icon"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "occultism:item/advancement/devil_icon"
+						}
 					}
+					id: "034F6D98DA7900BD"
+					observe_type: 5
+					timer: 0L
+					title: "{atm9.quest.occultism.observeFoliot}"
+					to_observe: "occultism:foliot"
+					type: "observation"
 				}
-				id: "034F6D98DA7900BD"
-				observe_type: 5
-				timer: 0L
-				title: "{atm9.quest.occultism.observeFoliot}"
-				to_observe: "occultism:foliot"
-				type: "observation"
-			}]
+			]
 			title: "&a与新朋友对话!&r&7[Talking with our New Friend!]&f"
 			x: 12.5d
 			y: 4.0d
@@ -711,11 +735,13 @@
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			id: "08B1A64B01A8A604"
-			rewards: [{
-				id: "31005015E3D07048"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "31005015E3D07048"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -761,11 +787,11 @@
 			description: [
 				"不,不是那种意思."
 				""
-				"&c阿弗里特恶魔&r是掌控&c火焰&r的恶魔.它们是更高级的恶魔,其中有些是友善的,有些则...并非如此."
+				"&c阿弗里特恶魔&r是&c火焰&r恶魔.它们是更高级的恶魔,有些是友善的,有些则...并非如此."
 				""
-				"若要收集所有粉笔类型,我们需要召唤一个不太友善的伊弗里特并将其击杀."
+				"若要集齐所有粉笔,我们需要召唤不太友善的伊夫利特并消灭它."
 				""
-				"这个特定的&a魔法仪式&f需要活体献祭.当你将所有所需物品和束缚之书放入&a黄金献祭碗&f后,&a仪式&f需要献祭附近的生物才会启动.这次我们将献祭一头牛.再次抱歉,贝琪."
+				"这个特定的&a魔法仪式&f需要活体祭品.当你将所有所需物品和束缚之书放入&a黄金献祭之碗&f后,&a魔法仪式&f需献祭附近的活物才会启动.这里我们将用牛作为祭品.再次抱歉,贝琪."
 				""
 				""
 				"&7[No, not that kind.]&f"
@@ -826,11 +852,17 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "1E44A3F521ED5DFC"
-				item: "occultism:soul_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E44A3F521ED5DFC"
+					item: {
+						Count: 1
+						id: "occultism:soul_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "&d空灵宝石&r&7[Empty Soul Gem]&f"
 			x: 7.0d
 			y: 5.5d
@@ -838,9 +870,9 @@
 		{
 			dependencies: ["1DE0F289821F55D1"]
 			description: [
-				"你还需要收集更多异界物品,每次需要&7&a第三只眼&f&r效果时都吃&c&a魔鬼之梦果&f&r实在太麻烦了."
+				"你还需要收集更多异界物品,每次需要&7&a第三只眼&f&r效果时都吃&c&a魔鬼之梦果&f&r实在太麻烦."
 				""
-				"这就是&d异界护目镜&r的用途!装备时(即使放在饰品栏),它能持续提供&a第三只眼&f效果!"
+				"这就是&d异界护目镜&r的用途!装备时(即使放在饰品栏),它能提供&a第三只眼&f效果!"
 				""
 				""
 				"&7[There are more Otherworld items you will need to gather, and eating Demon's Dream Fruit every time you need the Third Eye effect gets annoying.]&f"
@@ -861,17 +893,19 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "1ED2F7B4B900BDD1"
-				item: {
-					Count: 1
-					id: "occultism:otherworld_goggles"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1ED2F7B4B900BDD1"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_goggles"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "别再吃那个水果了!&7[Quit Eating That Fruit!]&f"
 			x: 11.0d
 			y: 8.0d
@@ -880,16 +914,20 @@
 			icon: "occultism:iesnium_ore"
 			id: "33106E24A3B5DDD8"
 			min_width: 450
-			rewards: [{
-				id: "5D7A367FA795C5B3"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "2C341B16967645C9"
-				item: "occultism:iesnium_ore"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5D7A367FA795C5B3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2C341B16967645C9"
+					item: "occultism:iesnium_ore"
+					type: "item"
+				}
+			]
 			title: "&c伊瑟尼姆:异界矿石&r&7[Iesnium: Ore of the Otherworld]&f"
 			x: 12.5d
 			y: 11.5d
@@ -897,9 +935,9 @@
 		{
 			dependencies: ["33106E24A3B5DDD8"]
 			description: [
-				"收集到一些&a粗&a艾瑟金属矿石&f&r后,你可能会想用最初获得的锭制作&d&a艾瑟金属镐&f&r.它不仅像&a灌注镐&f一样能开采伊瑟尼姆,耐久度也更高."
+				"收集到一些&a粗&a艾瑟金属矿石&f&r后,你可能会想用首批锭制作&d&a艾瑟金属镐&f&r.它不仅像&a灌注镐&f一样能挖掘伊瑟尼姆,耐久度还更高."
 				""
-				"给自己行个方便,做一把吧!"
+				"给自己行个方便,造一把吧!"
 				""
 				""
 				"&7[Once you've gathered a few Raw Iesnium Ores, you'll probably want to use the first few ingots to make an Iesnium Pickaxe. This not only mines Iesnium like the Infused Pickaxe, but lasts a lot longer too.]&f"
@@ -920,17 +958,19 @@
 					type: "loot"
 				}
 			]
-			tasks: [{
-				id: "7FC0ED5732DFDCF2"
-				item: {
-					Count: 1
-					id: "occultism:iesnium_pickaxe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7FC0ED5732DFDCF2"
+					item: {
+						Count: 1
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "&a异界镐&r&7[The Otherworld Pickaxe]&f"
 			x: 12.5d
 			y: 9.5d
@@ -941,9 +981,9 @@
 				"145C8235BCCB9BA8"
 			]
 			description: [
-				"最初的弗洛特恶魔虽好,但若告诉你存在能每块原矿产出6份粉末的恶魔呢？"
+				"最初的弗利奥特恶魔不错,但若告诉你存在能每颗粗矿产出6份粉末的恶魔呢？"
 				""
-				"&5玛里德粉碎者&r正是如此.召唤它们需要使用&c&a法特玛极效引诱&f&r法阵.这是高级仪式,需要红、白和&a金色粉笔&f,且需要较大空间."
+				"&5玛里德粉碎者&r正是如此.召唤它们需使用&c&a法特玛极效引诱&f&r五芒星阵.这是高级仪式,需要红、白和&a金色粉笔&f以及宽敞空间."
 				""
 				""
 				"&7[That first Foliot Demon was cool, but what if I told you that you could summon a demon that gives you 6 dusts per raw ore it crushes?]&f"
@@ -968,7 +1008,7 @@
 			]
 			shape: "square"
 			size: 1.25d
-			subtitle: "&a密西西比河畔的快速&f粉碎&7[The Fastest Crushing On This Side of the Mississippi]&f"
+			subtitle: "&a密西西比河畔的急速粉碎&f&7[The Fastest Crushing On This Side of the Mississippi]&f"
 			tasks: [
 				{
 					id: "5E80B6869FE42D9F"
@@ -1010,11 +1050,11 @@
 		{
 			dependencies: ["57282D7E31EE61EE"]
 			description: [
-				"获得采集&c伊瑟尼姆&r的能力后,我们可以召唤恶魔在矿洞中效劳...我是说...帮我们收集矿石.这绝对不是在剥削恶魔."
+				"掌握采集&c伊瑟尼姆&r的能力后,我们可以驱使恶魔在矿洞效劳...我是说...帮我们收集矿石.这绝对不是在剥削恶魔."
 				""
-				"为此需要创建&d&a维度矿井&f&r进入恶魔采矿世界.还需将困在灯中的采矿恶魔放入矿井结构内才能运作.虽然任意等级的恶魔都能完成任务,但高阶恶魔效率更高,且采集伊瑟尼姆的概率更大."
+				"为此需建造&d&a维度矿井&f&r进入恶魔采矿世界.还需将采矿恶魔封入灯中放置在矿井内才能运作.任何等级的恶魔都能完成任务,但高阶恶魔效率更高,采集伊瑟尼姆的几率也更大."
 				""
-				"&a矿井&f不会自动输出物品.需要使用漏斗、运输恶魔或其他方式(如物品管道)提取物品.超出存储限制的物品会被销毁."
+				"&a矿井&f不会自动输出物品.需使用漏斗、运输恶魔或其他方式(如物品管道)提取物品.超出存储限制的物品将被销毁."
 				""
 				""
 				"&7[With our ability to harvest Iesnium, we can call upon the Demons to do our bidding in the mines... I mean.... help us gather ores. Definitely not exploiting Demons or anything.]&f"
@@ -1183,34 +1223,36 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "51F520BF7DA37873"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "occultism:storage_stabilizer_tier1"
-							}
-							{
-								Count: 1b
-								id: "occultism:storage_stabilizer_tier2"
-							}
-							{
-								Count: 1b
-								id: "occultism:storage_stabilizer_tier3"
-							}
-							{
-								Count: 1b
-								id: "occultism:storage_stabilizer_tier4"
-							}
-						]
+			tasks: [
+				{
+					id: "51F520BF7DA37873"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:storage_stabilizer_tier1"
+								}
+								{
+									Count: 1b
+									id: "occultism:storage_stabilizer_tier2"
+								}
+								{
+									Count: 1b
+									id: "occultism:storage_stabilizer_tier3"
+								}
+								{
+									Count: 1b
+									id: "occultism:storage_stabilizer_tier4"
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			title: "&a升级我们的魔法存储&r&7[Upgrading Our Magical Storage]&f"
 			x: 18.0d
 			y: 5.5d
@@ -1218,11 +1260,17 @@
 		{
 			dependencies: ["3D41D0092D94636B"]
 			id: "78ECC28DD4BA9696"
-			tasks: [{
-				id: "13EAA435B27EA29D"
-				item: "occultism:divination_rod"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13EAA435B27EA29D"
+					item: {
+						Count: 1
+						id: "occultism:divination_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "寻找&d异界&r材料&7[Hunting For Otherworld Materials]&f"
 			x: 6.0d
 			y: -1.5d
@@ -1260,13 +1308,21 @@
 			tasks: [
 				{
 					id: "792FA8ED0719803C"
-					item: "occultism:stable_wormhole"
+					item: {
+						Count: 1
+						id: "occultism:stable_wormhole"
+						tag: { }
+					}
 					match_nbt: false
 					type: "item"
 				}
 				{
 					id: "2ED65EBA5FFE2C2E"
-					item: "occultism:storage_remote"
+					item: {
+						Count: 1
+						id: "occultism:storage_remote"
+						tag: { }
+					}
 					match_nbt: false
 					type: "item"
 				}
@@ -1299,16 +1355,20 @@
 				}
 			}
 			id: "7F59941D62E672B0"
-			rewards: [{
-				id: "1FEDC70622D3F66B"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6C3887D42B6B2122"
-				title: "{atm9.quest.occultism.familiars.1}"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "1FEDC70622D3F66B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6C3887D42B6B2122"
+					title: "{atm9.quest.occultism.familiars.1}"
+					type: "checkmark"
+				}
+			]
 			title: "&d使魔&r&7[Familiars]&f"
 			x: 8.5d
 			y: 7.0d

@@ -45,18 +45,22 @@
 				"&7[\"Your entire base's inventory - one wireless terminal away\"]&f"
 			]
 			id: "0AA72D6706542CA6"
-			rewards: [{
-				id: "7DD6D42829FF4FB8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7DD6D42829FF4FB8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "095C87F6F730A3A4"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "095C87F6F730A3A4"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			title: "&5&d应用能源2&f&r&7[Applied Energistics 2]&f"
 			x: 0.0d
 			y: 0.0d
@@ -78,23 +82,27 @@
 				"&7[\"Silent ME network architect tools\"]&f"
 			]
 			id: "4EF01E6BA6182A27"
-			rewards: [{
-				id: "7A537FC71C354647"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "48A651940AED347B"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:quartz_wrench"
-					}
+			rewards: [
+				{
+					id: "7A537FC71C354647"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "扳手"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "48A651940AED347B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:quartz_wrench"
+						}
+					}
+					title: "扳手"
+					type: "item"
+				}
+			]
 			title: "&9扳手&r&7[Wrenches]&f"
 			x: 2.0d
 			y: 0.0d
@@ -102,12 +110,12 @@
 		{
 			dependencies: ["0AA72D6706542CA6"]
 			description: [
-				"一个专用方块,可快速为&5AE2供电设备&r(如无线终端和&a便携元件&f)充电.直接连接到&5ME网络&r,并以&e3倍&r于正常&a充电&f速度运行."
+				"专为快速补充&5AE2设备&r能源设计,支持无线终端和&a便携元件&f.直连&5ME网络&r时以&e3倍&r于常规&a充电&f速度运行."
 				""
 				"&a✔&r比手动充电更快"
-				"&a✔&r可实现自动化&a充电&f"
-				"&c!&r需要持续的&5ME网络&r供电"
-				"您还可以为赛特斯石英晶体充电"
+				"&a✔&r支持自动化&a充电&f"
+				"&c!&r需持续&5ME网络&r供电"
+				"亦可为赛特斯石英水晶充电"
 				""
 				""
 				"&7[A dedicated block that rapidly recharges AE2-powered devices like Wireless Terminals and Portable Cells. Connects directly to ME Networks and operates at 3× normal charging speed.]&f"
@@ -118,17 +126,21 @@
 				"&7[You also can charge Certus Quarzt Crystals]&f"
 			]
 			id: "4C57DF99E9A0BF6A"
-			rewards: [{
-				id: "0062435F2F48B9A8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "705FA8B4FEC38F78"
-				item: "ae2:charger"
-				type: "item"
-			}]
-			title: "&b充能器&r&7[Charger ]&f"
+			rewards: [
+				{
+					id: "0062435F2F48B9A8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "705FA8B4FEC38F78"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			title: "&b充电器&r&7[Charger ]&f"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -167,16 +179,20 @@
 				"&7[! One-way conversion only (cannot extract AE2 power as RF/FE)]&f"
 			]
 			id: "19F70C37419802B0"
-			rewards: [{
-				id: "1C5F3A25320244BF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "688156C4EB3D71FD"
-				item: "ae2:energy_acceptor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1C5F3A25320244BF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "688156C4EB3D71FD"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+			]
 			title: "&b&a能源接收器&f &r&7[Energy Acceptor ]&f"
 			x: 2.5d
 			y: 2.0d
@@ -218,20 +234,30 @@
 				"&7[Works with P2P Tunnels]&f"
 			]
 			id: "57BA62BB010D870C"
-			rewards: [{
-				id: "2188E8DE811807D4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2188E8DE811807D4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "53D657AD713C82AF"
-					item: "ae2:energy_cell"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "53A1E6C4999E6318"
-					item: "ae2:dense_energy_cell"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -248,16 +274,20 @@
 				"&7[Energy cards add more energy storage to certain tools like portable terminals, and make Vibration Chambers more efficient.]&f"
 			]
 			id: "6504C8B99E8C47A5"
-			rewards: [{
-				id: "64D3C0A050094962"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1C576B49EC3C6444"
-				item: "ae2:energy_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "64D3C0A050094962"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C576B49EC3C6444"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 2.0d
 		}
@@ -270,16 +300,20 @@
 				"&7[A vibrant purple crystal used as a core component in AE2 recipes. Naturally generates in the world but can also be crafted by combining Certus Quartz, Redstone, and Nether Quartz in water.]&f"
 			]
 			id: "42BF0D7E017F718B"
-			rewards: [{
-				id: "4F112DC88F4294BB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "04726FE341F5C206"
-				item: "ae2:fluix_crystal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F112DC88F4294BB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04726FE341F5C206"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
@@ -292,23 +326,27 @@
 				"&7[The ME Glass Cable is the most basic type of cable used to connect devices in an ME Network. It can carry up to 8 channels, making it suitable for small to medium-sized networks. This cable is essential for initial network setups and is often used as the backbone of the network.]&f"
 			]
 			id: "5AF160257BEEF682"
-			rewards: [{
-				id: "36691B5458522E92"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0FF0E33F047C173A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:glass_cable"
-					}
+			rewards: [
+				{
+					id: "36691B5458522E92"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "玻璃电缆"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0FF0E33F047C173A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+					title: "玻璃电缆"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 2.0d
 		}
@@ -321,23 +359,27 @@
 				"&7[The Covered Cable is an upgraded version of the ME Glass Cable. It also supports up to 8 channels but provides additional protection and durability. Covered Cables can be further upgraded to Dense Covered Cables.]&f"
 			]
 			id: "3623D4179724500D"
-			rewards: [{
-				id: "166147866EEAE0A5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0FAF29A93AB26BB8"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:covered_cable"
-					}
+			rewards: [
+				{
+					id: "166147866EEAE0A5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "包覆电缆"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0FAF29A93AB26BB8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+					title: "包覆电缆"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 4.5d
 		}
@@ -350,23 +392,27 @@
 				"&7[The Dense Covered Cable can carry up to 32 channels, making it ideal for larger and more complex networks. This type of cable is used for the main data trunks where a higher channel capacity is required. Due to its high capacity, Dense Cables are perfect for connecting to an ME Controller or distributing channels to multiple sub-networks.]&f"
 			]
 			id: "495ED54AC102B1FD"
-			rewards: [{
-				id: "0FD27301E4E28D77"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CAFAD588028F497"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:covered_dense_cable"
-					}
+			rewards: [
+				{
+					id: "0FD27301E4E28D77"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "密集包覆电缆"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "2CAFAD588028F497"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+					title: "密集包覆电缆"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 6.5d
 		}
@@ -387,11 +433,13 @@
 				"&7[Additionally, the knife can craft Inscriber Name Presses by right-clicking to open a GUI. These presses can rename items in an Inscriber, with two presses combining their names in sequence.]&f"
 			]
 			id: "295618B74C1FED6C"
-			rewards: [{
-				id: "389B1B3D0F0AB2EA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "389B1B3D0F0AB2EA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2B5F09CD533709A9"
@@ -412,7 +460,11 @@
 				}
 				{
 					id: "02FDDE6423A3F341"
-					item: "ae2:name_press"
+					item: {
+						Count: 1
+						id: "ae2:name_press"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -428,23 +480,27 @@
 				"&7[The ME Smart Cable functions similarly to Covered Cable but with an added feature. It can carry up to 8 channels and visually displays the number of channels being used with colored lines along the cable. This visualization helps in managing and optimizing the network.]&f"
 			]
 			id: "72BC8C4941732A6E"
-			rewards: [{
-				id: "083EAAFB5BF0D277"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2195343241355CBD"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:smart_cable"
-					}
+			rewards: [
+				{
+					id: "083EAAFB5BF0D277"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "智能电缆"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "2195343241355CBD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "智能电缆"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 4.5d
 		}
@@ -457,23 +513,27 @@
 				"&7[The Dense Smart Cable works like Dense Covered Cable but includes a visual display of the channels being used. It can carry up to 32 channels, providing a clear view of network usage. These cables are excellent for monitoring large networks and ensuring efficient channel distribution.]&f"
 			]
 			id: "6AB8E0C6EBB47F90"
-			rewards: [{
-				id: "44399E1B5F6AEF83"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18121C66F20142F4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:smart_dense_cable"
-					}
+			rewards: [
+				{
+					id: "44399E1B5F6AEF83"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "密集智能电缆"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "18121C66F20142F4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "密集智能电缆"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 6.5d
 		}
@@ -486,16 +546,24 @@
 				"&7[Cable Colorer]&f"
 			]
 			id: "3A17AE55B0F3B543"
-			rewards: [{
-				id: "4B92718FDCDA5FAD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57799035C0B45D53"
-				item: "ae2:color_applicator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4B92718FDCDA5FAD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "57799035C0B45D53"
+					item: {
+						Count: 1
+						id: "ae2:color_applicator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 0.0d
 		}
@@ -540,11 +608,13 @@
 				"&7[\"From simple storage to quantum computing\"]&f"
 			]
 			id: "750B10A7ADE8DE08"
-			rewards: [{
-				id: "14A42D5EC0CC46D8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "14A42D5EC0CC46D8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0F4F69ADEC8D41F6"
@@ -578,11 +648,13 @@
 				"&7[The ME Crafting Terminal is an enhanced version that includes a crafting grid, enabling convenient crafting using any network-contained items visible through the terminal.]&f"
 			]
 			id: "16C065EA59F9F415"
-			rewards: [{
-				id: "3949CCB9BFF7B7C2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3949CCB9BFF7B7C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0540671AA07AC5D7"
@@ -607,16 +679,20 @@
 				"&7[A handheld diagnostic device for analyzing and configuring ME networks. Used to check connections, identify channel usage, and troubleshoot system components. Visually displays network links when right-clicking cables or devices.]&f"
 			]
 			id: "7D26915C5E25FE03"
-			rewards: [{
-				id: "00D827617D832657"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "734A1913B5E4AA9B"
-				item: "ae2:network_tool"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "00D827617D832657"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "734A1913B5E4AA9B"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 6.5d
 		}
@@ -656,16 +732,20 @@
 				"&7[\"Where quantum logistics begin\"]&f"
 			]
 			id: "5D343A8BA24FA327"
-			rewards: [{
-				id: "03AE45267E50674D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "196EFD1B878FA880"
-				item: "ae2:controller"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "03AE45267E50674D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "196EFD1B878FA880"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
 			title: "&5&aME控制器&f&r&7[ME Controller]&f"
 			x: -2.0d
 			y: 6.5d
@@ -695,16 +775,20 @@
 				"&7[Terminals]&f"
 			]
 			id: "7FD3236DCC28E77E"
-			rewards: [{
-				id: "021095239969F926"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69DC460CA9DBFE47"
-				title: "频道信息"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "021095239969F926"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69DC460CA9DBFE47"
+					title: "频道信息"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.5d
 		}
@@ -757,11 +841,13 @@
 				"&7[\"From physical storage to quantum access\"]&f"
 			]
 			id: "0942C0CC13ABAF70"
-			rewards: [{
-				id: "0789D9EFF057885F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0789D9EFF057885F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "77BA60B884FBED8C"
@@ -787,16 +873,20 @@
 				"&7[A dual-purpose block that transfers items between physical inventories (chests, machines) and your ME network. It can import/export items and swap Storage Cells in drives without breaking the network connection. Connects via ME cables and requires power.]&f"
 			]
 			id: "6F3C4259ECFFAC99"
-			rewards: [{
-				id: "3740B3C7164B69B2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3B565947E39D3370"
-				item: "ae2:io_port"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3740B3C7164B69B2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B565947E39D3370"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 8.0d
 		}
@@ -813,16 +903,20 @@
 				"&7[Additionally, cells can have their priority adjusted via the workbench, determining if they receive items first or wait until higher-priority cells are filled.]&f"
 			]
 			id: "3DA71E83EE2BAB7C"
-			rewards: [{
-				id: "7130F6056F601137"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "77CF0C516B002A19"
-				item: "ae2:cell_workbench"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7130F6056F601137"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77CF0C516B002A19"
+					item: "ae2:cell_workbench"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 9.0d
 		}
@@ -835,17 +929,21 @@
 				"&7[The Overflow Destruction Card is an upgrade for storage cells that automatically delete any items of a type already contained within the cell if the cell is full, preventing overflow.]&f"
 			]
 			id: "62FD4E6D43FCC228"
-			rewards: [{
-				id: "6EED6EAA12567577"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6EED6EAA12567577"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "1221927EA6CE425A"
-				item: "ae2:void_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1221927EA6CE425A"
+					item: "ae2:void_card"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 8.0d
 		}
@@ -858,17 +956,21 @@
 				"&7[The Equal Distribution Card is a storage cell upgrade that pre-allocates a specific amount of items for each type, similar to a Functional Storage drawer, where each compartment holds a set number of stacks, preventing items from one type crowding out others.]&f"
 			]
 			id: "5C786EAC4B7CBEB4"
-			rewards: [{
-				id: "64E784835A847605"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "64E784835A847605"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "688899B4776824FE"
-				item: "ae2:equal_distribution_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "688899B4776824FE"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 9.0d
 		}
@@ -881,11 +983,13 @@
 				"&7[A block that enables wireless ME network access for devices like Wireless Terminals or ME Chests. Requires power and boosts signal strength for extended range.]&f"
 			]
 			id: "2AFDEEA844B0DC0B"
-			rewards: [{
-				id: "53ADB8F3C0BA2951"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53ADB8F3C0BA2951"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "32D239674C3F886B"
@@ -910,11 +1014,13 @@
 				"&7[A portable device that provides wireless access to your ME network inventory and crafting system. Requires connection to a powered Wireless Access Point and consumes energy during use.]&f"
 			]
 			id: "4D278F1E4C68E29D"
-			rewards: [{
-				id: "2718BC192C38D586"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2718BC192C38D586"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "18B050467523B0F0"
@@ -947,11 +1053,13 @@
 				"&7[A dense sphere of compressed matter created by the Matter Condenser when processing 1,000 units of any item.]&f"
 			]
 			id: "487D717B87795D2F"
-			rewards: [{
-				id: "7E3DFC7CFC06BC1D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E3DFC7CFC06BC1D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0E7F4B0C33E15CCD"
@@ -980,11 +1088,13 @@
 				"&7[To see its true potential, throw the singularity on the ground with a piece of Ender Dust. This will cause some damage to the surroundings, but AE2 offers Tiny TNT to minimize the impact.]&f"
 			]
 			id: "47F7DC87790D5064"
-			rewards: [{
-				id: "253DA70539924343"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "253DA70539924343"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "022E1F4B2E0634A4"
@@ -1029,28 +1139,39 @@
 				"&7[A crafted singularity that synchronizes two Quantum Rings across dimensions, enabling cross-dimensional ME networks. Created by combining 4 Singularities in an ME Condenser.]&f"
 			]
 			id: "726DF1B2F0DFE008"
-			rewards: [{
-				id: "1BE45BC3BB71B77E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BE45BC3BB71B77E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 16L
 					id: "7284539577CF2E58"
-					item: { Count: 16, id: "ae2:quantum_ring" }
+					item: {
+						Count: 16
+						id: "ae2:quantum_ring"
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "32C4B5F6070FD102"
-					item: { Count: 2, id: "ae2:quantum_link" }
+					item: {
+						Count: 2
+						id: "ae2:quantum_link"
+					}
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "3F7AB9FC2455B492"
-					item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+					item: {
+						Count: 2
+						id: "ae2:quantum_entangled_singularity"
+					}
 					type: "item"
 				}
 			]
@@ -1066,16 +1187,20 @@
 				"&7[The ME Storage Component is a vital item in the Applied Energistics 2 mod, used to store items within your ME Network.]&f"
 			]
 			id: "1F4EBEDFCB7ED937"
-			rewards: [{
-				id: "4043C7FB6A063D82"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "376A4BFFCE8BED9A"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4043C7FB6A063D82"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "376A4BFFCE8BED9A"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 11.5d
 		}
@@ -1104,11 +1229,13 @@
 			]
 			hide_dependency_lines: true
 			id: "2CE3008EE0CDFD64"
-			rewards: [{
-				id: "1E4E363F1684980D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E4E363F1684980D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "25BE72A3AE0FC180"
@@ -1122,7 +1249,11 @@
 				}
 				{
 					id: "27B0B4FAB919AA0E"
-					item: "ae2:matter_cannon"
+					item: {
+						Count: 1
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -1133,136 +1264,168 @@
 		{
 			dependencies: ["1F4EBEDFCB7ED937"]
 			id: "76D2365D82FEF9D4"
-			rewards: [{
-				id: "09BAFFFDF7BC3FC2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "09BAFFFDF7BC3FC2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "5987CF40825D5868"
-				item: "ae2:cell_component_4k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5987CF40825D5868"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["76D2365D82FEF9D4"]
 			id: "245FB107FCE683A1"
-			rewards: [{
-				id: "6BB56CE946F5F2EE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6BB56CE946F5F2EE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "627E847B9FE98A4D"
-				item: "ae2:cell_component_16k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "627E847B9FE98A4D"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["245FB107FCE683A1"]
 			id: "31B8C5427DEEF8F3"
-			rewards: [{
-				id: "5D8F29C33BE52159"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5D8F29C33BE52159"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "40A9AB7814C6E9D0"
-				item: "ae2:cell_component_64k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "40A9AB7814C6E9D0"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["31B8C5427DEEF8F3"]
 			id: "5699EBB38EE95725"
-			rewards: [{
-				id: "63A4C4126E940A7E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "63A4C4126E940A7E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "43A17D1480323673"
-				item: "ae2:cell_component_256k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43A17D1480323673"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5699EBB38EE95725"]
 			id: "2D3C0B94D4733949"
-			rewards: [{
-				id: "1E82595219811C76"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E82595219811C76"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "578E677738722389"
-				item: "ae2additions:cell_component_1024"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "578E677738722389"
+					item: "ae2additions:cell_component_1024"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["2D3C0B94D4733949"]
 			id: "65E554EA88D817EA"
-			rewards: [{
-				id: "071113E16C045158"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "071113E16C045158"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "245E3E20FC099F73"
-				item: "ae2additions:cell_component_4096"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "245E3E20FC099F73"
+					item: "ae2additions:cell_component_4096"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["65E554EA88D817EA"]
 			id: "3CF25E652ACE48CF"
-			rewards: [{
-				id: "473182EA6A19A00B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "473182EA6A19A00B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "468368C7C8143912"
-				item: "ae2additions:cell_component_16384"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "468368C7C8143912"
+					item: "ae2additions:cell_component_16384"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["3CF25E652ACE48CF"]
 			id: "609A534487771CEA"
-			rewards: [{
-				id: "60DE2ED8B9E645D3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "60DE2ED8B9E645D3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "68A8803CAC8A3892"
-				item: "ae2additions:cell_component_65536"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68A8803CAC8A3892"
+					item: "ae2additions:cell_component_65536"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 12.0d
 		}
@@ -1276,135 +1439,167 @@
 			]
 			id: "10A4748598F5EE60"
 			min_width: 400
-			rewards: [{
-				id: "26E811F1D76E1163"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "701F0AED4325D9DA"
-				item: "ae2additions:super_cell_component_1k"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "26E811F1D76E1163"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "701F0AED4325D9DA"
+					item: "ae2additions:super_cell_component_1k"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["10A4748598F5EE60"]
 			id: "77DC1140F9B8CF57"
-			rewards: [{
-				id: "67B81CC9053AB3C3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67B81CC9053AB3C3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "7D8CDCF84D4033E8"
-				item: "ae2additions:super_cell_component_4k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7D8CDCF84D4033E8"
+					item: "ae2additions:super_cell_component_4k"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["77DC1140F9B8CF57"]
 			id: "1D70EC9CB1B9157D"
-			rewards: [{
-				id: "7FE79A1E052090DC"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7FE79A1E052090DC"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "29AEAB1C4978FF6B"
-				item: "ae2additions:super_cell_component_16k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "29AEAB1C4978FF6B"
+					item: "ae2additions:super_cell_component_16k"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["1D70EC9CB1B9157D"]
 			id: "643A62446C505B29"
-			rewards: [{
-				id: "6CD6DBE412727DFB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6CD6DBE412727DFB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "41D499314A42F4CA"
-				item: "ae2additions:super_cell_component_64k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41D499314A42F4CA"
+					item: "ae2additions:super_cell_component_64k"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["643A62446C505B29"]
 			id: "0E43D8A769E9C13C"
-			rewards: [{
-				id: "6E25A581F078C159"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6E25A581F078C159"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "20F30A41C0C7A3F3"
-				item: "ae2additions:super_cell_component_256k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20F30A41C0C7A3F3"
+					item: "ae2additions:super_cell_component_256k"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["0E43D8A769E9C13C"]
 			id: "2EC5B0BFC8566621"
-			rewards: [{
-				id: "71263CFED36822E1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71263CFED36822E1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "59322B6B64BD595E"
-				item: "ae2additions:super_cell_component_1024k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59322B6B64BD595E"
+					item: "ae2additions:super_cell_component_1024k"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["2EC5B0BFC8566621"]
 			id: "2BA521A430A3DF7D"
-			rewards: [{
-				id: "491E80F0890B8AE4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "491E80F0890B8AE4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "580FB3B624B53EDE"
-				item: "ae2additions:super_cell_component_4096k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "580FB3B624B53EDE"
+					item: "ae2additions:super_cell_component_4096k"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["2BA521A430A3DF7D"]
 			id: "791B063470A312E7"
-			rewards: [{
-				id: "683DB0F2B3EBE231"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "683DB0F2B3EBE231"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "0D3E9E8CC55647CE"
-				item: "ae2additions:super_cell_component_16m"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0D3E9E8CC55647CE"
+					item: "ae2additions:super_cell_component_16m"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 14.0d
 		}
@@ -1425,11 +1620,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1DBD68E62A819C9D"
-				item: "ae2additions:super_cell_component_65m"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1DBD68E62A819C9D"
+					item: "ae2additions:super_cell_component_65m"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 14.5d
 		}
@@ -1454,16 +1651,24 @@
 				"&7[If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and right-click in the air with the cell in your hand.]&f"
 			]
 			id: "10EF77AB8EF3EEF7"
-			rewards: [{
-				id: "7D21BED0CE7896C0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F496136FB7F4856"
-				item: "ae2:item_storage_cell_1k"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7D21BED0CE7896C0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0F496136FB7F4856"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 14.0d
 		}
@@ -1488,16 +1693,24 @@
 				"&7[If you need to repurpose an empty cell, you can disassemble it back into its component parts and housing. To do this, sneak and right-click in the air with the cell in your hand.]&f"
 			]
 			id: "33F9C602D37216F5"
-			rewards: [{
-				id: "2587DB674757105F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "342645B7B0710A39"
-				item: "ae2additions:super_cell_1k"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2587DB674757105F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "342645B7B0710A39"
+					item: {
+						Count: 1
+						id: "ae2additions:super_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 16.5d
 		}
@@ -1514,25 +1727,39 @@
 				"&7[The key difference is that Portable Cells offer direct access to their contents without needing to be placed in a network. They function like a digital backpack, allowing you to access your stored items anytime, anywhere by simply using the cell item itself. This makes them an excellent choice for mobile storage and quick item retrieval on the go.]&f"
 			]
 			id: "7B1E1AF7188B1A2E"
-			rewards: [{
-				id: "4117A616E5985470"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4117A616E5985470"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00382ED41548D4E7"
-					item: "ae2:portable_item_cell_1k"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_1k"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "53F50768DD41E097"
-					item: "ae2:portable_fluid_cell_1k"
+					item: {
+						Count: 1
+						id: "ae2:portable_fluid_cell_1k"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0962C81A579F5D3C"
-					item: "appmek:portable_chemical_storage_cell_1k"
+					item: {
+						Count: 1
+						id: "appmek:portable_chemical_storage_cell_1k"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -1547,16 +1774,20 @@
 				"&7[A specialized machine that works with Spatial Storage Cells to capture or deploy entire spatial regions. It must be connected to an ME network and placed within a frame of Spatial Pylons marking the area to be stored.]&f"
 			]
 			id: "4F51E1672ECE7D3B"
-			rewards: [{
-				id: "3073471435BAB01F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FA4347FAC295997"
-				item: "ae2:spatial_io_port"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3073471435BAB01F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5FA4347FAC295997"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 14.5d
 		}
@@ -1569,16 +1800,20 @@
 				"&7[A structural block used to define the boundaries of a spatial storage area. When arranged in a cube formation around a region, they allow Spatial I/O Ports to capture or deploy that space using Spatial Storage Cells. Acts as both a marker and stabilizer for dimensional storage operations.]&f"
 			]
 			id: "3DE753D68B8335C8"
-			rewards: [{
-				id: "789B484E53642590"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "09ACB62B41675026"
-				item: "ae2:spatial_pylon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "789B484E53642590"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09ACB62B41675026"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 14.5d
 		}
@@ -1599,16 +1834,20 @@
 				"&7[Note: Requires constant power and careful placement to avoid server performance impacts. Works across dimensions when properly configured with Quantum Network Bridges.]&f"
 			]
 			id: "62458187F95EE35A"
-			rewards: [{
-				id: "01E7049A6EAB7554"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D05105547C9F2D5"
-				item: "ae2:spatial_anchor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "01E7049A6EAB7554"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D05105547C9F2D5"
+					item: "ae2:spatial_anchor"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 15.5d
 		}
@@ -1625,36 +1864,40 @@
 				"&7[(Note: Some blocks like spawners or bedrock cannot be stored. Handle with care to avoid world corruption.)]&f"
 			]
 			id: "2FF641C1FD519E5D"
-			rewards: [{
-				id: "28F82CE1B5AA5154"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "23F5200EAAE4CA73"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ae2:spatial_storage_cell_2"
-							}
-							{
-								Count: 1b
-								id: "ae2:spatial_storage_cell_16"
-							}
-							{
-								Count: 1b
-								id: "ae2:spatial_storage_cell_128"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "28F82CE1B5AA5154"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "空间&a存储单元&f"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "23F5200EAAE4CA73"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:spatial_storage_cell_2"
+								}
+								{
+									Count: 1b
+									id: "ae2:spatial_storage_cell_16"
+								}
+								{
+									Count: 1b
+									id: "ae2:spatial_storage_cell_128"
+								}
+							]
+						}
+					}
+					title: "空间&a存储单元&f"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 13.5d
 		}
@@ -1690,11 +1933,13 @@
 				"&7[\"Automation's best friend\"]&f"
 			]
 			id: "07179D5D4D9AC02E"
-			rewards: [{
-				id: "6F60D849CEB47072"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F60D849CEB47072"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -1753,16 +1998,20 @@
 				"&7[\"Like sunlight steroids for plants\"]&f"
 			]
 			id: "076C2AC9BA063D14"
-			rewards: [{
-				id: "25A2A4F2742709AA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "281A87C339CCDC89"
-				item: "ae2:growth_accelerator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "25A2A4F2742709AA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "281A87C339CCDC89"
+					item: "ae2:growth_accelerator"
+					type: "item"
+				}
+			]
 			title: "&a&a生长加速器&f&r&7[Growth Accelerator]&f"
 			x: 9.017857142857146d
 			y: 0.7619047619047628d
@@ -1796,11 +2045,13 @@
 				"&7[\"The ME Network's recipe memory\"]&f"
 			]
 			id: "6C3B025A4B223E82"
-			rewards: [{
-				id: "197347A6B48A2576"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "197347A6B48A2576"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "488F0FABA0FF0A72"
@@ -1862,16 +2113,20 @@
 				"&7[Redstone meets quantum computing]&f"
 			]
 			id: "3FDA0D970B6C6227"
-			rewards: [{
-				id: "744DD5886C798419"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "209E7842FB11C045"
-				item: "ae2:level_emitter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "744DD5886C798419"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "209E7842FB11C045"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
 			title: "&5&aME标准发信器&f&r&7[ME Level Emitter]&f"
 			x: 12.113095238095234d
 			y: 0.7142857142857153d
@@ -1925,11 +2180,13 @@
 				"&7[\"Logic meets logistics\"]&f"
 			]
 			id: "2C0A45666CCB62BE"
-			rewards: [{
-				id: "41A30CC275E1F39A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "41A30CC275E1F39A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "50FD7EE85E324607"
@@ -1983,16 +2240,20 @@
 				"&7[\"From storage to factory with one card\"]&f"
 			]
 			id: "6B8E3833F41BD726"
-			rewards: [{
-				id: "2677CDEA1D8F8AF9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4170449F3A1EE55A"
-				item: "ae2:crafting_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2677CDEA1D8F8AF9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4170449F3A1EE55A"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+			]
 			title: "&5合成卡&r&7[Crafting Card]&f"
 			x: 14.970238095238088d
 			y: 0.7142857142857153d
@@ -2030,60 +2291,64 @@
 				"&7[\"Where unfinished crafts wait patiently\"]&f"
 			]
 			id: "29099185E69DAFCD"
-			rewards: [{
-				id: "5137CAC25AFF4E65"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F22F039CD75C066"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ae2:1k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:4k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:16k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:64k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2:256k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:1024k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:4096k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:16384k_crafting_storage"
-							}
-							{
-								Count: 1b
-								id: "ae2additions:65536k_crafting_storage"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "5137CAC25AFF4E65"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
 				}
-				title: "合成存储器"
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "0F22F039CD75C066"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:1024k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:4096k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:16384k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2additions:65536k_crafting_storage"
+								}
+							]
+						}
+					}
+					title: "合成存储器"
+					type: "item"
+				}
+			]
 			title: "&5合成存储器&r&7[Crafting Storage]&f"
 			x: 12.0d
 			y: 2.0d
@@ -2121,16 +2386,20 @@
 				"&7[\"Parallel crafting at quantum speeds\"]&f"
 			]
 			id: "53E4BBE093B08389"
-			rewards: [{
-				id: "6C7D5A667D62176B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D9221D18BBE642A"
-				item: "ae2:crafting_accelerator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C7D5A667D62176B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D9221D18BBE642A"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
 			title: "&5&a并行处理单元&f&r&7[Crafting Co-Processing Unit]&f"
 			x: 13.5d
 			y: 2.0d
@@ -2164,16 +2433,20 @@
 				"&7[(The \"mission control center\" for your automated factory!)]&f"
 			]
 			id: "0A34FD02D54EA6A2"
-			rewards: [{
-				id: "14659FDCF79898AF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4651D22FA898486F"
-				item: "ae2:crafting_monitor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "14659FDCF79898AF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4651D22FA898486F"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
 			title: "&5合成监控器&r&7[Crafting Monitor]&f"
 			x: 15.0d
 			y: 2.0d
@@ -2207,16 +2480,20 @@
 				"&7[Your ME Network's robotic crafting arm]&f"
 			]
 			id: "1C29C4D117761F30"
-			rewards: [{
-				id: "50543D82ADB5A562"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3EFA8453757B1ADA"
-				item: "ae2:molecular_assembler"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "50543D82ADB5A562"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3EFA8453757B1ADA"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
 			title: "&5&a分子装配室&f&r&7[Molecular Assembler]&f"
 			x: 13.5d
 			y: -0.5d
@@ -2262,16 +2539,20 @@
 				"&7[\"More speed, more power, more efficiency\"]&f"
 			]
 			id: "292C729230F5259E"
-			rewards: [{
-				id: "06A00A6EC0C0C2C2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "03357BBC88416887"
-				item: "ae2:speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06A00A6EC0C0C2C2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03357BBC88416887"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
 			title: "&5&a加速卡&f&r&7[Acceleration Card]&f"
 			x: 15.0d
 			y: -0.5d
@@ -2292,25 +2573,29 @@
 				"&7[As an output device, the Interface can be configured to keep a certain amount of a stored item in stock, transferring it from the ME network to its own internal inventory. This allows items to be received by an external source like another player or a pipe.]&f"
 			]
 			id: "5C083F2DA57E133F"
-			rewards: [{
-				id: "4F1C5C7F17D8859D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F1C5C7F17D8859D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "1A9B673EAD96B33B"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:interface"
+			tasks: [
+				{
+					id: "1A9B673EAD96B33B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:interface"
+						}
 					}
+					title: "ME接口"
+					type: "item"
 				}
-				title: "ME接口"
-				type: "item"
-			}]
+			]
 			x: 10.5d
 			y: 15.25d
 		}
@@ -2331,16 +2616,20 @@
 				"&7[Thus, a subnetwork on the other side of the Quartz Fiber can be powered by the main network's power source without requiring additional power generation.]&f"
 			]
 			id: "505F8B8819FE572C"
-			rewards: [{
-				id: "6C234FDF37352E3A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "40023B22EA61ECE0"
-				item: "ae2:quartz_fiber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C234FDF37352E3A"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40023B22EA61ECE0"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 15.0d
 		}
@@ -2361,16 +2650,20 @@
 				"&7[P2P tunnels must be linked using a Memory Card, detailed in the next quest.]&f"
 			]
 			id: "75B3AB84C74ED23F"
-			rewards: [{
-				id: "6D21F4AF170ACFA3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "312D2D3D848BEE08"
-				item: "ae2:me_p2p_tunnel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6D21F4AF170ACFA3"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "312D2D3D848BEE08"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 14.0d
 		}
@@ -2387,16 +2680,24 @@
 				"&7[Secondly, the Memory Card links P2P tunnels together. The P2P tunnel being linked is assigned a unique ID, stored on the memory card for future linking.]&f"
 			]
 			id: "703FD6207A3C5475"
-			rewards: [{
-				id: "6681026E844ED525"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0969E0D77236CAF5"
-				item: "ae2:memory_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6681026E844ED525"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0969E0D77236CAF5"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 13.5d
 		}
@@ -2417,16 +2718,20 @@
 				"&7[Enchantments increase the energy use of the plane per block broken. Enchanting with Efficiency reduces overall energy use, while Unbreaking gives a chance to save energy, similar to regular tools.]&f"
 			]
 			id: "1CF0D347EBEB72CB"
-			rewards: [{
-				id: "137831F1B212B63B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5527497EFA57B9B8"
-				item: "ae2:annihilation_plane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "137831F1B212B63B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5527497EFA57B9B8"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 16.5d
 		}
@@ -2439,16 +2744,20 @@
 				"&7[The ME Import Bus periodically pulls items from an external storage it faces. It can be filtered to only accept certain items from the connected inventory.]&f"
 			]
 			id: "33DD68B85F163F50"
-			rewards: [{
-				id: "31B9B501163B387D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "49064689E181806E"
-				item: "ae2:import_bus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "31B9B501163B387D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49064689E181806E"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 16.5d
 		}
@@ -2465,16 +2774,20 @@
 				"&7[This is useful for scenarios where a block can be processed by placing and breaking it with a tool.]&f"
 			]
 			id: "697C47E6F19215F5"
-			rewards: [{
-				id: "5AE5F3C35A0D4201"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EBB2423DB95FCF9"
-				item: "ae2:formation_plane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5AE5F3C35A0D4201"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EBB2423DB95FCF9"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 14.5d
 		}
@@ -2487,16 +2800,20 @@
 				"&7[The ME Export Bus periodically sends items from its whitelist filter to an external storage it faces. Unlike the Import Bus, the Export Bus requires filtering to function.]&f"
 			]
 			id: "61C3E32E629F6E1E"
-			rewards: [{
-				id: "56B4B0036BA055A5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "40376221C9C2A788"
-				item: "ae2:export_bus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56B4B0036BA055A5"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40376221C9C2A788"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 14.5d
 		}
@@ -2513,16 +2830,20 @@
 				"&7[Storage buses can be filtered and prioritized, making specific items go to the attached storage first. However, they won't retroactively move filtered items from elsewhere in the network.]&f"
 			]
 			id: "15F7524D7B3E023C"
-			rewards: [{
-				id: "4A219C44E1BEF400"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5338E99AC931FF19"
-				item: "ae2:storage_bus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A219C44E1BEF400"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5338E99AC931FF19"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 15.5d
 		}
@@ -2535,16 +2856,20 @@
 				"&7[The Capacity Card upgrades a bus to carry a larger filter. With capacity cards, Import and Export buses can support up to nine slots from a single slot, and Storage buses can go from 18 slots to a maximum of 63 slots.]&f"
 			]
 			id: "330EE51410D88BFD"
-			rewards: [{
-				id: "3BF5C96F4439E49F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6465484E927CE124"
-				item: "ae2:capacity_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3BF5C96F4439E49F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6465484E927CE124"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 15.5d
 		}
@@ -2557,11 +2882,13 @@
 				"&7[The Fuzzy Card allows items to match filters regardless of metadata (like damage or enchantments). The Inverter Card toggles bus filters from a whitelist to a blacklist.]&f"
 			]
 			id: "3041273D3B7942CA"
-			rewards: [{
-				id: "711C7FFF300FE60C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "711C7FFF300FE60C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5AAEECF3C8222961"
@@ -2618,11 +2945,13 @@
 				"&7[\"The stamp that shapes AE2 technology\"]&f"
 			]
 			id: "19F6AA2773B46E1A"
-			rewards: [{
-				id: "751B2B74122D0160"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "751B2B74122D0160"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "514F88C54E08B709"
@@ -2658,11 +2987,13 @@
 				"&7[The AE Infinity Booster add-on provides bespoke wireless boosters that grant infinite connectivity range, with optional cross-dimensional support.]&f"
 			]
 			id: "26D97FEDA88228AC"
-			rewards: [{
-				id: "3C44C06546D6AA4C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3C44C06546D6AA4C"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4D892B6E5603D936"
@@ -2689,16 +3020,20 @@
 				"&7[more efficient results, due to the controlled environment.]&f"
 			]
 			id: "74068F67A2FC5670"
-			rewards: [{
-				id: "25791EF7F4535650"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0516C8B12E15F58D"
-				item: "advanced_ae:reaction_chamber"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "25791EF7F4535650"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0516C8B12E15F58D"
+					item: "advanced_ae:reaction_chamber"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 5.0d
 		}
@@ -2708,48 +3043,60 @@
 				"47F7DC87790D5064"
 			]
 			id: "5A2AE21D5DB5CCD6"
-			rewards: [{
-				id: "19EDF6D495C69141"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6F76F8A38FF8F68B"
-				item: "advanced_ae:shattered_singularity"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19EDF6D495C69141"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F76F8A38FF8F68B"
+					item: "advanced_ae:shattered_singularity"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["5A2AE21D5DB5CCD6"]
 			id: "2D9EAD557FD7611F"
-			rewards: [{
-				id: "4CCE3D25E7996D2D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4FBD0E57C7559AD6"
-				item: "advanced_ae:quantum_infused_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CCE3D25E7996D2D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FBD0E57C7559AD6"
+					item: "advanced_ae:quantum_infused_dust"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["2D9EAD557FD7611F"]
 			id: "37D2BC3357C4C258"
-			rewards: [{
-				id: "737B92A47C28BA32"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "392862359D57863B"
-				item: "advanced_ae:quantum_alloy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "737B92A47C28BA32"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "392862359D57863B"
+					item: "advanced_ae:quantum_alloy"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 5.0d
 		}
@@ -2759,80 +3106,100 @@
 				"19F6AA2773B46E1A"
 			]
 			id: "6C96E43F4539B32D"
-			rewards: [{
-				id: "010221EE1B7DFB91"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6DB993BAC3C62757"
-				item: "advanced_ae:quantum_processor_press"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "010221EE1B7DFB91"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DB993BAC3C62757"
+					item: "advanced_ae:quantum_processor_press"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6C96E43F4539B32D"]
 			id: "7D56B09C7550337A"
-			rewards: [{
-				id: "7E942E0FBE7AE418"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4166F122AED91534"
-				item: "advanced_ae:printed_quantum_processor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E942E0FBE7AE418"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4166F122AED91534"
+					item: "advanced_ae:printed_quantum_processor"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7D56B09C7550337A"]
 			id: "423C4C79C8DB1F6E"
-			rewards: [{
-				id: "65A04270D4EF8645"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1CE7D43BDF16FCA2"
-				item: "advanced_ae:quantum_processor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65A04270D4EF8645"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1CE7D43BDF16FCA2"
+					item: "advanced_ae:quantum_processor"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["423C4C79C8DB1F6E"]
 			id: "2C7079777A7E5E13"
-			rewards: [{
-				id: "07CD403ADD2B4C59"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7CA5AF227DFF5FE9"
-				item: "advanced_ae:quantum_storage_component"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "07CD403ADD2B4C59"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7CA5AF227DFF5FE9"
+					item: "advanced_ae:quantum_storage_component"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2C7079777A7E5E13"]
 			id: "16716309DF61F55D"
-			rewards: [{
-				id: "4B760319BAFA1888"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4AFCA92A8C425D49"
-				item: "advanced_ae:adv_processing_pattern"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4B760319BAFA1888"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AFCA92A8C425D49"
+					item: "advanced_ae:adv_processing_pattern"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 3.5d
 		}
@@ -2871,11 +3238,13 @@
 				"&7[upgrades that have them.]&f"
 			]
 			id: "2A8FA05582ACC3FE"
-			rewards: [{
-				id: "348A31DAEB11D7BB"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "348A31DAEB11D7BB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5DE765112B473FBF"
@@ -2953,11 +3322,13 @@
 				"&7[directionally and standard pattern provider behaviour will be applied.]&f"
 			]
 			id: "18DA07CE1ACC69EF"
-			rewards: [{
-				id: "608A98D1B959EBCE"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "608A98D1B959EBCE"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1877B21E12DF02A3"
@@ -2980,11 +3351,11 @@
 		}
 		{
 			description: [
-				"&4高级样板供应器&r是一种新型的&3样板供应器&r,可通过升级标准版或&c扩展样板供应器&r获得,具备配置图案中每个物品输出方向的功能.这项强大升级使得需要特定侧面输入特定物品的机器自动化仅需单个方块即可实现,无需管道!"
+				"&4ME高级样板供应器&r是一种新型的&3样板供应器&r,它能将标准版或&c扩展样板供应器&r升级,具备配置每个样板中物品输出方向的功能.这一强大功能使得需要特定面输入特定物品的机器自动化成为可能,仅需单个方块且无需管道!"
 				""
 				"*&a朝向&f你,&d通用机械&f.*"
 				""
-				"要使用此功能,您需要插入一个&2高级&a处理样板&f&r,该样板通过将编码图案放入&a高级&a样板编码台&f&r并取出高级版本获得."
+				"要使用此功能,您需要插入一个&2高级&a处理样板&f&r,该样板通过将编码后的样板放入&a高级&a样板编码台&f&r并取出高级版本获得."
 				""
 				""
 				"&7[ME Advanced Pattern Provider is a new type of Pattern Provider that upgrades]&f"
@@ -2999,11 +3370,13 @@
 				"&7[version.]&f"
 			]
 			id: "24DBBC97F8635A16"
-			rewards: [{
-				id: "16C46D21A4D09511"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "16C46D21A4D09511"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "61DBA06121C1BFF9"
@@ -3060,11 +3433,13 @@
 				"&7[Note: It may take some time before the readings stabilize when changing the modes, so don't trust initial values!]&f"
 			]
 			id: "58F07416B7E6A42F"
-			rewards: [{
-				id: "3A870C157FFBF8A8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3A870C157FFBF8A8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "24EDA64371313DBB"
@@ -3103,11 +3478,13 @@
 				"&7[filter can be set to configure the exported stacks. Anything that is not on the filter is a valid stack to be imported.]&f"
 			]
 			id: "55EDCD2CB3329A4D"
-			rewards: [{
-				id: "4A5D0A16355AC9B6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A5D0A16355AC9B6"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0F68E5C0D2DCEED6"
@@ -3136,16 +3513,20 @@
 				"&7[recursive crafts, which have an input as an output.]&f"
 			]
 			id: "75D242FBEA58818C"
-			rewards: [{
-				id: "0E10B458476813A4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E8B0A2128A90462"
-				item: "advanced_ae:quantum_crafter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0E10B458476813A4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E8B0A2128A90462"
+					item: "advanced_ae:quantum_crafter"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 2.0d
 		}
@@ -3163,113 +3544,141 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5D5C5B1F12462C2E"
-			rewards: [{
-				id: "3C4B20789225F4F8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3C4B20789225F4F8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 2.0d
-			tasks: [{
-				id: "10E1D3FEC9732E1F"
-				item: "advanced_ae:quantum_upgrade_base"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10E1D3FEC9732E1F"
+					item: "advanced_ae:quantum_upgrade_base"
+					type: "item"
+				}
+			]
 			x: 21.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "53587262A433C302"
-			rewards: [{
-				id: "10A95EC3EFE344BF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6EA3648C616CA787"
-				item: "advanced_ae:walk_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10A95EC3EFE344BF"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6EA3648C616CA787"
+					item: "advanced_ae:walk_speed_card"
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3BAE0CA249B3AF85"
-			rewards: [{
-				id: "19DD32A61EB10EFA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "008A0F210EC48AFF"
-				item: "advanced_ae:sprint_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19DD32A61EB10EFA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "008A0F210EC48AFF"
+					item: "advanced_ae:sprint_speed_card"
+					type: "item"
+				}
+			]
 			x: 26.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "7F6CF5E7660186F4"
-			rewards: [{
-				id: "717F4F5C143E486D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00A3006595D3CFF5"
-				item: "advanced_ae:jump_height_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "717F4F5C143E486D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00A3006595D3CFF5"
+					item: "advanced_ae:jump_height_card"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "38F05A767A95BA4F"
-			rewards: [{
-				id: "0DA80EDFE157D598"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7A773A4BFED5704E"
-				item: "advanced_ae:lava_immunity_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0DA80EDFE157D598"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A773A4BFED5704E"
+					item: "advanced_ae:lava_immunity_card"
+					type: "item"
+				}
+			]
 			x: 23.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "7A98FCB88B49E8B5"
-			rewards: [{
-				id: "48E494F688253E93"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "35D4908F1CE794E3"
-				item: "advanced_ae:flight_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "48E494F688253E93"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35D4908F1CE794E3"
+					item: "advanced_ae:flight_card"
+					type: "item"
+				}
+			]
 			x: 26.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "1A82B41793088F05"
-			rewards: [{
-				id: "34820E6B2F770115"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "774D8D193D2F2479"
-				item: "advanced_ae:water_breathing_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34820E6B2F770115"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "774D8D193D2F2479"
+					item: "advanced_ae:water_breathing_card"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 10.5d
 		}
@@ -3286,16 +3695,20 @@
 				"&7[Simply drag the desired items into the filter slots and if the equipment is linked to the AE2 grid, it will try to find them in the system to feed the player when hungry.]&f"
 			]
 			id: "6A1A8BF1DA2D269C"
-			rewards: [{
-				id: "4DD4DE7349EDAABD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "534B0E77BA562A4B"
-				item: "advanced_ae:auto_feeding_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4DD4DE7349EDAABD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "534B0E77BA562A4B"
+					item: "advanced_ae:auto_feeding_card"
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: 10.5d
 		}
@@ -3316,240 +3729,300 @@
 				"&7[The slots are not limited to a stack, so you can set them to have more than one slot filled in inventory at all times if you so desire.]&f"
 			]
 			id: "1AC6F14C218DD46A"
-			rewards: [{
-				id: "00CC540017D42642"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7287DB10338D488C"
-				item: "advanced_ae:auto_stock_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "00CC540017D42642"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7287DB10338D488C"
+					item: "advanced_ae:auto_stock_card"
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "753DE33B3A4B155C"
-			rewards: [{
-				id: "7A7593FCB17C3448"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "762DAD915146AFCE"
-				item: "advanced_ae:magnet_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7A7593FCB17C3448"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "762DAD915146AFCE"
+					item: "advanced_ae:magnet_card"
+					type: "item"
+				}
+			]
 			x: 25.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "213F8D9402B5046A"
-			rewards: [{
-				id: "62BF453C9848CF2E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "74D10FBAA77ADEDB"
-				item: "advanced_ae:hp_buffer_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62BF453C9848CF2E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74D10FBAA77ADEDB"
+					item: "advanced_ae:hp_buffer_card"
+					type: "item"
+				}
+			]
 			x: 23.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "7DA2208D8C20B5CE"
-			rewards: [{
-				id: "7597058DA3171CBB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "76BA1377B4B8AE26"
-				item: "advanced_ae:evasion_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7597058DA3171CBB"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76BA1377B4B8AE26"
+					item: "advanced_ae:evasion_card"
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3434D50487D65847"
-			rewards: [{
-				id: "67617584A9B3A294"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "19255607F9DE8219"
-				item: "advanced_ae:regeneration_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67617584A9B3A294"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19255607F9DE8219"
+					item: "advanced_ae:regeneration_card"
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "78926DDDB7EC0D01"
-			rewards: [{
-				id: "7C21E4780548DF57"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7908069C7A2D9088"
-				item: "advanced_ae:strength_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7C21E4780548DF57"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7908069C7A2D9088"
+					item: "advanced_ae:strength_card"
+					type: "item"
+				}
+			]
 			x: 22.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "690E54A59C0EA57D"
-			rewards: [{
-				id: "0D27F1F02BAE8007"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0692E35BA09BDF76"
-				item: "advanced_ae:attack_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0D27F1F02BAE8007"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0692E35BA09BDF76"
+					item: "advanced_ae:attack_speed_card"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "5230605BB77C9023"
-			rewards: [{
-				id: "35684ECCDC1E9390"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "32A4C12166D60F9C"
-				item: "advanced_ae:luck_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "35684ECCDC1E9390"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32A4C12166D60F9C"
+					item: "advanced_ae:luck_card"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "712384BB02405F0E"
-			rewards: [{
-				id: "7451348C032E0EFD"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0C8C5CCAAE7D77AA"
-				item: "advanced_ae:reach_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7451348C032E0EFD"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C8C5CCAAE7D77AA"
+					item: "advanced_ae:reach_card"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3785709704479CB6"
-			rewards: [{
-				id: "3B1EFB4870CD3BD0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "137C0A8331CE4E1E"
-				item: "advanced_ae:swim_speed_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3B1EFB4870CD3BD0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "137C0A8331CE4E1E"
+					item: "advanced_ae:swim_speed_card"
+					type: "item"
+				}
+			]
 			x: 25.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "4CA0753DC10E0AB0"
-			rewards: [{
-				id: "4CC8984F5C8540B8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EE528EEAC690A6D"
-				item: "advanced_ae:night_vision_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CC8984F5C8540B8"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EE528EEAC690A6D"
+					item: "advanced_ae:night_vision_card"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "0B294FAAA95A05C8"
-			rewards: [{
-				id: "78A540E1D698FA5B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1272054478FC50F8"
-				item: "advanced_ae:flight_drift_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "78A540E1D698FA5B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1272054478FC50F8"
+					item: "advanced_ae:flight_drift_card"
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3020BE06C1C3BA1B"
-			rewards: [{
-				id: "543344361D00CD4D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "10A74C0B98020E7F"
-				item: "advanced_ae:recharging_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "543344361D00CD4D"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10A74C0B98020E7F"
+					item: "advanced_ae:recharging_card"
+					type: "item"
+				}
+			]
 			x: 26.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "3C9C0DAFF14E1582"
-			rewards: [{
-				id: "1910CF8FB97C248F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3E254227F36E56D8"
-				item: "advanced_ae:portable_workbench_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1910CF8FB97C248F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E254227F36E56D8"
+					item: "advanced_ae:portable_workbench_card"
+					type: "item"
+				}
+			]
 			x: 27.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "2DB5F58E6290DA71"
-			rewards: [{
-				id: "0C1996DD1AB6B521"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A2AF5E84B1F0525"
-				item: "advanced_ae:pick_craft_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0C1996DD1AB6B521"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A2AF5E84B1F0525"
+					item: "advanced_ae:pick_craft_card"
+					type: "item"
+				}
+			]
 			x: 28.0d
 			y: 5.5d
 		}
@@ -3559,16 +4032,20 @@
 				"74068F67A2FC5670"
 			]
 			id: "75091FDCAFC632ED"
-			rewards: [{
-				id: "4BE70545D21F2681"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "504E7979978609A0"
-				item: "advanced_ae:quantum_alloy_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4BE70545D21F2681"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "504E7979978609A0"
+					item: "advanced_ae:quantum_alloy_plate"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 7.5d
 		}
@@ -3586,16 +4063,20 @@
 				"&7[co-processors, while it has crafting storage left, plus a ton of other quality of life additions!]&f"
 			]
 			id: "5007013C1A395087"
-			rewards: [{
-				id: "06C9DE9A732A1A39"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6578BD2FF71F4F14"
-				title: "高级AE"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "06C9DE9A732A1A39"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6578BD2FF71F4F14"
+					title: "高级AE"
+					type: "checkmark"
+				}
+			]
 			x: 3.5d
 			y: 5.0d
 		}
@@ -3621,16 +4102,20 @@
 				"&7[When used as a standalone computer, power must be provided through the Up or Down sides, where the connectors are.]&f"
 			]
 			id: "5680D3DCB53D9EAD"
-			rewards: [{
-				id: "276E2CABAFE1D818"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "01A477861F7F30E7"
-				item: "advanced_ae:quantum_core"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "276E2CABAFE1D818"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01A477861F7F30E7"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 11.0d
 		}
@@ -3645,16 +4130,20 @@
 				"&7[connect everything together.]&f"
 			]
 			id: "0ACCCC1B217D98D0"
-			rewards: [{
-				id: "153B31FE298E8ED1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "302C59CDACB228ED"
-				item: "advanced_ae:quantum_structure"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "153B31FE298E8ED1"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "302C59CDACB228ED"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 11.0d
 		}
@@ -3669,16 +4158,20 @@
 				"&7[multiplying their co-processing power by 4. Only one of these can be placed in each quantum computer multiblock.]&f"
 			]
 			id: "441202CC380854DF"
-			rewards: [{
-				id: "68FA5FE42D95D697"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18A1191D142A3479"
-				item: "advanced_ae:quantum_multi_threader"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "68FA5FE42D95D697"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18A1191D142A3479"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 11.0d
 		}
@@ -3694,16 +4187,20 @@
 				"&7[in a great amount of these.]&f"
 			]
 			id: "20C24A8F55709AC6"
-			rewards: [{
-				id: "294BB0AE4810B82F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6694F900E7B70324"
-				item: "advanced_ae:quantum_accelerator"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "294BB0AE4810B82F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6694F900E7B70324"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 11.0d
 		}
@@ -3719,16 +4216,20 @@
 				"&7[in each quantum computer multiblock.]&f"
 			]
 			id: "1359A69F4F6B6CF1"
-			rewards: [{
-				id: "06DC0B4790808750"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57C6A7EB9D7B912D"
-				item: "advanced_ae:data_entangler"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06DC0B4790808750"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "57C6A7EB9D7B912D"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 11.0d
 		}
@@ -3743,11 +4244,13 @@
 				"&7[the quantum computer is able to run. There are two variations, with 128M and 256M of capacity.]&f"
 			]
 			id: "2956AF6FF3F119B2"
-			rewards: [{
-				id: "0317FFB89D71B73F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0317FFB89D71B73F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3C25983C53E7B058"
@@ -3765,63 +4268,71 @@
 		}
 		{
 			description: [
-				"建造多方块量子计算机需遵循以下规则:"
+				"构建多方块量子计算机需遵循以下规则:"
 				""
 				"- 最大尺寸为&17x7x7&r(外部尺寸)；"
-				"- 多方块结构内部&c不能存在空位&r.可用量子单元填充,但无额外增益；"
+				"- 多方块结构&c内部不得存在空位&r.可填充量子单元(无额外增益)；"
 				"- 必须包含&2唯一一个&a量子核心&f&r；"
 				"- 至多&6一个数据纠缠器&r；"
 				"- 至多&a一个量子多线程处理器&r；"
-				"- &b外层所有方块&r必须为量子结构框架；"
+				"- &b外层所有方块必须为量子结构&r；"
 				"- 内部不得出现量子结构方块."
 				"{image:kubejs:block/screen/advanced_ae_multiblock width:100 height:100 align:center fit:true}"
 			]
 			hide_dependent_lines: true
 			id: "2D950D37BA27DF62"
-			rewards: [{
-				id: "73570674EAE48E37"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "73570674EAE48E37"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 4.0d
-			tasks: [{
-				id: "2E22CF68F94A1DAA"
-				title: "多方块结构信息"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2E22CF68F94A1DAA"
+					title: "多方块结构信息"
+					type: "checkmark"
+				}
+			]
 			title: "高级AE多方块结构"
 			x: 10.0d
 			y: 8.0d
 		}
 		{
 			description: [
-				"组装矩阵是多方块结构,融合了&a分子装配室&f与样板供应器的功能."
+				"组装矩阵是结合&a分子装配室&f与样板供应器的多方块结构"
 				""
-				"可同步处理大量合成任务(需ME网络中配置足够的合成加速器),并节省频道占用."
+				"可同时运行多个合成任务(ME网络中需有足够合成加速器),并节省频道占用"
 				""
-				"该结构为矩形棱柱体,边长范围3至7格."
-				"- 边缘需由&c组装器&a矩阵框架&f&r构成；"
-				"- 表面需由&9组装矩阵墙壁/玻璃&r构成；"
-				"- 内部需由&2组装矩阵样板/合成/加速核心&r构成."
+				"呈长方体结构,边长范围3至7格"
+				"- 边缘由&c组装&a矩阵框架&f&r构成"
+				"- 表面由&9组装矩阵墙/玻璃&r构成"
+				"- 内部由&2组装矩阵样板/合成/速度核心&r构成"
 				""
-				"有效的组装矩阵必须包含至少一个样板核心与合成核心."
-				"结构必须完全实心,禁止存在中空区域."
-				"当组装矩阵正确成型且通电时,&a矩阵框架&f上的纹路将变为蓝色."
+				"有效组装矩阵需包含至少一个样板核心与合成核心"
+				"必须完全填充,不可中空"
+				"当组装矩阵正确构建并供能后,组装&a矩阵框架&f上的线条将变为蓝色"
 				"{image:kubejs:block/screen/extended_ae_multiblock width:100 height:100 align:center fit:true}"
 			]
 			hide_dependent_lines: true
 			id: "0ECD78BDD6FABA7C"
-			rewards: [{
-				id: "028AEE77AE03B540"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "028AEE77AE03B540"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			size: 4.0d
-			tasks: [{
-				id: "0959117F11D04843"
-				title: "多方块结构信息"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "0959117F11D04843"
+					title: "多方块结构信息"
+					type: "checkmark"
+				}
+			]
 			title: "高级AE多方块结构"
 			x: 16.0d
 			y: 8.0d
@@ -3829,27 +4340,33 @@
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "4D7EF99A34233979"
-			rewards: [{
-				id: "45D752BFBE130D9E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0A66460508B61A3C"
-				item: "expatternprovider:assembler_matrix_frame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "45D752BFBE130D9E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A66460508B61A3C"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "0825C288B0AF3E44"
-			rewards: [{
-				id: "1C86E8F9447CE923"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1C86E8F9447CE923"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "755ACEBBAA2BE9EE"
@@ -3868,32 +4385,40 @@
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "5E3441120E4C5A2D"
-			rewards: [{
-				id: "123CD67FEDAE706F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "21E91958D99A03A6"
-				item: "expatternprovider:assembler_matrix_pattern"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "123CD67FEDAE706F"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21E91958D99A03A6"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+			]
 			x: 16.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0ECD78BDD6FABA7C"]
 			id: "29806054C47D0478"
-			rewards: [{
-				id: "51732DB74BD1A71B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0C3A0A2E6A5DDFC1"
-				item: "expatternprovider:assembler_matrix_crafter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51732DB74BD1A71B"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C3A0A2E6A5DDFC1"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+			]
 			x: 17.0d
 			y: 11.0d
 		}
@@ -3906,16 +4431,20 @@
 				"&7[5 max]&f"
 			]
 			id: "6E14D2CF2A950157"
-			rewards: [{
-				id: "216EE897DCE5CFB7"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7B3C1F7E30FC05F6"
-				item: "expatternprovider:assembler_matrix_speed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "216EE897DCE5CFB7"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B3C1F7E30FC05F6"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
 			x: 18.0d
 			y: 11.0d
 		}
@@ -3926,18 +4455,22 @@
 			id: "1168E67611CD8473"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode infinite"
-				id: "0B4E960D24EBFA33"
-				title: "停用频道功能"
-				type: "command"
-			}]
-			tasks: [{
-				id: "7E2F0B372A6BD7F8"
-				title: "禁用频道功能"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode infinite"
+					id: "0B4E960D24EBFA33"
+					title: "停用频道功能"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7E2F0B372A6BD7F8"
+					title: "禁用频道功能"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -3948,18 +4481,22 @@
 			id: "72DB9CE799477E9C"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode default"
-				id: "20A2A48F60989F13"
-				title: "启用默认频道配置"
-				type: "command"
-			}]
-			tasks: [{
-				id: "7B7ED4D6FCF8A468"
-				title: "启用默认频道配置"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode default"
+					id: "20A2A48F60989F13"
+					title: "启用默认频道配置"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7B7ED4D6FCF8A468"
+					title: "启用默认频道配置"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: -2.0d
 		}
@@ -3970,18 +4507,22 @@
 			id: "413398C47C6392B1"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode x2"
-				id: "667E07B23CB2808B"
-				title: "启用2倍频道模式"
-				type: "command"
-			}]
-			tasks: [{
-				id: "4ABD302B3ABB2BFB"
-				title: "启用2倍频道模式"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode x2"
+					id: "667E07B23CB2808B"
+					title: "启用2倍频道模式"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "4ABD302B3ABB2BFB"
+					title: "启用2倍频道模式"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
@@ -3992,18 +4533,22 @@
 			id: "52CE6093E37F27FB"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode x3"
-				id: "0D732879B2A56646"
-				title: "启用3倍频道模式"
-				type: "command"
-			}]
-			tasks: [{
-				id: "070D4434E5C1767C"
-				title: "启用3倍频道模式"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode x3"
+					id: "0D732879B2A56646"
+					title: "启用3倍频道模式"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "070D4434E5C1767C"
+					title: "启用3倍频道模式"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
@@ -4014,34 +4559,42 @@
 			id: "2A1E9CC6A78B279C"
 			ignore_reward_blocking: true
 			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/ae2 channelmode x4"
-				id: "1F9469166DF2BD73"
-				title: "启用4倍频道模式"
-				type: "command"
-			}]
-			tasks: [{
-				id: "56180E379CE4AA0A"
-				title: "启用4倍频道模式"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ae2 channelmode x4"
+					id: "1F9469166DF2BD73"
+					title: "启用4倍频道模式"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "56180E379CE4AA0A"
+					title: "启用4倍频道模式"
+					type: "checkmark"
+				}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5D5C5B1F12462C2E"]
 			id: "2A1456E22F122CA3"
-			rewards: [{
-				id: "058E243009B2D715"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EB688AEB8A1C819"
-				item: "advanced_ae:step_assist_card"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "058E243009B2D715"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EB688AEB8A1C819"
+					item: "advanced_ae:step_assist_card"
+					type: "item"
+				}
+			]
 			x: 25.5d
 			y: 8.5d
 		}

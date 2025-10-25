@@ -2,6 +2,7 @@
     "gateways.basalz_gate": "土元素传送门",
     "gateways.blitz_gate": "风元素传送门",
     "gateways.blizz_gate": "水元素传送门",
+    "gateways.born_in_chaos_gate": "生于混沌之门",
     "gateways.cavespider_gate": "洞穴蜘蛛传送门普通",
     "gateways.chicken_gate": "鸡之乐园",
     "gateways.cow_gate": "牛传送门普通",
@@ -29,6 +30,5 @@
     "gateways.turtle_gate": "海龟传送门普通",
     "gateways.warden_gate": "监视者传送门普通",
     "gateways.wither_gate": "凋灵之门",
-    "gateways.witherskeleton_gate": "凋零骷髅传送门普通",
-    "gateways.born_in_chaos_gate": "生于混沌之门"
+    "gateways.witherskeleton_gate": "凋零骷髅传送门普通"
 }

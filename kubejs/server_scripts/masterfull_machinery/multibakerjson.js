@@ -162,7 +162,7 @@ BlockEvents.rightClicked(event => {
         if (pos1 && pos2 && startGenerating) {
             pos3 = pos1 - pos2;
             console.log("Generate the Layer and the Key");
-            player.tell(Text.of("生成层级与密钥").color(0x00FF00));
+            player.tell(Text.of("生成层和密钥").color(0x00FF00));
             generateLayer(event.getLevel(), pos1, pos2, pos3, player);
             startGenerating = false;
         }

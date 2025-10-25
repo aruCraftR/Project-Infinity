@@ -40,7 +40,7 @@
                 {
                     "type": "gateways:command",
                     "command": "/time set midnight",
-                    "desc": "将时间设为午夜"
+                    "desc": "将时间设置为午夜"
                 }
             ],
             "max_wave_time": 8000,
@@ -62,7 +62,7 @@
                 {
                     "type": "gateways:command",
                     "command": "/time set noon",
-                    "desc": "将时间设为正午"
+                    "desc": "将时间设置为正午"
                 }
             ],
             "max_wave_time": 8000,
